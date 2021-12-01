@@ -22,8 +22,13 @@
       <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
         <child id="5878168047017276966" name="type" index="2P5Oin" />
       </concept>
+      <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
+      <concept id="4321216645070110073" name="ViewModelLanguage.structure.ButtonComponent" flags="ng" index="3H4brt">
+        <property id="4321216645070110076" name="text" index="3H4bro" />
+      </concept>
+      <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb" />
       <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym" />
       <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_" />
@@ -73,6 +78,17 @@
       <node concept="2P4x69" id="3JS2UjmTVNH" role="2P43km">
         <property role="TrG5h" value="ButtonSensitive" />
         <node concept="2P4D6g" id="3JS2UjmTVNF" role="2P5Oin" />
+      </node>
+      <node concept="3H9sB4" id="3JS2UjmUtkU" role="2P43km" />
+      <node concept="3H4brt" id="3JS2UjmU$uH" role="2P43km">
+        <property role="3H4bro" value="OK" />
+      </node>
+      <node concept="3H4brt" id="3JS2UjmUCig" role="2P43km">
+        <property role="3H4bro" value="Cancel" />
+      </node>
+      <node concept="3H9sB4" id="3JS2UjmUCiq" role="2P43km" />
+      <node concept="3H4CWb" id="3JS2UjmUIiU" role="2P43km">
+        <property role="TrG5h" value="IsEnabled" />
       </node>
     </node>
   </node>

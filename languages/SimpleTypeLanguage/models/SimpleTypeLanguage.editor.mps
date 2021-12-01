@@ -50,6 +50,9 @@
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
+      <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
+        <property id="1238091709220" name="labelName" index="1413C4" />
+      </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1140017977771" name="readOnly" index="1Intyy" />
@@ -141,6 +144,9 @@
         <node concept="ljvvj" id="56jsF7$wugv" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="3mYdg7" id="3JS2UjmXPDB" role="3F10Kt">
+          <property role="1413C4" value="bracket" />
+        </node>
       </node>
       <node concept="3F2HdR" id="56jsF7$wugw" role="3EZMnx">
         <ref role="1NtTu8" to="rtft:56jsF7$wOuB" resolve="contents" />
@@ -170,6 +176,9 @@
       </node>
       <node concept="3F0ifn" id="56jsF7$wug_" role="3EZMnx">
         <property role="3F0ifm" value="}" />
+        <node concept="3mYdg7" id="3JS2UjmXPDF" role="3F10Kt">
+          <property role="1413C4" value="bracket" />
+        </node>
       </node>
       <node concept="l2Vlx" id="56jsF7$wugA" role="2iSdaV" />
     </node>
@@ -220,6 +229,9 @@
         <node concept="ljvvj" id="3JS2UjmRLpi" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="3mYdg7" id="3JS2UjmXPIC" role="3F10Kt">
+          <property role="1413C4" value="bracket" />
+        </node>
       </node>
       <node concept="3F2HdR" id="3JS2UjmRLpj" role="3EZMnx">
         <ref role="1NtTu8" to="rtft:56jsF7$wOuB" resolve="contents" />
@@ -249,6 +261,9 @@
       </node>
       <node concept="3F0ifn" id="3JS2UjmRLpu" role="3EZMnx">
         <property role="3F0ifm" value="}" />
+        <node concept="3mYdg7" id="3JS2UjmXPIF" role="3F10Kt">
+          <property role="1413C4" value="bracket" />
+        </node>
       </node>
       <node concept="l2Vlx" id="3JS2UjmRLpv" role="2iSdaV" />
     </node>
