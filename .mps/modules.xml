@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/SimpleTypeLanguage/SimpleTypeLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ViewModelLanguage/ViewModelLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ViewModelLanguage/sandbox/ViewModelLanguage.sandbox.msd" folder="" />
     </projectModules>
