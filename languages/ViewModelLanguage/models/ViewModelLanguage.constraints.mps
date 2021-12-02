@@ -55,7 +55,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="3JS2UjmU$Rb">
-    <property role="3GE5qa" value="viewtypes" />
+    <property role="3GE5qa" value="viewcomponents" />
     <ref role="1M2myG" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
     <node concept="9S07l" id="3JS2UjmU$Rc" role="9Vyp8">
       <node concept="3clFbS" id="3JS2UjmU$Rd" role="2VODD2">

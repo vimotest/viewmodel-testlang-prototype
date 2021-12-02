@@ -121,13 +121,8 @@
     <property role="EcuMT" value="4321216645070110073" />
     <property role="TrG5h" value="ButtonComponent" />
     <property role="34LRSv" value="button" />
-    <property role="3GE5qa" value="viewtypes" />
+    <property role="3GE5qa" value="viewcomponents" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
-    <node concept="1TJgyi" id="3JS2UjmUbPW" role="1TKVEl">
-      <property role="IQ2nx" value="4321216645070110076" />
-      <property role="TrG5h" value="text" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="3JS2UjmUbQ1" role="1TKVEl">
       <property role="IQ2nx" value="4321216645070110081" />
       <property role="TrG5h" value="sensitiveState" />
@@ -136,23 +131,23 @@
   </node>
   <node concept="1TIwiD" id="3JS2UjmU$R8">
     <property role="EcuMT" value="4321216645070212552" />
-    <property role="3GE5qa" value="viewtypes" />
+    <property role="3GE5qa" value="viewcomponents" />
     <property role="TrG5h" value="ViewComponent" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="3JS2UjmU_f7" role="PzmwI">
       <ref role="PrY4T" to="rtft:56jsF7$wmcJ" resolve="IStructContent" />
     </node>
+    <node concept="PrWs8" id="2Yd1qrJPCp5" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3JS2UjmUCiJ">
     <property role="EcuMT" value="4321216645070226607" />
-    <property role="3GE5qa" value="viewtypes" />
+    <property role="3GE5qa" value="viewcomponents" />
     <property role="TrG5h" value="CheckBoxComponent" />
     <property role="34LRSv" value="checkbox" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
-    <node concept="PrWs8" id="3JS2UjmUCAG" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
 </model>
 
