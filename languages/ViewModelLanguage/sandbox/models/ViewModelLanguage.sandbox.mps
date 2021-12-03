@@ -50,7 +50,18 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
-      <concept id="3426401106045532804" name="ViewModelTestLanguage.structure.EmptyContext" flags="ng" index="30l7Wy" />
+      <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
+        <child id="3426401106045796780" name="objects" index="30k8ga" />
+      </concept>
+      <concept id="3426401106045796685" name="ViewModelTestLanguage.structure.Object" flags="ng" index="30k8jF">
+        <child id="3426401106045796730" name="properties" index="30k8js" />
+      </concept>
+      <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.ObjectProperty" flags="ng" index="30k8jQ">
+        <property id="3426401106045796691" name="value" index="30k8jP" />
+      </concept>
+      <concept id="3426401106045849608" name="ViewModelTestLanguage.structure.ContextReference" flags="ng" index="30kPmI">
+        <reference id="3426401106045849611" name="contextRef" index="30kPmH" />
+      </concept>
       <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
         <child id="3426401106045120780" name="context" index="30nziE" />
         <child id="3426401106045120778" name="description" index="30nziG" />
@@ -68,9 +79,6 @@
         <child id="3426401106045120503" name="when" index="30nyDh" />
         <child id="3426401106045120501" name="given" index="30nyDj" />
         <child id="3426401106045120506" name="then" index="30nyDs" />
-      </concept>
-      <concept id="3426401106045121538" name="ViewModelTestLanguage.structure.TextCheckValue" flags="ng" index="30nz6$">
-        <property id="3426401106045121539" name="text" index="30nz6_" />
       </concept>
       <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.InputCall" flags="ng" index="30nziD">
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
@@ -140,19 +148,21 @@
     <node concept="30n1Qa" id="2Yd1qrJPAvf" role="30n1Qb">
       <node concept="30nyDl" id="2Yd1qrJPAvg" role="30nziG">
         <node concept="30nyDi" id="2Yd1qrJPAvh" role="30nyDj">
-          <property role="30lZVK" value="No context" />
+          <property role="30lZVK" value="Two objects" />
+        </node>
+        <node concept="30nyDi" id="2Yd1qrJZikS" role="30nyDh">
+          <property role="30lZVK" value="load view" />
         </node>
         <node concept="30nyDi" id="2Yd1qrJPAvi" role="30nyDh">
           <property role="30lZVK" value="click button" />
         </node>
         <node concept="30nyDi" id="2Yd1qrJPAvj" role="30nyDs">
-          <property role="30lZVK" value="Hello is sensitive" />
-        </node>
-        <node concept="30nyDi" id="2Yd1qrJQR6T" role="30nyDs">
-          <property role="30lZVK" value="OK is insensitive" />
+          <property role="30lZVK" value="Cencel is sensitive" />
         </node>
       </node>
-      <node concept="30l7Wy" id="2Yd1qrJQD8e" role="30nziE" />
+      <node concept="30nziD" id="2Yd1qrJZil5" role="30nzo2">
+        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+      </node>
       <node concept="30nziD" id="2Yd1qrJPAvl" role="30nzo2">
         <ref role="30nziQ" node="3JS2UjmTg0y" resolve="ButtonClicked" />
         <node concept="3cmrfG" id="2Yd1qrJPAvx" role="30nziO">
@@ -163,20 +173,58 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Yd1qrJQ3Gl" role="30nzpy">
-        <ref role="30nzpS" node="2Yd1qrJQ3Fz" resolve="OK" />
+        <ref role="30nzpS" node="2Yd1qrJQ3FR" resolve="Cancel" />
         <node concept="30nzp7" id="2Yd1qrJQ3Gp" role="30nDbQ">
           <node concept="30nzps" id="2Yd1qrJQ3Gu" role="30nzpp">
             <property role="30nzpr" value="true" />
           </node>
-          <node concept="30nz6$" id="2Yd1qrJQ3G$" role="30nzpp">
-            <property role="30nz6_" value="Hallo" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="2Yd1qrJRMC4" role="30nziE">
+        <node concept="30k8jF" id="2Yd1qrJRMC7" role="30k8ga">
+          <property role="TrG5h" value="ObjA" />
+          <node concept="30k8jQ" id="2Yd1qrJRMC9" role="30k8js">
+            <property role="TrG5h" value="name" />
+            <property role="30k8jP" value="MyA" />
+          </node>
+        </node>
+        <node concept="30k8jF" id="2Yd1qrJRMCb" role="30k8ga">
+          <property role="TrG5h" value="ObjB" />
+          <node concept="30k8jQ" id="2Yd1qrJRMCf" role="30k8js">
+            <property role="TrG5h" value="name" />
+            <property role="30k8jP" value="MyB" />
           </node>
         </node>
       </node>
-      <node concept="30nzp_" id="2Yd1qrJQD8h" role="30nzpy">
+    </node>
+    <node concept="30n1Qa" id="2Yd1qrJRMCh" role="30n1Qb">
+      <node concept="30nyDl" id="2Yd1qrJRMCi" role="30nziG">
+        <node concept="30nyDi" id="2Yd1qrJV2In" role="30nyDj">
+          <property role="30lZVK" value="Two objects" />
+        </node>
+        <node concept="30nyDi" id="2Yd1qrJZikP" role="30nyDh">
+          <property role="30lZVK" value="load view" />
+        </node>
+        <node concept="30nyDi" id="2Yd1qrJRMCk" role="30nyDh">
+          <property role="30lZVK" value="click button" />
+        </node>
+        <node concept="30nyDi" id="2Yd1qrJRMCl" role="30nyDs">
+          <property role="30lZVK" value="OK is insensitive" />
+        </node>
+      </node>
+      <node concept="30kPmI" id="2Yd1qrJS0b4" role="30nziE">
+        <ref role="30kPmH" node="2Yd1qrJRMC4" />
+      </node>
+      <node concept="30nziD" id="2Yd1qrJZila" role="30nzo2">
+        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="2Yd1qrJRMCn" role="30nzo2">
+        <ref role="30nziQ" node="3JS2UjmTg0y" resolve="ButtonClicked" />
+      </node>
+      <node concept="30nzp_" id="2Yd1qrJRMCo" role="30nzpy">
         <ref role="30nzpS" node="2Yd1qrJQ3Fz" resolve="OK" />
-        <node concept="30nzp7" id="2Yd1qrJQD8p" role="30nDbQ">
-          <node concept="30nzps" id="2Yd1qrJQD8u" role="30nzpp" />
+        <node concept="30nzp7" id="2Yd1qrJZikH" role="30nDbQ">
+          <node concept="30nzps" id="2Yd1qrJZikM" role="30nzpp" />
         </node>
       </node>
     </node>
