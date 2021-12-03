@@ -157,7 +157,7 @@
           <property role="30lZVK" value="click button" />
         </node>
         <node concept="30nyDi" id="2Yd1qrJPAvj" role="30nyDs">
-          <property role="30lZVK" value="Cencel is sensitive" />
+          <property role="30lZVK" value="Cancel is sensitive" />
         </node>
       </node>
       <node concept="30nziD" id="2Yd1qrJZil5" role="30nzo2">
