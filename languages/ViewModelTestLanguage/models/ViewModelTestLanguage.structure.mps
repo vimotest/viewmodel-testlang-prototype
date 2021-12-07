@@ -54,7 +54,7 @@
     <property role="TrG5h" value="ViewTestSuite" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="suite" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2Yd1qrJOhwH" role="1TKVEi">
       <property role="IQ2ns" value="3426401106044983341" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -77,7 +77,7 @@
     <property role="TrG5h" value="ViewTestCase" />
     <property role="34LRSv" value="test" />
     <property role="3GE5qa" value="test" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2Yd1qrJON4a" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045120778" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -116,7 +116,7 @@
     <property role="EcuMT" value="3426401106045120499" />
     <property role="TrG5h" value="TestCaseDescription" />
     <property role="3GE5qa" value="description" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2Yd1qrJOMZP" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045120501" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -148,7 +148,7 @@
     <property role="EcuMT" value="3426401106045120500" />
     <property role="TrG5h" value="DescriptionPart" />
     <property role="3GE5qa" value="description" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2Yd1qrJQJHm" role="1TKVEl">
       <property role="IQ2nx" value="3426401106045631318" />
       <property role="TrG5h" value="text" />
@@ -159,7 +159,7 @@
     <property role="EcuMT" value="3426401106045120783" />
     <property role="3GE5qa" value="test" />
     <property role="TrG5h" value="InputCall" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2Yd1qrJON4i" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045120786" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -178,7 +178,7 @@
     <property role="3GE5qa" value="test" />
     <property role="TrG5h" value="ViewAssertion" />
     <property role="34LRSv" value="assert" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2Yd1qrJOTtg" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045146960" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -197,7 +197,7 @@
     <property role="TrG5h" value="ViewComponentCheck" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="assert" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="2Yd1qrJONfx">
     <property role="EcuMT" value="3426401106045121505" />
@@ -237,7 +237,7 @@
     <property role="3GE5qa" value="assert.checkvalues" />
     <property role="TrG5h" value="SensitivityCheckValue" />
     <property role="34LRSv" value="sensitivity" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2Yd1qrJONfX" role="1TKVEl">
       <property role="IQ2nx" value="3426401106045121533" />
       <property role="TrG5h" value="sensitivity" />
@@ -264,18 +264,18 @@
   </node>
   <node concept="1TIwiD" id="2Yd1qrJQnE4">
     <property role="EcuMT" value="3426401106045532804" />
-    <property role="3GE5qa" value="context" />
+    <property role="3GE5qa" value="context.empty" />
     <property role="TrG5h" value="EmptyContext" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2Yd1qrJQnE5" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="IContext" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJRo5c">
     <property role="EcuMT" value="3426401106045796684" />
-    <property role="3GE5qa" value="context" />
+    <property role="3GE5qa" value="context.object" />
     <property role="TrG5h" value="ObjectTreeContext" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2Yd1qrJRo6G" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045796780" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -289,12 +289,15 @@
   </node>
   <node concept="1TIwiD" id="2Yd1qrJRo5d">
     <property role="EcuMT" value="3426401106045796685" />
-    <property role="3GE5qa" value="context" />
+    <property role="3GE5qa" value="context.object" />
     <property role="TrG5h" value="Object" />
     <property role="34LRSv" value="object" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2Yd1qrJRo5e" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="53FN52wrgzl" role="PzmwI">
+      <ref role="PrY4T" node="53FN52wrgzo" resolve="IContextSubElement" />
     </node>
     <node concept="1TJgyj" id="2Yd1qrJRo5U" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045796730" />
@@ -306,9 +309,9 @@
   </node>
   <node concept="1TIwiD" id="2Yd1qrJRo5g">
     <property role="EcuMT" value="3426401106045796688" />
-    <property role="3GE5qa" value="context" />
+    <property role="3GE5qa" value="context.object" />
     <property role="TrG5h" value="ObjectProperty" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2Yd1qrJRo5j" role="1TKVEl">
       <property role="IQ2nx" value="3426401106045796691" />
       <property role="TrG5h" value="value" />
@@ -317,13 +320,16 @@
     <node concept="PrWs8" id="2Yd1qrJRo5h" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="53FN52wrgzp" role="PzmwI">
+      <ref role="PrY4T" node="53FN52wrgzo" resolve="IContextSubElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJR_08">
     <property role="EcuMT" value="3426401106045849608" />
-    <property role="3GE5qa" value="context" />
+    <property role="3GE5qa" value="context.ref" />
     <property role="TrG5h" value="ContextReference" />
     <property role="34LRSv" value="ref" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2Yd1qrJR_09" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="IContext" />
     </node>
@@ -332,6 +338,35 @@
       <property role="20kJfa" value="contextRef" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2Yd1qrJOMZM" resolve="IContext" />
+    </node>
+    <node concept="1TJgyj" id="53FN52wrgzz" role="1TKVEi">
+      <property role="IQ2ns" value="5830978789222189283" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elementsToExclude" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="53FN52wrgzs" resolve="ContextSubElementReference" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="53FN52wrgzo">
+    <property role="TrG5h" value="IContextSubElement" />
+    <property role="EcuMT" value="5830978789222189272" />
+    <property role="3GE5qa" value="context" />
+    <node concept="1TJgyi" id="53FN52wRKry" role="1TKVEl">
+      <property role="IQ2nx" value="5830978789229659874" />
+      <property role="TrG5h" value="dummyPropertyToTriggerStyleUpdate" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="53FN52wrgzs">
+    <property role="EcuMT" value="5830978789222189276" />
+    <property role="3GE5qa" value="context.ref" />
+    <property role="TrG5h" value="ContextSubElementReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="53FN52wrgzt" role="1TKVEi">
+      <property role="IQ2ns" value="5830978789222189277" />
+      <property role="20kJfa" value="reference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="53FN52wrgzo" resolve="IContextSubElement" />
     </node>
   </node>
 </model>

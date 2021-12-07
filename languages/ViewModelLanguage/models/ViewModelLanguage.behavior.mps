@@ -440,5 +440,30 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="53FN52wrdyF">
+    <property role="3GE5qa" value="viewcomponents" />
+    <ref role="13h7C2" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
+    <node concept="13hLZK" id="53FN52wrdyG" role="13h7CW">
+      <node concept="3clFbS" id="53FN52wrdyH" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="53FN52wrdyQ" role="13h7CS">
+      <property role="TrG5h" value="makeSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJOWqT" resolve="makeSwingComponent" />
+      <node concept="3Tm1VV" id="53FN52wrdyR" role="1B3o_S" />
+      <node concept="3clFbS" id="53FN52wrdyU" role="3clF47">
+        <node concept="3clFbF" id="53FN52wrdyX" role="3cqZAp">
+          <node concept="2ShNRf" id="53FN52wrdzv" role="3clFbG">
+            <node concept="1pGfFk" id="53FN52wrgbf" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="dxuu:~JTable.&lt;init&gt;()" resolve="JTable" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="53FN52wrdyV" role="3clF45">
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+      </node>
+    </node>
+  </node>
 </model>
 

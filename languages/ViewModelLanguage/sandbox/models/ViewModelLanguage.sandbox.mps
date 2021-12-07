@@ -61,6 +61,7 @@
       </concept>
       <concept id="3426401106045849608" name="ViewModelTestLanguage.structure.ContextReference" flags="ng" index="30kPmI">
         <reference id="3426401106045849611" name="contextRef" index="30kPmH" />
+        <child id="5830978789222189283" name="elementsToExclude" index="3KxGiN" />
       </concept>
       <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
         <child id="3426401106045120780" name="context" index="30nziE" />
@@ -94,6 +95,9 @@
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
       </concept>
+      <concept id="5830978789222189276" name="ViewModelTestLanguage.structure.ContextSubElementReference" flags="ng" index="3KxGic">
+        <reference id="5830978789222189277" name="reference" index="3KxGid" />
+      </concept>
     </language>
   </registry>
   <node concept="3H8XyA" id="3JS2UjmSmXC">
@@ -121,7 +125,7 @@
         <property role="TrG5h" value="Table" />
         <node concept="2P4D6m" id="3JS2UjmTHVq" role="2P5Oin">
           <node concept="2P5O6o" id="3JS2UjmTVNz" role="2P4D4y">
-            <ref role="2P5O6r" node="3JS2UjmTHVa" resolve="Row" />
+            <ref role="2P5O6r" node="3JS2UjmTHVa" resolve="TableRow" />
           </node>
         </node>
       </node>
@@ -195,6 +199,9 @@
             <property role="30k8jP" value="MyB" />
           </node>
         </node>
+        <node concept="30k8jF" id="6zd1pxRukqk" role="30k8ga">
+          <property role="TrG5h" value="C" />
+        </node>
       </node>
     </node>
     <node concept="30n1Qa" id="2Yd1qrJRMCh" role="30n1Qb">
@@ -214,6 +221,12 @@
       </node>
       <node concept="30kPmI" id="2Yd1qrJS0b4" role="30nziE">
         <ref role="30kPmH" node="2Yd1qrJRMC4" />
+        <node concept="3KxGic" id="53FN52wsU3A" role="3KxGiN">
+          <ref role="3KxGid" node="2Yd1qrJRMC7" resolve="ObjA" />
+        </node>
+        <node concept="3KxGic" id="5WrZkWPWbi3" role="3KxGiN">
+          <ref role="3KxGid" node="2Yd1qrJRMCb" resolve="ObjB" />
+        </node>
       </node>
       <node concept="30nziD" id="2Yd1qrJZila" role="30nzo2">
         <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
