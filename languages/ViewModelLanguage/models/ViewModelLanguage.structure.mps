@@ -155,6 +155,93 @@
     <property role="TrG5h" value="TableComponent" />
     <property role="34LRSv" value="table" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="5WrZkWQ5hBo" role="1TKVEi">
+      <property role="IQ2ns" value="6853349774625937880" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowDefinition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5WrZkWQ5bAq" resolve="TableRowComponent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WrZkWQ5bAq">
+    <property role="EcuMT" value="6853349774625913242" />
+    <property role="3GE5qa" value="viewcomponents" />
+    <property role="TrG5h" value="TableRowComponent" />
+    <property role="34LRSv" value="table-row" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5WrZkWQ5bAw" role="1TKVEi">
+      <property role="IQ2ns" value="6853349774625913248" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cells" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5WrZkWQ5bAr" resolve="TableCellComponent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WrZkWQ5bAr">
+    <property role="EcuMT" value="6853349774625913243" />
+    <property role="3GE5qa" value="viewcomponents" />
+    <property role="TrG5h" value="TableCellComponent" />
+    <property role="34LRSv" value="cell" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="5WrZkWQ5bAu" role="1TKVEi">
+      <property role="IQ2ns" value="6853349774625913246" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    </node>
+    <node concept="1TJgyi" id="5WrZkWQ5RDj" role="1TKVEl">
+      <property role="IQ2nx" value="6853349774626093651" />
+      <property role="TrG5h" value="visible" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WrZkWQ789B">
+    <property role="EcuMT" value="6853349774626423399" />
+    <property role="3GE5qa" value="viewcomponents" />
+    <property role="TrG5h" value="TableCellHeader" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="5WrZkWQ789C" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WrZkWQ7ZzE">
+    <property role="EcuMT" value="6853349774626650346" />
+    <property role="3GE5qa" value="viewcomponents" />
+    <property role="TrG5h" value="LabelComponent" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+  </node>
+  <node concept="1TIwiD" id="5WrZkWQ81ok">
+    <property role="EcuMT" value="6853349774626657812" />
+    <property role="3GE5qa" value="viewcomponents.image" />
+    <property role="TrG5h" value="ImageComponent" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="5WrZkWQ8jhh" role="1TKVEi">
+      <property role="IQ2ns" value="6853349774626731089" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="imageProvider" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5WrZkWQ81on" resolve="IImageProvider" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5WrZkWQ81on">
+    <property role="EcuMT" value="6853349774626657815" />
+    <property role="3GE5qa" value="viewcomponents.image" />
+    <property role="TrG5h" value="IImageProvider" />
+  </node>
+  <node concept="1TIwiD" id="5WrZkWQ84sh">
+    <property role="EcuMT" value="6853349774626670353" />
+    <property role="3GE5qa" value="viewcomponents.image" />
+    <property role="TrG5h" value="HardcodedBase64ImageProvider" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="5WrZkWQ84sv" role="1TKVEl">
+      <property role="IQ2nx" value="6853349774626670367" />
+      <property role="TrG5h" value="contentAsBase64" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="5WrZkWQ84si" role="PzmwI">
+      <ref role="PrY4T" node="5WrZkWQ81on" resolve="IImageProvider" />
+    </node>
   </node>
 </model>
 
