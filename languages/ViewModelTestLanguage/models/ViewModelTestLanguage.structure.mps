@@ -211,21 +211,6 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="2Yd1qrJONfT" resolve="IButtonCheckValue" />
     </node>
-    <node concept="1TJgyj" id="2Yd1qrJONfy" role="1TKVEi">
-      <property role="IQ2ns" value="3426401106045121506" />
-      <property role="20kJfa" value="button" />
-      <ref role="20lvS9" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
-    </node>
-    <node concept="1TJgyi" id="2Yd1qrJONf$" role="1TKVEl">
-      <property role="IQ2nx" value="3426401106045121508" />
-      <property role="TrG5h" value="sensitive" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="2Yd1qrJONfA" role="1TKVEl">
-      <property role="IQ2nx" value="3426401106045121510" />
-      <property role="TrG5h" value="text" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
   </node>
   <node concept="PlHQZ" id="2Yd1qrJONfT">
     <property role="TrG5h" value="IButtonCheckValue" />
@@ -246,6 +231,12 @@
     <node concept="PrWs8" id="2Yd1qrJONfV" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJONfT" resolve="IButtonCheckValue" />
     </node>
+    <node concept="PrWs8" id="zI3UExNK1Q" role="PzmwI">
+      <ref role="PrY4T" node="zI3UExNGh5" resolve="ILabelCheckValue" />
+    </node>
+    <node concept="PrWs8" id="zI3UExNO9x" role="PzmwI">
+      <ref role="PrY4T" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJONg2">
     <property role="EcuMT" value="3426401106045121538" />
@@ -260,6 +251,9 @@
     </node>
     <node concept="PrWs8" id="2Yd1qrJONg4" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJONfT" resolve="IButtonCheckValue" />
+    </node>
+    <node concept="PrWs8" id="zI3UExNK1U" role="PzmwI">
+      <ref role="PrY4T" node="zI3UExNGh5" resolve="ILabelCheckValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJQnE4">
@@ -367,6 +361,108 @@
       <property role="20kJfa" value="reference" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="53FN52wrgzo" resolve="IContextSubElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WrZkWQpyWX">
+    <property role="EcuMT" value="6853349774631251773" />
+    <property role="3GE5qa" value="assert.table" />
+    <property role="TrG5h" value="TableCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="5WrZkWQpyWZ" role="1TKVEi">
+      <property role="IQ2ns" value="6853349774631251775" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checkValues" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
+    </node>
+    <node concept="1TJgyj" id="zI3UExNRdO" role="1TKVEi">
+      <property role="IQ2ns" value="643469022294143860" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowChecks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5WrZkWQpyX6" resolve="TableRowCheck" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5WrZkWQpyWY">
+    <property role="EcuMT" value="6853349774631251774" />
+    <property role="3GE5qa" value="assert.table" />
+    <property role="TrG5h" value="ITableCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="5WrZkWQpyX6">
+    <property role="EcuMT" value="6853349774631251782" />
+    <property role="3GE5qa" value="assert.table" />
+    <property role="TrG5h" value="TableRowCheck" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5WrZkWQpyXf" role="1TKVEi">
+      <property role="IQ2ns" value="6853349774631251791" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cellChecks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6wbjV0Q180r" resolve="TableCellCheck" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="zI3UExNGh4">
+    <property role="EcuMT" value="643469022294099012" />
+    <property role="3GE5qa" value="assert.label" />
+    <property role="TrG5h" value="LabelCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="zI3UExNGhQ" role="1TKVEi">
+      <property role="IQ2ns" value="643469022294099062" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checks" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="zI3UExNGh5" resolve="ILabelCheckValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="zI3UExNGh5">
+    <property role="EcuMT" value="643469022294099013" />
+    <property role="3GE5qa" value="assert.label" />
+    <property role="TrG5h" value="ILabelCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="6wbjV0PXG$b">
+    <property role="EcuMT" value="7497173622926526731" />
+    <property role="3GE5qa" value="assert.checkbox" />
+    <property role="TrG5h" value="CheckBoxCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="6wbjV0PXGEj" role="1TKVEi">
+      <property role="IQ2ns" value="7497173622926527123" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20kJfa" value="checks" />
+      <ref role="20lvS9" node="6wbjV0PXG$q" resolve="ICheckBoxCheckValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6wbjV0PXG$q">
+    <property role="EcuMT" value="7497173622926526746" />
+    <property role="3GE5qa" value="assert.checkbox" />
+    <property role="TrG5h" value="ICheckBoxCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="6wbjV0PXGEC">
+    <property role="EcuMT" value="7497173622926527144" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="CheckedCheckValue" />
+    <property role="34LRSv" value="check" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6wbjV0PXGED" role="PzmwI">
+      <ref role="PrY4T" node="6wbjV0PXG$q" resolve="ICheckBoxCheckValue" />
+    </node>
+    <node concept="1TJgyi" id="6wbjV0PXGEF" role="1TKVEl">
+      <property role="IQ2nx" value="7497173622926527147" />
+      <property role="TrG5h" value="checked" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6wbjV0Q180r">
+    <property role="EcuMT" value="7497173622927425563" />
+    <property role="3GE5qa" value="assert.table" />
+    <property role="TrG5h" value="TableCellCheck" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="6wbjV0Q180s" role="1TKVEi">
+      <property role="IQ2ns" value="7497173622927425564" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="viewComponentCheck" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
     </node>
   </node>
 </model>

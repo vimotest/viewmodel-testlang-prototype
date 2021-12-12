@@ -200,7 +200,7 @@
     <property role="EcuMT" value="6853349774626423399" />
     <property role="3GE5qa" value="viewcomponents" />
     <property role="TrG5h" value="TableCellHeader" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5WrZkWQ789C" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -209,12 +209,14 @@
     <property role="EcuMT" value="6853349774626650346" />
     <property role="3GE5qa" value="viewcomponents" />
     <property role="TrG5h" value="LabelComponent" />
+    <property role="34LRSv" value="label" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
   </node>
   <node concept="1TIwiD" id="5WrZkWQ81ok">
     <property role="EcuMT" value="6853349774626657812" />
     <property role="3GE5qa" value="viewcomponents.image" />
     <property role="TrG5h" value="ImageComponent" />
+    <property role="34LRSv" value="image" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
     <node concept="1TJgyj" id="5WrZkWQ8jhh" role="1TKVEi">
       <property role="IQ2ns" value="6853349774626731089" />
@@ -233,7 +235,7 @@
     <property role="EcuMT" value="6853349774626670353" />
     <property role="3GE5qa" value="viewcomponents.image" />
     <property role="TrG5h" value="HardcodedBase64ImageProvider" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5WrZkWQ84sv" role="1TKVEl">
       <property role="IQ2nx" value="6853349774626670367" />
       <property role="TrG5h" value="contentAsBase64" />

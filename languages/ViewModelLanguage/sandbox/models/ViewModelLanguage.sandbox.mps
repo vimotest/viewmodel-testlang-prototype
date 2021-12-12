@@ -24,6 +24,7 @@
       <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
+      <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_" />
       <concept id="6853349774625913243" name="ViewModelLanguage.structure.TableCellComponent" flags="ng" index="1D3Ojk">
         <property id="6853349774626093651" name="visible" index="1D38ss" />
         <child id="6853349774625913246" name="content" index="1D3Ojh" />
@@ -56,6 +57,9 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
+        <child id="643469022294099062" name="checks" index="2D8cJs" />
+      </concept>
       <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
         <child id="3426401106045796780" name="objects" index="30k8ga" />
       </concept>
@@ -87,19 +91,37 @@
         <child id="3426401106045120501" name="given" index="30nyDj" />
         <child id="3426401106045120506" name="then" index="30nyDs" />
       </concept>
+      <concept id="3426401106045121538" name="ViewModelTestLanguage.structure.TextCheckValue" flags="ng" index="30nz6$">
+        <property id="3426401106045121539" name="text" index="30nz6_" />
+      </concept>
       <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.InputCall" flags="ng" index="30nziD">
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
         <child id="3426401106045120786" name="parameters" index="30nziO" />
       </concept>
+      <concept id="3426401106045121504" name="ViewModelTestLanguage.structure.ViewComponentCheck" flags="ng" index="30nzp6" />
       <concept id="3426401106045121505" name="ViewModelTestLanguage.structure.ButtonCheck" flags="ng" index="30nzp7">
         <child id="3426401106045121535" name="checks" index="30nzpp" />
       </concept>
       <concept id="3426401106045121530" name="ViewModelTestLanguage.structure.SensitivityCheckValue" flags="ng" index="30nzps">
         <property id="3426401106045121533" name="sensitivity" index="30nzpr" />
       </concept>
+      <concept id="3426401106045121528" name="ViewModelTestLanguage.structure.IButtonCheckValue" flags="ng" index="30nzpu" />
       <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
+      </concept>
+      <concept id="7497173622926527144" name="ViewModelTestLanguage.structure.CheckedCheckValue" flags="ng" index="1tZoko" />
+      <concept id="7497173622926526731" name="ViewModelTestLanguage.structure.CheckBoxCheck" flags="ng" index="1tZoqV">
+        <child id="7497173622926527123" name="checks" index="1tZokz" />
+      </concept>
+      <concept id="7497173622927425563" name="ViewModelTestLanguage.structure.TableCellCheck" flags="ng" index="1u3WYF">
+        <child id="7497173622927425564" name="viewComponentCheck" index="1u3WYG" />
+      </concept>
+      <concept id="6853349774631251782" name="ViewModelTestLanguage.structure.TableRowCheck" flags="ng" index="1Dvt89">
+        <child id="6853349774631251791" name="cellChecks" index="1Dvt80" />
+      </concept>
+      <concept id="6853349774631251773" name="ViewModelTestLanguage.structure.TableCheck" flags="ng" index="1Dvt9M">
+        <child id="643469022294143860" name="rowChecks" index="2D8nNu" />
       </concept>
       <concept id="5830978789222189276" name="ViewModelTestLanguage.structure.ContextSubElementReference" flags="ng" index="3KxGic">
         <reference id="5830978789222189277" name="reference" index="3KxGid" />
@@ -148,6 +170,12 @@
             <property role="1D38ss" value="true" />
             <node concept="3H4CWb" id="5WrZkWQ7XWI" role="1D3Ojh">
               <property role="TrG5h" value="Header" />
+            </node>
+          </node>
+          <node concept="1D3Ojk" id="5WrZkWQmWwR" role="1D3OjJ">
+            <property role="1D38ss" value="true" />
+            <node concept="1D10m_" id="5WrZkWQmWx4" role="1D3Ojh">
+              <property role="TrG5h" value="myLabel" />
             </node>
           </node>
         </node>
@@ -263,6 +291,58 @@
         <ref role="30nzpS" node="2Yd1qrJQ3Fz" resolve="OK" />
         <node concept="30nzp7" id="2Yd1qrJZikH" role="30nDbQ">
           <node concept="30nzps" id="2Yd1qrJZikM" role="30nzpp" />
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="5WrZkWQqRIe" role="30n1Qb">
+      <node concept="30nyDl" id="5WrZkWQqRIf" role="30nziG">
+        <node concept="30nyDi" id="5WrZkWQqRIg" role="30nyDj">
+          <property role="30lZVK" value="Two objects" />
+        </node>
+        <node concept="30nyDi" id="5WrZkWQqRIh" role="30nyDh">
+          <property role="30lZVK" value="load view" />
+        </node>
+        <node concept="30nyDi" id="5WrZkWQqRIi" role="30nyDh">
+          <property role="30lZVK" value="click button" />
+        </node>
+        <node concept="30nyDi" id="5WrZkWQqRIj" role="30nyDs">
+          <property role="30lZVK" value="Table is in some state" />
+        </node>
+      </node>
+      <node concept="30kPmI" id="5WrZkWQqRIk" role="30nziE">
+        <ref role="30kPmH" node="2Yd1qrJRMC4" />
+      </node>
+      <node concept="30nziD" id="5WrZkWQqRIn" role="30nzo2">
+        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="5WrZkWQqRIo" role="30nzo2">
+        <ref role="30nziQ" node="3JS2UjmTg0y" resolve="ButtonClicked" />
+      </node>
+      <node concept="30nzp_" id="5WrZkWQqRIp" role="30nzpy">
+        <ref role="30nzpS" node="5WrZkWQ61QF" resolve="table" />
+        <node concept="1Dvt9M" id="zI3UExJvwG" role="30nDbQ">
+          <node concept="1Dvt89" id="6wbjV0Q2rIg" role="2D8nNu">
+            <node concept="1u3WYF" id="6wbjV0Q2rIh" role="1Dvt80">
+              <node concept="30nzp6" id="6wbjV0Q2rIi" role="1u3WYG" />
+            </node>
+            <node concept="1u3WYF" id="6wbjV0Q2rIj" role="1Dvt80">
+              <node concept="30nzp7" id="6wbjV0Q2rIk" role="1u3WYG">
+                <node concept="30nzpu" id="6wbjV0Q2rIl" role="30nzpp" />
+              </node>
+            </node>
+            <node concept="1u3WYF" id="6wbjV0Q2sBQ" role="1Dvt80">
+              <node concept="1tZoqV" id="6wbjV0Q2txb" role="1u3WYG">
+                <node concept="1tZoko" id="6wbjV0Q2txe" role="1tZokz" />
+              </node>
+            </node>
+            <node concept="1u3WYF" id="6wbjV0Q2rIo" role="1Dvt80">
+              <node concept="2D8cJI" id="6wbjV0Q2rIp" role="1u3WYG">
+                <node concept="30nz6$" id="6wbjV0Q2rIG" role="2D8cJs">
+                  <property role="30nz6_" value="A" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
