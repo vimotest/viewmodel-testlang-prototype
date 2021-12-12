@@ -183,7 +183,6 @@
       <property role="IQ2ns" value="3426401106045146960" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="check" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
     </node>
     <node concept="1TJgyj" id="2Yd1qrJONfu" role="1TKVEi">
@@ -497,6 +496,23 @@
       <property role="20kJfa" value="image" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="6ap2:6wbjV0Q45wJ" resolve="Image" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="fGbCOkyHAB">
+    <property role="EcuMT" value="282652060087409063" />
+    <property role="3GE5qa" value="assert" />
+    <property role="TrG5h" value="ViewShowErrorCheck" />
+    <property role="34LRSv" value="verify error" />
+    <ref role="1TJDcQ" node="2Yd1qrJONf3" resolve="ViewAssertion" />
+    <node concept="1TJgyi" id="fGbCOkyHAC" role="1TKVEl">
+      <property role="IQ2nx" value="282652060087409064" />
+      <property role="TrG5h" value="title" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="fGbCOkyHAE" role="1TKVEl">
+      <property role="IQ2nx" value="282652060087409066" />
+      <property role="TrG5h" value="message" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

@@ -66,6 +66,10 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="282652060087409063" name="ViewModelTestLanguage.structure.ViewShowErrorCheck" flags="ng" index="npJsE">
+        <property id="282652060087409064" name="title" index="npJs_" />
+        <property id="282652060087409066" name="message" index="npJsB" />
+      </concept>
       <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
         <child id="643469022294099062" name="checks" index="2D8cJs" />
       </concept>
@@ -395,6 +399,35 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="fGbCOkzRtR" role="30n1Qb">
+      <node concept="30nyDl" id="fGbCOkzRtS" role="30nziG">
+        <node concept="30nyDi" id="fGbCOkzRtT" role="30nyDj">
+          <property role="30lZVK" value="Two objects" />
+        </node>
+        <node concept="30nyDi" id="fGbCOkzRtU" role="30nyDh">
+          <property role="30lZVK" value="load view" />
+        </node>
+        <node concept="30nyDi" id="fGbCOkzRtV" role="30nyDh">
+          <property role="30lZVK" value="click button Cancel" />
+        </node>
+        <node concept="30nyDi" id="fGbCOkzRtW" role="30nyDs">
+          <property role="30lZVK" value="Show error" />
+        </node>
+      </node>
+      <node concept="30kPmI" id="fGbCOkzRtX" role="30nziE">
+        <ref role="30kPmH" node="2Yd1qrJRMC4" />
+      </node>
+      <node concept="30nziD" id="fGbCOkzRtY" role="30nzo2">
+        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="fGbCOkzRtZ" role="30nzo2">
+        <ref role="30nziQ" node="3JS2UjmTg0y" resolve="ButtonClicked" />
+      </node>
+      <node concept="npJsE" id="fGbCOkzT9K" role="30nzpy">
+        <property role="npJs_" value="Invalid input" />
+        <property role="npJsB" value="You cannot press Cancel when two objects are given" />
       </node>
     </node>
   </node>
