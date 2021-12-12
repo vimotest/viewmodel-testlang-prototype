@@ -195,6 +195,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
@@ -203,6 +206,9 @@
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -252,6 +258,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
@@ -1919,6 +1926,84 @@
         <ref role="1NtTu8" to="l8rz:6wbjV0PXGEF" resolve="checked" />
       </node>
       <node concept="2iRfu4" id="6wbjV0Q2_HG" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6wbjV0Q4H2l">
+    <property role="3GE5qa" value="assert.image" />
+    <ref role="1XX52x" to="l8rz:6wbjV0Q4H0g" resolve="ImageCheck" />
+    <node concept="3F2HdR" id="6wbjV0Q4H2n" role="2wV5jI">
+      <ref role="1NtTu8" to="l8rz:6wbjV0Q4H2r" resolve="checks" />
+      <node concept="2iRkQZ" id="6wbjV0Q4H2o" role="2czzBx" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6wbjV0Q4Kkp">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1XX52x" to="l8rz:6wbjV0Q4JXM" resolve="ImageRefCheckValue" />
+    <node concept="3EZMnI" id="6wbjV0Q4Kkr" role="2wV5jI">
+      <node concept="3F0ifn" id="6wbjV0Q4Kky" role="3EZMnx">
+        <property role="3F0ifm" value="image" />
+      </node>
+      <node concept="3gTLQM" id="6wbjV0Q4LOp" role="3EZMnx">
+        <node concept="3Fmcul" id="6wbjV0Q4LOr" role="3FoqZy">
+          <node concept="3clFbS" id="6wbjV0Q4LOt" role="2VODD2">
+            <node concept="3cpWs8" id="6wbjV0Qai7y" role="3cqZAp">
+              <node concept="3cpWsn" id="6wbjV0Qai7z" role="3cpWs9">
+                <property role="TrG5h" value="labelWithImage" />
+                <node concept="3uibUv" id="6wbjV0Qafyw" role="1tU5fm">
+                  <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
+                </node>
+                <node concept="2OqwBi" id="6wbjV0Qai7$" role="33vP2m">
+                  <node concept="2OqwBi" id="6wbjV0Qai7_" role="2Oq$k0">
+                    <node concept="pncrf" id="6wbjV0Qai7A" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6wbjV0Qai7B" role="2OqNvi">
+                      <ref role="3Tt5mk" to="l8rz:6wbjV0Q4JXP" resolve="image" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="6wbjV0Qai7C" role="2OqNvi">
+                    <ref role="37wK5l" to="hhvz:6wbjV0Q4KDI" resolve="createSwingLabelWithImage" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6wbjV0QaiM0" role="3cqZAp">
+              <node concept="3clFbS" id="6wbjV0QaiM2" role="3clFbx">
+                <node concept="3cpWs6" id="6wbjV0QakCb" role="3cqZAp">
+                  <node concept="37vLTw" id="6wbjV0QakDj" role="3cqZAk">
+                    <ref role="3cqZAo" node="6wbjV0Qai7z" resolve="labelWithImage" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="6wbjV0Qakb2" role="3clFbw">
+                <node concept="10Nm6u" id="6wbjV0QakBe" role="3uHU7w" />
+                <node concept="37vLTw" id="6wbjV0QaiN4" role="3uHU7B">
+                  <ref role="3cqZAo" node="6wbjV0Qai7z" resolve="labelWithImage" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="6wbjV0QakQY" role="3cqZAp">
+              <node concept="2ShNRf" id="6wbjV0QakTq" role="3cqZAk">
+                <node concept="1pGfFk" id="6wbjV0Qalf8" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
+                  <node concept="Xl_RD" id="6wbjV0QalsJ" role="37wK5m">
+                    <property role="Xl_RC" value="&lt;invalid&gt;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1iCGBv" id="6wbjV0Q4KkC" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:6wbjV0Q4JXP" resolve="image" />
+        <node concept="1sVBvm" id="6wbjV0Q4KkE" role="1sWHZn">
+          <node concept="3F0A7n" id="6wbjV0Q4KkM" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="6wbjV0Q4Kku" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -465,5 +465,39 @@
       <ref role="20lvS9" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6wbjV0Q4H0g">
+    <property role="EcuMT" value="7497173622928363536" />
+    <property role="3GE5qa" value="assert.image" />
+    <property role="TrG5h" value="ImageCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="6wbjV0Q4H2r" role="1TKVEi">
+      <property role="IQ2ns" value="7497173622928363675" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checks" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="6wbjV0Q4H0h" resolve="IImageCheckValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6wbjV0Q4H0h">
+    <property role="EcuMT" value="7497173622928363537" />
+    <property role="3GE5qa" value="assert.image" />
+    <property role="TrG5h" value="IImageCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="6wbjV0Q4JXM">
+    <property role="EcuMT" value="7497173622928375666" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="ImageRefCheckValue" />
+    <property role="34LRSv" value="image" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6wbjV0Q4JXN" role="PzmwI">
+      <ref role="PrY4T" node="6wbjV0Q4H0h" resolve="IImageCheckValue" />
+    </node>
+    <node concept="1TJgyj" id="6wbjV0Q4JXP" role="1TKVEi">
+      <property role="IQ2ns" value="7497173622928375669" />
+      <property role="20kJfa" value="image" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="6ap2:6wbjV0Q45wJ" resolve="Image" />
+    </node>
+  </node>
 </model>
 

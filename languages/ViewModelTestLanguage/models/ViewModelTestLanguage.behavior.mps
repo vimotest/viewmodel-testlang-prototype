@@ -1968,26 +1968,31 @@
           <node concept="3eNFk2" id="6wbjV0PWQj2" role="3eNLev">
             <node concept="3clFbS" id="6wbjV0PWQj3" role="3eOfB_">
               <node concept="3cpWs6" id="6wbjV0PWQj4" role="3cqZAp">
-                <node concept="2OqwBi" id="6wbjV0PWTn5" role="3cqZAk">
-                  <node concept="2OqwBi" id="6wbjV0PWSTA" role="2Oq$k0">
-                    <node concept="1PxgMI" id="6wbjV0PWSBn" role="2Oq$k0">
-                      <node concept="chp4Y" id="6wbjV0PWSID" role="3oSUPX">
-                        <ref role="cht4Q" to="6ap2:5WrZkWQ81ok" resolve="ImageComponent" />
+                <node concept="2OqwBi" id="6wbjV0Q5yTV" role="3cqZAk">
+                  <node concept="2OqwBi" id="6wbjV0Q5wXf" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6wbjV0PWSTA" role="2Oq$k0">
+                      <node concept="1PxgMI" id="6wbjV0PWSBn" role="2Oq$k0">
+                        <node concept="chp4Y" id="6wbjV0PWSID" role="3oSUPX">
+                          <ref role="cht4Q" to="6ap2:5WrZkWQ81ok" resolve="ImageComponent" />
+                        </node>
+                        <node concept="2OqwBi" id="6wbjV0PWSv2" role="1m5AlR">
+                          <node concept="37vLTw" id="6wbjV0PWSv3" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6wbjV0PWQg9" resolve="cellComponent" />
+                          </node>
+                          <node concept="3TrEf2" id="6wbjV0PWSv4" role="2OqNvi">
+                            <ref role="3Tt5mk" to="6ap2:5WrZkWQ5bAu" resolve="content" />
+                          </node>
+                        </node>
                       </node>
-                      <node concept="2OqwBi" id="6wbjV0PWSv2" role="1m5AlR">
-                        <node concept="37vLTw" id="6wbjV0PWSv3" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6wbjV0PWQg9" resolve="cellComponent" />
-                        </node>
-                        <node concept="3TrEf2" id="6wbjV0PWSv4" role="2OqNvi">
-                          <ref role="3Tt5mk" to="6ap2:5WrZkWQ5bAu" resolve="content" />
-                        </node>
+                      <node concept="3TrEf2" id="6wbjV0PWTbd" role="2OqNvi">
+                        <ref role="3Tt5mk" to="6ap2:6wbjV0Q45W_" resolve="image" />
                       </node>
                     </node>
-                    <node concept="3TrEf2" id="6wbjV0PWTbd" role="2OqNvi">
-                      <ref role="3Tt5mk" to="6ap2:5WrZkWQ8jhh" resolve="imageProvider" />
+                    <node concept="3TrEf2" id="6wbjV0Q5xBi" role="2OqNvi">
+                      <ref role="3Tt5mk" to="6ap2:6wbjV0Q45Wx" resolve="source" />
                     </node>
                   </node>
-                  <node concept="2qgKlT" id="6wbjV0PWTDJ" role="2OqNvi">
+                  <node concept="2qgKlT" id="6wbjV0Q5zUt" role="2OqNvi">
                     <ref role="37wK5l" to="hhvz:5WrZkWQ81oz" resolve="createImage" />
                   </node>
                 </node>
@@ -2866,6 +2871,252 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="13i0hz" id="6wbjV0QaXTn" role="13h7CS">
+      <property role="TrG5h" value="applyOnSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJP3FF" resolve="applyOnSwingComponent" />
+      <node concept="3Tm1VV" id="6wbjV0QaXTs" role="1B3o_S" />
+      <node concept="3clFbS" id="6wbjV0QaXTv" role="3clF47">
+        <node concept="3cpWs8" id="6wbjV0QaYeO" role="3cqZAp">
+          <node concept="3cpWsn" id="6wbjV0QaYeP" role="3cpWs9">
+            <property role="TrG5h" value="checkBox" />
+            <node concept="3uibUv" id="6wbjV0QaYeQ" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JCheckBox" resolve="JCheckBox" />
+            </node>
+            <node concept="0kSF2" id="6wbjV0QaYeR" role="33vP2m">
+              <node concept="3uibUv" id="6wbjV0QaYeS" role="0kSFW">
+                <ref role="3uigEE" to="dxuu:~JCheckBox" resolve="JCheckBox" />
+              </node>
+              <node concept="37vLTw" id="6wbjV0QaYeT" role="0kSFX">
+                <ref role="3cqZAo" node="6wbjV0QaXTw" resolve="swingComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6wbjV0QaYeU" role="3cqZAp">
+          <node concept="3clFbS" id="6wbjV0QaYeV" role="3clFbx">
+            <node concept="3clFbF" id="6wbjV0QaYeW" role="3cqZAp">
+              <node concept="2OqwBi" id="6wbjV0QaYeX" role="3clFbG">
+                <node concept="2OqwBi" id="6wbjV0QaYeY" role="2Oq$k0">
+                  <node concept="13iPFW" id="6wbjV0QaYeZ" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="6wbjV0QaYf0" role="2OqNvi">
+                    <ref role="3TtcxE" to="l8rz:6wbjV0PXGEj" resolve="checks" />
+                  </node>
+                </node>
+                <node concept="2es0OD" id="6wbjV0QaYf1" role="2OqNvi">
+                  <node concept="1bVj0M" id="6wbjV0QaYf2" role="23t8la">
+                    <node concept="3clFbS" id="6wbjV0QaYf3" role="1bW5cS">
+                      <node concept="3clFbF" id="6wbjV0QaYf4" role="3cqZAp">
+                        <node concept="2OqwBi" id="6wbjV0QaYf5" role="3clFbG">
+                          <node concept="37vLTw" id="6wbjV0QaYf6" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6wbjV0QaYf9" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="6wbjV0QaYf7" role="2OqNvi">
+                            <ref role="37wK5l" node="6wbjV0PXG$A" resolve="modifyCheckBox" />
+                            <node concept="37vLTw" id="6wbjV0QaYf8" role="37wK5m">
+                              <ref role="3cqZAo" node="6wbjV0QaYeP" resolve="button" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="6wbjV0QaYf9" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="6wbjV0QaYfa" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="6wbjV0QaYfb" role="3clFbw">
+            <node concept="10Nm6u" id="6wbjV0QaYfc" role="3uHU7w" />
+            <node concept="37vLTw" id="6wbjV0QaYfd" role="3uHU7B">
+              <ref role="3cqZAo" node="6wbjV0QaYeP" resolve="button" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6wbjV0QaXTw" role="3clF46">
+        <property role="TrG5h" value="swingComponent" />
+        <node concept="3uibUv" id="6wbjV0QaXTx" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6wbjV0QaXTy" role="3clF46">
+        <property role="TrG5h" value="viewComponent" />
+        <node concept="3Tqbb2" id="6wbjV0QaXTz" role="1tU5fm">
+          <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6wbjV0QaXT$" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6wbjV0Q4H0i">
+    <property role="3GE5qa" value="assert.image" />
+    <ref role="13h7C2" to="l8rz:6wbjV0Q4H0h" resolve="IImageCheckValue" />
+    <node concept="13i0hz" id="6wbjV0Q4H0t" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="modifyImage" />
+      <node concept="37vLTG" id="6wbjV0Q4H1x" role="3clF46">
+        <property role="TrG5h" value="labelWithImage" />
+        <node concept="3uibUv" id="6wbjV0Q4H1J" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6wbjV0Q4H0u" role="1B3o_S" />
+      <node concept="3cqZAl" id="6wbjV0Q4H0H" role="3clF45" />
+      <node concept="3clFbS" id="6wbjV0Q4H0w" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="6wbjV0Q4H0j" role="13h7CW">
+      <node concept="3clFbS" id="6wbjV0Q4H0k" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6wbjV0Q4H2t">
+    <property role="3GE5qa" value="assert.image" />
+    <ref role="13h7C2" to="l8rz:6wbjV0Q4H0g" resolve="ImageCheck" />
+    <node concept="13hLZK" id="6wbjV0Q4H2u" role="13h7CW">
+      <node concept="3clFbS" id="6wbjV0Q4H2v" role="2VODD2">
+        <node concept="3clFbF" id="6wbjV0Q4H2D" role="3cqZAp">
+          <node concept="2OqwBi" id="6wbjV0Q4ItM" role="3clFbG">
+            <node concept="2OqwBi" id="6wbjV0Q4HaD" role="2Oq$k0">
+              <node concept="13iPFW" id="6wbjV0Q4H2C" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="6wbjV0Q4Hjh" role="2OqNvi">
+                <ref role="3TtcxE" to="l8rz:6wbjV0Q4H2r" resolve="checks" />
+              </node>
+            </node>
+            <node concept="WFELt" id="6wbjV0Q4J_n" role="2OqNvi">
+              <ref role="1A0vxQ" to="l8rz:6wbjV0Q4JXM" resolve="ImageRefCheckValue" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6wbjV0Q5$T0" role="13h7CS">
+      <property role="TrG5h" value="applyOnSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJP3FF" resolve="applyOnSwingComponent" />
+      <node concept="3Tm1VV" id="6wbjV0Q5$T5" role="1B3o_S" />
+      <node concept="3clFbS" id="6wbjV0Q5$T8" role="3clF47">
+        <node concept="3cpWs8" id="6wbjV0Q5_xh" role="3cqZAp">
+          <node concept="3cpWsn" id="6wbjV0Q5_xi" role="3cpWs9">
+            <property role="TrG5h" value="labelWithImage" />
+            <node concept="3uibUv" id="6wbjV0Q5_xj" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
+            </node>
+            <node concept="0kSF2" id="6wbjV0Q5_xk" role="33vP2m">
+              <node concept="3uibUv" id="6wbjV0Q5_xl" role="0kSFW">
+                <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
+              </node>
+              <node concept="37vLTw" id="6wbjV0Q5_xm" role="0kSFX">
+                <ref role="3cqZAo" node="6wbjV0Q5$T9" resolve="swingComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6wbjV0Q5_xn" role="3cqZAp">
+          <node concept="3clFbS" id="6wbjV0Q5_xo" role="3clFbx">
+            <node concept="3clFbF" id="6wbjV0Q5_xp" role="3cqZAp">
+              <node concept="2OqwBi" id="6wbjV0Q5_xq" role="3clFbG">
+                <node concept="2OqwBi" id="6wbjV0Q5_xr" role="2Oq$k0">
+                  <node concept="13iPFW" id="6wbjV0Q5_xs" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="6wbjV0Q5_xt" role="2OqNvi">
+                    <ref role="3TtcxE" to="l8rz:6wbjV0Q4H2r" resolve="checks" />
+                  </node>
+                </node>
+                <node concept="2es0OD" id="6wbjV0Q5_xu" role="2OqNvi">
+                  <node concept="1bVj0M" id="6wbjV0Q5_xv" role="23t8la">
+                    <node concept="3clFbS" id="6wbjV0Q5_xw" role="1bW5cS">
+                      <node concept="3clFbF" id="6wbjV0Q5_xx" role="3cqZAp">
+                        <node concept="2OqwBi" id="6wbjV0Q5_xy" role="3clFbG">
+                          <node concept="37vLTw" id="6wbjV0Q5_xz" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6wbjV0Q5_xA" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="6wbjV0Q5_x$" role="2OqNvi">
+                            <ref role="37wK5l" node="6wbjV0Q4H0t" resolve="modifyImage" />
+                            <node concept="37vLTw" id="6wbjV0Q5_x_" role="37wK5m">
+                              <ref role="3cqZAo" node="6wbjV0Q5_xi" resolve="button" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="6wbjV0Q5_xA" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="6wbjV0Q5_xB" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="6wbjV0Q5_xC" role="3clFbw">
+            <node concept="10Nm6u" id="6wbjV0Q5_xD" role="3uHU7w" />
+            <node concept="37vLTw" id="6wbjV0Q5_xE" role="3uHU7B">
+              <ref role="3cqZAo" node="6wbjV0Q5_xi" resolve="button" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6wbjV0Q5$T9" role="3clF46">
+        <property role="TrG5h" value="swingComponent" />
+        <node concept="3uibUv" id="6wbjV0Q5$Ta" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6wbjV0Q5$Tb" role="3clF46">
+        <property role="TrG5h" value="viewComponent" />
+        <node concept="3Tqbb2" id="6wbjV0Q5$Tc" role="1tU5fm">
+          <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6wbjV0Q5$Td" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6wbjV0Q5A89">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="13h7C2" to="l8rz:6wbjV0Q4JXM" resolve="ImageRefCheckValue" />
+    <node concept="13hLZK" id="6wbjV0Q5A8a" role="13h7CW">
+      <node concept="3clFbS" id="6wbjV0Q5A8b" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6wbjV0Q5A8k" role="13h7CS">
+      <property role="TrG5h" value="modifyImage" />
+      <ref role="13i0hy" node="6wbjV0Q4H0t" resolve="modifyImage" />
+      <node concept="3Tm1VV" id="6wbjV0Q5A8n" role="1B3o_S" />
+      <node concept="3clFbS" id="6wbjV0Q5A8q" role="3clF47">
+        <node concept="3clFbF" id="6wbjV0Q5A8y" role="3cqZAp">
+          <node concept="2OqwBi" id="6wbjV0Q5AF3" role="3clFbG">
+            <node concept="37vLTw" id="6wbjV0Q5AaQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="6wbjV0Q5A8r" resolve="labelWithImage" />
+            </node>
+            <node concept="liA8E" id="6wbjV0Q5BdZ" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon)" resolve="setIcon" />
+              <node concept="2OqwBi" id="6wbjV0Q5Ccq" role="37wK5m">
+                <node concept="2OqwBi" id="6wbjV0Q5BLS" role="2Oq$k0">
+                  <node concept="2OqwBi" id="6wbjV0Q5BoI" role="2Oq$k0">
+                    <node concept="13iPFW" id="6wbjV0Q5BeA" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6wbjV0Q5Bz9" role="2OqNvi">
+                      <ref role="3Tt5mk" to="l8rz:6wbjV0Q4JXP" resolve="image" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="6wbjV0Q5BWP" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6ap2:6wbjV0Q45Wx" resolve="source" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="6wbjV0Q5CpW" role="2OqNvi">
+                  <ref role="37wK5l" to="hhvz:5WrZkWQ81oz" resolve="createImage" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6wbjV0Q5A8r" role="3clF46">
+        <property role="TrG5h" value="labelWithImage" />
+        <node concept="3uibUv" id="6wbjV0Q5A8s" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6wbjV0Q5A8t" role="3clF45" />
     </node>
   </node>
 </model>

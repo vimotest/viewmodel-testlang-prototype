@@ -5,6 +5,7 @@
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="0272d3b4-4cc8-481e-9e2f-07793fbfcb41" name="jetbrains.mps.lang.editor.table" version="0" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -59,13 +60,18 @@
       <concept id="1103016434866" name="jetbrains.mps.lang.editor.structure.CellModel_JComponent" flags="sg" stub="8104358048506731196" index="3gTLQM">
         <child id="1176475119347" name="componentProvider" index="3FoqZy" />
       </concept>
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
         <property id="1238091709220" name="labelName" index="1413C4" />
       </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -1122,10 +1128,16 @@
     <node concept="3EZMnI" id="5WrZkWQ8jDK" role="6VMZX">
       <node concept="2iRfu4" id="5WrZkWQ8jDL" role="2iSdaV" />
       <node concept="3F0ifn" id="5WrZkWQ8jEu" role="3EZMnx">
-        <property role="3F0ifm" value="source:" />
+        <property role="3F0ifm" value="image ref:" />
       </node>
-      <node concept="3F1sOY" id="5WrZkWQ8jEz" role="3EZMnx">
-        <ref role="1NtTu8" to="6ap2:5WrZkWQ8jhh" resolve="imageProvider" />
+      <node concept="1iCGBv" id="6wbjV0Q468F" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:6wbjV0Q45W_" resolve="image" />
+        <node concept="1sVBvm" id="6wbjV0Q468H" role="1sWHZn">
+          <node concept="3F0A7n" id="6wbjV0Q468P" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -1140,6 +1152,69 @@
         <ref role="1NtTu8" to="6ap2:5WrZkWQ84sv" resolve="contentAsBase64" />
       </node>
       <node concept="2iRfu4" id="5WrZkWQ8jEN" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6wbjV0Q45x4">
+    <property role="3GE5qa" value="viewcomponents.image" />
+    <ref role="1XX52x" to="6ap2:6wbjV0Q45wJ" resolve="Image" />
+    <node concept="3EZMnI" id="6wbjV0Q45x6" role="2wV5jI">
+      <node concept="3F0ifn" id="6wbjV0Q45xg" role="3EZMnx">
+        <property role="3F0ifm" value="predefined image" />
+      </node>
+      <node concept="3gTLQM" id="6wbjV0Q4nh_" role="3EZMnx">
+        <node concept="3Fmcul" id="6wbjV0Q4nhB" role="3FoqZy">
+          <node concept="3clFbS" id="6wbjV0Q4nhD" role="2VODD2">
+            <node concept="3clFbF" id="6wbjV0Q4Lmk" role="3cqZAp">
+              <node concept="2OqwBi" id="6wbjV0Q4LA3" role="3clFbG">
+                <node concept="pncrf" id="6wbjV0Q4Lmj" role="2Oq$k0" />
+                <node concept="2qgKlT" id="6wbjV0Q4LKY" role="2OqNvi">
+                  <ref role="37wK5l" to="hhvz:6wbjV0Q4KDI" resolve="createSwingLabelWithImage" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0A7n" id="6wbjV0Q45xO" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F1sOY" id="6wbjV0Q45xq" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:6wbjV0Q45Wx" resolve="source" />
+      </node>
+      <node concept="2iRfu4" id="6wbjV0Q45x9" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6wbjV0Q45x_">
+    <property role="3GE5qa" value="viewcomponents.image" />
+    <ref role="1XX52x" to="6ap2:6wbjV0Q45wI" resolve="ImagePool" />
+    <node concept="3EZMnI" id="6wbjV0Q6qId" role="2wV5jI">
+      <node concept="3F0ifn" id="6wbjV0Q6qIp" role="3EZMnx">
+        <property role="3F0ifm" value="images" />
+        <node concept="ljvvj" id="6wbjV0Q6qIu" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="6wbjV0Q6qIe" role="2iSdaV" />
+      <node concept="3F2HdR" id="6wbjV0Q45xD" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:6wbjV0Q45xB" resolve="images" />
+        <node concept="2iRkQZ" id="6wbjV0Q45xG" role="2czzBx" />
+        <node concept="lj46D" id="6wbjV0Q6qIw" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6wbjV0Q6zMp">
+    <property role="3GE5qa" value="viewcomponents.image" />
+    <ref role="1XX52x" to="6ap2:6wbjV0Q6zMd" resolve="FilePathImageProvider" />
+    <node concept="3EZMnI" id="6wbjV0Q6zMr" role="2wV5jI">
+      <node concept="3F0ifn" id="6wbjV0Q6zMs" role="3EZMnx">
+        <property role="3F0ifm" value="path:" />
+      </node>
+      <node concept="3F0A7n" id="6wbjV0Q6zMt" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:6wbjV0Q6zMg" resolve="path" />
+      </node>
+      <node concept="2iRfu4" id="6wbjV0Q6zMu" role="2iSdaV" />
     </node>
   </node>
 </model>
