@@ -36,6 +36,7 @@
       <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_" />
       <concept id="6853349774625913243" name="ViewModelLanguage.structure.TableCellComponent" flags="ng" index="1D3Ojk">
         <property id="6853349774626093651" name="visible" index="1D38ss" />
+        <reference id="1071342702493657872" name="dummy" index="3K2kui" />
         <child id="6853349774625913246" name="content" index="1D3Ojh" />
       </concept>
       <concept id="6853349774625913242" name="ViewModelLanguage.structure.TableRowComponent" flags="ng" index="1D3Ojl">
@@ -173,9 +174,10 @@
           <node concept="1D3Ojk" id="5WrZkWQ9ZYj" role="1D3OjJ">
             <property role="1D38ss" value="true" />
             <property role="TrG5h" value="Icon" />
+            <ref role="3K2kui" node="6wbjV0Q9rdV" resolve="Triangle" />
             <node concept="1DeYHr" id="6wbjV0Q9tXS" role="1D3Ojh">
               <property role="TrG5h" value="Icon" />
-              <ref role="1u6L2l" node="6wbjV0Q6zBO" resolve="ImageA" />
+              <ref role="1u6L2l" node="6wbjV0Q9rdK" resolve="Circle" />
             </node>
           </node>
           <node concept="1D3Ojk" id="5WrZkWQ7XWF" role="1D3OjJ">
