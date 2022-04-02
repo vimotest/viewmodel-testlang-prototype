@@ -441,7 +441,7 @@
     <property role="3GE5qa" value="assert.checkvalues" />
     <property role="TrG5h" value="CheckedCheckValue" />
     <property role="34LRSv" value="check" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6wbjV0PXGED" role="PzmwI">
       <ref role="PrY4T" node="6wbjV0PXG$q" resolve="ICheckBoxCheckValue" />
     </node>
@@ -455,7 +455,7 @@
     <property role="EcuMT" value="7497173622927425563" />
     <property role="3GE5qa" value="assert.table" />
     <property role="TrG5h" value="TableCellCheck" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6wbjV0Q180s" role="1TKVEi">
       <property role="IQ2ns" value="7497173622927425564" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -487,7 +487,7 @@
     <property role="3GE5qa" value="assert.checkvalues" />
     <property role="TrG5h" value="ImageRefCheckValue" />
     <property role="34LRSv" value="image" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6wbjV0Q4JXN" role="PzmwI">
       <ref role="PrY4T" node="6wbjV0Q4H0h" resolve="IImageCheckValue" />
     </node>

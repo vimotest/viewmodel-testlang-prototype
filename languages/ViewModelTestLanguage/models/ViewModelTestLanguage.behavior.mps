@@ -1535,7 +1535,7 @@
                   <node concept="3$_iS1" id="zI3UExPIoH" role="2ShVmc">
                     <node concept="3$GHV9" id="zI3UExPIoJ" role="3$GQph">
                       <node concept="37vLTw" id="zI3UExPJad" role="3$I4v7">
-                        <ref role="3cqZAo" node="zI3UExPDAW" resolve="rows" />
+                        <ref role="3cqZAo" node="zI3UExPDAW" resolve="rowsCount" />
                       </node>
                     </node>
                     <node concept="3$GHV9" id="zI3UExPIU1" role="3$GQph" />
@@ -1646,12 +1646,12 @@
                       <ref role="3cqZAo" node="zI3UExJkUl" resolve="columnsCount" />
                     </node>
                     <node concept="37vLTw" id="zI3UExPOCE" role="3uHU7B">
-                      <ref role="3cqZAo" node="zI3UExPOC_" resolve="i" />
+                      <ref role="3cqZAo" node="zI3UExPOC_" resolve="columnIndex" />
                     </node>
                   </node>
                   <node concept="3uNrnE" id="zI3UExPOCF" role="1Dwrff">
                     <node concept="37vLTw" id="zI3UExPOCG" role="2$L3a6">
-                      <ref role="3cqZAo" node="zI3UExPOC_" resolve="i" />
+                      <ref role="3cqZAo" node="zI3UExPOC_" resolve="columnIndex" />
                     </node>
                   </node>
                 </node>
@@ -1666,15 +1666,15 @@
               </node>
               <node concept="3eOVzh" id="zI3UExPMAC" role="1Dwp0S">
                 <node concept="37vLTw" id="zI3UExPMR5" role="3uHU7w">
-                  <ref role="3cqZAo" node="zI3UExPDAW" resolve="rows" />
+                  <ref role="3cqZAo" node="zI3UExPDAW" resolve="rowsCount" />
                 </node>
                 <node concept="37vLTw" id="zI3UExPLi9" role="3uHU7B">
-                  <ref role="3cqZAo" node="zI3UExPJVY" resolve="i" />
+                  <ref role="3cqZAo" node="zI3UExPJVY" resolve="rowIndex" />
                 </node>
               </node>
               <node concept="3uNrnE" id="zI3UExPOnQ" role="1Dwrff">
                 <node concept="37vLTw" id="zI3UExPOnS" role="2$L3a6">
-                  <ref role="3cqZAo" node="zI3UExPJVY" resolve="i" />
+                  <ref role="3cqZAo" node="zI3UExPJVY" resolve="rowIndex" />
                 </node>
               </node>
             </node>
@@ -1730,7 +1730,7 @@
                             </node>
                           </node>
                           <node concept="2AHcQZ" id="6wbjV0PWdsf" role="2AJF6D">
-                            <ref role="2AI5Lk" to="wyt6:~Override" />
+                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                           </node>
                         </node>
                         <node concept="2tJIrI" id="6wbjV0PWfja" role="jymVt" />
@@ -1840,7 +1840,7 @@
           <node concept="3y3z36" id="5WrZkWQpQc6" role="3clFbw">
             <node concept="10Nm6u" id="5WrZkWQpQop" role="3uHU7w" />
             <node concept="37vLTw" id="5WrZkWQpPea" role="3uHU7B">
-              <ref role="3cqZAo" node="5WrZkWQpPbX" resolve="table" />
+              <ref role="3cqZAo" node="5WrZkWQpPbX" resolve="tablePanel" />
             </node>
           </node>
         </node>
@@ -2657,7 +2657,7 @@
                           <node concept="2qgKlT" id="zI3UExNI6v" role="2OqNvi">
                             <ref role="37wK5l" node="zI3UExNIwv" resolve="modifyLabel" />
                             <node concept="37vLTw" id="zI3UExNI6w" role="37wK5m">
-                              <ref role="3cqZAo" node="zI3UExNI6d" resolve="button" />
+                              <ref role="3cqZAo" node="zI3UExNI6d" resolve="label" />
                             </node>
                           </node>
                         </node>
@@ -2675,7 +2675,7 @@
           <node concept="3y3z36" id="zI3UExNI6z" role="3clFbw">
             <node concept="10Nm6u" id="zI3UExNI6$" role="3uHU7w" />
             <node concept="37vLTw" id="zI3UExNI6_" role="3uHU7B">
-              <ref role="3cqZAo" node="zI3UExNI6d" resolve="button" />
+              <ref role="3cqZAo" node="zI3UExNI6d" resolve="label" />
             </node>
           </node>
         </node>
@@ -2914,7 +2914,7 @@
                           <node concept="2qgKlT" id="6wbjV0QaYf7" role="2OqNvi">
                             <ref role="37wK5l" node="6wbjV0PXG$A" resolve="modifyCheckBox" />
                             <node concept="37vLTw" id="6wbjV0QaYf8" role="37wK5m">
-                              <ref role="3cqZAo" node="6wbjV0QaYeP" resolve="button" />
+                              <ref role="3cqZAo" node="6wbjV0QaYeP" resolve="checkBox" />
                             </node>
                           </node>
                         </node>
@@ -2932,7 +2932,7 @@
           <node concept="3y3z36" id="6wbjV0QaYfb" role="3clFbw">
             <node concept="10Nm6u" id="6wbjV0QaYfc" role="3uHU7w" />
             <node concept="37vLTw" id="6wbjV0QaYfd" role="3uHU7B">
-              <ref role="3cqZAo" node="6wbjV0QaYeP" resolve="button" />
+              <ref role="3cqZAo" node="6wbjV0QaYeP" resolve="checkBox" />
             </node>
           </node>
         </node>
@@ -3034,7 +3034,7 @@
                           <node concept="2qgKlT" id="6wbjV0Q5_x$" role="2OqNvi">
                             <ref role="37wK5l" node="6wbjV0Q4H0t" resolve="modifyImage" />
                             <node concept="37vLTw" id="6wbjV0Q5_x_" role="37wK5m">
-                              <ref role="3cqZAo" node="6wbjV0Q5_xi" resolve="button" />
+                              <ref role="3cqZAo" node="6wbjV0Q5_xi" resolve="labelWithImage" />
                             </node>
                           </node>
                         </node>
@@ -3052,7 +3052,7 @@
           <node concept="3y3z36" id="6wbjV0Q5_xC" role="3clFbw">
             <node concept="10Nm6u" id="6wbjV0Q5_xD" role="3uHU7w" />
             <node concept="37vLTw" id="6wbjV0Q5_xE" role="3uHU7B">
-              <ref role="3cqZAo" node="6wbjV0Q5_xi" resolve="button" />
+              <ref role="3cqZAo" node="6wbjV0Q5_xi" resolve="labelWithImage" />
             </node>
           </node>
         </node>

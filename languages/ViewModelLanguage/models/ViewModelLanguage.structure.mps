@@ -251,7 +251,7 @@
     <property role="TrG5h" value="ImagePool" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="image pool" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6wbjV0Q45xB" role="1TKVEi">
       <property role="IQ2ns" value="7497173622928201831" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -265,7 +265,7 @@
     <property role="3GE5qa" value="viewcomponents.image" />
     <property role="TrG5h" value="Image" />
     <property role="34LRSv" value="image" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6wbjV0Q45xI" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -282,7 +282,7 @@
     <property role="3GE5qa" value="viewcomponents.image" />
     <property role="TrG5h" value="FilePathImageProvider" />
     <property role="34LRSv" value="image path" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6wbjV0Q6zMe" role="PzmwI">
       <ref role="PrY4T" node="5WrZkWQ81on" resolve="IImageProvider" />
     </node>

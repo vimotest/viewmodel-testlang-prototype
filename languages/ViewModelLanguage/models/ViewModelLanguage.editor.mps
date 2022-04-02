@@ -620,7 +620,7 @@
                                             <ref role="37wK5l" to="d155:~EditorComponentUtil.findComponentForNode(org.jetbrains.mps.openapi.model.SNode,com.intellij.openapi.fileEditor.FileEditorManager)" resolve="findComponentForNode" />
                                             <ref role="1Pybhc" to="d155:~EditorComponentUtil" resolve="EditorComponentUtil" />
                                             <node concept="37vLTw" id="Vub8bYOdgL" role="37wK5m">
-                                              <ref role="3cqZAo" node="Vub8bYOdgH" resolve="content" />
+                                              <ref role="3cqZAo" node="Vub8bYOdgH" resolve="targetNode" />
                                             </node>
                                             <node concept="37vLTw" id="5WrZkWQlafu" role="37wK5m">
                                               <ref role="3cqZAo" node="5WrZkWQjXfk" resolve="fileEditorManager" />

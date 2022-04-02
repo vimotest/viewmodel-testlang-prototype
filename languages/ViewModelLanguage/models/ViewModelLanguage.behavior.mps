@@ -1516,7 +1516,7 @@
             <node concept="2OqwBi" id="6wbjV0PXlQC" role="33vP2m">
               <node concept="2OqwBi" id="6wbjV0PXlQD" role="2Oq$k0">
                 <node concept="37vLTw" id="6wbjV0PXlQE" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6wbjV0PXlvg" resolve="imageIcone" />
+                  <ref role="3cqZAo" node="6wbjV0PXlvg" resolve="imageIcon" />
                 </node>
                 <node concept="liA8E" id="6wbjV0PXlQF" role="2OqNvi">
                   <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
@@ -2231,7 +2231,7 @@
                   <node concept="3cpWs3" id="6wbjV0Q7bLZ" role="9lYJi">
                     <node concept="2OqwBi" id="6wbjV0Q7bM0" role="3uHU7w">
                       <node concept="37vLTw" id="6wbjV0Q7bM1" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6wbjV0Q6C4W" resolve="file" />
+                        <ref role="3cqZAo" node="6wbjV0Q6C4W" resolve="imageFile" />
                       </node>
                       <node concept="liA8E" id="6wbjV0Q7bM2" role="2OqNvi">
                         <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
@@ -2249,7 +2249,7 @@
               <node concept="3fqX7Q" id="6wbjV0Q6ZSU" role="3clFbw">
                 <node concept="2OqwBi" id="6wbjV0Q6ZSW" role="3fr31v">
                   <node concept="37vLTw" id="6wbjV0Q6ZSX" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6wbjV0Q6C4W" resolve="file" />
+                    <ref role="3cqZAo" node="6wbjV0Q6C4W" resolve="imageFile" />
                   </node>
                   <node concept="liA8E" id="6wbjV0Q6ZSY" role="2OqNvi">
                     <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
@@ -2267,7 +2267,7 @@
                   <ref role="1Pybhc" to="oqcp:~ImageIO" resolve="ImageIO" />
                   <ref role="37wK5l" to="oqcp:~ImageIO.read(java.io.File)" resolve="read" />
                   <node concept="37vLTw" id="6wbjV0Q6$p1" role="37wK5m">
-                    <ref role="3cqZAo" node="6wbjV0Q6C4W" resolve="file" />
+                    <ref role="3cqZAo" node="6wbjV0Q6C4W" resolve="imageFile" />
                   </node>
                 </node>
               </node>
