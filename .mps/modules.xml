@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/ViewEditorExtensions/ViewEditorExtensions.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ViewModelLanguage/ViewModelLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ViewModelLanguage/sandbox/ViewModelLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ViewModelLanguage2Java/ViewModelLanguage2Java.mpl" folder="generators" />
       <modulePath path="$PROJECT_DIR$/languages/ViewModelTestLanguage/ViewModelTestLanguage.mpl" folder="" />
     </projectModules>
   </component>
