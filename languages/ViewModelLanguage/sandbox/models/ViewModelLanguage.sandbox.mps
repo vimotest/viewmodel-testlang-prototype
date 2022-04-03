@@ -10,6 +10,9 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -78,6 +81,11 @@
       </concept>
       <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
         <child id="643469022294099062" name="checks" index="2D8cJs" />
+      </concept>
+      <concept id="4126317592746173580" name="ViewModelTestLanguage.structure.MultiLineStringContext" flags="ng" index="NlNHL">
+        <property id="4126317592746173583" name="lines" index="NlNHM" />
+        <property id="4126317592746625582" name="subjectName" index="Nm1nj" />
+        <property id="4126317592747383389" name="fileName" index="Np8mw" />
       </concept>
       <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
         <child id="3426401106045796780" name="objects" index="30k8ga" />
@@ -469,11 +477,14 @@
     <property role="TrG5h" value="HamsterView" />
     <property role="3GE5qa" value="hamster" />
     <node concept="3H8Xym" id="5hmNBhT2vOp" role="3H8Xyh">
-      <property role="TrG5h" value="loadView" />
+      <property role="TrG5h" value="loadTerritory" />
       <node concept="2P4x69" id="5hmNBhT2vOt" role="2P43km">
         <property role="TrG5h" value="territoryName" />
         <node concept="2P4D6h" id="5hmNBhT2vOs" role="2P5Oin" />
       </node>
+    </node>
+    <node concept="3H8Xym" id="3_3BZOa9cvV" role="3H8Xyh">
+      <property role="TrG5h" value="movePaule" />
     </node>
     <node concept="3H8Xwz" id="5hmNBhT2vOw" role="3H8Xyh" />
     <node concept="3H8Xy_" id="5hmNBhT2vLI" role="3H8Xyx">
@@ -603,34 +614,26 @@
       <node concept="30nyDl" id="5hmNBhT2vOL" role="30nziG">
         <property role="30nzmz" value="Hamster 3x3 territory loaded" />
         <node concept="30nyDi" id="5hmNBhT2vOM" role="30nyDj">
-          <property role="30lZVK" value="3 x 3 grid" />
+          <property role="30lZVK" value="Example01 3 x 3 grid" />
         </node>
         <node concept="30nyDi" id="5hmNBhT2vON" role="30nyDh">
-          <property role="30lZVK" value="Load View" />
+          <property role="30lZVK" value="Load Territory" />
         </node>
         <node concept="30nyDi" id="5hmNBhT2vOO" role="30nyDs">
-          <property role="30lZVK" value="Territory is loaded with 3 x 3 grid" />
+          <property role="30lZVK" value="Territory shows 3 x 3 grid" />
         </node>
-      </node>
-      <node concept="30k8jE" id="5hmNBhT2vP4" role="30nziE">
-        <node concept="30k8jF" id="5hmNBhT2vP7" role="30k8ga">
-          <property role="TrG5h" value="territory" />
-          <node concept="30k8jQ" id="5hmNBhT2vP9" role="30k8js">
-            <property role="TrG5h" value="row" />
-            <property role="30k8jP" value="&quot;###&quot;" />
-          </node>
-          <node concept="30k8jQ" id="5hmNBhT2vPb" role="30k8js">
-            <property role="TrG5h" value="row" />
-            <property role="30k8jP" value="&quot;&gt; *&quot;" />
-          </node>
-          <node concept="30k8jQ" id="5hmNBhT2vPm" role="30k8js">
-            <property role="TrG5h" value="row" />
-            <property role="30k8jP" value="&quot;###&quot;" />
-          </node>
+        <node concept="30nyDi" id="3_3BZOaanSX" role="30nyDs">
+          <property role="30lZVK" value="Only pause button is sensitive" />
         </node>
       </node>
       <node concept="30nziD" id="5hmNBhT2vOQ" role="30nzo2">
         <ref role="30nziQ" node="5hmNBhT2vOp" resolve="loadView" />
+        <node concept="Xl_RD" id="3_3BZOaanSJ" role="30nziO">
+          <property role="Xl_RC" value="example01.ter" />
+        </node>
+      </node>
+      <node concept="30nziD" id="3_3BZOa9cwC" role="30nzo2">
+        <ref role="30nziQ" node="3_3BZOa9cvV" resolve="move" />
       </node>
       <node concept="30nzp_" id="5hmNBhT2vOR" role="30nzpy">
         <ref role="30nzpS" node="5hmNBhT2vLL" resolve="territory" />
@@ -663,14 +666,14 @@
             <node concept="1u3WYF" id="5hmNBhT2vQf" role="1Dvt80">
               <node concept="1u6pYw" id="5hmNBhT2vQg" role="1u3WYG">
                 <node concept="1u6r32" id="5hmNBhT2vQh" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMi" resolve="hamster_paule" />
+                  <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamser_tile" />
                 </node>
               </node>
             </node>
             <node concept="1u3WYF" id="5hmNBhT2vQi" role="1Dvt80">
               <node concept="1u6pYw" id="5hmNBhT2vQj" role="1u3WYG">
                 <node concept="1u6r32" id="5hmNBhT2vQk" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamser_tile" />
+                  <ref role="1u6r35" node="5hmNBhT2vMi" resolve="hamster_paule" />
                 </node>
               </node>
             </node>
@@ -736,6 +739,11 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="NlNHL" id="3_3BZOa5JGy" role="30nziE">
+        <property role="NlNHM" value="###&#10;&gt; *&#10;###" />
+        <property role="Nm1nj" value="file" />
+        <property role="Np8mw" value="example01.ter" />
       </node>
     </node>
   </node>
