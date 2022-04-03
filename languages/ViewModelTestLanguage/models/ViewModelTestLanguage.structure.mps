@@ -236,6 +236,9 @@
     <node concept="PrWs8" id="zI3UExNO9x" role="PzmwI">
       <ref role="PrY4T" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
     </node>
+    <node concept="PrWs8" id="3_3BZO9RVpO" role="PzmwI">
+      <ref role="PrY4T" node="6wbjV0Q4H0h" resolve="IImageCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJONg2">
     <property role="EcuMT" value="3426401106045121538" />
@@ -380,6 +383,11 @@
       <property role="20kJfa" value="rowChecks" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5WrZkWQpyX6" resolve="TableRowCheck" />
+    </node>
+    <node concept="1TJgyi" id="3_3BZO9QvAh" role="1TKVEl">
+      <property role="IQ2nx" value="4126317592742328721" />
+      <property role="TrG5h" value="hideColumnHeaders" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="PlHQZ" id="5WrZkWQpyWY">

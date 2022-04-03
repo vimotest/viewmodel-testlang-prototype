@@ -6,6 +6,7 @@
     <use id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline" version="0" />
     <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="1" />
     <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
+    <use id="602c36ad-cc55-47ff-8c40-73d7f12f035c" name="jetbrains.mps.lang.editor.forms" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -294,6 +295,16 @@
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
+    <language id="602c36ad-cc55-47ff-8c40-73d7f12f035c" name="jetbrains.mps.lang.editor.forms">
+      <concept id="312429380032619384" name="jetbrains.mps.lang.editor.forms.structure.CellModel_Checkbox" flags="ng" index="2yq9I_">
+        <reference id="3696012239575138271" name="propertyDeclaration" index="225u1j" />
+        <child id="1340057216891284122" name="ui" index="1563LE" />
+      </concept>
+      <concept id="1340057216891283515" name="jetbrains.mps.lang.editor.forms.structure.CheckboxUI_Text" flags="ng" index="1563Vb">
+        <property id="1340057216891283520" name="falseText" index="1563UK" />
+        <property id="1340057216891283518" name="trueText" index="1563Ve" />
       </concept>
     </language>
     <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
@@ -1824,6 +1835,19 @@
       <node concept="3F2HdR" id="zI3UExNRe6" role="3EZMnx">
         <ref role="1NtTu8" to="l8rz:zI3UExNRdO" resolve="rowChecks" />
         <node concept="2iRkQZ" id="zI3UExNRe8" role="2czzBx" />
+      </node>
+    </node>
+    <node concept="3EZMnI" id="3_3BZO9QvMK" role="6VMZX">
+      <node concept="l2Vlx" id="3_3BZO9QvML" role="2iSdaV" />
+      <node concept="3F0ifn" id="3_3BZO9QvMO" role="3EZMnx">
+        <property role="3F0ifm" value="hide columns headers:" />
+      </node>
+      <node concept="2yq9I_" id="3_3BZO9QvNd" role="3EZMnx">
+        <ref role="225u1j" to="l8rz:3_3BZO9QvAh" resolve="hideColumnHeaders" />
+        <node concept="1563Vb" id="3_3BZO9QvNf" role="1563LE">
+          <property role="1563UK" value="[ ]" />
+          <property role="1563Ve" value="[x]" />
+        </node>
       </node>
     </node>
   </node>
