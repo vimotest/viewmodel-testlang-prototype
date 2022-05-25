@@ -165,6 +165,7 @@
   </registry>
   <node concept="3H8XyA" id="3JS2UjmSmXC">
     <property role="TrG5h" value="MyView" />
+    <property role="3GE5qa" value="sample" />
     <node concept="3H8Xym" id="3JS2UjmUbmW" role="3H8Xyh">
       <property role="TrG5h" value="LoadView" />
       <node concept="2P4x69" id="3JS2UjmUbnd" role="2P43km">
@@ -227,6 +228,7 @@
   </node>
   <node concept="30n1Qd" id="2Yd1qrJPuoQ">
     <property role="TrG5h" value="MyTestSuite" />
+    <property role="3GE5qa" value="sample" />
     <ref role="30n1PB" node="3JS2UjmSmXC" resolve="MyView" />
     <node concept="30n1Qa" id="2Yd1qrJPAvf" role="30n1Qb">
       <node concept="30nyDl" id="2Yd1qrJPAvg" role="30nziG">
@@ -448,6 +450,7 @@
     </node>
   </node>
   <node concept="1u6Luu" id="6wbjV0Q6qzj">
+    <property role="3GE5qa" value="sample" />
     <node concept="1u6Luv" id="6wbjV0Q6YmZ" role="1u6Lvn">
       <property role="TrG5h" value="Star" />
       <node concept="1u4ncX" id="6wbjV0Q6Yn5" role="1u6L2h">
