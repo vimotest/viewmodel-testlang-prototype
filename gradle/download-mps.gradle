@@ -82,7 +82,7 @@ task buildMpsZipBundle {
                 println("unzipping $zipFile into $targetFolderName/plugins")
                 from zipTree(zipFile)
             }
-            into file("$targetFolderName/dependencies")
+            into file("$outputBundleDirectory/dependencies")
         }
 
         println("finished prepare of MPS Version $mpsVersion")

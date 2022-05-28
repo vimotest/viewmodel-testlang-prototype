@@ -7,7 +7,7 @@
           <value>
             <Library>
               <option name="name" value="dependencies" />
-              <option name="path" value="$PROJECT_DIR$/build/mps-bundle/mps/dependencies" />
+              <option name="path" value="$PROJECT_DIR$/build/mps-bundle/dependencies" />
             </Library>
           </value>
         </entry>
