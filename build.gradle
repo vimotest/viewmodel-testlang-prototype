@@ -25,10 +25,10 @@ task openProjectInMps(type: Exec) {
     }
 }
 
+ant.properties.'mps_home' = getMpsHome()
 ant.importBuild("build.xml") { antTargetName ->
     'ant-' + antTargetName
 }
-ant.properties.'mps_home' = getMpsHome()
 
 task mpsBuildXml {
     group 'mps'
