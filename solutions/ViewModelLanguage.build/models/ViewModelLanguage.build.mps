@@ -4,7 +4,6 @@
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
-    <engage id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -123,12 +122,14 @@
     </node>
     <node concept="2sgV4H" id="5iMULAaidyS" role="1l3spa">
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
-      <node concept="398BVA" id="5iMULAaidyX" role="2JcizS">
-        <ref role="398BVh" node="1n6T2_x2WNB" resolve="mps_home" />
-        <node concept="2Ry0Ak" id="5iMULAaidz2" role="iGT6I">
-          <property role="2Ry0Am" value="dependencies" />
-          <node concept="2Ry0Ak" id="HNTId9Ugtu" role="2Ry0An">
-            <property role="2Ry0Am" value="de.itemis.mps.extensions" />
+      <node concept="55IIr" id="249Z$ScP_Ni" role="2JcizS">
+        <node concept="2Ry0Ak" id="249Z$ScP_Nl" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="249Z$ScP_No" role="2Ry0An">
+            <property role="2Ry0Am" value="mps-bundle" />
+            <node concept="2Ry0Ak" id="249Z$ScP_Nr" role="2Ry0An">
+              <property role="2Ry0Am" value="dependencies" />
+            </node>
           </node>
         </node>
       </node>

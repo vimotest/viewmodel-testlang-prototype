@@ -24,3 +24,20 @@ task openProjectInMps(type: Exec) {
         commandLine 'sh', 'build/mps-bundle/mps/bin/mps.sh', projectDir
     }
 }
+
+ant.importBuild("build.xml") { antTargetName ->
+    'ant-' + antTargetName
+}
+ant.properties.'mps_home' = getMpsHome()
+
+task mpsBuildXml {
+    group 'mps'
+    dependsOn 'ant-build'
+}
+
+private static String getMpsHome() {
+    if (Os.isFamily(Os.FAMILY_MAC)) {
+        return 'build/mps-bundle/Contents'
+    }
+    return 'build/mps-bundle/mps'
+}
