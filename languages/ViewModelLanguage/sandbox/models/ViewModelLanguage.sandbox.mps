@@ -630,13 +630,13 @@
         </node>
       </node>
       <node concept="30nziD" id="5hmNBhT2vOQ" role="30nzo2">
-        <ref role="30nziQ" node="5hmNBhT2vOp" resolve="loadView" />
+        <ref role="30nziQ" node="5hmNBhT2vOp" resolve="loadTerritory" />
         <node concept="Xl_RD" id="3_3BZOaanSJ" role="30nziO">
           <property role="Xl_RC" value="example01.ter" />
         </node>
       </node>
       <node concept="30nziD" id="3_3BZOa9cwC" role="30nzo2">
-        <ref role="30nziQ" node="3_3BZOa9cvV" resolve="move" />
+        <ref role="30nziQ" node="3_3BZOa9cvV" resolve="movePaule" />
       </node>
       <node concept="30nzp_" id="5hmNBhT2vOR" role="30nzpy">
         <ref role="30nzpS" node="5hmNBhT2vLL" resolve="territory" />

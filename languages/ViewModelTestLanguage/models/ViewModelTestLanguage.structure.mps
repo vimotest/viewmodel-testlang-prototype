@@ -527,7 +527,7 @@
     <property role="EcuMT" value="4126317592746173580" />
     <property role="3GE5qa" value="context.string" />
     <property role="TrG5h" value="MultiLineStringContext" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3_3BZOa5aid" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="IContext" />
     </node>

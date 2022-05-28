@@ -1,5 +1,6 @@
 ext.mpsVersion = "2021.2.4"
-ext.mpsPlugins = [ "de.itemis.mps.grammarcells": 13242 ]
+ext.mpsPlugins = [ "de.itemis.mps.extensions.build": 17136,
+                   "de.itemis.mps.grammarcells": 13242 ]
 
 apply from: 'gradle/download-mps.gradle'
 
