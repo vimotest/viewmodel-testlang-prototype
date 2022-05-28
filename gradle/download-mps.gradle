@@ -73,9 +73,9 @@ task buildMpsZipBundle {
             from zipTree(mpsZipFile)
             into outputBundleDirectory
         }
-        addLocalPluginsPathToVmOptions("$targetFolderName")
-
         file("$outputBundleDirectory/MPS $mpsMajorMinorVersion").renameTo(targetFolderName)
+
+        addLocalPluginsPathToVmOptions("$targetFolderName")
 
         copy {
             fileTree(dir: pluginsDirectory, includes: ['**/*.zip']).each { zipFile ->
