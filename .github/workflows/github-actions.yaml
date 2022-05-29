@@ -29,6 +29,8 @@ jobs:
       # Test Project
       - name: Test Project
         run: sh ./gradlew mpsTest
+        env:
+          DISPLAY: :1
 
       # Stop Xvfb
       - name: Tear down xvfb
