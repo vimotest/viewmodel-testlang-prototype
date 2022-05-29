@@ -10,6 +10,21 @@ task prepareMps {
     dependsOn buildOsSpecificBundle
 }
 
+task mpsBuildXml {
+    group 'mps'
+    dependsOn 'mpsAntGenerate', 'mpsAntBuild'
+}
+
+task mpsClean {
+    group 'mps'
+    dependsOn 'mpsAntCleanSources'
+}
+
+task mpsTest {
+    group 'mps'
+    dependsOn 'mpsAntCheck'
+}
+
 import org.apache.tools.ant.taskdefs.condition.Os
 task openProjectInMps(type: Exec) {
     group 'mps'
@@ -26,12 +41,7 @@ task openProjectInMps(type: Exec) {
     }
 }
 
-task mpsBuildXml {
+task buildAndOpenProjectInMps(type: Exec) {
     group 'mps'
-    dependsOn 'mpsAntGenerate'
-}
-
-task mpsCleanBuild {
-    group 'mps'
-    dependsOn 'mpsAntCleanSources'
+    dependsOn mpsBuildXml, openProjectInMps
 }

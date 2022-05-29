@@ -16,8 +16,32 @@ task mpsAntGenerate(type: Exec) {
     commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "generate"
 }
 
+task mpsAntBuild(type: Exec) {
+    commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "build"
+}
+
+task mpsAntCheck(type: Exec) {
+    commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "check"
+    // todo: parse output XML for failures (like https://gist.github.com/eric100lin/7059be7d6fff9e9065a2a1acadb6b01d)
+}
+
 task mpsAntCleanSources(type: Exec) {
     commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "cleanSources"
+
+    doLast {
+        def dirsToDelete = collectGeneratedDirs(file("languages")) + collectGeneratedDirs(file("solutions"))
+        dirsToDelete.each { it.deleteDir() }
+    }
+}
+
+private List<File> collectGeneratedDirs(File baseDir) {
+    def dirs = []
+    file(baseDir).eachDirRecurse {
+        if (it.name.endsWith("_gen.caches") || it.name == "classes_gen" || it.name == "source_gen") {
+            dirs += it
+        }
+    }
+    return dirs
 }
 
 private static String getJbrHome() {

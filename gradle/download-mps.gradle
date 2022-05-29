@@ -209,14 +209,14 @@ task buildOsSpecificBundle {
     }
 }
 
-task cleanMps(type: Delete) {
+task cleanMpsBundle(type: Delete) {
     group 'mps'
     delete file("build/download")
     delete file("$outputBundleDirectory")
 }
 
 if (project.tasks.findByName('clean')) {
-    clean.dependsOn cleanMps
+    clean.dependsOn cleanMpsBundle
 }
 
 task listPlugins {
