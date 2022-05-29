@@ -572,11 +572,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="1n6T2_x2WRs" role="3bR37C">
-          <node concept="3bR9La" id="1n6T2_x2WRt" role="1SiIV1">
-            <ref role="3bR37D" node="1n6T2_x2WO2" resolve="ViewModelTestLanguage" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="1n6T2_x2WRu" role="3bR37C">
           <node concept="3bR9La" id="1n6T2_x2WRv" role="1SiIV1">
             <ref role="3bR37D" node="1n6T2_x2WNQ" resolve="SimpleTypeLanguage" />
