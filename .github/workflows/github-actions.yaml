@@ -16,7 +16,7 @@ jobs:
 
       # Install needed dependencies
       - name: Install Unix dependencies
-        run: apt update && apt install libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libxext-dev
+        run: sudo apt update && sudo apt install libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libxext-dev
 
       # Prepare MPS
       - name: Download and Prepare MPS
