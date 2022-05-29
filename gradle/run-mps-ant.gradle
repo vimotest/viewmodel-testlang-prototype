@@ -1,0 +1,29 @@
+/*
+  Note: calling ant directly will not work for some reasons with MPS.
+        So as a workaround, use the bundled JVM (JBR) and ANT libs which are downloaded with MPS (see download-mps.gradle)
+ */
+
+import org.apache.tools.ant.taskdefs.condition.Os
+
+def mpsHome = getMpsHome()
+def javaHome = "$mpsHome/jbr"
+def antHome = "$mpsHome/lib/ant"
+
+def antLauncherJarPath = "$antHome/lib/ant-launcher.jar"
+def mpsUtilJarPath = "$mpsHome/lib/util.jar"
+
+task mpsAntGenerate(type: Exec) {
+    commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "generate"
+}
+
+task mpsAntCleanSources(type: Exec) {
+    commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "cleanSources"
+}
+
+private static String getMpsHome() {
+    if (Os.isFamily(Os.FAMILY_MAC)) {
+        return 'build/mps-bundle/Contents'
+    }
+    return 'build/mps-bundle/mps'
+}
+

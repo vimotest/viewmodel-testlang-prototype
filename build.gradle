@@ -3,6 +3,7 @@ ext.mpsPlugins = [ "de.itemis.mps.extensions.build": 17136,
                    "de.itemis.mps.grammarcells": 13242 ]
 
 apply from: 'gradle/download-mps.gradle'
+apply from: 'gradle/run-mps-ant.gradle'
 
 task prepareMps {
     group 'mps'
@@ -25,19 +26,12 @@ task openProjectInMps(type: Exec) {
     }
 }
 
-ant.properties.'mps_home' = getMpsHome()
-ant.importBuild("build.xml") { antTargetName ->
-    'ant-' + antTargetName
-}
-
 task mpsBuildXml {
     group 'mps'
-    dependsOn 'ant-build'
+    dependsOn 'mpsAntGenerate'
 }
 
-private static String getMpsHome() {
-    if (Os.isFamily(Os.FAMILY_MAC)) {
-        return 'build/mps-bundle/Contents'
-    }
-    return 'build/mps-bundle/mps'
+task mpsCleanBuild {
+    group 'mps'
+    dependsOn 'mpsAntCleanSources'
 }
