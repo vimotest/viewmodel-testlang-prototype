@@ -22,7 +22,10 @@ task mpsAntBuild(type: Exec) {
 
 task mpsAntCheck(type: Exec) {
     commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "check"
+}
 
+task parseTestReportAfterAntCheck {
+    dependsOn mpsAntCheck
     doLast {
         def anyTaskFailed = false
         fileTree(dir: projectDir, includes: ["TEST-jetbrains.mps.testbench.junit.*.xml"]).each {

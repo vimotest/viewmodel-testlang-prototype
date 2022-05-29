@@ -22,7 +22,7 @@ task mpsClean {
 
 task mpsTest {
     group 'mps'
-    dependsOn 'mpsAntCheck'
+    dependsOn 'mpsAntCheck', 'parseTestReportAfterAntCheck'
 }
 
 import org.apache.tools.ant.taskdefs.condition.Os
