@@ -35,6 +35,9 @@ task parseTestReportAfterAntCheck {
                 if (!testcase.failure.isEmpty()) {
                     result = "FAIL"
                     anyTaskFailed = true
+                } else if (!testcase.error.isEmpty()) {
+                    result = "ERROR"
+                    anyTaskFailed = true
                 } else if (!testcase.skipped.isEmpty()) {
                     result = "SKIP"
                 }
