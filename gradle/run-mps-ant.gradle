@@ -22,7 +22,30 @@ task mpsAntBuild(type: Exec) {
 
 task mpsAntCheck(type: Exec) {
     commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "check"
-    // todo: parse output XML for failures (like https://gist.github.com/eric100lin/7059be7d6fff9e9065a2a1acadb6b01d)
+
+    doLast {
+        def anyTaskFailed = false
+        fileTree(dir: projectDir, includes: ["TEST-jetbrains.mps.testbench.junit.*.xml"]).each {
+            def testsuite = new XmlSlurper().parse(it)
+            testsuite.testcase.each { testcase ->
+                def result = "PASS"
+                if (!testcase.failure.isEmpty()) {
+                    result = "FAIL"
+                    anyTaskFailed = true
+                } else if (!testcase.skipped.isEmpty()) {
+                    result = "SKIP"
+                }
+
+                println("${result} ${testcase.@classname}#${testcase.@name}")
+            }
+            file("$projectDir/build/mps-tests").mkdirs()
+            it.renameTo(file("$projectDir/build/mps-tests/$it.name"))
+        }
+
+        if (anyTaskFailed) {
+            throw new GradleException("At least one MPS test failed")
+        }
+    }
 }
 
 task mpsAntCleanSources(type: Exec) {
