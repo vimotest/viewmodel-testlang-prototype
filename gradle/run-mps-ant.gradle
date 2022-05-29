@@ -31,18 +31,21 @@ task parseTestReportAfterAntCheck {
         fileTree(dir: projectDir, includes: ["TEST-jetbrains.mps.testbench.junit.*.xml"]).each {
             def testsuite = new XmlSlurper().parse(it)
             testsuite.testcase.each { testcase ->
+                def message = ""
                 def result = "PASS"
                 if (!testcase.failure.isEmpty()) {
                     result = "FAIL"
+                    message = ": ${testcase.failure.@message}"
                     anyTaskFailed = true
                 } else if (!testcase.error.isEmpty()) {
                     result = "ERROR"
+                    message = ": ${testcase.error.@message}"
                     anyTaskFailed = true
                 } else if (!testcase.skipped.isEmpty()) {
                     result = "SKIP"
                 }
 
-                println("${result} ${testcase.@classname}#${testcase.@name}")
+                println("${result} ${testcase.@classname}#${testcase.@name}${message}")
             }
             file("$projectDir/build/mps-tests").mkdirs()
             it.renameTo(file("$projectDir/build/mps-tests/$it.name"))
