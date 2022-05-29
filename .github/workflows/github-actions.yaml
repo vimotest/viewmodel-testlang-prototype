@@ -14,11 +14,9 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
-      # Install needed dependencies
-      - name: Setup xvfb for screen 0
+      # Install Xvfb for avoiding X11 window server AWTError when running tests (https://arbitrary-but-fixed.net/2022/01/21/headless-gui-github-actions.html)
+      - name: Setup xvfb for X11 window server
         run: Xvfb :1 -screen 0 1600x1200x24 &
-      - name: Install Unix dependencies
-        run: sudo apt update && sudo apt install libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libxext-dev
 
       # Prepare MPS
       - name: Download and Prepare MPS
@@ -31,8 +29,7 @@ jobs:
       # Test Project
       - name: Test Project
         run: sh ./gradlew mpsTest
-        env:
-          DISPLAY: :1
 
+      # Stop Xvfb
       - name: Tear down xvfb
         run: killall Xvfb
