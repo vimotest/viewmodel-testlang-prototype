@@ -6,7 +6,7 @@
 import org.apache.tools.ant.taskdefs.condition.Os
 
 def mpsHome = getMpsHome()
-def javaHome = "$mpsHome/jbr"
+def javaHome = getJbrHome()
 def antHome = "$mpsHome/lib/ant"
 
 def antLauncherJarPath = "$antHome/lib/ant-launcher.jar"
@@ -18,6 +18,14 @@ task mpsAntGenerate(type: Exec) {
 
 task mpsAntCleanSources(type: Exec) {
     commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "cleanSources"
+}
+
+private static String getJbrHome() {
+    def mpsHome = getMpsHome()
+    if (Os.isFamily(Os.FAMILY_MAC)) {
+        return "$mpsHome/jbr/Contents/Home"
+    }
+    return "$mpsHome/jbr"
 }
 
 private static String getMpsHome() {
