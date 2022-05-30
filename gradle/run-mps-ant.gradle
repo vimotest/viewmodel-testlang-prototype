@@ -26,6 +26,11 @@ task mpsAntCheck(type: Exec) {
 
 task parseTestReportAfterAntCheck {
     dependsOn mpsAntCheck
+
+    def mpsTestsReportDir = file("$projectDir/build/mps-tests")
+    doFirst {
+        mpsTestsReportDir.deleteDir()
+    }
     doLast {
         def anyTaskFailed = false
         fileTree(dir: projectDir, includes: ["TEST-jetbrains.mps.testbench.junit.*.xml"]).each {
@@ -47,8 +52,8 @@ task parseTestReportAfterAntCheck {
 
                 println("${result} ${testcase.@classname}#${testcase.@name}${message}")
             }
-            file("$projectDir/build/mps-tests").mkdirs()
-            it.renameTo(file("$projectDir/build/mps-tests/$it.name"))
+            mpsTestsReportDir.mkdirs()
+            it.renameTo(file("$mpsTestsReportDir/$it.name"))
         }
 
         if (anyTaskFailed) {
