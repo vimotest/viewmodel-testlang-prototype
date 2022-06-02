@@ -4,6 +4,7 @@ ext.mpsPlugins = [ "de.itemis.mps.extensions.build": 17136,
 
 apply from: 'gradle/download-mps.gradle'
 apply from: 'gradle/run-mps-ant.gradle'
+apply from: 'gradle/download-hamstersimulator.gradle'
 
 task prepareMps {
     group 'mps'

@@ -1,0 +1,46 @@
+
+def hamsterSubDir = file("build/hamster")
+def hamsterWorkingDir = file("$hamsterSubDir/code")
+
+task downloadHamsterSimulator() {
+    group 'hamster'
+
+    onlyIf {
+        !hamsterWorkingDir.exists()
+    }
+
+    doLast {
+        def url = 'https://github.com/SQAHamster/mpw-hamster-examples/archive/refs/heads/master.zip'
+        println("downloading hamstersimulator from $url")
+        def zipFile = file("$hamsterSubDir/repo-master.zip")
+
+        if (zipFile.exists()) {
+            zipFile.delete()
+        }
+
+        zipFile.parentFile.mkdirs()
+        new URL(url).withInputStream { downloadInputStream -> zipFile.withOutputStream { it << downloadInputStream } }
+
+        copy {
+            from zipTree(zipFile).matching { include '**/java-examples/**/*' }
+            into hamsterSubDir
+        }
+
+        file("$hamsterSubDir/mpw-hamster-examples-master/java-examples").renameTo(hamsterWorkingDir)
+        file("$hamsterSubDir/mpw-hamster-examples-master").deleteDir()
+    }
+
+}
+
+import org.apache.tools.ant.taskdefs.condition.Os
+task makeAndTestHamsterSimulatorViewTest(type: Exec) {
+    group 'hamster'
+    dependsOn downloadHamsterSimulator
+
+    workingDir hamsterWorkingDir
+    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        commandLine 'mvn.cmd', 'test'
+    } else {
+        commandLine 'mvn', 'test'
+    }
+}
