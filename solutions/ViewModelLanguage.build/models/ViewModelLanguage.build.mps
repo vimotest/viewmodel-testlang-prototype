@@ -9,6 +9,7 @@
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.itemis.mps.extensions.build)" />
+    <import index="ixvu" ref="r:83d51b4a-f42c-4cb2-ae4c-1a9c54aacd6e(ViewModelLanguage2Java.generator.runtime)" />
   </imports>
   <registry>
     <language id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests">
@@ -669,6 +670,17 @@
             <node concept="3qWCbU" id="7xn_gHyFlr9" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="3bR9La" id="4Nu_lFVfuSU" role="3bR37C">
+          <ref role="3bR37D" to="ffeo:1xb0AuwN7WS" resolve="JUnit" />
+        </node>
+        <node concept="3bR9La" id="4Nu_lFVfBsy" role="3bR37C">
+          <ref role="3bR37D" node="1n6T2_x2WPj" resolve="ViewModelLanguage2Java.generator" />
+        </node>
+        <node concept="1SiIV0" id="4Nu_lFVfBu0" role="3bR37C">
+          <node concept="3bR9La" id="4Nu_lFVfBu1" role="1SiIV1">
+            <ref role="3bR37D" node="1n6T2_x2WPj" resolve="ViewModelLanguage2Java.generator" />
           </node>
         </node>
       </node>
