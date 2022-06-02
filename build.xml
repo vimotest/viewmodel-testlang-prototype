@@ -481,7 +481,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.ViewModelLanguage2Java" depends="java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, fetchDependencies">
+  <target name="java.compile.ViewModelLanguage2Java" depends="java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, java.compile.ViewModelTestLanguage, fetchDependencies">
     <mkdir dir="${mps.macro.project_home}/languages/ViewModelLanguage2Java/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage2Java" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage2Java" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -519,6 +519,8 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <pathelement path="${build.tmp}/java/out/SimpleTypeLanguage" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage" />
+        <pathelement path="${build.tmp}/java/out/ViewModelTestLanguage" />
+        <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
@@ -532,7 +534,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.ViewModelLanguage2Java.generator" depends="java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, java.compile.ViewModelLanguage2Java, fetchDependencies">
+  <target name="java.compile.ViewModelLanguage2Java.generator" depends="java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, java.compile.ViewModelLanguage2Java, java.compile.ViewModelTestLanguage, fetchDependencies">
     <mkdir dir="${mps.macro.project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage2Java.generator" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage2Java.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -571,6 +573,8 @@
         <pathelement path="${build.tmp}/java/out/SimpleTypeLanguage" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java" />
+        <pathelement path="${build.tmp}/java/out/ViewModelTestLanguage" />
+        <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
