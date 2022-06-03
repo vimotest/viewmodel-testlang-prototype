@@ -37,6 +37,21 @@ task makeAndTestHamsterSimulatorViewTest(type: Exec) {
     group 'hamster'
     dependsOn downloadHamsterSimulator
 
+    // modify the pom.xml to integrate junit (this shall be done directly in the hamster-examples repo in future)
+    doFirst {
+        def pomFile = file("$hamsterWorkingDir/pom.xml")
+        if (!pomFile.text.contains("org.junit.jupiter")) {
+            pomFile.text = pomFile.text.replace("</dependencies>", """\t<dependency>
+\t\t\t<groupId>org.junit.jupiter</groupId>
+\t\t\t<artifactId>junit-jupiter</artifactId>
+\t\t\t<version>5.7.1</version>
+\t\t\t<scope>test</scope>
+\t\t</dependency>
+\t</dependencies>
+""")
+        }
+    }
+
     workingDir hamsterWorkingDir
     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         commandLine 'mvn.cmd', 'test'

@@ -236,6 +236,7 @@
       <library file="${artifacts.mps}/languages/tools/jetbrains.mps.tool.common.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.java.stub.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.kernel.jar" />
+      <library file="${artifacts.mps}/languages/util/jetbrains.mps.lang.makeup.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.project.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.refactoring.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.runtime.jar" />
@@ -244,11 +245,11 @@
         <module file="${basedir}/languages/ViewEditorExtensions/ViewEditorExtensions.mpl" />
         <module file="${basedir}/languages/ViewModelLanguage/ViewModelLanguage.mpl" />
         <module file="${basedir}/solutions/ViewModelLanguage.test/ViewModelLanguage.test.msd" />
+        <module file="${basedir}/languages/ViewModelLanguage2Java/ViewModelLanguage2Java.mpl" />
         <module file="${basedir}/languages/ViewModelTestLanguage/ViewModelTestLanguage.mpl" />
       </chunk>
       <chunk>
         <module file="${basedir}/languages/ViewModelLanguage/sandbox/ViewModelLanguage.sandbox.msd" />
-        <module file="${basedir}/languages/ViewModelLanguage2Java/ViewModelLanguage2Java.mpl" />
       </chunk>
       <jvmargs>
         <arg value="-ea" />
@@ -524,10 +525,14 @@
         <fileset file="${artifacts.mps}/lib/util.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.table.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.lang.makeup.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
   </target>
@@ -578,9 +583,13 @@
         <fileset file="${artifacts.mps}/lib/util.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.table.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.lang.makeup.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
   </target>
@@ -628,12 +637,10 @@
         <fileset file="${artifacts.mps}/lib/util.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
-        <fileset file="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.grammarcells/languages/de.itemis.mps.grammarcells/com.mbeddr.mpsutil.grammarcells.runtime.jar" />
         <fileset file="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.runtime.jar" />
         <fileset file="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.styles.jar" />
         <fileset file="${artifacts.de.itemis.mps.extensions}/mps-multiline/languages/mps-multiline/de.slisson.mps.editor.multiline.runtime.jar" />
         <fileset file="${artifacts.de.itemis.mps.extensions}/de.slisson.mps.hacks/languages/de.slisson.mps.hacks/de.slisson.mps.hacks.editor.jar" />
-        <fileset file="${artifacts.de.itemis.mps.extensions}/de.slisson.mps.hacks/languages/de.slisson.mps.hacks/de.slisson.mps.reflection.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
@@ -1045,10 +1052,10 @@
     <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage/source_gen" />
     <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage/generator/source_gen" />
     <delete dir="${mps.macro.project_home}/solutions/ViewModelLanguage.test/source_gen" />
+    <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage2Java/source_gen" />
+    <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
     <delete dir="${mps.macro.project_home}/languages/ViewModelTestLanguage/source_gen" />
     <delete dir="${mps.macro.project_home}/languages/ViewModelTestLanguage/generator/source_gen" />
     <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage/sandbox/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage2Java/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
   </target>
 </project>

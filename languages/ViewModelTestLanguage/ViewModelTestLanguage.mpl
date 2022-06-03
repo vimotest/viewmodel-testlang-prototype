@@ -64,8 +64,6 @@
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:9d69e719-78c8-4286-90db-fb19c107d049:com.mbeddr.mpsutil.grammarcells" version="1" />
-    <language slang="l:b4f35ed8-45af-4efa-abe4-00ac26956e69:com.mbeddr.mpsutil.grammarcells.runtimelang" version="0" />
     <language slang="l:1919c723-b60b-4592-9318-9ce96d91da44:de.itemis.mps.editor.celllayout" version="0" />
     <language slang="l:31c91def-a131-41a1-9018-102874f49a12:de.slisson.mps.editor.multiline" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
