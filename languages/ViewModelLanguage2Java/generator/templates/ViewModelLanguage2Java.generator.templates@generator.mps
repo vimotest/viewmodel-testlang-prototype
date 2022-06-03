@@ -339,7 +339,7 @@
           <node concept="1rXfSq" id="xrRTKXwHFj" role="3clFbG">
             <ref role="37wK5l" node="xrRTKXwH_M" resolve="withTerritory" />
             <node concept="Xl_RD" id="xrRTKXwHGL" role="37wK5m">
-              <property role="Xl_RC" value="example01.ter" />
+              <property role="Xl_RC" value="example.ter" />
             </node>
           </node>
         </node>
