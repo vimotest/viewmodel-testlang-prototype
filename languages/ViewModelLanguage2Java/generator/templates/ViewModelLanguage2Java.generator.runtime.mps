@@ -6,6 +6,7 @@
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -13,13 +14,19 @@
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1188206331916" name="jetbrains.mps.baseLanguage.structure.Annotation" flags="ig" index="2ABs$o" />
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
+      </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
+        <child id="1164879685961" name="throwsItem" index="Sfmx6" />
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
@@ -33,6 +40,10 @@
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
+      <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
@@ -116,6 +127,156 @@
     <property role="2HnT6v" value="org.junit.jupiter.api" />
     <property role="3GE5qa" value="junit-stubs" />
     <node concept="3Tm1VV" id="65sofNQ0IeE" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="65sofNQ4AMt">
+    <property role="3GE5qa" value="hamster-stubs" />
+    <property role="TrG5h" value="TerritoryLoader" />
+    <property role="2HnT6v" value="de.unistuttgart.hamster.facade" />
+    <node concept="2YIFZL" id="65sofNQ4FSH" role="jymVt">
+      <property role="TrG5h" value="initializeFor" />
+      <node concept="3clFbS" id="65sofNQ4FSK" role="3clF47">
+        <node concept="3cpWs6" id="65sofNQ4FVU" role="3cqZAp">
+          <node concept="10Nm6u" id="65sofNQ4FWI" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="65sofNQ4FRG" role="1B3o_S" />
+      <node concept="3uibUv" id="65sofNQ4FSt" role="3clF45">
+        <ref role="3uigEE" node="65sofNQ4AMt" resolve="TerritoryLoader" />
+      </node>
+      <node concept="37vLTG" id="65sofNQ4FTt" role="3clF46">
+        <property role="3TUv4t" value="true" />
+        <property role="TrG5h" value="game" />
+        <node concept="3uibUv" id="65sofNQ4FUr" role="1tU5fm">
+          <ref role="3uigEE" node="65sofNQ4FTR" resolve="HamsterGame" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="65sofNQ4AST" role="jymVt">
+      <property role="TrG5h" value="loadFromResourceFile" />
+      <node concept="3clFbS" id="65sofNQ4ASW" role="3clF47" />
+      <node concept="3Tm1VV" id="65sofNQ4ASv" role="1B3o_S" />
+      <node concept="3cqZAl" id="65sofNQ4ASI" role="3clF45" />
+      <node concept="37vLTG" id="65sofNQ4ATj" role="3clF46">
+        <property role="3TUv4t" value="true" />
+        <property role="TrG5h" value="territoryFile" />
+        <node concept="17QB3L" id="65sofNQ4ATF" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="65sofNQ4FPn" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="65sofNQ4AMu" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="65sofNQ4FTR">
+    <property role="3GE5qa" value="hamster-stubs" />
+    <property role="TrG5h" value="HamsterGame" />
+    <property role="2HnT6v" value="de.unistuttgart.hamster.facade" />
+    <node concept="3Tm1VV" id="65sofNQ4FTS" role="1B3o_S" />
+    <node concept="3clFb_" id="65sofNQ4Mlr" role="jymVt">
+      <property role="TrG5h" value="getTerritory" />
+      <node concept="3clFbS" id="65sofNQ4Mls" role="3clF47">
+        <node concept="3cpWs6" id="65sofNQ4N4z" role="3cqZAp">
+          <node concept="10Nm6u" id="65sofNQ4N5b" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="65sofNQ4N33" role="3clF45">
+        <ref role="3uigEE" node="65sofNQ4Mo0" resolve="Territory" />
+      </node>
+      <node concept="3Tm1VV" id="65sofNQ4Mlq" role="1B3o_S" />
+    </node>
+    <node concept="3clFb_" id="65sofNQ4JOw" role="jymVt">
+      <property role="TrG5h" value="getPerformance" />
+      <node concept="3clFbS" id="65sofNQ4JOx" role="3clF47">
+        <node concept="3cpWs6" id="65sofNQ4KEF" role="3cqZAp">
+          <node concept="10Nm6u" id="65sofNQ4KFO" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="65sofNQ4KE6" role="3clF45">
+        <ref role="3uigEE" node="65sofNQ4JP6" resolve="GamePerformance" />
+      </node>
+      <node concept="3Tm1VV" id="65sofNQ4JOv" role="1B3o_S" />
+    </node>
+    <node concept="3clFb_" id="65sofNQ4Jf5" role="jymVt">
+      <property role="TrG5h" value="startGame" />
+      <node concept="3clFbS" id="65sofNQ4Jf6" role="3clF47" />
+      <node concept="3cqZAl" id="65sofNQ4Jf3" role="3clF45" />
+      <node concept="3Tm1VV" id="65sofNQ4Jf4" role="1B3o_S" />
+    </node>
+  </node>
+  <node concept="312cEu" id="65sofNQ4JP6">
+    <property role="3GE5qa" value="hamster-stubs" />
+    <property role="2HnT6v" value="de.unistuttgart.iste.sqa.mpw.framework.mpw" />
+    <property role="TrG5h" value="GamePerformance" />
+    <node concept="3clFb_" id="65sofNQ4JRQ" role="jymVt">
+      <property role="TrG5h" value="setDelayEnabled" />
+      <node concept="3clFbS" id="65sofNQ4JRT" role="3clF47" />
+      <node concept="3Tm1VV" id="65sofNQ4JRs" role="1B3o_S" />
+      <node concept="3cqZAl" id="65sofNQ4JRF" role="3clF45" />
+      <node concept="37vLTG" id="65sofNQ4JSh" role="3clF46">
+        <property role="TrG5h" value="delayEnabled" />
+        <node concept="10P_77" id="65sofNQ4JSg" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="65sofNQ4JP7" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="65sofNQ4Mo0">
+    <property role="3GE5qa" value="hamster-stubs" />
+    <property role="TrG5h" value="Territory" />
+    <property role="2HnT6v" value="de.unistuttgart.hamster.facade" />
+    <node concept="3clFb_" id="65sofNQ4Mpq" role="jymVt">
+      <property role="TrG5h" value="getDefaultHamster" />
+      <node concept="3clFbS" id="65sofNQ4Mpt" role="3clF47">
+        <node concept="3cpWs6" id="65sofNQ4Mr1" role="3cqZAp">
+          <node concept="10Nm6u" id="65sofNQ4MrD" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="65sofNQ4Mpf" role="1B3o_S" />
+      <node concept="3uibUv" id="65sofNQ4MpO" role="3clF45">
+        <ref role="3uigEE" node="xrRTKXwIZd" resolve="Hamster" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="65sofNQ4Mo1" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="65sofNQ4OoU">
+    <property role="3GE5qa" value="hamster-stubs" />
+    <property role="TrG5h" value="HamsterGameViewPresenter" />
+    <property role="2HnT6v" value="de.unistuttgart.hamster.viewmodel.impl" />
+    <node concept="3clFbW" id="65sofNQ4OpV" role="jymVt">
+      <node concept="3cqZAl" id="65sofNQ4OpW" role="3clF45" />
+      <node concept="3clFbS" id="65sofNQ4OpY" role="3clF47" />
+      <node concept="3Tm1VV" id="65sofNQ4OpG" role="1B3o_S" />
+      <node concept="37vLTG" id="65sofNQ4Oqk" role="3clF46">
+        <property role="TrG5h" value="game" />
+        <node concept="3uibUv" id="65sofNQ4Oqj" role="1tU5fm">
+          <ref role="3uigEE" node="65sofNQ4FTR" resolve="HamsterGame" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="65sofNQ4Orv" role="jymVt">
+      <property role="TrG5h" value="bind" />
+      <node concept="3clFbS" id="65sofNQ4Ory" role="3clF47" />
+      <node concept="3Tm1VV" id="65sofNQ4Or3" role="1B3o_S" />
+      <node concept="3cqZAl" id="65sofNQ4Orm" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="65sofNQ4R7L" role="jymVt">
+      <property role="TrG5h" value="getViewModel" />
+      <node concept="3clFbS" id="65sofNQ4R7O" role="3clF47">
+        <node concept="3cpWs6" id="65sofNQ4R9b" role="3cqZAp">
+          <node concept="10Nm6u" id="65sofNQ4R9N" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="65sofNQ4R79" role="1B3o_S" />
+      <node concept="3uibUv" id="65sofNQ4R7C" role="3clF45">
+        <ref role="3uigEE" node="65sofNQ4R69" resolve="GameViewModel" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="65sofNQ4OoV" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="65sofNQ4R69">
+    <property role="3GE5qa" value="hamster-stubs" />
+    <property role="TrG5h" value="GameViewModel" />
+    <property role="2HnT6v" value="de.unistuttgart.iste.sqa.mpw.framework.viewmodel" />
+    <node concept="3Tm1VV" id="65sofNQ4R6a" role="1B3o_S" />
   </node>
 </model>
 

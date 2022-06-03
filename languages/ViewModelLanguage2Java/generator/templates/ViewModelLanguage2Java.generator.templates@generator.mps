@@ -32,6 +32,9 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -66,6 +69,7 @@
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
+        <child id="1164879685961" name="throwsItem" index="Sfmx6" />
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
@@ -74,6 +78,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -107,9 +112,6 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
-      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="8356039341262087992" name="line" index="1aUNEU" />
-      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
@@ -193,9 +195,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-    </language>
-    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC" />
     </language>
     <language id="0edf22a4-42bc-4e5d-954f-06aaaf51df00" name="jetbrains.mps.lang.makeup">
       <concept id="1223283106984741523" name="jetbrains.mps.lang.makeup.structure.CopyOutcome" flags="ng" index="Vtzci">
@@ -308,12 +307,26 @@
   <node concept="312cEu" id="xrRTKXwF6y">
     <property role="TrG5h" value="map_ViewTestSuite" />
     <property role="3GE5qa" value="tests" />
-    <property role="2HnT6v" value="tests" />
+    <property role="2HnT6v" value="gentests" />
     <node concept="312cEg" id="xrRTKXwJv8" role="jymVt">
       <property role="TrG5h" value="paule" />
       <node concept="3Tm6S6" id="xrRTKXwJtk" role="1B3o_S" />
       <node concept="3uibUv" id="xrRTKXwJHq" role="1tU5fm">
         <ref role="3uigEE" to="ixvu:xrRTKXwIZd" resolve="Hamster" />
+      </node>
+    </node>
+    <node concept="312cEg" id="65sofNQ4OuE" role="jymVt">
+      <property role="TrG5h" value="presenter" />
+      <node concept="3Tm6S6" id="65sofNQ4OuF" role="1B3o_S" />
+      <node concept="3uibUv" id="65sofNQ4OuG" role="1tU5fm">
+        <ref role="3uigEE" to="ixvu:65sofNQ4OoU" resolve="HamsterGameViewPresenter" />
+      </node>
+    </node>
+    <node concept="312cEg" id="65sofNQ4Ryk" role="jymVt">
+      <property role="TrG5h" value="viewModel" />
+      <node concept="3Tm6S6" id="65sofNQ4Ryl" role="1B3o_S" />
+      <node concept="3uibUv" id="65sofNQ4Rym" role="1tU5fm">
+        <ref role="3uigEE" to="ixvu:65sofNQ4R69" resolve="GameViewModel" />
       </node>
     </node>
     <node concept="2tJIrI" id="1lJenISbW_5" role="jymVt" />
@@ -368,12 +381,134 @@
       <node concept="2AHcQZ" id="65sofNQ12m4" role="2AJF6D">
         <ref role="2AI5Lk" to="ixvu:65sofNQ0IeC" resolve="Test" />
       </node>
+      <node concept="3uibUv" id="65sofNQ4Gxh" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+      </node>
     </node>
+    <node concept="2tJIrI" id="65sofNQ4SXX" role="jymVt" />
     <node concept="3clFb_" id="xrRTKXwH_M" role="jymVt">
       <property role="TrG5h" value="withTerritory" />
       <node concept="3clFbS" id="xrRTKXwH_P" role="3clF47">
-        <node concept="3SKdUt" id="4Nu_lFVfO6R" role="3cqZAp">
-          <node concept="1PaTwC" id="4Nu_lFVfO6S" role="1aUNEU" />
+        <node concept="3cpWs8" id="65sofNQ4H3R" role="3cqZAp">
+          <node concept="3cpWsn" id="65sofNQ4H3S" role="3cpWs9">
+            <property role="TrG5h" value="game" />
+            <node concept="3uibUv" id="65sofNQ4H3T" role="1tU5fm">
+              <ref role="3uigEE" to="ixvu:65sofNQ4FTR" resolve="HamsterGame" />
+            </node>
+            <node concept="2ShNRf" id="65sofNQ4H7L" role="33vP2m">
+              <node concept="HV5vD" id="65sofNQ4Hgg" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="HV5vE" to="ixvu:65sofNQ4FTR" resolve="HamsterGame" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="65sofNQ4Hna" role="3cqZAp">
+          <node concept="2OqwBi" id="65sofNQ4HSV" role="3clFbG">
+            <node concept="2YIFZM" id="65sofNQ4HGh" role="2Oq$k0">
+              <ref role="37wK5l" to="ixvu:65sofNQ4FSH" resolve="initializeFor" />
+              <ref role="1Pybhc" to="ixvu:65sofNQ4AMt" resolve="TerritoryLoader" />
+              <node concept="37vLTw" id="65sofNQ4HJN" role="37wK5m">
+                <ref role="3cqZAo" node="65sofNQ4H3S" resolve="game" />
+              </node>
+            </node>
+            <node concept="liA8E" id="65sofNQ4I3a" role="2OqNvi">
+              <ref role="37wK5l" to="ixvu:65sofNQ4AST" resolve="loadFromResourceFile" />
+              <node concept="37vLTw" id="65sofNQ4I7v" role="37wK5m">
+                <ref role="3cqZAo" node="xrRTKXwHDv" resolve="fileName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="65sofNQ4IwR" role="3cqZAp" />
+        <node concept="3clFbF" id="65sofNQ4IFt" role="3cqZAp">
+          <node concept="2OqwBi" id="65sofNQ4IPI" role="3clFbG">
+            <node concept="37vLTw" id="65sofNQ4IFr" role="2Oq$k0">
+              <ref role="3cqZAo" node="65sofNQ4H3S" resolve="game" />
+            </node>
+            <node concept="liA8E" id="65sofNQ4Jf7" role="2OqNvi">
+              <ref role="37wK5l" to="ixvu:65sofNQ4Jf5" resolve="startGame" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="65sofNQ4Jl1" role="3cqZAp">
+          <node concept="2OqwBi" id="65sofNQ4Kka" role="3clFbG">
+            <node concept="2OqwBi" id="65sofNQ4Jl2" role="2Oq$k0">
+              <node concept="37vLTw" id="65sofNQ4Jl3" role="2Oq$k0">
+                <ref role="3cqZAo" node="65sofNQ4H3S" resolve="game" />
+              </node>
+              <node concept="liA8E" id="65sofNQ4JOy" role="2OqNvi">
+                <ref role="37wK5l" to="ixvu:65sofNQ4JOw" resolve="getPerformance" />
+              </node>
+            </node>
+            <node concept="liA8E" id="65sofNQ4L6U" role="2OqNvi">
+              <ref role="37wK5l" to="ixvu:65sofNQ4JRQ" resolve="setDelayEnabled" />
+              <node concept="3clFbT" id="65sofNQ4LcR" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="65sofNQ4LuE" role="3cqZAp" />
+        <node concept="3clFbF" id="65sofNQ4LOA" role="3cqZAp">
+          <node concept="37vLTI" id="65sofNQ4NBB" role="3clFbG">
+            <node concept="37vLTw" id="65sofNQ4NHJ" role="37vLTJ">
+              <ref role="3cqZAo" node="xrRTKXwJv8" resolve="paule" />
+            </node>
+            <node concept="2OqwBi" id="65sofNQ4MSm" role="37vLTx">
+              <node concept="2OqwBi" id="65sofNQ4M9u" role="2Oq$k0">
+                <node concept="37vLTw" id="65sofNQ4LO$" role="2Oq$k0">
+                  <ref role="3cqZAo" node="65sofNQ4H3S" resolve="game" />
+                </node>
+                <node concept="liA8E" id="65sofNQ4Mlt" role="2OqNvi">
+                  <ref role="37wK5l" to="ixvu:65sofNQ4Mlr" resolve="getTerritory" />
+                </node>
+              </node>
+              <node concept="liA8E" id="65sofNQ4NxG" role="2OqNvi">
+                <ref role="37wK5l" to="ixvu:65sofNQ4Mpq" resolve="getDefaultHamster" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="65sofNQ4Pd9" role="3cqZAp">
+          <node concept="37vLTI" id="65sofNQ4Pz_" role="3clFbG">
+            <node concept="2ShNRf" id="65sofNQ4PGz" role="37vLTx">
+              <node concept="1pGfFk" id="65sofNQ4PRx" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="ixvu:65sofNQ4OpV" resolve="HamsterGameViewPresenter" />
+                <node concept="37vLTw" id="65sofNQ4PXV" role="37wK5m">
+                  <ref role="3cqZAo" node="65sofNQ4H3S" resolve="game" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="65sofNQ4Pd7" role="37vLTJ">
+              <ref role="3cqZAo" node="65sofNQ4OuE" resolve="presenter" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="65sofNQ4Qc8" role="3cqZAp">
+          <node concept="2OqwBi" id="65sofNQ4Qz3" role="3clFbG">
+            <node concept="37vLTw" id="65sofNQ4Qc6" role="2Oq$k0">
+              <ref role="3cqZAo" node="65sofNQ4OuE" resolve="presenter" />
+            </node>
+            <node concept="liA8E" id="65sofNQ4QZH" role="2OqNvi">
+              <ref role="37wK5l" to="ixvu:65sofNQ4Orv" resolve="bind" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="65sofNQ4RHA" role="3cqZAp" />
+        <node concept="3clFbF" id="65sofNQ4RJc" role="3cqZAp">
+          <node concept="37vLTI" id="65sofNQ4S7d" role="3clFbG">
+            <node concept="2OqwBi" id="65sofNQ4SEi" role="37vLTx">
+              <node concept="37vLTw" id="65sofNQ4Svt" role="2Oq$k0">
+                <ref role="3cqZAo" node="65sofNQ4OuE" resolve="presenter" />
+              </node>
+              <node concept="liA8E" id="65sofNQ4SQT" role="2OqNvi">
+                <ref role="37wK5l" to="ixvu:65sofNQ4R7L" resolve="getViewModel" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="65sofNQ4RJa" role="37vLTJ">
+              <ref role="3cqZAo" node="65sofNQ4Ryk" resolve="viewModel" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3Tm6S6" id="xrRTKXwHwr" role="1B3o_S" />
@@ -381,6 +516,9 @@
       <node concept="37vLTG" id="xrRTKXwHDv" role="3clF46">
         <property role="TrG5h" value="fileName" />
         <node concept="17QB3L" id="xrRTKXwHDu" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="65sofNQ4GCW" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
     </node>
     <node concept="2tJIrI" id="xrRTKXwIXt" role="jymVt" />
@@ -415,7 +553,7 @@
       </node>
     </node>
     <node concept="Vtzci" id="4Nu_lFVfMDb" role="lGtFl">
-      <property role="Vtzcl" value="${project_home}/build/hamster/code/src/test/java/tests/${name}.java" />
+      <property role="Vtzcl" value="${project_home}/build/hamster/code/src/test/java/gentests/${name}.java" />
     </node>
   </node>
   <node concept="1pmfR0" id="4Nu_lFVfOnI">

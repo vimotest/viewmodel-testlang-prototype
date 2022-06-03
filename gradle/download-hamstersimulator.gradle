@@ -52,6 +52,12 @@ task makeAndTestHamsterSimulatorViewTest(type: Exec) {
         }
 
         checkIfGeneratedViewTestsExist(hamsterWorkingDir)
+        getRidOfModuleInfo(hamsterWorkingDir)
+        createExampleTerritory(hamsterWorkingDir)
+    }
+
+    if (System.getenv("JAVA_HOME_15") != null) {
+        environment "JAVA_HOME": System.getenv("JAVA_HOME_15")
     }
 
     workingDir hamsterWorkingDir
@@ -63,8 +69,33 @@ task makeAndTestHamsterSimulatorViewTest(type: Exec) {
 }
 
 private void checkIfGeneratedViewTestsExist(File hamsterWorkingDir) {
-    def testFolder = file("$hamsterWorkingDir/src/test/java")
+    def testFolder = file("$hamsterWorkingDir/src/test/java/gentests")
     if (!testFolder.exists() || testFolder.listFiles().size() == 0) {
         throw new GradleException("Illegal call of 'makeAndTestHamsterSimulatorViewTest': no hamster view tests are generated")
+    }
+}
+
+/*
+  The generated tests shall use the HamsterViewPresenter class for convenience reasons. To get access,
+  disable the module-visibility feature by deleting the module-info.java file.
+ */
+private void getRidOfModuleInfo(File hamsterWorkingDir) {
+    def moduleInfoFile = file("$hamsterWorkingDir/src/main/java/module-info.java")
+    moduleInfoFile.delete()
+}
+
+private void createExampleTerritory(File hamsterWorkingDir) {
+    def territoryFile = file("$hamsterWorkingDir/src/main/resources/example.ter")
+    if (!territoryFile.exists()) {
+        territoryFile.text = """
+5
+3
+#####
+#> *#
+#####
+0
+2
+0
+""".trim()
     }
 }
