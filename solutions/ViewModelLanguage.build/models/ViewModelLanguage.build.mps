@@ -391,11 +391,6 @@
               <ref role="3bR37D" node="1n6T2_x2WO2" resolve="ViewModelTestLanguage" />
             </node>
           </node>
-          <node concept="1SiIV0" id="4Nu_lFVfmsu" role="3bR37C">
-            <node concept="3bR9La" id="4Nu_lFVfmsv" role="1SiIV1">
-              <ref role="3bR37D" to="ffeo:1xb0AuwN7WS" resolve="JUnit" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="4Nu_lFVgB$o" role="3bR37C">
             <node concept="3bR9La" id="4Nu_lFVgB$p" role="1SiIV1">
               <ref role="3bR37D" to="ffeo:4DCXnKLylT$" resolve="jetbrains.mps.lang.makeup" />
@@ -680,9 +675,6 @@
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
-        </node>
-        <node concept="3bR9La" id="4Nu_lFVfuSU" role="3bR37C">
-          <ref role="3bR37D" to="ffeo:1xb0AuwN7WS" resolve="JUnit" />
         </node>
         <node concept="3bR9La" id="4Nu_lFVfBsy" role="3bR37C">
           <ref role="3bR37D" node="1n6T2_x2WPj" resolve="ViewModelLanguage2Java.generator" />

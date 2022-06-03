@@ -519,7 +519,6 @@
         <pathelement path="${build.tmp}/java/out/SimpleTypeLanguage" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage" />
         <pathelement path="${build.tmp}/java/out/ViewModelTestLanguage" />
-        <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
@@ -577,7 +576,6 @@
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java" />
         <pathelement path="${build.tmp}/java/out/ViewModelTestLanguage" />
-        <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
@@ -835,7 +833,6 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java.generator" />
-        <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />

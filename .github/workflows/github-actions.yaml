@@ -22,6 +22,10 @@ jobs:
       - name: Download and Prepare MPS
         run: sh ./gradlew prepareMps
 
+      # Download hamster simulator example repo for running generated ViewTests later
+      - name: Download Hamster Simulator example repo
+        run: sh ./gradlew downloadHamsterSimulator
+
       # Build Project
       - name: Build Project
         run: sh ./gradlew mpsBuildXml

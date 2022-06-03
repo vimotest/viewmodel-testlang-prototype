@@ -50,6 +50,8 @@ task makeAndTestHamsterSimulatorViewTest(type: Exec) {
 \t</dependencies>
 """)
         }
+
+        checkIfGeneratedViewTestsExist(hamsterWorkingDir)
     }
 
     workingDir hamsterWorkingDir
@@ -57,5 +59,12 @@ task makeAndTestHamsterSimulatorViewTest(type: Exec) {
         commandLine 'mvn.cmd', 'test'
     } else {
         commandLine 'mvn', 'test'
+    }
+}
+
+private void checkIfGeneratedViewTestsExist(File hamsterWorkingDir) {
+    def testFolder = file("$hamsterWorkingDir/src/main/test")
+    if (!testFolder.exists() || testFolder.listFiles().size() == 0) {
+        throw new GradleException("Illegal call of 'makeAndTestHamsterSimulatorViewTest': no hamster view tests are generated")
     }
 }
