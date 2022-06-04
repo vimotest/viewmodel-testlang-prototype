@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="l3im" ref="r:39b441c7-a1d5-452b-b50b-8348c2e0c7aa(UseCaseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6ap2" ref="r:eb134abe-e3cf-4c45-9c39-b0e1fd592dbc(ViewModelLanguage.structure)" implicit="true" />
   </imports>
@@ -97,14 +98,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="inputCalls" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="2Yd1qrJON4f" resolve="InputCall" />
+      <ref role="20lvS9" node="65sofNQ5xLH" resolve="ITestCaseStimulation" />
     </node>
     <node concept="1TJgyj" id="2Yd1qrJONf4" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045121476" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="asserts" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="2Yd1qrJONf3" resolve="ViewAssertion" />
+      <ref role="20lvS9" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
     </node>
   </node>
   <node concept="PlHQZ" id="2Yd1qrJOMZM">
@@ -158,7 +159,7 @@
   <node concept="1TIwiD" id="2Yd1qrJON4f">
     <property role="EcuMT" value="3426401106045120783" />
     <property role="3GE5qa" value="test" />
-    <property role="TrG5h" value="InputCall" />
+    <property role="TrG5h" value="ViewInputCall" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2Yd1qrJON4i" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045120786" />
@@ -171,6 +172,9 @@
       <property role="IQ2ns" value="3426401106045120784" />
       <property role="20kJfa" value="viewInput" />
       <ref role="20lvS9" to="6ap2:3JS2UjmQXcM" resolve="ViewInput" />
+    </node>
+    <node concept="PrWs8" id="65sofNQ5xLI" role="PzmwI">
+      <ref role="PrY4T" node="65sofNQ5xLH" resolve="ITestCaseStimulation" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJONf3">
@@ -189,6 +193,9 @@
       <property role="IQ2ns" value="3426401106045121502" />
       <property role="20kJfa" value="component" />
       <ref role="20lvS9" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+    </node>
+    <node concept="PrWs8" id="65sofNQ5xLK" role="PzmwI">
+      <ref role="PrY4T" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJONfw">
@@ -545,6 +552,55 @@
       <property role="IQ2nx" value="4126317592747383389" />
       <property role="TrG5h" value="fileName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="65sofNQ5xLG">
+    <property role="EcuMT" value="7015588959113059436" />
+    <property role="3GE5qa" value="test" />
+    <property role="TrG5h" value="ITestCaseAssertion" />
+  </node>
+  <node concept="PlHQZ" id="65sofNQ5xLH">
+    <property role="EcuMT" value="7015588959113059437" />
+    <property role="3GE5qa" value="test" />
+    <property role="TrG5h" value="ITestCaseStimulation" />
+  </node>
+  <node concept="1TIwiD" id="65sofNQ6Zsw">
+    <property role="EcuMT" value="7015588959113443104" />
+    <property role="TrG5h" value="UseCaseInputCall" />
+    <property role="3GE5qa" value="usecases" />
+    <property role="34LRSv" value="usecase input call" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="65sofNQ6Ztl" role="1TKVEi">
+      <property role="IQ2ns" value="7015588959113443157" />
+      <property role="20kJfa" value="callingCommand" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="l3im:65sofNQ50gS" resolve="UseCaseCommand" />
+    </node>
+    <node concept="PrWs8" id="65sofNQ6Zsx" role="PzmwI">
+      <ref role="PrY4T" node="65sofNQ5xLH" resolve="ITestCaseStimulation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="65sofNQ6Zsz">
+    <property role="EcuMT" value="7015588959113443107" />
+    <property role="3GE5qa" value="usecases" />
+    <property role="TrG5h" value="UseCaseQueryAssertion" />
+    <property role="34LRSv" value="usecase assert" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="65sofNQ6Zs$" role="PzmwI">
+      <ref role="PrY4T" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
+    </node>
+    <node concept="1TJgyj" id="65sofNQ6Ztj" role="1TKVEi">
+      <property role="IQ2ns" value="7015588959113443155" />
+      <property role="20kJfa" value="callingQuery" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="l3im:65sofNQ50gT" resolve="UseCaseQuery" />
+    </node>
+    <node concept="1TJgyj" id="65sofNQ8x2m" role="1TKVEi">
+      <property role="IQ2ns" value="7015588959113842838" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expected" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
 </model>

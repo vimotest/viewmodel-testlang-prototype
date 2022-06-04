@@ -15,6 +15,9 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -89,6 +92,13 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="7015588959113443104" name="ViewModelTestLanguage.structure.UseCaseInputCall" flags="ng" index="2nhTvs">
+        <reference id="7015588959113443157" name="callingCommand" index="2nhTuD" />
+      </concept>
+      <concept id="7015588959113443107" name="ViewModelTestLanguage.structure.UseCaseQueryAssertion" flags="ng" index="2nhTvv">
+        <reference id="7015588959113443155" name="callingQuery" index="2nhTuJ" />
+        <child id="7015588959113842838" name="expected" index="2nvB1E" />
+      </concept>
       <concept id="282652060087409063" name="ViewModelTestLanguage.structure.ViewShowErrorCheck" flags="ng" index="npJsE">
         <property id="282652060087409064" name="title" index="npJs_" />
         <property id="282652060087409066" name="message" index="npJsB" />
@@ -136,7 +146,7 @@
       <concept id="3426401106045121538" name="ViewModelTestLanguage.structure.TextCheckValue" flags="ng" index="30nz6$">
         <property id="3426401106045121539" name="text" index="30nz6_" />
       </concept>
-      <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.InputCall" flags="ng" index="30nziD">
+      <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.ViewInputCall" flags="ng" index="30nziD">
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
         <child id="3426401106045120786" name="parameters" index="30nziO" />
       </concept>
@@ -649,8 +659,8 @@
           <property role="Xl_RC" value="example01.ter" />
         </node>
       </node>
-      <node concept="30nziD" id="3_3BZOa9cwC" role="30nzo2">
-        <ref role="30nziQ" node="3_3BZOa9cvV" resolve="movePaule" />
+      <node concept="2nhTvs" id="65sofNQ7KDh" role="30nzo2">
+        <ref role="2nhTuD" node="65sofNQ578I" resolve="move" />
       </node>
       <node concept="30nzp_" id="5hmNBhT2vOR" role="30nzpy">
         <ref role="30nzpS" node="5hmNBhT2vLL" resolve="territory" />
@@ -757,6 +767,16 @@
           </node>
         </node>
       </node>
+      <node concept="2nhTvv" id="65sofNQ7KCq" role="30nzpy">
+        <ref role="2nhTuJ" node="65sofNQ5tYr" resolve="mouthEmpty" />
+        <node concept="3clFbT" id="65sofNQ9inU" role="2nvB1E">
+          <property role="3clFbU" value="true" />
+        </node>
+      </node>
+      <node concept="2nhTvv" id="65sofNQ9inZ" role="30nzpy">
+        <ref role="2nhTuJ" node="65sofNQ9ioR" resolve="grainAvailable" />
+        <node concept="3clFbT" id="65sofNQ9io0" role="2nvB1E" />
+      </node>
       <node concept="NlNHL" id="3_3BZOa5JGy" role="30nziE">
         <property role="NlNHM" value="###&#10;&gt; *&#10;###" />
         <property role="Nm1nj" value="file" />
@@ -775,6 +795,10 @@
     <node concept="2ni6j5" id="65sofNQ5tYr" role="2ni6hV">
       <property role="TrG5h" value="mouthEmpty" />
       <node concept="2P4D6g" id="65sofNQ5tYA" role="2ni6iC" />
+    </node>
+    <node concept="2ni6j5" id="65sofNQ9ioR" role="2ni6hV">
+      <property role="TrG5h" value="grainAvailable" />
+      <node concept="2P4D6g" id="65sofNQ9ioS" role="2ni6iC" />
     </node>
   </node>
 </model>

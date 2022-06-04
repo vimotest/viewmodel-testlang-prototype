@@ -62,6 +62,7 @@
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
+    <dependency reexport="false">03e7d0bc-45e3-4f2d-8cbd-08031e05aea0(UseCaseLanguage)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:1919c723-b60b-4592-9318-9ce96d91da44:de.itemis.mps.editor.celllayout" version="0" />
@@ -111,6 +112,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60(SimpleTypeLanguage)" version="0" />
+    <module reference="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0(UseCaseLanguage)" version="0" />
     <module reference="89274067-447d-4f60-a26a-6d802a4035c2(ViewModelLanguage)" version="0" />
     <module reference="5fb99752-5db5-4138-b336-ba094f316151(ViewModelTestLanguage)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
