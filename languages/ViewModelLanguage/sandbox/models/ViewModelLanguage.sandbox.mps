@@ -5,6 +5,7 @@
     <use id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage" version="0" />
     <use id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage" version="0" />
     <use id="d9e42a87-6893-48ea-bc1d-6d609b972a87" name="ViewModelLanguage2Java" version="0" />
+    <use id="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" name="UseCaseLanguage" version="0" />
     <engage id="d9e42a87-6893-48ea-bc1d-6d609b972a87" name="ViewModelLanguage2Java" />
     <engage id="0edf22a4-42bc-4e5d-954f-06aaaf51df00" name="jetbrains.mps.lang.makeup" />
   </languages>
@@ -66,6 +67,18 @@
       <concept id="5830978789222176938" name="ViewModelLanguage.structure.TableComponent" flags="ng" index="3KxLjU">
         <child id="6853349774625937880" name="rowDefinition" index="1D3Iin" />
       </concept>
+    </language>
+    <language id="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" name="UseCaseLanguage">
+      <concept id="7015588959112922168" name="UseCaseLanguage.structure.UseCaseCommand" flags="ng" index="2ni6j4" />
+      <concept id="7015588959112922169" name="UseCaseLanguage.structure.UseCaseQuery" flags="ng" index="2ni6j5">
+        <child id="7015588959112922196" name="returnValue" index="2ni6iC" />
+      </concept>
+      <concept id="7015588959112922167" name="UseCaseLanguage.structure.UseCaseApi" flags="ng" index="2ni6jb">
+        <property id="7015588959112950320" name="namespace" index="2ni1bc" />
+        <property id="7015588959112950322" name="receiverClassName" index="2ni1be" />
+        <child id="7015588959112922247" name="usecases" index="2ni6hV" />
+      </concept>
+      <concept id="7015588959112992440" name="UseCaseLanguage.structure.EmptyElement" flags="ng" index="2ninp4" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -749,6 +762,19 @@
         <property role="Nm1nj" value="file" />
         <property role="Np8mw" value="example01.ter" />
       </node>
+    </node>
+  </node>
+  <node concept="2ni6jb" id="65sofNQ578H">
+    <property role="3GE5qa" value="hamster" />
+    <property role="2ni1bc" value="de.unistuttgart.hamster.facade" />
+    <property role="2ni1be" value="Hamster" />
+    <node concept="2ni6j4" id="65sofNQ578I" role="2ni6hV">
+      <property role="TrG5h" value="move" />
+    </node>
+    <node concept="2ninp4" id="65sofNQ5q6l" role="2ni6hV" />
+    <node concept="2ni6j5" id="65sofNQ5tYr" role="2ni6hV">
+      <property role="TrG5h" value="mouthEmpty" />
+      <node concept="2P4D6g" id="65sofNQ5tYA" role="2ni6iC" />
     </node>
   </node>
 </model>

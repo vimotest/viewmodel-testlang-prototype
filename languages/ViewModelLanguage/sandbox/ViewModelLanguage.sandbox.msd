@@ -13,6 +13,7 @@
   <sourcePath />
   <languageVersions>
     <language slang="l:77c93106-0ffc-4fe6-8c92-dea8ea8cbc60:SimpleTypeLanguage" version="0" />
+    <language slang="l:03e7d0bc-45e3-4f2d-8cbd-08031e05aea0:UseCaseLanguage" version="0" />
     <language slang="l:89274067-447d-4f60-a26a-6d802a4035c2:ViewModelLanguage" version="0" />
     <language slang="l:d9e42a87-6893-48ea-bc1d-6d609b972a87:ViewModelLanguage2Java" version="0" />
     <language slang="l:5fb99752-5db5-4138-b336-ba094f316151:ViewModelTestLanguage" version="0" />
