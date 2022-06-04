@@ -5,6 +5,7 @@
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
     <use id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests" version="1" />
+    <use id="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" name="UseCaseLanguage" version="0" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -84,6 +85,9 @@
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
         <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
+      </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
@@ -402,11 +406,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="4gtMfofjOY1" role="3bR37C">
-          <node concept="Rbm2T" id="4gtMfofjOY2" role="1SiIV1">
-            <ref role="1E1Vl2" node="1n6T2_x2WO8" resolve="ViewModelLanguage" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="4gtMfofjOY3" role="3bR37C">
           <node concept="Rbm2T" id="4gtMfofjOY4" role="1SiIV1">
             <ref role="1E1Vl2" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
@@ -507,6 +506,108 @@
         <node concept="1SiIV0" id="1n6T2_x2WRh" role="3bR37C">
           <node concept="3bR9La" id="1n6T2_x2WRi" role="1SiIV1">
             <ref role="3bR37D" node="1n6T2_x2WO8" resolve="ViewModelLanguage" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="65sofNQaGXp" role="3bR31x">
+          <node concept="3LXTmp" id="65sofNQaGXq" role="3rtmxm">
+            <node concept="55IIr" id="65sofNQaGXr" role="3LXTmr">
+              <node concept="2Ry0Ak" id="65sofNQaGXs" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="65sofNQaGXt" role="2Ry0An">
+                  <property role="2Ry0Am" value="ViewModelTestLanguage" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="65sofNQaGXv" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="65sofNQaIi4" role="3bR37C">
+          <node concept="3bR9La" id="65sofNQaIi5" role="1SiIV1">
+            <ref role="3bR37D" node="65sofNQaI0n" resolve="UseCaseLanguage" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="65sofNQaI0n" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="UseCaseLanguage" />
+        <property role="3LESm3" value="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" />
+        <node concept="55IIr" id="65sofNQaI0q" role="3LF7KH">
+          <node concept="2Ry0Ak" id="65sofNQaI3$" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="65sofNQaI3D" role="2Ry0An">
+              <property role="2Ry0Am" value="UseCaseLanguage" />
+              <node concept="2Ry0Ak" id="65sofNQaI3I" role="2Ry0An">
+                <property role="2Ry0Am" value="UseCaseLanguage.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="65sofNQaI5s" role="3bR37C">
+          <node concept="3bR9La" id="65sofNQaI5t" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="65sofNQaI5u" role="3bR37C">
+          <node concept="3bR9La" id="65sofNQaI5v" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="65sofNQaI5w" role="3bR37C">
+          <node concept="3bR9La" id="65sofNQaI5x" role="1SiIV1">
+            <ref role="3bR37D" node="1n6T2_x2WNQ" resolve="SimpleTypeLanguage" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="65sofNQaI5E" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="65sofNQaI5F" role="1HemKq">
+            <node concept="398BVA" id="65sofNQaI5y" role="3LXTmr">
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+              <node concept="2Ry0Ak" id="65sofNQaI5z" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="65sofNQaI5$" role="2Ry0An">
+                  <property role="2Ry0Am" value="UseCaseLanguage" />
+                  <node concept="2Ry0Ak" id="65sofNQaI5_" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="65sofNQaI5G" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="65sofNQaI5H" role="1TViLv">
+          <property role="TrG5h" value="UseCaseLanguage.generator" />
+          <property role="3LESm3" value="a9331061-6842-4301-8136-cc3c5911f727" />
+          <node concept="1BupzO" id="65sofNQaI5S" role="3bR31x">
+            <property role="3ZfqAx" value="generator/templates" />
+            <property role="1Hdu6h" value="true" />
+            <property role="1HemKv" value="true" />
+            <node concept="3LXTmp" id="65sofNQaI5T" role="1HemKq">
+              <node concept="398BVA" id="65sofNQaI5I" role="3LXTmr">
+                <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+                <node concept="2Ry0Ak" id="65sofNQaI5J" role="iGT6I">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="65sofNQaI5K" role="2Ry0An">
+                    <property role="2Ry0Am" value="UseCaseLanguage" />
+                    <node concept="2Ry0Ak" id="65sofNQaI5L" role="2Ry0An">
+                      <property role="2Ry0Am" value="generator" />
+                      <node concept="2Ry0Ak" id="65sofNQaI5M" role="2Ry0An">
+                        <property role="2Ry0Am" value="templates" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3qWCbU" id="65sofNQaI5U" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
