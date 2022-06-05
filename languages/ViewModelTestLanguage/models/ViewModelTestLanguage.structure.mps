@@ -20,7 +20,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -63,6 +65,12 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2Yd1qrJOhwG" resolve="ViewTestCase" />
     </node>
+    <node concept="1TJgyj" id="65sofNQd9$a" role="1TKVEi">
+      <property role="IQ2ns" value="7015588959115057418" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="suiteContext" />
+      <ref role="20lvS9" node="65sofNQd9$9" resolve="ITestSuiteContext" />
+    </node>
     <node concept="PrWs8" id="2Yd1qrJOhxd" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -91,7 +99,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="context" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2Yd1qrJOMZM" resolve="IContext" />
+      <ref role="20lvS9" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
     </node>
     <node concept="1TJgyj" id="2Yd1qrJONe$" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045121444" />
@@ -110,7 +118,7 @@
   </node>
   <node concept="PlHQZ" id="2Yd1qrJOMZM">
     <property role="EcuMT" value="3426401106045120498" />
-    <property role="TrG5h" value="IContext" />
+    <property role="TrG5h" value="ITestCaseContext" />
     <property role="3GE5qa" value="context" />
   </node>
   <node concept="1TIwiD" id="2Yd1qrJOMZN">
@@ -271,7 +279,7 @@
     <property role="TrG5h" value="EmptyContext" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2Yd1qrJQnE5" role="PzmwI">
-      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="IContext" />
+      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJRo5c">
@@ -287,7 +295,7 @@
       <ref role="20lvS9" node="2Yd1qrJRo5d" resolve="Object" />
     </node>
     <node concept="PrWs8" id="2Yd1qrJR_06" role="PzmwI">
-      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="IContext" />
+      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJRo5d">
@@ -300,7 +308,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="53FN52wrgzl" role="PzmwI">
-      <ref role="PrY4T" node="53FN52wrgzo" resolve="IContextSubElement" />
+      <ref role="PrY4T" node="53FN52wrgzo" resolve="ITestCaseContextSubElement" />
     </node>
     <node concept="1TJgyj" id="2Yd1qrJRo5U" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045796730" />
@@ -324,7 +332,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="53FN52wrgzp" role="PzmwI">
-      <ref role="PrY4T" node="53FN52wrgzo" resolve="IContextSubElement" />
+      <ref role="PrY4T" node="53FN52wrgzo" resolve="ITestCaseContextSubElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJR_08">
@@ -334,13 +342,13 @@
     <property role="34LRSv" value="ref" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2Yd1qrJR_09" role="PzmwI">
-      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="IContext" />
+      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
     </node>
     <node concept="1TJgyj" id="2Yd1qrJR_0b" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045849611" />
       <property role="20kJfa" value="contextRef" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2Yd1qrJOMZM" resolve="IContext" />
+      <ref role="20lvS9" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
     </node>
     <node concept="1TJgyj" id="53FN52wrgzz" role="1TKVEi">
       <property role="IQ2ns" value="5830978789222189283" />
@@ -351,7 +359,7 @@
     </node>
   </node>
   <node concept="PlHQZ" id="53FN52wrgzo">
-    <property role="TrG5h" value="IContextSubElement" />
+    <property role="TrG5h" value="ITestCaseContextSubElement" />
     <property role="EcuMT" value="5830978789222189272" />
     <property role="3GE5qa" value="context" />
     <node concept="1TJgyi" id="53FN52wRKry" role="1TKVEl">
@@ -369,7 +377,7 @@
       <property role="IQ2ns" value="5830978789222189277" />
       <property role="20kJfa" value="reference" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="53FN52wrgzo" resolve="IContextSubElement" />
+      <ref role="20lvS9" node="53FN52wrgzo" resolve="ITestCaseContextSubElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="5WrZkWQpyWX">
@@ -536,7 +544,7 @@
     <property role="TrG5h" value="MultiLineStringContext" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3_3BZOa5aid" role="PzmwI">
-      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="IContext" />
+      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
     </node>
     <node concept="1TJgyi" id="3_3BZOa5aif" role="1TKVEl">
       <property role="IQ2nx" value="4126317592746173583" />
@@ -569,7 +577,7 @@
     <property role="TrG5h" value="UseCaseInputCall" />
     <property role="3GE5qa" value="usecases" />
     <property role="34LRSv" value="usecase input call" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="65sofNQ6Ztl" role="1TKVEi">
       <property role="IQ2ns" value="7015588959113443157" />
       <property role="20kJfa" value="callingCommand" />
@@ -585,7 +593,7 @@
     <property role="3GE5qa" value="usecases" />
     <property role="TrG5h" value="UseCaseQueryAssertion" />
     <property role="34LRSv" value="usecase assert" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="65sofNQ6Zs$" role="PzmwI">
       <ref role="PrY4T" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
     </node>
@@ -602,6 +610,19 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="65sofNQd9sv">
+    <property role="TrG5h" value="IUseCaseContext" />
+    <property role="3GE5qa" value="usecases" />
+    <property role="EcuMT" value="7015588959115056926" />
+    <node concept="PrWs8" id="65sofNQdaMD" role="PrDN$">
+      <ref role="PrY4T" node="65sofNQd9$9" resolve="ITestSuiteContext" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="65sofNQd9$9">
+    <property role="EcuMT" value="7015588959115057417" />
+    <property role="3GE5qa" value="context" />
+    <property role="TrG5h" value="ITestSuiteContext" />
   </node>
 </model>
 

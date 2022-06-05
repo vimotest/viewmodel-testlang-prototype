@@ -70,7 +70,7 @@
     <property role="TrG5h" value="UseCaseApi" />
     <property role="34LRSv" value="usecases" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="65sofNQ50i7" role="1TKVEi">
       <property role="IQ2ns" value="7015588959112922247" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -133,7 +133,7 @@
     <property role="EcuMT" value="7015588959112922177" />
     <property role="TrG5h" value="UseCaseMethod" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="65sofNQ50h4" role="1TKVEi">
       <property role="IQ2ns" value="7015588959112922180" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -148,7 +148,7 @@
   <node concept="1TIwiD" id="65sofNQ5hqS">
     <property role="EcuMT" value="7015588959112992440" />
     <property role="TrG5h" value="EmptyElement" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="65sofNQ5hqT" role="PzmwI">
       <ref role="PrY4T" node="65sofNQ50gU" resolve="IUseCaseElement" />
     </node>
