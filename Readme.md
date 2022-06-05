@@ -36,3 +36,7 @@ It contains:
   * the `MyTestSuite` specifies some sample tests for the `MyView`
 * a hamster simulator example view `HamsterView`
   * the `HamsterViewTests` specifies a sample test case for loading a hamster territory and asserting the contents of the viewmodel
+
+## Documentation
+
+See https://vimotest.github.io
