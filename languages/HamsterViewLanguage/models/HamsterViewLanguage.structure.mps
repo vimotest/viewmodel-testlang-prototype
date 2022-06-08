@@ -16,8 +16,12 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -44,6 +48,9 @@
       <property role="20kJfa" value="territory" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="l8rz:3_3BZOa5aic" resolve="MultiLineStringContext" />
+    </node>
+    <node concept="PrWs8" id="2ob7EKajytT" role="PzmwI">
+      <ref role="PrY4T" to="l8rz:65sofNQd9$9" resolve="ITestSuiteContext" />
     </node>
   </node>
 </model>

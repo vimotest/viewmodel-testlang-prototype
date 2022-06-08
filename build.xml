@@ -6,7 +6,8 @@
   <property name="build.tmp" location="${build.dir}/tmp/viewmodel-testlang-prototype" />
   <property name="build.layout" location="${build.dir}/artifacts/viewmodel-testlang-prototype" />
   <property name="mps_home" location="${basedir}/build/mps-bundle/mps" />
-  <property name="mps.macro.project_home" location="${basedir}" />
+  <property name="project_home" location="${basedir}" />
+  <property name="mps.macro.project_home" location="${project_home}" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.de.itemis.mps.extensions" location="${basedir}/build/mps-bundle/dependencies" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -71,14 +72,14 @@
     </echoxml>
     <jar destfile="${build.layout}/ViewModelLanguage.test.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/ViewModelLanguage.test" />
-      <fileset dir="${mps.macro.project_home}/solutions/ViewModelLanguage.test/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${project_home}/solutions/ViewModelLanguage.test/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/ViewModelLanguage.test.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-ViewModelLanguage.test-models">
-      <fileset dir="${mps.macro.project_home}/solutions/ViewModelLanguage.test/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+      <fileset dir="${project_home}/solutions/ViewModelLanguage.test/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/ViewModelLanguage.test-src.jar" duplicate="preserve">
-      <fileset dir="${mps.macro.project_home}/solutions/ViewModelLanguage.test/source_gen">
+      <fileset dir="${project_home}/solutions/ViewModelLanguage.test/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
         <exclude name="**/checkpoints" />
@@ -103,7 +104,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.ViewEditorExtensions, java.compile.ViewEditorExtensions.generator, java.compile.SimpleTypeLanguage, java.compile.SimpleTypeLanguage.generator, java.compile.ViewModelLanguage2Java, java.compile.ViewModelLanguage2Java.generator, java.compile.ViewModelTestLanguage, java.compile.ViewModelTestLanguage.generator, java.compile.UseCaseLanguage, java.compile.UseCaseLanguage.generator, java.compile.ViewModelLanguage, java.compile.ViewModelLanguage.generator, java.compile.ViewModelLanguage.sandbox, java.compile.ViewModelLanguage.test" />
+  <target name="compileJava" depends="java.compile.ViewEditorExtensions, java.compile.ViewEditorExtensions.generator, java.compile.SimpleTypeLanguage, java.compile.SimpleTypeLanguage.generator, java.compile.ViewModelLanguage2Java, java.compile.ViewModelLanguage2Java.generator, java.compile.ViewModelTestLanguage, java.compile.ViewModelTestLanguage.generator, java.compile.UseCaseLanguage, java.compile.UseCaseLanguage.generator, java.compile.ViewModelLanguage, java.compile.ViewModelLanguage.generator, java.compile.HamsterViewLanguage, java.compile.HamsterViewLanguage.generator, java.compile.ViewModelLanguage.sandbox, java.compile.ViewModelLanguage.test" />
   
   <target name="processResources" />
   
@@ -241,6 +242,7 @@
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.refactoring.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.runtime.jar" />
       <chunk>
+        <module file="${basedir}/languages/HamsterViewLanguage/HamsterViewLanguage.mpl" />
         <module file="${basedir}/languages/SimpleTypeLanguage/SimpleTypeLanguage.mpl" />
         <module file="${basedir}/languages/UseCaseLanguage/UseCaseLanguage.mpl" />
         <module file="${basedir}/languages/ViewEditorExtensions/ViewEditorExtensions.mpl" />
@@ -257,6 +259,7 @@
         <arg value="-Xmx512m" />
       </jvmargs>
       <macro name="mps_home" path="${mps_home}" />
+      <macro name="project_home" path="${project_home}" />
       <macro name="mps.macro.project_home" path="${mps.macro.project_home}" />
     </generate>
   </target>
@@ -270,12 +273,12 @@
   <target name="module-tests" depends="assemble, test.runModuleTests" />
   
   <target name="java.compile.ViewEditorExtensions" depends="fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/ViewEditorExtensions/source_gen" />
+    <mkdir dir="${project_home}/languages/ViewEditorExtensions/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewEditorExtensions" />
     <javac destdir="${build.tmp}/java/out/ViewEditorExtensions" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/ViewEditorExtensions/source_gen" />
+        <path location="${project_home}/languages/ViewEditorExtensions/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -325,12 +328,12 @@
   </target>
   
   <target name="java.compile.ViewEditorExtensions.generator" depends="java.compile.ViewEditorExtensions, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/ViewEditorExtensions/generator/source_gen" />
+    <mkdir dir="${project_home}/languages/ViewEditorExtensions/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewEditorExtensions.generator" />
     <javac destdir="${build.tmp}/java/out/ViewEditorExtensions.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/ViewEditorExtensions/generator/source_gen" />
+        <path location="${project_home}/languages/ViewEditorExtensions/generator/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -380,12 +383,12 @@
   </target>
   
   <target name="java.compile.SimpleTypeLanguage" depends="fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/SimpleTypeLanguage/source_gen" />
+    <mkdir dir="${project_home}/languages/SimpleTypeLanguage/source_gen" />
     <mkdir dir="${build.tmp}/java/out/SimpleTypeLanguage" />
     <javac destdir="${build.tmp}/java/out/SimpleTypeLanguage" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/SimpleTypeLanguage/source_gen" />
+        <path location="${project_home}/languages/SimpleTypeLanguage/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -434,12 +437,12 @@
   </target>
   
   <target name="java.compile.SimpleTypeLanguage.generator" depends="java.compile.SimpleTypeLanguage, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/SimpleTypeLanguage/generator/source_gen" />
+    <mkdir dir="${project_home}/languages/SimpleTypeLanguage/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/SimpleTypeLanguage.generator" />
     <javac destdir="${build.tmp}/java/out/SimpleTypeLanguage.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/SimpleTypeLanguage/generator/source_gen" />
+        <path location="${project_home}/languages/SimpleTypeLanguage/generator/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -482,12 +485,12 @@
   </target>
   
   <target name="java.compile.ViewModelLanguage2Java" depends="java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, java.compile.ViewModelTestLanguage, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/ViewModelLanguage2Java/source_gen" />
+    <mkdir dir="${project_home}/languages/ViewModelLanguage2Java/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage2Java" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage2Java" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/ViewModelLanguage2Java/source_gen" />
+        <path location="${project_home}/languages/ViewModelLanguage2Java/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -538,12 +541,12 @@
   </target>
   
   <target name="java.compile.ViewModelLanguage2Java.generator" depends="java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, java.compile.ViewModelLanguage2Java, java.compile.ViewModelTestLanguage, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
+    <mkdir dir="${project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage2Java.generator" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage2Java.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
+        <path location="${project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -594,12 +597,12 @@
   </target>
   
   <target name="java.compile.ViewModelTestLanguage" depends="java.compile.SimpleTypeLanguage, java.compile.UseCaseLanguage, java.compile.ViewModelLanguage, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/ViewModelTestLanguage/source_gen" />
+    <mkdir dir="${project_home}/languages/ViewModelTestLanguage/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelTestLanguage" />
     <javac destdir="${build.tmp}/java/out/ViewModelTestLanguage" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/ViewModelTestLanguage/source_gen" />
+        <path location="${project_home}/languages/ViewModelTestLanguage/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -656,12 +659,12 @@
   </target>
   
   <target name="java.compile.ViewModelTestLanguage.generator" depends="java.compile.ViewModelTestLanguage, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/ViewModelTestLanguage/generator/source_gen" />
+    <mkdir dir="${project_home}/languages/ViewModelTestLanguage/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelTestLanguage.generator" />
     <javac destdir="${build.tmp}/java/out/ViewModelTestLanguage.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/ViewModelTestLanguage/generator/source_gen" />
+        <path location="${project_home}/languages/ViewModelTestLanguage/generator/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -704,12 +707,12 @@
   </target>
   
   <target name="java.compile.UseCaseLanguage" depends="java.compile.SimpleTypeLanguage, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/UseCaseLanguage/source_gen" />
+    <mkdir dir="${project_home}/languages/UseCaseLanguage/source_gen" />
     <mkdir dir="${build.tmp}/java/out/UseCaseLanguage" />
     <javac destdir="${build.tmp}/java/out/UseCaseLanguage" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/UseCaseLanguage/source_gen" />
+        <path location="${project_home}/languages/UseCaseLanguage/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -757,12 +760,12 @@
   </target>
   
   <target name="java.compile.UseCaseLanguage.generator" depends="java.compile.UseCaseLanguage, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/UseCaseLanguage/generator/source_gen" />
+    <mkdir dir="${project_home}/languages/UseCaseLanguage/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/UseCaseLanguage.generator" />
     <javac destdir="${build.tmp}/java/out/UseCaseLanguage.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/UseCaseLanguage/generator/source_gen" />
+        <path location="${project_home}/languages/UseCaseLanguage/generator/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -805,12 +808,12 @@
   </target>
   
   <target name="java.compile.ViewModelLanguage" depends="java.compile.SimpleTypeLanguage, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/ViewModelLanguage/source_gen" />
+    <mkdir dir="${project_home}/languages/ViewModelLanguage/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/ViewModelLanguage/source_gen" />
+        <path location="${project_home}/languages/ViewModelLanguage/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -859,12 +862,12 @@
   </target>
   
   <target name="java.compile.ViewModelLanguage.generator" depends="java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/ViewModelLanguage/generator/source_gen" />
+    <mkdir dir="${project_home}/languages/ViewModelLanguage/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage.generator" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/ViewModelLanguage/generator/source_gen" />
+        <path location="${project_home}/languages/ViewModelLanguage/generator/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -908,13 +911,122 @@
     </javac>
   </target>
   
-  <target name="java.compile.ViewModelLanguage.sandbox" depends="java.compile.ViewModelLanguage2Java.generator, fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/languages/ViewModelLanguage/sandbox/source_gen" />
+  <target name="java.compile.HamsterViewLanguage" depends="java.compile.ViewModelLanguage2Java, java.compile.ViewModelTestLanguage, fetchDependencies">
+    <mkdir dir="${project_home}/languages/HamsterViewLanguage/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/HamsterViewLanguage" />
+    <javac destdir="${build.tmp}/java/out/HamsterViewLanguage" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${project_home}/languages/HamsterViewLanguage/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
+        <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java" />
+        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
+        <pathelement path="${build.tmp}/java/out/ViewModelTestLanguage" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
+        <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.lang.makeup.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+      </classpath>
+    </javac>
+  </target>
+  
+  <target name="java.compile.HamsterViewLanguage.generator" depends="java.compile.HamsterViewLanguage, java.compile.ViewModelLanguage2Java.generator, java.compile.ViewModelTestLanguage, fetchDependencies">
+    <mkdir dir="${project_home}/languages/HamsterViewLanguage/generator/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/HamsterViewLanguage.generator" />
+    <javac destdir="${build.tmp}/java/out/HamsterViewLanguage.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${project_home}/languages/HamsterViewLanguage/generator/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
+        <pathelement path="${build.tmp}/java/out/HamsterViewLanguage" />
+        <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java.generator" />
+        <pathelement path="${build.tmp}/java/out/ViewModelTestLanguage" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.lang.makeup.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+      </classpath>
+    </javac>
+  </target>
+  
+  <target name="java.compile.ViewModelLanguage.sandbox" depends="java.compile.HamsterViewLanguage.generator, java.compile.ViewModelLanguage2Java.generator, fetchDependencies">
+    <mkdir dir="${project_home}/languages/ViewModelLanguage/sandbox/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage.sandbox" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage.sandbox" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/languages/ViewModelLanguage/sandbox/source_gen" />
+        <path location="${project_home}/languages/ViewModelLanguage/sandbox/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -935,22 +1047,29 @@
         <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
+        <pathelement path="${build.tmp}/java/out/HamsterViewLanguage.generator" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java.generator" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
       </classpath>
     </javac>
   </target>
   
   <target name="java.compile.ViewModelLanguage.test" depends="fetchDependencies">
-    <mkdir dir="${mps.macro.project_home}/solutions/ViewModelLanguage.test/source_gen" />
+    <mkdir dir="${project_home}/solutions/ViewModelLanguage.test/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage.test" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage.test" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.macro.project_home}/solutions/ViewModelLanguage.test/source_gen" />
+        <path location="${project_home}/solutions/ViewModelLanguage.test/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
@@ -1137,7 +1256,7 @@
       <sysproperty key="mps.libraries" value="${mps.libraries.path.string}" />
       <sysproperty key="mps.test.modules" value="${mps.tests.path.string}" />
       
-      <sysproperty key="mps.macro.project_home" value="${basedir}" />
+      <sysproperty key="mps.macro.project_home" value="${project_home}" />
       
       <test name="jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0" outfile="TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-runModuleTests" />
       <formatter type="xml" />
@@ -1145,19 +1264,21 @@
   </target>
   
   <target name="cleanSources">
-    <delete dir="${mps.macro.project_home}/languages/SimpleTypeLanguage/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/SimpleTypeLanguage/generator/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/UseCaseLanguage/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/UseCaseLanguage/generator/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewEditorExtensions/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewEditorExtensions/generator/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage/generator/source_gen" />
-    <delete dir="${mps.macro.project_home}/solutions/ViewModelLanguage.test/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage2Java/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewModelTestLanguage/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewModelTestLanguage/generator/source_gen" />
-    <delete dir="${mps.macro.project_home}/languages/ViewModelLanguage/sandbox/source_gen" />
+    <delete dir="${project_home}/languages/HamsterViewLanguage/source_gen" />
+    <delete dir="${project_home}/languages/HamsterViewLanguage/generator/source_gen" />
+    <delete dir="${project_home}/languages/SimpleTypeLanguage/source_gen" />
+    <delete dir="${project_home}/languages/SimpleTypeLanguage/generator/source_gen" />
+    <delete dir="${project_home}/languages/UseCaseLanguage/source_gen" />
+    <delete dir="${project_home}/languages/UseCaseLanguage/generator/source_gen" />
+    <delete dir="${project_home}/languages/ViewEditorExtensions/source_gen" />
+    <delete dir="${project_home}/languages/ViewEditorExtensions/generator/source_gen" />
+    <delete dir="${project_home}/languages/ViewModelLanguage/source_gen" />
+    <delete dir="${project_home}/languages/ViewModelLanguage/generator/source_gen" />
+    <delete dir="${project_home}/solutions/ViewModelLanguage.test/source_gen" />
+    <delete dir="${project_home}/languages/ViewModelLanguage2Java/source_gen" />
+    <delete dir="${project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
+    <delete dir="${project_home}/languages/ViewModelTestLanguage/source_gen" />
+    <delete dir="${project_home}/languages/ViewModelTestLanguage/generator/source_gen" />
+    <delete dir="${project_home}/languages/ViewModelLanguage/sandbox/source_gen" />
   </target>
 </project>

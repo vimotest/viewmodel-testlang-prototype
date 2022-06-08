@@ -6,10 +6,13 @@
     <use id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage" version="0" />
     <use id="d9e42a87-6893-48ea-bc1d-6d609b972a87" name="ViewModelLanguage2Java" version="0" />
     <use id="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" name="UseCaseLanguage" version="0" />
-    <engage id="d9e42a87-6893-48ea-bc1d-6d609b972a87" name="ViewModelLanguage2Java" />
+    <use id="b344aa7e-2e08-4f45-aa82-4796d5345f7b" name="HamsterViewLanguage" version="0" />
+    <use id="0edf22a4-42bc-4e5d-954f-06aaaf51df00" name="jetbrains.mps.lang.makeup" version="0" />
     <engage id="0edf22a4-42bc-4e5d-954f-06aaaf51df00" name="jetbrains.mps.lang.makeup" />
   </languages>
-  <imports />
+  <imports>
+    <import index="bhzn" ref="r:f5b8750f-b463-4762-a412-8a5ee39f76e0(HamsterViewLanguage.generator.runtimestubs)" />
+  </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
@@ -83,6 +86,11 @@
       </concept>
       <concept id="7015588959112992440" name="UseCaseLanguage.structure.EmptyElement" flags="ng" index="2ninp4" />
     </language>
+    <language id="b344aa7e-2e08-4f45-aa82-4796d5345f7b" name="HamsterViewLanguage">
+      <concept id="7015588959115056931" name="HamsterViewLanguage.structure.HamsterUseCaseContext" flags="ng" index="2nqfvv">
+        <child id="7015588959115056943" name="territory" index="2nqfvj" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
@@ -132,6 +140,7 @@
       </concept>
       <concept id="3426401106044983339" name="ViewModelTestLanguage.structure.ViewTestSuite" flags="ng" index="30n1Qd">
         <reference id="3426401106044983489" name="targetView" index="30n1PB" />
+        <child id="7015588959115057418" name="suiteContext" index="2nqfBQ" />
         <child id="3426401106044983341" name="tests" index="30n1Qb" />
       </concept>
       <concept id="3426401106045120500" name="ViewModelTestLanguage.structure.DescriptionPart" flags="ng" index="30nyDi">
@@ -781,6 +790,13 @@
         <property role="NlNHM" value="###&#10;&gt; *&#10;###" />
         <property role="Nm1nj" value="file" />
         <property role="Np8mw" value="example01.ter" />
+      </node>
+    </node>
+    <node concept="2nqfvv" id="2ob7EKajyP$" role="2nqfBQ">
+      <node concept="NlNHL" id="2ob7EKajyP_" role="2nqfvj">
+        <property role="Nm1nj" value="file" />
+        <property role="NlNHM" value="###&#10;&gt; *&#10;###" />
+        <property role="Np8mw" value="example.ter" />
       </node>
     </node>
   </node>
