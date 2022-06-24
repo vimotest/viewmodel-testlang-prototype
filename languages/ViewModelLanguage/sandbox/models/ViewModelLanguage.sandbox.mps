@@ -21,9 +21,6 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
-      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
-        <property id="1068580320021" name="value" index="3cmrfH" />
-      </concept>
     </language>
     <language id="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60" name="SimpleTypeLanguage">
       <concept id="5878168047017091896" name="SimpleTypeLanguage.structure.Field" flags="ng" index="2P4x69" />
@@ -283,12 +280,6 @@
       </node>
       <node concept="30nziD" id="2Yd1qrJPAvl" role="30nzo2">
         <ref role="30nziQ" node="3JS2UjmTg0y" resolve="ButtonClicked" />
-        <node concept="3cmrfG" id="2Yd1qrJPAvx" role="30nziO">
-          <property role="3cmrfH" value="3" />
-        </node>
-        <node concept="3cmrfG" id="2Yd1qrJPAvD" role="30nziO">
-          <property role="3cmrfH" value="4" />
-        </node>
       </node>
       <node concept="30nzp_" id="2Yd1qrJQ3Gl" role="30nzpy">
         <ref role="30nzpS" node="2Yd1qrJQ3FR" resolve="Cancel" />
@@ -665,7 +656,7 @@
       <node concept="30nziD" id="5hmNBhT2vOQ" role="30nzo2">
         <ref role="30nziQ" node="5hmNBhT2vOp" resolve="loadTerritory" />
         <node concept="Xl_RD" id="3_3BZOaanSJ" role="30nziO">
-          <property role="Xl_RC" value="example01.ter" />
+          <property role="Xl_RC" value="example.ter" />
         </node>
       </node>
       <node concept="2nhTvs" id="65sofNQ7KDh" role="30nzo2">

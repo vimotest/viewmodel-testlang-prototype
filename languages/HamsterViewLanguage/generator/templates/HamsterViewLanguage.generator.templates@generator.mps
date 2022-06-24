@@ -309,7 +309,7 @@
     </node>
     <node concept="2tJIrI" id="65sofNQehnj" role="jymVt" />
     <node concept="3clFb_" id="xrRTKXwH_M" role="jymVt">
-      <property role="TrG5h" value="withTerritory" />
+      <property role="TrG5h" value="loadTerritory" />
       <node concept="3clFbS" id="xrRTKXwH_P" role="3clF47">
         <node concept="3cpWs8" id="65sofNQ4H3R" role="3cqZAp">
           <node concept="3cpWsn" id="65sofNQ4H3S" role="3cpWs9">
