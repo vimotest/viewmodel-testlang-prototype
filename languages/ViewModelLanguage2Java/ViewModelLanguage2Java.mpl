@@ -30,6 +30,8 @@
         <dependency reexport="false">0edf22a4-42bc-4e5d-954f-06aaaf51df00(jetbrains.mps.lang.makeup)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
+        <dependency reexport="false">03e7d0bc-45e3-4f2d-8cbd-08031e05aea0(UseCaseLanguage)</dependency>
+        <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
@@ -56,6 +58,7 @@
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60(SimpleTypeLanguage)" version="0" />
+        <module reference="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0(UseCaseLanguage)" version="0" />
         <module reference="89274067-447d-4f60-a26a-6d802a4035c2(ViewModelLanguage)" version="0" />
         <module reference="d9e42a87-6893-48ea-bc1d-6d609b972a87(ViewModelLanguage2Java)" version="0" />
         <module reference="bb0a550d-4d97-495d-a6c8-f0f86a1372f7(ViewModelLanguage2Java.generator)" version="0" />

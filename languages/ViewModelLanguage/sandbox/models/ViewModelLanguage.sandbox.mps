@@ -15,9 +15,6 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
@@ -28,7 +25,6 @@
         <child id="5878168047017215911" name="contents" index="2P43km" />
       </concept>
       <concept id="5878168047017124641" name="SimpleTypeLanguage.structure.BoolType" flags="ng" index="2P4D6g" />
-      <concept id="5878168047017124640" name="SimpleTypeLanguage.structure.StringType" flags="ng" index="2P4D6h" />
       <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
         <child id="5878168047017276966" name="type" index="2P5Oin" />
       </concept>
@@ -154,7 +150,6 @@
       </concept>
       <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.ViewInputCall" flags="ng" index="30nziD">
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
-        <child id="3426401106045120786" name="parameters" index="30nziO" />
       </concept>
       <concept id="3426401106045121505" name="ViewModelTestLanguage.structure.ButtonCheck" flags="ng" index="30nzp7">
         <child id="3426401106045121535" name="checks" index="30nzpp" />
@@ -503,13 +498,6 @@
   <node concept="3H8XyA" id="5hmNBhT2vLH">
     <property role="TrG5h" value="HamsterView" />
     <property role="3GE5qa" value="hamster" />
-    <node concept="3H8Xym" id="5hmNBhT2vOp" role="3H8Xyh">
-      <property role="TrG5h" value="loadTerritory" />
-      <node concept="2P4x69" id="5hmNBhT2vOt" role="2P43km">
-        <property role="TrG5h" value="territoryName" />
-        <node concept="2P4D6h" id="5hmNBhT2vOs" role="2P5Oin" />
-      </node>
-    </node>
     <node concept="3H8Xym" id="3_3BZOa9cvV" role="3H8Xyh">
       <property role="TrG5h" value="movePaule" />
     </node>
@@ -653,12 +641,6 @@
           <property role="30lZVK" value="Only pause button is sensitive" />
         </node>
       </node>
-      <node concept="30nziD" id="5hmNBhT2vOQ" role="30nzo2">
-        <ref role="30nziQ" node="5hmNBhT2vOp" resolve="loadTerritory" />
-        <node concept="Xl_RD" id="3_3BZOaanSJ" role="30nziO">
-          <property role="Xl_RC" value="example.ter" />
-        </node>
-      </node>
       <node concept="2nhTvs" id="65sofNQ7KDh" role="30nzo2">
         <ref role="2nhTuD" node="65sofNQ578I" resolve="move" />
       </node>
@@ -780,7 +762,7 @@
       <node concept="NlNHL" id="3_3BZOa5JGy" role="30nziE">
         <property role="NlNHM" value="###&#10;&gt; *&#10;###" />
         <property role="Nm1nj" value="file" />
-        <property role="Np8mw" value="example01.ter" />
+        <property role="Np8mw" value="example.ter" />
       </node>
     </node>
     <node concept="2nqfvv" id="2ob7EKajyP$" role="2nqfBQ">
