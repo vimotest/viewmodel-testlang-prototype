@@ -24,10 +24,6 @@
         </facet>
       </facets>
       <external-templates />
-      <dependencies>
-        <dependency reexport="false">bb0a550d-4d97-495d-a6c8-f0f86a1372f7(ViewModelLanguage2Java.generator)</dependency>
-        <dependency reexport="false">5fb99752-5db5-4138-b336-ba094f316151(ViewModelTestLanguage)</dependency>
-      </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -53,8 +49,6 @@
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0(UseCaseLanguage)" version="0" />
         <module reference="a9331061-6842-4301-8136-cc3c5911f727(UseCaseLanguage.generator)" version="0" />
-        <module reference="bb0a550d-4d97-495d-a6c8-f0f86a1372f7(ViewModelLanguage2Java.generator)" version="0" />
-        <module reference="5fb99752-5db5-4138-b336-ba094f316151(ViewModelTestLanguage)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
@@ -64,7 +58,6 @@
   <dependencies>
     <dependency reexport="false">77c93106-0ffc-4fe6-8c92-dea8ea8cbc60(SimpleTypeLanguage)</dependency>
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
-    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />

@@ -4,15 +4,11 @@
   <languages>
     <use id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage" version="0" />
     <use id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage" version="0" />
-    <use id="d9e42a87-6893-48ea-bc1d-6d609b972a87" name="ViewModelLanguage2Java" version="0" />
     <use id="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" name="UseCaseLanguage" version="0" />
     <use id="b344aa7e-2e08-4f45-aa82-4796d5345f7b" name="HamsterViewLanguage" version="0" />
-    <use id="0edf22a4-42bc-4e5d-954f-06aaaf51df00" name="jetbrains.mps.lang.makeup" version="0" />
     <engage id="0edf22a4-42bc-4e5d-954f-06aaaf51df00" name="jetbrains.mps.lang.makeup" />
   </languages>
-  <imports>
-    <import index="bhzn" ref="r:f5b8750f-b463-4762-a412-8a5ee39f76e0(HamsterViewLanguage.generator.runtimestubs)" />
-  </imports>
+  <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
