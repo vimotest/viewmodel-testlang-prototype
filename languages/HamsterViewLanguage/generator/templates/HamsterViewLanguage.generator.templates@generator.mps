@@ -14,6 +14,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="l8rz" ref="r:ab9528f7-9956-499a-8cfb-6e30a245b4f2(ViewModelTestLanguage.structure)" />
+    <import index="fy23" ref="r:4d7d5410-8d5a-45f2-a2f2-a6b7b42a377e(jetbrains.mps.lang.makeup.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -282,7 +283,7 @@
         </node>
       </node>
       <node concept="j$656" id="5SMmqCnt5y7" role="1fOSGc">
-        <ref role="v9R2y" node="5SMmqCnt5y4" resolve="weave_HamsterUseCaseContext" />
+        <ref role="v9R2y" node="5SMmqCnt5y4" resolve="weave_InheritanceForHamsterUseCaseContext" />
       </node>
     </node>
     <node concept="3lhOvk" id="65sofNQd9tu" role="3lj3bC">
@@ -298,7 +299,7 @@
   </node>
   <node concept="312cEu" id="65sofNQd9tw">
     <property role="TrG5h" value="map_HamsterUseCaseContext" />
-    <property role="2HnT6v" value="getests" />
+    <property role="2HnT6v" value="gentests" />
     <node concept="312cEg" id="65sofNQehi9" role="jymVt">
       <property role="TrG5h" value="paule" />
       <node concept="3Tmbuc" id="65sofNQehjO" role="1B3o_S" />

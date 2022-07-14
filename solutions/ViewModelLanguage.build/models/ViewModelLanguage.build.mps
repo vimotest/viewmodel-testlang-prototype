@@ -197,7 +197,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="7xn_gHyFlpo" role="1HemKq">
             <node concept="398BVA" id="7xn_gHyFlpg" role="3LXTmr">
-              <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
               <node concept="2Ry0Ak" id="7xn_gHyFlph" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlpi" role="2Ry0An">
@@ -227,7 +227,7 @@
             <property role="1HemKv" value="true" />
             <node concept="3LXTmp" id="7xn_gHyFlp$" role="1HemKq">
               <node concept="398BVA" id="7xn_gHyFlpq" role="3LXTmr">
-                <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+                <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlpr" role="iGT6I">
                   <property role="2Ry0Am" value="languages" />
                   <node concept="2Ry0Ak" id="7xn_gHyFlps" role="2Ry0An">
@@ -279,7 +279,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="7xn_gHyFlpI" role="1HemKq">
             <node concept="398BVA" id="7xn_gHyFlpA" role="3LXTmr">
-              <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
               <node concept="2Ry0Ak" id="7xn_gHyFlpB" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlpC" role="2Ry0An">
@@ -304,7 +304,7 @@
             <property role="1HemKv" value="true" />
             <node concept="3LXTmp" id="7xn_gHyFlpU" role="1HemKq">
               <node concept="398BVA" id="7xn_gHyFlpK" role="3LXTmr">
-                <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+                <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlpL" role="iGT6I">
                   <property role="2Ry0Am" value="languages" />
                   <node concept="2Ry0Ak" id="7xn_gHyFlpM" role="2Ry0An">
@@ -346,7 +346,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="7xn_gHyFlq4" role="1HemKq">
             <node concept="398BVA" id="7xn_gHyFlpW" role="3LXTmr">
-              <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
               <node concept="2Ry0Ak" id="7xn_gHyFlpX" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlpY" role="2Ry0An">
@@ -371,7 +371,7 @@
             <property role="1HemKv" value="true" />
             <node concept="3LXTmp" id="7xn_gHyFlqg" role="1HemKq">
               <node concept="398BVA" id="7xn_gHyFlq6" role="3LXTmr">
-                <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+                <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlq7" role="iGT6I">
                   <property role="2Ry0Am" value="languages" />
                   <node concept="2Ry0Ak" id="7xn_gHyFlq8" role="2Ry0An">
@@ -478,7 +478,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="7xn_gHyFlqq" role="1HemKq">
             <node concept="398BVA" id="7xn_gHyFlqi" role="3LXTmr">
-              <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
               <node concept="2Ry0Ak" id="7xn_gHyFlqj" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlqk" role="2Ry0An">
@@ -503,7 +503,7 @@
             <property role="1HemKv" value="true" />
             <node concept="3LXTmp" id="7xn_gHyFlqA" role="1HemKq">
               <node concept="398BVA" id="7xn_gHyFlqs" role="3LXTmr">
-                <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+                <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlqt" role="iGT6I">
                   <property role="2Ry0Am" value="languages" />
                   <node concept="2Ry0Ak" id="7xn_gHyFlqu" role="2Ry0An">
@@ -580,7 +580,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="65sofNQaI5F" role="1HemKq">
             <node concept="398BVA" id="65sofNQaI5y" role="3LXTmr">
-              <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
               <node concept="2Ry0Ak" id="65sofNQaI5z" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="65sofNQaI5$" role="2Ry0An">
@@ -605,7 +605,7 @@
             <property role="1HemKv" value="true" />
             <node concept="3LXTmp" id="65sofNQaI5T" role="1HemKq">
               <node concept="398BVA" id="65sofNQaI5I" role="3LXTmr">
-                <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+                <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
                 <node concept="2Ry0Ak" id="65sofNQaI5J" role="iGT6I">
                   <property role="2Ry0Am" value="languages" />
                   <node concept="2Ry0Ak" id="65sofNQaI5K" role="2Ry0An">
@@ -693,7 +693,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="7xn_gHyFlqK" role="1HemKq">
             <node concept="398BVA" id="7xn_gHyFlqC" role="3LXTmr">
-              <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
               <node concept="2Ry0Ak" id="7xn_gHyFlqD" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlqE" role="2Ry0An">
@@ -718,7 +718,7 @@
             <property role="1HemKv" value="true" />
             <node concept="3LXTmp" id="7xn_gHyFlqW" role="1HemKq">
               <node concept="398BVA" id="7xn_gHyFlqM" role="3LXTmr">
-                <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+                <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlqN" role="iGT6I">
                   <property role="2Ry0Am" value="languages" />
                   <node concept="2Ry0Ak" id="7xn_gHyFlqO" role="2Ry0An">
@@ -770,7 +770,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="5SMmqCnuKnx" role="1HemKq">
             <node concept="398BVA" id="5SMmqCnuKno" role="3LXTmr">
-              <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
               <node concept="2Ry0Ak" id="5SMmqCnuKnp" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="5SMmqCnuKnq" role="2Ry0An">
@@ -820,7 +820,7 @@
             <property role="1HemKv" value="true" />
             <node concept="3LXTmp" id="5SMmqCnuKnV" role="1HemKq">
               <node concept="398BVA" id="5SMmqCnuKnK" role="3LXTmr">
-                <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+                <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
                 <node concept="2Ry0Ak" id="5SMmqCnuKnL" role="iGT6I">
                   <property role="2Ry0Am" value="languages" />
                   <node concept="2Ry0Ak" id="5SMmqCnuKnM" role="2Ry0An">
@@ -842,6 +842,11 @@
           <node concept="1SiIV0" id="5SMmqCnuKnY" role="3bR37C">
             <node concept="3bR9La" id="5SMmqCnuKnX" role="1SiIV1">
               <ref role="3bR37D" node="1n6T2_x2WPj" resolve="ViewModelLanguage2Java.generator" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="79uXKuUlxQY" role="3bR37C">
+            <node concept="3bR9La" id="79uXKuUlxQZ" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:4DCXnKLylT$" resolve="jetbrains.mps.lang.makeup" />
             </node>
           </node>
         </node>
@@ -870,7 +875,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="7xn_gHyFlr8" role="1HemKq">
             <node concept="398BVA" id="7xn_gHyFlqY" role="3LXTmr">
-              <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
               <node concept="2Ry0Ak" id="7xn_gHyFlqZ" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlr0" role="2Ry0An">
@@ -930,7 +935,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="7xn_gHyFlrk" role="1HemKq">
             <node concept="398BVA" id="7xn_gHyFlrc" role="3LXTmr">
-              <ref role="398BVh" node="1n6T2_x2WNE" resolve="mps.macro.project_home" />
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
               <node concept="2Ry0Ak" id="7xn_gHyFlrd" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="7xn_gHyFlre" role="2Ry0An">

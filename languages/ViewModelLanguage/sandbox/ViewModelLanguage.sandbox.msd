@@ -16,8 +16,10 @@
     <language slang="l:77c93106-0ffc-4fe6-8c92-dea8ea8cbc60:SimpleTypeLanguage" version="0" />
     <language slang="l:03e7d0bc-45e3-4f2d-8cbd-08031e05aea0:UseCaseLanguage" version="0" />
     <language slang="l:89274067-447d-4f60-a26a-6d802a4035c2:ViewModelLanguage" version="0" />
+    <language slang="l:d9e42a87-6893-48ea-bc1d-6d609b972a87:ViewModelLanguage2Java" version="0" />
     <language slang="l:5fb99752-5db5-4138-b336-ba094f316151:ViewModelTestLanguage" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
+    <language slang="l:0edf22a4-42bc-4e5d-954f-06aaaf51df00:jetbrains.mps.lang.makeup" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="b78507d4-5a23-45c3-9e9e-df16393f3f09(ViewModelLanguage.sandbox)" version="0" />

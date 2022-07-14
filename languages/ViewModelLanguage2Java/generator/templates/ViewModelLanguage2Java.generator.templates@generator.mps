@@ -931,7 +931,7 @@
                       </node>
                       <node concept="2OqwBi" id="5SMmqCnuCAe" role="37vLTx">
                         <node concept="37vLTw" id="5SMmqCnuDSM" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5SMmqCnuDSK" resolve="global" />
+                          <ref role="3cqZAo" node="5SMmqCnuDSK" resolve="macroHelper" />
                         </node>
                         <node concept="liA8E" id="5SMmqCnuCAg" role="2OqNvi">
                           <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
