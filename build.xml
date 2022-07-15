@@ -1022,7 +1022,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.ViewModelLanguage.sandbox" depends="java.compile.ViewModelLanguage2Java.generator, fetchDependencies">
+  <target name="java.compile.ViewModelLanguage.sandbox" depends="java.compile.HamsterViewLanguage.generator, java.compile.ViewModelLanguage2Java.generator, fetchDependencies">
     <mkdir dir="${project_home}/languages/ViewModelLanguage/sandbox/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage.sandbox" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage.sandbox" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -1049,6 +1049,7 @@
         <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
+        <pathelement path="${build.tmp}/java/out/HamsterViewLanguage.generator" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java.generator" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />

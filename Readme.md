@@ -19,7 +19,7 @@ By using ViewModels, a large portion of the View-Logic (presenter, controller co
 
 ## Getting started
 
-* execute `gradlew openProjectInMps` (Windows), `sh ./gradlew openProjectInMps` (MacOS)
+* execute `./gradlew openProjectInMps` (Windows), `sh ./gradlew openProjectInMps` (MacOS)
   * this downloads MPS for your current OS and creates an executable installation in `build/mps-bundle`
   * Windows: executes `build/mps-bundle/mps/bin/mps.bat`
   * MacOS: executes `build/mps-bundle/Contents/MacOS/mps`
@@ -40,3 +40,11 @@ It contains:
 ## Documentation
 
 See https://vimotest.github.io
+
+# Troubleshooting
+
+**Weird errors, e.g. Hamster framework classes not found when executing 'makeAndTestHamsterSimulatorViewTest'**
+
+This was caused in the past by executing the MPS' `Optimize Imports` and `Fix Module Imports`.
+Be extremely careful with this features, since they might remove dependencies which are indeed required.
+If using them: Always do it in a separate commit.

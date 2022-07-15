@@ -897,6 +897,11 @@
         <node concept="3bR9La" id="4Nu_lFVfBsy" role="3bR37C">
           <ref role="3bR37D" node="1n6T2_x2WPj" resolve="ViewModelLanguage2Java.generator" />
         </node>
+        <node concept="1SiIV0" id="GIypa72b9h" role="3bR37C">
+          <node concept="3bR9La" id="GIypa72b9i" role="1SiIV1">
+            <ref role="3bR37D" node="5SMmqCnuKnB" resolve="HamsterViewLanguage.generator" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="7xn_gHyDcls" role="2G$12L">
         <property role="BnDLt" value="true" />
