@@ -25,6 +25,7 @@ By using ViewModels, a large portion of the View-Logic (presenter, controller co
   * MacOS: executes `build/mps-bundle/Contents/MacOS/mps`
 * then, when MPS has opened the project and is ready
   * perform menu `Build`/`Make Project`
+  * if there are initial build errors, ignore them for now (they shall be resolved after one complete build)
 
 ## Samples
 
