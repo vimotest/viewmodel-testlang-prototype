@@ -567,7 +567,7 @@
   <node concept="1u6Luu" id="5hmNBhT2vM3">
     <property role="3GE5qa" value="hamster" />
     <node concept="1u6Luv" id="5hmNBhT2vM4" role="1u6Lvn">
-      <property role="TrG5h" value="hamser_tile" />
+      <property role="TrG5h" value="hamster_tile" />
       <node concept="1u4ncX" id="5hmNBhT2vM8" role="1u6L2h">
         <property role="1u4ncw" value="images/hamster/Tile32.png" />
       </node>
