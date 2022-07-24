@@ -5,6 +5,7 @@
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="0272d3b4-4cc8-481e-9e2f-07793fbfcb41" name="jetbrains.mps.lang.editor.table" version="0" />
+    <use id="b1ab8c10-c118-4755-bf2a-cebab35cf533" name="jetbrains.mps.lang.editor.tooltips" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -54,6 +55,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
         <child id="5991739802479788259" name="type" index="22hAXT" />
@@ -256,6 +258,13 @@
       <concept id="4490468428501056077" name="jetbrains.mps.lang.editor.table.structure.QueryFunction_TableModel" flags="in" index="2XI2dN" />
       <concept id="4677325677876400523" name="jetbrains.mps.lang.editor.table.structure.CellModel_Table" flags="ng" index="1CiYdB">
         <child id="4490468428501048483" name="tableModel" index="2XI0mt" />
+      </concept>
+    </language>
+    <language id="b1ab8c10-c118-4755-bf2a-cebab35cf533" name="jetbrains.mps.lang.editor.tooltips">
+      <concept id="1285659875393567816" name="jetbrains.mps.lang.editor.tooltips.structure.CellModel_Tooltip" flags="ng" index="1v6uyg">
+        <property id="4804083432920625643" name="lazy" index="2oejA6" />
+        <child id="3877544518697818164" name="tooltipCell" index="wsdo6" />
+        <child id="9185659875393569181" name="visibleCell" index="1j7Clw" />
       </concept>
     </language>
   </registry>
@@ -1258,6 +1267,89 @@
         <ref role="1NtTu8" to="6ap2:6wbjV0Q6zMg" resolve="path" />
       </node>
       <node concept="2iRfu4" id="6wbjV0Q6zMu" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2s$w3BDwT7k">
+    <property role="3GE5qa" value="viewcomponents.image" />
+    <ref role="1XX52x" to="6ap2:2s$w3BDwT7a" resolve="ImageRef" />
+    <node concept="3EZMnI" id="2s$w3BDyhlt" role="2wV5jI">
+      <node concept="3F0ifn" id="2s$w3BDyhlG" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="2iRfu4" id="2s$w3BDyhlu" role="2iSdaV" />
+      <node concept="1iCGBv" id="2s$w3BDwT7m" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:2s$w3BDwT7b" resolve="image" />
+        <node concept="1sVBvm" id="2s$w3BDwT7o" role="1sWHZn">
+          <node concept="3F0A7n" id="2s$w3BDwTRe" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3gTLQM" id="2s$w3BD_YcY" role="3EZMnx">
+        <node concept="3Fmcul" id="2s$w3BD_Yd0" role="3FoqZy">
+          <node concept="3clFbS" id="2s$w3BD_Yd2" role="2VODD2">
+            <node concept="3clFbF" id="2s$w3BD_YdN" role="3cqZAp">
+              <node concept="2OqwBi" id="2s$w3BD_Zh8" role="3clFbG">
+                <node concept="2OqwBi" id="2s$w3BD_YsI" role="2Oq$k0">
+                  <node concept="pncrf" id="2s$w3BD_YdM" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2s$w3BD_YFL" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6ap2:2s$w3BDwT7b" resolve="image" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="2s$w3BD_ZFY" role="2OqNvi">
+                  <ref role="37wK5l" to="hhvz:6wbjV0Q4KDI" resolve="createSwingLabelWithImage" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2s$w3BDwTvF">
+    <property role="3GE5qa" value="viewcomponents.image" />
+    <ref role="1XX52x" to="6ap2:2s$w3BDwT79" resolve="ImageStackComponent" />
+    <node concept="3EZMnI" id="2s$w3BDwTvH" role="2wV5jI">
+      <node concept="3F0ifn" id="2s$w3BDwTvI" role="3EZMnx">
+        <property role="3F0ifm" value="images" />
+      </node>
+      <node concept="3F0A7n" id="2s$w3BDwTvJ" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="2iRfu4" id="2s$w3BDwTvR" role="2iSdaV" />
+      <node concept="1v6uyg" id="2s$w3BD_jIw" role="3EZMnx">
+        <property role="2oejA6" value="true" />
+        <node concept="3F2HdR" id="2s$w3BD_jJz" role="wsdo6">
+          <ref role="1NtTu8" to="6ap2:2s$w3BDwTjy" resolve="layers" />
+          <node concept="2iRkQZ" id="2s$w3BD_jJ$" role="2czzBx" />
+          <node concept="VPxyj" id="2s$w3BD_jJB" role="3F10Kt" />
+        </node>
+        <node concept="3gTLQM" id="2s$w3BD_XVA" role="1j7Clw">
+          <node concept="3Fmcul" id="2s$w3BD_XVC" role="3FoqZy">
+            <node concept="3clFbS" id="2s$w3BD_XVE" role="2VODD2">
+              <node concept="3clFbF" id="2s$w3BD_Y7v" role="3cqZAp">
+                <node concept="2OqwBi" id="2s$w3BD_Y7x" role="3clFbG">
+                  <node concept="pncrf" id="2s$w3BD_Y7y" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="2s$w3BD_Y7z" role="2OqNvi">
+                    <ref role="37wK5l" to="hhvz:2Yd1qrJOWqT" resolve="makeSwingComponent" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3EZMnI" id="2s$w3BDwTQa" role="6VMZX">
+      <node concept="2iRfu4" id="2s$w3BDwTQb" role="2iSdaV" />
+      <node concept="3F0ifn" id="2s$w3BDwTQc" role="3EZMnx">
+        <property role="3F0ifm" value="image refs:" />
+      </node>
+      <node concept="3F2HdR" id="2s$w3BDwTR4" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:2s$w3BDwTjy" resolve="layers" />
+        <node concept="2iRkQZ" id="2s$w3BDwTRa" role="2czzBx" />
+      </node>
     </node>
   </node>
 </model>

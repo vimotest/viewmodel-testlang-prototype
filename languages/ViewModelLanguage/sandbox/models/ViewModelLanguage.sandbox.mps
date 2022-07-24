@@ -31,6 +31,12 @@
       <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
+      <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">
+        <child id="2820520252859978978" name="layers" index="3eDLjr" />
+      </concept>
+      <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
+        <reference id="2820520252859978187" name="image" index="3eDL7M" />
+      </concept>
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
         <property id="7497173622928850064" name="path" index="1u4ncw" />
       </concept>
@@ -244,6 +250,18 @@
       <node concept="1DeYHr" id="6wbjV0Q9tYN" role="2P43km">
         <property role="TrG5h" value="Icon" />
         <ref role="1u6L2l" node="6wbjV0Q6YmZ" resolve="Star" />
+      </node>
+      <node concept="3eDL7K" id="2s$w3BDyeOf" role="2P43km">
+        <property role="TrG5h" value="Icons" />
+        <node concept="3eDL7N" id="2s$w3BDzzv7" role="3eDLjr">
+          <ref role="3eDL7M" node="5hmNBhT2vMq" resolve="hamster_corn1" />
+        </node>
+        <node concept="3eDL7N" id="2s$w3BDyeOy" role="3eDLjr">
+          <ref role="3eDL7M" node="5hmNBhT2vMi" resolve="hamster_paule" />
+        </node>
+        <node concept="3eDL7N" id="2s$w3BDzzvv" role="3eDLjr">
+          <ref role="3eDL7M" node="5hmNBhT2vM4" resolve="hamster_tile" />
+        </node>
       </node>
       <node concept="3H9sB4" id="2Yd1qrJQ3G2" role="2P43km" />
       <node concept="3H4CWb" id="3JS2UjmUIiU" role="2P43km">

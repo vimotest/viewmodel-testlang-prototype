@@ -292,5 +292,32 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2s$w3BDwT79">
+    <property role="EcuMT" value="2820520252859978185" />
+    <property role="3GE5qa" value="viewcomponents.image" />
+    <property role="TrG5h" value="ImageStackComponent" />
+    <property role="34LRSv" value="image stack" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="2s$w3BDwTjy" role="1TKVEi">
+      <property role="IQ2ns" value="2820520252859978978" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="layers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2s$w3BDwT7a" resolve="ImageRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2s$w3BDwT7a">
+    <property role="EcuMT" value="2820520252859978186" />
+    <property role="3GE5qa" value="viewcomponents.image" />
+    <property role="TrG5h" value="ImageRef" />
+    <property role="34LRSv" value="image ref" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2s$w3BDwT7b" role="1TKVEi">
+      <property role="IQ2ns" value="2820520252859978187" />
+      <property role="20kJfa" value="image" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6wbjV0Q45wJ" resolve="Image" />
+    </node>
+  </node>
 </model>
 
