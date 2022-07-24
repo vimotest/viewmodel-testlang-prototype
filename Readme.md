@@ -42,6 +42,10 @@ It contains:
 
 See https://vimotest.github.io
 
+## Requirements
+
+See https://github.com/vimotest/vimotest.github.io/blob/main/requirements/requirements.md
+
 # Troubleshooting
 
 **Weird errors, e.g. Hamster framework classes not found when executing 'makeAndTestHamsterSimulatorViewTest'**
