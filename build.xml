@@ -857,6 +857,7 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.table.runtime.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-tooltips/languages/jetbrains.mps.lang.editor.tooltips.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
@@ -1261,7 +1262,6 @@
   
   <target name="cleanSources">
     <delete dir="${project_home}/languages/HamsterViewLanguage/source_gen" />
-    <delete dir="${project_home}/languages/HamsterViewLanguage/generator/source_gen" />
     <delete dir="${project_home}/languages/SimpleTypeLanguage/source_gen" />
     <delete dir="${project_home}/languages/SimpleTypeLanguage/generator/source_gen" />
     <delete dir="${project_home}/languages/UseCaseLanguage/source_gen" />
@@ -1272,9 +1272,10 @@
     <delete dir="${project_home}/languages/ViewModelLanguage/generator/source_gen" />
     <delete dir="${project_home}/solutions/ViewModelLanguage.test/source_gen" />
     <delete dir="${project_home}/languages/ViewModelLanguage2Java/source_gen" />
-    <delete dir="${project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
     <delete dir="${project_home}/languages/ViewModelTestLanguage/source_gen" />
     <delete dir="${project_home}/languages/ViewModelTestLanguage/generator/source_gen" />
+    <delete dir="${project_home}/languages/HamsterViewLanguage/generator/source_gen" />
     <delete dir="${project_home}/languages/ViewModelLanguage/sandbox/source_gen" />
+    <delete dir="${project_home}/languages/ViewModelLanguage2Java/generator/source_gen" />
   </target>
 </project>
