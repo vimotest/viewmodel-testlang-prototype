@@ -1,30 +1,38 @@
+/* This file is downloaded from https://github.com/vimotest/mps-gradle-scripts/raw/main/gradle/run-mps-ant.gradle */
+
 /*
+  Several Gradle tasks which make calls to ANT.
+
   Note: calling ant directly will not work for some reasons with MPS.
         So as a workaround, use the bundled JVM (JBR) and ANT libs which are downloaded with MPS (see download-mps.gradle)
  */
 
 import org.apache.tools.ant.taskdefs.condition.Os
 
-def mpsHome = getMpsHome()
-def javaHome = getJbrHome()
-def antHome = "$mpsHome/lib/ant"
+ext.mpsHome = getMpsHome()
+ext.javaHome = getJbrHome()
+ext.antHome = "$mpsHome/lib/ant"
 
 def antLauncherJarPath = "$antHome/lib/ant-launcher.jar"
 def mpsUtilJarPath = "$mpsHome/lib/util.jar"
 
 task mpsAntGenerate(type: Exec) {
+    group 'mps-ant-wrapper'
     commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "-Dproject_home=$projectDir", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "generate"
 }
 
 task mpsAntBuild(type: Exec) {
+    group 'mps-ant-wrapper'
     commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "-Dproject_home=$projectDir", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "build"
 }
 
 task mpsAntCheck(type: Exec) {
+    group 'mps-ant-wrapper'
     commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "-Dproject_home=$projectDir", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "check"
 }
 
 task parseTestReportAfterAntCheck {
+    group 'mps-ant-wrapper'
     dependsOn mpsAntCheck
 
     def mpsTestsReportDir = file("$projectDir/build/mps-tests")
@@ -63,6 +71,7 @@ task parseTestReportAfterAntCheck {
 }
 
 task mpsAntCleanSources(type: Exec) {
+    group 'mps-ant-wrapper'
     commandLine "$javaHome/bin/java", "-classpath", antLauncherJarPath, "-Dmps_home=$mpsHome", "org.apache.tools.ant.launch.Launcher", "-cp", mpsUtilJarPath, "cleanSources"
 
     doLast {
@@ -96,3 +105,19 @@ private static String getMpsHome() {
     return 'build/mps-bundle/mps'
 }
 
+task openProjectInMpsForCurrentOs(type: Exec) {
+    group 'mps-ant-wrapper'
+    dependsOn buildOsSpecificBundle
+
+    workingDir projectDir
+
+    environment "JAVA_HOME", "$projectDir/build/mps-bundle/mps/jbr/bin"
+
+    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        commandLine 'build/mps-bundle/mps/bin/mps.bat', projectDir
+    } else if (Os.isFamily(Os.FAMILY_MAC)) {
+        commandLine 'build/mps-bundle/Contents/MacOS/mps', projectDir
+    } else if (Os.isFamily(Os.FAMILY_UNIX)) {
+        commandLine 'sh', 'build/mps-bundle/mps/bin/mps.sh', projectDir
+    }
+}
