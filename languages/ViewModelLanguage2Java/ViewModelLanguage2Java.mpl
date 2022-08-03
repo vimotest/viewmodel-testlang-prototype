@@ -34,6 +34,7 @@
         <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
         <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+        <dependency reexport="false">77c93106-0ffc-4fe6-8c92-dea8ea8cbc60(SimpleTypeLanguage)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:77c93106-0ffc-4fe6-8c92-dea8ea8cbc60:SimpleTypeLanguage" version="0" />
@@ -76,7 +77,22 @@
         <module reference="0edf22a4-42bc-4e5d-954f-06aaaf51df00(jetbrains.mps.lang.makeup)" version="0" />
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
       </dependencyVersions>
-      <mapping-priorities />
+      <mapping-priorities>
+        <mapping-priority-rule kind="strictly_together">
+          <greater-priority-mapping>
+            <generator generatorUID="bb0a550d-4d97-495d-a6c8-f0f86a1372f7(ViewModelLanguage2Java.generator)" />
+            <external-mapping>
+              <mapping-node modelUID="r:050920df-a6a2-4c31-9af3-4a0a2c632e2f(ViewModelLanguage2Java.generator.templates@generator)" nodeID="5970263160260674594" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="bb0a550d-4d97-495d-a6c8-f0f86a1372f7(ViewModelLanguage2Java.generator)" />
+            <external-mapping>
+              <mapping-node modelUID="r:050920df-a6a2-4c31-9af3-4a0a2c632e2f(ViewModelLanguage2Java.generator.templates@generator)" nodeID="8367061025607201153" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+      </mapping-priorities>
     </generator>
   </generators>
   <sourcePath />
