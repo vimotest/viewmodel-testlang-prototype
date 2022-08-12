@@ -3085,6 +3085,37 @@
   <node concept="13h7C7" id="zI3UExNRf1">
     <property role="3GE5qa" value="assert.table" />
     <ref role="13h7C2" to="l8rz:5WrZkWQpyX6" resolve="TableRowCheck" />
+    <node concept="13i0hz" id="4jKdMMdUdxd" role="13h7CS">
+      <property role="TrG5h" value="getTable" />
+      <node concept="3Tm1VV" id="4jKdMMdUdxe" role="1B3o_S" />
+      <node concept="3clFbS" id="4jKdMMdUdxg" role="3clF47">
+        <node concept="3clFbF" id="4jKdMMdUdxh" role="3cqZAp">
+          <node concept="1PxgMI" id="4jKdMMdUdxj" role="3clFbG">
+            <node concept="chp4Y" id="4jKdMMdUdxk" role="3oSUPX">
+              <ref role="cht4Q" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
+            </node>
+            <node concept="2OqwBi" id="4jKdMMdUdxl" role="1m5AlR">
+              <node concept="2OqwBi" id="4jKdMMdUdxm" role="2Oq$k0">
+                <node concept="13iPFW" id="4jKdMMdUdxn" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="4jKdMMdUdxo" role="2OqNvi">
+                  <node concept="1xMEDy" id="4jKdMMdUdxp" role="1xVPHs">
+                    <node concept="chp4Y" id="4jKdMMdUdxq" role="ri$Ld">
+                      <ref role="cht4Q" to="l8rz:2Yd1qrJONf3" resolve="ViewAssertion" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrEf2" id="4jKdMMdUdxr" role="2OqNvi">
+                <ref role="3Tt5mk" to="l8rz:2Yd1qrJONfu" resolve="component" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4jKdMMdUdFt" role="3clF45">
+        <ref role="ehGHo" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
+      </node>
+    </node>
     <node concept="13i0hz" id="zI3UExNRfc" role="13h7CS">
       <property role="TrG5h" value="getTableRow" />
       <node concept="3Tm1VV" id="zI3UExNRfd" role="1B3o_S" />
@@ -3094,24 +3125,10 @@
       <node concept="3clFbS" id="zI3UExNRff" role="3clF47">
         <node concept="3clFbF" id="zI3UExNRY_" role="3cqZAp">
           <node concept="2OqwBi" id="zI3UExNT5m" role="3clFbG">
-            <node concept="1PxgMI" id="zI3UExNSRC" role="2Oq$k0">
-              <node concept="chp4Y" id="zI3UExNSV9" role="3oSUPX">
-                <ref role="cht4Q" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
-              </node>
-              <node concept="2OqwBi" id="zI3UExNSqN" role="1m5AlR">
-                <node concept="2OqwBi" id="zI3UExNS7I" role="2Oq$k0">
-                  <node concept="13iPFW" id="zI3UExNRYz" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="zI3UExNSf7" role="2OqNvi">
-                    <node concept="1xMEDy" id="zI3UExNSf9" role="1xVPHs">
-                      <node concept="chp4Y" id="zI3UExNShp" role="ri$Ld">
-                        <ref role="cht4Q" to="l8rz:2Yd1qrJONf3" resolve="ViewAssertion" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="zI3UExNSyJ" role="2OqNvi">
-                  <ref role="3Tt5mk" to="l8rz:2Yd1qrJONfu" resolve="component" />
-                </node>
+            <node concept="2OqwBi" id="4jKdMMdUe9A" role="2Oq$k0">
+              <node concept="13iPFW" id="zI3UExNRYz" role="2Oq$k0" />
+              <node concept="2qgKlT" id="4jKdMMdUeiF" role="2OqNvi">
+                <ref role="37wK5l" node="4jKdMMdUdxd" resolve="getTable" />
               </node>
             </node>
             <node concept="3TrEf2" id="zI3UExNTkx" role="2OqNvi">
