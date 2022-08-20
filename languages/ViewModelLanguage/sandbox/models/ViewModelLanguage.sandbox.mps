@@ -796,10 +796,18 @@
                 <node concept="1u6r32" id="5Xz9NpjPnX3" role="1u6pWF">
                   <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
                 </node>
-                <node concept="1u6r32" id="5Xz9NpjPnX4" role="1u6pWF">
+              </node>
+            </node>
+            <node concept="1u3WYF" id="5Xz9Npk1wEM" role="cFlPm">
+              <node concept="1u6pYw" id="5Xz9Npk1wFc" role="1u3WYG">
+                <node concept="1u6r32" id="5Xz9Npk1wFd" role="1u6pWF">
                   <ref role="1u6r35" node="5hmNBhT2vMi" resolve="hamster_paule" />
                 </node>
-                <node concept="1u6r32" id="5Xz9NpjPnX5" role="1u6pWF">
+              </node>
+            </node>
+            <node concept="1u3WYF" id="5Xz9Npk1wEO" role="cFlPm">
+              <node concept="1u6pYw" id="5Xz9Npk1wFk" role="1u3WYG">
+                <node concept="1u6r32" id="5Xz9Npk1wFl" role="1u6pWF">
                   <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
                 </node>
               </node>
@@ -811,10 +819,18 @@
                 <node concept="1u6r32" id="5Xz9NpjPnXl" role="1u6pWF">
                   <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
                 </node>
-                <node concept="1u6r32" id="5Xz9NpjPnXm" role="1u6pWF">
+              </node>
+            </node>
+            <node concept="1u3WYF" id="5Xz9Npk1wEQ" role="cFlPm">
+              <node concept="1u6pYw" id="5Xz9Npk1wFs" role="1u3WYG">
+                <node concept="1u6r32" id="5Xz9Npk1wFt" role="1u6pWF">
                   <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
                 </node>
-                <node concept="1u6r32" id="5Xz9NpjPnXn" role="1u6pWF">
+              </node>
+            </node>
+            <node concept="1u3WYF" id="5Xz9Npk1wES" role="cFlPm">
+              <node concept="1u6pYw" id="5Xz9Npk1wF_" role="1u3WYG">
+                <node concept="1u6r32" id="5Xz9Npk1wFA" role="1u6pWF">
                   <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
                 </node>
               </node>
