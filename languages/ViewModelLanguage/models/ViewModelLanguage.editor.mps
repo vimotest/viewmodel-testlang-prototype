@@ -1352,5 +1352,33 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="1c2yPVfA6IS">
+    <property role="3GE5qa" value="viewcomponents" />
+    <ref role="1XX52x" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
+    <node concept="3EZMnI" id="1c2yPVfA6IU" role="2wV5jI">
+      <node concept="3F0ifn" id="1c2yPVfA6IV" role="3EZMnx">
+        <property role="3F0ifm" value="dynamic table" />
+      </node>
+      <node concept="3F0A7n" id="1c2yPVfA6IW" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="1CiYdB" id="1c2yPVfA6Uj" role="3EZMnx">
+        <node concept="2XI2dN" id="1c2yPVfA6Ul" role="2XI0mt">
+          <node concept="3clFbS" id="1c2yPVfA6Un" role="2VODD2">
+            <node concept="3clFbF" id="1c2yPVfA6X5" role="3cqZAp">
+              <node concept="2ShNRf" id="1c2yPVfA6X3" role="3clFbG">
+                <node concept="1pGfFk" id="1c2yPVfAwDA" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="hhvz:1c2yPVfAuFO" resolve="DynamicTableComponentModel" />
+                  <node concept="pncrf" id="1c2yPVfAwGS" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="1c2yPVfA6IX" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

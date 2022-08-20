@@ -624,5 +624,38 @@
     <property role="3GE5qa" value="context" />
     <property role="TrG5h" value="ITestSuiteContext" />
   </node>
+  <node concept="1TIwiD" id="5Xz9NpjNAB2">
+    <property role="EcuMT" value="6873380570585262530" />
+    <property role="3GE5qa" value="assert.table" />
+    <property role="TrG5h" value="DynamicTableCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="5Xz9NpjNBDV" role="1TKVEi">
+      <property role="IQ2ns" value="6873380570585266811" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checkValues" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
+    </node>
+    <node concept="1TJgyj" id="5Xz9NpjNBDW" role="1TKVEi">
+      <property role="IQ2ns" value="6873380570585266812" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowChecks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5Xz9NpjNBDv" resolve="DynamicTableRowCheck" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5Xz9NpjNBDv">
+    <property role="EcuMT" value="6873380570585266783" />
+    <property role="3GE5qa" value="assert.table" />
+    <property role="TrG5h" value="DynamicTableRowCheck" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="5Xz9NpjNBDw" role="1TKVEi">
+      <property role="IQ2ns" value="6873380570585266784" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cellChecks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6wbjV0Q180r" resolve="TableCellCheck" />
+    </node>
+  </node>
 </model>
 
