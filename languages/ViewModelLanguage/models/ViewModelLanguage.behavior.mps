@@ -2838,6 +2838,85 @@
         <ref role="2AI5Lk" to="wyt6:~Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="5Xz9Npk49Vs" role="jymVt" />
+    <node concept="3clFb_" id="5Xz9Npk48Zh" role="jymVt">
+      <property role="TrG5h" value="createStackedImageIcon" />
+      <node concept="3clFbS" id="5Xz9Npk48Zk" role="3clF47">
+        <node concept="3cpWs8" id="5Xz9Npk4Els" role="3cqZAp">
+          <node concept="3cpWsn" id="5Xz9Npk4Elt" role="3cpWs9">
+            <property role="TrG5h" value="image" />
+            <node concept="3uibUv" id="5Xz9Npk4DLD" role="1tU5fm">
+              <ref role="3uigEE" to="jan3:~BufferedImage" resolve="BufferedImage" />
+            </node>
+            <node concept="2ShNRf" id="5Xz9Npk4Elu" role="33vP2m">
+              <node concept="1pGfFk" id="5Xz9Npk4Elv" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="jan3:~BufferedImage.&lt;init&gt;(int,int,int)" resolve="BufferedImage" />
+                <node concept="2OqwBi" id="5Xz9Npk4Elw" role="37wK5m">
+                  <node concept="1rXfSq" id="5Xz9Npk4Elx" role="2Oq$k0">
+                    <ref role="37wK5l" to="dxuu:~JComponent.getPreferredSize()" resolve="getPreferredSize" />
+                  </node>
+                  <node concept="2OwXpG" id="5Xz9Npk4Ely" role="2OqNvi">
+                    <ref role="2Oxat5" to="z60i:~Dimension.width" resolve="width" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="5Xz9Npk4Elz" role="37wK5m">
+                  <node concept="1rXfSq" id="5Xz9Npk4El$" role="2Oq$k0">
+                    <ref role="37wK5l" to="dxuu:~JComponent.getPreferredSize()" resolve="getPreferredSize" />
+                  </node>
+                  <node concept="2OwXpG" id="5Xz9Npk4El_" role="2OqNvi">
+                    <ref role="2Oxat5" to="z60i:~Dimension.height" resolve="height" />
+                  </node>
+                </node>
+                <node concept="10M0yZ" id="5Xz9Npk4ElA" role="37wK5m">
+                  <ref role="3cqZAo" to="jan3:~BufferedImage.TYPE_INT_ARGB" resolve="TYPE_INT_ARGB" />
+                  <ref role="1PxDUh" to="jan3:~BufferedImage" resolve="BufferedImage" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5Xz9Npk7981" role="3cqZAp">
+          <node concept="3cpWsn" id="5Xz9Npk7982" role="3cpWs9">
+            <property role="TrG5h" value="graphics" />
+            <node concept="3uibUv" id="5Xz9Npk77vR" role="1tU5fm">
+              <ref role="3uigEE" to="z60i:~Graphics" resolve="Graphics" />
+            </node>
+            <node concept="2OqwBi" id="5Xz9Npk7983" role="33vP2m">
+              <node concept="37vLTw" id="5Xz9Npk7984" role="2Oq$k0">
+                <ref role="3cqZAo" node="5Xz9Npk4Elt" resolve="image" />
+              </node>
+              <node concept="liA8E" id="5Xz9Npk7985" role="2OqNvi">
+                <ref role="37wK5l" to="jan3:~BufferedImage.getGraphics()" resolve="getGraphics" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5Xz9Npk4FcD" role="3cqZAp">
+          <node concept="1rXfSq" id="5Xz9Npk4FcB" role="3clFbG">
+            <ref role="37wK5l" to="dxuu:~JComponent.paint(java.awt.Graphics)" resolve="paint" />
+            <node concept="37vLTw" id="5Xz9Npk7986" role="37wK5m">
+              <ref role="3cqZAo" node="5Xz9Npk7982" resolve="graphics" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5Xz9Npk4N4O" role="3cqZAp">
+          <node concept="2ShNRf" id="5Xz9Npk4PeC" role="3cqZAk">
+            <node concept="1pGfFk" id="5Xz9Npk4PeD" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" node="3_3BZO9YHJl" resolve="AlphaIcon" />
+              <node concept="37vLTw" id="5Xz9Npk4PeE" role="37wK5m">
+                <ref role="3cqZAo" node="5Xz9Npk4Elt" resolve="image" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5Xz9Npk485F" role="1B3o_S" />
+      <node concept="3uibUv" id="5Xz9Npk48_l" role="3clF45">
+        <ref role="3uigEE" to="dxuu:~ImageIcon" resolve="ImageIcon" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="2s$w3BDFU35" role="jymVt" />
     <node concept="3Tm1VV" id="2s$w3BDFU36" role="1B3o_S" />
     <node concept="3uibUv" id="2s$w3BDFXHL" role="1zkMxy">
