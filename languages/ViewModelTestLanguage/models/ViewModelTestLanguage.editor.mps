@@ -63,6 +63,7 @@
         <property id="168363875802087287" name="showInUI" index="2gpH_U" />
       </concept>
       <concept id="8383079901754291618" name="jetbrains.mps.lang.editor.structure.CellModel_NextEditor" flags="ng" index="B$lHz" />
+      <concept id="1239814640496" name="jetbrains.mps.lang.editor.structure.CellLayout_VerticalGrid" flags="nn" index="2EHx9g" />
       <concept id="1160493135005" name="jetbrains.mps.lang.editor.structure.CellMenuPart_PropertyValues_GetValues" flags="in" index="MLZmj" />
       <concept id="1164824717996" name="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" flags="ng" index="OXEIz">
         <child id="1164824815888" name="cellMenuPart" index="OY2wv" />
@@ -309,6 +310,10 @@
     </language>
     <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
       <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
+      <concept id="2728748097294192922" name="de.itemis.mps.editor.celllayout.structure.IntegerStyle" flags="lg" index="3To2jP">
+        <property id="1221209241505" name="value" index="1lJzqY" />
+      </concept>
+      <concept id="2728748097294299887" name="de.itemis.mps.editor.celllayout.structure.MarginBottomStyle" flags="lg" index="3Toos0" />
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193249" name="jetbrains.mps.lang.modelapi.structure.ModulePointer" flags="ng" index="1dCxOk">
@@ -2364,6 +2369,32 @@
         <node concept="3vyZuw" id="5Xz9NpjNEI_" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5Xz9Npk9m4R">
+    <property role="3GE5qa" value="assert.image" />
+    <ref role="1XX52x" to="l8rz:5Xz9Npk9m4H" resolve="ImageStackCheck" />
+    <node concept="3EZMnI" id="5Xz9Npka94g" role="2wV5jI">
+      <node concept="2iRfu4" id="5Xz9Npka94h" role="2iSdaV" />
+      <node concept="3F2HdR" id="5Xz9Npk9m4T" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:5Xz9Npk9m4I" resolve="imageChecks" />
+        <node concept="2EHx9g" id="5Xz9Npk9m4W" role="2czzBx" />
+        <node concept="3vyZuw" id="5Xz9Npk9m4Y" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5Xz9Npka94v" role="3EZMnx">
+        <property role="3F0ifm" value="&lt;stack&gt;" />
+        <node concept="Vb9p2" id="5Xz9Npka94_" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+        <node concept="VSNWy" id="5Xz9Npka94E" role="3F10Kt">
+          <property role="1lJzqX" value="10" />
+        </node>
+      </node>
+      <node concept="3Toos0" id="5Xz9Npkbyh9" role="3F10Kt">
+        <property role="1lJzqY" value="10" />
       </node>
     </node>
   </node>

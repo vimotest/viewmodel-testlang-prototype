@@ -657,5 +657,18 @@
       <ref role="20lvS9" node="6wbjV0Q180r" resolve="TableCellCheck" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5Xz9Npk9m4H">
+    <property role="EcuMT" value="6873380570590961965" />
+    <property role="3GE5qa" value="assert.image" />
+    <property role="TrG5h" value="ImageStackCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="5Xz9Npk9m4I" role="1TKVEi">
+      <property role="IQ2ns" value="6873380570590961966" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="imageChecks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6wbjV0Q4H0g" resolve="ImageCheck" />
+    </node>
+  </node>
 </model>
 

@@ -102,6 +102,9 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="6873380570590961965" name="ViewModelTestLanguage.structure.ImageStackCheck" flags="ng" index="bh$or">
+        <child id="6873380570590961966" name="imageChecks" index="bh$oo" />
+      </concept>
       <concept id="6873380570585262530" name="ViewModelTestLanguage.structure.DynamicTableCheck" flags="ng" index="cFkVO">
         <child id="6873380570585266812" name="rowChecks" index="cFlPa" />
       </concept>
@@ -815,23 +818,38 @@
           </node>
           <node concept="cFlPD" id="5Xz9NpjPnXi" role="cFlPa">
             <node concept="1u3WYF" id="5Xz9NpjPnXj" role="cFlPm">
-              <node concept="1u6pYw" id="5Xz9NpjPnXk" role="1u3WYG">
-                <node concept="1u6r32" id="5Xz9NpjPnXl" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+              <node concept="bh$or" id="5Xz9Npka949" role="1u3WYG">
+                <node concept="1u6pYw" id="5Xz9Npka94c" role="bh$oo">
+                  <node concept="1u6r32" id="5Xz9Npka94d" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
+                  </node>
+                  <node concept="1u6r32" id="5Xz9NpkaPEp" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
                 </node>
               </node>
             </node>
-            <node concept="1u3WYF" id="5Xz9Npk1wEQ" role="cFlPm">
-              <node concept="1u6pYw" id="5Xz9Npk1wFs" role="1u3WYG">
-                <node concept="1u6r32" id="5Xz9Npk1wFt" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+            <node concept="1u3WYF" id="5Xz9NpkaPEa" role="cFlPm">
+              <node concept="bh$or" id="5Xz9NpkaPEi" role="1u3WYG">
+                <node concept="1u6pYw" id="5Xz9NpkaPEl" role="bh$oo">
+                  <node concept="1u6r32" id="5Xz9NpkaPEm" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
+                  </node>
+                  <node concept="1u6r32" id="5Xz9NpkaPEs" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
                 </node>
               </node>
             </node>
-            <node concept="1u3WYF" id="5Xz9Npk1wES" role="cFlPm">
-              <node concept="1u6pYw" id="5Xz9Npk1wF_" role="1u3WYG">
-                <node concept="1u6r32" id="5Xz9Npk1wFA" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+            <node concept="1u3WYF" id="5Xz9NpkcVsD" role="cFlPm">
+              <node concept="bh$or" id="5Xz9NpkcVsE" role="1u3WYG">
+                <node concept="1u6pYw" id="5Xz9NpkcVsF" role="bh$oo">
+                  <node concept="1u6r32" id="5Xz9NpkcVsG" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
+                  </node>
+                  <node concept="1u6r32" id="5Xz9NpkcVsH" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
                 </node>
               </node>
             </node>
