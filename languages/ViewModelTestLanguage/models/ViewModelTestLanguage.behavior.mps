@@ -5734,5 +5734,65 @@
       <node concept="3clFbS" id="5Xz9Npkd0m$" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="3bUwTsdnRFZ">
+    <property role="3GE5qa" value="assert.table" />
+    <ref role="13h7C2" to="l8rz:5Xz9NpjNBDv" resolve="DynamicTableRowCheck" />
+    <node concept="13i0hz" id="3bUwTsdnRGa" role="13h7CS">
+      <property role="TrG5h" value="getTable" />
+      <node concept="3Tm1VV" id="3bUwTsdnRGb" role="1B3o_S" />
+      <node concept="3clFbS" id="3bUwTsdnRGc" role="3clF47">
+        <node concept="3clFbF" id="3bUwTsdnRGd" role="3cqZAp">
+          <node concept="1PxgMI" id="3bUwTsdnRGe" role="3clFbG">
+            <node concept="chp4Y" id="3bUwTsdnRGf" role="3oSUPX">
+              <ref role="cht4Q" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
+            </node>
+            <node concept="2OqwBi" id="3bUwTsdnRGg" role="1m5AlR">
+              <node concept="2OqwBi" id="3bUwTsdnRGh" role="2Oq$k0">
+                <node concept="13iPFW" id="3bUwTsdnRGi" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="3bUwTsdnRGj" role="2OqNvi">
+                  <node concept="1xMEDy" id="3bUwTsdnRGk" role="1xVPHs">
+                    <node concept="chp4Y" id="3bUwTsdnRGl" role="ri$Ld">
+                      <ref role="cht4Q" to="l8rz:2Yd1qrJONf3" resolve="ViewAssertion" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrEf2" id="3bUwTsdnRGm" role="2OqNvi">
+                <ref role="3Tt5mk" to="l8rz:2Yd1qrJONfu" resolve="component" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="3bUwTsdnRGn" role="3clF45">
+        <ref role="ehGHo" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="3bUwTsdnRGo" role="13h7CS">
+      <property role="TrG5h" value="getTableCell" />
+      <node concept="3Tm1VV" id="3bUwTsdnRGp" role="1B3o_S" />
+      <node concept="3Tqbb2" id="3bUwTsdnRGq" role="3clF45">
+        <ref role="ehGHo" to="6ap2:5WrZkWQ5bAr" resolve="TableCellComponent" />
+      </node>
+      <node concept="3clFbS" id="3bUwTsdnRGr" role="3clF47">
+        <node concept="3clFbF" id="3bUwTsdnRGs" role="3cqZAp">
+          <node concept="2OqwBi" id="3bUwTsdnRGt" role="3clFbG">
+            <node concept="2OqwBi" id="3bUwTsdnRGu" role="2Oq$k0">
+              <node concept="13iPFW" id="3bUwTsdnRGv" role="2Oq$k0" />
+              <node concept="2qgKlT" id="3bUwTsdnRGw" role="2OqNvi">
+                <ref role="37wK5l" node="3bUwTsdnRGa" resolve="getTable" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="3bUwTsdnRGx" role="2OqNvi">
+              <ref role="3Tt5mk" to="6ap2:1c2yPVf_sI$" resolve="cellDefinition" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="3bUwTsdnRG0" role="13h7CW">
+      <node concept="3clFbS" id="3bUwTsdnRG1" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
