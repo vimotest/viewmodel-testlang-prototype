@@ -294,11 +294,6 @@
       </concept>
       <concept id="1196866233735" name="jetbrains.mps.lang.quotation.structure.PropertyAntiquotation" flags="ng" index="2EMmih" />
     </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
-        <child id="5721587534047265374" name="message" index="9lYJi" />
-      </concept>
-    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -5876,16 +5871,6 @@
                                   <ref role="3cqZAo" node="3bUwTsdpKMs" resolve="component" />
                                 </node>
                               </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="2xdQw9" id="3bUwTsdrE8G" role="3cqZAp">
-                          <node concept="3cpWs3" id="3bUwTsdrEG8" role="9lYJi">
-                            <node concept="37vLTw" id="3bUwTsdrETI" role="3uHU7w">
-                              <ref role="3cqZAo" node="3bUwTsdpKMx" resolve="field" />
-                            </node>
-                            <node concept="Xl_RD" id="3bUwTsdrE8I" role="3uHU7B">
-                              <property role="Xl_RC" value="## " />
                             </node>
                           </node>
                         </node>
