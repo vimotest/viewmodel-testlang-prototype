@@ -223,10 +223,6 @@
     <node concept="3H8Xwz" id="3JS2UjmTHVk" role="3H8Xyh" />
     <node concept="3H8Xwz" id="3JS2UjmSAGr" role="3H8Xyh" />
     <node concept="3H8Xy_" id="3JS2UjmSmXD" role="3H8Xyx">
-      <node concept="2P4x69" id="3JS2UjmTVNH" role="2P43km">
-        <property role="TrG5h" value="ButtonSensitive" />
-        <node concept="2P4D6g" id="3JS2UjmTVNF" role="2P5Oin" />
-      </node>
       <node concept="3KxLjU" id="5WrZkWQ61QF" role="2P43km">
         <property role="TrG5h" value="table" />
         <node concept="1D3Ojl" id="5WrZkWQ61QH" role="1D3Iin">
@@ -265,14 +261,14 @@
       </node>
       <node concept="3eDL7K" id="2s$w3BDyeOf" role="2P43km">
         <property role="TrG5h" value="Icons" />
-        <node concept="3eDL7N" id="2s$w3BDzzv7" role="3eDLjr">
-          <ref role="3eDL7M" node="5hmNBhT2vMq" resolve="hamster_corn1" />
+        <node concept="3eDL7N" id="2s$w3BDzzvv" role="3eDLjr">
+          <ref role="3eDL7M" node="6wbjV0Q6YmZ" resolve="Star" />
         </node>
         <node concept="3eDL7N" id="2s$w3BDyeOy" role="3eDLjr">
-          <ref role="3eDL7M" node="5hmNBhT2vMi" resolve="hamster_paule" />
+          <ref role="3eDL7M" node="6wbjV0Q9rdK" resolve="Circle" />
         </node>
-        <node concept="3eDL7N" id="2s$w3BDzzvv" role="3eDLjr">
-          <ref role="3eDL7M" node="5hmNBhT2vM4" resolve="hamster_tile" />
+        <node concept="3eDL7N" id="2s$w3BDzzv7" role="3eDLjr">
+          <ref role="3eDL7M" node="6wbjV0Q9rdV" resolve="Triangle" />
         </node>
       </node>
       <node concept="3H9sB4" id="2Yd1qrJQ3G2" role="2P43km" />
@@ -465,6 +461,51 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="7qebotZ8exh" role="30n1Qb">
+      <node concept="30nyDl" id="7qebotZ8exi" role="30nziG">
+        <node concept="30nyDi" id="7qebotZ8exj" role="30nyDj">
+          <property role="30lZVK" value="Circle object" />
+        </node>
+        <node concept="30nyDi" id="7qebotZ8ezY" role="30nyDj">
+          <property role="30lZVK" value="Star object" />
+        </node>
+        <node concept="30nyDi" id="7qebotZ8exk" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="7qebotZ8exm" role="30nyDs">
+          <property role="30lZVK" value="Icons are Circle" />
+        </node>
+        <node concept="30nyDi" id="7qebotZ8ezQ" role="30nyDs">
+          <property role="30lZVK" value="Star" />
+        </node>
+      </node>
+      <node concept="30nziD" id="7qebotZ8exo" role="30nzo2">
+        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="7qebotZ8exq" role="30nzpy">
+        <ref role="30nzpS" node="2s$w3BDyeOf" resolve="Icons" />
+        <node concept="bh$or" id="7qebotZ8e_a" role="30nDbQ">
+          <node concept="1u6pYw" id="7qebotZ8e_c" role="bh$oo">
+            <node concept="1u6r32" id="7qebotZ8e_d" role="1u6pWF">
+              <ref role="1u6r35" node="6wbjV0Q6YmZ" resolve="Star" />
+            </node>
+          </node>
+          <node concept="1u6pYw" id="7qebotZ8e_$" role="bh$oo">
+            <node concept="1u6r32" id="7qebotZ8e__" role="1u6pWF">
+              <ref role="1u6r35" node="6wbjV0Q9rdK" resolve="Circle" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30k8jE" id="7qebotZ8e$5" role="30nziE">
+        <node concept="30k8jF" id="7qebotZ8e$8" role="30k8ga">
+          <property role="TrG5h" value="Circle" />
+        </node>
+        <node concept="30k8jF" id="7qebotZ8e$a" role="30k8ga">
+          <property role="TrG5h" value="Star" />
         </node>
       </node>
     </node>
