@@ -31,13 +31,21 @@
       <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
+      <concept id="3673393130864051149" name="ViewModelLanguage.structure.IHasNameField" flags="ng" index="Zuo1q">
+        <property id="8491766642999925989" name="nameFieldCustomName" index="1ankKw" />
+      </concept>
       <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">
+        <property id="8491766642999919096" name="layerClassCustomName" index="1anl4X" />
         <child id="2820520252859978978" name="layers" index="3eDLjr" />
       </concept>
       <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
       <concept id="1369810475999939491" name="ViewModelLanguage.structure.DynamicTableComponent" flags="ng" index="3s_O3X">
+        <property id="8491766642999776839" name="cellClassCustomName" index="1amSq2" />
+        <property id="8491766642999776832" name="rowClassCustomName" index="1amSq5" />
+        <property id="8491766642999776835" name="cellsFieldCustomName" index="1amSq6" />
+        <property id="8491766642999776830" name="rowsFieldCustomName" index="1amSrV" />
         <child id="1369810475999939492" name="cellDefinition" index="3s_O3U" />
       </concept>
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
@@ -67,7 +75,9 @@
       <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb" />
       <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym" />
-      <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_" />
+      <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_">
+        <property id="8491766643000808876" name="viewModelClassCustomName" index="1aiWlD" />
+      </concept>
       <concept id="4321216645069263618" name="ViewModelLanguage.structure.View" flags="ng" index="3H8XyA">
         <child id="4321216645069263669" name="contents" index="3H8Xyh" />
         <child id="4321216645069263621" name="viewModel" index="3H8Xyx" />
@@ -574,12 +584,19 @@
     </node>
     <node concept="3H8Xwz" id="5hmNBhT2vOw" role="3H8Xyh" />
     <node concept="3H8Xy_" id="5hmNBhT2vLI" role="3H8Xyx">
+      <property role="1aiWlD" value="GameViewModel" />
       <node concept="3s_O3X" id="1c2yPVfA6F9" role="2P43km">
         <property role="TrG5h" value="territory" />
+        <property role="1amSrV" value="rows" />
+        <property role="1amSq5" value="ViewModelRow" />
+        <property role="1amSq6" value="cells" />
+        <property role="1amSq2" value="ViewModelCell" />
         <node concept="1D3Ojk" id="1c2yPVfA6Fb" role="3s_O3U">
           <property role="1D38ss" value="true" />
           <node concept="3eDL7K" id="1c2yPVfBaGb" role="1D3Ojh">
             <property role="TrG5h" value="layers" />
+            <property role="1ankKw" value="imageName" />
+            <property role="1anl4X" value="ViewModelCellLayer" />
             <node concept="3eDL7N" id="1c2yPVfBhLe" role="3eDLjr">
               <ref role="3eDL7M" node="5hmNBhT2vMi" resolve="hamster_paule" />
             </node>
