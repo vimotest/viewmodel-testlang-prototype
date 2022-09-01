@@ -58,10 +58,16 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
+      </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
+      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
+      <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
         <child id="5991739802479788259" name="type" index="22hAXT" />
@@ -1532,6 +1538,72 @@
         <ref role="1NtTu8" to="6ap2:7noOckZ$LmG" resolve="viewModelClassCustomName" />
       </node>
       <node concept="l2Vlx" id="7noOckZ$L$8" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3A1HDQktRFT">
+    <property role="3GE5qa" value="viewcomponents.layout" />
+    <ref role="1XX52x" to="6ap2:3A1HDQktRFJ" resolve="HorizontalLayout" />
+    <node concept="3EZMnI" id="3A1HDQkvFQ7" role="2wV5jI">
+      <node concept="2iRfu4" id="3A1HDQkvFQ8" role="2iSdaV" />
+      <node concept="3EZMnI" id="3A1HDQktRFV" role="3EZMnx">
+        <node concept="3F2HdR" id="3A1HDQktRG2" role="3EZMnx">
+          <ref role="1NtTu8" to="6ap2:3A1HDQktRFK" resolve="children" />
+          <node concept="2iRfu4" id="3A1HDQktRG4" role="2czzBx" />
+        </node>
+        <node concept="2iRfu4" id="3A1HDQktRFY" role="2iSdaV" />
+        <node concept="VPXOz" id="3A1HDQktZJW" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3A1HDQkvj4J" role="3EZMnx">
+        <property role="3F0ifm" value="|" />
+        <node concept="Vb9p2" id="3A1HDQkvj4P" role="3F10Kt" />
+        <node concept="VechU" id="3A1HDQkvj4U" role="3F10Kt">
+          <property role="Vb096" value="fLJRk5A/lightGray" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3A1HDQku_xv">
+    <property role="3GE5qa" value="viewcomponents" />
+    <ref role="1XX52x" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
+    <node concept="3EZMnI" id="3A1HDQku_xx" role="2wV5jI">
+      <node concept="3F0ifn" id="3A1HDQku_xy" role="3EZMnx">
+        <property role="3F0ifm" value="button" />
+      </node>
+      <node concept="3F0A7n" id="3A1HDQku_xz" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3gTLQM" id="3A1HDQku_x$" role="3EZMnx">
+        <node concept="3Fmcul" id="3A1HDQku_x_" role="3FoqZy">
+          <node concept="3clFbS" id="3A1HDQku_xA" role="2VODD2">
+            <node concept="3clFbF" id="3A1HDQku_xB" role="3cqZAp">
+              <node concept="2OqwBi" id="3A1HDQku_xC" role="3clFbG">
+                <node concept="pncrf" id="3A1HDQku_xD" role="2Oq$k0" />
+                <node concept="2qgKlT" id="3A1HDQku_xE" role="2OqNvi">
+                  <ref role="37wK5l" to="hhvz:2Yd1qrJOWqT" resolve="makeSwingComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="3A1HDQku_xF" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3A1HDQkuAmP" role="6VMZX">
+      <node concept="2iRfu4" id="3A1HDQkuAmQ" role="2iSdaV" />
+      <node concept="3F0ifn" id="3A1HDQkuAmR" role="3EZMnx">
+        <property role="3F0ifm" value="image ref:" />
+      </node>
+      <node concept="1iCGBv" id="3A1HDQkuAmS" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:3A1HDQku_NZ" resolve="image" />
+        <node concept="1sVBvm" id="3A1HDQkuAmT" role="1sWHZn">
+          <node concept="3F0A7n" id="3A1HDQkuAmU" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

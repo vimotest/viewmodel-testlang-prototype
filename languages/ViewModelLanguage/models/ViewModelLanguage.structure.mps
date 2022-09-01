@@ -416,5 +416,40 @@
       <ref role="20lvS9" node="3bUwTsdwKf1" resolve="CustomName" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3A1HDQktRFJ">
+    <property role="EcuMT" value="4143793920074545903" />
+    <property role="TrG5h" value="HorizontalLayout" />
+    <property role="34LRSv" value="horizontal layout" />
+    <property role="3GE5qa" value="viewcomponents.layout" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="3A1HDQktRFK" role="1TKVEi">
+      <property role="IQ2ns" value="4143793920074545904" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="children" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    </node>
+    <node concept="PrWs8" id="3A1HDQkwnQ8" role="PzmwI">
+      <ref role="PrY4T" node="3A1HDQkwnQ7" resolve="IViewComponentLayout" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3A1HDQku_lz">
+    <property role="EcuMT" value="4143793920074732899" />
+    <property role="3GE5qa" value="viewcomponents" />
+    <property role="TrG5h" value="ImageButtonComponent" />
+    <property role="34LRSv" value="image button" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="3A1HDQku_NZ" role="1TKVEi">
+      <property role="IQ2ns" value="4143793920074734847" />
+      <property role="20kJfa" value="image" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6wbjV0Q45wJ" resolve="Image" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3A1HDQkwnQ7">
+    <property role="EcuMT" value="4143793920075201927" />
+    <property role="3GE5qa" value="viewcomponents.layout" />
+    <property role="TrG5h" value="IViewComponentLayout" />
+  </node>
 </model>
 

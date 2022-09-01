@@ -78,20 +78,30 @@
     <node concept="9S07l" id="3JS2UjmU$Rc" role="9Vyp8">
       <node concept="3clFbS" id="3JS2UjmU$Rd" role="2VODD2">
         <node concept="3clFbF" id="3JS2UjmU_3b" role="3cqZAp">
-          <node concept="22lmx$" id="5WrZkWQ7so0" role="3clFbG">
-            <node concept="2OqwBi" id="5WrZkWQ7sHz" role="3uHU7w">
-              <node concept="nLn13" id="5WrZkWQ7s$s" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="5WrZkWQ7sRL" role="2OqNvi">
-                <node concept="chp4Y" id="5WrZkWQ7sWG" role="cj9EA">
-                  <ref role="cht4Q" to="6ap2:5WrZkWQ5bAr" resolve="TableCellComponent" />
+          <node concept="22lmx$" id="3A1HDQkwo8t" role="3clFbG">
+            <node concept="2OqwBi" id="3A1HDQkwoVR" role="3uHU7w">
+              <node concept="nLn13" id="3A1HDQkwoMh" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3A1HDQkwpfa" role="2OqNvi">
+                <node concept="chp4Y" id="3A1HDQkwpgR" role="cj9EA">
+                  <ref role="cht4Q" to="6ap2:3A1HDQkwnQ7" resolve="IViewComponentLayout" />
                 </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="3JS2UjmU_3d" role="3uHU7B">
-              <node concept="nLn13" id="3JS2UjmU_3e" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="3JS2UjmU_3f" role="2OqNvi">
-                <node concept="chp4Y" id="3JS2UjmU_3g" role="cj9EA">
-                  <ref role="cht4Q" to="6ap2:3JS2UjmQXc1" resolve="ViewModel" />
+            <node concept="22lmx$" id="5WrZkWQ7so0" role="3uHU7B">
+              <node concept="2OqwBi" id="3JS2UjmU_3d" role="3uHU7B">
+                <node concept="nLn13" id="3JS2UjmU_3e" role="2Oq$k0" />
+                <node concept="1mIQ4w" id="3JS2UjmU_3f" role="2OqNvi">
+                  <node concept="chp4Y" id="3JS2UjmU_3g" role="cj9EA">
+                    <ref role="cht4Q" to="6ap2:3JS2UjmQXc1" resolve="ViewModel" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="5WrZkWQ7sHz" role="3uHU7w">
+                <node concept="nLn13" id="5WrZkWQ7s$s" role="2Oq$k0" />
+                <node concept="1mIQ4w" id="5WrZkWQ7sRL" role="2OqNvi">
+                  <node concept="chp4Y" id="5WrZkWQ7sWG" role="cj9EA">
+                    <ref role="cht4Q" to="6ap2:5WrZkWQ5bAr" resolve="TableCellComponent" />
+                  </node>
                 </node>
               </node>
             </node>

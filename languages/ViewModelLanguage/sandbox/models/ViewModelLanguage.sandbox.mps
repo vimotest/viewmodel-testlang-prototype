@@ -31,6 +31,12 @@
       <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
+      <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
+        <child id="4143793920074545904" name="children" index="2HXGLH" />
+      </concept>
+      <concept id="4143793920074732899" name="ViewModelLanguage.structure.ImageButtonComponent" flags="ng" index="2HYYfY">
+        <reference id="4143793920074734847" name="image" index="2HYYDy" />
+      </concept>
       <concept id="3673393130864051149" name="ViewModelLanguage.structure.IHasNameField" flags="ng" index="Zuo1q">
         <property id="8491766642999925989" name="nameFieldCustomName" index="1ankKw" />
       </concept>
@@ -208,7 +214,6 @@
         <child id="6853349774631251791" name="cellChecks" index="1Dvt80" />
       </concept>
       <concept id="6853349774631251773" name="ViewModelTestLanguage.structure.TableCheck" flags="ng" index="1Dvt9M">
-        <property id="4126317592742328721" name="hideColumnHeaders" index="KAApG" />
         <child id="643469022294143860" name="rowChecks" index="2D8nNu" />
       </concept>
       <concept id="5830978789222189276" name="ViewModelTestLanguage.structure.ContextSubElementReference" flags="ng" index="3KxGic">
@@ -609,37 +614,22 @@
           </node>
         </node>
       </node>
-      <node concept="3KxLjU" id="3_3BZO9RSIh" role="2P43km">
-        <property role="TrG5h" value="buttons" />
-        <node concept="1D3Ojl" id="3_3BZO9RSIj" role="1D3Iin">
-          <node concept="1D3Ojk" id="3_3BZO9RSIw" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="3_3BZO9RSIz" role="1D3Ojh">
-              <property role="TrG5h" value="playBtn" />
-              <ref role="1u6L2l" node="5hmNBhT2vM$" resolve="hamster_play" />
-            </node>
-          </node>
-          <node concept="1D3Ojk" id="3_3BZO9RSIS" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="3_3BZO9RSIT" role="1D3Ojh">
-              <property role="TrG5h" value="pauseBtn" />
-              <ref role="1u6L2l" node="5hmNBhT2vMK" resolve="hamster_pause" />
-            </node>
-          </node>
-          <node concept="1D3Ojk" id="3_3BZO9RSJc" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="3_3BZO9RSJd" role="1D3Ojh">
-              <property role="TrG5h" value="undoBtn" />
-              <ref role="1u6L2l" node="5hmNBhT2vMY" resolve="hamster_undo" />
-            </node>
-          </node>
-          <node concept="1D3Ojk" id="3_3BZO9RSJP" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="3_3BZO9RSJQ" role="1D3Ojh">
-              <property role="TrG5h" value="redoBtn" />
-              <ref role="1u6L2l" node="5hmNBhT2vNe" resolve="hamster_redo" />
-            </node>
-          </node>
+      <node concept="2HXGLM" id="3A1HDQku_le" role="2P43km">
+        <node concept="2HYYfY" id="3A1HDQkwDcX" role="2HXGLH">
+          <property role="TrG5h" value="playButton" />
+          <ref role="2HYYDy" node="5hmNBhT2vM$" resolve="hamster_play" />
+        </node>
+        <node concept="2HYYfY" id="3A1HDQkwDc_" role="2HXGLH">
+          <property role="TrG5h" value="pauseButton" />
+          <ref role="2HYYDy" node="5hmNBhT2vMK" resolve="hamster_pause" />
+        </node>
+        <node concept="2HYYfY" id="3A1HDQkwDdl" role="2HXGLH">
+          <property role="TrG5h" value="undoButton" />
+          <ref role="2HYYDy" node="5hmNBhT2vMY" resolve="hamster_undo" />
+        </node>
+        <node concept="2HYYfY" id="3A1HDQkwDdp" role="2HXGLH">
+          <property role="TrG5h" value="redoButton" />
+          <ref role="2HYYDy" node="5hmNBhT2vNe" resolve="hamster_redo" />
         </node>
       </node>
     </node>
@@ -856,34 +846,30 @@
           </node>
         </node>
       </node>
-      <node concept="30nzp_" id="3_3BZO9RVns" role="30nzpy">
-        <ref role="30nzpS" node="3_3BZO9RSIh" resolve="buttons" />
-        <node concept="1Dvt9M" id="3_3BZO9RVnt" role="30nDbQ">
-          <property role="KAApG" value="true" />
-          <node concept="1Dvt89" id="3_3BZO9RVpq" role="2D8nNu">
-            <node concept="1u3WYF" id="3_3BZO9RVpr" role="1Dvt80">
-              <node concept="1u6pYw" id="3_3BZO9SfAq" role="1u3WYG">
-                <node concept="30nzps" id="3_3BZO9SfAv" role="1u6pWF" />
-              </node>
-            </node>
-            <node concept="1u3WYF" id="3_3BZO9RVpt" role="1Dvt80">
-              <node concept="1u6pYw" id="3_3BZO9SfAx" role="1u3WYG">
-                <node concept="30nzps" id="3_3BZO9SfAA" role="1u6pWF">
-                  <property role="30nzpr" value="true" />
-                </node>
-              </node>
-            </node>
-            <node concept="1u3WYF" id="3_3BZO9RVpv" role="1Dvt80">
-              <node concept="1u6pYw" id="3_3BZO9SfAC" role="1u3WYG">
-                <node concept="30nzps" id="3_3BZO9SfAH" role="1u6pWF" />
-              </node>
-            </node>
-            <node concept="1u3WYF" id="3_3BZO9RVpx" role="1Dvt80">
-              <node concept="1u6pYw" id="3_3BZO9SfAJ" role="1u3WYG">
-                <node concept="30nzps" id="3_3BZO9SfAO" role="1u6pWF" />
-              </node>
-            </node>
+      <node concept="30nzp_" id="3A1HDQkyuN1" role="30nzpy">
+        <ref role="30nzpS" node="3A1HDQkwDcX" resolve="playButton" />
+        <node concept="30nzp7" id="3A1HDQkyuPl" role="30nDbQ">
+          <node concept="30nzps" id="3A1HDQkyuPm" role="30nzpp" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="3A1HDQkwDfF" role="30nzpy">
+        <ref role="30nzpS" node="3A1HDQkwDc_" resolve="pauseButton" />
+        <node concept="30nzp7" id="3A1HDQkwDgF" role="30nDbQ">
+          <node concept="30nzps" id="3A1HDQkwDgG" role="30nzpp">
+            <property role="30nzpr" value="true" />
           </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="3A1HDQkyuPp" role="30nzpy">
+        <ref role="30nzpS" node="3A1HDQkwDdl" resolve="undoButton" />
+        <node concept="30nzp7" id="3A1HDQkyuPq" role="30nDbQ">
+          <node concept="30nzps" id="3A1HDQkyuPr" role="30nzpp" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="3A1HDQkyuRC" role="30nzpy">
+        <ref role="30nzpS" node="3A1HDQkwDdp" resolve="redoButton" />
+        <node concept="30nzp7" id="3A1HDQkyuRD" role="30nDbQ">
+          <node concept="30nzps" id="3A1HDQkyuRE" role="30nzpp" />
         </node>
       </node>
       <node concept="2nhTvv" id="65sofNQ7KCq" role="30nzpy">

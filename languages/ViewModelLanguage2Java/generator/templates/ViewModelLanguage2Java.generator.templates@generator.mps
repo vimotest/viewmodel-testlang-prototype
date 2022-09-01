@@ -2147,6 +2147,12 @@
         <ref role="v9R2y" node="2s$w3BDuQGH" resolve="reduce_ButtonComponent" />
       </node>
     </node>
+    <node concept="3aamgX" id="3A1HDQkz5Tp" role="3acgRq">
+      <ref role="30HIoZ" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
+      <node concept="j$656" id="3A1HDQkz5TP" role="1lVwrX">
+        <ref role="v9R2y" node="3A1HDQkz5TN" resolve="reduce_ImageButtonComponent" />
+      </node>
+    </node>
     <node concept="3aamgX" id="4jKdMMdBTD8" role="3acgRq">
       <ref role="30HIoZ" to="6ap2:5WrZkWQ7ZzE" resolve="LabelComponent" />
       <node concept="j$656" id="4jKdMMdBTDq" role="1lVwrX">
@@ -2181,6 +2187,12 @@
       <ref role="30HIoZ" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
       <node concept="j$656" id="3bUwTsdmn12" role="1lVwrX">
         <ref role="v9R2y" node="3bUwTsdmn10" resolve="reduce_DynamicTableComponent" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="3A1HDQkyw8L" role="3acgRq">
+      <ref role="30HIoZ" to="6ap2:3A1HDQktRFJ" resolve="HorizontalLayout" />
+      <node concept="j$656" id="3A1HDQkz5Kr" role="1lVwrX">
+        <ref role="v9R2y" node="3A1HDQkz5Kp" resolve="reduce_HorizontalLayout" />
       </node>
     </node>
     <node concept="3aamgX" id="5bqCFpyW4g_" role="3acgRq">
@@ -6653,6 +6665,76 @@
     </node>
     <node concept="2ZBi8u" id="7qebotZ8fAY" role="lGtFl">
       <ref role="2rW$FS" node="7qebotZ8gJ3" resolve="imageStackComponent_layerClass" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="3A1HDQkz5Kp">
+    <property role="TrG5h" value="reduce_HorizontalLayout" />
+    <ref role="3gUMe" to="6ap2:3A1HDQktRFJ" resolve="HorizontalLayout" />
+    <node concept="312cEu" id="3A1HDQkz5Ku" role="13RCb5">
+      <property role="TrG5h" value="Foo" />
+      <node concept="312cEg" id="3A1HDQkz5VF" role="jymVt">
+        <property role="TrG5h" value="member" />
+        <node concept="3Tm6S6" id="3A1HDQkz5VG" role="1B3o_S" />
+        <node concept="10Oyi0" id="3A1HDQkz5VH" role="1tU5fm" />
+        <node concept="3cmrfG" id="3A1HDQkz5VI" role="33vP2m">
+          <property role="3cmrfH" value="0" />
+        </node>
+        <node concept="raruj" id="3A1HDQkz5VJ" role="lGtFl" />
+        <node concept="2b32R4" id="3A1HDQkz63o" role="lGtFl">
+          <node concept="3JmXsc" id="3A1HDQkz63p" role="2P8S$">
+            <node concept="3clFbS" id="3A1HDQkz63q" role="2VODD2">
+              <node concept="3clFbF" id="3A1HDQkz64x" role="3cqZAp">
+                <node concept="2OqwBi" id="3A1HDQkz6jj" role="3clFbG">
+                  <node concept="30H73N" id="3A1HDQkz64w" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="3A1HDQkz6wJ" role="2OqNvi">
+                    <ref role="3TtcxE" to="6ap2:3A1HDQktRFK" resolve="children" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3A1HDQkz5Kv" role="1B3o_S" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="3A1HDQkz5TN">
+    <property role="TrG5h" value="reduce_ImageButtonComponent" />
+    <property role="3GE5qa" value="viewmodel" />
+    <ref role="3gUMe" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
+    <node concept="312cEu" id="3A1HDQkz5Uw" role="13RCb5">
+      <property role="TrG5h" value="Foo" />
+      <node concept="312cEg" id="3A1HDQkz5Ux" role="jymVt">
+        <property role="TrG5h" value="member" />
+        <node concept="3Tm6S6" id="3A1HDQkz5Uy" role="1B3o_S" />
+        <node concept="10Oyi0" id="3A1HDQkz5Uz" role="1tU5fm" />
+        <node concept="3cmrfG" id="3A1HDQkz5U$" role="33vP2m">
+          <property role="3cmrfH" value="0" />
+        </node>
+        <node concept="raruj" id="3A1HDQkz5U_" role="lGtFl" />
+        <node concept="5jKBG" id="3A1HDQkz5UA" role="lGtFl">
+          <ref role="v9R2y" node="2s$w3BDuTBj" resolve="default_reduce_ViewComponent" />
+          <node concept="Xl_RD" id="3A1HDQkz5UB" role="v9R3O">
+            <property role="Xl_RC" value="button" />
+          </node>
+        </node>
+      </node>
+      <node concept="312cEg" id="3A1HDQkz5UC" role="jymVt">
+        <property role="TrG5h" value="member" />
+        <node concept="3Tm6S6" id="3A1HDQkz5UD" role="1B3o_S" />
+        <node concept="10Oyi0" id="3A1HDQkz5UE" role="1tU5fm" />
+        <node concept="3cmrfG" id="3A1HDQkz5UF" role="33vP2m">
+          <property role="3cmrfH" value="0" />
+        </node>
+        <node concept="raruj" id="3A1HDQkz5UG" role="lGtFl" />
+        <node concept="5jKBG" id="3A1HDQkz5UH" role="lGtFl">
+          <ref role="v9R2y" node="4jKdMMdBVUw" resolve="default_text_reduce_ViewComponent" />
+          <node concept="Xl_RD" id="3A1HDQkz5UI" role="v9R3O">
+            <property role="Xl_RC" value="button" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3A1HDQkz5UJ" role="1B3o_S" />
     </node>
   </node>
 </model>

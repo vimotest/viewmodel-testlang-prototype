@@ -3901,5 +3901,251 @@
       <node concept="3Tm1VV" id="5Xz9NpkdhdN" role="1B3o_S" />
     </node>
   </node>
+  <node concept="13h7C7" id="3A1HDQkuAsz">
+    <property role="3GE5qa" value="viewcomponents" />
+    <ref role="13h7C2" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
+    <node concept="13i0hz" id="3A1HDQkuB0v" role="13h7CS">
+      <property role="TrG5h" value="makeSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJOWqT" resolve="makeSwingComponent" />
+      <node concept="3Tm1VV" id="3A1HDQkuB0w" role="1B3o_S" />
+      <node concept="3clFbS" id="3A1HDQkuB0x" role="3clF47">
+        <node concept="3cpWs8" id="3A1HDQkuDMa" role="3cqZAp">
+          <node concept="3cpWsn" id="3A1HDQkuDMb" role="3cpWs9">
+            <property role="TrG5h" value="button" />
+            <node concept="3uibUv" id="3A1HDQkuDMc" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
+            </node>
+            <node concept="2ShNRf" id="3A1HDQkuDMd" role="33vP2m">
+              <node concept="1pGfFk" id="3A1HDQkuDMe" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(java.lang.String)" resolve="JButton" />
+                <node concept="2OqwBi" id="3A1HDQkuDMf" role="37wK5m">
+                  <node concept="13iPFW" id="3A1HDQkuDMg" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="3A1HDQkuDMh" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3A1HDQkuDMi" role="3cqZAp">
+          <node concept="2OqwBi" id="3A1HDQkuDMj" role="3clFbG">
+            <node concept="37vLTw" id="3A1HDQkuDMk" role="2Oq$k0">
+              <ref role="3cqZAo" node="3A1HDQkuDMb" resolve="button" />
+            </node>
+            <node concept="liA8E" id="3A1HDQkuDMl" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~AbstractButton.setModel(javax.swing.ButtonModel)" resolve="setModel" />
+              <node concept="2ShNRf" id="3A1HDQkuDMm" role="37wK5m">
+                <node concept="YeOm9" id="3A1HDQkuDMn" role="2ShVmc">
+                  <node concept="1Y3b0j" id="3A1HDQkuDMo" role="YeSDq">
+                    <property role="2bfB8j" value="true" />
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="dxuu:~DefaultButtonModel.&lt;init&gt;()" resolve="DefaultButtonModel" />
+                    <ref role="1Y3XeK" to="dxuu:~DefaultButtonModel" resolve="DefaultButtonModel" />
+                    <node concept="3Tm1VV" id="3A1HDQkuDMp" role="1B3o_S" />
+                    <node concept="3clFb_" id="3A1HDQkuDMq" role="jymVt">
+                      <property role="TrG5h" value="isArmed" />
+                      <node concept="3Tm1VV" id="3A1HDQkuDMr" role="1B3o_S" />
+                      <node concept="10P_77" id="3A1HDQkuDMs" role="3clF45" />
+                      <node concept="3clFbS" id="3A1HDQkuDMt" role="3clF47">
+                        <node concept="3clFbF" id="3A1HDQkuDMu" role="3cqZAp">
+                          <node concept="3clFbT" id="3A1HDQkuDMv" role="3clFbG" />
+                        </node>
+                      </node>
+                      <node concept="2AHcQZ" id="3A1HDQkuDMw" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
+                    </node>
+                    <node concept="3clFb_" id="3A1HDQkuDMx" role="jymVt">
+                      <property role="TrG5h" value="isPressed" />
+                      <node concept="3Tm1VV" id="3A1HDQkuDMy" role="1B3o_S" />
+                      <node concept="10P_77" id="3A1HDQkuDMz" role="3clF45" />
+                      <node concept="3clFbS" id="3A1HDQkuDM$" role="3clF47">
+                        <node concept="3clFbF" id="3A1HDQkuDM_" role="3cqZAp">
+                          <node concept="3clFbT" id="3A1HDQkuDMA" role="3clFbG" />
+                        </node>
+                      </node>
+                      <node concept="2AHcQZ" id="3A1HDQkuDMB" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3A1HDQkuDMC" role="3cqZAp">
+          <node concept="2OqwBi" id="3A1HDQkuDMD" role="3clFbG">
+            <node concept="37vLTw" id="3A1HDQkuDME" role="2Oq$k0">
+              <ref role="3cqZAo" node="3A1HDQkuDMb" resolve="button" />
+            </node>
+            <node concept="liA8E" id="3A1HDQkuDMF" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setFont(java.awt.Font)" resolve="setFont" />
+              <node concept="2OqwBi" id="3A1HDQkuDMG" role="37wK5m">
+                <node concept="2OqwBi" id="3A1HDQkuDMH" role="2Oq$k0">
+                  <node concept="37vLTw" id="3A1HDQkuDMI" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3A1HDQkuDMb" resolve="button" />
+                  </node>
+                  <node concept="liA8E" id="3A1HDQkuDMJ" role="2OqNvi">
+                    <ref role="37wK5l" to="z60i:~Component.getFont()" resolve="getFont" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3A1HDQkuDMK" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~Font.deriveFont(float)" resolve="deriveFont" />
+                  <node concept="2$xPTn" id="3A1HDQkuDML" role="37wK5m">
+                    <property role="2$xPTl" value="10.0f" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3A1HDQkuDMM" role="3cqZAp">
+          <node concept="2OqwBi" id="3A1HDQkuDMN" role="3clFbG">
+            <node concept="37vLTw" id="3A1HDQkuDMO" role="2Oq$k0">
+              <ref role="3cqZAo" node="3A1HDQkuDMb" resolve="button" />
+            </node>
+            <node concept="liA8E" id="3A1HDQkuDMP" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setPreferredSize(java.awt.Dimension)" resolve="setPreferredSize" />
+              <node concept="2ShNRf" id="3A1HDQkuDMQ" role="37wK5m">
+                <node concept="1pGfFk" id="3A1HDQkuDMR" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="z60i:~Dimension.&lt;init&gt;(int,int)" resolve="Dimension" />
+                  <node concept="10QFUN" id="3A1HDQkuDMS" role="37wK5m">
+                    <node concept="2OqwBi" id="3A1HDQkuDMT" role="10QFUP">
+                      <node concept="2OqwBi" id="3A1HDQkuDMU" role="2Oq$k0">
+                        <node concept="37vLTw" id="3A1HDQkuDMV" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3A1HDQkuDMb" resolve="button" />
+                        </node>
+                        <node concept="liA8E" id="3A1HDQkuDMW" role="2OqNvi">
+                          <ref role="37wK5l" to="dxuu:~JComponent.getPreferredSize()" resolve="getPreferredSize" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3A1HDQkuDMX" role="2OqNvi">
+                        <ref role="37wK5l" to="z60i:~Dimension.getWidth()" resolve="getWidth" />
+                      </node>
+                    </node>
+                    <node concept="10Oyi0" id="3A1HDQkuDMY" role="10QFUM" />
+                  </node>
+                  <node concept="3cmrfG" id="3A1HDQkuDMZ" role="37wK5m">
+                    <property role="3cmrfH" value="20" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3A1HDQkuDLR" role="3cqZAp" />
+        <node concept="3clFbJ" id="3A1HDQkuB0y" role="3cqZAp">
+          <node concept="3clFbS" id="3A1HDQkuB0z" role="3clFbx">
+            <node concept="3cpWs8" id="3A1HDQkuKKP" role="3cqZAp">
+              <node concept="3cpWsn" id="3A1HDQkuKKQ" role="3cpWs9">
+                <property role="TrG5h" value="labelWithImage" />
+                <node concept="3uibUv" id="3A1HDQkuKiw" role="1tU5fm">
+                  <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
+                </node>
+                <node concept="2OqwBi" id="3A1HDQkuKKR" role="33vP2m">
+                  <node concept="2OqwBi" id="3A1HDQkuKKS" role="2Oq$k0">
+                    <node concept="13iPFW" id="3A1HDQkuKKT" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3A1HDQkuKKU" role="2OqNvi">
+                      <ref role="3Tt5mk" to="6ap2:3A1HDQku_NZ" resolve="image" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="3A1HDQkuKKV" role="2OqNvi">
+                    <ref role="37wK5l" node="6wbjV0Q4KDI" resolve="createSwingLabelWithImage" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3A1HDQkxzVA" role="3cqZAp">
+              <node concept="2OqwBi" id="3A1HDQkx$Pk" role="3clFbG">
+                <node concept="37vLTw" id="3A1HDQkxzV$" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3A1HDQkuDMb" resolve="button" />
+                </node>
+                <node concept="liA8E" id="3A1HDQkxAf6" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
+                  <node concept="37vLTw" id="3A1HDQkxBiy" role="37wK5m">
+                    <ref role="3cqZAo" node="3A1HDQkuKKQ" resolve="labelWithImage" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3A1HDQkxWYV" role="3cqZAp">
+              <node concept="2OqwBi" id="3A1HDQky0PG" role="3clFbG">
+                <node concept="37vLTw" id="3A1HDQkxZPU" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3A1HDQkuDMb" resolve="button" />
+                </node>
+                <node concept="liA8E" id="3A1HDQky4nz" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~AbstractButton.setHorizontalAlignment(int)" resolve="setHorizontalAlignment" />
+                  <node concept="10M0yZ" id="3A1HDQkyoOn" role="37wK5m">
+                    <ref role="3cqZAo" to="dxuu:~SwingConstants.CENTER" resolve="CENTER" />
+                    <ref role="1PxDUh" to="dxuu:~SwingConstants" resolve="SwingConstants" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3A1HDQkvWDV" role="3cqZAp">
+              <node concept="2OqwBi" id="3A1HDQkvY14" role="3clFbG">
+                <node concept="37vLTw" id="3A1HDQkvWDT" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3A1HDQkuDMb" resolve="button" />
+                </node>
+                <node concept="liA8E" id="3A1HDQkvYSq" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~AbstractButton.setText(java.lang.String)" resolve="setText" />
+                  <node concept="Xl_RD" id="3A1HDQkvZDZ" role="37wK5m">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3A1HDQkw3Dq" role="3cqZAp">
+              <node concept="2OqwBi" id="3A1HDQkw3Dr" role="3clFbG">
+                <node concept="37vLTw" id="3A1HDQkw3Ds" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3A1HDQkuDMb" resolve="button" />
+                </node>
+                <node concept="liA8E" id="3A1HDQkw3Dt" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~JComponent.setPreferredSize(java.awt.Dimension)" resolve="setPreferredSize" />
+                  <node concept="2ShNRf" id="3A1HDQkw3Du" role="37wK5m">
+                    <node concept="1pGfFk" id="3A1HDQkw3Dv" role="2ShVmc">
+                      <property role="373rjd" value="true" />
+                      <ref role="37wK5l" to="z60i:~Dimension.&lt;init&gt;(int,int)" resolve="Dimension" />
+                      <node concept="3cmrfG" id="3A1HDQkw4Og" role="37wK5m">
+                        <property role="3cmrfH" value="32" />
+                      </node>
+                      <node concept="3cmrfG" id="3A1HDQkw3DB" role="37wK5m">
+                        <property role="3cmrfH" value="24" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="3A1HDQkuB0E" role="3clFbw">
+            <node concept="2OqwBi" id="3A1HDQkuB0F" role="3uHU7B">
+              <node concept="13iPFW" id="3A1HDQkuB0G" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3A1HDQkuB0H" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:3A1HDQku_NZ" resolve="image" />
+              </node>
+            </node>
+            <node concept="10Nm6u" id="3A1HDQkuB0I" role="3uHU7w" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3A1HDQkuIL_" role="3cqZAp" />
+        <node concept="3clFbF" id="3A1HDQkuHEF" role="3cqZAp">
+          <node concept="37vLTw" id="3A1HDQkuHEA" role="3clFbG">
+            <ref role="3cqZAo" node="3A1HDQkuDMb" resolve="button" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="3A1HDQkuB0N" role="3clF45">
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="3A1HDQkuAs$" role="13h7CW">
+      <node concept="3clFbS" id="3A1HDQkuAs_" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
