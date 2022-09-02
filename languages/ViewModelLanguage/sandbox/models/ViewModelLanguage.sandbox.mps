@@ -85,6 +85,7 @@
         <property id="8491766643000808876" name="viewModelClassCustomName" index="1aiWlD" />
       </concept>
       <concept id="4321216645069263618" name="ViewModelLanguage.structure.View" flags="ng" index="3H8XyA">
+        <property id="4143793920076287509" name="packageName" index="2H4Vy8" />
         <child id="4321216645069263669" name="contents" index="3H8Xyh" />
         <child id="4321216645069263621" name="viewModel" index="3H8Xyx" />
       </concept>
@@ -584,6 +585,7 @@
   <node concept="3H8XyA" id="5hmNBhT2vLH">
     <property role="TrG5h" value="HamsterView" />
     <property role="3GE5qa" value="hamster" />
+    <property role="2H4Vy8" value="de.unistuttgart.iste.sqa.mpw.framework.viewmodel" />
     <node concept="3H8Xym" id="3_3BZOa9cvV" role="3H8Xyh">
       <property role="TrG5h" value="movePaule" />
     </node>

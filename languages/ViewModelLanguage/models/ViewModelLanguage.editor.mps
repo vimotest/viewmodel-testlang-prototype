@@ -341,6 +341,17 @@
         </node>
       </node>
     </node>
+    <node concept="3EZMnI" id="3A1HDQk$wSn" role="6VMZX">
+      <node concept="l2Vlx" id="3A1HDQk$wSo" role="2iSdaV" />
+      <node concept="3F0ifn" id="3A1HDQk$wSr" role="3EZMnx">
+        <property role="3F0ifm" value="package name:" />
+      </node>
+      <node concept="3F0A7n" id="3A1HDQk$wSw" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <property role="1$x2rV" value="viewmodel" />
+        <ref role="1NtTu8" to="6ap2:3A1HDQk$wSl" resolve="packageName" />
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="3JS2UjmQXea">
     <property role="3GE5qa" value="empty" />

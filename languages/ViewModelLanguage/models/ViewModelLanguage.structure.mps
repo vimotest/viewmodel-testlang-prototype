@@ -82,6 +82,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3JS2UjmQXc1" resolve="ViewModel" />
     </node>
+    <node concept="1TJgyi" id="3A1HDQk$wSl" role="1TKVEl">
+      <property role="IQ2nx" value="4143793920076287509" />
+      <property role="TrG5h" value="packageName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3JS2UjmQXcM">
     <property role="EcuMT" value="4321216645069263666" />
