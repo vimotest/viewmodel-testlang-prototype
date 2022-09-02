@@ -1405,12 +1405,22 @@
         <ref role="1NtTu8" to="6ap2:7noOckZxpN_" resolve="nameFieldCustomName" />
       </node>
       <node concept="3F0ifn" id="7noOckZxXzy" role="3EZMnx">
-        <property role="3F0ifm" value="class name (layer):" />
+        <property role="3F0ifm" value="field name (layer):" />
         <node concept="pVoyu" id="7noOckZxXzF" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0A7n" id="7noOckZxXzx" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:3A1HDQkD8zz" resolve="layersFieldCustomName" />
+      </node>
+      <node concept="3F0ifn" id="3A1HDQkD8zD" role="3EZMnx">
+        <property role="3F0ifm" value="class name (layer):" />
+        <node concept="pVoyu" id="3A1HDQkD8zE" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="3A1HDQkD8zC" role="3EZMnx">
         <property role="1O74Pk" value="true" />
         <ref role="1NtTu8" to="6ap2:7noOckZxo7S" resolve="layerClassCustomName" />
       </node>

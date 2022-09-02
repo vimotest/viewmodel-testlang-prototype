@@ -44,6 +44,7 @@
         <property id="4143793920077074569" name="sensitivityFieldCustomName" index="2H7Uok" />
       </concept>
       <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">
+        <property id="4143793920077498595" name="layersFieldCustomName" index="2H9jTY" />
         <property id="8491766642999919096" name="layerClassCustomName" index="1anl4X" />
         <child id="2820520252859978978" name="layers" index="3eDLjr" />
       </concept>
@@ -607,6 +608,7 @@
             <property role="TrG5h" value="layers" />
             <property role="1ankKw" value="imageName" />
             <property role="1anl4X" value="ViewModelCellLayer" />
+            <property role="2H9jTY" value="layers" />
             <node concept="3eDL7N" id="1c2yPVfBhLe" role="3eDLjr">
               <ref role="3eDL7M" node="5hmNBhT2vMi" resolve="hamster_paule" />
             </node>

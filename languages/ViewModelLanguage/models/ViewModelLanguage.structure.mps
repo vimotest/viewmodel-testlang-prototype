@@ -317,6 +317,11 @@
     <property role="TrG5h" value="ImageStackComponent" />
     <property role="34LRSv" value="image stack" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyi" id="3A1HDQkD8zz" role="1TKVEl">
+      <property role="IQ2nx" value="4143793920077498595" />
+      <property role="TrG5h" value="layersFieldCustomName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyi" id="7noOckZxo7S" role="1TKVEl">
       <property role="IQ2nx" value="8491766642999919096" />
       <property role="TrG5h" value="layerClassCustomName" />
