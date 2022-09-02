@@ -138,6 +138,12 @@
       <property role="TrG5h" value="sensitiveState" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="PrWs8" id="3A1HDQkBKn9" role="PzmwI">
+      <ref role="PrY4T" node="3bUwTsdwKfd" resolve="IHasNameField" />
+    </node>
+    <node concept="PrWs8" id="3A1HDQkC0xh" role="PzmwI">
+      <ref role="PrY4T" node="7noOckZtrAT" resolve="IHasSensitivityField" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3JS2UjmU$R8">
     <property role="EcuMT" value="4321216645070212552" />
@@ -381,22 +387,9 @@
     <property role="EcuMT" value="3673393130864051130" />
     <property role="TrG5h" value="IHasVisibleField" />
     <property role="3GE5qa" value="customnames" />
-    <node concept="1TJgyj" id="3bUwTsdwKfb" role="1TKVEi">
-      <property role="IQ2ns" value="3673393130864051147" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="visibleFieldCustomName" />
-      <ref role="20lvS9" node="3bUwTsdwKf1" resolve="CustomName" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3bUwTsdwKf1">
-    <property role="EcuMT" value="3673393130864051137" />
-    <property role="3GE5qa" value="customnames" />
-    <property role="TrG5h" value="CustomName" />
-    <property role="34LRSv" value="custom name" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="3bUwTsdwKf4" role="1TKVEl">
-      <property role="IQ2nx" value="3673393130864051140" />
-      <property role="TrG5h" value="customName" />
+    <node concept="1TJgyi" id="3A1HDQkBx2b" role="1TKVEl">
+      <property role="IQ2nx" value="4143793920077074571" />
+      <property role="TrG5h" value="visibleFieldCustomName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
@@ -414,11 +407,10 @@
     <property role="EcuMT" value="8491766642998884793" />
     <property role="3GE5qa" value="customnames" />
     <property role="TrG5h" value="IHasSensitivityField" />
-    <node concept="1TJgyj" id="7noOckZtuCV" role="1TKVEi">
-      <property role="IQ2ns" value="8491766642998897211" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="sensitivityFieldCustomName" />
-      <ref role="20lvS9" node="3bUwTsdwKf1" resolve="CustomName" />
+    <node concept="1TJgyi" id="3A1HDQkBx29" role="1TKVEl">
+      <property role="IQ2nx" value="4143793920077074569" />
+      <property role="TrG5h" value="sensitivityFieldCustomName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="3A1HDQktRFJ">
@@ -449,6 +441,12 @@
       <property role="20kJfa" value="image" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6wbjV0Q45wJ" resolve="Image" />
+    </node>
+    <node concept="PrWs8" id="3A1HDQkBKnl" role="PzmwI">
+      <ref role="PrY4T" node="3bUwTsdwKfd" resolve="IHasNameField" />
+    </node>
+    <node concept="PrWs8" id="3A1HDQkC0xk" role="PzmwI">
+      <ref role="PrY4T" node="7noOckZtrAT" resolve="IHasSensitivityField" />
     </node>
   </node>
   <node concept="PlHQZ" id="3A1HDQkwnQ7">

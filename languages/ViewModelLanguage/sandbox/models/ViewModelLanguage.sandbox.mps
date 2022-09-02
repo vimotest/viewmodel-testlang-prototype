@@ -40,6 +40,9 @@
       <concept id="3673393130864051149" name="ViewModelLanguage.structure.IHasNameField" flags="ng" index="Zuo1q">
         <property id="8491766642999925989" name="nameFieldCustomName" index="1ankKw" />
       </concept>
+      <concept id="8491766642998884793" name="ViewModelLanguage.structure.IHasSensitivityField" flags="ng" index="1aFm_W">
+        <property id="4143793920077074569" name="sensitivityFieldCustomName" index="2H7Uok" />
+      </concept>
       <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">
         <property id="8491766642999919096" name="layerClassCustomName" index="1anl4X" />
         <child id="2820520252859978978" name="layers" index="3eDLjr" />
@@ -619,18 +622,22 @@
       <node concept="2HXGLM" id="3A1HDQku_le" role="2P43km">
         <node concept="2HYYfY" id="3A1HDQkwDcX" role="2HXGLH">
           <property role="TrG5h" value="playButton" />
+          <property role="2H7Uok" value="playButtonEnabled" />
           <ref role="2HYYDy" node="5hmNBhT2vM$" resolve="hamster_play" />
         </node>
         <node concept="2HYYfY" id="3A1HDQkwDc_" role="2HXGLH">
           <property role="TrG5h" value="pauseButton" />
+          <property role="2H7Uok" value="pauseButtonEnabled" />
           <ref role="2HYYDy" node="5hmNBhT2vMK" resolve="hamster_pause" />
         </node>
         <node concept="2HYYfY" id="3A1HDQkwDdl" role="2HXGLH">
           <property role="TrG5h" value="undoButton" />
+          <property role="2H7Uok" value="undoButtonEnabled" />
           <ref role="2HYYDy" node="5hmNBhT2vMY" resolve="hamster_undo" />
         </node>
         <node concept="2HYYfY" id="3A1HDQkwDdp" role="2HXGLH">
           <property role="TrG5h" value="redoButton" />
+          <property role="2H7Uok" value="redoButtonEnabled" />
           <ref role="2HYYDy" node="5hmNBhT2vNe" resolve="hamster_redo" />
         </node>
       </node>

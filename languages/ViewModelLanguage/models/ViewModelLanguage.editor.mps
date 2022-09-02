@@ -396,6 +396,26 @@
       </node>
       <node concept="2iRfu4" id="3JS2UjmUbQc" role="2iSdaV" />
     </node>
+    <node concept="3EZMnI" id="3A1HDQkBKnb" role="6VMZX">
+      <node concept="3F0ifn" id="3A1HDQkBKnf" role="3EZMnx">
+        <property role="3F0ifm" value="field name (name):" />
+      </node>
+      <node concept="3F0A7n" id="3A1HDQkBKng" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:7noOckZxpN_" resolve="nameFieldCustomName" />
+      </node>
+      <node concept="3F0ifn" id="3A1HDQkC0x$" role="3EZMnx">
+        <property role="3F0ifm" value="field name (sensitivity):" />
+        <node concept="pVoyu" id="3A1HDQkC0x_" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="3A1HDQkC0xA" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:3A1HDQkBx29" resolve="sensitivityFieldCustomName" />
+      </node>
+      <node concept="l2Vlx" id="3A1HDQkBKnc" role="2iSdaV" />
+    </node>
   </node>
   <node concept="24kQdi" id="3JS2UjmUCiR">
     <property role="3GE5qa" value="viewcomponents" />
@@ -1479,13 +1499,6 @@
       <node concept="l2Vlx" id="7noOckZuJAR" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="3bUwTsdwKf6">
-    <property role="3GE5qa" value="customnames" />
-    <ref role="1XX52x" to="6ap2:3bUwTsdwKf1" resolve="CustomName" />
-    <node concept="3F0A7n" id="3bUwTsdwKf8" role="2wV5jI">
-      <ref role="1NtTu8" to="6ap2:3bUwTsdwKf4" resolve="customName" />
-    </node>
-  </node>
   <node concept="24kQdi" id="7noOckZ$LmP">
     <ref role="1XX52x" to="6ap2:3JS2UjmQXc1" resolve="ViewModel" />
     <node concept="3EZMnI" id="7noOckZ$LqK" role="2wV5jI">
@@ -1602,7 +1615,6 @@
       <node concept="2iRfu4" id="3A1HDQku_xF" role="2iSdaV" />
     </node>
     <node concept="3EZMnI" id="3A1HDQkuAmP" role="6VMZX">
-      <node concept="2iRfu4" id="3A1HDQkuAmQ" role="2iSdaV" />
       <node concept="3F0ifn" id="3A1HDQkuAmR" role="3EZMnx">
         <property role="3F0ifm" value="image ref:" />
       </node>
@@ -1615,6 +1627,27 @@
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="3A1HDQkBKnC" role="3EZMnx">
+        <property role="3F0ifm" value="field name (name):" />
+        <node concept="pVoyu" id="3A1HDQkBKo9" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="3A1HDQkBKnD" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:7noOckZxpN_" resolve="nameFieldCustomName" />
+      </node>
+      <node concept="3F0ifn" id="3A1HDQkC0xo" role="3EZMnx">
+        <property role="3F0ifm" value="field name (sensitivity):" />
+        <node concept="pVoyu" id="3A1HDQkC0xp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="3A1HDQkC0xn" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:3A1HDQkBx29" resolve="sensitivityFieldCustomName" />
+      </node>
+      <node concept="l2Vlx" id="3A1HDQkBKo1" role="2iSdaV" />
     </node>
   </node>
 </model>
