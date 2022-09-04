@@ -1280,6 +1280,17 @@
       </node>
       <node concept="2iRfu4" id="6wbjV0Q45x9" role="2iSdaV" />
     </node>
+    <node concept="3EZMnI" id="6JIVlcOdkAc" role="6VMZX">
+      <node concept="l2Vlx" id="6JIVlcOdkAd" role="2iSdaV" />
+      <node concept="3F0ifn" id="6JIVlcOdkAU" role="3EZMnx">
+        <property role="3F0ifm" value="generated name:" />
+      </node>
+      <node concept="3F0A7n" id="6JIVlcOdkAZ" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <property role="1$x2rV" value="&lt;derive from name&gt;" />
+        <ref role="1NtTu8" to="6ap2:6JIVlcOdkqA" resolve="generatedName" />
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="6wbjV0Q45x_">
     <property role="3GE5qa" value="viewcomponents.image" />

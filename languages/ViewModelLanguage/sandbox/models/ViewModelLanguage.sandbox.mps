@@ -65,6 +65,7 @@
         <child id="7497173622928201831" name="images" index="1u6Lvn" />
       </concept>
       <concept id="7497173622928201775" name="ViewModelLanguage.structure.Image" flags="ng" index="1u6Luv">
+        <property id="7777414548129400486" name="generatedName" index="1vQUJP" />
         <child id="7497173622928203553" name="source" index="1u6L2h" />
       </concept>
       <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_" />
@@ -647,32 +648,37 @@
   </node>
   <node concept="1u6Luu" id="5hmNBhT2vM3">
     <property role="3GE5qa" value="hamster" />
-    <node concept="1u6Luv" id="5hmNBhT2vM4" role="1u6Lvn">
-      <property role="TrG5h" value="hamster_tile" />
-      <node concept="1u4ncX" id="5hmNBhT2vM8" role="1u6L2h">
-        <property role="1u4ncw" value="images/hamster/Tile32.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="5hmNBhT2vMc" role="1u6Lvn">
       <property role="TrG5h" value="hamster_wall" />
+      <property role="1vQUJP" value="Wall" />
       <node concept="1u4ncX" id="5hmNBhT2vMd" role="1u6L2h">
         <property role="1u4ncw" value="images/hamster/Wall32.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="5hmNBhT2vMi" role="1u6Lvn">
       <property role="TrG5h" value="hamster_paule" />
+      <property role="1vQUJP" value="Hamster" />
       <node concept="1u4ncX" id="5hmNBhT2vMj" role="1u6L2h">
         <property role="1u4ncw" value="images/hamster/Hamster32.png" />
       </node>
     </node>
+    <node concept="1u6Luv" id="5hmNBhT2vM4" role="1u6Lvn">
+      <property role="TrG5h" value="hamster_corn0" />
+      <property role="1vQUJP" value="0Corn" />
+      <node concept="1u4ncX" id="5hmNBhT2vM8" role="1u6L2h">
+        <property role="1u4ncw" value="images/hamster/Tile32.png" />
+      </node>
+    </node>
     <node concept="1u6Luv" id="5hmNBhT2vMq" role="1u6Lvn">
       <property role="TrG5h" value="hamster_corn1" />
+      <property role="1vQUJP" value="1Corn" />
       <node concept="1u4ncX" id="5hmNBhT2vMr" role="1u6L2h">
         <property role="1u4ncw" value="images/hamster/1Corn32.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="5hmNBhT2vNw" role="1u6Lvn">
       <property role="TrG5h" value="hamster_corn2" />
+      <property role="1vQUJP" value="2Corn" />
       <node concept="1u4ncX" id="5hmNBhT2vNx" role="1u6L2h">
         <property role="1u4ncw" value="images/hamster/2Corn32.png" />
       </node>
@@ -801,11 +807,6 @@
                 <node concept="1u6pYw" id="3bUwTsd8uN3" role="bh$oo">
                   <node concept="1u6r32" id="3bUwTsd8uN4" role="1u6pWF">
                     <ref role="1u6r35" node="5hmNBhT2vMq" resolve="hamster_corn1" />
-                  </node>
-                </node>
-                <node concept="1u6pYw" id="3bUwTsd8uN5" role="bh$oo">
-                  <node concept="1u6r32" id="3bUwTsd8uN6" role="1u6pWF">
-                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
                   </node>
                 </node>
               </node>

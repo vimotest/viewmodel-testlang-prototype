@@ -24,6 +24,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" />
+    <import index="hhvz" ref="r:f0b006b1-bb03-474a-8640-ffa90a3abc9d(ViewModelLanguage.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -5245,8 +5246,8 @@
                                     <ref role="3Tt5mk" to="l8rz:6wbjV0Q4JXP" resolve="image" />
                                   </node>
                                 </node>
-                                <node concept="3TrcHB" id="4jKdMMdJf7K" role="2OqNvi">
-                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                <node concept="2qgKlT" id="6JIVlcOdnvw" role="2OqNvi">
+                                  <ref role="37wK5l" to="hhvz:6JIVlcOdkPL" resolve="getNameToGenerate" />
                                 </node>
                               </node>
                             </node>

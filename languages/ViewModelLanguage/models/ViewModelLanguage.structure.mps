@@ -295,6 +295,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5WrZkWQ81on" resolve="IImageProvider" />
     </node>
+    <node concept="1TJgyi" id="6JIVlcOdkqA" role="1TKVEl">
+      <property role="IQ2nx" value="7777414548129400486" />
+      <property role="TrG5h" value="generatedName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6wbjV0Q6zMd">
     <property role="EcuMT" value="7497173622928850061" />
