@@ -37,6 +37,9 @@
       <concept id="4143793920074732899" name="ViewModelLanguage.structure.ImageButtonComponent" flags="ng" index="2HYYfY">
         <reference id="4143793920074734847" name="image" index="2HYYDy" />
       </concept>
+      <concept id="3673393130864051130" name="ViewModelLanguage.structure.IHasVisibleField" flags="ng" index="Zuo0H">
+        <property id="4143793920077074571" name="visibleFieldCustomName" index="2H7Uom" />
+      </concept>
       <concept id="3673393130864051149" name="ViewModelLanguage.structure.IHasNameField" flags="ng" index="Zuo1q">
         <property id="8491766642999925989" name="nameFieldCustomName" index="1ankKw" />
       </concept>
@@ -152,6 +155,7 @@
         <property id="4126317592746625582" name="subjectName" index="Nm1nj" />
         <property id="4126317592747383389" name="fileName" index="Np8mw" />
       </concept>
+      <concept id="5984107031762044474" name="ViewModelTestLanguage.structure.VisibilityCheckValue" flags="ng" index="2P4Xup" />
       <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
         <child id="3426401106045796780" name="objects" index="30k8ga" />
       </concept>
@@ -610,6 +614,7 @@
             <property role="1ankKw" value="imageName" />
             <property role="1anl4X" value="ViewModelCellLayer" />
             <property role="2H9jTY" value="layers" />
+            <property role="2H7Uom" value="visible" />
             <node concept="3eDL7N" id="1c2yPVfBhLe" role="3eDLjr">
               <ref role="3eDL7M" node="5hmNBhT2vMi" resolve="hamster_paule" />
             </node>
@@ -783,7 +788,13 @@
               <node concept="bh$or" id="3bUwTsd8uMQ" role="1u3WYG">
                 <node concept="1u6pYw" id="3bUwTsd8uMT" role="bh$oo">
                   <node concept="1u6r32" id="3bUwTsd8uMU" role="1u6pWF">
-                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="5cbOqfAaSF7" role="1u6pWF" />
+                </node>
+                <node concept="1u6pYw" id="5cbOqfA60oO" role="bh$oo">
+                  <node concept="1u6r32" id="5cbOqfA60oP" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_corn0" />
                   </node>
                 </node>
               </node>
@@ -800,14 +811,26 @@
                     <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
                   </node>
                 </node>
+                <node concept="1u6pYw" id="5cbOqfAbAGB" role="bh$oo">
+                  <node concept="1u6r32" id="5cbOqfAbAGC" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="5cbOqfAbAGD" role="1u6pWF" />
+                </node>
               </node>
             </node>
             <node concept="1u3WYF" id="3bUwTsd8uN1" role="cFlPm">
               <node concept="bh$or" id="3bUwTsd8uN2" role="1u3WYG">
-                <node concept="1u6pYw" id="3bUwTsd8uN3" role="bh$oo">
-                  <node concept="1u6r32" id="3bUwTsd8uN4" role="1u6pWF">
+                <node concept="1u6pYw" id="5cbOqfAbAGn" role="bh$oo">
+                  <node concept="1u6r32" id="5cbOqfAbAGo" role="1u6pWF">
                     <ref role="1u6r35" node="5hmNBhT2vMq" resolve="hamster_corn1" />
                   </node>
+                </node>
+                <node concept="1u6pYw" id="5cbOqfAbAGt" role="bh$oo">
+                  <node concept="1u6r32" id="5cbOqfAbAGu" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="5cbOqfAbAGv" role="1u6pWF" />
                 </node>
               </node>
             </node>

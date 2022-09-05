@@ -61,6 +61,9 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
+      <concept id="5279705229678483897" name="jetbrains.mps.baseLanguage.structure.FloatingPointFloatConstant" flags="nn" index="2$xPTn">
+        <property id="5279705229678483899" name="value" index="2$xPTl" />
+      </concept>
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -5834,6 +5837,176 @@
     </node>
     <node concept="13hLZK" id="3bUwTsdnRG0" role="13h7CW">
       <node concept="3clFbS" id="3bUwTsdnRG1" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5cbOqfA60pM">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="13h7C2" to="l8rz:5cbOqfA60oU" resolve="VisibilityCheckValue" />
+    <node concept="13hLZK" id="5cbOqfA60pN" role="13h7CW">
+      <node concept="3clFbS" id="5cbOqfA60pO" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5cbOqfA60pX" role="13h7CS">
+      <property role="TrG5h" value="modifyButton" />
+      <ref role="13i0hy" node="2Yd1qrJONig" resolve="modifyButton" />
+      <node concept="3Tm1VV" id="5cbOqfA60q0" role="1B3o_S" />
+      <node concept="3clFbS" id="5cbOqfA60q3" role="3clF47">
+        <node concept="3clFbF" id="5cbOqfA6qc$" role="3cqZAp">
+          <node concept="2OqwBi" id="5cbOqfA6qVQ" role="3clFbG">
+            <node concept="37vLTw" id="5cbOqfA6qcu" role="2Oq$k0">
+              <ref role="3cqZAo" node="5cbOqfA60q4" resolve="button" />
+            </node>
+            <node concept="liA8E" id="5cbOqfA6sci" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setVisible(boolean)" resolve="setVisible" />
+              <node concept="2OqwBi" id="5cbOqfA6ssx" role="37wK5m">
+                <node concept="13iPFW" id="5cbOqfA6sd3" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5cbOqfA6sGD" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:5cbOqfA60pr" resolve="visibility" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5cbOqfA60q4" role="3clF46">
+        <property role="TrG5h" value="button" />
+        <node concept="3uibUv" id="5cbOqfA60q5" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5cbOqfA60q6" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="5cbOqfA60qc" role="13h7CS">
+      <property role="TrG5h" value="modifyCheckBox" />
+      <ref role="13i0hy" node="6wbjV0PXG$A" resolve="modifyCheckBox" />
+      <node concept="3Tm1VV" id="5cbOqfA60qf" role="1B3o_S" />
+      <node concept="3clFbS" id="5cbOqfA60qi" role="3clF47">
+        <node concept="3clFbF" id="5cbOqfA6sLn" role="3cqZAp">
+          <node concept="2OqwBi" id="5cbOqfA6sLo" role="3clFbG">
+            <node concept="37vLTw" id="5cbOqfA6sLp" role="2Oq$k0">
+              <ref role="3cqZAo" node="5cbOqfA60qj" resolve="checkBox" />
+            </node>
+            <node concept="liA8E" id="5cbOqfA6sLq" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setVisible(boolean)" resolve="setVisible" />
+              <node concept="2OqwBi" id="5cbOqfA6sLr" role="37wK5m">
+                <node concept="13iPFW" id="5cbOqfA6sLs" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5cbOqfA6sLt" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:5cbOqfA60pr" resolve="visibility" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5cbOqfA60qj" role="3clF46">
+        <property role="TrG5h" value="checkBox" />
+        <node concept="3uibUv" id="5cbOqfA60qk" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JCheckBox" resolve="JCheckBox" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5cbOqfA60ql" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="5cbOqfA60qr" role="13h7CS">
+      <property role="TrG5h" value="modifyImage" />
+      <ref role="13i0hy" node="6wbjV0Q4H0t" resolve="modifyImage" />
+      <node concept="3Tm1VV" id="5cbOqfA60qu" role="1B3o_S" />
+      <node concept="3clFbS" id="5cbOqfA60qx" role="3clF47">
+        <node concept="3cpWs8" id="5cbOqfA6uwP" role="3cqZAp">
+          <node concept="3cpWsn" id="5cbOqfA6uwQ" role="3cpWs9">
+            <property role="TrG5h" value="wrappedIcon" />
+            <node concept="3uibUv" id="5cbOqfA6usW" role="1tU5fm">
+              <ref role="3uigEE" to="hhvz:3_3BZO9YCxM" resolve="AlphaIcon" />
+            </node>
+            <node concept="2OqwBi" id="5cbOqfAbcUd" role="33vP2m">
+              <node concept="37vLTw" id="5cbOqfAbcCy" role="2Oq$k0">
+                <ref role="3cqZAo" node="5cbOqfA60qy" resolve="imageIconWrapper" />
+              </node>
+              <node concept="liA8E" id="5cbOqfAbdbF" role="2OqNvi">
+                <ref role="37wK5l" to="hhvz:5cbOqfAaVWD" resolve="getAsAlphaIcon" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5cbOqfA6tl4" role="3cqZAp">
+          <node concept="2OqwBi" id="5cbOqfA6uYD" role="3clFbG">
+            <node concept="37vLTw" id="5cbOqfA6uwU" role="2Oq$k0">
+              <ref role="3cqZAo" node="5cbOqfA6uwQ" resolve="wrappedIcon" />
+            </node>
+            <node concept="liA8E" id="5cbOqfA6vgC" role="2OqNvi">
+              <ref role="37wK5l" to="hhvz:3_3BZO9YIq2" resolve="setAlpha" />
+              <node concept="2$xPTn" id="5cbOqfA6v_7" role="37wK5m">
+                <property role="2$xPTl" value="0.0f" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5cbOqfA60qy" role="3clF46">
+        <property role="TrG5h" value="imageIconWrapper" />
+        <node concept="3uibUv" id="5cbOqfA60qz" role="1tU5fm">
+          <ref role="3uigEE" to="hhvz:5Xz9Npkd5Iv" resolve="ImageIconWrapper" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5cbOqfA60q$" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="5cbOqfA60qE" role="13h7CS">
+      <property role="TrG5h" value="modifyLabel" />
+      <ref role="13i0hy" node="zI3UExNIwv" resolve="modifyLabel" />
+      <node concept="3Tm1VV" id="5cbOqfA60qH" role="1B3o_S" />
+      <node concept="3clFbS" id="5cbOqfA60qK" role="3clF47">
+        <node concept="3clFbF" id="5cbOqfA6sSR" role="3cqZAp">
+          <node concept="2OqwBi" id="5cbOqfA6sSS" role="3clFbG">
+            <node concept="37vLTw" id="5cbOqfA6sST" role="2Oq$k0">
+              <ref role="3cqZAo" node="5cbOqfA60qL" resolve="label" />
+            </node>
+            <node concept="liA8E" id="5cbOqfA6sSU" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setVisible(boolean)" resolve="setVisible" />
+              <node concept="2OqwBi" id="5cbOqfA6sSV" role="37wK5m">
+                <node concept="13iPFW" id="5cbOqfA6sSW" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5cbOqfA6sSX" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:5cbOqfA60pr" resolve="visibility" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5cbOqfA60qL" role="3clF46">
+        <property role="TrG5h" value="label" />
+        <node concept="3uibUv" id="5cbOqfA60qM" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5cbOqfA60qN" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="5cbOqfA60qT" role="13h7CS">
+      <property role="TrG5h" value="modifyTable" />
+      <ref role="13i0hy" node="zI3UExNNsJ" resolve="modifyTable" />
+      <node concept="3Tm1VV" id="5cbOqfA60qW" role="1B3o_S" />
+      <node concept="3clFbS" id="5cbOqfA60qZ" role="3clF47">
+        <node concept="3clFbF" id="5cbOqfA6sW3" role="3cqZAp">
+          <node concept="2OqwBi" id="5cbOqfA6sW4" role="3clFbG">
+            <node concept="37vLTw" id="5cbOqfA6sW5" role="2Oq$k0">
+              <ref role="3cqZAo" node="5cbOqfA60r0" resolve="table" />
+            </node>
+            <node concept="liA8E" id="5cbOqfA6sW6" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setVisible(boolean)" resolve="setVisible" />
+              <node concept="2OqwBi" id="5cbOqfA6sW7" role="37wK5m">
+                <node concept="13iPFW" id="5cbOqfA6sW8" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5cbOqfA6sW9" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:5cbOqfA60pr" resolve="visibility" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5cbOqfA60r0" role="3clF46">
+        <property role="TrG5h" value="table" />
+        <node concept="3uibUv" id="5cbOqfA60r1" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JTable" resolve="JTable" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5cbOqfA60r2" role="3clF45" />
     </node>
   </node>
 </model>

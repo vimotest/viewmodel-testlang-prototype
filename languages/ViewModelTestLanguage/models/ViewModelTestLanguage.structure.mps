@@ -670,5 +670,32 @@
       <ref role="20lvS9" node="6wbjV0Q4H0g" resolve="ImageCheck" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5cbOqfA60oU">
+    <property role="EcuMT" value="5984107031762044474" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="VisibilityCheckValue" />
+    <property role="34LRSv" value="visibility" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5cbOqfA60pr" role="1TKVEl">
+      <property role="IQ2nx" value="5984107031762044507" />
+      <property role="TrG5h" value="visibility" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="5cbOqfA60oV" role="PzmwI">
+      <ref role="PrY4T" node="2Yd1qrJONfT" resolve="IButtonCheckValue" />
+    </node>
+    <node concept="PrWs8" id="5cbOqfA60oX" role="PzmwI">
+      <ref role="PrY4T" node="6wbjV0PXG$q" resolve="ICheckBoxCheckValue" />
+    </node>
+    <node concept="PrWs8" id="5cbOqfA60p0" role="PzmwI">
+      <ref role="PrY4T" node="6wbjV0Q4H0h" resolve="IImageCheckValue" />
+    </node>
+    <node concept="PrWs8" id="5cbOqfA60p4" role="PzmwI">
+      <ref role="PrY4T" node="zI3UExNGh5" resolve="ILabelCheckValue" />
+    </node>
+    <node concept="PrWs8" id="5cbOqfA60p9" role="PzmwI">
+      <ref role="PrY4T" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
+    </node>
+  </node>
 </model>
 

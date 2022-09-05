@@ -2073,9 +2073,19 @@
   <node concept="24kQdi" id="6wbjV0Q4H2l">
     <property role="3GE5qa" value="assert.image" />
     <ref role="1XX52x" to="l8rz:6wbjV0Q4H0g" resolve="ImageCheck" />
-    <node concept="3F2HdR" id="6wbjV0Q4H2n" role="2wV5jI">
-      <ref role="1NtTu8" to="l8rz:6wbjV0Q4H2r" resolve="checks" />
-      <node concept="2iRkQZ" id="6wbjV0Q4H2o" role="2czzBx" />
+    <node concept="3EZMnI" id="5cbOqfA8L1s" role="2wV5jI">
+      <node concept="3F0ifn" id="5cbOqfA8L1C" role="3EZMnx">
+        <property role="3F0ifm" value="check" />
+        <node concept="Vb9p2" id="5cbOqfA9uf3" role="3F10Kt" />
+      </node>
+      <node concept="2iRfu4" id="5cbOqfA8L1t" role="2iSdaV" />
+      <node concept="3F2HdR" id="6wbjV0Q4H2n" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:6wbjV0Q4H2r" resolve="checks" />
+        <node concept="2iRkQZ" id="6wbjV0Q4H2o" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="5cbOqfAabsE" role="3EZMnx">
+        <property role="3F0ifm" value="|" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6wbjV0Q4Kkp">
@@ -2396,6 +2406,26 @@
       <node concept="3Toos0" id="5Xz9Npkbyh9" role="3F10Kt">
         <property role="1lJzqY" value="10" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5cbOqfA60p$">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1XX52x" to="l8rz:5cbOqfA60oU" resolve="VisibilityCheckValue" />
+    <node concept="3EZMnI" id="5cbOqfA60pA" role="2wV5jI">
+      <node concept="PMmxH" id="5cbOqfA60pB" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="5cbOqfA60pC" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="5cbOqfA60pD" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="5cbOqfA60pE" role="3EZMnx">
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <ref role="1NtTu8" to="l8rz:5cbOqfA60pr" resolve="visibility" />
+      </node>
+      <node concept="2iRfu4" id="5cbOqfA60pF" role="2iSdaV" />
     </node>
   </node>
 </model>

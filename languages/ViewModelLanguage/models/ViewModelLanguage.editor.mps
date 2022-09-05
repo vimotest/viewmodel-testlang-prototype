@@ -1435,6 +1435,16 @@
         <property role="1O74Pk" value="true" />
         <ref role="1NtTu8" to="6ap2:7noOckZxo7S" resolve="layerClassCustomName" />
       </node>
+      <node concept="3F0ifn" id="5cbOqfAceI4" role="3EZMnx">
+        <property role="3F0ifm" value="field name (visibility):" />
+        <node concept="pVoyu" id="5cbOqfAceIm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="5cbOqfAceI3" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:3A1HDQkBx2b" resolve="visibleFieldCustomName" />
+      </node>
       <node concept="l2Vlx" id="7noOckZtIcM" role="2iSdaV" />
     </node>
   </node>

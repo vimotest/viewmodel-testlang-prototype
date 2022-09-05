@@ -342,6 +342,9 @@
     <node concept="PrWs8" id="7noOckZtE8j" role="PzmwI">
       <ref role="PrY4T" node="3bUwTsdwKfd" resolve="IHasNameField" />
     </node>
+    <node concept="PrWs8" id="5cbOqfAcem4" role="PzmwI">
+      <ref role="PrY4T" node="3bUwTsdwKeU" resolve="IHasVisibleField" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2s$w3BDwT7a">
     <property role="EcuMT" value="2820520252859978186" />
