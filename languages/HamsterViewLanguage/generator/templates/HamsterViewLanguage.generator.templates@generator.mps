@@ -51,7 +51,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1165602531693" name="superclass" index="1zkMxy" />
@@ -276,45 +275,6 @@
       <property role="TrG5h" value="useCaseContextBaseClass" />
       <ref role="2rZz_L" to="tpee:fz12cDA" resolve="ClassConcept" />
       <ref role="2rTdP9" to="k67l:65sofNQd9sz" resolve="HamsterUseCaseContext" />
-    </node>
-    <node concept="30QchW" id="2ob7EKaiLWX" role="30SoJX">
-      <ref role="30HIoZ" to="k67l:65sofNQd9sz" resolve="HamsterUseCaseContext" />
-      <node concept="3gB$ML" id="2ob7EKaiLWZ" role="3gCiVm">
-        <node concept="3clFbS" id="2ob7EKaiLX0" role="2VODD2">
-          <node concept="3cpWs8" id="2ob7EKajwHC" role="3cqZAp">
-            <node concept="3cpWsn" id="2ob7EKajwHD" role="3cpWs9">
-              <property role="TrG5h" value="testClass" />
-              <node concept="3Tqbb2" id="2ob7EKajwHf" role="1tU5fm">
-                <ref role="ehGHo" to="tpee:fz12cDA" resolve="ClassConcept" />
-              </node>
-              <node concept="2OqwBi" id="2ob7EKajwHE" role="33vP2m">
-                <node concept="1iwH7S" id="2ob7EKajwHF" role="2Oq$k0" />
-                <node concept="1iwH70" id="2ob7EKajwHG" role="2OqNvi">
-                  <ref role="1iwH77" to="2ea3:2ob7EKaiSD2" resolve="viewTestSuite" />
-                  <node concept="2OqwBi" id="2ob7EKajwHH" role="1iwH7V">
-                    <node concept="30H73N" id="2ob7EKajwHI" role="2Oq$k0" />
-                    <node concept="2Xjw5R" id="2ob7EKajwHJ" role="2OqNvi">
-                      <node concept="1xMEDy" id="2ob7EKajwHK" role="1xVPHs">
-                        <node concept="chp4Y" id="2ob7EKajwHL" role="ri$Ld">
-                          <ref role="cht4Q" to="l8rz:2Yd1qrJOhwF" resolve="ViewTestSuite" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="2ob7EKaj9Xk" role="3cqZAp">
-            <node concept="37vLTw" id="2ob7EKajwS$" role="3clFbG">
-              <ref role="3cqZAo" node="2ob7EKajwHD" resolve="testClass" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="j$656" id="2ob7EKaj9Xf" role="1fOSGc">
-        <ref role="v9R2y" node="2ob7EKaj9Xd" resolve="weave_HamsterUseCaseContext" />
-      </node>
     </node>
     <node concept="30QchW" id="5SMmqCnt4oU" role="30SoJX">
       <ref role="30HIoZ" to="k67l:65sofNQd9sz" resolve="HamsterUseCaseContext" />
@@ -576,19 +536,6 @@
     </node>
     <node concept="Vtzci" id="5SMmqCntaV_" role="lGtFl">
       <property role="Vtzcl" value="${project_home}/build/hamster/code/src/test/java/gentests/${name}.java" />
-    </node>
-  </node>
-  <node concept="13MO4I" id="2ob7EKaj9Xd">
-    <property role="TrG5h" value="weave_HamsterUseCaseContext" />
-    <ref role="3gUMe" to="k67l:65sofNQd9sz" resolve="HamsterUseCaseContext" />
-    <node concept="312cEu" id="2ob7EKajb6L" role="13RCb5">
-      <property role="TrG5h" value="Dummy" />
-      <node concept="312cEg" id="2ob7EKajb7w" role="jymVt">
-        <property role="TrG5h" value="myVar" />
-        <node concept="10Oyi0" id="2ob7EKajb7i" role="1tU5fm" />
-        <node concept="raruj" id="2ob7EKajb8n" role="lGtFl" />
-      </node>
-      <node concept="3Tm1VV" id="2ob7EKajb6M" role="1B3o_S" />
     </node>
   </node>
   <node concept="13MO4I" id="5SMmqCnt5y4">
