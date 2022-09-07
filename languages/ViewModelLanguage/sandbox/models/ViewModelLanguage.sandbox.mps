@@ -597,10 +597,6 @@
     <property role="TrG5h" value="HamsterView" />
     <property role="3GE5qa" value="hamster" />
     <property role="2H4Vy8" value="de.unistuttgart.iste.sqa.mpw.framework.viewmodel" />
-    <node concept="3H8Xym" id="3_3BZOa9cvV" role="3H8Xyh">
-      <property role="TrG5h" value="movePaule" />
-    </node>
-    <node concept="3H8Xwz" id="5hmNBhT2vOw" role="3H8Xyh" />
     <node concept="3H8Xy_" id="5hmNBhT2vLI" role="3H8Xyx">
       <property role="1aiWlD" value="GameViewModel" />
       <node concept="3s_O3X" id="1c2yPVfA6F9" role="2P43km">
