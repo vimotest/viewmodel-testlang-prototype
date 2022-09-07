@@ -28,7 +28,7 @@ jobs:
 
       # Build Project
       - name: Build Project
-        run: sh ./gradlew mpsBuildXml
+        run: sh ./gradlew mpsBuild
 
       # Test Project
       - name: Test Project

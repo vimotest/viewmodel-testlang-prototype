@@ -31,6 +31,36 @@
       <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
+      <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
+        <child id="4143793920074545904" name="children" index="2HXGLH" />
+      </concept>
+      <concept id="4143793920074732899" name="ViewModelLanguage.structure.ImageButtonComponent" flags="ng" index="2HYYfY">
+        <reference id="4143793920074734847" name="image" index="2HYYDy" />
+      </concept>
+      <concept id="3673393130864051130" name="ViewModelLanguage.structure.IHasVisibleField" flags="ng" index="Zuo0H">
+        <property id="4143793920077074571" name="visibleFieldCustomName" index="2H7Uom" />
+      </concept>
+      <concept id="3673393130864051149" name="ViewModelLanguage.structure.IHasNameField" flags="ng" index="Zuo1q">
+        <property id="8491766642999925989" name="nameFieldCustomName" index="1ankKw" />
+      </concept>
+      <concept id="8491766642998884793" name="ViewModelLanguage.structure.IHasSensitivityField" flags="ng" index="1aFm_W">
+        <property id="4143793920077074569" name="sensitivityFieldCustomName" index="2H7Uok" />
+      </concept>
+      <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">
+        <property id="4143793920077498595" name="layersFieldCustomName" index="2H9jTY" />
+        <property id="8491766642999919096" name="layerClassCustomName" index="1anl4X" />
+        <child id="2820520252859978978" name="layers" index="3eDLjr" />
+      </concept>
+      <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
+        <reference id="2820520252859978187" name="image" index="3eDL7M" />
+      </concept>
+      <concept id="1369810475999939491" name="ViewModelLanguage.structure.DynamicTableComponent" flags="ng" index="3s_O3X">
+        <property id="8491766642999776839" name="cellClassCustomName" index="1amSq2" />
+        <property id="8491766642999776832" name="rowClassCustomName" index="1amSq5" />
+        <property id="8491766642999776835" name="cellsFieldCustomName" index="1amSq6" />
+        <property id="8491766642999776830" name="rowsFieldCustomName" index="1amSrV" />
+        <child id="1369810475999939492" name="cellDefinition" index="3s_O3U" />
+      </concept>
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
         <property id="7497173622928850064" name="path" index="1u4ncw" />
       </concept>
@@ -38,6 +68,7 @@
         <child id="7497173622928201831" name="images" index="1u6Lvn" />
       </concept>
       <concept id="7497173622928201775" name="ViewModelLanguage.structure.Image" flags="ng" index="1u6Luv">
+        <property id="7777414548129400486" name="generatedName" index="1vQUJP" />
         <child id="7497173622928203553" name="source" index="1u6L2h" />
       </concept>
       <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_" />
@@ -58,8 +89,11 @@
       <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb" />
       <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym" />
-      <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_" />
+      <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_">
+        <property id="8491766643000808876" name="viewModelClassCustomName" index="1aiWlD" />
+      </concept>
       <concept id="4321216645069263618" name="ViewModelLanguage.structure.View" flags="ng" index="3H8XyA">
+        <property id="4143793920076287509" name="packageName" index="2H4Vy8" />
         <child id="4321216645069263669" name="contents" index="3H8Xyh" />
         <child id="4321216645069263621" name="viewModel" index="3H8Xyx" />
       </concept>
@@ -93,6 +127,15 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="6873380570590961965" name="ViewModelTestLanguage.structure.ImageStackCheck" flags="ng" index="bh$or">
+        <child id="6873380570590961966" name="imageChecks" index="bh$oo" />
+      </concept>
+      <concept id="6873380570585262530" name="ViewModelTestLanguage.structure.DynamicTableCheck" flags="ng" index="cFkVO">
+        <child id="6873380570585266812" name="rowChecks" index="cFlPa" />
+      </concept>
+      <concept id="6873380570585266783" name="ViewModelTestLanguage.structure.DynamicTableRowCheck" flags="ng" index="cFlPD">
+        <child id="6873380570585266784" name="cellChecks" index="cFlPm" />
+      </concept>
       <concept id="7015588959113443104" name="ViewModelTestLanguage.structure.UseCaseInputCall" flags="ng" index="2nhTvs">
         <reference id="7015588959113443157" name="callingCommand" index="2nhTuD" />
       </concept>
@@ -111,6 +154,9 @@
         <property id="4126317592746173583" name="lines" index="NlNHM" />
         <property id="4126317592746625582" name="subjectName" index="Nm1nj" />
         <property id="4126317592747383389" name="fileName" index="Np8mw" />
+      </concept>
+      <concept id="5984107031762044474" name="ViewModelTestLanguage.structure.VisibilityCheckValue" flags="ng" index="2P4Xup">
+        <property id="5984107031762044507" name="visibility" index="2P4XvS" />
       </concept>
       <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
         <child id="3426401106045796780" name="objects" index="30k8ga" />
@@ -180,7 +226,6 @@
         <child id="6853349774631251791" name="cellChecks" index="1Dvt80" />
       </concept>
       <concept id="6853349774631251773" name="ViewModelTestLanguage.structure.TableCheck" flags="ng" index="1Dvt9M">
-        <property id="4126317592742328721" name="hideColumnHeaders" index="KAApG" />
         <child id="643469022294143860" name="rowChecks" index="2D8nNu" />
       </concept>
       <concept id="5830978789222189276" name="ViewModelTestLanguage.structure.ContextSubElementReference" flags="ng" index="3KxGic">
@@ -205,10 +250,6 @@
     <node concept="3H8Xwz" id="3JS2UjmTHVk" role="3H8Xyh" />
     <node concept="3H8Xwz" id="3JS2UjmSAGr" role="3H8Xyh" />
     <node concept="3H8Xy_" id="3JS2UjmSmXD" role="3H8Xyx">
-      <node concept="2P4x69" id="3JS2UjmTVNH" role="2P43km">
-        <property role="TrG5h" value="ButtonSensitive" />
-        <node concept="2P4D6g" id="3JS2UjmTVNF" role="2P5Oin" />
-      </node>
       <node concept="3KxLjU" id="5WrZkWQ61QF" role="2P43km">
         <property role="TrG5h" value="table" />
         <node concept="1D3Ojl" id="5WrZkWQ61QH" role="1D3Iin">
@@ -244,6 +285,18 @@
       <node concept="1DeYHr" id="6wbjV0Q9tYN" role="2P43km">
         <property role="TrG5h" value="Icon" />
         <ref role="1u6L2l" node="6wbjV0Q6YmZ" resolve="Star" />
+      </node>
+      <node concept="3eDL7K" id="2s$w3BDyeOf" role="2P43km">
+        <property role="TrG5h" value="Icons" />
+        <node concept="3eDL7N" id="2s$w3BDzzvv" role="3eDLjr">
+          <ref role="3eDL7M" node="6wbjV0Q6YmZ" resolve="Star" />
+        </node>
+        <node concept="3eDL7N" id="2s$w3BDyeOy" role="3eDLjr">
+          <ref role="3eDL7M" node="6wbjV0Q9rdK" resolve="Circle" />
+        </node>
+        <node concept="3eDL7N" id="2s$w3BDzzv7" role="3eDLjr">
+          <ref role="3eDL7M" node="6wbjV0Q9rdV" resolve="Triangle" />
+        </node>
       </node>
       <node concept="3H9sB4" id="2Yd1qrJQ3G2" role="2P43km" />
       <node concept="3H4CWb" id="3JS2UjmUIiU" role="2P43km">
@@ -438,6 +491,51 @@
         </node>
       </node>
     </node>
+    <node concept="30n1Qa" id="7qebotZ8exh" role="30n1Qb">
+      <node concept="30nyDl" id="7qebotZ8exi" role="30nziG">
+        <node concept="30nyDi" id="7qebotZ8exj" role="30nyDj">
+          <property role="30lZVK" value="Circle object" />
+        </node>
+        <node concept="30nyDi" id="7qebotZ8ezY" role="30nyDj">
+          <property role="30lZVK" value="Star object" />
+        </node>
+        <node concept="30nyDi" id="7qebotZ8exk" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="7qebotZ8exm" role="30nyDs">
+          <property role="30lZVK" value="Icons are Circle" />
+        </node>
+        <node concept="30nyDi" id="7qebotZ8ezQ" role="30nyDs">
+          <property role="30lZVK" value="Star" />
+        </node>
+      </node>
+      <node concept="30nziD" id="7qebotZ8exo" role="30nzo2">
+        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="7qebotZ8exq" role="30nzpy">
+        <ref role="30nzpS" node="2s$w3BDyeOf" resolve="Icons" />
+        <node concept="bh$or" id="7qebotZ8e_a" role="30nDbQ">
+          <node concept="1u6pYw" id="7qebotZ8e_c" role="bh$oo">
+            <node concept="1u6r32" id="7qebotZ8e_d" role="1u6pWF">
+              <ref role="1u6r35" node="6wbjV0Q6YmZ" resolve="Star" />
+            </node>
+          </node>
+          <node concept="1u6pYw" id="7qebotZ8e_$" role="bh$oo">
+            <node concept="1u6r32" id="7qebotZ8e__" role="1u6pWF">
+              <ref role="1u6r35" node="6wbjV0Q9rdK" resolve="Circle" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30k8jE" id="7qebotZ8e$5" role="30nziE">
+        <node concept="30k8jF" id="7qebotZ8e$8" role="30k8ga">
+          <property role="TrG5h" value="Circle" />
+        </node>
+        <node concept="30k8jF" id="7qebotZ8e$a" role="30k8ga">
+          <property role="TrG5h" value="Star" />
+        </node>
+      </node>
+    </node>
     <node concept="30n1Qa" id="fGbCOkzRtR" role="30n1Qb">
       <node concept="30nyDl" id="fGbCOkzRtS" role="30nziG">
         <node concept="30nyDi" id="fGbCOkzRtT" role="30nyDj">
@@ -498,100 +596,92 @@
   <node concept="3H8XyA" id="5hmNBhT2vLH">
     <property role="TrG5h" value="HamsterView" />
     <property role="3GE5qa" value="hamster" />
-    <node concept="3H8Xym" id="3_3BZOa9cvV" role="3H8Xyh">
-      <property role="TrG5h" value="movePaule" />
-    </node>
-    <node concept="3H8Xwz" id="5hmNBhT2vOw" role="3H8Xyh" />
+    <property role="2H4Vy8" value="de.unistuttgart.iste.sqa.mpw.framework.viewmodel" />
     <node concept="3H8Xy_" id="5hmNBhT2vLI" role="3H8Xyx">
-      <node concept="3KxLjU" id="5hmNBhT2vLL" role="2P43km">
+      <property role="1aiWlD" value="GameViewModel" />
+      <node concept="3s_O3X" id="1c2yPVfA6F9" role="2P43km">
         <property role="TrG5h" value="territory" />
-        <node concept="1D3Ojl" id="5hmNBhT2vLN" role="1D3Iin">
-          <node concept="1D3Ojk" id="5hmNBhT2vLR" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="5hmNBhT2vLU" role="1D3Ojh">
-              <property role="TrG5h" value="c1" />
-              <ref role="1u6L2l" node="5hmNBhT2vM4" resolve="hamser_tile" />
+        <property role="1amSrV" value="rows" />
+        <property role="1amSq5" value="ViewModelRow" />
+        <property role="1amSq6" value="cells" />
+        <property role="1amSq2" value="ViewModelCell" />
+        <node concept="1D3Ojk" id="1c2yPVfA6Fb" role="3s_O3U">
+          <property role="1D38ss" value="true" />
+          <node concept="3eDL7K" id="1c2yPVfBaGb" role="1D3Ojh">
+            <property role="TrG5h" value="layers" />
+            <property role="1ankKw" value="imageName" />
+            <property role="1anl4X" value="ViewModelCellLayer" />
+            <property role="2H9jTY" value="layers" />
+            <property role="2H7Uom" value="visible" />
+            <node concept="3eDL7N" id="1c2yPVfBhLe" role="3eDLjr">
+              <ref role="3eDL7M" node="5hmNBhT2vMi" resolve="hamster_paule" />
             </node>
-          </node>
-          <node concept="1D3Ojk" id="5hmNBhT2vNR" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="5hmNBhT2vNX" role="1D3Ojh">
-              <property role="TrG5h" value="c2" />
-              <ref role="1u6L2l" node="5hmNBhT2vM4" resolve="hamser_tile" />
+            <node concept="3eDL7N" id="1c2yPVfBhLy" role="3eDLjr">
+              <ref role="3eDL7M" node="5hmNBhT2vMq" resolve="hamster_corn1" />
             </node>
-          </node>
-          <node concept="1D3Ojk" id="5hmNBhT2vO3" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="5hmNBhT2vOc" role="1D3Ojh">
-              <property role="TrG5h" value="c3" />
-              <ref role="1u6L2l" node="5hmNBhT2vM4" resolve="hamser_tile" />
+            <node concept="3eDL7N" id="1c2yPVfBhKX" role="3eDLjr">
+              <ref role="3eDL7M" node="5hmNBhT2vM4" resolve="hamster_tile" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3KxLjU" id="3_3BZO9RSIh" role="2P43km">
-        <property role="TrG5h" value="buttons" />
-        <node concept="1D3Ojl" id="3_3BZO9RSIj" role="1D3Iin">
-          <node concept="1D3Ojk" id="3_3BZO9RSIw" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="3_3BZO9RSIz" role="1D3Ojh">
-              <property role="TrG5h" value="playBtn" />
-              <ref role="1u6L2l" node="5hmNBhT2vM$" resolve="hamster_play" />
-            </node>
-          </node>
-          <node concept="1D3Ojk" id="3_3BZO9RSIS" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="3_3BZO9RSIT" role="1D3Ojh">
-              <property role="TrG5h" value="pauseBtn" />
-              <ref role="1u6L2l" node="5hmNBhT2vMK" resolve="hamster_pause" />
-            </node>
-          </node>
-          <node concept="1D3Ojk" id="3_3BZO9RSJc" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="3_3BZO9RSJd" role="1D3Ojh">
-              <property role="TrG5h" value="undoBtn" />
-              <ref role="1u6L2l" node="5hmNBhT2vMY" resolve="hamster_undo" />
-            </node>
-          </node>
-          <node concept="1D3Ojk" id="3_3BZO9RSJP" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="3_3BZO9RSJQ" role="1D3Ojh">
-              <property role="TrG5h" value="redoBtn" />
-              <ref role="1u6L2l" node="5hmNBhT2vNe" resolve="hamster_redo" />
-            </node>
-          </node>
+      <node concept="2HXGLM" id="3A1HDQku_le" role="2P43km">
+        <node concept="2HYYfY" id="3A1HDQkwDcX" role="2HXGLH">
+          <property role="TrG5h" value="playButton" />
+          <property role="2H7Uok" value="playButtonEnabled" />
+          <ref role="2HYYDy" node="5hmNBhT2vM$" resolve="hamster_play" />
+        </node>
+        <node concept="2HYYfY" id="3A1HDQkwDc_" role="2HXGLH">
+          <property role="TrG5h" value="pauseButton" />
+          <property role="2H7Uok" value="pauseButtonEnabled" />
+          <ref role="2HYYDy" node="5hmNBhT2vMK" resolve="hamster_pause" />
+        </node>
+        <node concept="2HYYfY" id="3A1HDQkwDdl" role="2HXGLH">
+          <property role="TrG5h" value="undoButton" />
+          <property role="2H7Uok" value="undoButtonEnabled" />
+          <ref role="2HYYDy" node="5hmNBhT2vMY" resolve="hamster_undo" />
+        </node>
+        <node concept="2HYYfY" id="3A1HDQkwDdp" role="2HXGLH">
+          <property role="TrG5h" value="redoButton" />
+          <property role="2H7Uok" value="redoButtonEnabled" />
+          <ref role="2HYYDy" node="5hmNBhT2vNe" resolve="hamster_redo" />
         </node>
       </node>
     </node>
   </node>
   <node concept="1u6Luu" id="5hmNBhT2vM3">
     <property role="3GE5qa" value="hamster" />
-    <node concept="1u6Luv" id="5hmNBhT2vM4" role="1u6Lvn">
-      <property role="TrG5h" value="hamser_tile" />
-      <node concept="1u4ncX" id="5hmNBhT2vM8" role="1u6L2h">
-        <property role="1u4ncw" value="images/hamster/Tile32.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="5hmNBhT2vMc" role="1u6Lvn">
       <property role="TrG5h" value="hamster_wall" />
+      <property role="1vQUJP" value="Wall" />
       <node concept="1u4ncX" id="5hmNBhT2vMd" role="1u6L2h">
         <property role="1u4ncw" value="images/hamster/Wall32.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="5hmNBhT2vMi" role="1u6Lvn">
       <property role="TrG5h" value="hamster_paule" />
+      <property role="1vQUJP" value="HamsterBLUE" />
       <node concept="1u4ncX" id="5hmNBhT2vMj" role="1u6L2h">
         <property role="1u4ncw" value="images/hamster/Hamster32.png" />
       </node>
     </node>
+    <node concept="1u6Luv" id="5hmNBhT2vM4" role="1u6Lvn">
+      <property role="TrG5h" value="hamster_corn0" />
+      <property role="1vQUJP" value="0Corn" />
+      <node concept="1u4ncX" id="5hmNBhT2vM8" role="1u6L2h">
+        <property role="1u4ncw" value="images/hamster/Tile32.png" />
+      </node>
+    </node>
     <node concept="1u6Luv" id="5hmNBhT2vMq" role="1u6Lvn">
       <property role="TrG5h" value="hamster_corn1" />
+      <property role="1vQUJP" value="1Corn" />
       <node concept="1u4ncX" id="5hmNBhT2vMr" role="1u6L2h">
         <property role="1u4ncw" value="images/hamster/1Corn32.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="5hmNBhT2vNw" role="1u6Lvn">
       <property role="TrG5h" value="hamster_corn2" />
+      <property role="1vQUJP" value="2Corn" />
       <node concept="1u4ncX" id="5hmNBhT2vNx" role="1u6L2h">
         <property role="1u4ncw" value="images/hamster/2Corn32.png" />
       </node>
@@ -644,109 +734,207 @@
       <node concept="2nhTvs" id="65sofNQ7KDh" role="30nzo2">
         <ref role="2nhTuD" node="65sofNQ578I" resolve="move" />
       </node>
-      <node concept="30nzp_" id="5hmNBhT2vOR" role="30nzpy">
-        <ref role="30nzpS" node="5hmNBhT2vLL" resolve="territory" />
-        <node concept="1Dvt9M" id="5hmNBhT2vPs" role="30nDbQ">
-          <property role="KAApG" value="true" />
-          <node concept="1Dvt89" id="5hmNBhT2vPu" role="2D8nNu">
-            <node concept="1u3WYF" id="5hmNBhT2vPv" role="1Dvt80">
-              <node concept="1u6pYw" id="5hmNBhT2vPG" role="1u3WYG">
-                <node concept="1u6r32" id="5hmNBhT2vPH" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+      <node concept="30nzp_" id="5Xz9NpjPf9z" role="30nzpy">
+        <ref role="30nzpS" node="1c2yPVfA6F9" resolve="territory" />
+        <node concept="cFkVO" id="5Xz9NpjPfap" role="30nDbQ">
+          <node concept="cFlPD" id="5Xz9NpjPnXi" role="cFlPa">
+            <node concept="1u3WYF" id="5Xz9NpjPnXj" role="cFlPm">
+              <node concept="bh$or" id="5Xz9Npka949" role="1u3WYG">
+                <node concept="1u6pYw" id="3bUwTsd6AAq" role="bh$oo">
+                  <node concept="1u6r32" id="3bUwTsd6AAr" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9gjbKz" role="1u6pWF">
+                    <property role="2P4XvS" value="true" />
+                  </node>
+                </node>
+                <node concept="1u6pYw" id="5Xz9Npka94c" role="bh$oo">
+                  <node concept="1u6r32" id="5Xz9Npka94d" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9gjbKA" role="1u6pWF" />
                 </node>
               </node>
             </node>
-            <node concept="1u3WYF" id="5hmNBhT2vPx" role="1Dvt80">
-              <node concept="1u6pYw" id="5hmNBhT2vPL" role="1u3WYG">
-                <node concept="1u6r32" id="5hmNBhT2vPM" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+            <node concept="1u3WYF" id="3bUwTsd6$K4" role="cFlPm">
+              <node concept="bh$or" id="3bUwTsd6$K5" role="1u3WYG">
+                <node concept="1u6pYw" id="3bUwTsd6$K8" role="bh$oo">
+                  <node concept="1u6r32" id="3bUwTsd6$K9" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9gjbKP" role="1u6pWF">
+                    <property role="2P4XvS" value="true" />
+                  </node>
+                </node>
+                <node concept="1u6pYw" id="3bUwTsd6$K6" role="bh$oo">
+                  <node concept="1u6r32" id="3bUwTsd6$K7" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9gjbKD" role="1u6pWF" />
                 </node>
               </node>
             </node>
-            <node concept="1u3WYF" id="5hmNBhT2vPz" role="1Dvt80">
-              <node concept="1u6pYw" id="5hmNBhT2vPQ" role="1u3WYG">
-                <node concept="1u6r32" id="5hmNBhT2vPR" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+            <node concept="1u3WYF" id="3bUwTsd6$Kr" role="cFlPm">
+              <node concept="bh$or" id="3bUwTsd6$Ks" role="1u3WYG">
+                <node concept="1u6pYw" id="3bUwTsd6AN$" role="bh$oo">
+                  <node concept="1u6r32" id="3bUwTsd6AN_" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9gjbKS" role="1u6pWF">
+                    <property role="2P4XvS" value="true" />
+                  </node>
+                </node>
+                <node concept="1u6pYw" id="3bUwTsd6$Kt" role="bh$oo">
+                  <node concept="1u6r32" id="3bUwTsd6$Ku" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9gjbKG" role="1u6pWF" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="1Dvt89" id="5hmNBhT2vQe" role="2D8nNu">
-            <node concept="1u3WYF" id="5hmNBhT2vQf" role="1Dvt80">
-              <node concept="1u6pYw" id="5hmNBhT2vQg" role="1u3WYG">
-                <node concept="1u6r32" id="5hmNBhT2vQh" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamser_tile" />
+          <node concept="cFlPD" id="3bUwTsd8uMO" role="cFlPa">
+            <node concept="1u3WYF" id="3bUwTsd8uMP" role="cFlPm">
+              <node concept="bh$or" id="3bUwTsd8uMQ" role="1u3WYG">
+                <node concept="1u6pYw" id="3bUwTsd8uMT" role="bh$oo">
+                  <node concept="1u6r32" id="3bUwTsd8uMU" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="5cbOqfAaSF7" role="1u6pWF" />
+                </node>
+                <node concept="1u6pYw" id="5cbOqfA60oO" role="bh$oo">
+                  <node concept="1u6r32" id="5cbOqfA60oP" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_corn0" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9gjbKw" role="1u6pWF" />
                 </node>
               </node>
             </node>
-            <node concept="1u3WYF" id="5hmNBhT2vQi" role="1Dvt80">
-              <node concept="1u6pYw" id="5hmNBhT2vQj" role="1u3WYG">
-                <node concept="1u6r32" id="5hmNBhT2vQk" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMi" resolve="hamster_paule" />
+            <node concept="1u3WYF" id="3bUwTsd8uMV" role="cFlPm">
+              <node concept="bh$or" id="3bUwTsd8uMW" role="1u3WYG">
+                <node concept="1u6pYw" id="4jn5T9glVc6" role="bh$oo">
+                  <node concept="1u6r32" id="4jn5T9glVc7" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9glVc8" role="1u6pWF" />
+                </node>
+                <node concept="1u6pYw" id="4jn5T9glVc9" role="bh$oo">
+                  <node concept="1u6r32" id="4jn5T9glVca" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_corn0" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9glVcb" role="1u6pWF" />
+                </node>
+                <node concept="1u6pYw" id="3bUwTsd8uMX" role="bh$oo">
+                  <node concept="1u6r32" id="3bUwTsd8uMY" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMi" resolve="hamster_paule" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9glVc$" role="1u6pWF">
+                    <property role="2P4XvS" value="true" />
+                  </node>
                 </node>
               </node>
             </node>
-            <node concept="1u3WYF" id="5hmNBhT2vQl" role="1Dvt80">
-              <node concept="1u6pYw" id="5hmNBhT2vQm" role="1u3WYG">
-                <node concept="1u6r32" id="5hmNBhT2vQn" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMq" resolve="hamster_corn1" />
+            <node concept="1u3WYF" id="3bUwTsd8uN1" role="cFlPm">
+              <node concept="bh$or" id="3bUwTsd8uN2" role="1u3WYG">
+                <node concept="1u6pYw" id="5cbOqfAbAGt" role="bh$oo">
+                  <node concept="1u6r32" id="5cbOqfAbAGu" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="5cbOqfAbAGv" role="1u6pWF" />
+                </node>
+                <node concept="1u6pYw" id="5cbOqfAbAGn" role="bh$oo">
+                  <node concept="1u6r32" id="5cbOqfAbAGo" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMq" resolve="hamster_corn1" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9glVcE" role="1u6pWF">
+                    <property role="2P4XvS" value="true" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
-          <node concept="1Dvt89" id="5hmNBhT2vRo" role="2D8nNu">
-            <node concept="1u3WYF" id="5hmNBhT2vRp" role="1Dvt80">
-              <node concept="1u6pYw" id="5hmNBhT2vRq" role="1u3WYG">
-                <node concept="1u6r32" id="5hmNBhT2vRr" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+          <node concept="cFlPD" id="3bUwTsd8uNH" role="cFlPa">
+            <node concept="1u3WYF" id="4jn5T9glVbm" role="cFlPm">
+              <node concept="bh$or" id="4jn5T9glVbn" role="1u3WYG">
+                <node concept="1u6pYw" id="4jn5T9glVbo" role="bh$oo">
+                  <node concept="1u6r32" id="4jn5T9glVbp" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9glVbq" role="1u6pWF">
+                    <property role="2P4XvS" value="true" />
+                  </node>
+                </node>
+                <node concept="1u6pYw" id="4jn5T9glVbr" role="bh$oo">
+                  <node concept="1u6r32" id="4jn5T9glVbs" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_corn0" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9glVbt" role="1u6pWF" />
                 </node>
               </node>
             </node>
-            <node concept="1u3WYF" id="5hmNBhT2vRs" role="1Dvt80">
-              <node concept="1u6pYw" id="5hmNBhT2vRt" role="1u3WYG">
-                <node concept="1u6r32" id="5hmNBhT2vRu" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+            <node concept="1u3WYF" id="4jn5T9glVbu" role="cFlPm">
+              <node concept="bh$or" id="4jn5T9glVbv" role="1u3WYG">
+                <node concept="1u6pYw" id="4jn5T9glVbw" role="bh$oo">
+                  <node concept="1u6r32" id="4jn5T9glVbx" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9glVby" role="1u6pWF">
+                    <property role="2P4XvS" value="true" />
+                  </node>
+                </node>
+                <node concept="1u6pYw" id="4jn5T9glVbz" role="bh$oo">
+                  <node concept="1u6r32" id="4jn5T9glVb$" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_corn0" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9glVb_" role="1u6pWF" />
                 </node>
               </node>
             </node>
-            <node concept="1u3WYF" id="5hmNBhT2vRv" role="1Dvt80">
-              <node concept="1u6pYw" id="5hmNBhT2vRw" role="1u3WYG">
-                <node concept="1u6r32" id="5hmNBhT2vRx" role="1u6pWF">
-                  <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+            <node concept="1u3WYF" id="4jn5T9glVbA" role="cFlPm">
+              <node concept="bh$or" id="4jn5T9glVbB" role="1u3WYG">
+                <node concept="1u6pYw" id="4jn5T9glVbC" role="bh$oo">
+                  <node concept="1u6r32" id="4jn5T9glVbD" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vMc" resolve="hamster_wall" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9glVbE" role="1u6pWF">
+                    <property role="2P4XvS" value="true" />
+                  </node>
+                </node>
+                <node concept="1u6pYw" id="4jn5T9glVbF" role="bh$oo">
+                  <node concept="1u6r32" id="4jn5T9glVbG" role="1u6pWF">
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_corn0" />
+                  </node>
+                  <node concept="2P4Xup" id="4jn5T9glVbH" role="1u6pWF" />
                 </node>
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="30nzp_" id="3_3BZO9RVns" role="30nzpy">
-        <ref role="30nzpS" node="3_3BZO9RSIh" resolve="buttons" />
-        <node concept="1Dvt9M" id="3_3BZO9RVnt" role="30nDbQ">
-          <property role="KAApG" value="true" />
-          <node concept="1Dvt89" id="3_3BZO9RVpq" role="2D8nNu">
-            <node concept="1u3WYF" id="3_3BZO9RVpr" role="1Dvt80">
-              <node concept="1u6pYw" id="3_3BZO9SfAq" role="1u3WYG">
-                <node concept="30nzps" id="3_3BZO9SfAv" role="1u6pWF" />
-              </node>
-            </node>
-            <node concept="1u3WYF" id="3_3BZO9RVpt" role="1Dvt80">
-              <node concept="1u6pYw" id="3_3BZO9SfAx" role="1u3WYG">
-                <node concept="30nzps" id="3_3BZO9SfAA" role="1u6pWF">
-                  <property role="30nzpr" value="true" />
-                </node>
-              </node>
-            </node>
-            <node concept="1u3WYF" id="3_3BZO9RVpv" role="1Dvt80">
-              <node concept="1u6pYw" id="3_3BZO9SfAC" role="1u3WYG">
-                <node concept="30nzps" id="3_3BZO9SfAH" role="1u6pWF" />
-              </node>
-            </node>
-            <node concept="1u3WYF" id="3_3BZO9RVpx" role="1Dvt80">
-              <node concept="1u6pYw" id="3_3BZO9SfAJ" role="1u3WYG">
-                <node concept="30nzps" id="3_3BZO9SfAO" role="1u6pWF" />
-              </node>
-            </node>
+      <node concept="30nzp_" id="3A1HDQkyuN1" role="30nzpy">
+        <ref role="30nzpS" node="3A1HDQkwDcX" resolve="playButton" />
+        <node concept="30nzp7" id="3A1HDQkyuPl" role="30nDbQ">
+          <node concept="30nzps" id="3A1HDQkyuPm" role="30nzpp" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="3A1HDQkwDfF" role="30nzpy">
+        <ref role="30nzpS" node="3A1HDQkwDc_" resolve="pauseButton" />
+        <node concept="30nzp7" id="3A1HDQkwDgF" role="30nDbQ">
+          <node concept="30nzps" id="3A1HDQkwDgG" role="30nzpp">
+            <property role="30nzpr" value="true" />
           </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="3A1HDQkyuPp" role="30nzpy">
+        <ref role="30nzpS" node="3A1HDQkwDdl" resolve="undoButton" />
+        <node concept="30nzp7" id="3A1HDQkyuPq" role="30nDbQ">
+          <node concept="30nzps" id="3A1HDQkyuPr" role="30nzpp" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="3A1HDQkyuRC" role="30nzpy">
+        <ref role="30nzpS" node="3A1HDQkwDdp" resolve="redoButton" />
+        <node concept="30nzp7" id="3A1HDQkyuRD" role="30nDbQ">
+          <node concept="30nzps" id="3A1HDQkyuRE" role="30nzpp" />
         </node>
       </node>
       <node concept="2nhTvv" id="65sofNQ7KCq" role="30nzpy">

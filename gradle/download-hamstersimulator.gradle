@@ -88,13 +88,13 @@ private void createExampleTerritory(File hamsterWorkingDir) {
     def territoryFile = file("$hamsterWorkingDir/src/main/resources/example.ter")
     if (!territoryFile.exists()) {
         territoryFile.text = """
-5
 3
-#####
-#> *#
-#####
+3
+###
+> *
+###
 0
-2
+1
 0
 """.trim()
     }
