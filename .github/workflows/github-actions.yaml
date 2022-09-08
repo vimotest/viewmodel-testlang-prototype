@@ -1,6 +1,10 @@
 name: Java CI using Gradle Wrapper
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
+      - 'feature/**'
 
 jobs:
   build:
