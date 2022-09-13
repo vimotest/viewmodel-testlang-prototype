@@ -9,51 +9,15 @@
     <use id="b344aa7e-2e08-4f45-aa82-4796d5345f7b" name="HamsterViewLanguage" version="0" />
     <use id="0edf22a4-42bc-4e5d-954f-06aaaf51df00" name="jetbrains.mps.lang.makeup" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <engage id="0edf22a4-42bc-4e5d-954f-06aaaf51df00" name="jetbrains.mps.lang.makeup" />
   </languages>
   <imports>
     <import index="bhzn" ref="r:f5b8750f-b463-4762-a412-8a5ee39f76e0(HamsterViewLanguage.generator.runtimestubs)" />
-    <import index="6ap2" ref="r:eb134abe-e3cf-4c45-9c39-b0e1fd592dbc(ViewModelLanguage.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
-        <child id="1197027771414" name="operand" index="2Oq$k0" />
-        <child id="1197027833540" name="operation" index="2OqNvi" />
-      </concept>
-      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
-        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
-      </concept>
-      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
-      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
-      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
-        <child id="5680397130376446158" name="type" index="1tU5fm" />
-      </concept>
-      <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
-        <child id="1068580123133" name="returnType" index="3clF45" />
-        <child id="1068580123134" name="parameter" index="3clF46" />
-        <child id="1068580123135" name="body" index="3clF47" />
-      </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
-        <child id="1068581517665" name="statement" index="3cqZAp" />
-      </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
-      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
-        <child id="1068581517676" name="expression" index="3cqZAk" />
-      </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
-        <child id="1178549979242" name="visibility" index="1B3o_S" />
-      </concept>
-      <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
-    </language>
-    <language id="d9e42a87-6893-48ea-bc1d-6d609b972a87" name="ViewModelLanguage2Java">
-      <concept id="4960459431756882017" name="ViewModelLanguage2Java.structure.GeneratorNameProvider" flags="ng" index="kjvvN">
-        <child id="4960459431756882018" name="provideNameMethod" index="kjvvK" />
       </concept>
     </language>
     <language id="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60" name="SimpleTypeLanguage">
@@ -84,8 +48,6 @@
         <property id="4143793920077074569" name="sensitivityFieldCustomName" index="2H7Uok" />
       </concept>
       <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">
-        <property id="4143793920077498595" name="layersFieldCustomName" index="2H9jTY" />
-        <property id="8491766642999919096" name="layerClassCustomName" index="1anl4X" />
         <child id="2820520252859978978" name="layers" index="3eDLjr" />
       </concept>
       <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
@@ -154,14 +116,7 @@
       <concept id="7015588959115056931" name="HamsterViewLanguage.structure.HamsterUseCaseContext" flags="ng" index="2nqfvv">
         <child id="7015588959115056943" name="territory" index="2nqfvj" />
       </concept>
-    </language>
-    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
-        <reference id="1138405853777" name="concept" index="ehGHo" />
-      </concept>
-      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
-        <reference id="1138056395725" name="property" index="3TsBF5" />
-      </concept>
+      <concept id="1407660290768727195" name="HamsterViewLanguage.structure.HamsterGeneratorNameProvider" flags="ng" index="2oe6W8" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -655,8 +610,6 @@
           <node concept="3eDL7K" id="1c2yPVfBaGb" role="1D3Ojh">
             <property role="TrG5h" value="layers" />
             <property role="1ankKw" value="imageName" />
-            <property role="1anl4X" value="ViewModelCellLayer" />
-            <property role="2H9jTY" value="layers" />
             <property role="2H7Uom" value="visible" />
             <node concept="3eDL7N" id="1c2yPVfBhLe" role="3eDLjr">
               <ref role="3eDL7M" node="5hmNBhT2vMi" resolve="hamster_paule" />
@@ -1023,31 +976,8 @@
       <node concept="2P4D6g" id="65sofNQ9ioS" role="2ni6iC" />
     </node>
   </node>
-  <node concept="kjvvN" id="4jn5T9gAIt8">
+  <node concept="2oe6W8" id="1e90TebHLvF">
     <property role="3GE5qa" value="hamster" />
-    <node concept="3clFb_" id="4jn5T9gAItc" role="kjvvK">
-      <property role="TrG5h" value="provideNameForInput" />
-      <node concept="37vLTG" id="4jn5T9gAItp" role="3clF46">
-        <property role="TrG5h" value="generateNode" />
-        <node concept="3Tqbb2" id="4jn5T9gAIuD" role="1tU5fm">
-          <ref role="ehGHo" to="6ap2:3JS2UjmQXcM" resolve="ViewInput" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="4jn5T9gAItf" role="3clF47">
-        <node concept="3cpWs6" id="4jn5T9gAIw6" role="3cqZAp">
-          <node concept="2OqwBi" id="4jn5T9gAICq" role="3cqZAk">
-            <node concept="37vLTw" id="4jn5T9gAIwx" role="2Oq$k0">
-              <ref role="3cqZAo" node="4jn5T9gAItp" resolve="generateNode" />
-            </node>
-            <node concept="3TrcHB" id="4jn5T9gAIOO" role="2OqNvi">
-              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="17QB3L" id="4jn5T9gAIvV" role="3clF45" />
-      <node concept="3Tm1VV" id="4jn5T9gAIth" role="1B3o_S" />
-    </node>
   </node>
 </model>
 

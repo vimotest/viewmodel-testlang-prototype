@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="l8rz" ref="r:ab9528f7-9956-499a-8cfb-6e30a245b4f2(ViewModelTestLanguage.structure)" />
+    <import index="dy0e" ref="r:34aece79-b90c-45e0-95ed-239c4b47e26b(ViewModelLanguage2Java.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -20,6 +21,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -51,6 +53,15 @@
     </node>
     <node concept="PrWs8" id="2ob7EKajytT" role="PzmwI">
       <ref role="PrY4T" to="l8rz:65sofNQd9$9" resolve="ITestSuiteContext" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1e90TebGmMr">
+    <property role="EcuMT" value="1407660290768727195" />
+    <property role="TrG5h" value="HamsterGeneratorNameProvider" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="1e90TebGmYl" role="PzmwI">
+      <ref role="PrY4T" to="dy0e:1e90TebCVY2" resolve="IGeneratorNameProvider" />
     </node>
   </node>
 </model>
