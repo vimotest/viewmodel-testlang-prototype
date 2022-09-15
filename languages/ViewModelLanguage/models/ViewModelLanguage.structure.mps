@@ -138,12 +138,6 @@
       <property role="TrG5h" value="sensitiveState" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="PrWs8" id="3A1HDQkBKn9" role="PzmwI">
-      <ref role="PrY4T" node="3bUwTsdwKfd" resolve="IHasNameField" />
-    </node>
-    <node concept="PrWs8" id="3A1HDQkC0xh" role="PzmwI">
-      <ref role="PrY4T" node="7noOckZtrAT" resolve="IHasSensitivityField" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3JS2UjmU$R8">
     <property role="EcuMT" value="4321216645070212552" />
@@ -210,9 +204,6 @@
       <property role="IQ2nx" value="6853349774626093651" />
       <property role="TrG5h" value="visible" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="PrWs8" id="7noOckZtE8h" role="PzmwI">
-      <ref role="PrY4T" node="3bUwTsdwKfd" resolve="IHasNameField" />
     </node>
   </node>
   <node concept="1TIwiD" id="5WrZkWQ789B">
@@ -322,28 +313,12 @@
     <property role="TrG5h" value="ImageStackComponent" />
     <property role="34LRSv" value="image stack" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
-    <node concept="1TJgyi" id="3A1HDQkD8zz" role="1TKVEl">
-      <property role="IQ2nx" value="4143793920077498595" />
-      <property role="TrG5h" value="layersFieldCustomName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7noOckZxo7S" role="1TKVEl">
-      <property role="IQ2nx" value="8491766642999919096" />
-      <property role="TrG5h" value="layerClassCustomName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="2s$w3BDwTjy" role="1TKVEi">
       <property role="IQ2ns" value="2820520252859978978" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="layers" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2s$w3BDwT7a" resolve="ImageRef" />
-    </node>
-    <node concept="PrWs8" id="7noOckZtE8j" role="PzmwI">
-      <ref role="PrY4T" node="3bUwTsdwKfd" resolve="IHasNameField" />
-    </node>
-    <node concept="PrWs8" id="5cbOqfAcem4" role="PzmwI">
-      <ref role="PrY4T" node="3bUwTsdwKeU" resolve="IHasVisibleField" />
     </node>
   </node>
   <node concept="1TIwiD" id="2s$w3BDwT7a">
@@ -371,59 +346,6 @@
       <property role="20kJfa" value="cellDefinition" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5WrZkWQ5bAr" resolve="TableCellComponent" />
-    </node>
-    <node concept="PrWs8" id="7noOckZtE8f" role="PzmwI">
-      <ref role="PrY4T" node="3bUwTsdwKfd" resolve="IHasNameField" />
-    </node>
-    <node concept="1TJgyi" id="7noOckZwPoY" role="1TKVEl">
-      <property role="IQ2nx" value="8491766642999776830" />
-      <property role="TrG5h" value="rowsFieldCustomName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7noOckZwPp0" role="1TKVEl">
-      <property role="IQ2nx" value="8491766642999776832" />
-      <property role="TrG5h" value="rowClassCustomName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7noOckZwPp3" role="1TKVEl">
-      <property role="IQ2nx" value="8491766642999776835" />
-      <property role="TrG5h" value="cellsFieldCustomName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7noOckZwPp7" role="1TKVEl">
-      <property role="IQ2nx" value="8491766642999776839" />
-      <property role="TrG5h" value="cellClassCustomName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3bUwTsdwKeU">
-    <property role="EcuMT" value="3673393130864051130" />
-    <property role="TrG5h" value="IHasVisibleField" />
-    <property role="3GE5qa" value="customnames" />
-    <node concept="1TJgyi" id="3A1HDQkBx2b" role="1TKVEl">
-      <property role="IQ2nx" value="4143793920077074571" />
-      <property role="TrG5h" value="visibleFieldCustomName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3bUwTsdwKfd">
-    <property role="EcuMT" value="3673393130864051149" />
-    <property role="TrG5h" value="IHasNameField" />
-    <property role="3GE5qa" value="customnames" />
-    <node concept="1TJgyi" id="7noOckZxpN_" role="1TKVEl">
-      <property role="IQ2nx" value="8491766642999925989" />
-      <property role="TrG5h" value="nameFieldCustomName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="7noOckZtrAT">
-    <property role="EcuMT" value="8491766642998884793" />
-    <property role="3GE5qa" value="customnames" />
-    <property role="TrG5h" value="IHasSensitivityField" />
-    <node concept="1TJgyi" id="3A1HDQkBx29" role="1TKVEl">
-      <property role="IQ2nx" value="4143793920077074569" />
-      <property role="TrG5h" value="sensitivityFieldCustomName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="3A1HDQktRFJ">
@@ -454,12 +376,6 @@
       <property role="20kJfa" value="image" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6wbjV0Q45wJ" resolve="Image" />
-    </node>
-    <node concept="PrWs8" id="3A1HDQkBKnl" role="PzmwI">
-      <ref role="PrY4T" node="3bUwTsdwKfd" resolve="IHasNameField" />
-    </node>
-    <node concept="PrWs8" id="3A1HDQkC0xk" role="PzmwI">
-      <ref role="PrY4T" node="7noOckZtrAT" resolve="IHasSensitivityField" />
     </node>
   </node>
   <node concept="PlHQZ" id="3A1HDQkwnQ7">
