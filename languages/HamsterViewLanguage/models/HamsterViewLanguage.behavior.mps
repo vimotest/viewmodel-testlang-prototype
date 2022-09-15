@@ -170,6 +170,65 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="2bvhKOEVcW0" role="3cqZAp" />
+        <node concept="3clFbJ" id="2bvhKOEVbE7" role="3cqZAp">
+          <node concept="3clFbS" id="2bvhKOEVbE8" role="3clFbx">
+            <node concept="3cpWs6" id="2bvhKOEVbE9" role="3cqZAp">
+              <node concept="Xl_RD" id="2bvhKOEVbEa" role="3cqZAk">
+                <property role="Xl_RC" value="ViewModelCell" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="2bvhKOEVc3O" role="3clFbw">
+            <node concept="17R0WA" id="2bvhKOEVcOB" role="3uHU7w">
+              <node concept="37vLTw" id="2bvhKOEVc41" role="3uHU7B">
+                <ref role="3cqZAo" node="2bvhKOEVbDm" resolve="hint" />
+              </node>
+              <node concept="Xl_RD" id="2bvhKOEVcG9" role="3uHU7w">
+                <property role="Xl_RC" value="cellClass" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2bvhKOEVbEb" role="3uHU7B">
+              <node concept="37vLTw" id="2bvhKOEVbEc" role="2Oq$k0">
+                <ref role="3cqZAo" node="1e90TebGnbg" resolve="viewComponent" />
+              </node>
+              <node concept="1mIQ4w" id="2bvhKOEVbEd" role="2OqNvi">
+                <node concept="chp4Y" id="2bvhKOEVbEe" role="cj9EA">
+                  <ref role="cht4Q" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2bvhKOEVcYN" role="3cqZAp">
+          <node concept="3clFbS" id="2bvhKOEVcYO" role="3clFbx">
+            <node concept="3cpWs6" id="2bvhKOEVcYP" role="3cqZAp">
+              <node concept="Xl_RD" id="2bvhKOEVcYQ" role="3cqZAk">
+                <property role="Xl_RC" value="ViewModelRow" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="2bvhKOEVcYR" role="3clFbw">
+            <node concept="17R0WA" id="2bvhKOEVcYS" role="3uHU7w">
+              <node concept="37vLTw" id="2bvhKOEVcYT" role="3uHU7B">
+                <ref role="3cqZAo" node="2bvhKOEVbDm" resolve="hint" />
+              </node>
+              <node concept="Xl_RD" id="2bvhKOEVcYU" role="3uHU7w">
+                <property role="Xl_RC" value="rowClass" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2bvhKOEVcYV" role="3uHU7B">
+              <node concept="37vLTw" id="2bvhKOEVcYW" role="2Oq$k0">
+                <ref role="3cqZAo" node="1e90TebGnbg" resolve="viewComponent" />
+              </node>
+              <node concept="1mIQ4w" id="2bvhKOEVcYX" role="2OqNvi">
+                <node concept="chp4Y" id="2bvhKOEVcYY" role="cj9EA">
+                  <ref role="cht4Q" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="1e90TebJHSc" role="3cqZAp" />
         <node concept="3clFbF" id="1e90TebJFjE" role="3cqZAp">
           <node concept="10Nm6u" id="1e90TebJFjB" role="3clFbG" />
@@ -180,6 +239,10 @@
         <node concept="3Tqbb2" id="1e90TebGnbh" role="1tU5fm">
           <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
         </node>
+      </node>
+      <node concept="37vLTG" id="2bvhKOEVbDm" role="3clF46">
+        <property role="TrG5h" value="hint" />
+        <node concept="17QB3L" id="2bvhKOEVbDs" role="1tU5fm" />
       </node>
       <node concept="17QB3L" id="1e90TebGnbi" role="3clF45" />
     </node>
@@ -289,6 +352,134 @@
               <node concept="1mIQ4w" id="1e90TebNecE" role="2OqNvi">
                 <node concept="chp4Y" id="1e90TebNecF" role="cj9EA">
                   <ref role="cht4Q" to="6ap2:2s$w3BDwT79" resolve="ImageStackComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2bvhKOETbI3" role="3cqZAp">
+          <node concept="3clFbS" id="2bvhKOETbI4" role="3clFbx">
+            <node concept="3cpWs6" id="2bvhKOETbI5" role="3cqZAp">
+              <node concept="Xl_RD" id="2bvhKOETbI6" role="3cqZAk">
+                <property role="Xl_RC" value="visible" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="2bvhKOETbI7" role="3clFbw">
+            <node concept="17R0WA" id="2bvhKOETbI8" role="3uHU7w">
+              <node concept="Xl_RD" id="2bvhKOETbI9" role="3uHU7w">
+                <property role="Xl_RC" value="visibility" />
+              </node>
+              <node concept="37vLTw" id="2bvhKOETbIa" role="3uHU7B">
+                <ref role="3cqZAo" node="1e90TebJGFo" resolve="fieldName" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2bvhKOETbIb" role="3uHU7B">
+              <node concept="37vLTw" id="2bvhKOETbIc" role="2Oq$k0">
+                <ref role="3cqZAo" node="1e90TebJGFm" resolve="viewComponent" />
+              </node>
+              <node concept="1mIQ4w" id="2bvhKOETbId" role="2OqNvi">
+                <node concept="chp4Y" id="2bvhKOETbIe" role="cj9EA">
+                  <ref role="cht4Q" to="6ap2:2s$w3BDwT79" resolve="ImageStackComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2bvhKOEUkZv" role="3cqZAp" />
+        <node concept="3clFbJ" id="2bvhKOEUkQj" role="3cqZAp">
+          <node concept="3clFbS" id="2bvhKOEUkQk" role="3clFbx">
+            <node concept="3cpWs6" id="2bvhKOEUkQl" role="3cqZAp">
+              <node concept="Xl_RD" id="2bvhKOEUkQm" role="3cqZAk">
+                <property role="Xl_RC" value="rows" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="2bvhKOEUkQn" role="3clFbw">
+            <node concept="17R0WA" id="2bvhKOEUkQo" role="3uHU7w">
+              <node concept="Xl_RD" id="2bvhKOEUkQp" role="3uHU7w">
+                <property role="Xl_RC" value="rows" />
+              </node>
+              <node concept="37vLTw" id="2bvhKOEUkQq" role="3uHU7B">
+                <ref role="3cqZAo" node="1e90TebJGFo" resolve="fieldName" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2bvhKOEUkQr" role="3uHU7B">
+              <node concept="37vLTw" id="2bvhKOEUkQs" role="2Oq$k0">
+                <ref role="3cqZAo" node="1e90TebJGFm" resolve="viewComponent" />
+              </node>
+              <node concept="1mIQ4w" id="2bvhKOEUkQt" role="2OqNvi">
+                <node concept="chp4Y" id="2bvhKOEUkQu" role="cj9EA">
+                  <ref role="cht4Q" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2bvhKOEUl4h" role="3cqZAp">
+          <node concept="3clFbS" id="2bvhKOEUl4i" role="3clFbx">
+            <node concept="3cpWs6" id="2bvhKOEUl4j" role="3cqZAp">
+              <node concept="Xl_RD" id="2bvhKOEUl4k" role="3cqZAk">
+                <property role="Xl_RC" value="cells" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="2bvhKOEUl4l" role="3clFbw">
+            <node concept="17R0WA" id="2bvhKOEUl4m" role="3uHU7w">
+              <node concept="Xl_RD" id="2bvhKOEUl4n" role="3uHU7w">
+                <property role="Xl_RC" value="cells" />
+              </node>
+              <node concept="37vLTw" id="2bvhKOEUl4o" role="3uHU7B">
+                <ref role="3cqZAo" node="1e90TebJGFo" resolve="fieldName" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2bvhKOEUl4p" role="3uHU7B">
+              <node concept="37vLTw" id="2bvhKOEUl4q" role="2Oq$k0">
+                <ref role="3cqZAo" node="1e90TebJGFm" resolve="viewComponent" />
+              </node>
+              <node concept="1mIQ4w" id="2bvhKOEUl4r" role="2OqNvi">
+                <node concept="chp4Y" id="2bvhKOEUl4s" role="cj9EA">
+                  <ref role="cht4Q" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2bvhKOEVUkJ" role="3cqZAp" />
+        <node concept="3clFbJ" id="2bvhKOEVUoE" role="3cqZAp">
+          <node concept="3clFbS" id="2bvhKOEVUoF" role="3clFbx">
+            <node concept="3cpWs6" id="2bvhKOEVUoG" role="3cqZAp">
+              <node concept="3cpWs3" id="2bvhKOEVVAP" role="3cqZAk">
+                <node concept="Xl_RD" id="2bvhKOEVVEB" role="3uHU7w">
+                  <property role="Xl_RC" value="Enabled" />
+                </node>
+                <node concept="2OqwBi" id="2bvhKOEVUXX" role="3uHU7B">
+                  <node concept="37vLTw" id="2bvhKOEVUMa" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1e90TebJGFm" resolve="viewComponent" />
+                  </node>
+                  <node concept="3TrcHB" id="2bvhKOEVV8Z" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="2bvhKOEVUoI" role="3clFbw">
+            <node concept="17R0WA" id="2bvhKOEVUoJ" role="3uHU7w">
+              <node concept="Xl_RD" id="2bvhKOEVUoK" role="3uHU7w">
+                <property role="Xl_RC" value="sensitivity" />
+              </node>
+              <node concept="37vLTw" id="2bvhKOEVUoL" role="3uHU7B">
+                <ref role="3cqZAo" node="1e90TebJGFo" resolve="fieldName" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2bvhKOEVUoM" role="3uHU7B">
+              <node concept="37vLTw" id="2bvhKOEVUoN" role="2Oq$k0">
+                <ref role="3cqZAo" node="1e90TebJGFm" resolve="viewComponent" />
+              </node>
+              <node concept="1mIQ4w" id="2bvhKOEVUoO" role="2OqNvi">
+                <node concept="chp4Y" id="2bvhKOEVUoP" role="cj9EA">
+                  <ref role="cht4Q" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
                 </node>
               </node>
             </node>

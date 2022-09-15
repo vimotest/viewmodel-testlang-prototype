@@ -38,15 +38,6 @@
       <concept id="4143793920074732899" name="ViewModelLanguage.structure.ImageButtonComponent" flags="ng" index="2HYYfY">
         <reference id="4143793920074734847" name="image" index="2HYYDy" />
       </concept>
-      <concept id="3673393130864051130" name="ViewModelLanguage.structure.IHasVisibleField" flags="ng" index="Zuo0H">
-        <property id="4143793920077074571" name="visibleFieldCustomName" index="2H7Uom" />
-      </concept>
-      <concept id="3673393130864051149" name="ViewModelLanguage.structure.IHasNameField" flags="ng" index="Zuo1q">
-        <property id="8491766642999925989" name="nameFieldCustomName" index="1ankKw" />
-      </concept>
-      <concept id="8491766642998884793" name="ViewModelLanguage.structure.IHasSensitivityField" flags="ng" index="1aFm_W">
-        <property id="4143793920077074569" name="sensitivityFieldCustomName" index="2H7Uok" />
-      </concept>
       <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">
         <child id="2820520252859978978" name="layers" index="3eDLjr" />
       </concept>
@@ -54,10 +45,6 @@
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
       <concept id="1369810475999939491" name="ViewModelLanguage.structure.DynamicTableComponent" flags="ng" index="3s_O3X">
-        <property id="8491766642999776839" name="cellClassCustomName" index="1amSq2" />
-        <property id="8491766642999776832" name="rowClassCustomName" index="1amSq5" />
-        <property id="8491766642999776835" name="cellsFieldCustomName" index="1amSq6" />
-        <property id="8491766642999776830" name="rowsFieldCustomName" index="1amSrV" />
         <child id="1369810475999939492" name="cellDefinition" index="3s_O3U" />
       </concept>
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
@@ -601,16 +588,10 @@
       <property role="1aiWlD" value="GameViewModel" />
       <node concept="3s_O3X" id="1c2yPVfA6F9" role="2P43km">
         <property role="TrG5h" value="territory" />
-        <property role="1amSrV" value="rows" />
-        <property role="1amSq5" value="ViewModelRow" />
-        <property role="1amSq6" value="cells" />
-        <property role="1amSq2" value="ViewModelCell" />
         <node concept="1D3Ojk" id="1c2yPVfA6Fb" role="3s_O3U">
           <property role="1D38ss" value="true" />
           <node concept="3eDL7K" id="1c2yPVfBaGb" role="1D3Ojh">
             <property role="TrG5h" value="layers" />
-            <property role="1ankKw" value="imageName" />
-            <property role="2H7Uom" value="visible" />
             <node concept="3eDL7N" id="1c2yPVfBhLe" role="3eDLjr">
               <ref role="3eDL7M" node="5hmNBhT2vMi" resolve="hamster_paule" />
             </node>
@@ -626,22 +607,18 @@
       <node concept="2HXGLM" id="3A1HDQku_le" role="2P43km">
         <node concept="2HYYfY" id="3A1HDQkwDcX" role="2HXGLH">
           <property role="TrG5h" value="playButton" />
-          <property role="2H7Uok" value="playButtonEnabled" />
           <ref role="2HYYDy" node="5hmNBhT2vM$" resolve="hamster_play" />
         </node>
         <node concept="2HYYfY" id="3A1HDQkwDc_" role="2HXGLH">
           <property role="TrG5h" value="pauseButton" />
-          <property role="2H7Uok" value="pauseButtonEnabled" />
           <ref role="2HYYDy" node="5hmNBhT2vMK" resolve="hamster_pause" />
         </node>
         <node concept="2HYYfY" id="3A1HDQkwDdl" role="2HXGLH">
           <property role="TrG5h" value="undoButton" />
-          <property role="2H7Uok" value="undoButtonEnabled" />
           <ref role="2HYYDy" node="5hmNBhT2vMY" resolve="hamster_undo" />
         </node>
         <node concept="2HYYfY" id="3A1HDQkwDdp" role="2HXGLH">
           <property role="TrG5h" value="redoButton" />
-          <property role="2H7Uok" value="redoButtonEnabled" />
           <ref role="2HYYDy" node="5hmNBhT2vNe" resolve="hamster_redo" />
         </node>
       </node>
