@@ -46,6 +46,9 @@
       </concept>
       <concept id="5984107031764840531" name="ViewModelLanguage.structure.VisibilityVCFeature" flags="ng" index="2Pim7K" />
       <concept id="5984107031764840534" name="ViewModelLanguage.structure.SensitivityVCFeature" flags="ng" index="2Pim7P" />
+      <concept id="5984107031764840539" name="ViewModelLanguage.structure.ImageVCFeature" flags="ng" index="2Pim7S">
+        <child id="5984107031764840542" name="imageRef" index="2Pim7X" />
+      </concept>
       <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">
         <child id="2820520252859978978" name="layers" index="3eDLjr" />
       </concept>
@@ -77,7 +80,7 @@
         <property id="6853349774626670367" name="contentAsBase64" index="1DeVDg" />
       </concept>
       <concept id="6853349774626657812" name="ViewModelLanguage.structure.ImageComponent" flags="ng" index="1DeYHr">
-        <reference id="7497173622928203557" name="image" index="1u6L2l" />
+        <child id="5984107031765590830" name="imageFeature" index="2Phvad" />
       </concept>
       <concept id="4321216645070110073" name="ViewModelLanguage.structure.ButtonComponent" flags="ng" index="3H4brt" />
       <concept id="4321216645070212552" name="ViewModelLanguage.structure.ViewComponent" flags="ng" index="3H4$pG">
@@ -255,7 +258,6 @@
           <node concept="1D3Ojk" id="5WrZkWQ9ZYj" role="1D3OjJ">
             <property role="1D38ss" value="true" />
             <node concept="1DeYHr" id="6wbjV0Q9tXS" role="1D3Ojh">
-              <ref role="1u6L2l" node="6wbjV0Q9rdK" resolve="Circle" />
               <node concept="2Pim7P" id="5cbOqfAhta_" role="2Pim73">
                 <property role="2PigO5" value="true" />
               </node>
@@ -263,8 +265,13 @@
                 <property role="2PigO5" value="true" />
               </node>
               <node concept="2Pim7H" id="5cbOqfAhtaB" role="2Pim76">
-                <property role="2PigO5" value="true" />
                 <property role="2PigPS" value="Icon" />
+              </node>
+              <node concept="2Pim7S" id="5cbOqfAjOjW" role="2Phvad">
+                <property role="2PigO5" value="true" />
+                <node concept="3eDL7N" id="5cbOqfAjOjX" role="2Pim7X">
+                  <ref role="3eDL7M" node="6wbjV0Q9rdK" resolve="Circle" />
+                </node>
               </node>
             </node>
             <node concept="2Pim7P" id="5cbOqfAhtbf" role="2Pim73">
@@ -365,7 +372,6 @@
         </node>
       </node>
       <node concept="1DeYHr" id="6wbjV0Q9tYN" role="2P43km">
-        <ref role="1u6L2l" node="6wbjV0Q6YmZ" resolve="Star" />
         <node concept="2Pim7P" id="5cbOqfAhtaC" role="2Pim73">
           <property role="2PigO5" value="true" />
         </node>
@@ -375,6 +381,12 @@
         <node concept="2Pim7H" id="5cbOqfAhtaE" role="2Pim76">
           <property role="2PigO5" value="true" />
           <property role="2PigPS" value="Icon" />
+        </node>
+        <node concept="2Pim7S" id="5cbOqfAjOjS" role="2Phvad">
+          <property role="2PigO5" value="true" />
+          <node concept="3eDL7N" id="5cbOqfAjOjT" role="2Pim7X">
+            <ref role="3eDL7M" node="6wbjV0Q6YmZ" resolve="Star" />
+          </node>
         </node>
       </node>
       <node concept="3eDL7K" id="2s$w3BDyeOf" role="2P43km">

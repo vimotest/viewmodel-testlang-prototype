@@ -1225,19 +1225,19 @@
       <node concept="2iRfu4" id="5WrZkWQ8jtJ" role="2iSdaV" />
     </node>
     <node concept="3EZMnI" id="5WrZkWQ8jDK" role="6VMZX">
-      <node concept="2iRfu4" id="5WrZkWQ8jDL" role="2iSdaV" />
       <node concept="3F0ifn" id="5WrZkWQ8jEu" role="3EZMnx">
         <property role="3F0ifm" value="image ref:" />
       </node>
-      <node concept="1iCGBv" id="6wbjV0Q468F" role="3EZMnx">
-        <ref role="1NtTu8" to="6ap2:6wbjV0Q45W_" resolve="image" />
-        <node concept="1sVBvm" id="6wbjV0Q468H" role="1sWHZn">
-          <node concept="3F0A7n" id="6wbjV0Q468P" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
+      <node concept="3F1sOY" id="5cbOqfAjy$P" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:5cbOqfAjycI" resolve="imageFeature" />
+      </node>
+      <node concept="PMmxH" id="5cbOqfAjyoL" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+        <node concept="pVoyu" id="5cbOqfAjyoR" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="l2Vlx" id="5cbOqfAjyo_" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ8jEI">
@@ -1631,6 +1631,13 @@
         <property role="1O74Pk" value="true" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5cbOqfAjy_2">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="1XX52x" to="6ap2:5cbOqfAgF1r" resolve="ImageVCFeature" />
+    <node concept="3F1sOY" id="5cbOqfAjyMs" role="2wV5jI">
+      <ref role="1NtTu8" to="6ap2:5cbOqfAgF1u" resolve="imageRef" />
     </node>
   </node>
 </model>

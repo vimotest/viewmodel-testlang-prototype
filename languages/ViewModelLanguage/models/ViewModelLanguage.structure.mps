@@ -253,11 +253,12 @@
     <property role="TrG5h" value="ImageComponent" />
     <property role="34LRSv" value="image" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
-    <node concept="1TJgyj" id="6wbjV0Q45W_" role="1TKVEi">
-      <property role="IQ2ns" value="7497173622928203557" />
-      <property role="20kJfa" value="image" />
+    <node concept="1TJgyj" id="5cbOqfAjycI" role="1TKVEi">
+      <property role="IQ2ns" value="5984107031765590830" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="imageFeature" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6wbjV0Q45wJ" resolve="Image" />
+      <ref role="20lvS9" node="5cbOqfAgF1r" resolve="ImageVCFeature" />
     </node>
   </node>
   <node concept="PlHQZ" id="5WrZkWQ81on">

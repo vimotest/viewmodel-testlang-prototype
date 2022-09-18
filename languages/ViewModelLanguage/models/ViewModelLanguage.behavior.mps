@@ -1736,23 +1736,38 @@
           <node concept="3clFbS" id="6wbjV0Q4Nqu" role="3clFbx">
             <node concept="3cpWs6" id="6wbjV0Q4N_z" role="3cqZAp">
               <node concept="2OqwBi" id="6wbjV0Q4P7Y" role="3cqZAk">
-                <node concept="2OqwBi" id="6wbjV0Q4Ouk" role="2Oq$k0">
-                  <node concept="13iPFW" id="6wbjV0Q4Oex" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="6wbjV0Q4OVe" role="2OqNvi">
-                    <ref role="3Tt5mk" to="6ap2:6wbjV0Q45W_" resolve="image" />
-                  </node>
-                </node>
                 <node concept="2qgKlT" id="6wbjV0Q4Pns" role="2OqNvi">
                   <ref role="37wK5l" node="6wbjV0Q4KDI" resolve="createSwingLabelWithImage" />
+                </node>
+                <node concept="2OqwBi" id="5cbOqfAk2hK" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5cbOqfAk1Sf" role="2Oq$k0">
+                    <node concept="2OqwBi" id="5cbOqfAk1Sg" role="2Oq$k0">
+                      <node concept="13iPFW" id="5cbOqfAk1Sh" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="5cbOqfAk1Si" role="2OqNvi">
+                        <ref role="3Tt5mk" to="6ap2:5cbOqfAjycI" resolve="imageFeature" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="5cbOqfAk1Sj" role="2OqNvi">
+                      <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1u" resolve="imageRef" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="5cbOqfAk2uO" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6ap2:2s$w3BDwT7b" resolve="image" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
           <node concept="3y3z36" id="6wbjV0Q4Nu0" role="3clFbw">
-            <node concept="2OqwBi" id="6wbjV0Q4Nu1" role="3uHU7B">
-              <node concept="13iPFW" id="6wbjV0Q4Nu2" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6wbjV0Q4Nu3" role="2OqNvi">
-                <ref role="3Tt5mk" to="6ap2:6wbjV0Q45W_" resolve="image" />
+            <node concept="2OqwBi" id="5cbOqfAk1vN" role="3uHU7B">
+              <node concept="2OqwBi" id="6wbjV0Q4Nu1" role="2Oq$k0">
+                <node concept="13iPFW" id="6wbjV0Q4Nu2" role="2Oq$k0" />
+                <node concept="3TrEf2" id="6wbjV0Q4Nu3" role="2OqNvi">
+                  <ref role="3Tt5mk" to="6ap2:5cbOqfAjycI" resolve="imageFeature" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="5cbOqfAk1O0" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1u" resolve="imageRef" />
               </node>
             </node>
             <node concept="10Nm6u" id="6wbjV0Q4Nu4" role="3uHU7w" />
