@@ -856,6 +856,7 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.forms.runtime.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.table.runtime.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-tooltips/languages/jetbrains.mps.lang.editor.tooltips.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
@@ -914,7 +915,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.HamsterViewLanguage" depends="java.compile.ViewModelLanguage2Java, java.compile.ViewModelTestLanguage, fetchDependencies">
+  <target name="java.compile.HamsterViewLanguage" depends="java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, java.compile.ViewModelLanguage2Java, java.compile.ViewModelTestLanguage, fetchDependencies">
     <mkdir dir="${project_home}/languages/HamsterViewLanguage/source_gen" />
     <mkdir dir="${build.tmp}/java/out/HamsterViewLanguage" />
     <javac destdir="${build.tmp}/java/out/HamsterViewLanguage" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -925,43 +926,46 @@
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
         <fileset file="${artifacts.mps}/lib/mps-context.jar" />
         <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
-        <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java" />
         <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
         <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
+        <pathelement path="${build.tmp}/java/out/SimpleTypeLanguage" />
+        <pathelement path="${build.tmp}/java/out/ViewModelLanguage" />
+        <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java" />
         <pathelement path="${build.tmp}/java/out/ViewModelTestLanguage" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.table.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.lang.makeup.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
@@ -969,7 +973,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.HamsterViewLanguage.generator" depends="java.compile.HamsterViewLanguage, java.compile.ViewModelLanguage2Java.generator, java.compile.ViewModelTestLanguage, fetchDependencies">
+  <target name="java.compile.HamsterViewLanguage.generator" depends="java.compile.HamsterViewLanguage, java.compile.ViewModelLanguage2Java, java.compile.ViewModelLanguage2Java.generator, java.compile.ViewModelTestLanguage, fetchDependencies">
     <mkdir dir="${project_home}/languages/HamsterViewLanguage/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/HamsterViewLanguage.generator" />
     <javac destdir="${build.tmp}/java/out/HamsterViewLanguage.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -1006,6 +1010,7 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <pathelement path="${build.tmp}/java/out/HamsterViewLanguage" />
+        <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java.generator" />
         <pathelement path="${build.tmp}/java/out/ViewModelTestLanguage" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
@@ -1023,7 +1028,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.ViewModelLanguage.sandbox" depends="java.compile.HamsterViewLanguage.generator, java.compile.ViewModelLanguage2Java.generator, fetchDependencies">
+  <target name="java.compile.ViewModelLanguage.sandbox" depends="java.compile.HamsterViewLanguage.generator, java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, java.compile.ViewModelLanguage2Java.generator, fetchDependencies">
     <mkdir dir="${project_home}/languages/ViewModelLanguage/sandbox/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage.sandbox" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage.sandbox" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -1051,11 +1056,25 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <pathelement path="${build.tmp}/java/out/HamsterViewLanguage.generator" />
+        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <pathelement path="${build.tmp}/java/out/SimpleTypeLanguage" />
+        <pathelement path="${build.tmp}/java/out/ViewModelLanguage" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java.generator" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.table.runtime.jar" />
       </classpath>
     </javac>
   </target>

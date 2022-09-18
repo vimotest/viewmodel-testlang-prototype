@@ -446,6 +446,11 @@
             <ref role="1E1Vl2" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
+        <node concept="1SiIV0" id="5cbOqfACg$m" role="3bR37C">
+          <node concept="3bR9La" id="5cbOqfACg$n" role="1SiIV1">
+            <ref role="3bR37D" node="1n6T2_x2WO8" resolve="ViewModelLanguage" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1n6T2_x2WO2" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -875,6 +880,16 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="5cbOqfACgA4" role="3bR37C">
+          <node concept="3bR9La" id="5cbOqfACgA5" role="1SiIV1">
+            <ref role="3bR37D" node="1n6T2_x2WO8" resolve="ViewModelLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5cbOqfACgAi" role="3bR37C">
+          <node concept="1Busua" id="5cbOqfACgAj" role="1SiIV1">
+            <ref role="1Busuk" node="1n6T2_x2WNW" resolve="ViewModelLanguage2Java" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="1n6T2_x2WOf" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -925,6 +940,11 @@
         <node concept="1SiIV0" id="GIypa72b9h" role="3bR37C">
           <node concept="3bR9La" id="GIypa72b9i" role="1SiIV1">
             <ref role="3bR37D" node="5SMmqCnuKnB" resolve="HamsterViewLanguage.generator" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5cbOqfACgAz" role="3bR37C">
+          <node concept="3bR9La" id="5cbOqfACgA$" role="1SiIV1">
+            <ref role="3bR37D" node="1n6T2_x2WO8" resolve="ViewModelLanguage" />
           </node>
         </node>
       </node>
