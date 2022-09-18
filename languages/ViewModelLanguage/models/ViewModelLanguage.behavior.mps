@@ -4266,5 +4266,26 @@
       <node concept="3clFbS" id="3A1HDQkuAs_" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="5cbOqfAhmp5">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="13h7C2" to="6ap2:5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="13hLZK" id="5cbOqfAhmp6" role="13h7CW">
+      <node concept="3clFbS" id="5cbOqfAhmp7" role="2VODD2">
+        <node concept="3clFbF" id="5cbOqfAhmph" role="3cqZAp">
+          <node concept="37vLTI" id="5cbOqfAhmYU" role="3clFbG">
+            <node concept="3clFbT" id="5cbOqfAhmZn" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="5cbOqfAhmxh" role="37vLTJ">
+              <node concept="13iPFW" id="5cbOqfAhmpg" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5cbOqfAhmDR" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:5cbOqfAgHMA" resolve="supported" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
