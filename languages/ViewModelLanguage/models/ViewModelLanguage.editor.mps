@@ -449,25 +449,13 @@
       <node concept="3F0ifn" id="5WrZkWQaodo" role="3EZMnx">
         <property role="3F0ifm" value="table" />
       </node>
-      <node concept="3F0A7n" id="5WrZkWQaijH" role="3EZMnx">
+      <node concept="3F0A7n" id="5cbOqfAnrTv" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
-      <node concept="2iRfu4" id="5WrZkWQaii6" role="2iSdaV" />
-      <node concept="1CiYdB" id="5WrZkWQ5hBz" role="3EZMnx">
-        <node concept="2XI2dN" id="5WrZkWQ5hB_" role="2XI0mt">
-          <node concept="3clFbS" id="5WrZkWQ5hBB" role="2VODD2">
-            <node concept="3clFbF" id="5WrZkWQ5hZV" role="3cqZAp">
-              <node concept="2ShNRf" id="5WrZkWQ5hZT" role="3clFbG">
-                <node concept="1pGfFk" id="5WrZkWQ5m9V" role="2ShVmc">
-                  <property role="373rjd" value="true" />
-                  <ref role="37wK5l" to="hhvz:5WrZkWQ5kUg" resolve="TableComponentModel" />
-                  <node concept="pncrf" id="5WrZkWQ5m9U" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
+      <node concept="3F1sOY" id="5cbOqfAnxJR" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:5cbOqfAnxJO" resolve="rowsFeature" />
       </node>
+      <node concept="2iRfu4" id="5WrZkWQaii6" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ76Xu">
@@ -1648,6 +1636,33 @@
         <node concept="l2Vlx" id="5cbOqfAmt9l" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="5cbOqfAmt9m" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5cbOqfAnrjx">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="1XX52x" to="6ap2:5cbOqfAnqE8" resolve="TableRowsVCFeature" />
+    <node concept="3EZMnI" id="5cbOqfAnrTt" role="2wV5jI">
+      <node concept="2iRfu4" id="5cbOqfAnrTw" role="2iSdaV" />
+      <node concept="1CiYdB" id="5cbOqfAnrTx" role="3EZMnx">
+        <node concept="2XI2dN" id="5cbOqfAnrTy" role="2XI0mt">
+          <node concept="3clFbS" id="5cbOqfAnrTz" role="2VODD2">
+            <node concept="3clFbF" id="5cbOqfAnrT$" role="3cqZAp">
+              <node concept="2ShNRf" id="5cbOqfAnrT_" role="3clFbG">
+                <node concept="1pGfFk" id="5cbOqfAnrTA" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="hhvz:5WrZkWQ5kUg" resolve="TableComponentModel" />
+                  <node concept="2OqwBi" id="5cbOqfAnsao" role="37wK5m">
+                    <node concept="pncrf" id="5cbOqfAnrTB" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="5cbOqfAnssy" role="2OqNvi">
+                      <ref role="3Tt5mk" to="6ap2:5cbOqfAnrg4" resolve="rowDefinition" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

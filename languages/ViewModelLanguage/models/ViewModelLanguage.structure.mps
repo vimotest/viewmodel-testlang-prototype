@@ -190,12 +190,12 @@
     <property role="TrG5h" value="TableComponent" />
     <property role="34LRSv" value="table" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
-    <node concept="1TJgyj" id="5WrZkWQ5hBo" role="1TKVEi">
-      <property role="IQ2ns" value="6853349774625937880" />
+    <node concept="1TJgyj" id="5cbOqfAnxJO" role="1TKVEi">
+      <property role="IQ2ns" value="5984107031766637556" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="rowDefinition" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5WrZkWQ5bAq" resolve="TableRowComponent" />
+      <property role="20kJfa" value="rowsFeature" />
+      <ref role="20lvS9" node="5cbOqfAnqE8" resolve="TableRowsVCFeature" />
     </node>
   </node>
   <node concept="1TIwiD" id="5WrZkWQ5bAq">
@@ -488,6 +488,20 @@
       <property role="20kJfa" value="imageRefs" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2s$w3BDwT7a" resolve="ImageRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5cbOqfAnqE8">
+    <property role="EcuMT" value="5984107031766608520" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="TableRowsVCFeature" />
+    <property role="34LRSv" value="table rows feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyj" id="5cbOqfAnrg4" role="1TKVEi">
+      <property role="IQ2ns" value="5984107031766610948" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowDefinition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5WrZkWQ5bAq" resolve="TableRowComponent" />
     </node>
   </node>
 </model>

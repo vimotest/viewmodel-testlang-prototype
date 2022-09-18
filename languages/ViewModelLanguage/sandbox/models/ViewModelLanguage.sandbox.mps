@@ -49,6 +49,9 @@
       <concept id="5984107031764840539" name="ViewModelLanguage.structure.ImageVCFeature" flags="ng" index="2Pim7S">
         <child id="5984107031764840542" name="imageRef" index="2Pim7X" />
       </concept>
+      <concept id="5984107031766608520" name="ViewModelLanguage.structure.TableRowsVCFeature" flags="ng" index="2PlBGF">
+        <child id="5984107031766610948" name="rowDefinition" index="2PlAmB" />
+      </concept>
       <concept id="5984107031765882830" name="ViewModelLanguage.structure.ImageLayersVCFeature" flags="ng" index="2PmkpH">
         <child id="5984107031765882831" name="imageRefs" index="2PmkpG" />
       </concept>
@@ -103,7 +106,7 @@
         <child id="4321216645069263621" name="viewModel" index="3H8Xyx" />
       </concept>
       <concept id="5830978789222176938" name="ViewModelLanguage.structure.TableComponent" flags="ng" index="3KxLjU">
-        <child id="6853349774625937880" name="rowDefinition" index="1D3Iin" />
+        <child id="5984107031766637556" name="rowsFeature" index="2PlsDn" />
       </concept>
     </language>
     <language id="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" name="UseCaseLanguage">
@@ -257,86 +260,6 @@
     <node concept="3H8Xwz" id="3JS2UjmSAGr" role="3H8Xyh" />
     <node concept="3H8Xy_" id="3JS2UjmSmXD" role="3H8Xyx">
       <node concept="3KxLjU" id="5WrZkWQ61QF" role="2P43km">
-        <node concept="1D3Ojl" id="5WrZkWQ61QH" role="1D3Iin">
-          <node concept="1D3Ojk" id="5WrZkWQ9ZYj" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1DeYHr" id="6wbjV0Q9tXS" role="1D3Ojh">
-              <node concept="2Pim7P" id="5cbOqfAhta_" role="2Pim73">
-                <property role="2PigO5" value="true" />
-              </node>
-              <node concept="2Pim7K" id="5cbOqfAhtaA" role="2Pim71">
-                <property role="2PigO5" value="true" />
-              </node>
-              <node concept="2Pim7H" id="5cbOqfAhtaB" role="2Pim76">
-                <property role="2PigPS" value="Icon" />
-              </node>
-              <node concept="2Pim7S" id="5cbOqfAjOjW" role="2Phvad">
-                <property role="2PigO5" value="true" />
-                <node concept="3eDL7N" id="5cbOqfAjOjX" role="2Pim7X">
-                  <ref role="3eDL7M" node="6wbjV0Q9rdK" resolve="Circle" />
-                </node>
-              </node>
-            </node>
-            <node concept="2Pim7P" id="5cbOqfAhtbf" role="2Pim73">
-              <property role="2PigO5" value="true" />
-            </node>
-            <node concept="2Pim7K" id="5cbOqfAhtbg" role="2Pim71">
-              <property role="2PigO5" value="true" />
-            </node>
-            <node concept="2Pim7H" id="5cbOqfAhtbh" role="2Pim76">
-              <property role="2PigO5" value="true" />
-              <property role="2PigPS" value="I" />
-            </node>
-          </node>
-          <node concept="1D3Ojk" id="5WrZkWQ7XWF" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="3H4CWb" id="5WrZkWQ7XWI" role="1D3Ojh">
-              <node concept="2Pim7P" id="5cbOqfAhtaF" role="2Pim73">
-                <property role="2PigO5" value="true" />
-              </node>
-              <node concept="2Pim7K" id="5cbOqfAhtaG" role="2Pim71">
-                <property role="2PigO5" value="true" />
-              </node>
-              <node concept="2Pim7H" id="5cbOqfAhtaH" role="2Pim76">
-                <property role="2PigO5" value="true" />
-                <property role="2PigPS" value="Active" />
-              </node>
-            </node>
-            <node concept="2Pim7P" id="5cbOqfAhtbi" role="2Pim73">
-              <property role="2PigO5" value="true" />
-            </node>
-            <node concept="2Pim7K" id="5cbOqfAhtbj" role="2Pim71">
-              <property role="2PigO5" value="true" />
-            </node>
-            <node concept="2Pim7H" id="5cbOqfAhtbk" role="2Pim76">
-              <property role="2PigO5" value="true" />
-            </node>
-          </node>
-          <node concept="1D3Ojk" id="5WrZkWQmWwR" role="1D3OjJ">
-            <property role="1D38ss" value="true" />
-            <node concept="1D10m_" id="5WrZkWQmWx4" role="1D3Ojh">
-              <node concept="2Pim7P" id="5cbOqfAhtaL" role="2Pim73">
-                <property role="2PigO5" value="true" />
-              </node>
-              <node concept="2Pim7K" id="5cbOqfAhtaM" role="2Pim71">
-                <property role="2PigO5" value="true" />
-              </node>
-              <node concept="2Pim7H" id="5cbOqfAhtaN" role="2Pim76">
-                <property role="2PigO5" value="true" />
-                <property role="2PigPS" value="Name" />
-              </node>
-            </node>
-            <node concept="2Pim7P" id="5cbOqfAhtbl" role="2Pim73">
-              <property role="2PigO5" value="true" />
-            </node>
-            <node concept="2Pim7K" id="5cbOqfAhtbm" role="2Pim71">
-              <property role="2PigO5" value="true" />
-            </node>
-            <node concept="2Pim7H" id="5cbOqfAhtbn" role="2Pim76">
-              <property role="2PigO5" value="true" />
-            </node>
-          </node>
-        </node>
         <node concept="2Pim7P" id="5cbOqfAhtaR" role="2Pim73">
           <property role="2PigO5" value="true" />
         </node>
@@ -346,6 +269,89 @@
         <node concept="2Pim7H" id="5cbOqfAhtaT" role="2Pim76">
           <property role="2PigO5" value="true" />
           <property role="2PigPS" value="table" />
+        </node>
+        <node concept="2PlBGF" id="5cbOqfAnXHh" role="2PlsDn">
+          <property role="2PigO5" value="true" />
+          <node concept="1D3Ojl" id="5WrZkWQ61QH" role="2PlAmB">
+            <node concept="1D3Ojk" id="5WrZkWQ9ZYj" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="1DeYHr" id="6wbjV0Q9tXS" role="1D3Ojh">
+                <node concept="2Pim7P" id="5cbOqfAhta_" role="2Pim73">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7K" id="5cbOqfAhtaA" role="2Pim71">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7H" id="5cbOqfAhtaB" role="2Pim76">
+                  <property role="2PigPS" value="Icon" />
+                </node>
+                <node concept="2Pim7S" id="5cbOqfAjOjW" role="2Phvad">
+                  <property role="2PigO5" value="true" />
+                  <node concept="3eDL7N" id="5cbOqfAjOjX" role="2Pim7X">
+                    <ref role="3eDL7M" node="6wbjV0Q9rdK" resolve="Circle" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2Pim7P" id="5cbOqfAhtbf" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="5cbOqfAhtbg" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7H" id="5cbOqfAhtbh" role="2Pim76">
+                <property role="2PigO5" value="true" />
+                <property role="2PigPS" value="I" />
+              </node>
+            </node>
+            <node concept="1D3Ojk" id="5WrZkWQ7XWF" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="3H4CWb" id="5WrZkWQ7XWI" role="1D3Ojh">
+                <node concept="2Pim7P" id="5cbOqfAhtaF" role="2Pim73">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7K" id="5cbOqfAhtaG" role="2Pim71">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7H" id="5cbOqfAhtaH" role="2Pim76">
+                  <property role="2PigO5" value="true" />
+                  <property role="2PigPS" value="Active" />
+                </node>
+              </node>
+              <node concept="2Pim7P" id="5cbOqfAhtbi" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="5cbOqfAhtbj" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7H" id="5cbOqfAhtbk" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+            </node>
+            <node concept="1D3Ojk" id="5WrZkWQmWwR" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="1D10m_" id="5WrZkWQmWx4" role="1D3Ojh">
+                <node concept="2Pim7P" id="5cbOqfAhtaL" role="2Pim73">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7K" id="5cbOqfAhtaM" role="2Pim71">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7H" id="5cbOqfAhtaN" role="2Pim76">
+                  <property role="2PigO5" value="true" />
+                  <property role="2PigPS" value="Name" />
+                </node>
+              </node>
+              <node concept="2Pim7P" id="5cbOqfAhtbl" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="5cbOqfAhtbm" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7H" id="5cbOqfAhtbn" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3H9sB4" id="3JS2UjmUtkU" role="2P43km" />
