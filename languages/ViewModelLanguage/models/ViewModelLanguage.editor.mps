@@ -68,7 +68,6 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
-      <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
@@ -1378,10 +1377,14 @@
       <node concept="2iRfu4" id="2s$w3BDwTvR" role="2iSdaV" />
       <node concept="1v6uyg" id="2s$w3BD_jIw" role="3EZMnx">
         <property role="2oejA6" value="true" />
-        <node concept="3F2HdR" id="2s$w3BD_jJz" role="wsdo6">
-          <ref role="1NtTu8" to="6ap2:2s$w3BDwTjy" resolve="layers" />
-          <node concept="2iRkQZ" id="2s$w3BD_jJ$" role="2czzBx" />
-          <node concept="VPxyj" id="2s$w3BD_jJB" role="3F10Kt" />
+        <node concept="1iCGBv" id="5cbOqfAmtVW" role="wsdo6">
+          <ref role="1NtTu8" to="6ap2:2s$w3BDwTjy" resolve="imageLayersFeature" />
+          <node concept="1sVBvm" id="5cbOqfAmtW0" role="1sWHZn">
+            <node concept="3F2HdR" id="5cbOqfAmu6I" role="2wV5jI">
+              <ref role="1NtTu8" to="6ap2:5cbOqfAkDvf" resolve="imageRefs" />
+              <node concept="2iRkQZ" id="5cbOqfAmu6L" role="2czzBx" />
+            </node>
+          </node>
         </node>
         <node concept="3gTLQM" id="2s$w3BD_XVA" role="1j7Clw">
           <node concept="3Fmcul" id="2s$w3BD_XVC" role="3FoqZy">
@@ -1399,18 +1402,8 @@
         </node>
       </node>
     </node>
-    <node concept="3EZMnI" id="2s$w3BDwTQa" role="6VMZX">
-      <node concept="3F0ifn" id="2s$w3BDwTQc" role="3EZMnx">
-        <property role="3F0ifm" value="image refs:" />
-      </node>
-      <node concept="3F2HdR" id="2s$w3BDwTR4" role="3EZMnx">
-        <ref role="1NtTu8" to="6ap2:2s$w3BDwTjy" resolve="layers" />
-        <node concept="pj6Ft" id="7noOckZtIcK" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="l2Vlx" id="7noOckZtIcL" role="2czzBx" />
-      </node>
-      <node concept="l2Vlx" id="7noOckZtIcM" role="2iSdaV" />
+    <node concept="3F1sOY" id="5cbOqfAmtVg" role="6VMZX">
+      <ref role="1NtTu8" to="6ap2:2s$w3BDwTjy" resolve="imageLayersFeature" />
     </node>
   </node>
   <node concept="24kQdi" id="1c2yPVfA6IS">
@@ -1638,6 +1631,23 @@
     <ref role="1XX52x" to="6ap2:5cbOqfAgF1r" resolve="ImageVCFeature" />
     <node concept="3F1sOY" id="5cbOqfAjyMs" role="2wV5jI">
       <ref role="1NtTu8" to="6ap2:5cbOqfAgF1u" resolve="imageRef" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5cbOqfAmsz9">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="1XX52x" to="6ap2:5cbOqfAkDve" resolve="ImageLayersVCFeature" />
+    <node concept="3EZMnI" id="5cbOqfAmt9h" role="2wV5jI">
+      <node concept="3F0ifn" id="5cbOqfAmt9i" role="3EZMnx">
+        <property role="3F0ifm" value="image refs:" />
+      </node>
+      <node concept="3F2HdR" id="5cbOqfAmt9j" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:5cbOqfAkDvf" resolve="imageRefs" />
+        <node concept="pj6Ft" id="5cbOqfAmt9k" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="l2Vlx" id="5cbOqfAmt9l" role="2czzBx" />
+      </node>
+      <node concept="l2Vlx" id="5cbOqfAmt9m" role="2iSdaV" />
     </node>
   </node>
 </model>

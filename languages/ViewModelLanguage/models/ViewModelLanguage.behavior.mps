@@ -2572,10 +2572,15 @@
         </node>
         <node concept="3clFbF" id="2s$w3BDGiWJ" role="3cqZAp">
           <node concept="2OqwBi" id="2s$w3BDGiWK" role="3clFbG">
-            <node concept="2OqwBi" id="2s$w3BDGiWL" role="2Oq$k0">
-              <node concept="13iPFW" id="2s$w3BDGiWM" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="2s$w3BDGiWN" role="2OqNvi">
-                <ref role="3TtcxE" to="6ap2:2s$w3BDwTjy" resolve="layers" />
+            <node concept="2OqwBi" id="5cbOqfAmKYf" role="2Oq$k0">
+              <node concept="2OqwBi" id="2s$w3BDGiWL" role="2Oq$k0">
+                <node concept="13iPFW" id="2s$w3BDGiWM" role="2Oq$k0" />
+                <node concept="3TrEf2" id="5cbOqfAmKed" role="2OqNvi">
+                  <ref role="3Tt5mk" to="6ap2:2s$w3BDwTjy" resolve="imageLayersFeature" />
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="5cbOqfAmLqB" role="2OqNvi">
+                <ref role="3TtcxE" to="6ap2:5cbOqfAkDvf" resolve="imageRefs" />
               </node>
             </node>
             <node concept="2es0OD" id="2s$w3BDGiWO" role="2OqNvi">
@@ -2590,11 +2595,11 @@
                             <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
                           </node>
                           <node concept="2OqwBi" id="2s$w3BDGiWW" role="33vP2m">
-                            <node concept="2OqwBi" id="2s$w3BDGiWX" role="2Oq$k0">
+                            <node concept="2OqwBi" id="5cbOqfAkIL3" role="2Oq$k0">
                               <node concept="37vLTw" id="2s$w3BDGiWY" role="2Oq$k0">
                                 <ref role="3cqZAo" node="2s$w3BDGiXg" resolve="it" />
                               </node>
-                              <node concept="3TrEf2" id="2s$w3BDGiWZ" role="2OqNvi">
+                              <node concept="3TrEf2" id="5cbOqfAmO5c" role="2OqNvi">
                                 <ref role="3Tt5mk" to="6ap2:2s$w3BDwT7b" resolve="image" />
                               </node>
                             </node>
@@ -2632,11 +2637,11 @@
                     </node>
                     <node concept="3y3z36" id="2s$w3BDGiXb" role="3clFbw">
                       <node concept="10Nm6u" id="2s$w3BDGiXc" role="3uHU7w" />
-                      <node concept="2OqwBi" id="2s$w3BDGiXd" role="3uHU7B">
+                      <node concept="2OqwBi" id="5cbOqfAmMit" role="3uHU7B">
                         <node concept="37vLTw" id="2s$w3BDGiXe" role="2Oq$k0">
                           <ref role="3cqZAo" node="2s$w3BDGiXg" resolve="it" />
                         </node>
-                        <node concept="3TrEf2" id="2s$w3BDGiXf" role="2OqNvi">
+                        <node concept="3TrEf2" id="5cbOqfAmMCi" role="2OqNvi">
                           <ref role="3Tt5mk" to="6ap2:2s$w3BDwT7b" resolve="image" />
                         </node>
                       </node>

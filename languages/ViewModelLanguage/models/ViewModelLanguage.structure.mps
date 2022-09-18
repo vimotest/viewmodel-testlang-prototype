@@ -342,9 +342,9 @@
     <node concept="1TJgyj" id="2s$w3BDwTjy" role="1TKVEi">
       <property role="IQ2ns" value="2820520252859978978" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="layers" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2s$w3BDwT7a" resolve="ImageRef" />
+      <property role="20kJfa" value="imageLayersFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5cbOqfAkDve" resolve="ImageLayersVCFeature" />
     </node>
   </node>
   <node concept="1TIwiD" id="2s$w3BDwT7a">
@@ -474,6 +474,20 @@
     </node>
     <node concept="PrWs8" id="5cbOqfAgF0m" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5cbOqfAkDve">
+    <property role="EcuMT" value="5984107031765882830" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="ImageLayersVCFeature" />
+    <property role="34LRSv" value="image layers feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyj" id="5cbOqfAkDvf" role="1TKVEi">
+      <property role="IQ2ns" value="5984107031765882831" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="imageRefs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2s$w3BDwT7a" resolve="ImageRef" />
     </node>
   </node>
 </model>

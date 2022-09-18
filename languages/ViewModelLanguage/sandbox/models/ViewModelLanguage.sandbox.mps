@@ -49,8 +49,11 @@
       <concept id="5984107031764840539" name="ViewModelLanguage.structure.ImageVCFeature" flags="ng" index="2Pim7S">
         <child id="5984107031764840542" name="imageRef" index="2Pim7X" />
       </concept>
+      <concept id="5984107031765882830" name="ViewModelLanguage.structure.ImageLayersVCFeature" flags="ng" index="2PmkpH">
+        <child id="5984107031765882831" name="imageRefs" index="2PmkpG" />
+      </concept>
       <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">
-        <child id="2820520252859978978" name="layers" index="3eDLjr" />
+        <child id="2820520252859978978" name="imageLayersFeature" index="3eDLjr" />
       </concept>
       <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
@@ -390,15 +393,6 @@
         </node>
       </node>
       <node concept="3eDL7K" id="2s$w3BDyeOf" role="2P43km">
-        <node concept="3eDL7N" id="2s$w3BDzzvv" role="3eDLjr">
-          <ref role="3eDL7M" node="6wbjV0Q6YmZ" resolve="Star" />
-        </node>
-        <node concept="3eDL7N" id="2s$w3BDyeOy" role="3eDLjr">
-          <ref role="3eDL7M" node="6wbjV0Q9rdK" resolve="Circle" />
-        </node>
-        <node concept="3eDL7N" id="2s$w3BDzzv7" role="3eDLjr">
-          <ref role="3eDL7M" node="6wbjV0Q9rdV" resolve="Triangle" />
-        </node>
         <node concept="2Pim7P" id="5cbOqfAhtb9" role="2Pim73">
           <property role="2PigO5" value="true" />
         </node>
@@ -408,6 +402,18 @@
         <node concept="2Pim7H" id="5cbOqfAhtbb" role="2Pim76">
           <property role="2PigO5" value="true" />
           <property role="2PigPS" value="Icons" />
+        </node>
+        <node concept="2PmkpH" id="5cbOqfAmc1E" role="3eDLjr">
+          <property role="2PigO5" value="true" />
+          <node concept="3eDL7N" id="2s$w3BDzzvv" role="2PmkpG">
+            <ref role="3eDL7M" node="6wbjV0Q6YmZ" resolve="Star" />
+          </node>
+          <node concept="3eDL7N" id="2s$w3BDyeOy" role="2PmkpG">
+            <ref role="3eDL7M" node="6wbjV0Q9rdK" resolve="Circle" />
+          </node>
+          <node concept="3eDL7N" id="2s$w3BDzzv7" role="2PmkpG">
+            <ref role="3eDL7M" node="6wbjV0Q9rdV" resolve="Triangle" />
+          </node>
         </node>
       </node>
       <node concept="3H9sB4" id="2Yd1qrJQ3G2" role="2P43km" />
@@ -724,15 +730,6 @@
         <node concept="1D3Ojk" id="1c2yPVfA6Fb" role="3s_O3U">
           <property role="1D38ss" value="true" />
           <node concept="3eDL7K" id="1c2yPVfBaGb" role="1D3Ojh">
-            <node concept="3eDL7N" id="1c2yPVfBhLe" role="3eDLjr">
-              <ref role="3eDL7M" node="5hmNBhT2vMi" resolve="hamster_paule" />
-            </node>
-            <node concept="3eDL7N" id="1c2yPVfBhLy" role="3eDLjr">
-              <ref role="3eDL7M" node="5hmNBhT2vMq" resolve="hamster_corn1" />
-            </node>
-            <node concept="3eDL7N" id="1c2yPVfBhKX" role="3eDLjr">
-              <ref role="3eDL7M" node="5hmNBhT2vM4" resolve="hamster_tile" />
-            </node>
             <node concept="2Pim7P" id="5cbOqfAhtbc" role="2Pim73">
               <property role="2PigO5" value="true" />
             </node>
@@ -742,6 +739,18 @@
             <node concept="2Pim7H" id="5cbOqfAhtbe" role="2Pim76">
               <property role="2PigO5" value="true" />
               <property role="2PigPS" value="layers" />
+            </node>
+            <node concept="2PmkpH" id="5cbOqfAmc1F" role="3eDLjr">
+              <property role="2PigO5" value="true" />
+              <node concept="3eDL7N" id="1c2yPVfBhLe" role="2PmkpG">
+                <ref role="3eDL7M" node="5hmNBhT2vMi" resolve="hamster_paule" />
+              </node>
+              <node concept="3eDL7N" id="1c2yPVfBhLy" role="2PmkpG">
+                <ref role="3eDL7M" node="5hmNBhT2vMq" resolve="hamster_corn1" />
+              </node>
+              <node concept="3eDL7N" id="1c2yPVfBhKX" role="2PmkpG">
+                <ref role="3eDL7M" node="5hmNBhT2vM4" resolve="hamster_corn0" />
+              </node>
             </node>
           </node>
           <node concept="2Pim7P" id="5cbOqfAhtbo" role="2Pim73">
