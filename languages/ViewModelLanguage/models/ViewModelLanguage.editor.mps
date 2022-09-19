@@ -457,6 +457,9 @@
       </node>
       <node concept="2iRfu4" id="5WrZkWQaii6" role="2iSdaV" />
     </node>
+    <node concept="PMmxH" id="5cbOqfADFf$" role="6VMZX">
+      <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+    </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ76Xu">
     <property role="3GE5qa" value="viewcomponents" />
@@ -1404,20 +1407,8 @@
       <node concept="3F0A7n" id="1c2yPVfA6IW" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
-      <node concept="1CiYdB" id="1c2yPVfA6Uj" role="3EZMnx">
-        <node concept="2XI2dN" id="1c2yPVfA6Ul" role="2XI0mt">
-          <node concept="3clFbS" id="1c2yPVfA6Un" role="2VODD2">
-            <node concept="3clFbF" id="1c2yPVfA6X5" role="3cqZAp">
-              <node concept="2ShNRf" id="1c2yPVfA6X3" role="3clFbG">
-                <node concept="1pGfFk" id="1c2yPVfAwDA" role="2ShVmc">
-                  <property role="373rjd" value="true" />
-                  <ref role="37wK5l" to="hhvz:1c2yPVfAuFO" resolve="DynamicTableComponentModel" />
-                  <node concept="pncrf" id="1c2yPVfAwGS" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
+      <node concept="3F1sOY" id="5cbOqfADIr9" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:5cbOqfADIrk" resolve="cellFeature" />
       </node>
       <node concept="2iRfu4" id="1c2yPVfA6IX" role="2iSdaV" />
     </node>
@@ -1656,6 +1647,30 @@
                     <node concept="3TrEf2" id="5cbOqfAnssy" role="2OqNvi">
                       <ref role="3Tt5mk" to="6ap2:5cbOqfAnrg4" resolve="rowDefinition" />
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5cbOqfADFfH">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="1XX52x" to="6ap2:5cbOqfADF1U" resolve="TableCellVCFeature" />
+    <node concept="1CiYdB" id="5cbOqfADFkz" role="2wV5jI">
+      <node concept="2XI2dN" id="5cbOqfADFk$" role="2XI0mt">
+        <node concept="3clFbS" id="5cbOqfADFk_" role="2VODD2">
+          <node concept="3clFbF" id="5cbOqfADFkA" role="3cqZAp">
+            <node concept="2ShNRf" id="5cbOqfADFkB" role="3clFbG">
+              <node concept="1pGfFk" id="5cbOqfADFkC" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="hhvz:1c2yPVfAuFO" resolve="DynamicTableComponentModel" />
+                <node concept="2OqwBi" id="5cbOqfADFDy" role="37wK5m">
+                  <node concept="pncrf" id="5cbOqfADFkD" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="5cbOqfADFSZ" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6ap2:5cbOqfADF6J" resolve="cellDefinition" />
                   </node>
                 </node>
               </node>

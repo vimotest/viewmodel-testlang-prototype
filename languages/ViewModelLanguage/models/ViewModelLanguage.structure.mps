@@ -366,12 +366,11 @@
     <property role="TrG5h" value="DynamicTableComponent" />
     <property role="34LRSv" value="dynamic table" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
-    <node concept="1TJgyj" id="1c2yPVf_sI$" role="1TKVEi">
-      <property role="IQ2ns" value="1369810475999939492" />
+    <node concept="1TJgyj" id="5cbOqfADIrk" role="1TKVEi">
+      <property role="IQ2ns" value="5984107031771408084" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="cellDefinition" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5WrZkWQ5bAr" resolve="TableCellComponent" />
+      <property role="20kJfa" value="cellFeature" />
+      <ref role="20lvS9" node="5cbOqfADF1U" resolve="TableCellVCFeature" />
     </node>
   </node>
   <node concept="1TIwiD" id="3A1HDQktRFJ">
@@ -502,6 +501,20 @@
       <property role="20kJfa" value="rowDefinition" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5WrZkWQ5bAq" resolve="TableRowComponent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5cbOqfADF1U">
+    <property role="EcuMT" value="5984107031771394170" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="TableCellVCFeature" />
+    <property role="34LRSv" value="table cell feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyj" id="5cbOqfADF6J" role="1TKVEi">
+      <property role="IQ2ns" value="5984107031771394479" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cellDefinition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5WrZkWQ5bAr" resolve="TableCellComponent" />
     </node>
   </node>
 </model>
