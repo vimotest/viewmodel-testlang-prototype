@@ -473,8 +473,10 @@
         <node concept="17QB3L" id="1e90TebJJPk" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="1e90TebJLeB" role="3clF46">
-        <property role="TrG5h" value="fieldName" />
-        <node concept="17QB3L" id="1e90TebJLnN" role="1tU5fm" />
+        <property role="TrG5h" value="feature" />
+        <node concept="3Tqbb2" id="5cbOqfALdMf" role="1tU5fm">
+          <ref role="ehGHo" to="6ap2:5cbOqfAgHMC" resolve="ViewComponentFeature" />
+        </node>
       </node>
     </node>
     <node concept="2YIFZL" id="1e90TebINlO" role="jymVt">
@@ -514,7 +516,7 @@
                 </node>
               </node>
               <node concept="37vLTw" id="1e90TebJO6S" role="37wK5m">
-                <ref role="3cqZAo" node="1e90TebJMot" resolve="fieldName" />
+                <ref role="3cqZAo" node="5cbOqfALeKm" resolve="feature" />
               </node>
             </node>
           </node>
@@ -532,9 +534,11 @@
         <property role="TrG5h" value="templateValue" />
         <node concept="17QB3L" id="1e90TebINmN" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="1e90TebJMot" role="3clF46">
-        <property role="TrG5h" value="fieldName" />
-        <node concept="17QB3L" id="1e90TebJMou" role="1tU5fm" />
+      <node concept="37vLTG" id="5cbOqfALeKm" role="3clF46">
+        <property role="TrG5h" value="feature" />
+        <node concept="3Tqbb2" id="5cbOqfALeKn" role="1tU5fm">
+          <ref role="ehGHo" to="6ap2:5cbOqfAgHMC" resolve="ViewComponentFeature" />
+        </node>
       </node>
     </node>
     <node concept="2YIFZL" id="1e90TebIQCh" role="jymVt">
@@ -574,7 +578,7 @@
                 </node>
               </node>
               <node concept="37vLTw" id="1e90TebJOkZ" role="37wK5m">
-                <ref role="3cqZAo" node="1e90TebJMxl" resolve="fieldName" />
+                <ref role="3cqZAo" node="5cbOqfALeR_" resolve="feature" />
               </node>
             </node>
           </node>
@@ -592,9 +596,11 @@
         <property role="TrG5h" value="templateValue" />
         <node concept="17QB3L" id="1e90TebIQC_" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="1e90TebJMxl" role="3clF46">
-        <property role="TrG5h" value="fieldName" />
-        <node concept="17QB3L" id="1e90TebJMxm" role="1tU5fm" />
+      <node concept="37vLTG" id="5cbOqfALeR_" role="3clF46">
+        <property role="TrG5h" value="feature" />
+        <node concept="3Tqbb2" id="5cbOqfALeRA" role="1tU5fm">
+          <ref role="ehGHo" to="6ap2:5cbOqfAgHMC" resolve="ViewComponentFeature" />
+        </node>
       </node>
     </node>
     <node concept="3Tm1VV" id="1e90TebIFLO" role="1B3o_S" />
