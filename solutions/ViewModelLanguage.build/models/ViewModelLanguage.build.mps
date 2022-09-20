@@ -729,35 +729,6 @@
             </node>
           </node>
         </node>
-        <node concept="1yeLz9" id="1n6T2_x2WQf" role="1TViLv">
-          <property role="TrG5h" value="ViewModelLanguage.generator" />
-          <property role="3LESm3" value="7a690863-5817-428b-8619-7708c3484e53" />
-          <node concept="1BupzO" id="1n6T2_x2WQl" role="3bR31x">
-            <property role="3ZfqAx" value="generator/templates" />
-            <property role="1Hdu6h" value="true" />
-            <property role="1HemKv" value="true" />
-            <node concept="3LXTmp" id="7xn_gHyFlqW" role="1HemKq">
-              <node concept="398BVA" id="7xn_gHyFlqM" role="3LXTmr">
-                <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
-                <node concept="2Ry0Ak" id="7xn_gHyFlqN" role="iGT6I">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="7xn_gHyFlqO" role="2Ry0An">
-                    <property role="2Ry0Am" value="ViewModelLanguage" />
-                    <node concept="2Ry0Ak" id="7xn_gHyFlqP" role="2Ry0An">
-                      <property role="2Ry0Am" value="generator" />
-                      <node concept="2Ry0Ak" id="7xn_gHyFlqQ" role="2Ry0An">
-                        <property role="2Ry0Am" value="templates" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3qWCbU" id="7xn_gHyFlqX" role="3LXTna">
-                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="1n6T2_x2WRu" role="3bR37C">
           <node concept="3bR9La" id="1n6T2_x2WRv" role="1SiIV1">
             <ref role="3bR37D" node="1n6T2_x2WNQ" resolve="SimpleTypeLanguage" />
