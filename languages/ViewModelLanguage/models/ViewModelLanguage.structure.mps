@@ -366,11 +366,12 @@
     <property role="TrG5h" value="DynamicTableComponent" />
     <property role="34LRSv" value="dynamic table" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
-    <node concept="1TJgyj" id="5cbOqfADIrk" role="1TKVEi">
-      <property role="IQ2ns" value="5984107031771408084" />
+    <node concept="1TJgyj" id="5cbOqfAMnLV" role="1TKVEi">
+      <property role="IQ2ns" value="5984107031773674619" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="cellFeature" />
-      <ref role="20lvS9" node="5cbOqfADF1U" resolve="TableCellVCFeature" />
+      <property role="20kJfa" value="rowsFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5cbOqfAKmr3" resolve="DynamicTableRowsVCFeature" />
     </node>
   </node>
   <node concept="1TIwiD" id="3A1HDQktRFJ">
@@ -506,8 +507,8 @@
   <node concept="1TIwiD" id="5cbOqfADF1U">
     <property role="EcuMT" value="5984107031771394170" />
     <property role="3GE5qa" value="viewcomponents.features" />
-    <property role="TrG5h" value="TableCellVCFeature" />
-    <property role="34LRSv" value="table cell feature" />
+    <property role="TrG5h" value="DynamicTableCellsVCFeature" />
+    <property role="34LRSv" value="dynamic table cells feature" />
     <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
     <node concept="1TJgyj" id="5cbOqfADF6J" role="1TKVEi">
       <property role="IQ2ns" value="5984107031771394479" />
@@ -515,6 +516,20 @@
       <property role="20kJfa" value="cellDefinition" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5WrZkWQ5bAr" resolve="TableCellComponent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5cbOqfAKmr3">
+    <property role="EcuMT" value="5984107031773144771" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="DynamicTableRowsVCFeature" />
+    <property role="34LRSv" value="dynamic table rows feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyj" id="5cbOqfAKm$F" role="1TKVEi">
+      <property role="IQ2ns" value="5984107031773145387" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cellsFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5cbOqfADF1U" resolve="DynamicTableCellsVCFeature" />
     </node>
   </node>
 </model>

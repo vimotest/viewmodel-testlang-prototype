@@ -223,7 +223,7 @@
               <node concept="nLn13" id="1c2yPVfBf1h" role="2Oq$k0" />
               <node concept="1mIQ4w" id="1c2yPVfBfrG" role="2OqNvi">
                 <node concept="chp4Y" id="1c2yPVfBfwB" role="cj9EA">
-                  <ref role="cht4Q" to="6ap2:5cbOqfADF1U" resolve="TableCellVCFeature" />
+                  <ref role="cht4Q" to="6ap2:5cbOqfADF1U" resolve="DynamicTableCellsVCFeature" />
                 </node>
               </node>
             </node>

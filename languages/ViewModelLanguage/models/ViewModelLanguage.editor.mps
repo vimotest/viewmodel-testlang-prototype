@@ -1408,7 +1408,7 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F1sOY" id="5cbOqfADIr9" role="3EZMnx">
-        <ref role="1NtTu8" to="6ap2:5cbOqfADIrk" resolve="cellFeature" />
+        <ref role="1NtTu8" to="6ap2:5cbOqfAMnLV" resolve="rowsFeature" />
       </node>
       <node concept="2iRfu4" id="1c2yPVfA6IX" role="2iSdaV" />
     </node>
@@ -1658,7 +1658,7 @@
   </node>
   <node concept="24kQdi" id="5cbOqfADFfH">
     <property role="3GE5qa" value="viewcomponents.features" />
-    <ref role="1XX52x" to="6ap2:5cbOqfADF1U" resolve="TableCellVCFeature" />
+    <ref role="1XX52x" to="6ap2:5cbOqfADF1U" resolve="DynamicTableCellsVCFeature" />
     <node concept="1CiYdB" id="5cbOqfADFkz" role="2wV5jI">
       <node concept="2XI2dN" id="5cbOqfADFk$" role="2XI0mt">
         <node concept="3clFbS" id="5cbOqfADFk_" role="2VODD2">
@@ -1678,6 +1678,13 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5cbOqfAKm$P">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="1XX52x" to="6ap2:5cbOqfAKmr3" resolve="DynamicTableRowsVCFeature" />
+    <node concept="3F1sOY" id="5cbOqfAKmIp" role="2wV5jI">
+      <ref role="1NtTu8" to="6ap2:5cbOqfAKm$F" resolve="cellsFeature" />
     </node>
   </node>
 </model>

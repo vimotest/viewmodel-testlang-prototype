@@ -3410,10 +3410,15 @@
               <ref role="37wK5l" to="c8ee:~TableColumn.setHeaderValue(java.lang.Object)" resolve="setHeaderValue" />
               <node concept="2OqwBi" id="1c2yPVf_$OH" role="37wK5m">
                 <node concept="2OqwBi" id="5cbOqfAF12L" role="2Oq$k0">
-                  <node concept="2OqwBi" id="1c2yPVf_HYg" role="2Oq$k0">
-                    <node concept="13iPFW" id="1c2yPVf_HLu" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="1c2yPVf_IeB" role="2OqNvi">
-                      <ref role="3Tt5mk" to="6ap2:5cbOqfADIrk" resolve="cellFeature" />
+                  <node concept="2OqwBi" id="5cbOqfANYOd" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1c2yPVf_HYg" role="2Oq$k0">
+                      <node concept="13iPFW" id="1c2yPVf_HLu" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="1c2yPVf_IeB" role="2OqNvi">
+                        <ref role="3Tt5mk" to="6ap2:5cbOqfAMnLV" resolve="rowsFeature" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="5cbOqfANYUz" role="2OqNvi">
+                      <ref role="3Tt5mk" to="6ap2:5cbOqfAKm$F" resolve="cellsFeature" />
                     </node>
                   </node>
                   <node concept="3TrEf2" id="5cbOqfAF1ie" role="2OqNvi">
