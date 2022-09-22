@@ -32,6 +32,7 @@
       <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
+      <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts" />
       <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
         <child id="4143793920074545904" name="children" index="2HXGLH" />
       </concept>
@@ -61,6 +62,7 @@
       <concept id="5984107031773144771" name="ViewModelLanguage.structure.DynamicTableRowsVCFeature" flags="ng" index="2PMFtw">
         <child id="5984107031773145387" name="cellsFeature" index="2PMFy8" />
       </concept>
+      <concept id="5984107031776721519" name="ViewModelLanguage.structure.CheckVCFeature" flags="ng" index="2PZ2Jc" />
       <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">
         <child id="2820520252859978978" name="imageLayersFeature" index="3eDLjr" />
       </concept>
@@ -80,7 +82,9 @@
         <property id="7777414548129400486" name="generatedName" index="1vQUJP" />
         <child id="7497173622928203553" name="source" index="1u6L2h" />
       </concept>
-      <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_" />
+      <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_">
+        <child id="3011041337510922390" name="textFeature" index="27$_qM" />
+      </concept>
       <concept id="6853349774625913243" name="ViewModelLanguage.structure.TableCellComponent" flags="ng" index="1D3Ojk">
         <property id="6853349774626093651" name="visible" index="1D38ss" />
         <child id="6853349774625913246" name="content" index="1D3Ojh" />
@@ -100,7 +104,9 @@
         <child id="5984107031764840544" name="sensitivityFeature" index="2Pim73" />
         <child id="5984107031764840549" name="nameFeature" index="2Pim76" />
       </concept>
-      <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb" />
+      <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb">
+        <child id="5984107031776721828" name="checkFeature" index="2PZ2C7" />
+      </concept>
       <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym" />
       <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_">
@@ -322,6 +328,9 @@
                   <property role="2PigO5" value="true" />
                   <property role="2PigPS" value="Active" />
                 </node>
+                <node concept="2PZ2Jc" id="5cbOqfAYl25" role="2PZ2C7">
+                  <property role="2PigO5" value="true" />
+                </node>
               </node>
               <node concept="2Pim7P" id="5cbOqfAhtbi" role="2Pim73">
                 <property role="2PigO5" value="true" />
@@ -345,6 +354,9 @@
                 <node concept="2Pim7H" id="5cbOqfAhtaN" role="2Pim76">
                   <property role="2PigO5" value="true" />
                   <property role="2PigPS" value="Name" />
+                </node>
+                <node concept="27$lts" id="2B9nyiIne0m" role="27$_qM">
+                  <property role="2PigO5" value="true" />
                 </node>
               </node>
               <node concept="2Pim7P" id="5cbOqfAhtbl" role="2Pim73">
@@ -439,6 +451,9 @@
         <node concept="2Pim7H" id="5cbOqfAhtaK" role="2Pim76">
           <property role="2PigO5" value="true" />
           <property role="2PigPS" value="IsEnabled" />
+        </node>
+        <node concept="2PZ2Jc" id="5cbOqfAYl26" role="2PZ2C7">
+          <property role="2PigO5" value="true" />
         </node>
       </node>
     </node>

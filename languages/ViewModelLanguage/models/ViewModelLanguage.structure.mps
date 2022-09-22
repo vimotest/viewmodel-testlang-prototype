@@ -183,6 +183,13 @@
     <property role="TrG5h" value="CheckBoxComponent" />
     <property role="34LRSv" value="checkbox" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="5cbOqfAXZI$" role="1TKVEi">
+      <property role="IQ2ns" value="5984107031776721828" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checkFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5cbOqfAXZDJ" resolve="CheckVCFeature" />
+    </node>
   </node>
   <node concept="1TIwiD" id="53FN52wrdyE">
     <property role="EcuMT" value="5830978789222176938" />
@@ -246,6 +253,13 @@
     <property role="TrG5h" value="LabelComponent" />
     <property role="34LRSv" value="label" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="2B9nyiImKym" role="1TKVEi">
+      <property role="IQ2ns" value="3011041337510922390" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="textFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2B9nyiIm0_S" resolve="TextVCFeature" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5WrZkWQ81ok">
     <property role="EcuMT" value="6853349774626657812" />
@@ -530,6 +544,30 @@
       <property role="20kJfa" value="cellsFeature" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5cbOqfADF1U" resolve="DynamicTableCellsVCFeature" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5cbOqfAXZDJ">
+    <property role="EcuMT" value="5984107031776721519" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="CheckVCFeature" />
+    <property role="34LRSv" value="check feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyi" id="5cbOqfAXZIy" role="1TKVEl">
+      <property role="IQ2nx" value="5984107031776721826" />
+      <property role="TrG5h" value="checked" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2B9nyiIm0_S">
+    <property role="EcuMT" value="3011041337510726008" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="TextVCFeature" />
+    <property role="34LRSv" value="text feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyi" id="2B9nyiIm0_T" role="1TKVEl">
+      <property role="IQ2nx" value="3011041337510726009" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
