@@ -39,6 +39,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -125,13 +126,21 @@
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
+      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
@@ -498,6 +507,61 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="3HXRBxqwmhe">
+    <property role="TrG5h" value="check_ViewAssertion" />
+    <property role="3GE5qa" value="test" />
+    <node concept="3clFbS" id="3HXRBxqwmhf" role="18ibNy">
+      <node concept="3cpWs8" id="3HXRBxqwoUu" role="3cqZAp">
+        <node concept="3cpWsn" id="3HXRBxqwoUv" role="3cpWs9">
+          <property role="TrG5h" value="isNotAnyDerivedType" />
+          <node concept="10P_77" id="3HXRBxqwoUf" role="1tU5fm" />
+          <node concept="17R0WA" id="3HXRBxqwpsK" role="33vP2m">
+            <node concept="2OqwBi" id="3HXRBxqwpsL" role="3uHU7B">
+              <node concept="1YBJjd" id="3HXRBxqwpsM" role="2Oq$k0">
+                <ref role="1YBMHb" node="3HXRBxqwmhh" resolve="viewAssertion" />
+              </node>
+              <node concept="2yIwOk" id="3HXRBxqwpsN" role="2OqNvi" />
+            </node>
+            <node concept="35c_gC" id="3HXRBxqwpsO" role="3uHU7w">
+              <ref role="35c_gD" to="l8rz:2Yd1qrJONf3" resolve="ViewAssertion" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="3HXRBxqwmhl" role="3cqZAp">
+        <node concept="1Wc70l" id="3HXRBxqwnn4" role="3clFbw">
+          <node concept="2OqwBi" id="3HXRBxqwo5l" role="3uHU7w">
+            <node concept="2OqwBi" id="3HXRBxqwnE4" role="2Oq$k0">
+              <node concept="1YBJjd" id="3HXRBxqwnrt" role="2Oq$k0">
+                <ref role="1YBMHb" node="3HXRBxqwmhh" resolve="viewAssertion" />
+              </node>
+              <node concept="3TrEf2" id="3HXRBxqwnRF" role="2OqNvi">
+                <ref role="3Tt5mk" to="l8rz:2Yd1qrJOTtg" resolve="check" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="3HXRBxqwom3" role="2OqNvi" />
+          </node>
+          <node concept="37vLTw" id="3HXRBxqwoU_" role="3uHU7B">
+            <ref role="3cqZAo" node="3HXRBxqwoUv" resolve="b" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="3HXRBxqwmhn" role="3clFbx">
+          <node concept="2MkqsV" id="3HXRBxqwoqU" role="3cqZAp">
+            <node concept="Xl_RD" id="3HXRBxqwor6" role="2MkJ7o">
+              <property role="Xl_RC" value="ViewAssertions need to have a check" />
+            </node>
+            <node concept="1YBJjd" id="3HXRBxqwoJI" role="1urrMF">
+              <ref role="1YBMHb" node="3HXRBxqwmhh" resolve="viewAssertion" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3HXRBxqwmhh" role="1YuTPh">
+      <property role="TrG5h" value="viewAssertion" />
+      <ref role="1YaFvo" to="l8rz:2Yd1qrJONf3" resolve="ViewAssertion" />
     </node>
   </node>
 </model>

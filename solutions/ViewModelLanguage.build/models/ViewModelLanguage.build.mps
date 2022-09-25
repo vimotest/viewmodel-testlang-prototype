@@ -568,6 +568,11 @@
             <ref role="3bR37D" node="65sofNQaI0n" resolve="UseCaseLanguage" />
           </node>
         </node>
+        <node concept="1SiIV0" id="3HXRBxqAvdL" role="3bR37C">
+          <node concept="3bR9La" id="3HXRBxqAvdM" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg8" resolve="jetbrains.mps.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="65sofNQaI0n" role="2G$12L">
         <property role="BnDLt" value="true" />
