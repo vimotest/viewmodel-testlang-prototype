@@ -570,5 +570,19 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5QmCrei7kle">
+    <property role="EcuMT" value="6743755284656506190" />
+    <property role="3GE5qa" value="viewcomponents" />
+    <property role="TrG5h" value="TextBoxComponent" />
+    <property role="34LRSv" value="textbox" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="5QmCrei7klf" role="1TKVEi">
+      <property role="IQ2ns" value="6743755284656506191" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="textFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2B9nyiIm0_S" resolve="TextVCFeature" />
+    </node>
+  </node>
 </model>
 

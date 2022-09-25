@@ -28,6 +28,7 @@
     <import index="hhvz" ref="r:f0b006b1-bb03-474a-8640-ffa90a3abc9d(ViewModelLanguage.behavior)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="i8bi" ref="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+    <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
@@ -673,6 +674,36 @@
         </node>
       </node>
       <node concept="3cqZAl" id="zI3UExNK7G" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="5QmCrei7YJX" role="13h7CS">
+      <property role="TrG5h" value="modifyTextField" />
+      <ref role="13i0hy" node="5QmCrei7Yq2" resolve="modifyTextField" />
+      <node concept="3Tm1VV" id="5QmCrei7YK0" role="1B3o_S" />
+      <node concept="3clFbS" id="5QmCrei7YK3" role="3clF47">
+        <node concept="3clFbF" id="5QmCrei7YSt" role="3cqZAp">
+          <node concept="2OqwBi" id="5QmCrei7Zuq" role="3clFbG">
+            <node concept="37vLTw" id="5QmCrei7YSn" role="2Oq$k0">
+              <ref role="3cqZAo" node="5QmCrei7YK4" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="5QmCrei807R" role="2OqNvi">
+              <ref role="37wK5l" to="r791:~JTextComponent.setText(java.lang.String)" resolve="setText" />
+              <node concept="2OqwBi" id="5QmCrei80n4" role="37wK5m">
+                <node concept="13iPFW" id="5QmCrei808z" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5QmCrei80$j" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:2Yd1qrJONg3" resolve="text" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5QmCrei7YK4" role="3clF46">
+        <property role="TrG5h" value="textField" />
+        <node concept="3uibUv" id="5QmCrei7YK5" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5QmCrei7YK6" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="2Yd1qrJP3Fw">
@@ -4340,14 +4371,14 @@
           </node>
           <node concept="1pnPoh" id="3HXRBxqB88K" role="1_3QMm">
             <node concept="3gn64h" id="3HXRBxqB88L" role="1pnPq6">
-              <ref role="3gnhBz" to="6ap2:5WrZkWQ5bAr" resolve="TableCellComponent" />
+              <ref role="3gnhBz" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
             </node>
             <node concept="3clFbS" id="3HXRBxqB88M" role="1pnPq1">
               <node concept="3cpWs6" id="3HXRBxqB88N" role="3cqZAp">
                 <node concept="2ShNRf" id="3HXRBxqB88O" role="3cqZAk">
                   <node concept="3zrR0B" id="3HXRBxqB88P" role="2ShVmc">
                     <node concept="3Tqbb2" id="3HXRBxqB88Q" role="3zrR0E">
-                      <ref role="ehGHo" to="l8rz:6wbjV0Q180r" resolve="TableCellCheck" />
+                      <ref role="ehGHo" to="l8rz:5QmCrei7W1w" resolve="TextBoxCheck" />
                     </node>
                   </node>
                 </node>
@@ -6478,6 +6509,112 @@
         </node>
       </node>
       <node concept="3cqZAl" id="5cbOqfA60r2" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5QmCrei7WYr">
+    <property role="3GE5qa" value="assert.texbox" />
+    <ref role="13h7C2" to="l8rz:5QmCrei7W1w" resolve="TextBoxCheck" />
+    <node concept="13hLZK" id="5QmCrei7WYs" role="13h7CW">
+      <node concept="3clFbS" id="5QmCrei7WYt" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5QmCrei7WYA" role="13h7CS">
+      <property role="TrG5h" value="applyOnSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJP3FF" resolve="applyOnSwingComponent" />
+      <node concept="3Tm1VV" id="5QmCrei7WYF" role="1B3o_S" />
+      <node concept="3clFbS" id="5QmCrei7WYI" role="3clF47">
+        <node concept="3cpWs8" id="5QmCrei7X3N" role="3cqZAp">
+          <node concept="3cpWsn" id="5QmCrei7X3O" role="3cpWs9">
+            <property role="TrG5h" value="textField" />
+            <node concept="3uibUv" id="5QmCrei7X3P" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+            </node>
+            <node concept="0kSF2" id="5QmCrei7X3Q" role="33vP2m">
+              <node concept="3uibUv" id="5QmCrei7X3R" role="0kSFW">
+                <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+              </node>
+              <node concept="37vLTw" id="5QmCrei7X3S" role="0kSFX">
+                <ref role="3cqZAo" node="5QmCrei7WYJ" resolve="swingComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5QmCrei7X3T" role="3cqZAp">
+          <node concept="3clFbS" id="5QmCrei7X3U" role="3clFbx">
+            <node concept="3clFbF" id="5QmCrei7X3V" role="3cqZAp">
+              <node concept="2OqwBi" id="5QmCrei7X3W" role="3clFbG">
+                <node concept="2OqwBi" id="5QmCrei7X3X" role="2Oq$k0">
+                  <node concept="13iPFW" id="5QmCrei7X3Y" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="5QmCrei7X3Z" role="2OqNvi">
+                    <ref role="3TtcxE" to="l8rz:5QmCrei7W1x" resolve="checks" />
+                  </node>
+                </node>
+                <node concept="2es0OD" id="5QmCrei7X40" role="2OqNvi">
+                  <node concept="1bVj0M" id="5QmCrei7X41" role="23t8la">
+                    <node concept="3clFbS" id="5QmCrei7X42" role="1bW5cS">
+                      <node concept="3clFbF" id="5QmCrei7X43" role="3cqZAp">
+                        <node concept="2OqwBi" id="5QmCrei7X44" role="3clFbG">
+                          <node concept="37vLTw" id="5QmCrei7X45" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5QmCrei7X48" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="5QmCrei7X46" role="2OqNvi">
+                            <ref role="37wK5l" node="5QmCrei7Yq2" resolve="modifyTextField" />
+                            <node concept="37vLTw" id="5QmCrei7X47" role="37wK5m">
+                              <ref role="3cqZAo" node="5QmCrei7X3O" resolve="label" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="5QmCrei7X48" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="5QmCrei7X49" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="5QmCrei7X4a" role="3clFbw">
+            <node concept="10Nm6u" id="5QmCrei7X4b" role="3uHU7w" />
+            <node concept="37vLTw" id="5QmCrei7X4c" role="3uHU7B">
+              <ref role="3cqZAo" node="5QmCrei7X3O" resolve="label" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5QmCrei7WYJ" role="3clF46">
+        <property role="TrG5h" value="swingComponent" />
+        <node concept="3uibUv" id="5QmCrei7WYK" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5QmCrei7WYL" role="3clF46">
+        <property role="TrG5h" value="viewComponent" />
+        <node concept="3Tqbb2" id="5QmCrei7WYM" role="1tU5fm">
+          <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5QmCrei7WYN" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5QmCrei7YpR">
+    <property role="3GE5qa" value="assert.texbox" />
+    <ref role="13h7C2" to="l8rz:5QmCrei7W1y" resolve="ITextBoxCheckValue" />
+    <node concept="13i0hz" id="5QmCrei7Yq2" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="modifyTextField" />
+      <node concept="37vLTG" id="5QmCrei7Yq3" role="3clF46">
+        <property role="TrG5h" value="textField" />
+        <node concept="3uibUv" id="5QmCrei7Yq4" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5QmCrei7Yq5" role="1B3o_S" />
+      <node concept="3cqZAl" id="5QmCrei7Yq6" role="3clF45" />
+      <node concept="3clFbS" id="5QmCrei7Yq7" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="5QmCrei7YpS" role="13h7CW">
+      <node concept="3clFbS" id="5QmCrei7YpT" role="2VODD2" />
     </node>
   </node>
 </model>

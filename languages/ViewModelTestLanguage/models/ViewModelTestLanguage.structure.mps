@@ -272,6 +272,9 @@
     <node concept="PrWs8" id="zI3UExNK1U" role="PzmwI">
       <ref role="PrY4T" node="zI3UExNGh5" resolve="ILabelCheckValue" />
     </node>
+    <node concept="PrWs8" id="5QmCrei7Y_g" role="PzmwI">
+      <ref role="PrY4T" node="5QmCrei7W1y" resolve="ITextBoxCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJQnE4">
     <property role="EcuMT" value="3426401106045532804" />
@@ -696,6 +699,24 @@
     <node concept="PrWs8" id="5cbOqfA60p9" role="PzmwI">
       <ref role="PrY4T" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="5QmCrei7W1w">
+    <property role="EcuMT" value="6743755284656668768" />
+    <property role="3GE5qa" value="assert.texbox" />
+    <property role="TrG5h" value="TextBoxCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="5QmCrei7W1x" role="1TKVEi">
+      <property role="IQ2ns" value="6743755284656668769" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checks" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5QmCrei7W1y" resolve="ITextBoxCheckValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5QmCrei7W1y">
+    <property role="EcuMT" value="6743755284656668770" />
+    <property role="3GE5qa" value="assert.texbox" />
+    <property role="TrG5h" value="ITextBoxCheckValue" />
   </node>
 </model>
 

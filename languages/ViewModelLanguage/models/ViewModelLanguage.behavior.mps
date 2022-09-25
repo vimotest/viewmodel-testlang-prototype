@@ -32,6 +32,7 @@
     <import index="ends" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.persistence(MPS.Core/)" />
     <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" />
     <import index="eurq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs.path(MPS.Core/)" />
+    <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -4288,6 +4289,59 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="5QmCrei7kHo">
+    <property role="3GE5qa" value="viewcomponents" />
+    <ref role="13h7C2" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
+    <node concept="13hLZK" id="5QmCrei7kHp" role="13h7CW">
+      <node concept="3clFbS" id="5QmCrei7kHq" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5QmCrei7kHz" role="13h7CS">
+      <property role="TrG5h" value="makeSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJOWqT" resolve="makeSwingComponent" />
+      <node concept="3Tm1VV" id="5QmCrei7kH$" role="1B3o_S" />
+      <node concept="3clFbS" id="5QmCrei7kHN" role="3clF47">
+        <node concept="3cpWs8" id="5QmCrei9P7i" role="3cqZAp">
+          <node concept="3cpWsn" id="5QmCrei9P7j" role="3cpWs9">
+            <property role="TrG5h" value="textField" />
+            <node concept="3uibUv" id="5QmCrei9P4A" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+            </node>
+            <node concept="2ShNRf" id="5QmCrei9P7k" role="33vP2m">
+              <node concept="1pGfFk" id="5QmCrei9P7l" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~JTextField.&lt;init&gt;(java.lang.String)" resolve="JTextField" />
+                <node concept="2OqwBi" id="5QmCrei9P7m" role="37wK5m">
+                  <node concept="13iPFW" id="5QmCrei9P7n" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="5QmCrei9P7o" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5QmCrei9Pgg" role="3cqZAp">
+          <node concept="2OqwBi" id="5QmCrei9PSW" role="3clFbG">
+            <node concept="37vLTw" id="5QmCrei9Pge" role="2Oq$k0">
+              <ref role="3cqZAo" node="5QmCrei9P7j" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="5QmCrei9QBr" role="2OqNvi">
+              <ref role="37wK5l" to="r791:~JTextComponent.setEditable(boolean)" resolve="setEditable" />
+              <node concept="3clFbT" id="5QmCrei9QEm" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5QmCrei7uM7" role="3cqZAp">
+          <node concept="37vLTw" id="5QmCrei9P7p" role="3clFbG">
+            <ref role="3cqZAo" node="5QmCrei9P7j" resolve="field" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="5QmCrei7kHO" role="3clF45">
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
       </node>
     </node>
   </node>

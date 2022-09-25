@@ -34,9 +34,6 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -62,7 +59,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -101,11 +97,6 @@
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
-      </concept>
-    </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
-        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -392,14 +383,6 @@
       </node>
       <node concept="3k9gUc" id="3HXRBxqB1tf" role="3kmjI7">
         <node concept="3clFbS" id="3HXRBxqB1tg" role="2VODD2">
-          <node concept="2xdQw9" id="3HXRBxqD8Cy" role="3cqZAp">
-            <node concept="3cpWs3" id="3HXRBxqD94t" role="9lYJi">
-              <node concept="3khVwk" id="3HXRBxqD9a5" role="3uHU7w" />
-              <node concept="Xl_RD" id="3HXRBxqD8C$" role="3uHU7B">
-                <property role="Xl_RC" value="### set handler: " />
-              </node>
-            </node>
-          </node>
           <node concept="3clFbJ" id="3HXRBxqB3ZP" role="3cqZAp">
             <node concept="3clFbS" id="3HXRBxqB3ZR" role="3clFbx">
               <node concept="3clFbF" id="3HXRBxqB4fn" role="3cqZAp">
@@ -643,6 +626,39 @@
                 </node>
               </node>
               <node concept="nLn13" id="3HXRBxqzgnx" role="2Oq$k0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5QmCrei7WbV">
+    <property role="3GE5qa" value="assert.texbox" />
+    <ref role="1M2myG" to="l8rz:5QmCrei7W1w" resolve="TextBoxCheck" />
+    <node concept="9S07l" id="5QmCrei7WbW" role="9Vyp8">
+      <node concept="3clFbS" id="5QmCrei7WbX" role="2VODD2">
+        <node concept="3cpWs8" id="5QmCrei7Wcj" role="3cqZAp">
+          <node concept="3cpWsn" id="5QmCrei7Wck" role="3cpWs9">
+            <property role="TrG5h" value="viewComponent" />
+            <node concept="3Tqbb2" id="5QmCrei7Wcl" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+            </node>
+            <node concept="2YIFZM" id="5QmCrei7Wcm" role="33vP2m">
+              <ref role="1Pybhc" to="gg8m:4jKdMMdK1xy" resolve="ViewComponentCheckUtil" />
+              <ref role="37wK5l" to="gg8m:3HXRBxqx3W2" resolve="getViewComponentToCheckForParent" />
+              <node concept="nLn13" id="5QmCrei7Wcn" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5QmCrei7Wco" role="3cqZAp">
+          <node concept="2OqwBi" id="5QmCrei7Wcp" role="3clFbG">
+            <node concept="1mIQ4w" id="5QmCrei7Wcq" role="2OqNvi">
+              <node concept="chp4Y" id="5QmCrei7Wcr" role="cj9EA">
+                <ref role="cht4Q" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="5QmCrei7Wcs" role="2Oq$k0">
+              <ref role="3cqZAo" node="5QmCrei7Wck" resolve="viewComponent" />
             </node>
           </node>
         </node>

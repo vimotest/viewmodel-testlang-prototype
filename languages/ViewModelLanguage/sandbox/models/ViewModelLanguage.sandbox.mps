@@ -69,6 +69,9 @@
       <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
+      <concept id="6743755284656506190" name="ViewModelLanguage.structure.TextBoxComponent" flags="ng" index="3fyYjX">
+        <child id="6743755284656506191" name="textFeature" index="3fyYjW" />
+      </concept>
       <concept id="1369810475999939491" name="ViewModelLanguage.structure.DynamicTableComponent" flags="ng" index="3s_O3X">
         <child id="5984107031773674619" name="rowsFeature" index="2PKERo" />
       </concept>
@@ -227,6 +230,9 @@
       <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
+      </concept>
+      <concept id="6743755284656668768" name="ViewModelTestLanguage.structure.TextBoxCheck" flags="ng" index="3fym7j">
+        <child id="6743755284656668769" name="checks" index="3fym7i" />
       </concept>
       <concept id="7497173622926527144" name="ViewModelTestLanguage.structure.CheckedCheckValue" flags="ng" index="1tZoko">
         <property id="7497173622926527147" name="checked" index="1tZokr" />
@@ -454,6 +460,21 @@
         </node>
         <node concept="2PZ2Jc" id="5cbOqfAYl26" role="2PZ2C7">
           <property role="2PigO5" value="true" />
+        </node>
+      </node>
+      <node concept="3fyYjX" id="5QmCrei9Oav" role="2P43km">
+        <node concept="27$lts" id="5QmCrei9Oax" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="5QmCrei9Oaz" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="5QmCrei9Oa_" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="5QmCrei9OaB" role="2Pim76">
+          <property role="2PigO5" value="true" />
+          <property role="2PigPS" value="UserInput" />
         </node>
       </node>
     </node>
@@ -696,6 +717,55 @@
         </node>
         <node concept="30k8jF" id="7qebotZ8e$a" role="30k8ga">
           <property role="TrG5h" value="Star" />
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="5QmCrei9Vru" role="30n1Qb">
+      <node concept="30nyDl" id="5QmCrei9Vrv" role="30nziG">
+        <node concept="30nyDi" id="5QmCrei9Vrx" role="30nyDj">
+          <property role="30lZVK" value="Two objects" />
+        </node>
+        <node concept="30nyDi" id="5QmCrei9Vry" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="5QmCrei9Vrz" role="30nyDs">
+          <property role="30lZVK" value="CheckBox IsEnabled is checked" />
+        </node>
+        <node concept="30nyDi" id="5QmCrei9VtD" role="30nyDs">
+          <property role="30lZVK" value="Icon is circle" />
+        </node>
+        <node concept="30nyDi" id="5QmCrei9VtG" role="30nyDs">
+          <property role="30lZVK" value="TextBox has text &quot;Login&quot;" />
+        </node>
+      </node>
+      <node concept="30nziD" id="5QmCrei9Vr_" role="30nzo2">
+        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+      </node>
+      <node concept="30kPmI" id="5QmCrei9VtM" role="30nziE">
+        <ref role="30kPmH" node="2Yd1qrJRMC4" />
+      </node>
+      <node concept="30nzp_" id="5QmCrei9Vud" role="30nzpy">
+        <ref role="30nzpS" node="3JS2UjmUIiU" resolve="IsEnabled" />
+        <node concept="1tZoqV" id="5QmCrei9Vuf" role="30nDbQ">
+          <node concept="1tZoko" id="5QmCrei9Vug" role="1tZokz">
+            <property role="1tZokr" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="5QmCrei9Vuo" role="30nzpy">
+        <ref role="30nzpS" node="6wbjV0Q9tYN" resolve="Icon" />
+        <node concept="1u6pYw" id="5QmCrei9Vuu" role="30nDbQ">
+          <node concept="1u6r32" id="5QmCrei9Vuv" role="1u6pWF">
+            <ref role="1u6r35" node="6wbjV0Q9rdK" resolve="Circle" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="5QmCrei9VuE" role="30nzpy">
+        <ref role="30nzpS" node="5QmCrei9Oav" resolve="UserInput" />
+        <node concept="3fym7j" id="5QmCreiakYT" role="30nDbQ">
+          <node concept="30nz6$" id="5QmCreiakYV" role="3fym7i">
+            <property role="30nz6_" value="Login" />
+          </node>
         </node>
       </node>
     </node>

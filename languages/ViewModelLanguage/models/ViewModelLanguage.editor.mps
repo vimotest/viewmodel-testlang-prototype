@@ -1687,5 +1687,32 @@
       <ref role="1NtTu8" to="6ap2:5cbOqfAKm$F" resolve="cellsFeature" />
     </node>
   </node>
+  <node concept="24kQdi" id="5QmCrei7kxb">
+    <property role="3GE5qa" value="viewcomponents" />
+    <ref role="1XX52x" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
+    <node concept="3EZMnI" id="5QmCrei7kxd" role="2wV5jI">
+      <node concept="3F0ifn" id="5QmCrei7kxe" role="3EZMnx">
+        <property role="3F0ifm" value="textbox" />
+      </node>
+      <node concept="3F0A7n" id="5QmCrei7kxf" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3gTLQM" id="5QmCrei7kxg" role="3EZMnx">
+        <node concept="3Fmcul" id="5QmCrei7kxh" role="3FoqZy">
+          <node concept="3clFbS" id="5QmCrei7kxi" role="2VODD2">
+            <node concept="3clFbF" id="5QmCrei7kxj" role="3cqZAp">
+              <node concept="2OqwBi" id="5QmCrei7kxk" role="3clFbG">
+                <node concept="pncrf" id="5QmCrei7kxl" role="2Oq$k0" />
+                <node concept="2qgKlT" id="5QmCrei7kxm" role="2OqNvi">
+                  <ref role="37wK5l" to="hhvz:2Yd1qrJOWqT" resolve="makeSwingComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="5QmCrei7kxn" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
