@@ -562,6 +562,9 @@
         <node concept="30nyDi" id="5WrZkWQqRIj" role="30nyDs">
           <property role="30lZVK" value="Table is in some state" />
         </node>
+        <node concept="30nyDi" id="5QmCrei6ycA" role="30nyDs">
+          <property role="30lZVK" value="check box is not enabled" />
+        </node>
       </node>
       <node concept="30kPmI" id="5WrZkWQqRIk" role="30nziE">
         <ref role="30kPmH" node="2Yd1qrJRMC4" />
@@ -644,6 +647,12 @@
           </node>
         </node>
       </node>
+      <node concept="30nzp_" id="5QmCrei6ydb" role="30nzpy">
+        <ref role="30nzpS" node="3JS2UjmUIiU" resolve="IsEnabled" />
+        <node concept="1tZoqV" id="5QmCrei6ydI" role="30nDbQ">
+          <node concept="1tZoko" id="5QmCrei6ydJ" role="1tZokz" />
+        </node>
+      </node>
     </node>
     <node concept="30n1Qa" id="7qebotZ8exh" role="30n1Qb">
       <node concept="30nyDl" id="7qebotZ8exi" role="30nziG">
@@ -717,37 +726,6 @@
       <node concept="npJsE" id="fGbCOkzT9K" role="30nzpy">
         <property role="npJs_" value="Invalid input" />
         <property role="npJsB" value="You cannot press Cancel when two objects are given" />
-      </node>
-    </node>
-    <node concept="30n1Qa" id="7LtKSC$vPdJ" role="30n1Qb">
-      <node concept="30nyDl" id="7LtKSC$vPdK" role="30nziG">
-        <node concept="30nyDi" id="7LtKSC$vPdL" role="30nyDj">
-          <property role="30lZVK" value="A" />
-        </node>
-        <node concept="30nyDi" id="7LtKSC$vPdM" role="30nyDh">
-          <property role="30lZVK" value="B" />
-        </node>
-        <node concept="30nyDi" id="7LtKSC$vPdN" role="30nyDs">
-          <property role="30lZVK" value="C" />
-        </node>
-      </node>
-      <node concept="30k8jE" id="7LtKSC$vPhd" role="30nziE" />
-      <node concept="30nziD" id="7LtKSC$vPhg" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmTg0y" resolve="ButtonClicked" />
-      </node>
-      <node concept="30nzp_" id="7LtKSC$vPhj" role="30nzpy">
-        <ref role="30nzpS" node="6wbjV0Q9tYN" resolve="Icon" />
-        <node concept="1u6pYw" id="7LtKSC$w76G" role="30nDbQ">
-          <node concept="1u6r32" id="7LtKSC$w76H" role="1u6pWF">
-            <ref role="1u6r35" node="6wbjV0Q6YmZ" resolve="Star" />
-          </node>
-        </node>
-      </node>
-      <node concept="30nzp_" id="2B9nyiIsbad" role="30nzpy">
-        <ref role="30nzpS" node="3JS2UjmUIiU" resolve="IsEnabled" />
-        <node concept="1tZoqV" id="3HXRBxqydUu" role="30nDbQ">
-          <node concept="1tZoko" id="3HXRBxqydUv" role="1tZokz" />
-        </node>
       </node>
     </node>
   </node>
