@@ -84,9 +84,11 @@
           <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
         </node>
       </node>
-      <node concept="37vLTG" id="1e90TebJGj_" role="3clF46">
-        <property role="TrG5h" value="fieldName" />
-        <node concept="17QB3L" id="1e90TebJGjP" role="1tU5fm" />
+      <node concept="37vLTG" id="5cbOqfAKiRJ" role="3clF46">
+        <property role="TrG5h" value="feature" />
+        <node concept="3Tqbb2" id="5cbOqfAKiRZ" role="1tU5fm">
+          <ref role="ehGHo" to="6ap2:5cbOqfAgHMC" resolve="ViewComponentFeature" />
+        </node>
       </node>
       <node concept="3Tm1VV" id="1e90TebCWoe" role="1B3o_S" />
       <node concept="17QB3L" id="1e90TebCWoz" role="3clF45" />
