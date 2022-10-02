@@ -439,7 +439,7 @@
               </node>
               <node concept="1mIQ4w" id="5cbOqfAKll$" role="2OqNvi">
                 <node concept="chp4Y" id="5cbOqfAKll_" role="cj9EA">
-                  <ref role="cht4Q" to="6ap2:5cbOqfADF1U" resolve="TableCellVCFeature" />
+                  <ref role="cht4Q" to="6ap2:5cbOqfADF1U" resolve="DynamicTableCellsVCFeature" />
                 </node>
               </node>
             </node>

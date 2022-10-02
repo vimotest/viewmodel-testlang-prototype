@@ -366,7 +366,7 @@
     <property role="3GE5qa" value="viewcomponents.image" />
     <property role="TrG5h" value="ImageRef" />
     <property role="34LRSv" value="image ref" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2s$w3BDwT7b" role="1TKVEi">
       <property role="IQ2ns" value="2820520252859978187" />
       <property role="20kJfa" value="image" />

@@ -335,7 +335,7 @@
                   <ref role="1YBMHb" node="5Xz9NpjNEIP" resolve="check" />
                 </node>
                 <node concept="3Cnw8n" id="5Xz9NpjZNp5" role="1urrFz">
-                  <ref role="QpYPw" node="5Xz9NpjZNp2" resolve="fix_" />
+                  <ref role="QpYPw" node="5Xz9NpjZNp2" resolve="fix_AddMissingCellChecksForTable" />
                 </node>
               </node>
             </node>
@@ -544,7 +544,7 @@
             <node concept="3w_OXm" id="3HXRBxqwom3" role="2OqNvi" />
           </node>
           <node concept="37vLTw" id="3HXRBxqwoU_" role="3uHU7B">
-            <ref role="3cqZAo" node="3HXRBxqwoUv" resolve="b" />
+            <ref role="3cqZAo" node="3HXRBxqwoUv" resolve="isNotAnyDerivedType" />
           </node>
         </node>
         <node concept="3clFbS" id="3HXRBxqwmhn" role="3clFbx">

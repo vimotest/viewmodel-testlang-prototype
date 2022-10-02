@@ -1052,7 +1052,7 @@
                 </node>
                 <node concept="1u6pYw" id="5Xz9Npka94c" role="bh$oo">
                   <node concept="1u6r32" id="5Xz9Npka94d" role="1u6pWF">
-                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_corn0" />
                   </node>
                   <node concept="2P4Xup" id="4jn5T9gjbKA" role="1u6pWF" />
                 </node>
@@ -1070,7 +1070,7 @@
                 </node>
                 <node concept="1u6pYw" id="3bUwTsd6$K6" role="bh$oo">
                   <node concept="1u6r32" id="3bUwTsd6$K7" role="1u6pWF">
-                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_corn0" />
                   </node>
                   <node concept="2P4Xup" id="4jn5T9gjbKD" role="1u6pWF" />
                 </node>
@@ -1088,7 +1088,7 @@
                 </node>
                 <node concept="1u6pYw" id="3bUwTsd6$Kt" role="bh$oo">
                   <node concept="1u6r32" id="3bUwTsd6$Ku" role="1u6pWF">
-                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_tile" />
+                    <ref role="1u6r35" node="5hmNBhT2vM4" resolve="hamster_corn0" />
                   </node>
                   <node concept="2P4Xup" id="4jn5T9gjbKG" role="1u6pWF" />
                 </node>

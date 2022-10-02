@@ -403,7 +403,7 @@
                       <ref role="3cqZAo" node="1e90TebJJPh" resolve="node" />
                     </node>
                     <node concept="37vLTw" id="1e90TebJMf8" role="37wK5m">
-                      <ref role="3cqZAo" node="1e90TebJLeB" resolve="fieldName" />
+                      <ref role="3cqZAo" node="1e90TebJLeB" resolve="feature" />
                     </node>
                   </node>
                 </node>
