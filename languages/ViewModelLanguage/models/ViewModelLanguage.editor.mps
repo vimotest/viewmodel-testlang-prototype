@@ -408,7 +408,7 @@
     <node concept="22hDWj" id="3JS2UjmS_2P" role="22hAXT" />
   </node>
   <node concept="24kQdi" id="3JS2UjmUbQ7">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.button" />
     <ref role="1XX52x" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
     <node concept="3EZMnI" id="3JS2UjmUbQ9" role="2wV5jI">
       <node concept="3F0ifn" id="3JS2UjmUbQg" role="3EZMnx">
@@ -438,7 +438,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3JS2UjmUCiR">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.checkbox" />
     <ref role="1XX52x" to="6ap2:3JS2UjmUCiJ" resolve="CheckBoxComponent" />
     <node concept="3EZMnI" id="3JS2UjmUCiT" role="2wV5jI">
       <node concept="3F0ifn" id="3JS2UjmUCj0" role="3EZMnx">
@@ -468,7 +468,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ5hBx">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <ref role="1XX52x" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
     <node concept="3EZMnI" id="5WrZkWQaii5" role="2wV5jI">
       <node concept="3F0ifn" id="5WrZkWQaodo" role="3EZMnx">
@@ -487,7 +487,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ76Xu">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <ref role="1XX52x" to="6ap2:5WrZkWQ5bAr" resolve="TableCellComponent" />
     <node concept="3EZMnI" id="5WrZkWQ76Xz" role="6VMZX">
       <node concept="l2Vlx" id="5WrZkWQ76X$" role="2iSdaV" />
@@ -1287,14 +1287,14 @@
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ789L">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <ref role="1XX52x" to="6ap2:5WrZkWQ789B" resolve="TableCellHeader" />
     <node concept="3F0A7n" id="5WrZkWQ789N" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ7ZIl">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.label" />
     <ref role="1XX52x" to="6ap2:5WrZkWQ7ZzE" resolve="LabelComponent" />
     <node concept="3EZMnI" id="5WrZkWQ7ZIn" role="2wV5jI">
       <node concept="3F0ifn" id="5WrZkWQ7ZIo" role="3EZMnx">
@@ -1499,7 +1499,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2s$w3BDwTvF">
-    <property role="3GE5qa" value="viewcomponents.image" />
+    <property role="3GE5qa" value="viewcomponents.imagestack" />
     <ref role="1XX52x" to="6ap2:2s$w3BDwT79" resolve="ImageStackComponent" />
     <node concept="3EZMnI" id="2s$w3BDwTvH" role="2wV5jI">
       <node concept="3F0ifn" id="2s$w3BDwTvI" role="3EZMnx">
@@ -1541,7 +1541,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1c2yPVfA6IS">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <ref role="1XX52x" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
     <node concept="3EZMnI" id="1c2yPVfA6IU" role="2wV5jI">
       <node concept="3F0ifn" id="1c2yPVfA6IV" role="3EZMnx">
@@ -1649,7 +1649,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3A1HDQku_xv">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.imagebutton" />
     <ref role="1XX52x" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
     <node concept="3EZMnI" id="3A1HDQku_xx" role="2wV5jI">
       <node concept="3F0ifn" id="3A1HDQku_xy" role="3EZMnx">
@@ -1813,7 +1813,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5QmCrei7kxb">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.textbox" />
     <ref role="1XX52x" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
     <node concept="3EZMnI" id="5QmCrei7kxd" role="2wV5jI">
       <node concept="3F0ifn" id="5QmCrei7kxe" role="3EZMnx">
@@ -1882,7 +1882,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3VvzM8tZYut">
-    <property role="3GE5qa" value="viewcomponents.image" />
+    <property role="3GE5qa" value="viewcomponents.imagestack" />
     <ref role="1XX52x" to="6ap2:2s$w3BDwT79" resolve="ImageStackComponent" />
     <node concept="2aJ2om" id="3VvzM8tZYQD" role="CpUAK">
       <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
@@ -1893,14 +1893,14 @@
   </node>
   <node concept="PKFIW" id="3VvzM8tZYRZ">
     <property role="TrG5h" value="ImageStackComponent_details_EditorComponent" />
-    <property role="3GE5qa" value="viewcomponents.image" />
+    <property role="3GE5qa" value="viewcomponents.imagestack" />
     <ref role="1XX52x" to="6ap2:2s$w3BDwT79" resolve="ImageStackComponent" />
     <node concept="3F1sOY" id="3VvzM8tZYS0" role="2wV5jI">
       <ref role="1NtTu8" to="6ap2:2s$w3BDwTjy" resolve="imageLayersFeature" />
     </node>
   </node>
   <node concept="24kQdi" id="3VvzM8tZZhY">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.button" />
     <ref role="1XX52x" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
     <node concept="2aJ2om" id="3VvzM8tZZuW" role="CpUAK">
       <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
@@ -1911,14 +1911,14 @@
   </node>
   <node concept="PKFIW" id="3VvzM8tZZvC">
     <property role="TrG5h" value="ButtonComponent_details_EditorComponent" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.button" />
     <ref role="1XX52x" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
     <node concept="PMmxH" id="3VvzM8tZZvD" role="2wV5jI">
       <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
     </node>
   </node>
   <node concept="24kQdi" id="3VvzM8tZZNT">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.checkbox" />
     <ref role="1XX52x" to="6ap2:3JS2UjmUCiJ" resolve="CheckBoxComponent" />
     <node concept="2aJ2om" id="3VvzM8u000N" role="CpUAK">
       <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
@@ -1929,14 +1929,14 @@
   </node>
   <node concept="PKFIW" id="3VvzM8u001v">
     <property role="TrG5h" value="CheckBoxComponent_details_EditorComponent" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.checkbox" />
     <ref role="1XX52x" to="6ap2:3JS2UjmUCiJ" resolve="CheckBoxComponent" />
     <node concept="PMmxH" id="3VvzM8u001w" role="2wV5jI">
       <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
     </node>
   </node>
   <node concept="24kQdi" id="3VvzM8u00Ek">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.label" />
     <ref role="1XX52x" to="6ap2:5WrZkWQ7ZzE" resolve="LabelComponent" />
     <node concept="2aJ2om" id="3VvzM8u00Re" role="CpUAK">
       <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
@@ -1947,14 +1947,14 @@
   </node>
   <node concept="PKFIW" id="3VvzM8u00RU">
     <property role="TrG5h" value="LabelComponent_details_EditorComponent" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.label" />
     <ref role="1XX52x" to="6ap2:5WrZkWQ7ZzE" resolve="LabelComponent" />
     <node concept="PMmxH" id="3VvzM8u00RV" role="2wV5jI">
       <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
     </node>
   </node>
   <node concept="24kQdi" id="3VvzM8u01cb">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.textbox" />
     <ref role="1XX52x" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
     <node concept="2aJ2om" id="3VvzM8u01ps" role="CpUAK">
       <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
@@ -1965,7 +1965,7 @@
   </node>
   <node concept="PKFIW" id="3VvzM8u01Ab">
     <property role="TrG5h" value="TextBoxComponent_details_EditorComponent" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.textbox" />
     <ref role="1XX52x" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
     <node concept="PMmxH" id="3VvzM8u01Ac" role="2wV5jI">
       <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
@@ -1973,7 +1973,7 @@
   </node>
   <node concept="PKFIW" id="3VvzM8u0MI6">
     <property role="TrG5h" value="ImageButtonComponent_details_EditorComponent" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.imagebutton" />
     <ref role="1XX52x" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
     <node concept="3EZMnI" id="3VvzM8u0MI7" role="2wV5jI">
       <node concept="3F0ifn" id="3VvzM8u0MI8" role="3EZMnx">
@@ -1998,7 +1998,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3VvzM8u0MT3">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.imagebutton" />
     <ref role="1XX52x" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
     <node concept="2aJ2om" id="3VvzM8u0N5L" role="CpUAK">
       <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
