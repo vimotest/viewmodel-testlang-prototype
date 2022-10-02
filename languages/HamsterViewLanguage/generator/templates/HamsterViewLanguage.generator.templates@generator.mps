@@ -329,7 +329,7 @@
       <ref role="1puQsG" node="4Nu_lFVfOnI" resolve="copyHamsterFiles" />
     </node>
     <node concept="1puMqW" id="3A1HDQkEeqJ" role="1pvy6N">
-      <ref role="1puQsG" node="3A1HDQkEeqM" resolve="script" />
+      <ref role="1puQsG" node="3A1HDQkEeqM" resolve="adjustGeneratedTestFiles" />
     </node>
   </node>
   <node concept="312cEu" id="65sofNQd9tw">
@@ -498,7 +498,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="65sofNQ4RJa" role="37vLTJ">
-              <ref role="3cqZAo" node="65sofNQehmv" resolve="viewModel" />
+              <ref role="3cqZAo" node="65sofNQehmv" resolve="gameViewModel" />
             </node>
           </node>
         </node>

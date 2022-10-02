@@ -3065,7 +3065,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="2s$w3BDFYS0" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="5Xz9Npk49Vs" role="jymVt" />
@@ -3566,7 +3566,7 @@
         <node concept="3clFbF" id="1c2yPVf_$OD" role="3cqZAp">
           <node concept="2OqwBi" id="1c2yPVf_$OE" role="3clFbG">
             <node concept="37vLTw" id="1c2yPVf_$OF" role="2Oq$k0">
-              <ref role="3cqZAo" node="1c2yPVf_$O_" resolve="column" />
+              <ref role="3cqZAo" node="1c2yPVf_$O_" resolve="columnWithCell" />
             </node>
             <node concept="liA8E" id="1c2yPVf_$OG" role="2OqNvi">
               <ref role="37wK5l" to="c8ee:~TableColumn.setHeaderValue(java.lang.Object)" resolve="setHeaderValue" />
@@ -3602,7 +3602,7 @@
             <node concept="liA8E" id="1c2yPVf_$ON" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JTable.addColumn(javax.swing.table.TableColumn)" resolve="addColumn" />
               <node concept="37vLTw" id="1c2yPVf_$OO" role="37wK5m">
-                <ref role="3cqZAo" node="1c2yPVf_$O_" resolve="column" />
+                <ref role="3cqZAo" node="1c2yPVf_$O_" resolve="columnWithCell" />
               </node>
             </node>
           </node>
@@ -3770,7 +3770,7 @@
                 </node>
                 <node concept="2OqwBi" id="1c2yPVfBkly" role="37vLTJ">
                   <node concept="37vLTw" id="1c2yPVfBjLQ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1c2yPVfBj69" resolve="cellHeader" />
+                    <ref role="3cqZAo" node="1c2yPVfBj69" resolve="dummyCellHeader" />
                   </node>
                   <node concept="3TrcHB" id="1c2yPVfBk_Y" role="2OqNvi">
                     <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -3780,7 +3780,7 @@
             </node>
             <node concept="3cpWs6" id="1c2yPVfAJDG" role="3cqZAp">
               <node concept="37vLTw" id="1c2yPVfBj6d" role="3cqZAk">
-                <ref role="3cqZAo" node="1c2yPVfBj69" resolve="node" />
+                <ref role="3cqZAo" node="1c2yPVfBj69" resolve="dummyCellHeader" />
               </node>
             </node>
           </node>
@@ -4005,7 +4005,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="5Xz9NpkeHoC" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3clFb_" id="5Xz9NpkeKK3" role="jymVt">
@@ -4542,7 +4542,7 @@
         </node>
         <node concept="3clFbF" id="5QmCrei7uM7" role="3cqZAp">
           <node concept="37vLTw" id="5QmCrei9P7p" role="3clFbG">
-            <ref role="3cqZAo" node="5QmCrei9P7j" resolve="field" />
+            <ref role="3cqZAo" node="5QmCrei9P7j" resolve="textField" />
           </node>
         </node>
       </node>

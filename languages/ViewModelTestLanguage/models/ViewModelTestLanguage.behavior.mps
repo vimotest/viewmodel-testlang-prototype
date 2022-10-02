@@ -5509,7 +5509,7 @@
                             <node concept="3clFbF" id="5Xz9NpjPtsx" role="3cqZAp">
                               <node concept="37vLTI" id="5Xz9NpjPtsy" role="3clFbG">
                                 <node concept="BsUDl" id="5Xz9NpjPtsz" role="37vLTx">
-                                  <ref role="37wK5l" node="5Xz9NpjPttl" />
+                                  <ref role="37wK5l" node="5Xz9NpjPttl" resolve="getCheckedValueDataForCheck" />
                                   <node concept="37vLTw" id="5Xz9NpjPts$" role="37wK5m">
                                     <ref role="3cqZAo" node="5Xz9NpjPtrZ" resolve="cellComponent" />
                                   </node>
@@ -5879,7 +5879,7 @@
                   </node>
                   <node concept="2OqwBi" id="5Xz9Npk5Pog" role="33vP2m">
                     <node concept="37vLTw" id="5Xz9Npk5TLt" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Xz9Npk5TLp" resolve="component" />
+                      <ref role="3cqZAo" node="5Xz9Npk5TLp" resolve="stackIconsComponent" />
                     </node>
                     <node concept="liA8E" id="5Xz9Npk5Pol" role="2OqNvi">
                       <ref role="37wK5l" to="hhvz:5Xz9Npk48Zh" resolve="createStackedImageIcon" />
@@ -5889,7 +5889,7 @@
               </node>
               <node concept="3cpWs6" id="5Xz9NpjUumT" role="3cqZAp">
                 <node concept="37vLTw" id="5Xz9Npk5Pom" role="3cqZAk">
-                  <ref role="3cqZAo" node="5Xz9Npk5Pof" resolve="createStackedImageIcon" />
+                  <ref role="3cqZAo" node="5Xz9Npk5Pof" resolve="imageIcon" />
                 </node>
               </node>
             </node>
@@ -6191,7 +6191,7 @@
                                           <node concept="liA8E" id="3bUwTsd5fF0" role="2OqNvi">
                                             <ref role="37wK5l" to="hhvz:3bUwTsd3TCF" resolve="getImageAt" />
                                             <node concept="37vLTw" id="3bUwTsd5Mk5" role="37wK5m">
-                                              <ref role="3cqZAo" node="3bUwTsd5Mk1" resolve="index" />
+                                              <ref role="3cqZAo" node="3bUwTsd5Mk1" resolve="layerIndex" />
                                             </node>
                                           </node>
                                         </node>
@@ -6235,7 +6235,7 @@
           <node concept="3y3z36" id="5Xz9Npkd0n7" role="3clFbw">
             <node concept="10Nm6u" id="5Xz9Npkd0n8" role="3uHU7w" />
             <node concept="37vLTw" id="5Xz9Npkd0n9" role="3uHU7B">
-              <ref role="3cqZAo" node="5Xz9Npkd0mL" resolve="labelWithImage" />
+              <ref role="3cqZAo" node="5Xz9Npkd0mL" resolve="stackIcons" />
             </node>
           </node>
         </node>
@@ -6559,7 +6559,7 @@
                           <node concept="2qgKlT" id="5QmCrei7X46" role="2OqNvi">
                             <ref role="37wK5l" node="5QmCrei7Yq2" resolve="modifyTextField" />
                             <node concept="37vLTw" id="5QmCrei7X47" role="37wK5m">
-                              <ref role="3cqZAo" node="5QmCrei7X3O" resolve="label" />
+                              <ref role="3cqZAo" node="5QmCrei7X3O" resolve="textField" />
                             </node>
                           </node>
                         </node>
@@ -6577,7 +6577,7 @@
           <node concept="3y3z36" id="5QmCrei7X4a" role="3clFbw">
             <node concept="10Nm6u" id="5QmCrei7X4b" role="3uHU7w" />
             <node concept="37vLTw" id="5QmCrei7X4c" role="3uHU7B">
-              <ref role="3cqZAo" node="5QmCrei7X3O" resolve="label" />
+              <ref role="3cqZAo" node="5QmCrei7X3O" resolve="textField" />
             </node>
           </node>
         </node>
