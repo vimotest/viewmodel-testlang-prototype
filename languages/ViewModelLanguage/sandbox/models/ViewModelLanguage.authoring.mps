@@ -162,6 +162,7 @@
               <node concept="1D10m_" id="5QmCreih4Y8" role="1D3Ojh">
                 <node concept="27$lts" id="5QmCreih4Y9" role="27$_qM">
                   <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="My Element" />
                 </node>
                 <node concept="2Pim7P" id="5QmCreih4Ya" role="2Pim73" />
                 <node concept="2Pim7K" id="5QmCreih4Yb" role="2Pim71" />
@@ -185,6 +186,7 @@
               <node concept="1D10m_" id="5QmCreihqOT" role="1D3Ojh">
                 <node concept="27$lts" id="5QmCreihqOU" role="27$_qM">
                   <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="Data1, Data2" />
                 </node>
                 <node concept="2Pim7P" id="5QmCreihqOV" role="2Pim73" />
                 <node concept="2Pim7K" id="5QmCreihqOW" role="2Pim71" />
@@ -208,6 +210,7 @@
               <node concept="1D10m_" id="5QmCreihqQX" role="1D3Ojh">
                 <node concept="27$lts" id="5QmCreihqQY" role="27$_qM">
                   <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="Other_Element" />
                 </node>
                 <node concept="2Pim7P" id="5QmCreihqQZ" role="2Pim73" />
                 <node concept="2Pim7K" id="5QmCreihqR0" role="2Pim71" />

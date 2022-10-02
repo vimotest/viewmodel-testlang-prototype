@@ -588,6 +588,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2B9nyiIm0_S" resolve="TextVCFeature" />
     </node>
+    <node concept="1TJgyi" id="3VvzM8u5ZZL" role="1TKVEl">
+      <property role="IQ2nx" value="4530497126854557681" />
+      <property role="TrG5h" value="sampleText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 

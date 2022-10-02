@@ -284,5 +284,49 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="3VvzM8u60jq">
+    <property role="3GE5qa" value="viewcomponents" />
+    <ref role="1M2myG" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
+    <node concept="EnEH3" id="3VvzM8u60vm" role="1MhHOB">
+      <ref role="EomxK" to="6ap2:3VvzM8u5ZZL" resolve="sampleText" />
+      <node concept="Eqf_E" id="3VvzM8u60vn" role="EtsB7">
+        <node concept="3clFbS" id="3VvzM8u60vo" role="2VODD2">
+          <node concept="3clFbF" id="3VvzM8u60vp" role="3cqZAp">
+            <node concept="2OqwBi" id="3VvzM8u60vq" role="3clFbG">
+              <node concept="2OqwBi" id="3VvzM8u60vr" role="2Oq$k0">
+                <node concept="EsrRn" id="3VvzM8u60vs" role="2Oq$k0" />
+                <node concept="3TrEf2" id="3VvzM8u60vt" role="2OqNvi">
+                  <ref role="3Tt5mk" to="6ap2:5QmCrei7klf" resolve="textFeature" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3VvzM8u60vu" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:2B9nyiIm0_T" resolve="text" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1LLf8_" id="3VvzM8u60vv" role="1LXaQT">
+        <node concept="3clFbS" id="3VvzM8u60vw" role="2VODD2">
+          <node concept="3clFbF" id="3VvzM8u60vx" role="3cqZAp">
+            <node concept="37vLTI" id="3VvzM8u60vy" role="3clFbG">
+              <node concept="1Wqviy" id="3VvzM8u60vz" role="37vLTx" />
+              <node concept="2OqwBi" id="3VvzM8u60v$" role="37vLTJ">
+                <node concept="2OqwBi" id="3VvzM8u60v_" role="2Oq$k0">
+                  <node concept="EsrRn" id="3VvzM8u60vA" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="3VvzM8u60vB" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6ap2:5QmCrei7klf" resolve="textFeature" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="3VvzM8u60vC" role="2OqNvi">
+                  <ref role="3TsBF5" to="6ap2:2B9nyiIm0_T" resolve="text" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

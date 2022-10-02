@@ -1319,21 +1319,8 @@
       </node>
       <node concept="2iRfu4" id="5WrZkWQ7ZIx" role="2iSdaV" />
     </node>
-    <node concept="3EZMnI" id="5QmCreijgvM" role="6VMZX">
-      <node concept="l2Vlx" id="5QmCreijgvN" role="2iSdaV" />
-      <node concept="PMmxH" id="5cbOqfAh4Nm" role="3EZMnx">
-        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
-      </node>
-      <node concept="3F0ifn" id="5QmCreijgw_" role="3EZMnx">
-        <property role="3F0ifm" value="sample text" />
-        <node concept="pVoyu" id="5QmCreijgx6" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="5QmCreikb4D" role="3EZMnx">
-        <property role="1O74Pk" value="true" />
-        <ref role="1NtTu8" to="6ap2:5QmCreik75d" resolve="sampleText" />
-      </node>
+    <node concept="PMmxH" id="3VvzM8u5ZS$" role="6VMZX">
+      <ref role="PMmxG" node="3VvzM8u00RU" resolve="LabelComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ8jtz">
@@ -1869,8 +1856,21 @@
     <property role="TrG5h" value="LabelComponent_details_EditorComponent" />
     <property role="3GE5qa" value="viewcomponents.label" />
     <ref role="1XX52x" to="6ap2:5WrZkWQ7ZzE" resolve="LabelComponent" />
-    <node concept="PMmxH" id="3VvzM8u00RV" role="2wV5jI">
-      <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+    <node concept="3EZMnI" id="5QmCreijgvM" role="2wV5jI">
+      <node concept="l2Vlx" id="5QmCreijgvN" role="2iSdaV" />
+      <node concept="PMmxH" id="5cbOqfAh4Nm" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="3F0ifn" id="5QmCreijgw_" role="3EZMnx">
+        <property role="3F0ifm" value="sample text" />
+        <node concept="pVoyu" id="5QmCreijgx6" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="5QmCreikb4D" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:5QmCreik75d" resolve="sampleText" />
+      </node>
     </node>
   </node>
   <node concept="PKFIW" id="3VvzM8tY5Ot">
@@ -1952,8 +1952,21 @@
     <property role="TrG5h" value="TextBoxComponent_details_EditorComponent" />
     <property role="3GE5qa" value="viewcomponents.textbox" />
     <ref role="1XX52x" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
-    <node concept="PMmxH" id="3VvzM8u01Ac" role="2wV5jI">
-      <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+    <node concept="3EZMnI" id="3VvzM8u5ZZ_" role="2wV5jI">
+      <node concept="l2Vlx" id="3VvzM8u5ZZA" role="2iSdaV" />
+      <node concept="PMmxH" id="3VvzM8u5ZZB" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="3F0ifn" id="3VvzM8u5ZZC" role="3EZMnx">
+        <property role="3F0ifm" value="sample text" />
+        <node concept="pVoyu" id="3VvzM8u5ZZD" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="3VvzM8u5ZZE" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:3VvzM8u5ZZL" resolve="sampleText" />
+      </node>
     </node>
   </node>
   <node concept="PKFIW" id="3VvzM8u0MI6">
