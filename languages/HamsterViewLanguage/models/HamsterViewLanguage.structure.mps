@@ -59,7 +59,7 @@
     <property role="EcuMT" value="1407660290768727195" />
     <property role="TrG5h" value="HamsterGeneratorNameProvider" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1e90TebGmYl" role="PzmwI">
       <ref role="PrY4T" to="dy0e:1e90TebCVY2" resolve="IGeneratorNameProvider" />
     </node>
