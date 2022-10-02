@@ -1189,8 +1189,21 @@
       </node>
       <node concept="2iRfu4" id="5WrZkWQ7ZIx" role="2iSdaV" />
     </node>
-    <node concept="PMmxH" id="5cbOqfAh4Nm" role="6VMZX">
-      <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+    <node concept="3EZMnI" id="5QmCreijgvM" role="6VMZX">
+      <node concept="l2Vlx" id="5QmCreijgvN" role="2iSdaV" />
+      <node concept="PMmxH" id="5cbOqfAh4Nm" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="3F0ifn" id="5QmCreijgw_" role="3EZMnx">
+        <property role="3F0ifm" value="sample text" />
+        <node concept="pVoyu" id="5QmCreijgx6" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="5QmCreikb4D" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:5QmCreik75d" resolve="sampleText" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ8jtz">

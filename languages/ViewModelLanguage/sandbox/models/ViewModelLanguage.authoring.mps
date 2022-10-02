@@ -19,7 +19,9 @@
       <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
-      <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts" />
+      <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts">
+        <property id="3011041337510726009" name="text" index="27$ltt" />
+      </concept>
       <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
         <child id="4143793920074545904" name="children" index="2HXGLH" />
       </concept>
@@ -132,14 +134,17 @@
                 <property role="2PigO5" value="true" />
               </node>
               <node concept="1D10m_" id="5QmCreih4Xs" role="1D3Ojh">
-                <node concept="27$lts" id="5QmCreih4Xu" role="27$_qM">
+                <node concept="27$lts" id="5QmCreijOiR" role="27$_qM">
                   <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="My_Element" />
                 </node>
                 <node concept="2Pim7P" id="5QmCreih4Xw" role="2Pim73" />
-                <node concept="2Pim7K" id="5QmCreih4Xy" role="2Pim71" />
-                <node concept="2Pim7H" id="5QmCreih4X$" role="2Pim76">
+                <node concept="2Pim7K" id="5QmCreih4Xy" role="2Pim71">
                   <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7H" id="5QmCreih4X$" role="2Pim76">
                   <property role="2PigPS" value="Qualifier" />
+                  <property role="2PigO5" value="true" />
                 </node>
               </node>
             </node>

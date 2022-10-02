@@ -260,6 +260,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2B9nyiIm0_S" resolve="TextVCFeature" />
     </node>
+    <node concept="1TJgyi" id="5QmCreik75d" role="1TKVEl">
+      <property role="IQ2nx" value="6743755284659859789" />
+      <property role="TrG5h" value="sampleText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5WrZkWQ81ok">
     <property role="EcuMT" value="6853349774626657812" />
