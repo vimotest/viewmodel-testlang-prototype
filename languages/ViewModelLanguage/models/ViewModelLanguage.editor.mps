@@ -82,6 +82,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1186414999511" name="jetbrains.mps.lang.editor.structure.UnderlinedStyleClassItem" flags="ln" index="VQ3r3">
         <property id="1214316229833" name="underlined" index="2USNnj" />
@@ -262,14 +263,11 @@
       </concept>
     </language>
     <language id="602c36ad-cc55-47ff-8c40-73d7f12f035c" name="jetbrains.mps.lang.editor.forms">
+      <concept id="7024409093146622323" name="jetbrains.mps.lang.editor.forms.structure.CheckboxUI_Platform" flags="ng" index="jv8YD" />
       <concept id="312429380032619384" name="jetbrains.mps.lang.editor.forms.structure.CellModel_Checkbox" flags="ng" index="2yq9I_">
         <reference id="3696012239575138271" name="propertyDeclaration" index="225u1j" />
         <child id="8215612579904156902" name="label" index="2fqkNU" />
         <child id="1340057216891284122" name="ui" index="1563LE" />
-      </concept>
-      <concept id="1340057216891283515" name="jetbrains.mps.lang.editor.forms.structure.CheckboxUI_Text" flags="ng" index="1563Vb">
-        <property id="1340057216891283520" name="falseText" index="1563UK" />
-        <property id="1340057216891283518" name="trueText" index="1563Ve" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1702,17 +1700,16 @@
       <node concept="2iRfu4" id="5cbOqfAiITt" role="2iSdaV" />
       <node concept="2yq9I_" id="5cbOqfAgHN0" role="3EZMnx">
         <ref role="225u1j" to="6ap2:5cbOqfAgHMA" resolve="supported" />
-        <node concept="1563Vb" id="5cbOqfAgHN2" role="1563LE">
-          <property role="1563UK" value="[ ]" />
-          <property role="1563Ve" value="[x]" />
-        </node>
+        <node concept="jv8YD" id="3VvzM8ubmUq" role="1563LE" />
         <node concept="3EZMnI" id="5cbOqfAgHN7" role="2fqkNU">
           <node concept="2iRfu4" id="5cbOqfAgHN8" role="2iSdaV" />
           <node concept="PMmxH" id="5cbOqfAgHNg" role="3EZMnx">
             <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+            <node concept="VPM3Z" id="3VvzM8ucm3d" role="3F10Kt" />
           </node>
           <node concept="3F0ifn" id="5cbOqfAgHNn" role="3EZMnx">
             <property role="3F0ifm" value="supported" />
+            <node concept="VPM3Z" id="3VvzM8udldf" role="3F10Kt" />
           </node>
         </node>
       </node>
