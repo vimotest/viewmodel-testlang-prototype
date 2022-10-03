@@ -45,6 +45,7 @@
       <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
+      <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
         <property id="7497173622928850064" name="path" index="1u4ncw" />
       </concept>
@@ -80,11 +81,80 @@
       </concept>
       <concept id="5830978789222176938" name="ViewModelLanguage.structure.TableComponent" flags="ng" index="3KxLjU">
         <child id="5984107031766637556" name="rowsFeature" index="2PlsDn" />
+        <child id="6743755284660838203" name="selectedRowFeature" index="3fMvU8" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
+        <child id="643469022294099062" name="checks" index="2D8cJs" />
+      </concept>
+      <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
+        <child id="3426401106045796780" name="objects" index="30k8ga" />
+      </concept>
+      <concept id="3426401106045796685" name="ViewModelTestLanguage.structure.Object" flags="ng" index="30k8jF">
+        <child id="3426401106045796730" name="properties" index="30k8js" />
+      </concept>
+      <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.ObjectProperty" flags="ng" index="30k8jQ">
+        <property id="3426401106045796691" name="value" index="30k8jP" />
+      </concept>
+      <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
+        <child id="3426401106045120780" name="context" index="30nziE" />
+        <child id="3426401106045120778" name="description" index="30nziG" />
+        <child id="3426401106045121444" name="inputCalls" index="30nzo2" />
+        <child id="3426401106045121476" name="asserts" index="30nzpy" />
+      </concept>
+      <concept id="3426401106044983339" name="ViewModelTestLanguage.structure.ViewTestSuite" flags="ng" index="30n1Qd">
+        <reference id="3426401106044983489" name="targetView" index="30n1PB" />
+        <child id="3426401106044983341" name="tests" index="30n1Qb" />
+      </concept>
+      <concept id="3426401106045120500" name="ViewModelTestLanguage.structure.DescriptionPart" flags="ng" index="30nyDi">
+        <property id="3426401106045631318" name="text" index="30lZVK" />
+      </concept>
+      <concept id="3426401106045120499" name="ViewModelTestLanguage.structure.TestCaseDescription" flags="ng" index="30nyDl">
+        <property id="3426401106045120517" name="scenario" index="30nzmz" />
+        <child id="3426401106045120503" name="when" index="30nyDh" />
+        <child id="3426401106045120501" name="given" index="30nyDj" />
+        <child id="3426401106045120506" name="then" index="30nyDs" />
+      </concept>
+      <concept id="3426401106045121538" name="ViewModelTestLanguage.structure.TextCheckValue" flags="ng" index="30nz6$">
+        <property id="3426401106045121539" name="text" index="30nz6_" />
+      </concept>
+      <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.ViewInputCall" flags="ng" index="30nziD">
+        <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
+      </concept>
+      <concept id="3426401106045121505" name="ViewModelTestLanguage.structure.ButtonCheck" flags="ng" index="30nzp7">
+        <child id="3426401106045121535" name="checks" index="30nzpp" />
+      </concept>
+      <concept id="3426401106045121530" name="ViewModelTestLanguage.structure.SensitivityCheckValue" flags="ng" index="30nzps">
+        <property id="3426401106045121533" name="sensitivity" index="30nzpr" />
+      </concept>
+      <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
+        <reference id="3426401106045121502" name="component" index="30nzpS" />
+        <child id="3426401106045146960" name="check" index="30nDbQ" />
+      </concept>
+      <concept id="6743755284661307780" name="ViewModelTestLanguage.structure.SelectedIndexCheckValue" flags="ng" index="3fW2wR">
+        <property id="6743755284661307781" name="selectedIndex" index="3fW2wQ" />
+      </concept>
+      <concept id="7497173622927425563" name="ViewModelTestLanguage.structure.TableCellCheck" flags="ng" index="1u3WYF">
+        <child id="7497173622927425564" name="viewComponentCheck" index="1u3WYG" />
+      </concept>
+      <concept id="7497173622928363536" name="ViewModelTestLanguage.structure.ImageCheck" flags="ng" index="1u6pYw">
+        <child id="7497173622928363675" name="checks" index="1u6pWF" />
+      </concept>
+      <concept id="7497173622928375666" name="ViewModelTestLanguage.structure.ImageRefCheckValue" flags="ng" index="1u6r32">
+        <reference id="7497173622928375669" name="image" index="1u6r35" />
+      </concept>
+      <concept id="6853349774631251782" name="ViewModelTestLanguage.structure.TableRowCheck" flags="ng" index="1Dvt89">
+        <child id="6853349774631251791" name="cellChecks" index="1Dvt80" />
+      </concept>
+      <concept id="6853349774631251773" name="ViewModelTestLanguage.structure.TableCheck" flags="ng" index="1Dvt9M">
+        <child id="643469022294143860" name="rowChecks" index="2D8nNu" />
+        <child id="6853349774631251775" name="checkValues" index="1Dvt9K" />
       </concept>
     </language>
   </registry>
@@ -227,6 +297,9 @@
         <node concept="2Pim7H" id="5QmCreig_jx" role="2Pim76">
           <property role="2PigPS" value="elementsTable" />
         </node>
+        <node concept="3fMvU4" id="5QmCreioxHF" role="3fMvU8">
+          <property role="2PigO5" value="true" />
+        </node>
       </node>
       <node concept="3H9sB4" id="5QmCreihVbg" role="2P43km" />
       <node concept="2HXGLM" id="5QmCreihqTl" role="2P43km">
@@ -345,6 +418,117 @@
       <property role="TrG5h" value="Add" />
       <node concept="1u4ncX" id="5QmCreihV8x" role="1u6L2h">
         <property role="1u4ncw" value="images/image_plus.png" />
+      </node>
+    </node>
+  </node>
+  <node concept="30n1Qd" id="5QmCreimM6o">
+    <property role="TrG5h" value="DiagnosticElementsViewTests" />
+    <ref role="30n1PB" node="5QmCreig_jo" resolve="DiagnosticElementsView" />
+    <node concept="30n1Qa" id="5QmCreimN3S" role="30n1Qb">
+      <node concept="30nyDl" id="5QmCreimN3T" role="30nziG">
+        <property role="30nzmz" value="Load with one element" />
+        <node concept="30nyDi" id="5QmCreimN3U" role="30nyDj">
+          <property role="30lZVK" value="One Element A" />
+        </node>
+        <node concept="30nyDi" id="5QmCreimN3V" role="30nyDh">
+          <property role="30lZVK" value="Load View" />
+        </node>
+        <node concept="30nyDi" id="5QmCreimN3W" role="30nyDs">
+          <property role="30lZVK" value="Table shows Element A in state Active" />
+        </node>
+        <node concept="30nyDi" id="5QmCreimN48" role="30nyDs">
+          <property role="30lZVK" value="First row is selected" />
+        </node>
+        <node concept="30nyDi" id="5QmCreimN4b" role="30nyDs">
+          <property role="30lZVK" value="New button is enabled" />
+        </node>
+        <node concept="30nyDi" id="5QmCreimN4f" role="30nyDs">
+          <property role="30lZVK" value="Remove button is enabled" />
+        </node>
+        <node concept="30nyDi" id="5QmCreimN4k" role="30nyDs">
+          <property role="30lZVK" value="Move buttons are disabled" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="5QmCreimN4q" role="30nziE">
+        <node concept="30k8jF" id="5QmCreimN4t" role="30k8ga">
+          <property role="TrG5h" value="Element_A" />
+          <node concept="30k8jQ" id="5QmCreimN4v" role="30k8js">
+            <property role="TrG5h" value="name" />
+            <property role="30k8jP" value="Element A" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="5QmCreimN4x" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreig_jq" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="5QmCreimN4$" role="30nzpy">
+        <ref role="30nzpS" node="5QmCreig_js" resolve="elementsTable" />
+        <node concept="1Dvt9M" id="5QmCreimN4B" role="30nDbQ">
+          <node concept="1Dvt89" id="5QmCreimN4D" role="2D8nNu">
+            <node concept="1u3WYF" id="5QmCreimN4E" role="1Dvt80">
+              <node concept="1u6pYw" id="5QmCreimN57" role="1u3WYG">
+                <node concept="1u6r32" id="5QmCreimN58" role="1u6pWF">
+                  <ref role="1u6r35" node="5QmCreihqNU" resolve="Active" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="5QmCreimN4G" role="1Dvt80">
+              <node concept="2D8cJI" id="5QmCreimN4H" role="1u3WYG">
+                <node concept="30nz6$" id="5QmCreimN4I" role="2D8cJs">
+                  <property role="30nz6_" value="Element_A" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="5QmCreimN4J" role="1Dvt80">
+              <node concept="2D8cJI" id="5QmCreimN4K" role="1u3WYG">
+                <node concept="30nz6$" id="5QmCreimN4L" role="2D8cJs">
+                  <property role="30nz6_" value="Element A" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="5QmCreimN4M" role="1Dvt80">
+              <node concept="2D8cJI" id="5QmCreimN4N" role="1u3WYG">
+                <node concept="30nz6$" id="5QmCreimN4O" role="2D8cJs" />
+              </node>
+            </node>
+            <node concept="1u3WYF" id="5QmCreimN4P" role="1Dvt80">
+              <node concept="2D8cJI" id="5QmCreimN4Q" role="1u3WYG">
+                <node concept="30nz6$" id="5QmCreimN4R" role="2D8cJs" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fW2wR" id="5QmCreiqSqx" role="1Dvt9K">
+            <property role="3fW2wQ" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="5QmCreinLdU" role="30nzpy">
+        <ref role="30nzpS" node="5QmCreihV8$" resolve="btnNew" />
+        <node concept="30nzp7" id="5QmCreinLef" role="30nDbQ">
+          <node concept="30nzps" id="5QmCreinLeg" role="30nzpp">
+            <property role="30nzpr" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="5QmCreinLej" role="30nzpy">
+        <ref role="30nzpS" node="5QmCreihV98" resolve="btnRemove" />
+        <node concept="30nzp7" id="5QmCreinLfH" role="30nDbQ">
+          <node concept="30nzps" id="5QmCreinLfI" role="30nzpp">
+            <property role="30nzpr" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="5QmCreinLeI" role="30nzpy">
+        <ref role="30nzpS" node="5QmCreihV9G" resolve="btnMoveUp" />
+        <node concept="30nzp7" id="5QmCreinLfL" role="30nDbQ">
+          <node concept="30nzps" id="5QmCreinLfM" role="30nzpp" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="5QmCreinLfc" role="30nzpy">
+        <ref role="30nzpS" node="5QmCreihVaG" resolve="btnMoveDown" />
+        <node concept="30nzp7" id="5QmCreinLfP" role="30nDbQ">
+          <node concept="30nzps" id="5QmCreinLfQ" role="30nzpp" />
+        </node>
       </node>
     </node>
   </node>

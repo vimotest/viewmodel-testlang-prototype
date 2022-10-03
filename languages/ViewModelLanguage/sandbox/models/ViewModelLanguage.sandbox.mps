@@ -72,6 +72,7 @@
       <concept id="6743755284656506190" name="ViewModelLanguage.structure.TextBoxComponent" flags="ng" index="3fyYjX">
         <child id="6743755284656506191" name="textFeature" index="3fyYjW" />
       </concept>
+      <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
       <concept id="1369810475999939491" name="ViewModelLanguage.structure.DynamicTableComponent" flags="ng" index="3s_O3X">
         <child id="5984107031773674619" name="rowsFeature" index="2PKERo" />
       </concept>
@@ -122,6 +123,7 @@
       </concept>
       <concept id="5830978789222176938" name="ViewModelLanguage.structure.TableComponent" flags="ng" index="3KxLjU">
         <child id="5984107031766637556" name="rowsFeature" index="2PlsDn" />
+        <child id="6743755284660838203" name="selectedRowFeature" index="3fMvU8" />
       </concept>
     </language>
     <language id="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" name="UseCaseLanguage">
@@ -376,6 +378,9 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="3fMvU4" id="5QmCreioxHG" role="3fMvU8">
+          <property role="2PigO5" value="true" />
         </node>
       </node>
       <node concept="3H9sB4" id="3JS2UjmUtkU" role="2P43km" />

@@ -204,6 +204,13 @@
       <property role="20kJfa" value="rowsFeature" />
       <ref role="20lvS9" node="5cbOqfAnqE8" resolve="TableRowsVCFeature" />
     </node>
+    <node concept="1TJgyj" id="5QmCreinPWV" role="1TKVEi">
+      <property role="IQ2ns" value="6743755284660838203" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="selectedRowFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5QmCreinPWR" resolve="SelectedRowVCFeature" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5WrZkWQ5bAq">
     <property role="EcuMT" value="6853349774625913242" />
@@ -592,6 +599,18 @@
       <property role="IQ2nx" value="4530497126854557681" />
       <property role="TrG5h" value="sampleText" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5QmCreinPWR">
+    <property role="EcuMT" value="6743755284660838199" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="SelectedRowVCFeature" />
+    <property role="34LRSv" value="selected row feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyi" id="5QmCreinPWT" role="1TKVEl">
+      <property role="IQ2nx" value="6743755284660838201" />
+      <property role="TrG5h" value="selectedRowHandle" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

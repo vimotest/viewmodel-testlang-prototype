@@ -718,5 +718,20 @@
     <property role="3GE5qa" value="assert.texbox" />
     <property role="TrG5h" value="ITextBoxCheckValue" />
   </node>
+  <node concept="1TIwiD" id="5QmCreipCA4">
+    <property role="EcuMT" value="6743755284661307780" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="SelectedIndexCheckValue" />
+    <property role="34LRSv" value="selected index" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5QmCreipCA5" role="1TKVEl">
+      <property role="IQ2nx" value="6743755284661307781" />
+      <property role="TrG5h" value="selectedIndex" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="5QmCreipCAa" role="PzmwI">
+      <ref role="PrY4T" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
+    </node>
+  </node>
 </model>
 

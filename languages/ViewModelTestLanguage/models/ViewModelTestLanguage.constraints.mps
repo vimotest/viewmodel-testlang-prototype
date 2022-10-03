@@ -665,5 +665,23 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="5QmCreipCIq">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1M2myG" to="l8rz:5QmCreipCA4" resolve="SelectedIndexCheckValue" />
+    <node concept="9S07l" id="5QmCreipCIr" role="9Vyp8">
+      <node concept="3clFbS" id="5QmCreipCIs" role="2VODD2">
+        <node concept="3clFbF" id="5QmCreipCIM" role="3cqZAp">
+          <node concept="2YIFZM" id="5QmCreipCIO" role="3clFbG">
+            <ref role="37wK5l" to="gg8m:2B9nyiIrHbx" resolve="supportsFeatureOfConcept" />
+            <ref role="1Pybhc" to="gg8m:4jKdMMdK1xy" resolve="ViewComponentCheckUtil" />
+            <node concept="nLn13" id="5QmCreipCIP" role="37wK5m" />
+            <node concept="35c_gC" id="5QmCreipCIQ" role="37wK5m">
+              <ref role="35c_gD" to="6ap2:5QmCreinPWR" resolve="SelectedRowVCFeature" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
