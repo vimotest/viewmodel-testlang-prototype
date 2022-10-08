@@ -744,6 +744,11 @@
             <ref role="1Busuk" node="1n6T2_x2WNQ" resolve="SimpleTypeLanguage" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4oK3uBJU_nY" role="3bR37C">
+          <node concept="3bR9La" id="4oK3uBJU_nZ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3HV74$ebibC" resolve="jetbrains.mps.lang.text" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5SMmqCnuKhI" role="2G$12L">
         <property role="BnDLt" value="true" />

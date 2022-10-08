@@ -22,6 +22,9 @@
       <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts">
         <property id="3011041337510726009" name="text" index="27$ltt" />
       </concept>
+      <concept id="5057557679938727839" name="ViewModelLanguage.structure.ViewContentDocComment" flags="ng" index="2DYY9Q">
+        <child id="1732176556423038857" name="lines" index="2lOMFJ" />
+      </concept>
       <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
         <child id="4143793920074545904" name="children" index="2HXGLH" />
       </concept>
@@ -85,8 +88,19 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
@@ -356,6 +370,25 @@
     </node>
     <node concept="3H8Xym" id="5QmCreig_jq" role="3H8Xyh">
       <property role="TrG5h" value="LoadView" />
+      <node concept="2DYY9Q" id="4oK3uBJTW_U" role="lGtFl">
+        <node concept="1PaTwC" id="4oK3uBJTW_V" role="2lOMFJ">
+          <node concept="3oM_SD" id="4oK3uBJTW_Y" role="1PaTwD">
+            <property role="3oM_SC" value="Loads" />
+          </node>
+          <node concept="3oM_SD" id="4oK3uBJTWA0" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="4oK3uBJTWA3" role="1PaTwD">
+            <property role="3oM_SC" value="diagnostics" />
+          </node>
+          <node concept="3oM_SD" id="4oK3uBJTWA7" role="1PaTwD">
+            <property role="3oM_SC" value="element" />
+          </node>
+          <node concept="3oM_SD" id="4oK3uBJTWAc" role="1PaTwD">
+            <property role="3oM_SC" value="view" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3H8Xym" id="5QmCreihVct" role="3H8Xyh">
       <property role="TrG5h" value="NewClicked" />

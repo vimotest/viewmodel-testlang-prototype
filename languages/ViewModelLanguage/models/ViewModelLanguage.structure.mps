@@ -7,12 +7,20 @@
   </languages>
   <imports>
     <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" />
+    <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
+      <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
+        <reference id="6054523464627965081" name="concept" index="trN6q" />
+      </concept>
+      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
+        <property id="7588428831955550663" name="role" index="Hh88m" />
+        <child id="7588428831947959310" name="attributed" index="EQaZv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -611,6 +619,28 @@
       <property role="IQ2nx" value="6743755284660838201" />
       <property role="TrG5h" value="selectedRowHandle" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4oK3uBJMYYv">
+    <property role="EcuMT" value="5057557679938727839" />
+    <property role="TrG5h" value="ViewContentDocComment" />
+    <property role="3GE5qa" value="doc" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyj" id="1w9VmqdQGu9" role="1TKVEi">
+      <property role="IQ2ns" value="1732176556423038857" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lines" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="zqge:2cLqkTm6J5A" resolve="Line" />
+    </node>
+    <node concept="M6xJ_" id="4oK3uBJMZaN" role="lGtFl">
+      <property role="Hh88m" value="docComment" />
+      <node concept="trNpa" id="4oK3uBJMZaP" role="EQaZv">
+        <ref role="trN6q" node="3JS2UjmQXe3" resolve="IViewContent" />
+      </node>
+    </node>
+    <node concept="t5JxF" id="4oK3uBJU2DG" role="lGtFl">
+      <property role="t5JxN" value="Note: oriented on baselanguage's MethodDocComment &amp; MultiLineComment" />
     </node>
   </node>
 </model>
