@@ -107,6 +107,9 @@
       <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
         <child id="643469022294099062" name="checks" index="2D8cJs" />
       </concept>
+      <concept id="5057557679944221126" name="ViewModelTestLanguage.structure.HorizontalTestCaseAssertions" flags="ng" index="2QbWKJ">
+        <child id="5057557679944221906" name="asserts" index="2QbW$V" />
+      </concept>
       <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
         <child id="3426401106045796780" name="objects" index="30k8ga" />
       </concept>
@@ -535,32 +538,34 @@
           </node>
         </node>
       </node>
-      <node concept="30nzp_" id="5QmCreinLdU" role="30nzpy">
-        <ref role="30nzpS" node="5QmCreihV8$" resolve="btnNew" />
-        <node concept="30nzp7" id="5QmCreinLef" role="30nDbQ">
-          <node concept="30nzps" id="5QmCreinLeg" role="30nzpp">
-            <property role="30nzpr" value="true" />
+      <node concept="2QbWKJ" id="4oK3uBK9vNX" role="30nzpy">
+        <node concept="30nzp_" id="5QmCreinLdU" role="2QbW$V">
+          <ref role="30nzpS" node="5QmCreihV8$" resolve="btnNew" />
+          <node concept="30nzp7" id="5QmCreinLef" role="30nDbQ">
+            <node concept="30nzps" id="5QmCreinLeg" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
           </node>
         </node>
-      </node>
-      <node concept="30nzp_" id="5QmCreinLej" role="30nzpy">
-        <ref role="30nzpS" node="5QmCreihV98" resolve="btnRemove" />
-        <node concept="30nzp7" id="5QmCreinLfH" role="30nDbQ">
-          <node concept="30nzps" id="5QmCreinLfI" role="30nzpp">
-            <property role="30nzpr" value="true" />
+        <node concept="30nzp_" id="5QmCreinLej" role="2QbW$V">
+          <ref role="30nzpS" node="5QmCreihV98" resolve="btnRemove" />
+          <node concept="30nzp7" id="5QmCreinLfH" role="30nDbQ">
+            <node concept="30nzps" id="5QmCreinLfI" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
           </node>
         </node>
-      </node>
-      <node concept="30nzp_" id="5QmCreinLeI" role="30nzpy">
-        <ref role="30nzpS" node="5QmCreihV9G" resolve="btnMoveUp" />
-        <node concept="30nzp7" id="5QmCreinLfL" role="30nDbQ">
-          <node concept="30nzps" id="5QmCreinLfM" role="30nzpp" />
+        <node concept="30nzp_" id="5QmCreinLeI" role="2QbW$V">
+          <ref role="30nzpS" node="5QmCreihV9G" resolve="btnMoveUp" />
+          <node concept="30nzp7" id="5QmCreinLfL" role="30nDbQ">
+            <node concept="30nzps" id="5QmCreinLfM" role="30nzpp" />
+          </node>
         </node>
-      </node>
-      <node concept="30nzp_" id="5QmCreinLfc" role="30nzpy">
-        <ref role="30nzpS" node="5QmCreihVaG" resolve="btnMoveDown" />
-        <node concept="30nzp7" id="5QmCreinLfP" role="30nDbQ">
-          <node concept="30nzps" id="5QmCreinLfQ" role="30nzpp" />
+        <node concept="30nzp_" id="5QmCreinLfc" role="2QbW$V">
+          <ref role="30nzpS" node="5QmCreihVaG" resolve="btnMoveDown" />
+          <node concept="30nzp7" id="5QmCreinLfP" role="30nDbQ">
+            <node concept="30nzps" id="5QmCreinLfQ" role="30nzpp" />
+          </node>
         </node>
       </node>
     </node>
