@@ -49,6 +49,9 @@
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
       <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
+      <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewCompnentEvent" flags="ng" index="3fS2vD">
+        <reference id="6743755284662355549" name="component" index="3fS2vI" />
+      </concept>
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
         <property id="7497173622928850064" name="path" index="1u4ncw" />
       </concept>
@@ -393,8 +396,9 @@
         </node>
       </node>
     </node>
-    <node concept="3H8Xym" id="5QmCreihVct" role="3H8Xyh">
+    <node concept="3fS2vD" id="5QmCreiu8h0" role="3H8Xyh">
       <property role="TrG5h" value="NewClicked" />
+      <ref role="3fS2vI" node="5QmCreihV8$" resolve="btnNew" />
     </node>
     <node concept="3H8Xym" id="5QmCreihVc_" role="3H8Xyh">
       <property role="TrG5h" value="RemoveClicked" />

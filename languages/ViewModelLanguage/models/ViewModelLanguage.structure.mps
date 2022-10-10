@@ -104,6 +104,7 @@
     <property role="EcuMT" value="4321216645069263666" />
     <property role="TrG5h" value="ViewInput" />
     <property role="34LRSv" value="input" />
+    <property role="3GE5qa" value="viewinputs" />
     <ref role="1TJDcQ" to="rtft:3JS2UjmRLkf" resolve="NamedStructType" />
     <node concept="PrWs8" id="3JS2UjmQXe4" role="PzmwI">
       <ref role="PrY4T" node="3JS2UjmQXe3" resolve="IViewContent" />
@@ -641,6 +642,18 @@
     </node>
     <node concept="t5JxF" id="4oK3uBJU2DG" role="lGtFl">
       <property role="t5JxN" value="Note: oriented on baselanguage's MethodDocComment &amp; MultiLineComment" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5QmCreitCpq">
+    <property role="EcuMT" value="6743755284662355546" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="ViewCompnentEvent" />
+    <property role="34LRSv" value="event" />
+    <ref role="1TJDcQ" node="3JS2UjmQXcM" resolve="ViewInput" />
+    <node concept="1TJgyj" id="5QmCreitCpt" role="1TKVEi">
+      <property role="IQ2ns" value="6743755284662355549" />
+      <property role="20kJfa" value="component" />
+      <ref role="20lvS9" node="3JS2UjmU$R8" resolve="ViewComponent" />
     </node>
   </node>
 </model>
