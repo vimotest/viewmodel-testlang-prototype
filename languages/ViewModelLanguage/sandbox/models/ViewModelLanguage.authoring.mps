@@ -49,7 +49,7 @@
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
       <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
-      <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewCompnentEvent" flags="ng" index="3fS2vD">
+      <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
         <reference id="6743755284662355549" name="component" index="3fS2vI" />
       </concept>
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
@@ -79,6 +79,7 @@
         <child id="5984107031764840544" name="sensitivityFeature" index="2Pim73" />
         <child id="5984107031764840549" name="nameFeature" index="2Pim76" />
       </concept>
+      <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym" />
       <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_" />
       <concept id="4321216645069263618" name="ViewModelLanguage.structure.View" flags="ng" index="3H8XyA">
@@ -400,14 +401,17 @@
       <property role="TrG5h" value="NewClicked" />
       <ref role="3fS2vI" node="5QmCreihV8$" resolve="btnNew" />
     </node>
-    <node concept="3H8Xym" id="5QmCreihVc_" role="3H8Xyh">
+    <node concept="3fS2vD" id="4oK3uBKnKJM" role="3H8Xyh">
       <property role="TrG5h" value="RemoveClicked" />
+      <ref role="3fS2vI" node="5QmCreihV98" resolve="btnRemove" />
     </node>
-    <node concept="3H8Xym" id="5QmCreihVcL" role="3H8Xyh">
+    <node concept="3fS2vD" id="4oK3uBKnKKj" role="3H8Xyh">
       <property role="TrG5h" value="MoveUpClicked" />
+      <ref role="3fS2vI" node="5QmCreihV9G" resolve="btnMoveUp" />
     </node>
-    <node concept="3H8Xym" id="5QmCreihVcX" role="3H8Xyh">
+    <node concept="3fS2vD" id="4oK3uBKnKLm" role="3H8Xyh">
       <property role="TrG5h" value="MoveDownClicked" />
+      <ref role="3fS2vI" node="5QmCreihVaG" resolve="btnMoveDown" />
     </node>
     <node concept="3H8Xym" id="5QmCreihVdb" role="3H8Xyh">
       <property role="TrG5h" value="TableRowSelected" />
@@ -416,6 +420,7 @@
         <node concept="2P4D6h" id="5QmCreihVdl" role="2P5Oin" />
       </node>
     </node>
+    <node concept="3H8Xwz" id="4oK3uBKpano" role="3H8Xyh" />
   </node>
   <node concept="1u6Luu" id="5QmCreihqN7">
     <node concept="1u6Luv" id="5QmCreihqNc" role="1u6Lvn">

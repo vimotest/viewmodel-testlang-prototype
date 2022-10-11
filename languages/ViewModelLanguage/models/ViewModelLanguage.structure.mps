@@ -647,7 +647,7 @@
   <node concept="1TIwiD" id="5QmCreitCpq">
     <property role="EcuMT" value="6743755284662355546" />
     <property role="3GE5qa" value="viewinputs" />
-    <property role="TrG5h" value="ViewCompnentEvent" />
+    <property role="TrG5h" value="ViewComponentEvent" />
     <property role="34LRSv" value="event" />
     <ref role="1TJDcQ" node="3JS2UjmQXcM" resolve="ViewInput" />
     <node concept="1TJgyj" id="5QmCreitCpt" role="1TKVEi">

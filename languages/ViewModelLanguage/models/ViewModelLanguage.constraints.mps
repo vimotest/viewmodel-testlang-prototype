@@ -379,7 +379,7 @@
   </node>
   <node concept="1M2fIO" id="5QmCreiu8hk">
     <property role="3GE5qa" value="viewinputs" />
-    <ref role="1M2myG" to="6ap2:5QmCreitCpq" resolve="ViewCompnentEvent" />
+    <ref role="1M2myG" to="6ap2:5QmCreitCpq" resolve="ViewComponentEvent" />
     <node concept="1N5Pfh" id="5QmCreiu8hl" role="1Mr941">
       <ref role="1N5Vy1" to="6ap2:5QmCreitCpt" resolve="component" />
       <node concept="3dgokm" id="5QmCreiu8lR" role="1N6uqs">
