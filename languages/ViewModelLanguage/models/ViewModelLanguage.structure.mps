@@ -656,5 +656,43 @@
       <ref role="20lvS9" node="3JS2UjmU$R8" resolve="ViewComponent" />
     </node>
   </node>
+  <node concept="1TIwiD" id="FLNzGRqHf6">
+    <property role="EcuMT" value="788638163494687686" />
+    <property role="TrG5h" value="ViewCallback" />
+    <property role="3GE5qa" value="callbacks" />
+    <property role="34LRSv" value="callback" />
+    <ref role="1TJDcQ" to="rtft:3JS2UjmRLkf" resolve="NamedStructType" />
+    <node concept="1TJgyj" id="FLNzGRqHZi" role="1TKVEi">
+      <property role="IQ2ns" value="788638163494690770" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="result" />
+      <ref role="20lvS9" node="FLNzGRqHBn" resolve="ViewCallbackResult" />
+    </node>
+    <node concept="PrWs8" id="FLNzGRqHBl" role="PzmwI">
+      <ref role="PrY4T" node="3JS2UjmQXe3" resolve="IViewContent" />
+    </node>
+    <node concept="1TJgyi" id="FLNzGRr5w6" role="1TKVEl">
+      <property role="IQ2nx" value="788638163494787078" />
+      <property role="TrG5h" value="hasResult" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="FLNzGRswPA" role="1TKVEl">
+      <property role="IQ2nx" value="788638163495161190" />
+      <property role="TrG5h" value="isMessageBox" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="FLNzGRtkuC" role="1TKVEl">
+      <property role="IQ2nx" value="788638163495372712" />
+      <property role="TrG5h" value="indicatesErrors" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="FLNzGRqHBn">
+    <property role="EcuMT" value="788638163494689239" />
+    <property role="3GE5qa" value="callbacks" />
+    <property role="TrG5h" value="ViewCallbackResult" />
+    <property role="34LRSv" value="result" />
+    <ref role="1TJDcQ" to="rtft:56jsF7$wmcE" resolve="StructType" />
+  </node>
 </model>
 

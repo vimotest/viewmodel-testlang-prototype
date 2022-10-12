@@ -12,6 +12,7 @@
       <concept id="5878168047017091882" name="SimpleTypeLanguage.structure.StructType" flags="ng" index="2P4x6r">
         <child id="5878168047017215911" name="contents" index="2P43km" />
       </concept>
+      <concept id="5878168047017124641" name="SimpleTypeLanguage.structure.BoolType" flags="ng" index="2P4D6g" />
       <concept id="5878168047017124640" name="SimpleTypeLanguage.structure.StringType" flags="ng" index="2P4D6h" />
       <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
         <child id="5878168047017276966" name="type" index="2P5Oin" />
@@ -44,6 +45,12 @@
       </concept>
       <concept id="5984107031766608520" name="ViewModelLanguage.structure.TableRowsVCFeature" flags="ng" index="2PlBGF">
         <child id="5984107031766610948" name="rowDefinition" index="2PlAmB" />
+      </concept>
+      <concept id="788638163494689239" name="ViewModelLanguage.structure.ViewCallbackResult" flags="ng" index="XALvG" />
+      <concept id="788638163494687686" name="ViewModelLanguage.structure.ViewCallback" flags="ng" index="XALRX">
+        <property id="788638163495161190" name="isMessageBox" index="XwWdt" />
+        <property id="788638163495372712" name="indicatesErrors" index="Xx8Aj" />
+        <child id="788638163494690770" name="result" index="XAL7D" />
       </concept>
       <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
@@ -79,7 +86,6 @@
         <child id="5984107031764840544" name="sensitivityFeature" index="2Pim73" />
         <child id="5984107031764840549" name="nameFeature" index="2Pim76" />
       </concept>
-      <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym" />
       <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_" />
       <concept id="4321216645069263618" name="ViewModelLanguage.structure.View" flags="ng" index="3H8XyA">
@@ -420,7 +426,25 @@
         <node concept="2P4D6h" id="5QmCreihVdl" role="2P5Oin" />
       </node>
     </node>
-    <node concept="3H8Xwz" id="4oK3uBKpano" role="3H8Xyh" />
+    <node concept="XALRX" id="FLNzGRu_Ug" role="3H8Xyh">
+      <property role="TrG5h" value="AskUserForDeletion" />
+      <property role="XwWdt" value="true" />
+      <node concept="XALvG" id="FLNzGRu_U_" role="XAL7D">
+        <node concept="2P4x69" id="FLNzGRu_UC" role="2P43km">
+          <property role="TrG5h" value="Ok" />
+          <node concept="2P4D6g" id="FLNzGRu_UB" role="2P5Oin" />
+        </node>
+      </node>
+    </node>
+    <node concept="XALRX" id="FLNzGRswA9" role="3H8Xyh">
+      <property role="TrG5h" value="ShowError" />
+      <property role="XwWdt" value="true" />
+      <property role="Xx8Aj" value="true" />
+      <node concept="2P4x69" id="FLNzGRswAs" role="2P43km">
+        <property role="TrG5h" value="message" />
+        <node concept="2P4D6h" id="FLNzGRswAr" role="2P5Oin" />
+      </node>
+    </node>
   </node>
   <node concept="1u6Luu" id="5QmCreihqN7">
     <node concept="1u6Luv" id="5QmCreihqNc" role="1u6Lvn">
