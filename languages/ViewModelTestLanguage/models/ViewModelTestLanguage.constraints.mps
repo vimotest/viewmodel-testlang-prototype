@@ -533,26 +533,14 @@
           </node>
         </node>
         <node concept="3clFbF" id="3HXRBxqyJ0Z" role="3cqZAp">
-          <node concept="22lmx$" id="3HXRBxqyJ10" role="3clFbG">
-            <node concept="2OqwBi" id="3HXRBxqyJ11" role="3uHU7B">
-              <node concept="1mIQ4w" id="3HXRBxqyJ12" role="2OqNvi">
-                <node concept="chp4Y" id="3HXRBxqyJ13" role="cj9EA">
-                  <ref role="cht4Q" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
-                </node>
-              </node>
-              <node concept="37vLTw" id="3HXRBxqyJ14" role="2Oq$k0">
-                <ref role="3cqZAo" node="3HXRBxqyJ0V" resolve="viewComponent" />
+          <node concept="2OqwBi" id="3HXRBxqyJ11" role="3clFbG">
+            <node concept="1mIQ4w" id="3HXRBxqyJ12" role="2OqNvi">
+              <node concept="chp4Y" id="3HXRBxqyJ13" role="cj9EA">
+                <ref role="cht4Q" to="6ap2:FLNzGRzWqf" resolve="ButtonComponentBase" />
               </node>
             </node>
-            <node concept="2OqwBi" id="3HXRBxqyJ15" role="3uHU7w">
-              <node concept="1mIQ4w" id="3HXRBxqyJ16" role="2OqNvi">
-                <node concept="chp4Y" id="3HXRBxqyJ17" role="cj9EA">
-                  <ref role="cht4Q" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
-                </node>
-              </node>
-              <node concept="37vLTw" id="3HXRBxqyJ18" role="2Oq$k0">
-                <ref role="3cqZAo" node="3HXRBxqyJ0V" resolve="viewComponent" />
-              </node>
+            <node concept="37vLTw" id="3HXRBxqyJ14" role="2Oq$k0">
+              <ref role="3cqZAo" node="3HXRBxqyJ0V" resolve="viewComponent" />
             </node>
           </node>
         </node>

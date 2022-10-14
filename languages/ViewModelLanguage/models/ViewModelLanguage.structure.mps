@@ -144,13 +144,8 @@
     <property role="EcuMT" value="4321216645070110073" />
     <property role="TrG5h" value="ButtonComponent" />
     <property role="34LRSv" value="button" />
-    <property role="3GE5qa" value="viewcomponents" />
-    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
-    <node concept="1TJgyi" id="3JS2UjmUbQ1" role="1TKVEl">
-      <property role="IQ2nx" value="4321216645070110081" />
-      <property role="TrG5h" value="sensitiveState" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
+    <property role="3GE5qa" value="viewcomponents.button" />
+    <ref role="1TJDcQ" node="FLNzGRzWqf" resolve="ButtonComponentBase" />
   </node>
   <node concept="1TIwiD" id="3JS2UjmU$R8">
     <property role="EcuMT" value="4321216645070212552" />
@@ -202,10 +197,10 @@
   </node>
   <node concept="1TIwiD" id="53FN52wrdyE">
     <property role="EcuMT" value="5830978789222176938" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableComponent" />
     <property role="34LRSv" value="table" />
-    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="TableComponentBase" />
     <node concept="1TJgyj" id="5cbOqfAnxJO" role="1TKVEi">
       <property role="IQ2ns" value="5984107031766637556" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -223,7 +218,7 @@
   </node>
   <node concept="1TIwiD" id="5WrZkWQ5bAq">
     <property role="EcuMT" value="6853349774625913242" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableRowComponent" />
     <property role="34LRSv" value="table-row" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -237,7 +232,7 @@
   </node>
   <node concept="1TIwiD" id="5WrZkWQ5bAr">
     <property role="EcuMT" value="6853349774625913243" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableCellComponent" />
     <property role="34LRSv" value="cell" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
@@ -256,7 +251,7 @@
   </node>
   <node concept="1TIwiD" id="5WrZkWQ789B">
     <property role="EcuMT" value="6853349774626423399" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableCellHeader" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5WrZkWQ789C" role="PzmwI">
@@ -397,10 +392,10 @@
   </node>
   <node concept="1TIwiD" id="1c2yPVf_sIz">
     <property role="EcuMT" value="1369810475999939491" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="DynamicTableComponent" />
     <property role="34LRSv" value="dynamic table" />
-    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="TableComponentBase" />
     <node concept="1TJgyj" id="5cbOqfAMnLV" role="1TKVEi">
       <property role="IQ2ns" value="5984107031773674619" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -428,10 +423,10 @@
   </node>
   <node concept="1TIwiD" id="3A1HDQku_lz">
     <property role="EcuMT" value="4143793920074732899" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.button" />
     <property role="TrG5h" value="ImageButtonComponent" />
     <property role="34LRSv" value="image button" />
-    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <ref role="1TJDcQ" node="FLNzGRzWqf" resolve="ButtonComponentBase" />
     <node concept="1TJgyj" id="3A1HDQku_NZ" role="1TKVEi">
       <property role="IQ2ns" value="4143793920074734847" />
       <property role="20kJfa" value="image" />
@@ -693,6 +688,30 @@
     <property role="TrG5h" value="ViewCallbackResult" />
     <property role="34LRSv" value="result" />
     <ref role="1TJDcQ" to="rtft:56jsF7$wmcE" resolve="StructType" />
+  </node>
+  <node concept="1TIwiD" id="FLNzGRzW2J">
+    <property role="TrG5h" value="TableComponentBase" />
+    <property role="3GE5qa" value="viewcomponents.table" />
+    <property role="EcuMT" value="788638163497079861" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyi" id="FLNzGRzPCw" role="1TKVEl">
+      <property role="IQ2nx" value="788638163497081376" />
+      <property role="TrG5h" value="supportsUpdatingFlag" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="FLNzGRzWqf">
+    <property role="TrG5h" value="ButtonComponentBase" />
+    <property role="3GE5qa" value="viewcomponents.button" />
+    <property role="EcuMT" value="788638163497081378" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyi" id="3JS2UjmUbQ1" role="1TKVEl">
+      <property role="IQ2nx" value="4321216645070110081" />
+      <property role="TrG5h" value="sensitiveState" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
 </model>
 

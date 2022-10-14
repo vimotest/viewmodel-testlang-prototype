@@ -258,12 +258,9 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA" />
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
-        <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
-      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
@@ -528,7 +525,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="2Yd1qrJOZQU">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.button" />
     <ref role="13h7C2" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
     <node concept="13hLZK" id="2Yd1qrJOZQV" role="13h7CW">
       <node concept="3clFbS" id="2Yd1qrJOZQW" role="2VODD2" />
@@ -674,12 +671,6 @@
       </node>
       <node concept="3uibUv" id="2Yd1qrJOZRa" role="3clF45">
         <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
-      </node>
-      <node concept="P$JXv" id="4oK3uBJNKkG" role="lGtFl">
-        <node concept="TZ5HA" id="4oK3uBJNKkH" role="TZ5H$">
-          <node concept="1dT_AC" id="4oK3uBJNKkI" role="1dT_Ay" />
-        </node>
-        <node concept="x79VA" id="4oK3uBJNKkJ" role="3nqlJM" />
       </node>
     </node>
   </node>
@@ -3473,7 +3464,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="1c2yPVf_sIA">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <ref role="13h7C2" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
     <node concept="13hLZK" id="1c2yPVf_sIB" role="13h7CW">
       <node concept="3clFbS" id="1c2yPVf_sIC" role="2VODD2" />
@@ -4198,7 +4189,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="3A1HDQkuAsz">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.button" />
     <ref role="13h7C2" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
     <node concept="13i0hz" id="3A1HDQkuB0v" role="13h7CS">
       <property role="TrG5h" value="makeSwingComponent" />
@@ -4587,6 +4578,27 @@
               </node>
             </node>
             <node concept="WFELt" id="7bOkvmBPZf9" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="5TZVz1z0l7D">
+    <property role="3GE5qa" value="viewcomponents.table" />
+    <ref role="13h7C2" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+    <node concept="13hLZK" id="5TZVz1z0l7E" role="13h7CW">
+      <node concept="3clFbS" id="5TZVz1z0l7F" role="2VODD2">
+        <node concept="3clFbF" id="5TZVz1z0lu3" role="3cqZAp">
+          <node concept="37vLTI" id="5TZVz1z0m8e" role="3clFbG">
+            <node concept="3clFbT" id="5TZVz1z0m8F" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="5TZVz1z0lBn" role="37vLTJ">
+              <node concept="13iPFW" id="5TZVz1z0lu2" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5TZVz1z0lMP" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:FLNzGRzPCw" resolve="supportsUpdatingFlag" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

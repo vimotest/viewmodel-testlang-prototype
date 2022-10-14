@@ -46,6 +46,9 @@
       <concept id="5984107031766608520" name="ViewModelLanguage.structure.TableRowsVCFeature" flags="ng" index="2PlBGF">
         <child id="5984107031766610948" name="rowDefinition" index="2PlAmB" />
       </concept>
+      <concept id="788638163497079861" name="ViewModelLanguage.structure.TableComponentBase" flags="ng" index="XvDCe">
+        <property id="788638163497081376" name="supportsUpdatingFlag" index="XvDgr" />
+      </concept>
       <concept id="788638163494689239" name="ViewModelLanguage.structure.ViewCallbackResult" flags="ng" index="XALvG" />
       <concept id="788638163494687686" name="ViewModelLanguage.structure.ViewCallback" flags="ng" index="XALRX">
         <property id="788638163495161190" name="isMessageBox" index="XwWdt" />
@@ -189,6 +192,7 @@
     <property role="TrG5h" value="DiagnosticElementsView" />
     <node concept="3H8Xy_" id="5QmCreig_jp" role="3H8Xyx">
       <node concept="3KxLjU" id="5QmCreig_js" role="2P43km">
+        <property role="XvDgr" value="true" />
         <node concept="2PlBGF" id="5QmCreig_jt" role="2PlsDn">
           <property role="2PigO5" value="true" />
           <node concept="1D3Ojl" id="5QmCreig_ju" role="2PlAmB">

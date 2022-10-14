@@ -232,40 +232,32 @@
     </node>
   </node>
   <node concept="1M2fIO" id="5WrZkWQ5esI">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <ref role="1M2myG" to="6ap2:5WrZkWQ5bAr" resolve="TableCellComponent" />
     <node concept="9SLcT" id="5WrZkWQ5esJ" role="9SGkU">
       <node concept="3clFbS" id="5WrZkWQ5esK" role="2VODD2">
         <node concept="3clFbF" id="5WrZkWQ5et6" role="3cqZAp">
           <node concept="3fqX7Q" id="5WrZkWQ5et8" role="3clFbG">
             <node concept="1eOMI4" id="5WrZkWQ5et9" role="3fr31v">
-              <node concept="22lmx$" id="1c2yPVfBfVa" role="1eOMHV">
-                <node concept="17R0WA" id="1c2yPVfBgtX" role="3uHU7w">
-                  <node concept="35c_gC" id="1c2yPVfBgzo" role="3uHU7w">
-                    <ref role="35c_gD" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
+              <node concept="22lmx$" id="5WrZkWQ5ePX" role="1eOMHV">
+                <node concept="22lmx$" id="5WrZkWQ5eta" role="3uHU7B">
+                  <node concept="17R0WA" id="5WrZkWQ5gyT" role="3uHU7B">
+                    <node concept="2DD5aU" id="5WrZkWQ5gyU" role="3uHU7B" />
+                    <node concept="35c_gC" id="5WrZkWQ5gyV" role="3uHU7w">
+                      <ref role="35c_gD" to="6ap2:5WrZkWQ5bAq" resolve="TableRowComponent" />
+                    </node>
                   </node>
-                  <node concept="2DD5aU" id="1c2yPVfBgdL" role="3uHU7B" />
+                  <node concept="17R0WA" id="5WrZkWQ5gVB" role="3uHU7w">
+                    <node concept="2DD5aU" id="5WrZkWQ5gVC" role="3uHU7B" />
+                    <node concept="35c_gC" id="5WrZkWQ5gVD" role="3uHU7w">
+                      <ref role="35c_gD" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="22lmx$" id="5WrZkWQ5ePX" role="3uHU7B">
-                  <node concept="22lmx$" id="5WrZkWQ5eta" role="3uHU7B">
-                    <node concept="17R0WA" id="5WrZkWQ5gyT" role="3uHU7B">
-                      <node concept="2DD5aU" id="5WrZkWQ5gyU" role="3uHU7B" />
-                      <node concept="35c_gC" id="5WrZkWQ5gyV" role="3uHU7w">
-                        <ref role="35c_gD" to="6ap2:5WrZkWQ5bAq" resolve="TableRowComponent" />
-                      </node>
-                    </node>
-                    <node concept="17R0WA" id="5WrZkWQ5gVB" role="3uHU7w">
-                      <node concept="2DD5aU" id="5WrZkWQ5gVC" role="3uHU7B" />
-                      <node concept="35c_gC" id="5WrZkWQ5gVD" role="3uHU7w">
-                        <ref role="35c_gD" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="17R0WA" id="5WrZkWQ5gC$" role="3uHU7w">
-                    <node concept="2DD5aU" id="5WrZkWQ5gC_" role="3uHU7B" />
-                    <node concept="35c_gC" id="5WrZkWQ5gCA" role="3uHU7w">
-                      <ref role="35c_gD" to="6ap2:5WrZkWQ5bAr" resolve="TableCellComponent" />
-                    </node>
+                <node concept="17R0WA" id="5WrZkWQ5gC$" role="3uHU7w">
+                  <node concept="2DD5aU" id="5WrZkWQ5gC_" role="3uHU7B" />
+                  <node concept="35c_gC" id="5WrZkWQ5gCA" role="3uHU7w">
+                    <ref role="35c_gD" to="6ap2:5WrZkWQ5bAr" resolve="TableCellComponent" />
                   </node>
                 </node>
               </node>
@@ -400,51 +392,21 @@
               <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
               <node concept="2OqwBi" id="5QmCreiuQZ9" role="37wK5m">
                 <node concept="2OqwBi" id="5QmCreiuIFd" role="2Oq$k0">
-                  <node concept="2OqwBi" id="5QmCreiueqZ" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5QmCreiu9x8" role="2Oq$k0">
-                      <node concept="2OqwBi" id="5QmCreiu8U4" role="2Oq$k0">
-                        <node concept="3kakTB" id="5QmCreiu8Cx" role="2Oq$k0" />
-                        <node concept="2Xjw5R" id="5QmCreiu9eF" role="2OqNvi">
-                          <node concept="1xMEDy" id="5QmCreiu9eH" role="1xVPHs">
-                            <node concept="chp4Y" id="5QmCreiu9kc" role="ri$Ld">
-                              <ref role="cht4Q" to="6ap2:3JS2UjmQXc2" resolve="View" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="2Rf3mk" id="5QmCreiu9Jr" role="2OqNvi">
-                        <node concept="1xMEDy" id="5QmCreiu9Jt" role="1xVPHs">
-                          <node concept="chp4Y" id="5QmCreiu9Tr" role="ri$Ld">
-                            <ref role="cht4Q" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+                  <node concept="2OqwBi" id="5QmCreiu9x8" role="2Oq$k0">
+                    <node concept="2OqwBi" id="5QmCreiu8U4" role="2Oq$k0">
+                      <node concept="3kakTB" id="5QmCreiu8Cx" role="2Oq$k0" />
+                      <node concept="2Xjw5R" id="5QmCreiu9eF" role="2OqNvi">
+                        <node concept="1xMEDy" id="5QmCreiu9eH" role="1xVPHs">
+                          <node concept="chp4Y" id="5QmCreiu9kc" role="ri$Ld">
+                            <ref role="cht4Q" to="6ap2:3JS2UjmQXc2" resolve="View" />
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="1aUR6E" id="5QmCreiugj$" role="2OqNvi">
-                      <node concept="1bVj0M" id="5QmCreiugjA" role="23t8la">
-                        <node concept="3clFbS" id="5QmCreiugjB" role="1bW5cS">
-                          <node concept="3clFbF" id="5QmCreiuh$m" role="3cqZAp">
-                            <node concept="2OqwBi" id="5QmCreiulkd" role="3clFbG">
-                              <node concept="2OqwBi" id="5QmCreiuizc" role="2Oq$k0">
-                                <node concept="37vLTw" id="5QmCreiuh$l" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="5QmCreiugjC" resolve="it" />
-                                </node>
-                                <node concept="2Xjw5R" id="5QmCreiukUV" role="2OqNvi">
-                                  <node concept="1xMEDy" id="5QmCreiukUX" role="1xVPHs">
-                                    <node concept="chp4Y" id="5QmCreiul2A" role="ri$Ld">
-                                      <ref role="cht4Q" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
-                                    </node>
-                                  </node>
-                                  <node concept="1xIGOp" id="5QmCreiva_F" role="1xVPHs" />
-                                </node>
-                              </node>
-                              <node concept="3x8VRR" id="5QmCreiulzI" role="2OqNvi" />
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="Rh6nW" id="5QmCreiugjC" role="1bW2Oz">
-                          <property role="TrG5h" value="it" />
-                          <node concept="2jxLKc" id="5QmCreiugjD" role="1tU5fm" />
+                    <node concept="2Rf3mk" id="5QmCreiu9Jr" role="2OqNvi">
+                      <node concept="1xMEDy" id="5QmCreiu9Jt" role="1xVPHs">
+                        <node concept="chp4Y" id="5QmCreiu9Tr" role="ri$Ld">
+                          <ref role="cht4Q" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
                         </node>
                       </node>
                     </node>
@@ -461,7 +423,7 @@
                               <node concept="2Xjw5R" id="5QmCreiupZ6" role="2OqNvi">
                                 <node concept="1xMEDy" id="5QmCreiupZ7" role="1xVPHs">
                                   <node concept="chp4Y" id="5QmCreiupZ8" role="ri$Ld">
-                                    <ref role="cht4Q" to="6ap2:1c2yPVf_sIz" resolve="DynamicTableComponent" />
+                                    <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
                                   </node>
                                 </node>
                                 <node concept="1xIGOp" id="5QmCreivckV" role="1xVPHs" />

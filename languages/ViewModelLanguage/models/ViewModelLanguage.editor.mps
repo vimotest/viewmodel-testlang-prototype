@@ -401,10 +401,6 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
-      <concept id="1176903168877" name="jetbrains.mps.baseLanguage.collections.structure.UnionOperation" flags="nn" index="4Tj9Z" />
-      <concept id="1176906603202" name="jetbrains.mps.baseLanguage.collections.structure.BinaryOperation" flags="nn" index="56pJg">
-        <child id="1176906787974" name="rightExpression" index="576Qk" />
-      </concept>
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
@@ -596,8 +592,17 @@
       </node>
       <node concept="2iRfu4" id="5WrZkWQaii6" role="2iSdaV" />
     </node>
-    <node concept="PMmxH" id="5cbOqfADFf$" role="6VMZX">
-      <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+    <node concept="3EZMnI" id="5TZVz1z0l7q" role="6VMZX">
+      <node concept="l2Vlx" id="5TZVz1z0l7r" role="2iSdaV" />
+      <node concept="PMmxH" id="5cbOqfADFf$" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="PMmxH" id="5TZVz1z1tCt" role="3EZMnx">
+        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="TableComponentBase_supportsUpdatingFlag" />
+        <node concept="pVoyu" id="5TZVz1z1tCw" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ76Xu">
@@ -1669,8 +1674,17 @@
       </node>
       <node concept="2iRfu4" id="1c2yPVfA6IX" role="2iSdaV" />
     </node>
-    <node concept="PMmxH" id="5cbOqfAh4Au" role="6VMZX">
-      <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+    <node concept="3EZMnI" id="5TZVz1z0l6G" role="6VMZX">
+      <node concept="l2Vlx" id="5TZVz1z0l6H" role="2iSdaV" />
+      <node concept="PMmxH" id="5cbOqfAh4Au" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="PMmxH" id="5TZVz1z1tB$" role="3EZMnx">
+        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="TableComponentBase_supportsUpdatingFlag" />
+        <node concept="pVoyu" id="5TZVz1z1tBF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7noOckZ$LmP">
@@ -1763,7 +1777,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3A1HDQku_xv">
-    <property role="3GE5qa" value="viewcomponents.imagebutton" />
+    <property role="3GE5qa" value="viewcomponents.button" />
     <ref role="1XX52x" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
     <node concept="3EZMnI" id="3A1HDQku_xx" role="2wV5jI">
       <node concept="3F0ifn" id="3A1HDQku_xy" role="3EZMnx">
@@ -2084,7 +2098,7 @@
   </node>
   <node concept="PKFIW" id="3VvzM8u0MI6">
     <property role="TrG5h" value="ImageButtonComponent_details_EditorComponent" />
-    <property role="3GE5qa" value="viewcomponents.imagebutton" />
+    <property role="3GE5qa" value="viewcomponents.button" />
     <ref role="1XX52x" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
     <node concept="3EZMnI" id="3VvzM8u0MI7" role="2wV5jI">
       <node concept="3F0ifn" id="3VvzM8u0MI8" role="3EZMnx">
@@ -2137,7 +2151,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3VvzM8u0MT3">
-    <property role="3GE5qa" value="viewcomponents.imagebutton" />
+    <property role="3GE5qa" value="viewcomponents.button" />
     <ref role="1XX52x" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
     <node concept="2aJ2om" id="3VvzM8u0N5L" role="CpUAK">
       <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
@@ -2313,7 +2327,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="4oK3uBKiISm" role="2ZBHrp">
-        <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+        <ref role="ehGHo" to="6ap2:FLNzGRzWqf" resolve="ButtonComponentBase" />
       </node>
       <node concept="2$S_p_" id="4oK3uBKiISp" role="2$S_pT">
         <node concept="3clFbS" id="4oK3uBKiISq" role="2VODD2">
@@ -2372,35 +2386,18 @@
                   <node concept="1bVj0M" id="4oK3uBKiRhr" role="23t8la">
                     <node concept="3clFbS" id="4oK3uBKiRhs" role="1bW5cS">
                       <node concept="3clFbF" id="4oK3uBKiRlG" role="3cqZAp">
-                        <node concept="22lmx$" id="4oK3uBKmeyD" role="3clFbG">
-                          <node concept="2OqwBi" id="4oK3uBKmfdU" role="3uHU7w">
-                            <node concept="2OqwBi" id="4oK3uBKmlvS" role="2Oq$k0">
-                              <node concept="37vLTw" id="4oK3uBKmeJg" role="2Oq$k0">
-                                <ref role="3cqZAo" node="4oK3uBKiRht" resolve="it" />
-                              </node>
-                              <node concept="3TrEf2" id="4oK3uBKmmG3" role="2OqNvi">
-                                <ref role="3Tt5mk" to="6ap2:5QmCreitCpt" resolve="component" />
-                              </node>
+                        <node concept="2OqwBi" id="4oK3uBKjdor" role="3clFbG">
+                          <node concept="2OqwBi" id="4oK3uBKiR_p" role="2Oq$k0">
+                            <node concept="37vLTw" id="4oK3uBKiRlF" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4oK3uBKiRht" resolve="it" />
                             </node>
-                            <node concept="1mIQ4w" id="4oK3uBKmg3C" role="2OqNvi">
-                              <node concept="chp4Y" id="4oK3uBKmggi" role="cj9EA">
-                                <ref role="cht4Q" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
-                              </node>
+                            <node concept="3TrEf2" id="4oK3uBKiRXu" role="2OqNvi">
+                              <ref role="3Tt5mk" to="6ap2:5QmCreitCpt" resolve="component" />
                             </node>
                           </node>
-                          <node concept="2OqwBi" id="4oK3uBKjdor" role="3uHU7B">
-                            <node concept="2OqwBi" id="4oK3uBKiR_p" role="2Oq$k0">
-                              <node concept="37vLTw" id="4oK3uBKiRlF" role="2Oq$k0">
-                                <ref role="3cqZAo" node="4oK3uBKiRht" resolve="it" />
-                              </node>
-                              <node concept="3TrEf2" id="4oK3uBKiRXu" role="2OqNvi">
-                                <ref role="3Tt5mk" to="6ap2:5QmCreitCpt" resolve="component" />
-                              </node>
-                            </node>
-                            <node concept="1mIQ4w" id="4oK3uBKjdKW" role="2OqNvi">
-                              <node concept="chp4Y" id="4oK3uBKjdUI" role="cj9EA">
-                                <ref role="cht4Q" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
-                              </node>
+                          <node concept="1mIQ4w" id="4oK3uBKjdKW" role="2OqNvi">
+                            <node concept="chp4Y" id="4oK3uBKjdUI" role="cj9EA">
+                              <ref role="cht4Q" to="6ap2:FLNzGRzWqf" resolve="ButtonComponentBase" />
                             </node>
                           </node>
                         </node>
@@ -2448,43 +2445,22 @@
               <property role="TrG5h" value="buttonsInViewModel" />
               <node concept="A3Dl8" id="4oK3uBKiNi$" role="1tU5fm">
                 <node concept="3Tqbb2" id="4oK3uBKiNiB" role="A3Ik2">
-                  <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+                  <ref role="ehGHo" to="6ap2:FLNzGRzWqf" resolve="ButtonComponentBase" />
                 </node>
               </node>
-              <node concept="2OqwBi" id="4oK3uBKn6y5" role="33vP2m">
-                <node concept="2OqwBi" id="4oK3uBKiNjk" role="2Oq$k0">
-                  <node concept="2OqwBi" id="4oK3uBKiNjl" role="2Oq$k0">
-                    <node concept="37vLTw" id="4oK3uBKiNvi" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4oK3uBKiNvb" resolve="parentView" />
-                    </node>
-                    <node concept="3TrEf2" id="4oK3uBKiNjs" role="2OqNvi">
-                      <ref role="3Tt5mk" to="6ap2:3JS2UjmQXc5" resolve="viewModel" />
-                    </node>
+              <node concept="2OqwBi" id="4oK3uBKiNjk" role="33vP2m">
+                <node concept="2OqwBi" id="4oK3uBKiNjl" role="2Oq$k0">
+                  <node concept="37vLTw" id="4oK3uBKiNvi" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4oK3uBKiNvb" resolve="parentView" />
                   </node>
-                  <node concept="2Rf3mk" id="4oK3uBKkmOf" role="2OqNvi">
-                    <node concept="1xMEDy" id="4oK3uBKkmOh" role="1xVPHs">
-                      <node concept="chp4Y" id="4oK3uBKkmTJ" role="ri$Ld">
-                        <ref role="cht4Q" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
-                      </node>
-                    </node>
+                  <node concept="3TrEf2" id="4oK3uBKiNjs" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6ap2:3JS2UjmQXc5" resolve="viewModel" />
                   </node>
                 </node>
-                <node concept="4Tj9Z" id="4oK3uBKn8VA" role="2OqNvi">
-                  <node concept="2OqwBi" id="4oK3uBKn9Ub" role="576Qk">
-                    <node concept="2OqwBi" id="4oK3uBKn9l3" role="2Oq$k0">
-                      <node concept="37vLTw" id="4oK3uBKn929" role="2Oq$k0">
-                        <ref role="3cqZAo" node="4oK3uBKiNvb" resolve="parentView" />
-                      </node>
-                      <node concept="3TrEf2" id="4oK3uBKn9A7" role="2OqNvi">
-                        <ref role="3Tt5mk" to="6ap2:3JS2UjmQXc5" resolve="viewModel" />
-                      </node>
-                    </node>
-                    <node concept="2Rf3mk" id="4oK3uBKnahP" role="2OqNvi">
-                      <node concept="1xMEDy" id="4oK3uBKnahR" role="1xVPHs">
-                        <node concept="chp4Y" id="4oK3uBKnaqr" role="ri$Ld">
-                          <ref role="cht4Q" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
-                        </node>
-                      </node>
+                <node concept="2Rf3mk" id="4oK3uBKkmOf" role="2OqNvi">
+                  <node concept="1xMEDy" id="4oK3uBKkmOh" role="1xVPHs">
+                    <node concept="chp4Y" id="4oK3uBKkmTJ" role="ri$Ld">
+                      <ref role="cht4Q" to="6ap2:FLNzGRzWqf" resolve="ButtonComponentBase" />
                     </node>
                   </node>
                 </node>
@@ -2951,6 +2927,24 @@
         </node>
         <node concept="pVoyu" id="FLNzGRtkMO" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="5TZVz1z1tBv">
+    <property role="TrG5h" value="TableComponentBase_supportsUpdatingFlag" />
+    <property role="3GE5qa" value="viewcomponents.table" />
+    <ref role="1XX52x" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+    <node concept="1v6uyg" id="5TZVz1z1tBW" role="2wV5jI">
+      <property role="2oejA6" value="true" />
+      <node concept="3F0ifn" id="5TZVz1z1tCm" role="wsdo6">
+        <property role="3F0ifm" value="If set, it generates a dedicated flag into the viewmodel which can be used to efficiently update large parts of the table, avoiding that every minor change leads to a GUI layout." />
+      </node>
+      <node concept="2yq9I_" id="5TZVz1z1tC8" role="1j7Clw">
+        <ref role="225u1j" to="6ap2:FLNzGRzPCw" resolve="supportsUpdatingFlag" />
+        <node concept="jv8YD" id="5TZVz1z23fi" role="1563LE" />
+        <node concept="3F0ifn" id="5TZVz1z1tCa" role="2fqkNU">
+          <property role="3F0ifm" value="supports updating flag" />
         </node>
       </node>
     </node>
