@@ -106,6 +106,11 @@
     <property role="34LRSv" value="input" />
     <property role="3GE5qa" value="viewinputs" />
     <ref role="1TJDcQ" to="rtft:3JS2UjmRLkf" resolve="NamedStructType" />
+    <node concept="1TJgyi" id="5QmCreixejT" role="1TKVEl">
+      <property role="IQ2nx" value="6743755284663297273" />
+      <property role="TrG5h" value="hasParameters" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="3JS2UjmQXe4" role="PzmwI">
       <ref role="PrY4T" node="3JS2UjmQXe3" resolve="IViewContent" />
     </node>
@@ -712,6 +717,34 @@
       <property role="TrG5h" value="sensitiveState" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="5QmCreixcQJ">
+    <property role="EcuMT" value="6743755284663291311" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="ClickEvent" />
+    <property role="34LRSv" value="click event" />
+    <ref role="1TJDcQ" node="5QmCreitCpq" resolve="ViewComponentEvent" />
+  </node>
+  <node concept="1TIwiD" id="5QmCreixUQM">
+    <property role="EcuMT" value="6743755284663479730" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="FillTextEvent" />
+    <property role="34LRSv" value="fill event" />
+    <ref role="1TJDcQ" node="5QmCreitCpq" resolve="ViewComponentEvent" />
+  </node>
+  <node concept="1TIwiD" id="5QmCreizPTL">
+    <property role="EcuMT" value="6743755284663983729" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="SelectRowEvent" />
+    <property role="34LRSv" value="select event" />
+    <ref role="1TJDcQ" node="5QmCreitCpq" resolve="ViewComponentEvent" />
+  </node>
+  <node concept="1TIwiD" id="5QmCreiA45a">
+    <property role="EcuMT" value="6743755284664566090" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="LoadViewEvent" />
+    <property role="34LRSv" value="load event" />
+    <ref role="1TJDcQ" node="5QmCreitCpq" resolve="ViewComponentEvent" />
   </node>
 </model>
 

@@ -422,6 +422,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="65sofNQfAtx" role="3acgRq">
+      <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="6ap2:3JS2UjmQXcM" resolve="ViewInput" />
       <node concept="j$656" id="65sofNQfAtF" role="1lVwrX">
         <ref role="v9R2y" node="65sofNQfAtD" resolve="reduce_ViewInput" />
@@ -1110,8 +1111,8 @@
                     <ref role="3TtcxE" to="6ap2:3JS2UjmQXcP" resolve="contents" />
                   </node>
                 </node>
-                <node concept="v3k3i" id="5omiq7Wndcy" role="2OqNvi">
-                  <node concept="chp4Y" id="5omiq7Wndcz" role="v3oSu">
+                <node concept="v3k3i" id="5QmCreiHEbI" role="2OqNvi">
+                  <node concept="chp4Y" id="5QmCreiHElS" role="v3oSu">
                     <ref role="cht4Q" to="6ap2:3JS2UjmQXcM" resolve="ViewInput" />
                   </node>
                 </node>
@@ -6635,6 +6636,7 @@
   </node>
   <node concept="13MO4I" id="3A1HDQkz5Kp">
     <property role="TrG5h" value="reduce_HorizontalLayout" />
+    <property role="3GE5qa" value="viewmodel" />
     <ref role="3gUMe" to="6ap2:3A1HDQktRFJ" resolve="HorizontalLayout" />
     <node concept="312cEu" id="3A1HDQkz5Ku" role="13RCb5">
       <property role="TrG5h" value="Foo" />

@@ -23,9 +23,6 @@
       <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts">
         <property id="3011041337510726009" name="text" index="27$ltt" />
       </concept>
-      <concept id="5057557679938727839" name="ViewModelLanguage.structure.ViewContentDocComment" flags="ng" index="2DYY9Q">
-        <child id="1732176556423038857" name="lines" index="2lOMFJ" />
-      </concept>
       <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
         <child id="4143793920074545904" name="children" index="2HXGLH" />
       </concept>
@@ -58,6 +55,9 @@
       <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
+      <concept id="6743755284664566090" name="ViewModelLanguage.structure.LoadViewEvent" flags="ng" index="3f3I3T" />
+      <concept id="6743755284663291311" name="ViewModelLanguage.structure.ClickEvent" flags="ng" index="3f4AKs" />
+      <concept id="6743755284663983729" name="ViewModelLanguage.structure.SelectRowEvent" flags="ng" index="3f6vZ2" />
       <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
       <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
         <reference id="6743755284662355549" name="component" index="3fS2vI" />
@@ -89,7 +89,9 @@
         <child id="5984107031764840544" name="sensitivityFeature" index="2Pim73" />
         <child id="5984107031764840549" name="nameFeature" index="2Pim76" />
       </concept>
-      <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym" />
+      <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym">
+        <property id="6743755284663297273" name="hasParameters" index="3f4$la" />
+      </concept>
       <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_" />
       <concept id="4321216645069263618" name="ViewModelLanguage.structure.View" flags="ng" index="3H8XyA">
         <child id="4321216645069263669" name="contents" index="3H8Xyh" />
@@ -101,19 +103,8 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-    </language>
-    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
-        <property id="155656958578482949" name="value" index="3oM_SC" />
-      </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
-        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
@@ -190,6 +181,9 @@
   </registry>
   <node concept="3H8XyA" id="5QmCreig_jo">
     <property role="TrG5h" value="DiagnosticElementsView" />
+    <node concept="3f3I3T" id="5QmCreiBiSg" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+    </node>
     <node concept="3H8Xy_" id="5QmCreig_jp" role="3H8Xyx">
       <node concept="3KxLjU" id="5QmCreig_js" role="2P43km">
         <property role="XvDgr" value="true" />
@@ -385,49 +379,29 @@
         </node>
       </node>
     </node>
-    <node concept="3H8Xym" id="5QmCreig_jq" role="3H8Xyh">
-      <property role="TrG5h" value="LoadView" />
-      <node concept="2DYY9Q" id="4oK3uBJTW_U" role="lGtFl">
-        <node concept="1PaTwC" id="4oK3uBJTW_V" role="2lOMFJ">
-          <node concept="3oM_SD" id="4oK3uBJTW_Y" role="1PaTwD">
-            <property role="3oM_SC" value="Loads" />
-          </node>
-          <node concept="3oM_SD" id="4oK3uBJTWA0" role="1PaTwD">
-            <property role="3oM_SC" value="the" />
-          </node>
-          <node concept="3oM_SD" id="4oK3uBJTWA3" role="1PaTwD">
-            <property role="3oM_SC" value="diagnostics" />
-          </node>
-          <node concept="3oM_SD" id="4oK3uBJTWA7" role="1PaTwD">
-            <property role="3oM_SC" value="element" />
-          </node>
-          <node concept="3oM_SD" id="4oK3uBJTWAc" role="1PaTwD">
-            <property role="3oM_SC" value="view" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3fS2vD" id="5QmCreiu8h0" role="3H8Xyh">
+    <node concept="3f4AKs" id="5QmCreiyrEc" role="3H8Xyh">
       <property role="TrG5h" value="NewClicked" />
       <ref role="3fS2vI" node="5QmCreihV8$" resolve="btnNew" />
     </node>
-    <node concept="3fS2vD" id="4oK3uBKnKJM" role="3H8Xyh">
+    <node concept="3f4AKs" id="5QmCreiyrFj" role="3H8Xyh">
       <property role="TrG5h" value="RemoveClicked" />
       <ref role="3fS2vI" node="5QmCreihV98" resolve="btnRemove" />
     </node>
-    <node concept="3fS2vD" id="4oK3uBKnKKj" role="3H8Xyh">
+    <node concept="3f4AKs" id="5QmCreizPS1" role="3H8Xyh">
       <property role="TrG5h" value="MoveUpClicked" />
       <ref role="3fS2vI" node="5QmCreihV9G" resolve="btnMoveUp" />
     </node>
-    <node concept="3fS2vD" id="4oK3uBKnKLm" role="3H8Xyh">
+    <node concept="3f4AKs" id="5QmCreizPT4" role="3H8Xyh">
       <property role="TrG5h" value="MoveDownClicked" />
       <ref role="3fS2vI" node="5QmCreihVaG" resolve="btnMoveDown" />
     </node>
-    <node concept="3H8Xym" id="5QmCreihVdb" role="3H8Xyh">
+    <node concept="3f6vZ2" id="5QmCreiA43$" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
       <property role="TrG5h" value="TableRowSelected" />
-      <node concept="2P4x69" id="5QmCreihVdn" role="2P43km">
+      <ref role="3fS2vI" node="5QmCreig_js" resolve="elementsTable" />
+      <node concept="2P4x69" id="5QmCreiA43_" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
-        <node concept="2P4D6h" id="5QmCreihVdl" role="2P5Oin" />
+        <node concept="2P4D6h" id="5QmCreiA43A" role="2P5Oin" />
       </node>
     </node>
     <node concept="XALRX" id="FLNzGRu_Ug" role="3H8Xyh">
@@ -532,7 +506,7 @@
         </node>
       </node>
       <node concept="30nziD" id="5QmCreimN4x" role="30nzo2">
-        <ref role="30nziQ" node="5QmCreig_jq" resolve="LoadView" />
+        <ref role="30nziQ" node="5QmCreiBiSg" resolve="LoadView" />
       </node>
       <node concept="30nzp_" id="5QmCreimN4$" role="30nzpy">
         <ref role="30nzpS" node="5QmCreig_js" resolve="elementsTable" />

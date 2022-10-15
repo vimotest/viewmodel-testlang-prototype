@@ -69,10 +69,15 @@
       <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
+      <concept id="6743755284664566090" name="ViewModelLanguage.structure.LoadViewEvent" flags="ng" index="3f3I3T" />
+      <concept id="6743755284663291311" name="ViewModelLanguage.structure.ClickEvent" flags="ng" index="3f4AKs" />
       <concept id="6743755284656506190" name="ViewModelLanguage.structure.TextBoxComponent" flags="ng" index="3fyYjX">
         <child id="6743755284656506191" name="textFeature" index="3fyYjW" />
       </concept>
       <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
+      <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
+        <reference id="6743755284662355549" name="component" index="3fS2vI" />
+      </concept>
       <concept id="1369810475999939491" name="ViewModelLanguage.structure.DynamicTableComponent" flags="ng" index="3s_O3X">
         <child id="5984107031773674619" name="rowsFeature" index="2PKERo" />
       </concept>
@@ -111,8 +116,9 @@
       <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb">
         <child id="5984107031776721828" name="checkFeature" index="2PZ2C7" />
       </concept>
-      <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
-      <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym" />
+      <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym">
+        <property id="6743755284663297273" name="hasParameters" index="3f4$la" />
+      </concept>
       <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_">
         <property id="8491766643000808876" name="viewModelClassCustomName" index="1aiWlD" />
       </concept>
@@ -265,19 +271,18 @@
   <node concept="3H8XyA" id="3JS2UjmSmXC">
     <property role="TrG5h" value="MyView" />
     <property role="3GE5qa" value="sample" />
-    <node concept="3H8Xym" id="3JS2UjmUbmW" role="3H8Xyh">
+    <node concept="3f3I3T" id="5QmCreiBqsN" role="3H8Xyh">
       <property role="TrG5h" value="LoadView" />
-      <node concept="2P4x69" id="3JS2UjmUbnd" role="2P43km">
+      <property role="3f4$la" value="true" />
+      <node concept="2P4x69" id="5QmCreiEt1I" role="2P43km">
         <property role="TrG5h" value="Readonly" />
-        <node concept="2P4D6g" id="3JS2UjmUbnc" role="2P5Oin" />
+        <node concept="2P4D6g" id="5QmCreiEt1G" role="2P5Oin" />
       </node>
     </node>
-    <node concept="3H8Xwz" id="3JS2UjmUbn4" role="3H8Xyh" />
-    <node concept="3H8Xym" id="3JS2UjmTg0y" role="3H8Xyh">
-      <property role="TrG5h" value="ButtonClicked" />
+    <node concept="3f4AKs" id="5QmCreiBqtt" role="3H8Xyh">
+      <property role="TrG5h" value="OKClicked" />
+      <ref role="3fS2vI" node="2Yd1qrJQ3Fz" resolve="OK" />
     </node>
-    <node concept="3H8Xwz" id="3JS2UjmTHVk" role="3H8Xyh" />
-    <node concept="3H8Xwz" id="3JS2UjmSAGr" role="3H8Xyh" />
     <node concept="3H8Xy_" id="3JS2UjmSmXD" role="3H8Xyx">
       <node concept="3KxLjU" id="5WrZkWQ61QF" role="2P43km">
         <node concept="2Pim7P" id="5cbOqfAhtaR" role="2Pim73">
@@ -504,10 +509,10 @@
         </node>
       </node>
       <node concept="30nziD" id="2Yd1qrJZil5" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+        <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
       </node>
-      <node concept="30nziD" id="2Yd1qrJPAvl" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmTg0y" resolve="ButtonClicked" />
+      <node concept="30nziD" id="5QmCreiErpi" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreiBqtt" resolve="OKClicked" />
       </node>
       <node concept="30nzp_" id="2Yd1qrJQ3Gl" role="30nzpy">
         <ref role="30nzpS" node="2Yd1qrJQ3FR" resolve="Cancel" />
@@ -561,11 +566,11 @@
           <ref role="3KxGid" node="2Yd1qrJRMCb" resolve="ObjB" />
         </node>
       </node>
-      <node concept="30nziD" id="2Yd1qrJZila" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+      <node concept="30nziD" id="5QmCreiErpw" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
       </node>
-      <node concept="30nziD" id="2Yd1qrJRMCn" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmTg0y" resolve="ButtonClicked" />
+      <node concept="30nziD" id="5QmCreiErpp" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreiBqtt" resolve="OKClicked" />
       </node>
       <node concept="30nzp_" id="2Yd1qrJRMCo" role="30nzpy">
         <ref role="30nzpS" node="2Yd1qrJQ3Fz" resolve="OK" />
@@ -595,11 +600,11 @@
       <node concept="30kPmI" id="5WrZkWQqRIk" role="30nziE">
         <ref role="30kPmH" node="2Yd1qrJRMC4" />
       </node>
-      <node concept="30nziD" id="5WrZkWQqRIn" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+      <node concept="30nziD" id="5QmCreiErpB" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
       </node>
-      <node concept="30nziD" id="5WrZkWQqRIo" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmTg0y" resolve="ButtonClicked" />
+      <node concept="30nziD" id="5QmCreiErpC" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreiBqtt" resolve="OKClicked" />
       </node>
       <node concept="30nzp_" id="5WrZkWQqRIp" role="30nzpy">
         <ref role="30nzpS" node="5WrZkWQ61QF" resolve="table" />
@@ -698,8 +703,8 @@
           <property role="30lZVK" value="Star" />
         </node>
       </node>
-      <node concept="30nziD" id="7qebotZ8exo" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+      <node concept="30nziD" id="5QmCreiErpF" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
       </node>
       <node concept="30nzp_" id="7qebotZ8exq" role="30nzpy">
         <ref role="30nzpS" node="2s$w3BDyeOf" resolve="Icons" />
@@ -744,7 +749,7 @@
         </node>
       </node>
       <node concept="30nziD" id="5QmCrei9Vr_" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+        <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
       </node>
       <node concept="30kPmI" id="5QmCrei9VtM" role="30nziE">
         <ref role="30kPmH" node="2Yd1qrJRMC4" />
@@ -793,10 +798,10 @@
         <ref role="30kPmH" node="2Yd1qrJRMC4" />
       </node>
       <node concept="30nziD" id="fGbCOkzRtY" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmUbmW" resolve="LoadView" />
+        <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
       </node>
       <node concept="30nziD" id="fGbCOkzRtZ" role="30nzo2">
-        <ref role="30nziQ" node="3JS2UjmTg0y" resolve="ButtonClicked" />
+        <ref role="30nziQ" node="5QmCreiBqtt" resolve="OKClicked" />
       </node>
       <node concept="npJsE" id="fGbCOkzT9K" role="30nzpy">
         <property role="npJs_" value="Invalid input" />
