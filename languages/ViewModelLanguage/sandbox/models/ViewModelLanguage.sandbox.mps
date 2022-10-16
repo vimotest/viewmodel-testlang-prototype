@@ -26,6 +26,7 @@
         <child id="5878168047017215911" name="contents" index="2P43km" />
       </concept>
       <concept id="5878168047017124641" name="SimpleTypeLanguage.structure.BoolType" flags="ng" index="2P4D6g" />
+      <concept id="5878168047017124640" name="SimpleTypeLanguage.structure.StringType" flags="ng" index="2P4D6h" />
       <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
         <child id="5878168047017276966" name="type" index="2P5Oin" />
       </concept>
@@ -70,7 +71,9 @@
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
       <concept id="6743755284664566090" name="ViewModelLanguage.structure.LoadViewEvent" flags="ng" index="3f3I3T" />
+      <concept id="6743755284663479730" name="ViewModelLanguage.structure.FillTextEvent" flags="ng" index="3f4gK1" />
       <concept id="6743755284663291311" name="ViewModelLanguage.structure.ClickEvent" flags="ng" index="3f4AKs" />
+      <concept id="6743755284663983729" name="ViewModelLanguage.structure.SelectRowEvent" flags="ng" index="3f6vZ2" />
       <concept id="6743755284656506190" name="ViewModelLanguage.structure.TextBoxComponent" flags="ng" index="3fyYjX">
         <child id="6743755284656506191" name="textFeature" index="3fyYjW" />
       </concept>
@@ -116,6 +119,7 @@
       <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb">
         <child id="5984107031776721828" name="checkFeature" index="2PZ2C7" />
       </concept>
+      <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym">
         <property id="6743755284663297273" name="hasParameters" index="3f4$la" />
       </concept>
@@ -283,6 +287,7 @@
       <property role="TrG5h" value="OKClicked" />
       <ref role="3fS2vI" node="2Yd1qrJQ3Fz" resolve="OK" />
     </node>
+    <node concept="3H8Xwz" id="4XlUEZmnvsU" role="3H8Xyh" />
     <node concept="3H8Xy_" id="3JS2UjmSmXD" role="3H8Xyx">
       <node concept="3KxLjU" id="5WrZkWQ61QF" role="2P43km">
         <node concept="2Pim7P" id="5cbOqfAhtaR" role="2Pim73">
@@ -293,7 +298,7 @@
         </node>
         <node concept="2Pim7H" id="5cbOqfAhtaT" role="2Pim76">
           <property role="2PigO5" value="true" />
-          <property role="2PigPS" value="table" />
+          <property role="2PigPS" value="Table" />
         </node>
         <node concept="2PlBGF" id="5cbOqfAnXHh" role="2PlsDn">
           <property role="2PigO5" value="true" />
@@ -486,6 +491,28 @@
           <property role="2PigO5" value="true" />
           <property role="2PigPS" value="UserInput" />
         </node>
+      </node>
+    </node>
+    <node concept="3f4AKs" id="4XlUEZmnvt0" role="3H8Xyh">
+      <property role="TrG5h" value="CancelClicked" />
+      <ref role="3fS2vI" node="2Yd1qrJQ3FR" resolve="Cancel" />
+    </node>
+    <node concept="3f6vZ2" id="4XlUEZmnvt1" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="TableRowSelected" />
+      <ref role="3fS2vI" node="5WrZkWQ61QF" resolve="table" />
+      <node concept="2P4x69" id="4XlUEZmnvt2" role="2P43km">
+        <property role="TrG5h" value="rowHandle" />
+        <node concept="2P4D6h" id="4XlUEZmnvt3" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="4XlUEZmnvt4" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="UserInputFilled" />
+      <ref role="3fS2vI" node="5QmCrei9Oav" resolve="UserInput" />
+      <node concept="2P4x69" id="4XlUEZmnvt5" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="4XlUEZmnvt6" role="2P5Oin" />
       </node>
     </node>
   </node>
