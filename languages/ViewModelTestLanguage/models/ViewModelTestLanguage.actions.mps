@@ -216,7 +216,7 @@
                         </node>
                         <node concept="1mIQ4w" id="6wbjV0PUdWv" role="2OqNvi">
                           <node concept="chp4Y" id="6wbjV0PUe1H" role="cj9EA">
-                            <ref role="cht4Q" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
+                            <ref role="cht4Q" to="6ap2:FLNzGRzWqf" resolve="ButtonComponentBase" />
                           </node>
                         </node>
                       </node>

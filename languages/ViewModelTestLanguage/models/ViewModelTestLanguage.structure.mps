@@ -13,6 +13,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
@@ -46,6 +49,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -717,6 +721,41 @@
     <property role="EcuMT" value="6743755284656668770" />
     <property role="3GE5qa" value="assert.texbox" />
     <property role="TrG5h" value="ITextBoxCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="5QmCreipCA4">
+    <property role="EcuMT" value="6743755284661307780" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="SelectedIndexCheckValue" />
+    <property role="34LRSv" value="selected index" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5QmCreipCA5" role="1TKVEl">
+      <property role="IQ2nx" value="6743755284661307781" />
+      <property role="TrG5h" value="selectedIndex" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="5QmCreipCAa" role="PzmwI">
+      <ref role="PrY4T" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4oK3uBK7W76">
+    <property role="EcuMT" value="5057557679944221126" />
+    <property role="3GE5qa" value="test" />
+    <property role="TrG5h" value="HorizontalTestCaseAssertions" />
+    <property role="34LRSv" value="horizontal asserts" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4oK3uBK7W79" role="PzmwI">
+      <ref role="PrY4T" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
+    </node>
+    <node concept="1TJgyj" id="4oK3uBK7Wji" role="1TKVEi">
+      <property role="IQ2ns" value="5057557679944221906" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="asserts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
+    </node>
+    <node concept="t5JxF" id="4oK3uBK7Wjk" role="lGtFl">
+      <property role="t5JxN" value="Simple composite which is a helper concept to visually place viewasserts horizontally" />
+    </node>
   </node>
 </model>
 

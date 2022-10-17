@@ -7,12 +7,20 @@
   </languages>
   <imports>
     <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" />
+    <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
+      <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
+        <reference id="6054523464627965081" name="concept" index="trN6q" />
+      </concept>
+      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
+        <property id="7588428831955550663" name="role" index="Hh88m" />
+        <child id="7588428831947959310" name="attributed" index="EQaZv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -96,7 +104,13 @@
     <property role="EcuMT" value="4321216645069263666" />
     <property role="TrG5h" value="ViewInput" />
     <property role="34LRSv" value="input" />
+    <property role="3GE5qa" value="viewinputs" />
     <ref role="1TJDcQ" to="rtft:3JS2UjmRLkf" resolve="NamedStructType" />
+    <node concept="1TJgyi" id="5QmCreixejT" role="1TKVEl">
+      <property role="IQ2nx" value="6743755284663297273" />
+      <property role="TrG5h" value="hasParameters" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="3JS2UjmQXe4" role="PzmwI">
       <ref role="PrY4T" node="3JS2UjmQXe3" resolve="IViewContent" />
     </node>
@@ -135,13 +149,8 @@
     <property role="EcuMT" value="4321216645070110073" />
     <property role="TrG5h" value="ButtonComponent" />
     <property role="34LRSv" value="button" />
-    <property role="3GE5qa" value="viewcomponents" />
-    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
-    <node concept="1TJgyi" id="3JS2UjmUbQ1" role="1TKVEl">
-      <property role="IQ2nx" value="4321216645070110081" />
-      <property role="TrG5h" value="sensitiveState" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
+    <property role="3GE5qa" value="viewcomponents.button" />
+    <ref role="1TJDcQ" node="FLNzGRzWqf" resolve="ButtonComponentBase" />
   </node>
   <node concept="1TIwiD" id="3JS2UjmU$R8">
     <property role="EcuMT" value="4321216645070212552" />
@@ -193,10 +202,10 @@
   </node>
   <node concept="1TIwiD" id="53FN52wrdyE">
     <property role="EcuMT" value="5830978789222176938" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableComponent" />
     <property role="34LRSv" value="table" />
-    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="TableComponentBase" />
     <node concept="1TJgyj" id="5cbOqfAnxJO" role="1TKVEi">
       <property role="IQ2ns" value="5984107031766637556" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -204,10 +213,17 @@
       <property role="20kJfa" value="rowsFeature" />
       <ref role="20lvS9" node="5cbOqfAnqE8" resolve="TableRowsVCFeature" />
     </node>
+    <node concept="1TJgyj" id="5QmCreinPWV" role="1TKVEi">
+      <property role="IQ2ns" value="6743755284660838203" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="selectedRowFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5QmCreinPWR" resolve="SelectedRowVCFeature" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5WrZkWQ5bAq">
     <property role="EcuMT" value="6853349774625913242" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableRowComponent" />
     <property role="34LRSv" value="table-row" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -221,7 +237,7 @@
   </node>
   <node concept="1TIwiD" id="5WrZkWQ5bAr">
     <property role="EcuMT" value="6853349774625913243" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableCellComponent" />
     <property role="34LRSv" value="cell" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
@@ -240,7 +256,7 @@
   </node>
   <node concept="1TIwiD" id="5WrZkWQ789B">
     <property role="EcuMT" value="6853349774626423399" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableCellHeader" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5WrZkWQ789C" role="PzmwI">
@@ -259,6 +275,11 @@
       <property role="20kJfa" value="textFeature" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2B9nyiIm0_S" resolve="TextVCFeature" />
+    </node>
+    <node concept="1TJgyi" id="5QmCreik75d" role="1TKVEl">
+      <property role="IQ2nx" value="6743755284659859789" />
+      <property role="TrG5h" value="sampleText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="5WrZkWQ81ok">
@@ -376,10 +397,10 @@
   </node>
   <node concept="1TIwiD" id="1c2yPVf_sIz">
     <property role="EcuMT" value="1369810475999939491" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="DynamicTableComponent" />
     <property role="34LRSv" value="dynamic table" />
-    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="TableComponentBase" />
     <node concept="1TJgyj" id="5cbOqfAMnLV" role="1TKVEi">
       <property role="IQ2ns" value="5984107031773674619" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -407,10 +428,10 @@
   </node>
   <node concept="1TIwiD" id="3A1HDQku_lz">
     <property role="EcuMT" value="4143793920074732899" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.button" />
     <property role="TrG5h" value="ImageButtonComponent" />
     <property role="34LRSv" value="image button" />
-    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <ref role="1TJDcQ" node="FLNzGRzWqf" resolve="ButtonComponentBase" />
     <node concept="1TJgyj" id="3A1HDQku_NZ" role="1TKVEi">
       <property role="IQ2ns" value="4143793920074734847" />
       <property role="20kJfa" value="image" />
@@ -583,6 +604,147 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2B9nyiIm0_S" resolve="TextVCFeature" />
     </node>
+    <node concept="1TJgyi" id="3VvzM8u5ZZL" role="1TKVEl">
+      <property role="IQ2nx" value="4530497126854557681" />
+      <property role="TrG5h" value="sampleText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5QmCreinPWR">
+    <property role="EcuMT" value="6743755284660838199" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="SelectedRowVCFeature" />
+    <property role="34LRSv" value="selected row feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyi" id="5QmCreinPWT" role="1TKVEl">
+      <property role="IQ2nx" value="6743755284660838201" />
+      <property role="TrG5h" value="selectedRowHandle" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4oK3uBJMYYv">
+    <property role="EcuMT" value="5057557679938727839" />
+    <property role="TrG5h" value="ViewContentDocComment" />
+    <property role="3GE5qa" value="doc" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyj" id="1w9VmqdQGu9" role="1TKVEi">
+      <property role="IQ2ns" value="1732176556423038857" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lines" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="zqge:2cLqkTm6J5A" resolve="Line" />
+    </node>
+    <node concept="M6xJ_" id="4oK3uBJMZaN" role="lGtFl">
+      <property role="Hh88m" value="docComment" />
+      <node concept="trNpa" id="4oK3uBJMZaP" role="EQaZv">
+        <ref role="trN6q" node="3JS2UjmQXe3" resolve="IViewContent" />
+      </node>
+    </node>
+    <node concept="t5JxF" id="4oK3uBJU2DG" role="lGtFl">
+      <property role="t5JxN" value="Note: oriented on baselanguage's MethodDocComment &amp; MultiLineComment" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5QmCreitCpq">
+    <property role="EcuMT" value="6743755284662355546" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="ViewComponentEvent" />
+    <property role="34LRSv" value="event" />
+    <ref role="1TJDcQ" node="3JS2UjmQXcM" resolve="ViewInput" />
+    <node concept="1TJgyj" id="5QmCreitCpt" role="1TKVEi">
+      <property role="IQ2ns" value="6743755284662355549" />
+      <property role="20kJfa" value="component" />
+      <ref role="20lvS9" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="FLNzGRqHf6">
+    <property role="EcuMT" value="788638163494687686" />
+    <property role="TrG5h" value="ViewCallback" />
+    <property role="3GE5qa" value="callbacks" />
+    <property role="34LRSv" value="callback" />
+    <ref role="1TJDcQ" to="rtft:3JS2UjmRLkf" resolve="NamedStructType" />
+    <node concept="1TJgyj" id="FLNzGRqHZi" role="1TKVEi">
+      <property role="IQ2ns" value="788638163494690770" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="result" />
+      <ref role="20lvS9" node="FLNzGRqHBn" resolve="ViewCallbackResult" />
+    </node>
+    <node concept="PrWs8" id="FLNzGRqHBl" role="PzmwI">
+      <ref role="PrY4T" node="3JS2UjmQXe3" resolve="IViewContent" />
+    </node>
+    <node concept="1TJgyi" id="FLNzGRr5w6" role="1TKVEl">
+      <property role="IQ2nx" value="788638163494787078" />
+      <property role="TrG5h" value="hasResult" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="FLNzGRswPA" role="1TKVEl">
+      <property role="IQ2nx" value="788638163495161190" />
+      <property role="TrG5h" value="isMessageBox" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="FLNzGRtkuC" role="1TKVEl">
+      <property role="IQ2nx" value="788638163495372712" />
+      <property role="TrG5h" value="indicatesErrors" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="FLNzGRqHBn">
+    <property role="EcuMT" value="788638163494689239" />
+    <property role="3GE5qa" value="callbacks" />
+    <property role="TrG5h" value="ViewCallbackResult" />
+    <property role="34LRSv" value="result" />
+    <ref role="1TJDcQ" to="rtft:56jsF7$wmcE" resolve="StructType" />
+  </node>
+  <node concept="1TIwiD" id="FLNzGRzW2J">
+    <property role="TrG5h" value="TableComponentBase" />
+    <property role="3GE5qa" value="viewcomponents.table" />
+    <property role="EcuMT" value="788638163497079861" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyi" id="FLNzGRzPCw" role="1TKVEl">
+      <property role="IQ2nx" value="788638163497081376" />
+      <property role="TrG5h" value="supportsUpdatingFlag" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="FLNzGRzWqf">
+    <property role="TrG5h" value="ButtonComponentBase" />
+    <property role="3GE5qa" value="viewcomponents.button" />
+    <property role="EcuMT" value="788638163497081378" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyi" id="3JS2UjmUbQ1" role="1TKVEl">
+      <property role="IQ2nx" value="4321216645070110081" />
+      <property role="TrG5h" value="sensitiveState" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5QmCreixcQJ">
+    <property role="EcuMT" value="6743755284663291311" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="ClickEvent" />
+    <property role="34LRSv" value="click event" />
+    <ref role="1TJDcQ" node="5QmCreitCpq" resolve="ViewComponentEvent" />
+  </node>
+  <node concept="1TIwiD" id="5QmCreixUQM">
+    <property role="EcuMT" value="6743755284663479730" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="FillTextEvent" />
+    <property role="34LRSv" value="fill event" />
+    <ref role="1TJDcQ" node="5QmCreitCpq" resolve="ViewComponentEvent" />
+  </node>
+  <node concept="1TIwiD" id="5QmCreizPTL">
+    <property role="EcuMT" value="6743755284663983729" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="SelectRowEvent" />
+    <property role="34LRSv" value="select event" />
+    <ref role="1TJDcQ" node="5QmCreitCpq" resolve="ViewComponentEvent" />
+  </node>
+  <node concept="1TIwiD" id="5QmCreiA45a">
+    <property role="EcuMT" value="6743755284664566090" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="LoadViewEvent" />
+    <property role="34LRSv" value="load event" />
+    <ref role="1TJDcQ" node="5QmCreitCpq" resolve="ViewComponentEvent" />
   </node>
 </model>
 
