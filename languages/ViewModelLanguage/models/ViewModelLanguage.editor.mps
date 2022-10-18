@@ -63,12 +63,8 @@
       <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
-        <child id="2597348684684069742" name="contextHints" index="CpUAK" />
       </concept>
       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
-      <concept id="6822301196700715228" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclarationReference" flags="ig" index="2aJ2om">
-        <reference id="5944657839026714445" name="hint" index="2$4xQ3" />
-      </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
@@ -94,25 +90,17 @@
         <child id="8478191136883534238" name="features" index="upBLP" />
       </concept>
       <concept id="1177335944525" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_SubstituteString" flags="in" index="uGdhv" />
-      <concept id="4242538589859161874" name="jetbrains.mps.lang.editor.structure.ExplicitHintsSpecification" flags="ng" index="2w$q5c">
-        <child id="4242538589859162459" name="hints" index="2w$qW5" />
-      </concept>
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
       <concept id="8371900013785948369" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_Parameter" flags="ig" index="2$S_p_" />
-      <concept id="5944657839000868711" name="jetbrains.mps.lang.editor.structure.ConceptEditorContextHints" flags="ig" index="2ABfQD">
-        <child id="5944657839000877563" name="hints" index="2ABdcP" />
-      </concept>
-      <concept id="5944657839003601246" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclaration" flags="ig" index="2BsEeg">
-        <property id="168363875802087287" name="showInUI" index="2gpH_U" />
-        <property id="5944657839012629576" name="presentation" index="2BUmq6" />
-      </concept>
       <concept id="308059530142752797" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Parameterized" flags="ng" index="2F$Pav">
         <child id="8371900013785948359" name="part" index="2$S_pN" />
         <child id="8371900013785948365" name="parameterQuery" index="2$S_pT" />
       </concept>
-      <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
+      <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW">
+        <child id="7033942394258392116" name="overridenEditorComponent" index="1PM95z" />
+      </concept>
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
@@ -186,9 +174,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
-      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
-        <child id="5861024100072578575" name="addHints" index="3xwHhi" />
-      </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1176474535556" name="jetbrains.mps.lang.editor.structure.QueryFunction_JComponent" flags="in" index="3Fmcul" />
       <concept id="1225898583838" name="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" flags="ng" index="1HfYo3">
@@ -196,6 +182,9 @@
       </concept>
       <concept id="1225900081164" name="jetbrains.mps.lang.editor.structure.CellModel_ReadOnlyModelAccessor" flags="sg" stub="3708815482283559694" index="1HlG4h">
         <child id="1225900141900" name="modelAccessor" index="1HlULh" />
+      </concept>
+      <concept id="7033942394256351208" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclarationReference" flags="ng" index="1PE4EZ">
+        <reference id="7033942394256351817" name="editorComponent" index="1PE7su" />
       </concept>
       <concept id="1161622981231" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1Q80Hx" />
       <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
@@ -1029,15 +1018,15 @@
             <property role="2USNnj" value="gtbM8PH/underlined" />
           </node>
         </node>
-        <node concept="2iRkQZ" id="3VvzM8u2KS8" role="2iSdaV" />
-        <node concept="3F1sOY" id="3VvzM8tXoo2" role="3EZMnx">
+        <node concept="1iCGBv" id="4XlUEZmsFZT" role="3EZMnx">
           <ref role="1NtTu8" to="6ap2:5WrZkWQ5bAu" resolve="content" />
-          <node concept="2w$q5c" id="3VvzM8tZejs" role="3xwHhi">
-            <node concept="2aJ2om" id="3VvzM8tZejt" role="2w$qW5">
-              <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
+          <node concept="1sVBvm" id="4XlUEZmsFZV" role="1sWHZn">
+            <node concept="PMmxH" id="4XlUEZmsG04" role="2wV5jI">
+              <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
             </node>
           </node>
         </node>
+        <node concept="2iRkQZ" id="3VvzM8u2KS8" role="2iSdaV" />
         <node concept="pVoyu" id="3VvzM8u2Mol" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1395,6 +1384,7 @@
       <node concept="3F0A7n" id="5WrZkWQ7ZIp" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
+      <node concept="2iRfu4" id="5WrZkWQ7ZIx" role="2iSdaV" />
       <node concept="3gTLQM" id="5WrZkWQ7ZIq" role="3EZMnx">
         <node concept="3Fmcul" id="5WrZkWQ7ZIr" role="3FoqZy">
           <node concept="3clFbS" id="5WrZkWQ7ZIs" role="2VODD2">
@@ -1409,7 +1399,6 @@
           </node>
         </node>
       </node>
-      <node concept="2iRfu4" id="5WrZkWQ7ZIx" role="2iSdaV" />
     </node>
     <node concept="PMmxH" id="3VvzM8u5ZS$" role="6VMZX">
       <ref role="PMmxG" node="3VvzM8u00RU" resolve="LabelComponent_details_EditorComponent" />
@@ -1942,16 +1931,6 @@
       <ref role="PMmxG" node="3VvzM8u01Ab" resolve="TextBoxComponent_details_EditorComponent" />
     </node>
   </node>
-  <node concept="24kQdi" id="3VvzM8tY7u4">
-    <property role="3GE5qa" value="viewcomponents.image" />
-    <ref role="1XX52x" to="6ap2:5WrZkWQ81ok" resolve="ImageComponent" />
-    <node concept="2aJ2om" id="3VvzM8tY7Q1" role="CpUAK">
-      <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
-    </node>
-    <node concept="PMmxH" id="3VvzM8tY7u9" role="2wV5jI">
-      <ref role="PMmxG" node="3VvzM8tY5Ot" resolve="ImageComponent_details_EditorComponent" />
-    </node>
-  </node>
   <node concept="PKFIW" id="3VvzM8u00RU">
     <property role="TrG5h" value="LabelComponent_details_EditorComponent" />
     <property role="3GE5qa" value="viewcomponents.label" />
@@ -1971,6 +1950,9 @@
         <property role="1O74Pk" value="true" />
         <ref role="1NtTu8" to="6ap2:5QmCreik75d" resolve="sampleText" />
       </node>
+    </node>
+    <node concept="1PE4EZ" id="4XlUEZmsEl6" role="1PM95z">
+      <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="PKFIW" id="3VvzM8tY5Ot">
@@ -1992,24 +1974,8 @@
       </node>
       <node concept="l2Vlx" id="3VvzM8tY5Oz" role="2iSdaV" />
     </node>
-  </node>
-  <node concept="2ABfQD" id="3VvzM8tY7Er">
-    <property role="3GE5qa" value="viewcomponents" />
-    <property role="TrG5h" value="ShowInspectorHint" />
-    <node concept="2BsEeg" id="3VvzM8tY7PZ" role="2ABdcP">
-      <property role="2gpH_U" value="true" />
-      <property role="TrG5h" value="showInspector" />
-      <property role="2BUmq6" value="show inspector" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="3VvzM8tZYut">
-    <property role="3GE5qa" value="viewcomponents.imagestack" />
-    <ref role="1XX52x" to="6ap2:2s$w3BDwT79" resolve="ImageStackComponent" />
-    <node concept="2aJ2om" id="3VvzM8tZYQD" role="CpUAK">
-      <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
-    </node>
-    <node concept="PMmxH" id="3VvzM8tZZ41" role="2wV5jI">
-      <ref role="PMmxG" node="3VvzM8tZYRZ" resolve="ImageStackComponent_details_EditorComponent" />
+    <node concept="1PE4EZ" id="4XlUEZmt8$C" role="1PM95z">
+      <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="PKFIW" id="3VvzM8u001v">
@@ -2019,15 +1985,8 @@
     <node concept="PMmxH" id="3VvzM8u001w" role="2wV5jI">
       <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
     </node>
-  </node>
-  <node concept="24kQdi" id="3VvzM8u00Ek">
-    <property role="3GE5qa" value="viewcomponents.label" />
-    <ref role="1XX52x" to="6ap2:5WrZkWQ7ZzE" resolve="LabelComponent" />
-    <node concept="2aJ2om" id="3VvzM8u00Re" role="CpUAK">
-      <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
-    </node>
-    <node concept="PMmxH" id="3VvzM8u00RW" role="2wV5jI">
-      <ref role="PMmxG" node="3VvzM8u00RU" resolve="LabelComponent_details_EditorComponent" />
+    <node concept="1PE4EZ" id="4XlUEZmt8$A" role="1PM95z">
+      <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="PKFIW" id="3VvzM8tZZvC">
@@ -2037,15 +1996,8 @@
     <node concept="PMmxH" id="3VvzM8tZZvD" role="2wV5jI">
       <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
     </node>
-  </node>
-  <node concept="24kQdi" id="3VvzM8u01cb">
-    <property role="3GE5qa" value="viewcomponents.textbox" />
-    <ref role="1XX52x" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
-    <node concept="2aJ2om" id="3VvzM8u01ps" role="CpUAK">
-      <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
-    </node>
-    <node concept="PMmxH" id="3VvzM8u01Ad" role="2wV5jI">
-      <ref role="PMmxG" node="3VvzM8u01Ab" resolve="TextBoxComponent_details_EditorComponent" />
+    <node concept="1PE4EZ" id="4XlUEZmt8$y" role="1PM95z">
+      <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="PKFIW" id="3VvzM8u01Ab">
@@ -2067,6 +2019,9 @@
         <property role="1O74Pk" value="true" />
         <ref role="1NtTu8" to="6ap2:3VvzM8u5ZZL" resolve="sampleText" />
       </node>
+    </node>
+    <node concept="1PE4EZ" id="4XlUEZmt8$E" role="1PM95z">
+      <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="PKFIW" id="3VvzM8u0MI6">
@@ -2094,25 +2049,8 @@
       </node>
       <node concept="l2Vlx" id="3VvzM8u0MIe" role="2iSdaV" />
     </node>
-  </node>
-  <node concept="24kQdi" id="3VvzM8tZZNT">
-    <property role="3GE5qa" value="viewcomponents.checkbox" />
-    <ref role="1XX52x" to="6ap2:3JS2UjmUCiJ" resolve="CheckBoxComponent" />
-    <node concept="2aJ2om" id="3VvzM8u000N" role="CpUAK">
-      <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
-    </node>
-    <node concept="PMmxH" id="3VvzM8u00cU" role="2wV5jI">
-      <ref role="PMmxG" node="3VvzM8u001v" resolve="CheckBoxComponent_details_EditorComponent" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="3VvzM8tZZhY">
-    <property role="3GE5qa" value="viewcomponents.button" />
-    <ref role="1XX52x" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
-    <node concept="2aJ2om" id="3VvzM8tZZuW" role="CpUAK">
-      <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
-    </node>
-    <node concept="PMmxH" id="3VvzM8tZZvE" role="2wV5jI">
-      <ref role="PMmxG" node="3VvzM8tZZvC" resolve="ButtonComponent_details_EditorComponent" />
+    <node concept="1PE4EZ" id="4XlUEZmt8$$" role="1PM95z">
+      <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="PKFIW" id="3VvzM8tZYRZ">
@@ -2122,15 +2060,8 @@
     <node concept="3F1sOY" id="3VvzM8tZYS0" role="2wV5jI">
       <ref role="1NtTu8" to="6ap2:2s$w3BDwTjy" resolve="imageLayersFeature" />
     </node>
-  </node>
-  <node concept="24kQdi" id="3VvzM8u0MT3">
-    <property role="3GE5qa" value="viewcomponents.button" />
-    <ref role="1XX52x" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
-    <node concept="2aJ2om" id="3VvzM8u0N5L" role="CpUAK">
-      <ref role="2$4xQ3" node="3VvzM8tY7PZ" resolve="showInspector" />
-    </node>
-    <node concept="PMmxH" id="3VvzM8u0MTf" role="2wV5jI">
-      <ref role="PMmxG" node="3VvzM8u0MI6" resolve="ImageButtonComponent_details_EditorComponent" />
+    <node concept="1PE4EZ" id="4XlUEZmt8$w" role="1PM95z">
+      <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="24kQdi" id="4oK3uBJMZZb">
@@ -2836,6 +2767,14 @@
           <property role="3F0ifm" value="supports updating flag" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4XlUEZmsEdv">
+    <property role="3GE5qa" value="viewcomponents" />
+    <property role="TrG5h" value="ViewComponent_details_EditorComponent" />
+    <ref role="1XX52x" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="PMmxH" id="4XlUEZmsEl2" role="2wV5jI">
+      <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
     </node>
   </node>
 </model>
