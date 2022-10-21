@@ -475,7 +475,7 @@
       <node concept="30nyDl" id="5QmCreimN3T" role="30nziG">
         <property role="30nzmz" value="Load with one element" />
         <node concept="30nyDi" id="5QmCreimN3U" role="30nyDj">
-          <property role="30lZVK" value="One Element A" />
+          <property role="30lZVK" value="Element A" />
         </node>
         <node concept="30nyDi" id="5QmCreimN3V" role="30nyDh">
           <property role="30lZVK" value="Load View" />
@@ -576,6 +576,165 @@
           <ref role="30nzpS" node="5QmCreihVaG" resolve="btnMoveDown" />
           <node concept="30nzp7" id="5QmCreinLfP" role="30nDbQ">
             <node concept="30nzps" id="5QmCreinLfQ" role="30nzpp" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="PE83X0Gwv4" role="30n1Qb">
+      <node concept="30nyDl" id="PE83X0Gwv5" role="30nziG">
+        <property role="30nzmz" value="Load with two elements" />
+        <node concept="30nyDi" id="PE83X0Gwv6" role="30nyDj">
+          <property role="30lZVK" value="Element A" />
+        </node>
+        <node concept="30nyDi" id="PE83X0Gwxb" role="30nyDj">
+          <property role="30lZVK" value="Element B" />
+        </node>
+        <node concept="30nyDi" id="PE83X0Gwv7" role="30nyDh">
+          <property role="30lZVK" value="Load View" />
+        </node>
+        <node concept="30nyDi" id="PE83X0Gwv8" role="30nyDs">
+          <property role="30lZVK" value="Table shows Element A in state Active" />
+        </node>
+        <node concept="30nyDi" id="PE83X0Gwxe" role="30nyDs">
+          <property role="30lZVK" value="Table shows Element B in state Active" />
+        </node>
+        <node concept="30nyDi" id="PE83X0Gwv9" role="30nyDs">
+          <property role="30lZVK" value="First row is selected" />
+        </node>
+        <node concept="30nyDi" id="PE83X0Gwva" role="30nyDs">
+          <property role="30lZVK" value="New button is enabled" />
+        </node>
+        <node concept="30nyDi" id="PE83X0Gwvb" role="30nyDs">
+          <property role="30lZVK" value="Remove button is enabled" />
+        </node>
+        <node concept="30nyDi" id="PE83X0Gwvc" role="30nyDs">
+          <property role="30lZVK" value="Move buttons are enabled" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="PE83X0Gwvd" role="30nziE">
+        <node concept="30k8jF" id="PE83X0Gwve" role="30k8ga">
+          <property role="TrG5h" value="Element_A" />
+          <node concept="30k8jQ" id="PE83X0Gwvf" role="30k8js">
+            <property role="TrG5h" value="name" />
+            <property role="30k8jP" value="Element A" />
+          </node>
+        </node>
+        <node concept="30k8jF" id="PE83X0Gwxl" role="30k8ga">
+          <property role="TrG5h" value="Element_B" />
+          <node concept="30k8jQ" id="PE83X0Gwxm" role="30k8js">
+            <property role="TrG5h" value="name" />
+            <property role="30k8jP" value="Element B" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="PE83X0Gwvg" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreiBiSg" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="PE83X0Gwvh" role="30nzpy">
+        <ref role="30nzpS" node="5QmCreig_js" resolve="elementsTable" />
+        <node concept="1Dvt9M" id="PE83X0Gwvi" role="30nDbQ">
+          <node concept="1Dvt89" id="PE83X0Gwvj" role="2D8nNu">
+            <node concept="1u3WYF" id="PE83X0Gwvk" role="1Dvt80">
+              <node concept="1u6pYw" id="PE83X0Gwvl" role="1u3WYG">
+                <node concept="1u6r32" id="PE83X0Gwvm" role="1u6pWF">
+                  <ref role="1u6r35" node="5QmCreihqNU" resolve="Active" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="PE83X0Gwvn" role="1Dvt80">
+              <node concept="2D8cJI" id="PE83X0Gwvo" role="1u3WYG">
+                <node concept="30nz6$" id="PE83X0Gwvp" role="2D8cJs">
+                  <property role="30nz6_" value="Element_A" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="PE83X0Gwvq" role="1Dvt80">
+              <node concept="2D8cJI" id="PE83X0Gwvr" role="1u3WYG">
+                <node concept="30nz6$" id="PE83X0Gwvs" role="2D8cJs">
+                  <property role="30nz6_" value="Element A" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="PE83X0Gwvt" role="1Dvt80">
+              <node concept="2D8cJI" id="PE83X0Gwvu" role="1u3WYG">
+                <node concept="30nz6$" id="PE83X0Gwvv" role="2D8cJs" />
+              </node>
+            </node>
+            <node concept="1u3WYF" id="PE83X0Gwvw" role="1Dvt80">
+              <node concept="2D8cJI" id="PE83X0Gwvx" role="1u3WYG">
+                <node concept="30nz6$" id="PE83X0Gwvy" role="2D8cJs" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Dvt89" id="PE83X0II7I" role="2D8nNu">
+            <node concept="1u3WYF" id="PE83X0II7J" role="1Dvt80">
+              <node concept="1u6pYw" id="PE83X0II7K" role="1u3WYG">
+                <node concept="1u6r32" id="PE83X0II7L" role="1u6pWF">
+                  <ref role="1u6r35" node="5QmCreihqNU" resolve="Active" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="PE83X0II7M" role="1Dvt80">
+              <node concept="2D8cJI" id="PE83X0II7N" role="1u3WYG">
+                <node concept="30nz6$" id="PE83X0II7O" role="2D8cJs">
+                  <property role="30nz6_" value="Element_B" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="PE83X0II7P" role="1Dvt80">
+              <node concept="2D8cJI" id="PE83X0II7Q" role="1u3WYG">
+                <node concept="30nz6$" id="PE83X0II7R" role="2D8cJs">
+                  <property role="30nz6_" value="Element B" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="PE83X0II7S" role="1Dvt80">
+              <node concept="2D8cJI" id="PE83X0II7T" role="1u3WYG">
+                <node concept="30nz6$" id="PE83X0II7U" role="2D8cJs" />
+              </node>
+            </node>
+            <node concept="1u3WYF" id="PE83X0II7V" role="1Dvt80">
+              <node concept="2D8cJI" id="PE83X0II7W" role="1u3WYG">
+                <node concept="30nz6$" id="PE83X0II7X" role="2D8cJs" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fW2wR" id="PE83X0Gwvz" role="1Dvt9K">
+            <property role="3fW2wQ" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="PE83X0Gwv$" role="30nzpy">
+        <node concept="30nzp_" id="PE83X0Gwv_" role="2QbW$V">
+          <ref role="30nzpS" node="5QmCreihV8$" resolve="btnNew" />
+          <node concept="30nzp7" id="PE83X0GwvA" role="30nDbQ">
+            <node concept="30nzps" id="PE83X0GwvB" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="PE83X0GwvC" role="2QbW$V">
+          <ref role="30nzpS" node="5QmCreihV98" resolve="btnRemove" />
+          <node concept="30nzp7" id="PE83X0GwvD" role="30nDbQ">
+            <node concept="30nzps" id="PE83X0GwvE" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="PE83X0GwvF" role="2QbW$V">
+          <ref role="30nzpS" node="5QmCreihV9G" resolve="btnMoveUp" />
+          <node concept="30nzp7" id="PE83X0GwvG" role="30nDbQ">
+            <node concept="30nzps" id="PE83X0GwvH" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="PE83X0GwvI" role="2QbW$V">
+          <ref role="30nzpS" node="5QmCreihVaG" resolve="btnMoveDown" />
+          <node concept="30nzp7" id="PE83X0GwvJ" role="30nDbQ">
+            <node concept="30nzps" id="PE83X0GwvK" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
           </node>
         </node>
       </node>
