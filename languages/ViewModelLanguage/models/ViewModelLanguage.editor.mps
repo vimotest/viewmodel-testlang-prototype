@@ -29,6 +29,7 @@
     <import index="zyr2" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.inspector(MPS.Editor/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
@@ -107,9 +108,11 @@
       <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
+        <child id="1186403803051" name="query" index="VblUZ" />
       </concept>
       <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
+      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="615427434521884870" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Subconcepts" flags="ng" index="2VfDsV" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
@@ -192,6 +195,7 @@
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
+      <concept id="1176809959526" name="jetbrains.mps.lang.editor.structure.QueryFunction_Color" flags="in" index="3ZlJ5R" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
@@ -226,6 +230,9 @@
       <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
         <child id="1081256993305" name="classType" index="2ZW6by" />
         <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
@@ -1314,6 +1321,33 @@
       </node>
     </node>
     <node concept="3EZMnI" id="5WrZkWQ9e8K" role="2wV5jI">
+      <node concept="Veino" id="4XlUEZmwXqB" role="3F10Kt">
+        <node concept="3ZlJ5R" id="4XlUEZmwXqC" role="VblUZ">
+          <node concept="3clFbS" id="4XlUEZmwXqD" role="2VODD2">
+            <node concept="3clFbJ" id="4XlUEZmwXqE" role="3cqZAp">
+              <node concept="3fqX7Q" id="4XlUEZmxjcr" role="3clFbw">
+                <node concept="2OqwBi" id="4XlUEZmxjct" role="3fr31v">
+                  <node concept="pncrf" id="4XlUEZmxjcu" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="4XlUEZmxjcv" role="2OqNvi">
+                    <ref role="3TsBF5" to="6ap2:5WrZkWQ5RDj" resolve="visible" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="4XlUEZmwXqI" role="3clFbx">
+                <node concept="3cpWs6" id="4XlUEZmwXqJ" role="3cqZAp">
+                  <node concept="10M0yZ" id="4XlUEZmwXqK" role="3cqZAk">
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                    <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="4XlUEZmwXqL" role="3cqZAp">
+              <node concept="10Nm6u" id="4XlUEZmwXqM" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="2iRfu4" id="5WrZkWQ9e8L" role="2iSdaV" />
       <node concept="3EZMnI" id="5WrZkWQ9e7N" role="3EZMnx">
         <node concept="2iRfu4" id="5WrZkWQ9e7O" role="2iSdaV" />
@@ -1372,6 +1406,31 @@
     <ref role="1XX52x" to="6ap2:5WrZkWQ789B" resolve="TableCellHeader" />
     <node concept="3F0A7n" id="5WrZkWQ789N" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      <node concept="Veino" id="4XlUEZmw97W" role="3F10Kt">
+        <node concept="3ZlJ5R" id="4XlUEZmw97Y" role="VblUZ">
+          <node concept="3clFbS" id="4XlUEZmw97Z" role="2VODD2">
+            <node concept="3clFbJ" id="4XlUEZmw9c4" role="3cqZAp">
+              <node concept="2OqwBi" id="4XlUEZmw9tk" role="3clFbw">
+                <node concept="pncrf" id="4XlUEZmw9g6" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4XlUEZmw9wS" role="2OqNvi">
+                  <ref role="3TsBF5" to="6ap2:4XlUEZmw93N" resolve="indicateInvisible" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="4XlUEZmw9c6" role="3clFbx">
+                <node concept="3cpWs6" id="4XlUEZmw9zI" role="3cqZAp">
+                  <node concept="10M0yZ" id="4XlUEZmw9JU" role="3cqZAk">
+                    <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="4XlUEZmw9Kv" role="3cqZAp">
+              <node concept="10Nm6u" id="4XlUEZmw9KT" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ7ZIl">
