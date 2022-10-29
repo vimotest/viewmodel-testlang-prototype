@@ -429,6 +429,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6wbjV0Q180r" resolve="TableCellCheck" />
     </node>
+    <node concept="1TJgyj" id="7kmg1RAnxGl" role="1TKVEi">
+      <property role="IQ2ns" value="8437001449088359189" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5Nv$Fuakv50" resolve="ITableRowCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="zI3UExNGh4">
     <property role="EcuMT" value="643469022294099012" />
@@ -756,6 +763,28 @@
     <node concept="t5JxF" id="4oK3uBK7Wjk" role="lGtFl">
       <property role="t5JxN" value="Simple composite which is a helper concept to visually place viewasserts horizontally" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="5Nv$Fuakv4J">
+    <property role="EcuMT" value="6692228888293142831" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="ColorCheckValue" />
+    <property role="34LRSv" value="color" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5Nv$Fuakv4P" role="PzmwI">
+      <ref role="PrY4T" node="5Nv$Fuakv50" resolve="ITableRowCheckValue" />
+    </node>
+    <node concept="1TJgyj" id="5Nv$Fuakv51" role="1TKVEi">
+      <property role="IQ2ns" value="6692228888293142849" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="color" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="6ap2:5Nv$FuahBIW" resolve="ColorValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5Nv$Fuakv50">
+    <property role="EcuMT" value="6692228888293142848" />
+    <property role="3GE5qa" value="assert.table" />
+    <property role="TrG5h" value="ITableRowCheckValue" />
   </node>
 </model>
 

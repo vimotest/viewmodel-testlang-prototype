@@ -81,6 +81,7 @@
       <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
         <reference id="6743755284662355549" name="component" index="3fS2vI" />
       </concept>
+      <concept id="6692228888293142975" name="ViewModelLanguage.structure.ColorVCFeature" flags="ng" index="3mzAc8" />
       <concept id="1369810475999939491" name="ViewModelLanguage.structure.DynamicTableComponent" flags="ng" index="3s_O3X">
         <child id="5984107031773674619" name="rowsFeature" index="2PKERo" />
       </concept>
@@ -102,6 +103,7 @@
         <child id="6853349774625913246" name="content" index="1D3Ojh" />
       </concept>
       <concept id="6853349774625913242" name="ViewModelLanguage.structure.TableRowComponent" flags="ng" index="1D3Ojl">
+        <child id="6692228888293030818" name="rowColorFeature" index="3mzU$l" />
         <child id="6853349774625913248" name="cells" index="1D3OjJ" />
       </concept>
       <concept id="6853349774626670353" name="ViewModelLanguage.structure.HardcodedBase64ImageProvider" flags="ng" index="1DeVDu">
@@ -387,6 +389,7 @@
                 <property role="2PigO5" value="true" />
               </node>
             </node>
+            <node concept="3mzAc8" id="7kmg1RAPgBI" role="3mzU$l" />
           </node>
         </node>
         <node concept="3fMvU4" id="5QmCreioxHG" role="3fMvU8">

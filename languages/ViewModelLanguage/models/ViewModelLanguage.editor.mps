@@ -99,6 +99,13 @@
         <child id="8371900013785948359" name="part" index="2$S_pN" />
         <child id="8371900013785948365" name="parameterQuery" index="2$S_pT" />
       </concept>
+      <concept id="1160493135005" name="jetbrains.mps.lang.editor.structure.CellMenuPart_PropertyValues_GetValues" flags="in" index="MLZmj" />
+      <concept id="1164824717996" name="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" flags="ng" index="OXEIz">
+        <child id="1164824815888" name="cellMenuPart" index="OY2wv" />
+      </concept>
+      <concept id="1164833692343" name="jetbrains.mps.lang.editor.structure.CellMenuPart_PropertyValues" flags="ng" index="PvTIS">
+        <child id="1164833692344" name="valuesFunction" index="PvTIR" />
+      </concept>
       <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW">
         <child id="7033942394258392116" name="overridenEditorComponent" index="1PM95z" />
       </concept>
@@ -165,6 +172,7 @@
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
+        <child id="1164826688380" name="menuDescriptor" index="P5bDN" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
@@ -192,8 +200,19 @@
       <concept id="1161622981231" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1Q80Hx" />
       <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
       <concept id="2722384699544370949" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Placeholder" flags="ng" index="3VyMlK" />
+      <concept id="1166040637528" name="jetbrains.mps.lang.editor.structure.CellMenuComponent" flags="ng" index="1Xs25n">
+        <child id="1166040865497" name="applicableFeature" index="1XsTJm" />
+        <child id="1166041505377" name="menuDescriptor" index="1XvlXI" />
+      </concept>
+      <concept id="1166041033436" name="jetbrains.mps.lang.editor.structure.CellMenuComponentFeature" flags="ng" index="1XtyJj">
+        <reference id="1166054297096" name="relationDeclaration" index="1Yg8W7" />
+      </concept>
+      <concept id="1166041748520" name="jetbrains.mps.lang.editor.structure.CellMenuComponentFeature_Property" flags="ng" index="1XwhkB" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
+      </concept>
+      <concept id="1166059625718" name="jetbrains.mps.lang.editor.structure.CellMenuPart_CellMenuComponent" flags="ng" index="1Y$tRT">
+        <reference id="1166059677893" name="cellMenuComponent" index="1Y$EBa" />
       </concept>
       <concept id="1176809959526" name="jetbrains.mps.lang.editor.structure.QueryFunction_Color" flags="in" index="3ZlJ5R" />
     </language>
@@ -249,6 +268,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -348,6 +368,9 @@
       </concept>
       <concept id="1143511969223" name="jetbrains.mps.lang.smodel.structure.Node_GetPrevSiblingOperation" flags="nn" index="YBYNd" />
       <concept id="1143512015885" name="jetbrains.mps.lang.smodel.structure.Node_GetNextSiblingOperation" flags="nn" index="YCak7" />
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="6870613620390542976" name="jetbrains.mps.lang.smodel.structure.ConceptAliasOperation" flags="ng" index="3n3YKJ" />
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
@@ -389,6 +412,16 @@
       <concept id="4677325677876400523" name="jetbrains.mps.lang.editor.table.structure.CellModel_Table" flags="ng" index="1CiYdB">
         <child id="4490468428501048483" name="tableModel" index="2XI0mt" />
       </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
+      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
+        <child id="1151688676805" name="elementType" index="_ZDj9" />
+      </concept>
+      <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
+      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
     </language>
     <language id="b1ab8c10-c118-4755-bf2a-cebab35cf533" name="jetbrains.mps.lang.editor.tooltips">
       <concept id="1285659875393567816" name="jetbrains.mps.lang.editor.tooltips.structure.CellModel_Tooltip" flags="ng" index="1v6uyg">
@@ -565,6 +598,22 @@
       <node concept="l2Vlx" id="5TZVz1z0l7r" role="2iSdaV" />
       <node concept="PMmxH" id="5cbOqfADFf$" role="3EZMnx">
         <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="1iCGBv" id="7kmg1RAVQEp" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:5cbOqfAnxJO" resolve="rowsFeature" />
+        <node concept="1sVBvm" id="7kmg1RAVQEr" role="1sWHZn">
+          <node concept="1iCGBv" id="7kmg1RAVQE_" role="2wV5jI">
+            <ref role="1NtTu8" to="6ap2:5cbOqfAnrg4" resolve="rowDefinition" />
+            <node concept="1sVBvm" id="7kmg1RAVQEB" role="1sWHZn">
+              <node concept="3F1sOY" id="7kmg1RAVQEI" role="2wV5jI">
+                <ref role="1NtTu8" to="6ap2:5Nv$Fuak3Iy" resolve="rowColorFeature" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="pVoyu" id="7kmg1RAVQEL" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="PMmxH" id="5TZVz1z1tCt" role="3EZMnx">
         <ref role="PMmxG" node="5TZVz1z1tBv" resolve="TableComponentBase_supportsUpdatingFlag" />
@@ -2834,6 +2883,140 @@
     <ref role="1XX52x" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
     <node concept="PMmxH" id="4XlUEZmsEl2" role="2wV5jI">
       <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+    </node>
+  </node>
+  <node concept="1Xs25n" id="5Nv$FuaiNnM">
+    <property role="3GE5qa" value="viewcomponents.util" />
+    <property role="TrG5h" value="AutocompleteBuiltInColors" />
+    <ref role="1XX52x" to="6ap2:5Nv$FuahBIW" resolve="ColorValue" />
+    <node concept="OXEIz" id="5Nv$FuaiNnN" role="1XvlXI">
+      <node concept="PvTIS" id="5Nv$FuaiNJ0" role="OY2wv">
+        <node concept="MLZmj" id="5Nv$FuaiNJ2" role="PvTIR">
+          <node concept="3clFbS" id="5Nv$FuaiNJ4" role="2VODD2">
+            <node concept="3cpWs8" id="7kmg1RAUL3Y" role="3cqZAp">
+              <node concept="3cpWsn" id="7kmg1RAUL3Z" role="3cpWs9">
+                <property role="TrG5h" value="builtInColors" />
+                <node concept="_YKpA" id="7kmg1RAUKYh" role="1tU5fm">
+                  <node concept="17QB3L" id="7kmg1RAUKYk" role="_ZDj9" />
+                </node>
+                <node concept="2OqwBi" id="7kmg1RAUL40" role="33vP2m">
+                  <node concept="2OqwBi" id="7kmg1RAUL41" role="2Oq$k0">
+                    <node concept="35c_gC" id="7kmg1RAUL42" role="2Oq$k0">
+                      <ref role="35c_gD" to="6ap2:5Nv$FuahBIW" resolve="ColorValue" />
+                    </node>
+                    <node concept="2qgKlT" id="7kmg1RAUL43" role="2OqNvi">
+                      <ref role="37wK5l" to="hhvz:5Nv$FuaiKQ1" resolve="getBuiltInColors" />
+                    </node>
+                  </node>
+                  <node concept="ANE8D" id="7kmg1RAUL44" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7kmg1RAULbS" role="3cqZAp">
+              <node concept="2OqwBi" id="7kmg1RAUM5w" role="3clFbG">
+                <node concept="37vLTw" id="7kmg1RAULbQ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7kmg1RAUL3Z" resolve="builtInColors" />
+                </node>
+                <node concept="TSZUe" id="7kmg1RAUMTu" role="2OqNvi">
+                  <node concept="Xl_RD" id="7kmg1RAUMYZ" role="25WWJ7">
+                    <property role="Xl_RC" value="#000000" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="5Nv$FuaiNS7" role="3cqZAp">
+              <node concept="37vLTw" id="7kmg1RAUL45" role="3cqZAk">
+                <ref role="3cqZAo" node="7kmg1RAUL3Z" resolve="list" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1XwhkB" id="5Nv$FuaiNIW" role="1XsTJm">
+      <ref role="1Yg8W7" to="6ap2:5Nv$FuahBRC" resolve="colorLiteral" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="5Nv$Fuak4bB">
+    <property role="3GE5qa" value="viewcomponents.table" />
+    <property role="TrG5h" value="TableRowComponent_details_EditorComponent" />
+    <ref role="1XX52x" to="6ap2:5WrZkWQ5bAq" resolve="TableRowComponent" />
+    <node concept="3EZMnI" id="5Nv$Fuak4bI" role="2wV5jI">
+      <node concept="3F0ifn" id="5Nv$Fuak4bP" role="3EZMnx">
+        <property role="3F0ifm" value="row color" />
+        <node concept="pVoyu" id="5Nv$Fuak4bQ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="5Nv$Fuak4c1" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:5Nv$Fuak3Iy" resolve="rowColorFeature" />
+        <node concept="1sVBvm" id="5Nv$Fuak4c3" role="1sWHZn">
+          <node concept="3F0A7n" id="5Nv$Fuak4cc" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="6ap2:5Nv$FuahBRC" resolve="colorLiteral" />
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="5Nv$Fuak4bL" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5Nv$Fuak4cF">
+    <property role="3GE5qa" value="viewcomponents.table" />
+    <ref role="1XX52x" to="6ap2:5WrZkWQ5bAq" resolve="TableRowComponent" />
+    <node concept="3F0ifn" id="5Nv$Fuak4cH" role="2wV5jI" />
+    <node concept="PMmxH" id="5Nv$Fuak4cK" role="6VMZX">
+      <ref role="PMmxG" node="5Nv$Fuak4bB" resolve="TableRowComponent_details_EditorComponent" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5Nv$FuakvmS">
+    <property role="3GE5qa" value="viewcomponents.util" />
+    <ref role="1XX52x" to="6ap2:5Nv$FuahBIW" resolve="ColorValue" />
+    <node concept="3EZMnI" id="7kmg1RAtEMQ" role="2wV5jI">
+      <node concept="3F0ifn" id="7kmg1RAtEN3" role="3EZMnx">
+        <property role="3F0ifm" value="c:" />
+      </node>
+      <node concept="2iRfu4" id="7kmg1RAtEMR" role="2iSdaV" />
+      <node concept="3F0A7n" id="5Nv$FuakvmU" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:5Nv$FuahBRC" resolve="colorLiteral" />
+        <node concept="OXEIz" id="7kmg1RAUlM3" role="P5bDN">
+          <node concept="1Y$tRT" id="7kmg1RAUlM5" role="OY2wv">
+            <ref role="1Y$EBa" node="5Nv$FuaiNnM" resolve="AutocompleteBuiltInColors" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7kmg1RAkaJ2">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="1XX52x" to="6ap2:5Nv$Fuakv6Z" resolve="ColorVCFeature" />
+    <node concept="3EZMnI" id="7kmg1RAWhbW" role="2wV5jI">
+      <node concept="2iRfu4" id="7kmg1RAWhbX" role="2iSdaV" />
+      <node concept="2yq9I_" id="7kmg1RAWhbY" role="3EZMnx">
+        <ref role="225u1j" to="6ap2:5cbOqfAgHMA" resolve="supported" />
+        <node concept="jv8YD" id="7kmg1RAWhbZ" role="1563LE" />
+        <node concept="3EZMnI" id="7kmg1RAWhc0" role="2fqkNU">
+          <node concept="2iRfu4" id="7kmg1RAWhc1" role="2iSdaV" />
+          <node concept="PMmxH" id="7kmg1RAWhc2" role="3EZMnx">
+            <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+            <node concept="VPM3Z" id="7kmg1RAWhc3" role="3F10Kt" />
+          </node>
+          <node concept="3F0ifn" id="7kmg1RAWhc4" role="3EZMnx">
+            <property role="3F0ifm" value="supported" />
+            <node concept="VPM3Z" id="7kmg1RAWhc5" role="3F10Kt" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7kmg1RAWhc6" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="Vb9p2" id="7kmg1RAWhc7" role="3F10Kt" />
+      </node>
+      <node concept="3F0ifn" id="7kmg1RAWhc8" role="3EZMnx">
+        <property role="3F0ifm" value="sample color" />
+        <node concept="Vb9p2" id="7kmg1RAWhc9" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="7kmg1RAkaJ4" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:7kmg1RAkaIT" resolve="color" />
+      </node>
     </node>
   </node>
 </model>

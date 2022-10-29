@@ -60,6 +60,12 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -686,6 +692,57 @@
             <node concept="35c_gC" id="4oK3uBK9ooF" role="3uHU7w">
               <ref role="35c_gD" to="l8rz:4oK3uBK7W76" resolve="HorizontalTestCaseAssertions" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7kmg1RAWSwr">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1M2myG" to="l8rz:5Nv$Fuakv4J" resolve="ColorCheckValue" />
+    <node concept="9S07l" id="7kmg1RAWSws" role="9Vyp8">
+      <node concept="3clFbS" id="7kmg1RAWSwt" role="2VODD2">
+        <node concept="3clFbJ" id="7kmg1RAZXLB" role="3cqZAp">
+          <node concept="3clFbS" id="7kmg1RAZXLD" role="3clFbx">
+            <node concept="3cpWs6" id="7kmg1RAZYoL" role="3cqZAp">
+              <node concept="3clFbT" id="7kmg1RAZYp0" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7kmg1RAZXZr" role="3clFbw">
+            <node concept="nLn13" id="7kmg1RAZXOA" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="7kmg1RAZY7E" role="2OqNvi">
+              <node concept="chp4Y" id="7kmg1RAZYjn" role="cj9EA">
+                <ref role="cht4Q" to="l8rz:5WrZkWQpyX6" resolve="TableRowCheck" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7kmg1RAWS$r" role="3cqZAp">
+          <node concept="2OqwBi" id="7kmg1RAWS$s" role="3clFbG">
+            <node concept="2OqwBi" id="7kmg1RAWS$t" role="2Oq$k0">
+              <node concept="2OqwBi" id="7kmg1RAWS$u" role="2Oq$k0">
+                <node concept="2OqwBi" id="7kmg1RAWS$v" role="2Oq$k0">
+                  <node concept="1PxgMI" id="7kmg1RAWS$w" role="2Oq$k0">
+                    <node concept="chp4Y" id="7kmg1RAWS$x" role="3oSUPX">
+                      <ref role="cht4Q" to="l8rz:2Yd1qrJONfw" resolve="ViewComponentCheck" />
+                    </node>
+                    <node concept="nLn13" id="7kmg1RAWS$y" role="1m5AlR" />
+                  </node>
+                  <node concept="2qgKlT" id="7kmg1RAWS$z" role="2OqNvi">
+                    <ref role="37wK5l" to="gg8m:4jKdMMdJYzD" resolve="getViewComponentToCheck" />
+                  </node>
+                </node>
+                <node concept="32TBzR" id="7kmg1RAWS$$" role="2OqNvi" />
+              </node>
+              <node concept="v3k3i" id="7kmg1RAWS$_" role="2OqNvi">
+                <node concept="chp4Y" id="7kmg1RAWS$A" role="v3oSu">
+                  <ref role="cht4Q" to="6ap2:5Nv$Fuakv6Z" resolve="ColorVCFeature" />
+                </node>
+              </node>
+            </node>
+            <node concept="3GX2aA" id="7kmg1RAWS$B" role="2OqNvi" />
           </node>
         </node>
       </node>

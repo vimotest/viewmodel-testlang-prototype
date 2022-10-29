@@ -62,6 +62,7 @@
       <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
         <reference id="6743755284662355549" name="component" index="3fS2vI" />
       </concept>
+      <concept id="6692228888293142975" name="ViewModelLanguage.structure.ColorVCFeature" flags="ng" index="3mzAc8" />
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
         <property id="7497173622928850064" name="path" index="1u4ncw" />
       </concept>
@@ -79,6 +80,7 @@
         <child id="6853349774625913246" name="content" index="1D3Ojh" />
       </concept>
       <concept id="6853349774625913242" name="ViewModelLanguage.structure.TableRowComponent" flags="ng" index="1D3Ojl">
+        <child id="6692228888293030818" name="rowColorFeature" index="3mzU$l" />
         <child id="6853349774625913248" name="cells" index="1D3OjJ" />
       </concept>
       <concept id="6853349774626657812" name="ViewModelLanguage.structure.ImageComponent" flags="ng" index="1DeYHr">
@@ -315,6 +317,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3mzAc8" id="7kmg1RAPgBG" role="3mzU$l" />
           </node>
         </node>
         <node concept="2Pim7P" id="5QmCreig_jv" role="2Pim73" />

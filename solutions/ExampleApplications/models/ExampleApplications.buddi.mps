@@ -31,6 +31,7 @@
         <property id="788638163497081376" name="supportsUpdatingFlag" index="XvDgr" />
       </concept>
       <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
+      <concept id="6692228888293142975" name="ViewModelLanguage.structure.ColorVCFeature" flags="ng" index="3mzAc8" />
       <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_">
         <child id="3011041337510922390" name="textFeature" index="27$_qM" />
       </concept>
@@ -39,6 +40,7 @@
         <child id="6853349774625913246" name="content" index="1D3Ojh" />
       </concept>
       <concept id="6853349774625913242" name="ViewModelLanguage.structure.TableRowComponent" flags="ng" index="1D3Ojl">
+        <child id="6692228888293030818" name="rowColorFeature" index="3mzU$l" />
         <child id="6853349774625913248" name="cells" index="1D3OjJ" />
       </concept>
       <concept id="4321216645070212552" name="ViewModelLanguage.structure.ViewComponent" flags="ng" index="3H4$pG">
@@ -151,6 +153,9 @@
                   <property role="2PigPS" value="Amount" />
                 </node>
               </node>
+            </node>
+            <node concept="3mzAc8" id="7kmg1RAPgBH" role="3mzU$l">
+              <property role="2PigO5" value="true" />
             </node>
           </node>
         </node>

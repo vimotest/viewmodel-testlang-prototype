@@ -234,6 +234,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5WrZkWQ5bAr" resolve="TableCellComponent" />
     </node>
+    <node concept="1TJgyj" id="5Nv$Fuak3Iy" role="1TKVEi">
+      <property role="IQ2ns" value="6692228888293030818" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowColorFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5Nv$Fuakv6Z" resolve="ColorVCFeature" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5WrZkWQ5bAr">
     <property role="EcuMT" value="6853349774625913243" />
@@ -750,6 +757,31 @@
     <property role="TrG5h" value="LoadViewEvent" />
     <property role="34LRSv" value="load event" />
     <ref role="1TJDcQ" node="5QmCreitCpq" resolve="ViewComponentEvent" />
+  </node>
+  <node concept="1TIwiD" id="5Nv$FuahBIW">
+    <property role="EcuMT" value="6692228888292391868" />
+    <property role="3GE5qa" value="viewcomponents.util" />
+    <property role="TrG5h" value="ColorValue" />
+    <property role="34LRSv" value="color value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5Nv$FuahBRC" role="1TKVEl">
+      <property role="IQ2nx" value="6692228888292392424" />
+      <property role="TrG5h" value="colorLiteral" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5Nv$Fuakv6Z">
+    <property role="EcuMT" value="6692228888293142975" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="ColorVCFeature" />
+    <property role="34LRSv" value="color feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyj" id="7kmg1RAkaIT" role="1TKVEi">
+      <property role="IQ2ns" value="8437001449087478713" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="color" />
+      <ref role="20lvS9" node="5Nv$FuahBIW" resolve="ColorValue" />
+    </node>
   </node>
 </model>
 
