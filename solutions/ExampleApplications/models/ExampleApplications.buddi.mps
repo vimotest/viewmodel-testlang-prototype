@@ -8,8 +8,13 @@
   <imports />
   <registry>
     <language id="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60" name="SimpleTypeLanguage">
+      <concept id="5878168047017091896" name="SimpleTypeLanguage.structure.Field" flags="ng" index="2P4x69" />
       <concept id="5878168047017091882" name="SimpleTypeLanguage.structure.StructType" flags="ng" index="2P4x6r">
         <child id="5878168047017215911" name="contents" index="2P43km" />
+      </concept>
+      <concept id="5878168047017124641" name="SimpleTypeLanguage.structure.BoolType" flags="ng" index="2P4D6g" />
+      <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
+        <child id="5878168047017276966" name="type" index="2P5Oin" />
       </concept>
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
@@ -156,6 +161,10 @@
             </node>
             <node concept="3mzAc8" id="7kmg1RAPgBH" role="3mzU$l">
               <property role="2PigO5" value="true" />
+            </node>
+            <node concept="2P4x69" id="2gml1W1r1UE" role="2P43km">
+              <property role="TrG5h" value="isBold" />
+              <node concept="2P4D6g" id="2gml1W1r1UD" role="2P5Oin" />
             </node>
           </node>
         </node>

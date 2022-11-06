@@ -226,7 +226,7 @@
     <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableRowComponent" />
     <property role="34LRSv" value="table-row" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" to="rtft:56jsF7$wmcE" resolve="StructType" />
     <node concept="1TJgyj" id="5WrZkWQ5bAw" role="1TKVEi">
       <property role="IQ2ns" value="6853349774625913248" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

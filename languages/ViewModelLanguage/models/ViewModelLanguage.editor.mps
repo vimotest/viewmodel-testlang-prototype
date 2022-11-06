@@ -599,19 +599,19 @@
       <node concept="PMmxH" id="5cbOqfADFf$" role="3EZMnx">
         <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
       </node>
-      <node concept="1iCGBv" id="7kmg1RAVQEp" role="3EZMnx">
+      <node concept="1iCGBv" id="2gml1W1qbE3" role="3EZMnx">
         <ref role="1NtTu8" to="6ap2:5cbOqfAnxJO" resolve="rowsFeature" />
-        <node concept="1sVBvm" id="7kmg1RAVQEr" role="1sWHZn">
-          <node concept="1iCGBv" id="7kmg1RAVQE_" role="2wV5jI">
+        <node concept="1sVBvm" id="2gml1W1qbE5" role="1sWHZn">
+          <node concept="1iCGBv" id="2gml1W1qbEU" role="2wV5jI">
             <ref role="1NtTu8" to="6ap2:5cbOqfAnrg4" resolve="rowDefinition" />
-            <node concept="1sVBvm" id="7kmg1RAVQEB" role="1sWHZn">
-              <node concept="3F1sOY" id="7kmg1RAVQEI" role="2wV5jI">
-                <ref role="1NtTu8" to="6ap2:5Nv$Fuak3Iy" resolve="rowColorFeature" />
+            <node concept="1sVBvm" id="2gml1W1qbEW" role="1sWHZn">
+              <node concept="PMmxH" id="2gml1W1qbF3" role="2wV5jI">
+                <ref role="PMmxG" node="5Nv$Fuak4bB" resolve="TableRowComponent_details_EditorComponent" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="pVoyu" id="7kmg1RAVQEL" role="3F10Kt">
+        <node concept="pVoyu" id="2gml1W1qbEi" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -2941,32 +2941,80 @@
     <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableRowComponent_details_EditorComponent" />
     <ref role="1XX52x" to="6ap2:5WrZkWQ5bAq" resolve="TableRowComponent" />
-    <node concept="3EZMnI" id="5Nv$Fuak4bI" role="2wV5jI">
-      <node concept="3F0ifn" id="5Nv$Fuak4bP" role="3EZMnx">
-        <property role="3F0ifm" value="row color" />
-        <node concept="pVoyu" id="5Nv$Fuak4bQ" role="3F10Kt">
+    <node concept="3EZMnI" id="2gml1W1qAX5" role="2wV5jI">
+      <node concept="l2Vlx" id="2gml1W1qAX6" role="2iSdaV" />
+      <node concept="3EZMnI" id="2gml1W1qAX7" role="3EZMnx">
+        <node concept="3F0ifn" id="2gml1W1qAX8" role="3EZMnx">
+          <property role="3F0ifm" value="row color" />
+          <node concept="pVoyu" id="2gml1W1qAX9" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="2gml1W1qB4D" role="3EZMnx">
+          <ref role="1NtTu8" to="6ap2:5Nv$Fuak3Iy" resolve="rowColorFeature" />
+        </node>
+        <node concept="2iRfu4" id="2gml1W1qAXd" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="2gml1W1qAXe" role="3EZMnx">
+        <property role="3F0ifm" value="custom properies:" />
+        <node concept="pVoyu" id="2gml1W1qAXf" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="1iCGBv" id="5Nv$Fuak4c1" role="3EZMnx">
-        <ref role="1NtTu8" to="6ap2:5Nv$Fuak3Iy" resolve="rowColorFeature" />
-        <node concept="1sVBvm" id="5Nv$Fuak4c3" role="1sWHZn">
-          <node concept="3F0A7n" id="5Nv$Fuak4cc" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="6ap2:5Nv$FuahBRC" resolve="colorLiteral" />
+      <node concept="PMmxH" id="2gml1W1qAXg" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F0ifn" id="2gml1W1qAXh" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <node concept="ljvvj" id="2gml1W1qAXi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3mYdg7" id="2gml1W1qAXj" role="3F10Kt">
+          <property role="1413C4" value="bracket" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="2gml1W1qAXk" role="3EZMnx">
+        <ref role="1NtTu8" to="rtft:56jsF7$wOuB" resolve="contents" />
+        <node concept="l2Vlx" id="2gml1W1qAXl" role="2czzBx" />
+        <node concept="pj6Ft" id="2gml1W1qAXm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="2gml1W1qAXn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="2gml1W1qAXo" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="4$FPG" id="2gml1W1qAXp" role="4_6I_">
+          <node concept="3clFbS" id="2gml1W1qAXq" role="2VODD2">
+            <node concept="3clFbF" id="2gml1W1qAXr" role="3cqZAp">
+              <node concept="2ShNRf" id="2gml1W1qAXs" role="3clFbG">
+                <node concept="3zrR0B" id="2gml1W1qAXt" role="2ShVmc">
+                  <node concept="3Tqbb2" id="2gml1W1qAXu" role="3zrR0E">
+                    <ref role="ehGHo" to="rtft:3JS2UjmRs9w" resolve="EmptyStructContent" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
-      <node concept="2iRfu4" id="5Nv$Fuak4bL" role="2iSdaV" />
+      <node concept="3F0ifn" id="2gml1W1qAXv" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="3mYdg7" id="2gml1W1qAXw" role="3F10Kt">
+          <property role="1413C4" value="bracket" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5Nv$Fuak4cF">
     <property role="3GE5qa" value="viewcomponents.table" />
     <ref role="1XX52x" to="6ap2:5WrZkWQ5bAq" resolve="TableRowComponent" />
-    <node concept="3F0ifn" id="5Nv$Fuak4cH" role="2wV5jI" />
     <node concept="PMmxH" id="5Nv$Fuak4cK" role="6VMZX">
       <ref role="PMmxG" node="5Nv$Fuak4bB" resolve="TableRowComponent_details_EditorComponent" />
     </node>
+    <node concept="3F0ifn" id="5Nv$Fuak4cH" role="2wV5jI" />
   </node>
   <node concept="24kQdi" id="5Nv$FuakvmS">
     <property role="3GE5qa" value="viewcomponents.util" />
