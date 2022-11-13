@@ -1,4 +1,4 @@
-ext.mpsVersion = "2021.2.5"
+ext.mpsVersion = "2021.2.6"
 ext.mpsPlugins = [ "de.itemis.mps.extensions.build": 17136,
                    "de.itemis.mps.grammarcells": 13242 ]
 
