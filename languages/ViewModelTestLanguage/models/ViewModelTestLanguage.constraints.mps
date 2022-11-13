@@ -17,7 +17,8 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="gg8m" ref="r:f35b8480-e8fb-4417-92f0-6c6bde08b2ca(ViewModelTestLanguage.behavior)" />
     <import index="6ap2" ref="r:eb134abe-e3cf-4c45-9c39-b0e1fd592dbc(ViewModelLanguage.structure)" />
-    <import index="l8rz" ref="r:ab9528f7-9956-499a-8cfb-6e30a245b4f2(ViewModelTestLanguage.structure)" implicit="true" />
+    <import index="l8rz" ref="r:ab9528f7-9956-499a-8cfb-6e30a245b4f2(ViewModelTestLanguage.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -46,6 +47,7 @@
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -126,6 +128,9 @@
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
+        <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
+      </concept>
       <concept id="1171500988903" name="jetbrains.mps.lang.smodel.structure.Node_GetChildrenOperation" flags="nn" index="32TBzR" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
@@ -743,6 +748,87 @@
               </node>
             </node>
             <node concept="3GX2aA" id="7kmg1RAWS$B" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="2gml1W1rLjR">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1M2myG" to="l8rz:2gml1W1rLjK" resolve="FieldExpressionCheckValue" />
+    <node concept="1N5Pfh" id="2gml1W1rMWy" role="1Mr941">
+      <ref role="1N5Vy1" to="l8rz:2gml1W1rMVs" resolve="fieldReference" />
+      <node concept="3dgokm" id="2gml1W1rMY$" role="1N6uqs">
+        <node concept="3clFbS" id="2gml1W1rMYA" role="2VODD2">
+          <node concept="3clFbF" id="2gml1W1sQER" role="3cqZAp">
+            <node concept="2OqwBi" id="2gml1W1sQVO" role="3clFbG">
+              <node concept="3kakTB" id="2gml1W1sQEQ" role="2Oq$k0" />
+              <node concept="2qgKlT" id="2gml1W1sR7v" role="2OqNvi">
+                <ref role="37wK5l" to="gg8m:2gml1W1sPiI" resolve="getScopeForFieldReference" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="9SLcT" id="2gml1W1rLjS" role="9SGkU">
+      <node concept="3clFbS" id="2gml1W1rLjT" role="2VODD2">
+        <node concept="3clFbF" id="2gml1W1uEed" role="3cqZAp">
+          <node concept="22lmx$" id="2gml1W1uHqi" role="3clFbG">
+            <node concept="17R0WA" id="2gml1W1uEQ3" role="3uHU7B">
+              <node concept="2DD5aU" id="2gml1W1uEec" role="3uHU7B" />
+              <node concept="35c_gC" id="2gml1W1uGwK" role="3uHU7w">
+                <ref role="35c_gD" to="tpee:fzclF81" resolve="BooleanConstant" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2gml1W1uMLG" role="3uHU7w">
+              <node concept="2DD5aU" id="2gml1W1uMLH" role="2Oq$k0" />
+              <node concept="2Zo12i" id="2gml1W1uMLI" role="2OqNvi">
+                <node concept="chp4Y" id="2gml1W1uMYb" role="2Zo12j">
+                  <ref role="cht4Q" to="tpee:hanubx6" resolve="IntegerLiteral" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="9S07l" id="2gml1W1sRGm" role="9Vyp8">
+      <node concept="3clFbS" id="2gml1W1sRGn" role="2VODD2">
+        <node concept="3clFbF" id="2gml1W1sTy2" role="3cqZAp">
+          <node concept="2OqwBi" id="2gml1W1sVdl" role="3clFbG">
+            <node concept="2OqwBi" id="2gml1W1sUjy" role="2Oq$k0">
+              <node concept="35c_gC" id="2gml1W1sTA$" role="2Oq$k0">
+                <ref role="35c_gD" to="l8rz:2gml1W1rLjK" resolve="FieldExpressionCheckValue" />
+              </node>
+              <node concept="2qgKlT" id="2gml1W1sUzI" role="2OqNvi">
+                <ref role="37wK5l" to="gg8m:2gml1W1sRGr" resolve="getFieldReferenceScopeForParentNode" />
+                <node concept="nLn13" id="2gml1W1sUN0" role="37wK5m" />
+              </node>
+            </node>
+            <node concept="3GX2aA" id="2gml1W1sWtE" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="2gml1W1udpl">
+    <property role="3GE5qa" value="test" />
+    <ref role="1M2myG" to="l8rz:2gml1W1trUj" resolve="FieldAssertion" />
+    <node concept="9S07l" id="2gml1W1udpm" role="9Vyp8">
+      <node concept="3clFbS" id="2gml1W1udpn" role="2VODD2">
+        <node concept="3clFbF" id="2gml1W1udpr" role="3cqZAp">
+          <node concept="2OqwBi" id="2gml1W1udpt" role="3clFbG">
+            <node concept="2OqwBi" id="2gml1W1udpu" role="2Oq$k0">
+              <node concept="35c_gC" id="2gml1W1udpv" role="2Oq$k0">
+                <ref role="35c_gD" to="l8rz:2gml1W1rLjK" resolve="FieldExpressionCheckValue" />
+              </node>
+              <node concept="2qgKlT" id="2gml1W1udpw" role="2OqNvi">
+                <ref role="37wK5l" to="gg8m:2gml1W1sRGr" resolve="getFieldReferenceScopeForParentNode" />
+                <node concept="nLn13" id="2gml1W1ud_z" role="37wK5m" />
+              </node>
+            </node>
+            <node concept="3GX2aA" id="2gml1W1udpy" role="2OqNvi" />
           </node>
         </node>
       </node>

@@ -2564,5 +2564,40 @@
       <ref role="1NtTu8" to="l8rz:5Nv$Fuakv51" resolve="color" />
     </node>
   </node>
+  <node concept="24kQdi" id="2gml1W1rMVA">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1XX52x" to="l8rz:2gml1W1rLjK" resolve="FieldExpressionCheckValue" />
+    <node concept="3EZMnI" id="2gml1W1rMVC" role="2wV5jI">
+      <node concept="1iCGBv" id="2gml1W1rMVJ" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:2gml1W1rMVs" resolve="fieldReference" />
+        <node concept="1sVBvm" id="2gml1W1rMVL" role="1sWHZn">
+          <node concept="3F0A7n" id="2gml1W1rMVS" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2gml1W1rMWe" role="3EZMnx">
+        <property role="3F0ifm" value=":eq:" />
+      </node>
+      <node concept="3F1sOY" id="2gml1W1rMWq" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:2gml1W1rLjN" resolve="expression" />
+      </node>
+      <node concept="2iRfu4" id="2gml1W1rMVF" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2gml1W1trUv">
+    <property role="3GE5qa" value="test" />
+    <ref role="1XX52x" to="l8rz:2gml1W1trUj" resolve="FieldAssertion" />
+    <node concept="3EZMnI" id="2gml1W1trUx" role="2wV5jI">
+      <node concept="3F0ifn" id="2gml1W1trUC" role="3EZMnx">
+        <property role="3F0ifm" value="assert field" />
+      </node>
+      <node concept="3F1sOY" id="2gml1W1trUI" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:2gml1W1trUm" resolve="checkValue" />
+      </node>
+      <node concept="2iRfu4" id="2gml1W1trU$" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

@@ -573,6 +573,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg8" resolve="jetbrains.mps.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2gml1W1v7k9" role="3bR37C">
+          <node concept="3bR9La" id="2gml1W1v7ka" role="1SiIV1">
+            <ref role="3bR37D" node="1n6T2_x2WNQ" resolve="SimpleTypeLanguage" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="65sofNQaI0n" role="2G$12L">
         <property role="BnDLt" value="true" />

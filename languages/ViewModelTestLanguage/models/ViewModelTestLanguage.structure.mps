@@ -10,6 +10,7 @@
     <import index="l3im" ref="r:39b441c7-a1d5-452b-b50b-8348c2e0c7aa(UseCaseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6ap2" ref="r:eb134abe-e3cf-4c45-9c39-b0e1fd592dbc(ViewModelLanguage.structure)" implicit="true" />
+    <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -785,6 +786,43 @@
     <property role="EcuMT" value="6692228888293142848" />
     <property role="3GE5qa" value="assert.table" />
     <property role="TrG5h" value="ITableRowCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="2gml1W1rLjK">
+    <property role="EcuMT" value="2600358326997816560" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="FieldExpressionCheckValue" />
+    <property role="34LRSv" value="field check" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2gml1W1rMVs" role="1TKVEi">
+      <property role="IQ2ns" value="2600358326997823196" />
+      <property role="20kJfa" value="fieldReference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="rtft:56jsF7$wmcS" resolve="Field" />
+    </node>
+    <node concept="1TJgyj" id="2gml1W1rLjN" role="1TKVEi">
+      <property role="IQ2ns" value="2600358326997816563" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2gml1W1trUj">
+    <property role="EcuMT" value="2600358326998253203" />
+    <property role="3GE5qa" value="test" />
+    <property role="TrG5h" value="FieldAssertion" />
+    <property role="34LRSv" value="assert field" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2gml1W1trUm" role="1TKVEi">
+      <property role="IQ2ns" value="2600358326998253206" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checkValue" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2gml1W1rLjK" resolve="FieldExpressionCheckValue" />
+    </node>
+    <node concept="PrWs8" id="2gml1W1trUk" role="PzmwI">
+      <ref role="PrY4T" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
+    </node>
   </node>
 </model>
 

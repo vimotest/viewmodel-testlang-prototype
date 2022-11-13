@@ -64,6 +64,7 @@
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
     <dependency reexport="false">03e7d0bc-45e3-4f2d-8cbd-08031e05aea0(UseCaseLanguage)</dependency>
     <dependency reexport="false">9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)</dependency>
+    <dependency reexport="false">77c93106-0ffc-4fe6-8c92-dea8ea8cbc60(SimpleTypeLanguage)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:1919c723-b60b-4592-9318-9ce96d91da44:de.itemis.mps.editor.celllayout" version="0" />

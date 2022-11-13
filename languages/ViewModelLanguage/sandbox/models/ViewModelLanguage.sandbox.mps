@@ -185,6 +185,13 @@
         <property id="282652060087409064" name="title" index="npJs_" />
         <property id="282652060087409066" name="message" index="npJsB" />
       </concept>
+      <concept id="2600358326998253203" name="ViewModelTestLanguage.structure.FieldAssertion" flags="ng" index="_oYEc">
+        <child id="2600358326998253206" name="checkValue" index="_oYE9" />
+      </concept>
+      <concept id="2600358326997816560" name="ViewModelTestLanguage.structure.FieldExpressionCheckValue" flags="ng" index="_uk3J">
+        <reference id="2600358326997823196" name="fieldReference" index="_unF3" />
+        <child id="2600358326997816563" name="expression" index="_uk3G" />
+      </concept>
       <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
         <child id="643469022294099062" name="checks" index="2D8cJs" />
       </concept>
@@ -494,6 +501,10 @@
           <property role="2PigO5" value="true" />
           <property role="2PigPS" value="UserInput" />
         </node>
+      </node>
+      <node concept="2P4x69" id="2gml1W1uDtp" role="2P43km">
+        <property role="TrG5h" value="MyCustomBool" />
+        <node concept="2P4D6g" id="2gml1W1uDtn" role="2P5Oin" />
       </node>
     </node>
     <node concept="3f4AKs" id="4XlUEZmnvt0" role="3H8Xyh">
@@ -836,6 +847,31 @@
       <node concept="npJsE" id="fGbCOkzT9K" role="30nzpy">
         <property role="npJs_" value="Invalid input" />
         <property role="npJsB" value="You cannot press Cancel when two objects are given" />
+      </node>
+    </node>
+    <node concept="30n1Qa" id="2gml1W1trS2" role="30n1Qb">
+      <node concept="30nyDl" id="2gml1W1trS3" role="30nziG">
+        <node concept="30nyDi" id="2gml1W1trS4" role="30nyDj">
+          <property role="30lZVK" value="Two objects" />
+        </node>
+        <node concept="30nyDi" id="2gml1W1trS5" role="30nyDh">
+          <property role="30lZVK" value="load view" />
+        </node>
+        <node concept="30nyDi" id="2gml1W1trS7" role="30nyDs">
+          <property role="30lZVK" value="Assert custom booleans" />
+        </node>
+      </node>
+      <node concept="30kPmI" id="2gml1W1trS8" role="30nziE">
+        <ref role="30kPmH" node="2Yd1qrJRMC4" />
+      </node>
+      <node concept="30nziD" id="2gml1W1trS9" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
+      </node>
+      <node concept="_oYEc" id="2gml1W1uDuz" role="30nzpy">
+        <node concept="_uk3J" id="2gml1W1uDu$" role="_oYE9">
+          <ref role="_unF3" node="2gml1W1uDtp" resolve="MyCustomBool" />
+          <node concept="3clFbT" id="2gml1W1uQ_E" role="_uk3G" />
+        </node>
       </node>
     </node>
   </node>
