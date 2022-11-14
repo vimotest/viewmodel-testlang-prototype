@@ -469,7 +469,7 @@
             </node>
           </node>
           <node concept="2YIFZM" id="4XlUEZmludj" role="3clFbw">
-            <ref role="37wK5l" to="hhvz:4XlUEZmjuoC" resolve="findAnyLoadViewEventInView" />
+            <ref role="37wK5l" to="hhvz:4XlUEZmjuoC" resolve="findNoLoadViewEventInView" />
             <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
             <node concept="2Sf5sV" id="4XlUEZmlumN" role="37wK5m" />
           </node>

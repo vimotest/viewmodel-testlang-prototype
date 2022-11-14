@@ -2104,7 +2104,7 @@
                             <ref role="3cqZAo" node="7kmg1RAGLgF" resolve="it" />
                           </node>
                           <node concept="2qgKlT" id="7kmg1RAGNqG" role="2OqNvi">
-                            <ref role="37wK5l" node="7kmg1RAn9b2" resolve="applyOnTableCellComponent" />
+                            <ref role="37wK5l" node="7kmg1RAn9b2" resolve="applyOnTableComponent" />
                             <node concept="37vLTw" id="7kmg1RAGNqH" role="37wK5m">
                               <ref role="3cqZAo" node="zI3UExNxFm" resolve="table" />
                             </node>
@@ -6892,7 +6892,7 @@
     </node>
     <node concept="13i0hz" id="7kmg1RAlx11" role="13h7CS">
       <property role="TrG5h" value="modifyTableRowCell" />
-      <ref role="13i0hy" node="7kmg1RAlrar" resolve="modifyTableRow" />
+      <ref role="13i0hy" node="7kmg1RAlrar" resolve="modifyTableRowCell" />
       <node concept="3Tm1VV" id="7kmg1RAlx16" role="1B3o_S" />
       <node concept="3clFbS" id="7kmg1RAlx19" role="3clF47">
         <node concept="3cpWs8" id="7kmg1RAvQ2Y" role="3cqZAp">
@@ -6922,7 +6922,7 @@
                   <ref role="3cqZAo" node="7kmg1RAlx1a" resolve="table" />
                 </node>
                 <node concept="liA8E" id="7kmg1RAIrQc" role="2OqNvi">
-                  <ref role="37wK5l" to="hhvz:7kmg1RAH6s9" resolve="setRowColor" />
+                  <ref role="37wK5l" to="hhvz:7kmg1RAH6s9" resolve="setBackgroundRowColor" />
                   <node concept="37vLTw" id="7kmg1RAIrRF" role="37wK5m">
                     <ref role="3cqZAo" node="7kmg1RAlx1c" resolve="rowIndex" />
                   </node>
@@ -6947,7 +6947,7 @@
                     <ref role="3cqZAo" node="7kmg1RAlx1a" resolve="table" />
                   </node>
                   <node concept="liA8E" id="7kmg1RAIsa3" role="2OqNvi">
-                    <ref role="37wK5l" to="hhvz:7kmg1RAH6s9" resolve="setRowColor" />
+                    <ref role="37wK5l" to="hhvz:7kmg1RAH6s9" resolve="setBackgroundRowColor" />
                     <node concept="37vLTw" id="7kmg1RAIsa4" role="37wK5m">
                       <ref role="3cqZAo" node="7kmg1RAlx1c" resolve="rowIndex" />
                     </node>

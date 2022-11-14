@@ -7175,7 +7175,7 @@
       <node concept="312cEg" id="2gml1W1$otD" role="jymVt">
         <property role="TrG5h" value="viewModel" />
         <node concept="3uibUv" id="2gml1W1$otE" role="1tU5fm">
-          <ref role="3uigEE" node="2gml1W1$otG" resolve="MyViewModel" />
+          <ref role="3uigEE" node="2gml1W1$otG" resolve="Foo.MyViewModel" />
         </node>
         <node concept="3Tm6S6" id="2gml1W1$otF" role="1B3o_S" />
       </node>
@@ -7192,7 +7192,7 @@
             <node concept="3cpWsn" id="2gml1W1$otM" role="3cpWs9">
               <property role="TrG5h" value="currentViewModel" />
               <node concept="3uibUv" id="2gml1W1$otN" role="1tU5fm">
-                <ref role="3uigEE" node="2gml1W1$otG" resolve="MyViewModel" />
+                <ref role="3uigEE" node="2gml1W1$otG" resolve="Foo.MyViewModel" />
                 <node concept="1ZhdrF" id="2gml1W1$otO" role="lGtFl">
                   <property role="2qtEX8" value="classifier" />
                   <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1107535904670/1107535924139" />
@@ -7596,7 +7596,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2gml1W1$kfE" role="2OqNvi">
-                  <ref role="37wK5l" node="2gml1W1$keT" resolve="getText" />
+                  <ref role="37wK5l" node="2gml1W1$keT" resolve="getFieldValue" />
                   <node concept="1ZhdrF" id="2gml1W1$kfF" role="lGtFl">
                     <property role="2qtEX8" value="baseMethodDeclaration" />
                     <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
@@ -7674,7 +7674,7 @@
                 </node>
               </node>
               <node concept="37vLTw" id="2gml1W1$kgr" role="37wK5m">
-                <ref role="3cqZAo" node="2gml1W1$kf6" resolve="text" />
+                <ref role="3cqZAo" node="2gml1W1$kf6" resolve="fieldValue" />
               </node>
             </node>
             <node concept="raruj" id="2gml1W1$kgs" role="lGtFl" />

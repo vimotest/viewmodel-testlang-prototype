@@ -514,7 +514,7 @@
     <node concept="3f6vZ2" id="4XlUEZmnvt1" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="TableRowSelected" />
-      <ref role="3fS2vI" node="5WrZkWQ61QF" resolve="table" />
+      <ref role="3fS2vI" node="5WrZkWQ61QF" resolve="Table" />
       <node concept="2P4x69" id="4XlUEZmnvt2" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="4XlUEZmnvt3" role="2P5Oin" />
@@ -648,7 +648,7 @@
         <ref role="30nziQ" node="5QmCreiBqtt" resolve="OKClicked" />
       </node>
       <node concept="30nzp_" id="5WrZkWQqRIp" role="30nzpy">
-        <ref role="30nzpS" node="5WrZkWQ61QF" resolve="table" />
+        <ref role="30nzpS" node="5WrZkWQ61QF" resolve="Table" />
         <node concept="1Dvt9M" id="zI3UExJvwG" role="30nDbQ">
           <node concept="1Dvt89" id="6wbjV0Q2rIg" role="2D8nNu">
             <node concept="1u3WYF" id="6wbjV0Q9uaL" role="1Dvt80">

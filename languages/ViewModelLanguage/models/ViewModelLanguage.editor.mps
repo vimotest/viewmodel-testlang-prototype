@@ -2320,7 +2320,7 @@
         <node concept="3clFbS" id="4oK3uBKiISq" role="2VODD2">
           <node concept="3cpWs6" id="5QmCreiP5Zh" role="3cqZAp">
             <node concept="2YIFZM" id="5QmCreiP63f" role="3cqZAk">
-              <ref role="37wK5l" to="hhvz:5QmCreiP0xf" resolve="findButtonsWithoutClickEvent" />
+              <ref role="37wK5l" to="hhvz:5QmCreiP0xf" resolve="findButtonsWithoutEvents" />
               <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
               <node concept="3bvxqY" id="5QmCreiP64o" role="37wK5m" />
             </node>
@@ -2489,7 +2489,7 @@
           <node concept="3clFbS" id="4oK3uBKnMSr" role="2VODD2">
             <node concept="3cpWs6" id="4XlUEZmjw0a" role="3cqZAp">
               <node concept="2YIFZM" id="4XlUEZmjwaO" role="3cqZAk">
-                <ref role="37wK5l" to="hhvz:4XlUEZmjuoC" resolve="findAnyLoadViewEventInView" />
+                <ref role="37wK5l" to="hhvz:4XlUEZmjuoC" resolve="findNoLoadViewEventInView" />
                 <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
                 <node concept="3bvxqY" id="4XlUEZmjwdc" role="37wK5m" />
               </node>
@@ -2926,7 +2926,7 @@
             </node>
             <node concept="3cpWs6" id="5Nv$FuaiNS7" role="3cqZAp">
               <node concept="37vLTw" id="7kmg1RAUL45" role="3cqZAk">
-                <ref role="3cqZAo" node="7kmg1RAUL3Z" resolve="list" />
+                <ref role="3cqZAo" node="7kmg1RAUL3Z" resolve="builtInColors" />
               </node>
             </node>
           </node>

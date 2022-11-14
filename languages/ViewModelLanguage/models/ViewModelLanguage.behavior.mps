@@ -1069,7 +1069,7 @@
                 <node concept="2OqwBi" id="5WrZkWQ7REh" role="37vLTx">
                   <node concept="2OqwBi" id="5WrZkWQ7REi" role="2Oq$k0">
                     <node concept="37vLTw" id="4XlUEZmwguk" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4XlUEZmwgue" resolve="node" />
+                      <ref role="3cqZAo" node="4XlUEZmwgue" resolve="cell" />
                     </node>
                     <node concept="3TrEf2" id="5WrZkWQ7REq" role="2OqNvi">
                       <ref role="3Tt5mk" to="6ap2:5WrZkWQ5bAu" resolve="content" />
@@ -1113,7 +1113,7 @@
             <node concept="3clFbS" id="5WrZkWQ5ykB" role="9aQI4">
               <node concept="3cpWs6" id="5WrZkWQ5$y_" role="3cqZAp">
                 <node concept="37vLTw" id="4XlUEZmwgul" role="3cqZAk">
-                  <ref role="3cqZAo" node="4XlUEZmwgue" resolve="node" />
+                  <ref role="3cqZAo" node="4XlUEZmwgue" resolve="cell" />
                 </node>
               </node>
             </node>
@@ -1686,7 +1686,7 @@
             <node concept="3clFbF" id="5QmCreijbwI" role="3cqZAp">
               <node concept="37vLTI" id="5QmCreijbSl" role="3clFbG">
                 <node concept="37vLTw" id="5QmCreijbwG" role="37vLTJ">
-                  <ref role="3cqZAo" node="5QmCreijb5y" resolve="sampleTxt" />
+                  <ref role="3cqZAo" node="5QmCreijb5y" resolve="sampleText" />
                 </node>
                 <node concept="2OqwBi" id="5QmCreijbSs" role="37vLTx">
                   <node concept="13iPFW" id="5QmCreijbSt" role="2Oq$k0" />
@@ -1718,7 +1718,7 @@
               <property role="373rjd" value="true" />
               <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
               <node concept="37vLTw" id="5QmCreijb5A" role="37wK5m">
-                <ref role="3cqZAo" node="5QmCreijb5y" resolve="name" />
+                <ref role="3cqZAo" node="5QmCreijb5y" resolve="sampleText" />
               </node>
             </node>
           </node>
@@ -4861,7 +4861,7 @@
           <node concept="2OqwBi" id="5QmCreizQK8" role="3clFbG">
             <node concept="13iPFW" id="5QmCreizQ$P" role="2Oq$k0" />
             <node concept="2qgKlT" id="5QmCreizQZP" role="2OqNvi">
-              <ref role="37wK5l" node="5QmCreizQzU" resolve="addRowHandleParameter" />
+              <ref role="37wK5l" node="5QmCreizQzU" resolve="addDefaultRowHandleParameter" />
             </node>
           </node>
         </node>
@@ -4923,7 +4923,7 @@
         <node concept="3cpWs6" id="4XlUEZml5Ga" role="3cqZAp">
           <node concept="22lmx$" id="4XlUEZmlmFK" role="3cqZAk">
             <node concept="1rXfSq" id="4XlUEZmlmUj" role="3uHU7w">
-              <ref role="37wK5l" node="4XlUEZmjuoC" resolve="findAnyLoadViewEventInView" />
+              <ref role="37wK5l" node="4XlUEZmjuoC" resolve="findNoLoadViewEventInView" />
               <node concept="37vLTw" id="4XlUEZmlnpF" role="37wK5m">
                 <ref role="3cqZAo" node="4XlUEZml6iz" resolve="anyNodeInView" />
               </node>
@@ -5221,7 +5221,7 @@
                   <node concept="3clFbF" id="4XlUEZmivju" role="3cqZAp">
                     <node concept="2OqwBi" id="4XlUEZmivjv" role="3clFbG">
                       <node concept="37vLTw" id="4XlUEZmivjw" role="2Oq$k0">
-                        <ref role="3cqZAo" node="4XlUEZmivj0" resolve="buttonsWithViewEvent" />
+                        <ref role="3cqZAo" node="4XlUEZmivj0" resolve="nodesWithViewEvent" />
                       </node>
                       <node concept="TSZUe" id="4XlUEZmivjx" role="2OqNvi">
                         <node concept="2OqwBi" id="4XlUEZmivjy" role="25WWJ7">
@@ -5273,7 +5273,7 @@
           <node concept="2OqwBi" id="4XlUEZmivjO" role="3cqZAk">
             <node concept="2OqwBi" id="4XlUEZmivjP" role="2Oq$k0">
               <node concept="37vLTw" id="4XlUEZmivjQ" role="2Oq$k0">
-                <ref role="3cqZAo" node="4XlUEZmivjD" resolve="buttonsInViewModel" />
+                <ref role="3cqZAo" node="4XlUEZmivjD" resolve="nodesOfTypeInViewModel" />
               </node>
               <node concept="3zZkjj" id="4XlUEZmivjR" role="2OqNvi">
                 <node concept="1bVj0M" id="4XlUEZmivjS" role="23t8la">
@@ -5282,7 +5282,7 @@
                       <node concept="3fqX7Q" id="4XlUEZmivjV" role="3clFbG">
                         <node concept="2OqwBi" id="4XlUEZmivjW" role="3fr31v">
                           <node concept="37vLTw" id="4XlUEZmivjX" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4XlUEZmivj0" resolve="buttonsWithViewEvent" />
+                            <ref role="3cqZAo" node="4XlUEZmivj0" resolve="nodesWithViewEvent" />
                           </node>
                           <node concept="3JPx81" id="4XlUEZmivjY" role="2OqNvi">
                             <node concept="37vLTw" id="4XlUEZmivjZ" role="25WWJ7">
@@ -6276,12 +6276,12 @@
         <node concept="3clFbH" id="7kmg1RAJh5Q" role="3cqZAp" />
         <node concept="3clFbF" id="7kmg1RAJdih" role="3cqZAp">
           <node concept="37vLTw" id="7kmg1RAJfdu" role="3clFbG">
-            <ref role="3cqZAo" node="7kmg1RAJfdp" resolve="prepareRenderer" />
+            <ref role="3cqZAo" node="7kmg1RAJfdp" resolve="component" />
           </node>
         </node>
       </node>
       <node concept="2AHcQZ" id="7kmg1RAJdic" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="7kmg1RAJcog" role="jymVt" />
@@ -6309,7 +6309,7 @@
             <node concept="3clFbF" id="7kmg1RAIbQB" role="3cqZAp">
               <node concept="2OqwBi" id="7kmg1RAIdkB" role="3clFbG">
                 <node concept="37vLTw" id="7kmg1RAIbQ_" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7kmg1RAE9mJ" resolve="colorPerRow" />
+                  <ref role="3cqZAo" node="7kmg1RAE9mJ" resolve="backgroundColorPerRow" />
                 </node>
                 <node concept="liA8E" id="7kmg1RAIePp" role="2OqNvi">
                   <ref role="37wK5l" to="33ny:~List.set(int,java.lang.Object)" resolve="set" />

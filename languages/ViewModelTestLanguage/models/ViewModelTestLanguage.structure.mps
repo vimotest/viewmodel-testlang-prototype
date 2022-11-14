@@ -812,7 +812,7 @@
     <property role="3GE5qa" value="test" />
     <property role="TrG5h" value="FieldAssertion" />
     <property role="34LRSv" value="assert field" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2gml1W1trUm" role="1TKVEi">
       <property role="IQ2ns" value="2600358326998253206" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

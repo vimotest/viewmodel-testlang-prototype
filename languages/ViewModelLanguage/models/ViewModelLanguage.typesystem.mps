@@ -192,7 +192,7 @@
               <ref role="2OEe5H" to="rtft:56jsF7$wOuB" resolve="contents" />
             </node>
             <node concept="3Cnw8n" id="5QmCreizQe$" role="1urrFz">
-              <ref role="QpYPw" node="5QmCreizQex" resolve="fix_" />
+              <ref role="QpYPw" node="5QmCreizQex" resolve="fix_SelectRowEvent_Parameter" />
             </node>
           </node>
         </node>
