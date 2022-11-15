@@ -2592,6 +2592,7 @@
     <node concept="3EZMnI" id="2gml1W1trUx" role="2wV5jI">
       <node concept="3F0ifn" id="2gml1W1trUC" role="3EZMnx">
         <property role="3F0ifm" value="assert field" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
       </node>
       <node concept="3F1sOY" id="2gml1W1trUI" role="3EZMnx">
         <ref role="1NtTu8" to="l8rz:2gml1W1trUm" resolve="checkValue" />

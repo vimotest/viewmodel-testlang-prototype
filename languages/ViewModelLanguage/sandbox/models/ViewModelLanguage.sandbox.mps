@@ -271,6 +271,7 @@
         <reference id="7497173622928375669" name="image" index="1u6r35" />
       </concept>
       <concept id="6853349774631251782" name="ViewModelTestLanguage.structure.TableRowCheck" flags="ng" index="1Dvt89">
+        <child id="8437001449088359189" name="checks" index="2ji5G8" />
         <child id="6853349774631251791" name="cellChecks" index="1Dvt80" />
       </concept>
       <concept id="6853349774631251773" name="ViewModelTestLanguage.structure.TableCheck" flags="ng" index="1Dvt9M">
@@ -397,6 +398,10 @@
               </node>
             </node>
             <node concept="3mzAc8" id="7kmg1RAPgBI" role="3mzU$l" />
+            <node concept="2P4x69" id="ZR1ceS98a2" role="2P43km">
+              <property role="TrG5h" value="isBold" />
+              <node concept="2P4D6g" id="ZR1ceS98a1" role="2P5Oin" />
+            </node>
           </node>
         </node>
         <node concept="3fMvU4" id="5QmCreioxHG" role="3fMvU8">
@@ -871,6 +876,36 @@
         <node concept="_uk3J" id="2gml1W1uDu$" role="_oYE9">
           <ref role="_unF3" node="2gml1W1uDtp" resolve="MyCustomBool" />
           <node concept="3clFbT" id="2gml1W1uQ_E" role="_uk3G" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="ZR1ceS989q" role="30nzpy">
+        <ref role="30nzpS" node="5WrZkWQ61QF" resolve="Table" />
+        <node concept="1Dvt9M" id="ZR1ceS989w" role="30nDbQ">
+          <node concept="1Dvt89" id="ZR1ceS989B" role="2D8nNu">
+            <node concept="1u3WYF" id="ZR1ceS989C" role="1Dvt80">
+              <node concept="1u6pYw" id="ZR1ceS989T" role="1u3WYG">
+                <node concept="1u6r32" id="ZR1ceS989U" role="1u6pWF">
+                  <ref role="1u6r35" node="6wbjV0Q9rdK" resolve="Circle" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="ZR1ceS989E" role="1Dvt80">
+              <node concept="1tZoqV" id="ZR1ceS989F" role="1u3WYG">
+                <node concept="1tZoko" id="ZR1ceS989G" role="1tZokz" />
+              </node>
+            </node>
+            <node concept="1u3WYF" id="ZR1ceS989H" role="1Dvt80">
+              <node concept="2D8cJI" id="ZR1ceS989I" role="1u3WYG">
+                <node concept="30nz6$" id="ZR1ceS989J" role="2D8cJs" />
+              </node>
+            </node>
+            <node concept="_uk3J" id="ZR1ceSacIP" role="2ji5G8">
+              <ref role="_unF3" node="ZR1ceS98a2" resolve="isBold" />
+              <node concept="3clFbT" id="ZR1ceSacIT" role="_uk3G">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
