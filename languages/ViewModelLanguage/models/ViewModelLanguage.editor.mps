@@ -3067,5 +3067,59 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="5GYs7qIaIeX">
+    <property role="3GE5qa" value="viewcomponents" />
+    <ref role="1XX52x" to="6ap2:5GYs7qI9Oz2" resolve="ComboBoxComponent" />
+    <node concept="3EZMnI" id="5GYs7qIaIeZ" role="2wV5jI">
+      <node concept="3F0ifn" id="5GYs7qIaIf0" role="3EZMnx">
+        <property role="3F0ifm" value="combobox" />
+      </node>
+      <node concept="3F0A7n" id="5GYs7qIaIf1" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3gTLQM" id="5GYs7qIaIf2" role="3EZMnx">
+        <node concept="3Fmcul" id="5GYs7qIaIf3" role="3FoqZy">
+          <node concept="3clFbS" id="5GYs7qIaIf4" role="2VODD2">
+            <node concept="3clFbF" id="5GYs7qIaIf5" role="3cqZAp">
+              <node concept="2OqwBi" id="5GYs7qIaIf6" role="3clFbG">
+                <node concept="pncrf" id="5GYs7qIaIf7" role="2Oq$k0" />
+                <node concept="2qgKlT" id="5GYs7qIaIf8" role="2OqNvi">
+                  <ref role="37wK5l" to="hhvz:2Yd1qrJOWqT" resolve="makeSwingComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="5GYs7qIaIf9" role="2iSdaV" />
+    </node>
+    <node concept="PMmxH" id="5GYs7qIaJ3F" role="6VMZX">
+      <ref role="PMmxG" node="5GYs7qIaISj" resolve="ComboBoxComponent_details_EditorComponent" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="5GYs7qIaISj">
+    <property role="3GE5qa" value="viewcomponents" />
+    <property role="TrG5h" value="ComboBoxComponent_details_EditorComponent" />
+    <ref role="1XX52x" to="6ap2:5GYs7qI9Oz2" resolve="ComboBoxComponent" />
+    <node concept="1PE4EZ" id="5GYs7qIaJ5L" role="1PM95z">
+      <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
+    </node>
+    <node concept="3EZMnI" id="5GYs7qIbKN5" role="2wV5jI">
+      <node concept="l2Vlx" id="5GYs7qIbKN6" role="2iSdaV" />
+      <node concept="PMmxH" id="5GYs7qIbKN7" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="3F0ifn" id="5GYs7qIbKN8" role="3EZMnx">
+        <property role="3F0ifm" value="sample item" />
+        <node concept="pVoyu" id="5GYs7qIbKN9" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="5GYs7qIbKNa" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:5GYs7qIaJVv" resolve="sampleSelectedItemText" />
+      </node>
+    </node>
+  </node>
 </model>
 

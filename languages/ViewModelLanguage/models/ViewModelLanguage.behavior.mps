@@ -147,6 +147,7 @@
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -6638,6 +6639,74 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="5GYs7qI9Oz3">
+    <property role="3GE5qa" value="viewcomponents" />
+    <ref role="13h7C2" to="6ap2:5GYs7qI9Oz2" resolve="ComboBoxComponent" />
+    <node concept="13hLZK" id="5GYs7qI9Oz4" role="13h7CW">
+      <node concept="3clFbS" id="5GYs7qI9Oz5" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5GYs7qI9Oze" role="13h7CS">
+      <property role="TrG5h" value="makeSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJOWqT" resolve="makeSwingComponent" />
+      <node concept="3Tm1VV" id="5GYs7qI9Ozf" role="1B3o_S" />
+      <node concept="3clFbS" id="5GYs7qI9VPy" role="3clF47">
+        <node concept="3cpWs8" id="5GYs7qIaK9g" role="3cqZAp">
+          <node concept="3cpWsn" id="5GYs7qIaK9h" role="3cpWs9">
+            <property role="TrG5h" value="comboBox" />
+            <node concept="3uibUv" id="5GYs7qIaK9e" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JComboBox" resolve="JComboBox" />
+              <node concept="3uibUv" id="5GYs7qIaK9f" role="11_B2D">
+                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="5GYs7qIaK9i" role="33vP2m">
+              <node concept="1pGfFk" id="5GYs7qIaK9j" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~JComboBox.&lt;init&gt;()" resolve="JComboBox" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5GYs7qIaKzL" role="3cqZAp">
+          <node concept="3clFbS" id="5GYs7qIaKzN" role="3clFbx">
+            <node concept="3clFbF" id="5GYs7qIaLX$" role="3cqZAp">
+              <node concept="2OqwBi" id="5GYs7qIaMIh" role="3clFbG">
+                <node concept="37vLTw" id="5GYs7qIaLXy" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5GYs7qIaK9h" resolve="comboBox" />
+                </node>
+                <node concept="liA8E" id="5GYs7qIaNUO" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~JComboBox.setSelectedItem(java.lang.Object)" resolve="setSelectedItem" />
+                  <node concept="2OqwBi" id="5GYs7qIaO73" role="37wK5m">
+                    <node concept="13iPFW" id="5GYs7qIaO74" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="5GYs7qIaO75" role="2OqNvi">
+                      <ref role="3TsBF5" to="6ap2:5GYs7qIaJVv" resolve="sampleSelectedItemText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5GYs7qIaLCE" role="3clFbw">
+            <node concept="2OqwBi" id="5GYs7qIaL0R" role="2Oq$k0">
+              <node concept="13iPFW" id="5GYs7qIaKNF" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5GYs7qIaLdp" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:5GYs7qIaJVv" resolve="sampleSelectedItemText" />
+              </node>
+            </node>
+            <node concept="17RvpY" id="5GYs7qIaLT0" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5GYs7qIaRfw" role="3cqZAp">
+          <node concept="37vLTw" id="5GYs7qIaK9k" role="3cqZAk">
+            <ref role="3cqZAo" node="5GYs7qIaK9h" resolve="comboBox" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="5GYs7qI9VPz" role="3clF45">
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
       </node>
     </node>
   </node>

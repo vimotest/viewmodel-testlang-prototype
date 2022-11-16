@@ -783,5 +783,17 @@
       <ref role="20lvS9" node="5Nv$FuahBIW" resolve="ColorValue" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5GYs7qI9Oz2">
+    <property role="EcuMT" value="6574816161037764802" />
+    <property role="3GE5qa" value="viewcomponents" />
+    <property role="TrG5h" value="ComboBoxComponent" />
+    <property role="34LRSv" value="combobox" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyi" id="5GYs7qIaJVv" role="1TKVEl">
+      <property role="IQ2nx" value="6574816161038008031" />
+      <property role="TrG5h" value="sampleSelectedItemText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

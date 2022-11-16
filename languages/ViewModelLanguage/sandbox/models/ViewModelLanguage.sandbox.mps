@@ -137,6 +137,7 @@
         <child id="5984107031766637556" name="rowsFeature" index="2PlsDn" />
         <child id="6743755284660838203" name="selectedRowFeature" index="3fMvU8" />
       </concept>
+      <concept id="6574816161037764802" name="ViewModelLanguage.structure.ComboBoxComponent" flags="ng" index="3P6jyO" />
     </language>
     <language id="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" name="UseCaseLanguage">
       <concept id="7015588959112922168" name="UseCaseLanguage.structure.UseCaseCommand" flags="ng" index="2ni6j4" />
@@ -505,6 +506,18 @@
         <node concept="2Pim7H" id="5QmCrei9OaB" role="2Pim76">
           <property role="2PigO5" value="true" />
           <property role="2PigPS" value="UserInput" />
+        </node>
+      </node>
+      <node concept="3P6jyO" id="5GYs7qIc6o3" role="2P43km">
+        <node concept="2Pim7P" id="5GYs7qIc6o5" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="5GYs7qIc6o7" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="5GYs7qIc6o9" role="2Pim76">
+          <property role="2PigO5" value="true" />
+          <property role="2PigPS" value="MyOption" />
         </node>
       </node>
       <node concept="2P4x69" id="2gml1W1uDtp" role="2P43km">
