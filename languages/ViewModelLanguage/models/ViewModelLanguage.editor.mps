@@ -545,8 +545,8 @@
       </node>
       <node concept="2iRfu4" id="3JS2UjmUbQc" role="2iSdaV" />
     </node>
-    <node concept="PMmxH" id="3VvzM8tZZGY" role="6VMZX">
-      <ref role="PMmxG" node="3VvzM8tZZvC" resolve="ButtonComponent_details_EditorComponent" />
+    <node concept="PMmxH" id="5GYs7qIdmWb" role="6VMZX">
+      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="24kQdi" id="3JS2UjmUCiR">
@@ -575,8 +575,8 @@
       </node>
       <node concept="2iRfu4" id="3JS2UjmUCiW" role="2iSdaV" />
     </node>
-    <node concept="PMmxH" id="3VvzM8u0MAx" role="6VMZX">
-      <ref role="PMmxG" node="3VvzM8u001v" resolve="CheckBoxComponent_details_EditorComponent" />
+    <node concept="PMmxH" id="5GYs7qIdn36" role="6VMZX">
+      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ5hBx">
@@ -1508,8 +1508,8 @@
         </node>
       </node>
     </node>
-    <node concept="PMmxH" id="3VvzM8u5ZS$" role="6VMZX">
-      <ref role="PMmxG" node="3VvzM8u00RU" resolve="LabelComponent_details_EditorComponent" />
+    <node concept="PMmxH" id="5GYs7qIdnOz" role="6VMZX">
+      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ8jtz">
@@ -1538,8 +1538,8 @@
       </node>
       <node concept="2iRfu4" id="5WrZkWQ8jtJ" role="2iSdaV" />
     </node>
-    <node concept="PMmxH" id="3VvzM8tY7u2" role="6VMZX">
-      <ref role="PMmxG" node="3VvzM8tY5Ot" resolve="ImageComponent_details_EditorComponent" />
+    <node concept="PMmxH" id="5GYs7qIdnx1" role="6VMZX">
+      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ8jEI">
@@ -1725,8 +1725,8 @@
         </node>
       </node>
     </node>
-    <node concept="PMmxH" id="3VvzM8tZZ5n" role="6VMZX">
-      <ref role="PMmxG" node="3VvzM8tZYRZ" resolve="ImageStackComponent_details_EditorComponent" />
+    <node concept="PMmxH" id="5GYs7qIdnHC" role="6VMZX">
+      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="24kQdi" id="1c2yPVfA6IS">
@@ -1872,8 +1872,8 @@
       </node>
       <node concept="2iRfu4" id="3A1HDQku_xF" role="2iSdaV" />
     </node>
-    <node concept="PMmxH" id="3VvzM8u0MIf" role="6VMZX">
-      <ref role="PMmxG" node="3VvzM8u0MI6" resolve="ImageButtonComponent_details_EditorComponent" />
+    <node concept="PMmxH" id="5GYs7qIdnq6" role="6VMZX">
+      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="PKFIW" id="5cbOqfAgHvo">
@@ -2035,8 +2035,8 @@
       </node>
       <node concept="2iRfu4" id="5QmCrei7kxn" role="2iSdaV" />
     </node>
-    <node concept="PMmxH" id="3VvzM8u01ON" role="6VMZX">
-      <ref role="PMmxG" node="3VvzM8u01Ab" resolve="TextBoxComponent_details_EditorComponent" />
+    <node concept="PMmxH" id="5GYs7qIdpHL" role="6VMZX">
+      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="PKFIW" id="3VvzM8u00RU">
@@ -3093,8 +3093,8 @@
       </node>
       <node concept="2iRfu4" id="5GYs7qIaIf9" role="2iSdaV" />
     </node>
-    <node concept="PMmxH" id="5GYs7qIaJ3F" role="6VMZX">
-      <ref role="PMmxG" node="5GYs7qIaISj" resolve="ComboBoxComponent_details_EditorComponent" />
+    <node concept="PMmxH" id="5GYs7qId0YQ" role="6VMZX">
+      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
     </node>
   </node>
   <node concept="PKFIW" id="5GYs7qIaISj">
