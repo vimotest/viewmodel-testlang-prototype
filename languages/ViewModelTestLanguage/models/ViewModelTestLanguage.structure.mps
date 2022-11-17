@@ -259,6 +259,9 @@
     <node concept="PrWs8" id="3_3BZO9RVpO" role="PzmwI">
       <ref role="PrY4T" node="6wbjV0Q4H0h" resolve="IImageCheckValue" />
     </node>
+    <node concept="PrWs8" id="5GYs7qIfmef" role="PzmwI">
+      <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJONg2">
     <property role="EcuMT" value="3426401106045121538" />
@@ -711,6 +714,9 @@
     <node concept="PrWs8" id="5cbOqfA60p9" role="PzmwI">
       <ref role="PrY4T" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
     </node>
+    <node concept="PrWs8" id="5GYs7qIfme8" role="PzmwI">
+      <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5QmCrei7W1w">
     <property role="EcuMT" value="6743755284656668768" />
@@ -825,6 +831,70 @@
     </node>
     <node concept="PrWs8" id="2gml1W1trUk" role="PzmwI">
       <ref role="PrY4T" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5GYs7qIfjFn">
+    <property role="EcuMT" value="6574816161039203031" />
+    <property role="3GE5qa" value="assert.combobox" />
+    <property role="TrG5h" value="ComboBoxCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="5GYs7qIfjFp" role="1TKVEi">
+      <property role="IQ2ns" value="6574816161039203033" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5GYs7qIfjFo">
+    <property role="EcuMT" value="6574816161039203032" />
+    <property role="3GE5qa" value="assert.combobox" />
+    <property role="TrG5h" value="IComboBoxCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="5GYs7qIfpGw">
+    <property role="EcuMT" value="6574816161039227680" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="ItemsCheckValue" />
+    <property role="34LRSv" value="items" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5GYs7qIfpGx" role="PzmwI">
+      <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
+    </node>
+    <node concept="1TJgyj" id="5GYs7qIfpG_" role="1TKVEi">
+      <property role="IQ2ns" value="6574816161039227685" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="items" />
+      <ref role="20lvS9" node="5GYs7qIfpGB" resolve="ItemValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5GYs7qIfpGB">
+    <property role="EcuMT" value="6574816161039227687" />
+    <property role="3GE5qa" value="assert.checkvalues.utils" />
+    <property role="TrG5h" value="ItemValue" />
+    <property role="34LRSv" value="item value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5GYs7qIfpGC" role="1TKVEl">
+      <property role="IQ2nx" value="6574816161039227688" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5GYs7qIfpHL">
+    <property role="EcuMT" value="6574816161039227761" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="SelectedItemCheckValue" />
+    <property role="34LRSv" value="selected item" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5GYs7qIfpHM" role="PzmwI">
+      <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
+    </node>
+    <node concept="1TJgyj" id="5GYs7qIfpHN" role="1TKVEi">
+      <property role="IQ2ns" value="6574816161039227763" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="selectedItem" />
+      <ref role="20lvS9" node="5GYs7qIfpGB" resolve="ItemValue" />
     </node>
   </node>
 </model>

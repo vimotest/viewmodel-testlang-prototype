@@ -615,6 +615,36 @@
       </node>
       <node concept="3cqZAl" id="3_3BZO9RWvj" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="5GYs7qIfmui" role="13h7CS">
+      <property role="TrG5h" value="modifyComboBox" />
+      <ref role="13i0hy" node="5GYs7qIfkMT" resolve="modifyComboBox" />
+      <node concept="3Tm1VV" id="5GYs7qIfmuj" role="1B3o_S" />
+      <node concept="3clFbS" id="5GYs7qIfmuo" role="3clF47">
+        <node concept="3clFbF" id="5GYs7qIfmC4" role="3cqZAp">
+          <node concept="2OqwBi" id="5GYs7qIfnh3" role="3clFbG">
+            <node concept="37vLTw" id="5GYs7qIfmC3" role="2Oq$k0">
+              <ref role="3cqZAo" node="5GYs7qIfmup" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="5GYs7qIfo74" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComboBox.setEnabled(boolean)" resolve="setEnabled" />
+              <node concept="2OqwBi" id="5GYs7qIfol4" role="37wK5m">
+                <node concept="13iPFW" id="5GYs7qIfo7N" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5GYs7qIfozU" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:2Yd1qrJONfX" resolve="sensitivity" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5GYs7qIfmup" role="3clF46">
+        <property role="TrG5h" value="comboBox" />
+        <node concept="3uibUv" id="5GYs7qIfmuq" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComboBox" resolve="JComboBox" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5GYs7qIfmur" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="2Yd1qrJORUx">
     <property role="3GE5qa" value="assert.checkvalues" />
@@ -6677,6 +6707,36 @@
       </node>
       <node concept="3cqZAl" id="5cbOqfA60r2" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="5GYs7qIfoWn" role="13h7CS">
+      <property role="TrG5h" value="modifyComboBox" />
+      <ref role="13i0hy" node="5GYs7qIfkMT" resolve="modifyComboBox" />
+      <node concept="3Tm1VV" id="5GYs7qIfoWo" role="1B3o_S" />
+      <node concept="3clFbS" id="5GYs7qIfoWp" role="3clF47">
+        <node concept="3clFbF" id="5GYs7qIfoWq" role="3cqZAp">
+          <node concept="2OqwBi" id="5GYs7qIfoWr" role="3clFbG">
+            <node concept="37vLTw" id="5GYs7qIfoWs" role="2Oq$k0">
+              <ref role="3cqZAo" node="5GYs7qIfoWx" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="5GYs7qIfoWt" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setVisible(boolean)" resolve="setVisible" />
+              <node concept="2OqwBi" id="5GYs7qIfoWu" role="37wK5m">
+                <node concept="13iPFW" id="5GYs7qIfoWv" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5GYs7qIfoWw" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:5cbOqfA60pr" resolve="visibility" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5GYs7qIfoWx" role="3clF46">
+        <property role="TrG5h" value="comboBox" />
+        <node concept="3uibUv" id="5GYs7qIfoWy" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComboBox" resolve="JComboBox" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5GYs7qIfoWz" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="5QmCrei7WYr">
     <property role="3GE5qa" value="assert.texbox" />
@@ -7129,6 +7189,260 @@
     </node>
     <node concept="13hLZK" id="2gml1W1sPiE" role="13h7CW">
       <node concept="3clFbS" id="2gml1W1sPiF" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5GYs7qIfkMI">
+    <property role="3GE5qa" value="assert.combobox" />
+    <ref role="13h7C2" to="l8rz:5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
+    <node concept="13i0hz" id="5GYs7qIfkMT" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="modifyComboBox" />
+      <node concept="3Tm1VV" id="5GYs7qIfkMU" role="1B3o_S" />
+      <node concept="3cqZAl" id="5GYs7qIfkTO" role="3clF45" />
+      <node concept="3clFbS" id="5GYs7qIfkMW" role="3clF47" />
+      <node concept="37vLTG" id="5GYs7qIfkYH" role="3clF46">
+        <property role="TrG5h" value="comboBox" />
+        <node concept="3uibUv" id="5GYs7qIfkYG" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComboBox" resolve="JComboBox" />
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="5GYs7qIfkMJ" role="13h7CW">
+      <node concept="3clFbS" id="5GYs7qIfkMK" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5GYs7qIfl3x">
+    <property role="3GE5qa" value="assert.combobox" />
+    <ref role="13h7C2" to="l8rz:5GYs7qIfjFn" resolve="ComboBoxCheck" />
+    <node concept="13hLZK" id="5GYs7qIfl3y" role="13h7CW">
+      <node concept="3clFbS" id="5GYs7qIfl3z" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5GYs7qIfl3O" role="13h7CS">
+      <property role="TrG5h" value="applyOnSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJP3FF" resolve="applyOnSwingComponent" />
+      <node concept="3Tm1VV" id="5GYs7qIfl3T" role="1B3o_S" />
+      <node concept="3clFbS" id="5GYs7qIfl3W" role="3clF47">
+        <node concept="3cpWs8" id="5GYs7qIfl95" role="3cqZAp">
+          <node concept="3cpWsn" id="5GYs7qIfl96" role="3cpWs9">
+            <property role="TrG5h" value="comboBox" />
+            <node concept="3uibUv" id="5GYs7qIfl97" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JComboBox" resolve="JComboBox" />
+            </node>
+            <node concept="0kSF2" id="5GYs7qIfl98" role="33vP2m">
+              <node concept="3uibUv" id="5GYs7qIfl99" role="0kSFW">
+                <ref role="3uigEE" to="dxuu:~JComboBox" resolve="JComboBox" />
+              </node>
+              <node concept="37vLTw" id="5GYs7qIfl9a" role="0kSFX">
+                <ref role="3cqZAo" node="5GYs7qIfl3X" resolve="swingComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5GYs7qIfl9b" role="3cqZAp">
+          <node concept="3clFbS" id="5GYs7qIfl9c" role="3clFbx">
+            <node concept="3clFbF" id="5GYs7qIfl9d" role="3cqZAp">
+              <node concept="2OqwBi" id="5GYs7qIfl9e" role="3clFbG">
+                <node concept="2OqwBi" id="5GYs7qIfl9f" role="2Oq$k0">
+                  <node concept="13iPFW" id="5GYs7qIfl9g" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="5GYs7qIfl9h" role="2OqNvi">
+                    <ref role="3TtcxE" to="l8rz:5GYs7qIfjFp" resolve="checks" />
+                  </node>
+                </node>
+                <node concept="2es0OD" id="5GYs7qIfl9i" role="2OqNvi">
+                  <node concept="1bVj0M" id="5GYs7qIfl9j" role="23t8la">
+                    <node concept="3clFbS" id="5GYs7qIfl9k" role="1bW5cS">
+                      <node concept="3clFbF" id="5GYs7qIfl9l" role="3cqZAp">
+                        <node concept="2OqwBi" id="5GYs7qIfl9m" role="3clFbG">
+                          <node concept="37vLTw" id="5GYs7qIfl9n" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5GYs7qIfl9q" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="5GYs7qIfl9o" role="2OqNvi">
+                            <ref role="37wK5l" node="5GYs7qIfkMT" resolve="modifyComboBox" />
+                            <node concept="37vLTw" id="5GYs7qIfl9p" role="37wK5m">
+                              <ref role="3cqZAo" node="5GYs7qIfl96" resolve="comboBox" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="5GYs7qIfl9q" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="5GYs7qIfl9r" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="5GYs7qIfl9s" role="3clFbw">
+            <node concept="10Nm6u" id="5GYs7qIfl9t" role="3uHU7w" />
+            <node concept="37vLTw" id="5GYs7qIfl9u" role="3uHU7B">
+              <ref role="3cqZAo" node="5GYs7qIfl96" resolve="comboBox" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5GYs7qIfl3X" role="3clF46">
+        <property role="TrG5h" value="swingComponent" />
+        <node concept="3uibUv" id="5GYs7qIfl3Y" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5GYs7qIfl3Z" role="3clF46">
+        <property role="TrG5h" value="viewComponent" />
+        <node concept="3Tqbb2" id="5GYs7qIfl40" role="1tU5fm">
+          <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5GYs7qIfl41" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5GYs7qIgxN3">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="13h7C2" to="l8rz:5GYs7qIfpHL" resolve="SelectedItemCheckValue" />
+    <node concept="13hLZK" id="5GYs7qIgxN4" role="13h7CW">
+      <node concept="3clFbS" id="5GYs7qIgxN5" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5GYs7qIgxNe" role="13h7CS">
+      <property role="TrG5h" value="modifyComboBox" />
+      <ref role="13i0hy" node="5GYs7qIfkMT" resolve="modifyComboBox" />
+      <node concept="3Tm1VV" id="5GYs7qIgxNf" role="1B3o_S" />
+      <node concept="3clFbS" id="5GYs7qIgxNk" role="3clF47">
+        <node concept="3clFbF" id="5GYs7qIhHrX" role="3cqZAp">
+          <node concept="2OqwBi" id="5GYs7qIhI6w" role="3clFbG">
+            <node concept="37vLTw" id="5GYs7qIhHrV" role="2Oq$k0">
+              <ref role="3cqZAo" node="5GYs7qIgxNl" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="5GYs7qIhJ2r" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComboBox.removeAllItems()" resolve="removeAllItems" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5GYs7qIgQ7l" role="3cqZAp">
+          <node concept="2OqwBi" id="5GYs7qIgQKc" role="3clFbG">
+            <node concept="37vLTw" id="5GYs7qIgQ7k" role="2Oq$k0">
+              <ref role="3cqZAo" node="5GYs7qIgxNl" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="5GYs7qIgRsl" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComboBox.addItem(java.lang.Object)" resolve="addItem" />
+              <node concept="2OqwBi" id="5GYs7qIhl$W" role="37wK5m">
+                <node concept="2OqwBi" id="5GYs7qIgRAB" role="2Oq$k0">
+                  <node concept="13iPFW" id="5GYs7qIgRt4" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="5GYs7qIgRLa" role="2OqNvi">
+                    <ref role="3Tt5mk" to="l8rz:5GYs7qIfpHN" resolve="selectedItem" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="5GYs7qIhlBs" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:5GYs7qIfpGC" resolve="value" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5GYs7qIgRTo" role="3cqZAp">
+          <node concept="2OqwBi" id="5GYs7qIgRTp" role="3clFbG">
+            <node concept="37vLTw" id="5GYs7qIgRTq" role="2Oq$k0">
+              <ref role="3cqZAo" node="5GYs7qIgxNl" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="5GYs7qIgSEC" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComboBox.setSelectedItem(java.lang.Object)" resolve="setSelectedItem" />
+              <node concept="2OqwBi" id="5GYs7qIhleD" role="37wK5m">
+                <node concept="2OqwBi" id="5GYs7qIgSQO" role="2Oq$k0">
+                  <node concept="13iPFW" id="5GYs7qIgSFQ" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="5GYs7qIgT2v" role="2OqNvi">
+                    <ref role="3Tt5mk" to="l8rz:5GYs7qIfpHN" resolve="selectedItem" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="5GYs7qIhlrM" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:5GYs7qIfpGC" resolve="value" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5GYs7qIgxNl" role="3clF46">
+        <property role="TrG5h" value="comboBox" />
+        <node concept="3uibUv" id="5GYs7qIgxNm" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComboBox" resolve="JComboBox" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5GYs7qIgxNn" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5GYs7qIgxS7">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="13h7C2" to="l8rz:5GYs7qIfpGw" resolve="ItemsCheckValue" />
+    <node concept="13i0hz" id="5GYs7qIgxSi" role="13h7CS">
+      <property role="TrG5h" value="modifyComboBox" />
+      <ref role="13i0hy" node="5GYs7qIfkMT" resolve="modifyComboBox" />
+      <node concept="3Tm1VV" id="5GYs7qIgxSj" role="1B3o_S" />
+      <node concept="3clFbS" id="5GYs7qIgxSk" role="3clF47">
+        <node concept="3cpWs8" id="5GYs7qIgDcn" role="3cqZAp">
+          <node concept="3cpWsn" id="5GYs7qIgDcq" role="3cpWs9">
+            <property role="TrG5h" value="tooltip" />
+            <node concept="17QB3L" id="5GYs7qIgDcl" role="1tU5fm" />
+            <node concept="2OqwBi" id="5GYs7qIgDkx" role="33vP2m">
+              <node concept="2OqwBi" id="5GYs7qIgOaR" role="2Oq$k0">
+                <node concept="2OqwBi" id="5GYs7qIgDky" role="2Oq$k0">
+                  <node concept="13iPFW" id="5GYs7qIgDkz" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="5GYs7qIgDk$" role="2OqNvi">
+                    <ref role="3TtcxE" to="l8rz:5GYs7qIfpG_" resolve="items" />
+                  </node>
+                </node>
+                <node concept="3$u5V9" id="5GYs7qIgPzH" role="2OqNvi">
+                  <node concept="1bVj0M" id="5GYs7qIgPzJ" role="23t8la">
+                    <node concept="3clFbS" id="5GYs7qIgPzK" role="1bW5cS">
+                      <node concept="3clFbF" id="5GYs7qIgPDV" role="3cqZAp">
+                        <node concept="2OqwBi" id="5GYs7qIgPNJ" role="3clFbG">
+                          <node concept="37vLTw" id="5GYs7qIgPDU" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5GYs7qIgPzL" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="5GYs7qIgPZz" role="2OqNvi">
+                            <ref role="3TsBF5" to="l8rz:5GYs7qIfpGC" resolve="value" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="5GYs7qIgPzL" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="5GYs7qIgPzM" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3uJxvA" id="5GYs7qIgDk_" role="2OqNvi">
+                <node concept="Xl_RD" id="5GYs7qIgDkA" role="3uJOhx">
+                  <property role="Xl_RC" value="\n" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5GYs7qIgzsd" role="3cqZAp">
+          <node concept="2OqwBi" id="5GYs7qIg$58" role="3clFbG">
+            <node concept="37vLTw" id="5GYs7qIgzsb" role="2Oq$k0">
+              <ref role="3cqZAo" node="5GYs7qIgxSq" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="5GYs7qIg$V9" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String)" resolve="setToolTipText" />
+              <node concept="37vLTw" id="5GYs7qIgDEg" role="37wK5m">
+                <ref role="3cqZAo" node="5GYs7qIgDcq" resolve="tooltip" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5GYs7qIgxSq" role="3clF46">
+        <property role="TrG5h" value="comboBox" />
+        <node concept="3uibUv" id="5GYs7qIgxSr" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComboBox" resolve="JComboBox" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5GYs7qIgxSs" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="5GYs7qIgxS8" role="13h7CW">
+      <node concept="3clFbS" id="5GYs7qIgxS9" role="2VODD2" />
     </node>
   </node>
 </model>

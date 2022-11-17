@@ -137,7 +137,13 @@
         <child id="5984107031766637556" name="rowsFeature" index="2PlsDn" />
         <child id="6743755284660838203" name="selectedRowFeature" index="3fMvU8" />
       </concept>
-      <concept id="6574816161037764802" name="ViewModelLanguage.structure.ComboBoxComponent" flags="ng" index="3P6jyO" />
+      <concept id="6574816161039199156" name="ViewModelLanguage.structure.SelectedItemVCFeature" flags="ng" index="3P0PJ2" />
+      <concept id="6574816161039199154" name="ViewModelLanguage.structure.ItemsVCFeature" flags="ng" index="3P0PJ4" />
+      <concept id="6574816161037764802" name="ViewModelLanguage.structure.ComboBoxComponent" flags="ng" index="3P6jyO">
+        <property id="6574816161038008031" name="sampleSelectedItemText" index="3P58UD" />
+        <child id="6574816161039200592" name="itemsFeature" index="3P0O4A" />
+        <child id="6574816161039200590" name="selectedItemFeature" index="3P0O4S" />
+      </concept>
     </language>
     <language id="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" name="UseCaseLanguage">
       <concept id="7015588959112922168" name="UseCaseLanguage.structure.UseCaseCommand" flags="ng" index="2ni6j4" />
@@ -280,6 +286,18 @@
       </concept>
       <concept id="5830978789222189276" name="ViewModelTestLanguage.structure.ContextSubElementReference" flags="ng" index="3KxGic">
         <reference id="5830978789222189277" name="reference" index="3KxGid" />
+      </concept>
+      <concept id="6574816161039203031" name="ViewModelTestLanguage.structure.ComboBoxCheck" flags="ng" index="3P0OEx">
+        <child id="6574816161039203033" name="checks" index="3P0OEJ" />
+      </concept>
+      <concept id="6574816161039227761" name="ViewModelTestLanguage.structure.SelectedItemCheckValue" flags="ng" index="3P0YG7">
+        <child id="6574816161039227763" name="selectedItem" index="3P0YG5" />
+      </concept>
+      <concept id="6574816161039227687" name="ViewModelTestLanguage.structure.ItemValue" flags="ng" index="3P0YHh">
+        <property id="6574816161039227688" name="value" index="3P0YHu" />
+      </concept>
+      <concept id="6574816161039227680" name="ViewModelTestLanguage.structure.ItemsCheckValue" flags="ng" index="3P0YHm">
+        <child id="6574816161039227685" name="items" index="3P0YHj" />
       </concept>
     </language>
   </registry>
@@ -509,6 +527,7 @@
         </node>
       </node>
       <node concept="3P6jyO" id="5GYs7qIc6o3" role="2P43km">
+        <property role="3P58UD" value="My Item" />
         <node concept="2Pim7P" id="5GYs7qIc6o5" role="2Pim73">
           <property role="2PigO5" value="true" />
         </node>
@@ -518,6 +537,12 @@
         <node concept="2Pim7H" id="5GYs7qIc6o9" role="2Pim76">
           <property role="2PigO5" value="true" />
           <property role="2PigPS" value="MyOption" />
+        </node>
+        <node concept="3P0PJ2" id="5GYs7qIgxMZ" role="3P0O4S">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="5GYs7qIgxN0" role="3P0O4A">
+          <property role="2PigO5" value="true" />
         </node>
       </node>
       <node concept="2P4x69" id="2gml1W1uDtp" role="2P43km">
@@ -549,7 +574,7 @@
     </node>
   </node>
   <node concept="30n1Qd" id="2Yd1qrJPuoQ">
-    <property role="TrG5h" value="MyTestSuite" />
+    <property role="TrG5h" value="MyViewTests" />
     <property role="3GE5qa" value="sample" />
     <ref role="30n1PB" node="3JS2UjmSmXC" resolve="MyView" />
     <node concept="30n1Qa" id="2Yd1qrJPAvf" role="30n1Qb">
@@ -806,6 +831,9 @@
         <node concept="30nyDi" id="5QmCrei9VtG" role="30nyDs">
           <property role="30lZVK" value="TextBox has text &quot;Login&quot;" />
         </node>
+        <node concept="30nyDi" id="5GYs7qIhgtS" role="30nyDs">
+          <property role="30lZVK" value="ComboBox has items" />
+        </node>
       </node>
       <node concept="30nziD" id="5QmCrei9Vr_" role="30nzo2">
         <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
@@ -834,6 +862,27 @@
         <node concept="3fym7j" id="5QmCreiakYT" role="30nDbQ">
           <node concept="30nz6$" id="5QmCreiakYV" role="3fym7i">
             <property role="30nz6_" value="Login" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="5GYs7qIhgu8" role="30nzpy">
+        <ref role="30nzpS" node="5GYs7qIc6o3" resolve="MyOption" />
+        <node concept="3P0OEx" id="5GYs7qIhguk" role="30nDbQ">
+          <node concept="3P0YG7" id="5GYs7qIhkAy" role="3P0OEJ">
+            <node concept="3P0YHh" id="5GYs7qIhkA$" role="3P0YG5">
+              <property role="3P0YHu" value="A" />
+            </node>
+          </node>
+          <node concept="3P0YHm" id="5GYs7qIhgum" role="3P0OEJ">
+            <node concept="3P0YHh" id="5GYs7qIhguo" role="3P0YHj">
+              <property role="3P0YHu" value="A" />
+            </node>
+            <node concept="3P0YHh" id="5GYs7qIhkAE" role="3P0YHj">
+              <property role="3P0YHu" value="B" />
+            </node>
+            <node concept="3P0YHh" id="5GYs7qIhkAH" role="3P0YHj">
+              <property role="3P0YHu" value="C" />
+            </node>
           </node>
         </node>
       </node>

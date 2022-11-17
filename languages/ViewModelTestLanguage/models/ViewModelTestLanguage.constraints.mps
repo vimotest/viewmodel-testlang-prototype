@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:f3351065-8322-4186-abb4-97ecb798a4ba(ViewModelTestLanguage.constraints)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />
     <use id="ea3159bf-f48e-4720-bde2-86dba75f0d34" name="jetbrains.mps.lang.context.defs" version="0" />
@@ -829,6 +830,107 @@
               </node>
             </node>
             <node concept="3GX2aA" id="2gml1W1udpy" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5GYs7qIfjPh">
+    <property role="3GE5qa" value="assert.combobox" />
+    <ref role="1M2myG" to="l8rz:5GYs7qIfjFn" resolve="ComboBoxCheck" />
+    <node concept="9S07l" id="5GYs7qIfjPi" role="9Vyp8">
+      <node concept="3clFbS" id="5GYs7qIfjPj" role="2VODD2">
+        <node concept="3cpWs8" id="5GYs7qIfjTh" role="3cqZAp">
+          <node concept="3cpWsn" id="5GYs7qIfjTi" role="3cpWs9">
+            <property role="TrG5h" value="viewComponent" />
+            <node concept="3Tqbb2" id="5GYs7qIfjTj" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+            </node>
+            <node concept="2YIFZM" id="5GYs7qIfjTk" role="33vP2m">
+              <ref role="37wK5l" to="gg8m:3HXRBxqx3W2" resolve="getViewComponentToCheckForParent" />
+              <ref role="1Pybhc" to="gg8m:4jKdMMdK1xy" resolve="ViewComponentCheckUtil" />
+              <node concept="nLn13" id="5GYs7qIfjTl" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5GYs7qIfjTm" role="3cqZAp">
+          <node concept="2OqwBi" id="5GYs7qIfjTn" role="3clFbG">
+            <node concept="1mIQ4w" id="5GYs7qIfjTo" role="2OqNvi">
+              <node concept="chp4Y" id="5GYs7qIfjTp" role="cj9EA">
+                <ref role="cht4Q" to="6ap2:5GYs7qI9Oz2" resolve="ComboBoxComponent" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="5GYs7qIfjTq" role="2Oq$k0">
+              <ref role="3cqZAo" node="5GYs7qIfjTi" resolve="viewComponent" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5GYs7qIfpXN">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1M2myG" to="l8rz:5GYs7qIfpGw" resolve="ItemsCheckValue" />
+    <node concept="9S07l" id="5GYs7qIfpXO" role="9Vyp8">
+      <node concept="3clFbS" id="5GYs7qIfpXP" role="2VODD2">
+        <node concept="3clFbF" id="5GYs7qIfq1N" role="3cqZAp">
+          <node concept="2OqwBi" id="5GYs7qIfq1P" role="3clFbG">
+            <node concept="2OqwBi" id="5GYs7qIfq1Q" role="2Oq$k0">
+              <node concept="2OqwBi" id="5GYs7qIfq1R" role="2Oq$k0">
+                <node concept="2OqwBi" id="5GYs7qIfq1S" role="2Oq$k0">
+                  <node concept="1PxgMI" id="5GYs7qIfq1T" role="2Oq$k0">
+                    <node concept="chp4Y" id="5GYs7qIfq1U" role="3oSUPX">
+                      <ref role="cht4Q" to="l8rz:2Yd1qrJONfw" resolve="ViewComponentCheck" />
+                    </node>
+                    <node concept="nLn13" id="5GYs7qIfq1V" role="1m5AlR" />
+                  </node>
+                  <node concept="2qgKlT" id="5GYs7qIfq1W" role="2OqNvi">
+                    <ref role="37wK5l" to="gg8m:4jKdMMdJYzD" resolve="getViewComponentToCheck" />
+                  </node>
+                </node>
+                <node concept="32TBzR" id="5GYs7qIfq1X" role="2OqNvi" />
+              </node>
+              <node concept="v3k3i" id="5GYs7qIfq1Y" role="2OqNvi">
+                <node concept="chp4Y" id="5GYs7qIfq1Z" role="v3oSu">
+                  <ref role="cht4Q" to="6ap2:5GYs7qIfiIM" resolve="ItemsVCFeature" />
+                </node>
+              </node>
+            </node>
+            <node concept="3GX2aA" id="5GYs7qIfq20" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5GYs7qIfqvh">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1M2myG" to="l8rz:5GYs7qIfpHL" resolve="SelectedItemCheckValue" />
+    <node concept="9S07l" id="5GYs7qIfqvi" role="9Vyp8">
+      <node concept="3clFbS" id="5GYs7qIfqvj" role="2VODD2">
+        <node concept="3clFbF" id="5GYs7qIfqvn" role="3cqZAp">
+          <node concept="2OqwBi" id="5GYs7qIfqvp" role="3clFbG">
+            <node concept="2OqwBi" id="5GYs7qIfqvq" role="2Oq$k0">
+              <node concept="2OqwBi" id="5GYs7qIfqvr" role="2Oq$k0">
+                <node concept="2OqwBi" id="5GYs7qIfqvs" role="2Oq$k0">
+                  <node concept="1PxgMI" id="5GYs7qIfqvt" role="2Oq$k0">
+                    <node concept="chp4Y" id="5GYs7qIfqvu" role="3oSUPX">
+                      <ref role="cht4Q" to="l8rz:2Yd1qrJONfw" resolve="ViewComponentCheck" />
+                    </node>
+                    <node concept="nLn13" id="5GYs7qIfqvv" role="1m5AlR" />
+                  </node>
+                  <node concept="2qgKlT" id="5GYs7qIfqvw" role="2OqNvi">
+                    <ref role="37wK5l" to="gg8m:4jKdMMdJYzD" resolve="getViewComponentToCheck" />
+                  </node>
+                </node>
+                <node concept="32TBzR" id="5GYs7qIfqvx" role="2OqNvi" />
+              </node>
+              <node concept="v3k3i" id="5GYs7qIfqvy" role="2OqNvi">
+                <node concept="chp4Y" id="5GYs7qIfqvz" role="v3oSu">
+                  <ref role="cht4Q" to="6ap2:5GYs7qIfiIO" resolve="SelectedItemVCFeature" />
+                </node>
+              </node>
+            </node>
+            <node concept="3GX2aA" id="5GYs7qIfqv$" role="2OqNvi" />
           </node>
         </node>
       </node>

@@ -6688,6 +6688,22 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="5GYs7qIf7Tg" role="3cqZAp">
+              <node concept="2OqwBi" id="5GYs7qIf8PR" role="3clFbG">
+                <node concept="37vLTw" id="5GYs7qIf7Te" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5GYs7qIaK9h" resolve="comboBox" />
+                </node>
+                <node concept="liA8E" id="5GYs7qIfa4r" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~JComboBox.addItem(java.lang.Object)" resolve="addItem" />
+                  <node concept="2OqwBi" id="5GYs7qIfakB" role="37wK5m">
+                    <node concept="13iPFW" id="5GYs7qIfakC" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="5GYs7qIfakD" role="2OqNvi">
+                      <ref role="3TsBF5" to="6ap2:5GYs7qIaJVv" resolve="sampleSelectedItemText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="2OqwBi" id="5GYs7qIaLCE" role="3clFbw">
             <node concept="2OqwBi" id="5GYs7qIaL0R" role="2Oq$k0">

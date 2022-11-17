@@ -2600,5 +2600,59 @@
       <node concept="2iRfu4" id="2gml1W1trU$" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="5GYs7qIfjFy">
+    <property role="3GE5qa" value="assert.combobox" />
+    <ref role="1XX52x" to="l8rz:5GYs7qIfjFn" resolve="ComboBoxCheck" />
+    <node concept="3F2HdR" id="5GYs7qIfjF$" role="2wV5jI">
+      <ref role="1NtTu8" to="l8rz:5GYs7qIfjFp" resolve="checks" />
+      <node concept="2iRkQZ" id="5GYs7qIfjF_" role="2czzBx" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5GYs7qIfpGL">
+    <property role="3GE5qa" value="assert.checkvalues.utils" />
+    <ref role="1XX52x" to="l8rz:5GYs7qIfpGB" resolve="ItemValue" />
+    <node concept="3F0A7n" id="5GYs7qIfpGN" role="2wV5jI">
+      <ref role="1NtTu8" to="l8rz:5GYs7qIfpGC" resolve="value" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5GYs7qIfpGX">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1XX52x" to="l8rz:5GYs7qIfpGw" resolve="ItemsCheckValue" />
+    <node concept="3EZMnI" id="5GYs7qIfpGZ" role="2wV5jI">
+      <node concept="PMmxH" id="5GYs7qIfpH0" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="5GYs7qIfpH1" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="5GYs7qIfpH2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="5GYs7qIfpHB" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:5GYs7qIfpG_" resolve="items" />
+        <node concept="2iRkQZ" id="5GYs7qIfpHJ" role="2czzBx" />
+      </node>
+      <node concept="2iRfu4" id="5GYs7qIfpH8" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5GYs7qIfpHV">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1XX52x" to="l8rz:5GYs7qIfpHL" resolve="SelectedItemCheckValue" />
+    <node concept="3EZMnI" id="5GYs7qIfpHX" role="2wV5jI">
+      <node concept="PMmxH" id="5GYs7qIfpHY" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="5GYs7qIfpHZ" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="5GYs7qIfpI0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="5GYs7qIfpI$" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:5GYs7qIfpHN" resolve="selectedItem" />
+      </node>
+      <node concept="2iRfu4" id="5GYs7qIfpI6" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

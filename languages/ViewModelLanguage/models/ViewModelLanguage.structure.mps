@@ -794,6 +794,34 @@
       <property role="TrG5h" value="sampleSelectedItemText" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyj" id="5GYs7qIfj5e" role="1TKVEi">
+      <property role="IQ2ns" value="6574816161039200590" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="selectedItemFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5GYs7qIfiIO" resolve="SelectedItemVCFeature" />
+    </node>
+    <node concept="1TJgyj" id="5GYs7qIfj5g" role="1TKVEi">
+      <property role="IQ2ns" value="6574816161039200592" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="itemsFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5GYs7qIfiIM" resolve="ItemsVCFeature" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5GYs7qIfiIM">
+    <property role="EcuMT" value="6574816161039199154" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="ItemsVCFeature" />
+    <property role="34LRSv" value="items feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+  </node>
+  <node concept="1TIwiD" id="5GYs7qIfiIO">
+    <property role="EcuMT" value="6574816161039199156" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="SelectedItemVCFeature" />
+    <property role="34LRSv" value="selected item feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
   </node>
 </model>
 
