@@ -3121,5 +3121,155 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="2ClXI6_AZUf">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="1XX52x" to="6ap2:2ClXI6_AZ92" resolve="TreeViewRowsVCFeature" />
+    <node concept="3EZMnI" id="2ClXI6_AZUh" role="2wV5jI">
+      <node concept="2iRfu4" id="2ClXI6_AZUi" role="2iSdaV" />
+      <node concept="1CiYdB" id="2ClXI6_AZUj" role="3EZMnx">
+        <node concept="2XI2dN" id="2ClXI6_AZUk" role="2XI0mt">
+          <node concept="3clFbS" id="2ClXI6_AZUl" role="2VODD2">
+            <node concept="3clFbF" id="2ClXI6_AZUm" role="3cqZAp">
+              <node concept="2ShNRf" id="2ClXI6_AZUn" role="3clFbG">
+                <node concept="1pGfFk" id="2ClXI6_AZUo" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="hhvz:2ClXI6_BbHv" resolve="TreeViewComponentModel" />
+                  <node concept="2OqwBi" id="2ClXI6_AZUp" role="37wK5m">
+                    <node concept="pncrf" id="2ClXI6_AZUq" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="2ClXI6_AZUr" role="2OqNvi">
+                      <ref role="3Tt5mk" to="6ap2:2ClXI6_AZ93" resolve="rowDefinition" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3rDlSKu7iln">
+    <property role="3GE5qa" value="viewcomponents.treeview" />
+    <ref role="1XX52x" to="6ap2:2ClXI6_AZ91" resolve="TreeViewRowComponent" />
+    <node concept="3F0ifn" id="3rDlSKu7irh" role="2wV5jI" />
+    <node concept="PMmxH" id="3rDlSKu7irf" role="6VMZX">
+      <ref role="PMmxG" node="3rDlSKu7ilN" resolve="TreeViewRowComponent_details_EditorComponent" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="3rDlSKu7ilN">
+    <property role="3GE5qa" value="viewcomponents.treeview" />
+    <property role="TrG5h" value="TreeViewRowComponent_details_EditorComponent" />
+    <ref role="1XX52x" to="6ap2:2ClXI6_AZ91" resolve="TreeViewRowComponent" />
+    <node concept="3EZMnI" id="3rDlSKu7io8" role="2wV5jI">
+      <node concept="l2Vlx" id="3rDlSKu7io9" role="2iSdaV" />
+      <node concept="3EZMnI" id="3rDlSKu7ioa" role="3EZMnx">
+        <node concept="3F0ifn" id="3rDlSKu7iob" role="3EZMnx">
+          <property role="3F0ifm" value="row color" />
+          <node concept="pVoyu" id="3rDlSKu7ioc" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="3rDlSKu7iod" role="3EZMnx">
+          <ref role="1NtTu8" to="6ap2:2ClXI6_BoH_" resolve="rowColorFeature" />
+        </node>
+        <node concept="2iRfu4" id="3rDlSKu7ioe" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="3rDlSKu7iof" role="3EZMnx">
+        <property role="3F0ifm" value="custom properies:" />
+        <node concept="pVoyu" id="3rDlSKu7iog" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="3rDlSKu7ioh" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F0ifn" id="3rDlSKu7ioi" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <node concept="ljvvj" id="3rDlSKu7ioj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3mYdg7" id="3rDlSKu7iok" role="3F10Kt">
+          <property role="1413C4" value="bracket" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="3rDlSKu7iol" role="3EZMnx">
+        <ref role="1NtTu8" to="rtft:56jsF7$wOuB" resolve="contents" />
+        <node concept="l2Vlx" id="3rDlSKu7iom" role="2czzBx" />
+        <node concept="pj6Ft" id="3rDlSKu7ion" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="3rDlSKu7ioo" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="3rDlSKu7iop" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="4$FPG" id="3rDlSKu7ioq" role="4_6I_">
+          <node concept="3clFbS" id="3rDlSKu7ior" role="2VODD2">
+            <node concept="3clFbF" id="3rDlSKu7ios" role="3cqZAp">
+              <node concept="2ShNRf" id="3rDlSKu7iot" role="3clFbG">
+                <node concept="3zrR0B" id="3rDlSKu7iou" role="2ShVmc">
+                  <node concept="3Tqbb2" id="3rDlSKu7iov" role="3zrR0E">
+                    <ref role="ehGHo" to="rtft:3JS2UjmRs9w" resolve="EmptyStructContent" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3rDlSKu7iow" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="3mYdg7" id="3rDlSKu7iox" role="3F10Kt">
+          <property role="1413C4" value="bracket" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3rDlSKu7irr">
+    <property role="3GE5qa" value="viewcomponents.treeview" />
+    <ref role="1XX52x" to="6ap2:2ClXI6_AYIS" resolve="TreeViewComponent" />
+    <node concept="3EZMnI" id="3rDlSKu7irt" role="2wV5jI">
+      <node concept="3F0ifn" id="3rDlSKu7iru" role="3EZMnx">
+        <property role="3F0ifm" value="tree view" />
+      </node>
+      <node concept="3F0A7n" id="3rDlSKu7irv" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F1sOY" id="3rDlSKu7irw" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:2ClXI6_AZ8X" resolve="rowsFeature" />
+      </node>
+      <node concept="2iRfu4" id="3rDlSKu7irx" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3rDlSKu7irB" role="6VMZX">
+      <node concept="l2Vlx" id="3rDlSKu7irC" role="2iSdaV" />
+      <node concept="PMmxH" id="3rDlSKu7irD" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="1iCGBv" id="3rDlSKu7irE" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:2ClXI6_AZ8X" resolve="rowsFeature" />
+        <node concept="1sVBvm" id="3rDlSKu7irF" role="1sWHZn">
+          <node concept="1iCGBv" id="3rDlSKu7irG" role="2wV5jI">
+            <ref role="1NtTu8" to="6ap2:2ClXI6_AZ93" resolve="rowDefinition" />
+            <node concept="1sVBvm" id="3rDlSKu7irH" role="1sWHZn">
+              <node concept="PMmxH" id="3rDlSKu7irI" role="2wV5jI">
+                <ref role="PMmxG" node="3rDlSKu7ilN" resolve="TreeViewRowComponent_details_EditorComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="pVoyu" id="3rDlSKu7irJ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="3rDlSKu7irK" role="3EZMnx">
+        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="TableComponentBase_supportsUpdatingFlag" />
+        <node concept="pVoyu" id="3rDlSKu7irL" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

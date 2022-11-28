@@ -823,5 +823,61 @@
     <property role="34LRSv" value="selected item feature" />
     <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
   </node>
+  <node concept="1TIwiD" id="2ClXI6_AYIS">
+    <property role="EcuMT" value="3032601373110430648" />
+    <property role="3GE5qa" value="viewcomponents.treeview" />
+    <property role="TrG5h" value="TreeViewComponent" />
+    <property role="34LRSv" value="tree view" />
+    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="TableComponentBase" />
+    <node concept="1TJgyj" id="2ClXI6_AZ8X" role="1TKVEi">
+      <property role="IQ2ns" value="3032601373110432317" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="rowsFeature" />
+      <ref role="20lvS9" node="2ClXI6_AZ92" resolve="TreeViewRowsVCFeature" />
+    </node>
+    <node concept="1TJgyj" id="2ClXI6_AZ8Y" role="1TKVEi">
+      <property role="IQ2ns" value="3032601373110432318" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="selectedRowFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5QmCreinPWR" resolve="SelectedRowVCFeature" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2ClXI6_AZ91">
+    <property role="EcuMT" value="3032601373110432321" />
+    <property role="3GE5qa" value="viewcomponents.treeview" />
+    <property role="TrG5h" value="TreeViewRowComponent" />
+    <property role="34LRSv" value="tree-row" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2ClXI6_BoH$" role="1TKVEi">
+      <property role="IQ2ns" value="3032601373110537060" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cells" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5WrZkWQ5bAr" resolve="TableCellComponent" />
+    </node>
+    <node concept="1TJgyj" id="2ClXI6_BoH_" role="1TKVEi">
+      <property role="IQ2ns" value="3032601373110537061" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowColorFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5Nv$Fuakv6Z" resolve="ColorVCFeature" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2ClXI6_AZ92">
+    <property role="EcuMT" value="3032601373110432322" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="TreeViewRowsVCFeature" />
+    <property role="34LRSv" value="tree rows feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyj" id="2ClXI6_AZ93" role="1TKVEi">
+      <property role="IQ2ns" value="3032601373110432323" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowDefinition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2ClXI6_AZ91" resolve="TreeViewRowComponent" />
+    </node>
+  </node>
 </model>
 
