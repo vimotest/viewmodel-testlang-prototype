@@ -2654,5 +2654,54 @@
       <node concept="2iRfu4" id="5GYs7qIfpI6" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="vV7zhZ3ZlQ">
+    <property role="3GE5qa" value="assert.treeview" />
+    <ref role="1XX52x" to="l8rz:vV7zhZ3DJ9" resolve="TreeViewCheck" />
+    <node concept="3EZMnI" id="vV7zhZ3ZlS" role="2wV5jI">
+      <node concept="2iRkQZ" id="vV7zhZ3ZlT" role="2iSdaV" />
+      <node concept="3F0ifn" id="vV7zhZ3ZlU" role="3EZMnx">
+        <property role="3F0ifm" value="Tree View Checks:" />
+      </node>
+      <node concept="3F2HdR" id="vV7zhZ3ZlV" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:vV7zhZ3DJa" resolve="checkValues" />
+        <node concept="2iRkQZ" id="vV7zhZ3ZlW" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="vV7zhZ3ZlX" role="3EZMnx">
+        <property role="3F0ifm" value="Tree Row Checks:" />
+      </node>
+      <node concept="3F2HdR" id="vV7zhZ3ZlY" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:vV7zhZ3DJb" resolve="rowChecks" />
+        <node concept="2iRkQZ" id="vV7zhZ3ZlZ" role="2czzBx" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="vV7zhZ6lZ_">
+    <property role="3GE5qa" value="assert.treeview" />
+    <ref role="1XX52x" to="l8rz:vV7zhZ3DJe" resolve="TreeViewRowCheck" />
+    <node concept="3EZMnI" id="vV7zhZ6lZB" role="2wV5jI">
+      <node concept="3F0ifn" id="vV7zhZ6lZC" role="3EZMnx">
+        <property role="3F0ifm" value="row" />
+      </node>
+      <node concept="3EZMnI" id="vV7zhZ6lZD" role="3EZMnx">
+        <node concept="3vyZuw" id="vV7zhZ6lZE" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="2iRkQZ" id="vV7zhZ6lZF" role="2iSdaV" />
+        <node concept="3F2HdR" id="vV7zhZ6lZG" role="3EZMnx">
+          <ref role="1NtTu8" to="l8rz:vV7zhZ3DJf" resolve="cellChecks" />
+          <node concept="pj6Ft" id="vV7zhZ6lZH" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="l2Vlx" id="vV7zhZ6lZI" role="2czzBx" />
+        </node>
+        <node concept="2T_mXK" id="vV7zhZ6lZJ" role="3EZMnx" />
+        <node concept="3F2HdR" id="vV7zhZ6lZK" role="3EZMnx">
+          <ref role="1NtTu8" to="l8rz:vV7zhZ3DJg" resolve="checks" />
+          <node concept="2iRkQZ" id="vV7zhZ6lZL" role="2czzBx" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="vV7zhZ6lZM" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

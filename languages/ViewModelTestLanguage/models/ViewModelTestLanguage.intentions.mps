@@ -329,5 +329,52 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="vV7zhZ49e0">
+    <property role="3GE5qa" value="assert.treeview" />
+    <property role="TrG5h" value="TreeViewCheck_ToggleShowColumnHeadersIntention" />
+    <ref role="2ZfgGC" to="l8rz:vV7zhZ3DJ9" resolve="TreeViewCheck" />
+    <node concept="2S6ZIM" id="vV7zhZ49e1" role="2ZfVej">
+      <node concept="3clFbS" id="vV7zhZ49e2" role="2VODD2">
+        <node concept="3clFbF" id="vV7zhZ49jd" role="3cqZAp">
+          <node concept="3K4zz7" id="vV7zhZ49jf" role="3clFbG">
+            <node concept="Xl_RD" id="vV7zhZ49jg" role="3K4E3e">
+              <property role="Xl_RC" value="Show column headers" />
+            </node>
+            <node concept="Xl_RD" id="vV7zhZ49jh" role="3K4GZi">
+              <property role="Xl_RC" value="Hide column headers" />
+            </node>
+            <node concept="2OqwBi" id="vV7zhZ49ji" role="3K4Cdx">
+              <node concept="2Sf5sV" id="vV7zhZ49jj" role="2Oq$k0" />
+              <node concept="3TrcHB" id="vV7zhZ49jk" role="2OqNvi">
+                <ref role="3TsBF5" to="l8rz:vV7zhZ3DJc" resolve="hideColumnHeaders" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="vV7zhZ49e3" role="2ZfgGD">
+      <node concept="3clFbS" id="vV7zhZ49e4" role="2VODD2">
+        <node concept="3clFbF" id="vV7zhZ49zj" role="3cqZAp">
+          <node concept="37vLTI" id="vV7zhZ49zl" role="3clFbG">
+            <node concept="3fqX7Q" id="vV7zhZ49zm" role="37vLTx">
+              <node concept="2OqwBi" id="vV7zhZ49zn" role="3fr31v">
+                <node concept="2Sf5sV" id="vV7zhZ49zo" role="2Oq$k0" />
+                <node concept="3TrcHB" id="vV7zhZ49zp" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:vV7zhZ3DJc" resolve="hideColumnHeaders" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="vV7zhZ49zq" role="37vLTJ">
+              <node concept="2Sf5sV" id="vV7zhZ49zr" role="2Oq$k0" />
+              <node concept="3TrcHB" id="vV7zhZ49zs" role="2OqNvi">
+                <ref role="3TsBF5" to="l8rz:vV7zhZ3DJc" resolve="hideColumnHeaders" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

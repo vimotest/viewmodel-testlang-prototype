@@ -897,5 +897,65 @@
       <ref role="20lvS9" node="5GYs7qIfpGB" resolve="ItemValue" />
     </node>
   </node>
+  <node concept="1TIwiD" id="vV7zhZ3DJ9">
+    <property role="EcuMT" value="575086588238666697" />
+    <property role="3GE5qa" value="assert.treeview" />
+    <property role="TrG5h" value="TreeViewCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="vV7zhZ3DJa" role="1TKVEi">
+      <property role="IQ2ns" value="575086588238666698" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checkValues" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="vV7zhZ3DJd" resolve="ITreeViewCheckValue" />
+    </node>
+    <node concept="1TJgyj" id="vV7zhZ3DJb" role="1TKVEi">
+      <property role="IQ2ns" value="575086588238666699" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowChecks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="vV7zhZ3DJe" resolve="TreeViewRowCheck" />
+    </node>
+    <node concept="1TJgyi" id="vV7zhZ3DJc" role="1TKVEl">
+      <property role="IQ2nx" value="575086588238666700" />
+      <property role="TrG5h" value="hideColumnHeaders" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="vV7zhZ3DJd">
+    <property role="EcuMT" value="575086588238666701" />
+    <property role="3GE5qa" value="assert.treeview" />
+    <property role="TrG5h" value="ITreeViewCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="vV7zhZ3DJe">
+    <property role="EcuMT" value="575086588238666702" />
+    <property role="3GE5qa" value="assert.treeview" />
+    <property role="TrG5h" value="TreeViewRowCheck" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="vV7zhZ3DJf" role="1TKVEi">
+      <property role="IQ2ns" value="575086588238666703" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cellChecks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6wbjV0Q180r" resolve="TableCellCheck" />
+    </node>
+    <node concept="1TJgyj" id="vV7zhZ3DJg" role="1TKVEi">
+      <property role="IQ2ns" value="575086588238666704" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="vV7zhZ3DJj" resolve="ITreeViewRowCheckValue" />
+    </node>
+    <node concept="1TJgyi" id="vV7zhZ3DJh" role="1TKVEl">
+      <property role="IQ2nx" value="575086588238666705" />
+      <property role="TrG5h" value="level" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="vV7zhZ3DJj">
+    <property role="EcuMT" value="575086588238666707" />
+    <property role="3GE5qa" value="assert.treeview" />
+    <property role="TrG5h" value="ITreeViewRowCheckValue" />
+  </node>
 </model>
 

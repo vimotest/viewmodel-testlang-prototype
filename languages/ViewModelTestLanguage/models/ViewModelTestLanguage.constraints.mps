@@ -936,5 +936,38 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="vV7zhZ3Zxg">
+    <property role="3GE5qa" value="assert.treeview" />
+    <ref role="1M2myG" to="l8rz:vV7zhZ3DJ9" resolve="TreeViewCheck" />
+    <node concept="9S07l" id="vV7zhZ3Zxh" role="9Vyp8">
+      <node concept="3clFbS" id="vV7zhZ3Zxi" role="2VODD2">
+        <node concept="3cpWs8" id="vV7zhZ3ZxC" role="3cqZAp">
+          <node concept="3cpWsn" id="vV7zhZ3ZxD" role="3cpWs9">
+            <property role="TrG5h" value="viewComponent" />
+            <node concept="3Tqbb2" id="vV7zhZ3ZxE" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+            </node>
+            <node concept="2YIFZM" id="vV7zhZ3ZxF" role="33vP2m">
+              <ref role="1Pybhc" to="gg8m:4jKdMMdK1xy" resolve="ViewComponentCheckUtil" />
+              <ref role="37wK5l" to="gg8m:3HXRBxqx3W2" resolve="getViewComponentToCheckForParent" />
+              <node concept="nLn13" id="vV7zhZ3ZxG" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="vV7zhZ3ZxH" role="3cqZAp">
+          <node concept="2OqwBi" id="vV7zhZ3ZxI" role="3clFbG">
+            <node concept="37vLTw" id="vV7zhZ3ZxJ" role="2Oq$k0">
+              <ref role="3cqZAo" node="vV7zhZ3ZxD" resolve="viewComponent" />
+            </node>
+            <node concept="1mIQ4w" id="vV7zhZ3ZxK" role="2OqNvi">
+              <node concept="chp4Y" id="vV7zhZ3ZxL" role="cj9EA">
+                <ref role="cht4Q" to="6ap2:2ClXI6_AYIS" resolve="TreeViewComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

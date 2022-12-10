@@ -564,5 +564,69 @@
       <ref role="1YaFvo" to="l8rz:2Yd1qrJONf3" resolve="ViewAssertion" />
     </node>
   </node>
+  <node concept="18kY7G" id="vV7zhZ6m$P">
+    <property role="TrG5h" value="check_TreeViewRowCheck" />
+    <property role="3GE5qa" value="assert.treeview" />
+    <node concept="3clFbS" id="vV7zhZ6m$Q" role="18ibNy">
+      <node concept="3clFbJ" id="vV7zhZ6m$W" role="3cqZAp">
+        <node concept="1Wc70l" id="vV7zhZ6m$X" role="3clFbw">
+          <node concept="3y3z36" id="vV7zhZ6m$Y" role="3uHU7w">
+            <node concept="2OqwBi" id="vV7zhZ6m$Z" role="3uHU7w">
+              <node concept="2OqwBi" id="vV7zhZ6m_0" role="2Oq$k0">
+                <node concept="2OqwBi" id="vV7zhZ6m_1" role="2Oq$k0">
+                  <node concept="1YBJjd" id="vV7zhZ6m_2" role="2Oq$k0">
+                    <ref role="1YBMHb" node="vV7zhZ6m$S" resolve="treeViewRowCheck" />
+                  </node>
+                  <node concept="2qgKlT" id="vV7zhZ6m_3" role="2OqNvi">
+                    <ref role="37wK5l" to="gg8m:vV7zhZ6lb4" resolve="getTableRow" />
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="vV7zhZ6m_4" role="2OqNvi">
+                  <ref role="3TtcxE" to="6ap2:5WrZkWQ5bAw" resolve="cells" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="vV7zhZ6m_5" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="vV7zhZ6m_6" role="3uHU7B">
+              <node concept="2OqwBi" id="vV7zhZ6m_7" role="2Oq$k0">
+                <node concept="1YBJjd" id="vV7zhZ6m_8" role="2Oq$k0">
+                  <ref role="1YBMHb" node="vV7zhZ6m$S" resolve="treeViewRowCheck" />
+                </node>
+                <node concept="3Tsc0h" id="vV7zhZ6m_9" role="2OqNvi">
+                  <ref role="3TtcxE" to="l8rz:vV7zhZ3DJf" resolve="cellChecks" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="vV7zhZ6m_a" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3y3z36" id="vV7zhZ6m_b" role="3uHU7B">
+            <node concept="10Nm6u" id="vV7zhZ6m_c" role="3uHU7w" />
+            <node concept="2OqwBi" id="vV7zhZ6m_d" role="3uHU7B">
+              <node concept="1YBJjd" id="vV7zhZ6m_e" role="2Oq$k0">
+                <ref role="1YBMHb" node="vV7zhZ6m$S" resolve="treeViewRowCheck" />
+              </node>
+              <node concept="2qgKlT" id="vV7zhZ6m_f" role="2OqNvi">
+                <ref role="37wK5l" to="gg8m:vV7zhZ6lb4" resolve="getTableRow" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="vV7zhZ6m_g" role="3clFbx">
+          <node concept="2MkqsV" id="vV7zhZ6m_h" role="3cqZAp">
+            <node concept="Xl_RD" id="vV7zhZ6m_i" role="2MkJ7o">
+              <property role="Xl_RC" value="check row needs to provide one value for each cell" />
+            </node>
+            <node concept="1YBJjd" id="vV7zhZ6m_j" role="1urrMF">
+              <ref role="1YBMHb" node="vV7zhZ6m$S" resolve="treeViewRowCheck" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="vV7zhZ6m$S" role="1YuTPh">
+      <property role="TrG5h" value="treeViewRowCheck" />
+      <ref role="1YaFvo" to="l8rz:vV7zhZ3DJe" resolve="TreeViewRowCheck" />
+    </node>
+  </node>
 </model>
 
