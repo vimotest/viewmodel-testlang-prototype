@@ -7,11 +7,13 @@
 import groovy.json.JsonSlurper
 import org.apache.tools.ant.taskdefs.condition.Os
 
-// see: https://github.com/JetBrains/JetBrainsRuntime/tree/master#releases
+// see: https://github.com/JetBrains/JetBrainsRuntime/tree/jbr11#releases
 def jbrMappings = [
         "2021.2": "11_0_13-b1504.49",
         "2021.3": "11_0_14_1-b1751.46",
-        "2022.1": "11_0_15-b2043.56" ]
+        "2022.1": "11_0_15-b2043.56",
+        "2022.2": "17.0.5-b469.71",
+        "2022.3": "17.0.5-b653.14" ]
 
 
 if (!project.hasProperty("mpsVersion")) {
@@ -196,7 +198,7 @@ task downloadJbrForCurrentPlatform {
     def jbrTarGzFile = file("build/download/${getJbrArchiveName(mpsMajorMinorVersion)}")
 
     onlyIf {
-        !jbrTarGzFile.exists()
+        !jbrTarGzFile.exists() && System.env.getOrDefault('PREINSTALLED_JAVA_PATH',"") == ""
     }
     doLast {
         def downloadLink = "https://cache-redirector.jetbrains.com/intellij-jbr/jbr_jcef-${jbrVersion[0]}-${currentOs}-${jbrVersion[1]}.tar.gz"
@@ -213,7 +215,7 @@ task extractJbrToMpsBundle {
     dependsOn buildMpsZipBundle, downloadJbrForCurrentPlatform
 
     onlyIf {
-        !file("$targetFolderName/jbr").exists()
+        !file("$targetFolderName/jbr").exists() && System.env.getOrDefault('PREINSTALLED_JAVA_PATH',"") == ""
     }
     doLast {
         copy {

@@ -10,7 +10,7 @@
 import org.apache.tools.ant.taskdefs.condition.Os
 
 ext.mpsHome = getMpsHome()
-ext.javaHome = getJbrHome()
+ext.javaHome = getJavaHome()
 ext.antHome = "$mpsHome/lib/ant"
 
 def antLauncherJarPath = "$antHome/lib/ant-launcher.jar"
@@ -90,8 +90,11 @@ private List<File> collectGeneratedDirs(File baseDir) {
     return dirs
 }
 
-private static String getJbrHome() {
+private static String getJavaHome() {
     def mpsHome = getMpsHome()
+    if (System.env.getOrDefault('PREINSTALLED_JAVA_PATH', "") != "") {
+        return System.env['PREINSTALLED_JAVA_PATH']
+    }
     if (Os.isFamily(Os.FAMILY_MAC)) {
         return "$mpsHome/jbr/Contents/Home"
     }
