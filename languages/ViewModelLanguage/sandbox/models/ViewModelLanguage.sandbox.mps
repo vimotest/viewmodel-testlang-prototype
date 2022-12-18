@@ -96,6 +96,9 @@
         <reference id="6743755284662355549" name="component" index="3fS2vI" />
       </concept>
       <concept id="6692228888293142975" name="ViewModelLanguage.structure.ColorVCFeature" flags="ng" index="3mzAc8" />
+      <concept id="6692228888292391868" name="ViewModelLanguage.structure.ColorValue" flags="ng" index="3mAu$b">
+        <property id="6692228888292392424" name="colorLiteral" index="3mAuXv" />
+      </concept>
       <concept id="1369810475999939491" name="ViewModelLanguage.structure.DynamicTableComponent" flags="ng" index="3s_O3X">
         <child id="5984107031773674619" name="rowsFeature" index="2PKERo" />
       </concept>
@@ -276,6 +279,9 @@
       <concept id="6743755284656668768" name="ViewModelTestLanguage.structure.TextBoxCheck" flags="ng" index="3fym7j">
         <child id="6743755284656668769" name="checks" index="3fym7i" />
       </concept>
+      <concept id="6692228888293142831" name="ViewModelTestLanguage.structure.ColorCheckValue" flags="ng" index="3mzAeo">
+        <child id="6692228888293142849" name="color" index="3mzAfQ" />
+      </concept>
       <concept id="7497173622926527144" name="ViewModelTestLanguage.structure.CheckedCheckValue" flags="ng" index="1tZoko">
         <property id="7497173622926527147" name="checked" index="1tZokr" />
       </concept>
@@ -315,6 +321,7 @@
       </concept>
       <concept id="575086588238666702" name="ViewModelTestLanguage.structure.TreeViewRowCheck" flags="ng" index="1SXonU">
         <property id="575086588238666705" name="level" index="1SXon_" />
+        <child id="575086588238666704" name="checks" index="1SXon$" />
         <child id="575086588238666703" name="cellChecks" index="1SXonV" />
       </concept>
       <concept id="575086588238666697" name="ViewModelTestLanguage.structure.TreeViewCheck" flags="ng" index="1SXonX">
@@ -981,6 +988,11 @@
                 <node concept="30nz6$" id="7GdAmo3AJnH" role="2D8cJs">
                   <property role="30nz6_" value="B.1" />
                 </node>
+              </node>
+            </node>
+            <node concept="3mzAeo" id="26AO1okNPzp" role="1SXon$">
+              <node concept="3mAu$b" id="26AO1okNPzq" role="3mzAfQ">
+                <property role="3mAuXv" value="lightGray" />
               </node>
             </node>
           </node>
