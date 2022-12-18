@@ -774,8 +774,8 @@
   <node concept="1TIwiD" id="5Nv$Fuakv4J">
     <property role="EcuMT" value="6692228888293142831" />
     <property role="3GE5qa" value="assert.checkvalues" />
-    <property role="TrG5h" value="ColorCheckValue" />
-    <property role="34LRSv" value="color" />
+    <property role="TrG5h" value="BackgroundColorCheckValue" />
+    <property role="34LRSv" value="background color" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5Nv$Fuakv4P" role="PzmwI">
       <ref role="PrY4T" node="5Nv$Fuakv50" resolve="ITableRowCheckValue" />
@@ -962,6 +962,26 @@
     <property role="EcuMT" value="575086588238666707" />
     <property role="3GE5qa" value="assert.treeview" />
     <property role="TrG5h" value="ITreeViewRowCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="26AO1okPVnf">
+    <property role="EcuMT" value="2424854242643129807" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="ForegroundColorCheckValue" />
+    <property role="34LRSv" value="foreground color" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="26AO1okPVng" role="PzmwI">
+      <ref role="PrY4T" node="5Nv$Fuakv50" resolve="ITableRowCheckValue" />
+    </node>
+    <node concept="PrWs8" id="26AO1okPVnh" role="PzmwI">
+      <ref role="PrY4T" node="vV7zhZ3DJj" resolve="ITreeViewRowCheckValue" />
+    </node>
+    <node concept="1TJgyj" id="26AO1okPVni" role="1TKVEi">
+      <property role="IQ2ns" value="2424854242643129810" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="color" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="6ap2:5Nv$FuahBIW" resolve="ColorValue" />
+    </node>
   </node>
 </model>
 

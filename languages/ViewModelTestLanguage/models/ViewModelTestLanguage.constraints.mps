@@ -705,7 +705,7 @@
   </node>
   <node concept="1M2fIO" id="7kmg1RAWSwr">
     <property role="3GE5qa" value="assert.checkvalues" />
-    <ref role="1M2myG" to="l8rz:5Nv$Fuakv4J" resolve="ColorCheckValue" />
+    <ref role="1M2myG" to="l8rz:5Nv$Fuakv4J" resolve="BackgroundColorCheckValue" />
     <node concept="9S07l" id="7kmg1RAWSws" role="9Vyp8">
       <node concept="3clFbS" id="7kmg1RAWSwt" role="2VODD2">
         <node concept="3clFbJ" id="7kmg1RAZXLB" role="3cqZAp">
@@ -974,6 +974,67 @@
                 <ref role="cht4Q" to="6ap2:2ClXI6_AYIS" resolve="TreeViewComponent" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="26AO1okPVEa">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1M2myG" to="l8rz:26AO1okPVnf" resolve="ForegroundColorCheckValue" />
+    <node concept="9S07l" id="26AO1okPVEb" role="9Vyp8">
+      <node concept="3clFbS" id="26AO1okPVEc" role="2VODD2">
+        <node concept="3clFbJ" id="26AO1okPVEy" role="3cqZAp">
+          <node concept="3clFbS" id="26AO1okPVEz" role="3clFbx">
+            <node concept="3cpWs6" id="26AO1okPVE$" role="3cqZAp">
+              <node concept="3clFbT" id="26AO1okPVE_" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="22lmx$" id="26AO1okPVEA" role="3clFbw">
+            <node concept="2OqwBi" id="26AO1okPVEB" role="3uHU7w">
+              <node concept="nLn13" id="26AO1okPVEC" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="26AO1okPVED" role="2OqNvi">
+                <node concept="chp4Y" id="26AO1okPVEE" role="cj9EA">
+                  <ref role="cht4Q" to="l8rz:vV7zhZ3DJe" resolve="TreeViewRowCheck" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="26AO1okPVEF" role="3uHU7B">
+              <node concept="nLn13" id="26AO1okPVEG" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="26AO1okPVEH" role="2OqNvi">
+                <node concept="chp4Y" id="26AO1okPVEI" role="cj9EA">
+                  <ref role="cht4Q" to="l8rz:5WrZkWQpyX6" resolve="TableRowCheck" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="26AO1okPVEJ" role="3cqZAp">
+          <node concept="2OqwBi" id="26AO1okPVEK" role="3clFbG">
+            <node concept="2OqwBi" id="26AO1okPVEL" role="2Oq$k0">
+              <node concept="2OqwBi" id="26AO1okPVEM" role="2Oq$k0">
+                <node concept="2OqwBi" id="26AO1okPVEN" role="2Oq$k0">
+                  <node concept="1PxgMI" id="26AO1okPVEO" role="2Oq$k0">
+                    <node concept="chp4Y" id="26AO1okPVEP" role="3oSUPX">
+                      <ref role="cht4Q" to="l8rz:2Yd1qrJONfw" resolve="ViewComponentCheck" />
+                    </node>
+                    <node concept="nLn13" id="26AO1okPVEQ" role="1m5AlR" />
+                  </node>
+                  <node concept="2qgKlT" id="26AO1okPVER" role="2OqNvi">
+                    <ref role="37wK5l" to="gg8m:4jKdMMdJYzD" resolve="getViewComponentToCheck" />
+                  </node>
+                </node>
+                <node concept="32TBzR" id="26AO1okPVES" role="2OqNvi" />
+              </node>
+              <node concept="v3k3i" id="26AO1okPVET" role="2OqNvi">
+                <node concept="chp4Y" id="26AO1okPVEU" role="v3oSu">
+                  <ref role="cht4Q" to="6ap2:5Nv$Fuakv6Z" resolve="ColorVCFeature" />
+                </node>
+              </node>
+            </node>
+            <node concept="3GX2aA" id="26AO1okPVEV" role="2OqNvi" />
           </node>
         </node>
       </node>

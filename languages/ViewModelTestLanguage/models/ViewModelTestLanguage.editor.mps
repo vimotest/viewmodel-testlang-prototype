@@ -2595,9 +2595,15 @@
   </node>
   <node concept="24kQdi" id="7kmg1RAscRY">
     <property role="3GE5qa" value="assert.checkvalues" />
-    <ref role="1XX52x" to="l8rz:5Nv$Fuakv4J" resolve="ColorCheckValue" />
-    <node concept="3F1sOY" id="7kmg1RAscS0" role="2wV5jI">
-      <ref role="1NtTu8" to="l8rz:5Nv$Fuakv51" resolve="color" />
+    <ref role="1XX52x" to="l8rz:5Nv$Fuakv4J" resolve="BackgroundColorCheckValue" />
+    <node concept="3EZMnI" id="26AO1okRak8" role="2wV5jI">
+      <node concept="3F0ifn" id="26AO1okRak9" role="3EZMnx">
+        <property role="3F0ifm" value="background:" />
+      </node>
+      <node concept="2iRfu4" id="26AO1okRaka" role="2iSdaV" />
+      <node concept="3F1sOY" id="26AO1okRakb" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:5Nv$Fuakv51" resolve="color" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="2gml1W1rMVA">
@@ -3170,6 +3176,19 @@
         </node>
       </node>
       <node concept="l2Vlx" id="vV7zhZ6lZM" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="26AO1okPVnj">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1XX52x" to="l8rz:26AO1okPVnf" resolve="ForegroundColorCheckValue" />
+    <node concept="3EZMnI" id="26AO1okRaas" role="2wV5jI">
+      <node concept="3F0ifn" id="26AO1okRaa_" role="3EZMnx">
+        <property role="3F0ifm" value="foreground:" />
+      </node>
+      <node concept="2iRfu4" id="26AO1okRaat" role="2iSdaV" />
+      <node concept="3F1sOY" id="26AO1okPVnl" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:26AO1okPVni" resolve="color" />
+      </node>
     </node>
   </node>
 </model>
