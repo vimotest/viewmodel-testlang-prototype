@@ -313,6 +313,13 @@
       <concept id="6574816161039227680" name="ViewModelTestLanguage.structure.ItemsCheckValue" flags="ng" index="3P0YHm">
         <child id="6574816161039227685" name="items" index="3P0YHj" />
       </concept>
+      <concept id="575086588238666702" name="ViewModelTestLanguage.structure.TreeViewRowCheck" flags="ng" index="1SXonU">
+        <property id="575086588238666705" name="level" index="1SXon_" />
+        <child id="575086588238666703" name="cellChecks" index="1SXonV" />
+      </concept>
+      <concept id="575086588238666697" name="ViewModelTestLanguage.structure.TreeViewCheck" flags="ng" index="1SXonX">
+        <child id="575086588238666699" name="rowChecks" index="1SXonZ" />
+      </concept>
     </language>
   </registry>
   <node concept="3H8XyA" id="3JS2UjmSmXC">
@@ -851,6 +858,64 @@
         <ref role="30nzpS" node="3JS2UjmUIiU" resolve="IsEnabled" />
         <node concept="1tZoqV" id="5QmCrei6ydI" role="30nDbQ">
           <node concept="1tZoko" id="5QmCrei6ydJ" role="1tZokz" />
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="28eLOYb2rV7" role="30n1Qb">
+      <node concept="30nyDl" id="28eLOYb2rV8" role="30nziG">
+        <node concept="30nyDi" id="28eLOYb2rV9" role="30nyDj">
+          <property role="30lZVK" value="Two objects" />
+        </node>
+        <node concept="30nyDi" id="28eLOYb2rVa" role="30nyDh">
+          <property role="30lZVK" value="load view" />
+        </node>
+        <node concept="30nyDi" id="28eLOYb2rVc" role="30nyDs">
+          <property role="30lZVK" value="Tree is in some state" />
+        </node>
+      </node>
+      <node concept="30kPmI" id="28eLOYb2rVe" role="30nziE">
+        <ref role="30kPmH" node="2Yd1qrJRMC4" />
+      </node>
+      <node concept="30nziD" id="28eLOYb2rVf" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="28eLOYb2rZ2" role="30nzpy">
+        <ref role="30nzpS" node="Z7uvR5sqTi" resolve="Tree" />
+        <node concept="1SXonX" id="28eLOYb2rZ6" role="30nDbQ">
+          <node concept="1SXonU" id="28eLOYb2rZ9" role="1SXonZ">
+            <property role="1SXon_" value="0" />
+            <node concept="1u3WYF" id="28eLOYb3Pa9" role="1SXonV">
+              <node concept="1u6pYw" id="28eLOYb3Pav" role="1u3WYG">
+                <node concept="1u6r32" id="28eLOYb3Paw" role="1u6pWF">
+                  <ref role="1u6r35" node="6wbjV0Q6YmZ" resolve="Star" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="28eLOYb2rZc" role="1SXonV">
+              <node concept="2D8cJI" id="28eLOYb2rZd" role="1u3WYG">
+                <node concept="30nz6$" id="28eLOYb2rZe" role="2D8cJs">
+                  <property role="30nz6_" value="Root" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1SXonU" id="28eLOYb3P9v" role="1SXonZ">
+            <property role="1SXon_" value="1" />
+            <node concept="1u3WYF" id="28eLOYb3P9w" role="1SXonV">
+              <node concept="1u6pYw" id="28eLOYb3P9J" role="1u3WYG">
+                <node concept="1u6r32" id="28eLOYb3P9K" role="1u6pWF">
+                  <ref role="1u6r35" node="6wbjV0Q9rdV" resolve="Triangle" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="28eLOYb3P9y" role="1SXonV">
+              <node concept="2D8cJI" id="28eLOYb3P9z" role="1u3WYG">
+                <node concept="30nz6$" id="28eLOYb3P9$" role="2D8cJs">
+                  <property role="30nz6_" value="A" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>

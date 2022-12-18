@@ -252,10 +252,18 @@
             <node concept="1eOMI4" id="5WrZkWQ5et9" role="3fr31v">
               <node concept="22lmx$" id="5WrZkWQ5ePX" role="1eOMHV">
                 <node concept="22lmx$" id="5WrZkWQ5eta" role="3uHU7B">
-                  <node concept="17R0WA" id="5WrZkWQ5gyT" role="3uHU7B">
-                    <node concept="2DD5aU" id="5WrZkWQ5gyU" role="3uHU7B" />
-                    <node concept="35c_gC" id="5WrZkWQ5gyV" role="3uHU7w">
-                      <ref role="35c_gD" to="6ap2:5WrZkWQ5bAq" resolve="TableRowComponent" />
+                  <node concept="22lmx$" id="28eLOYb2xkL" role="3uHU7B">
+                    <node concept="17R0WA" id="5WrZkWQ5gyT" role="3uHU7B">
+                      <node concept="2DD5aU" id="5WrZkWQ5gyU" role="3uHU7B" />
+                      <node concept="35c_gC" id="5WrZkWQ5gyV" role="3uHU7w">
+                        <ref role="35c_gD" to="6ap2:5WrZkWQ5bAq" resolve="TableRowComponent" />
+                      </node>
+                    </node>
+                    <node concept="17R0WA" id="28eLOYb2xmx" role="3uHU7w">
+                      <node concept="2DD5aU" id="28eLOYb2xmy" role="3uHU7B" />
+                      <node concept="35c_gC" id="28eLOYb2xmz" role="3uHU7w">
+                        <ref role="35c_gD" to="6ap2:2ClXI6_AZ91" resolve="TreeViewRowComponent" />
+                      </node>
                     </node>
                   </node>
                   <node concept="17R0WA" id="5WrZkWQ5gVB" role="3uHU7w">
