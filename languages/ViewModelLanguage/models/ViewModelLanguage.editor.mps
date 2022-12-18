@@ -3068,7 +3068,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5GYs7qIaIeX">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.combobox" />
     <ref role="1XX52x" to="6ap2:5GYs7qI9Oz2" resolve="ComboBoxComponent" />
     <node concept="3EZMnI" id="5GYs7qIaIeZ" role="2wV5jI">
       <node concept="3F0ifn" id="5GYs7qIaIf0" role="3EZMnx">
@@ -3098,7 +3098,7 @@
     </node>
   </node>
   <node concept="PKFIW" id="5GYs7qIaISj">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.combobox" />
     <property role="TrG5h" value="ComboBoxComponent_details_EditorComponent" />
     <ref role="1XX52x" to="6ap2:5GYs7qI9Oz2" resolve="ComboBoxComponent" />
     <node concept="1PE4EZ" id="5GYs7qIaJ5L" role="1PM95z">

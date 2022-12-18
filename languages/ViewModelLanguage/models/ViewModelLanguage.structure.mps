@@ -785,7 +785,7 @@
   </node>
   <node concept="1TIwiD" id="5GYs7qI9Oz2">
     <property role="EcuMT" value="6574816161037764802" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.combobox" />
     <property role="TrG5h" value="ComboBoxComponent" />
     <property role="34LRSv" value="combobox" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />

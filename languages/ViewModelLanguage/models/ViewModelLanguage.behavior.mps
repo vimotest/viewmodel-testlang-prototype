@@ -6874,7 +6874,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="5GYs7qI9Oz3">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.combobox" />
     <ref role="13h7C2" to="6ap2:5GYs7qI9Oz2" resolve="ComboBoxComponent" />
     <node concept="13hLZK" id="5GYs7qI9Oz4" role="13h7CW">
       <node concept="3clFbS" id="5GYs7qI9Oz5" role="2VODD2" />
