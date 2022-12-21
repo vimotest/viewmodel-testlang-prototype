@@ -115,6 +115,7 @@
         <child id="7497173622927425564" name="viewComponentCheck" index="1u3WYG" />
       </concept>
       <concept id="575086588238666702" name="ViewModelTestLanguage.structure.TreeViewRowCheck" flags="ng" index="1SXonU">
+        <property id="1519488183366724957" name="collapsed" index="3kV6cI" />
         <property id="575086588238666705" name="level" index="1SXon_" />
         <child id="575086588238666704" name="checks" index="1SXon$" />
         <child id="575086588238666703" name="cellChecks" index="1SXonV" />
@@ -284,6 +285,7 @@
         <node concept="1SXonX" id="26AO1okMsdK" role="30nDbQ">
           <node concept="1SXonU" id="26AO1okMsdN" role="1SXonZ">
             <property role="1SXon_" value="0" />
+            <property role="3kV6cI" value="true" />
             <node concept="1u3WYF" id="26AO1okMsdO" role="1SXonV">
               <node concept="2D8cJI" id="26AO1okMsdP" role="1u3WYG">
                 <node concept="30nz6$" id="26AO1okMsdQ" role="2D8cJs">
@@ -335,6 +337,7 @@
           </node>
           <node concept="1SXonU" id="26AO1okMsfi" role="1SXonZ">
             <property role="1SXon_" value="0" />
+            <property role="3kV6cI" value="true" />
             <node concept="1u3WYF" id="26AO1okMsfj" role="1SXonV">
               <node concept="2D8cJI" id="26AO1okMsfk" role="1u3WYG">
                 <node concept="30nz6$" id="26AO1okMsfl" role="2D8cJs">

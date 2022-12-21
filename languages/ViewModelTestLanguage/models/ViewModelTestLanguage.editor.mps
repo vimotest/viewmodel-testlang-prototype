@@ -336,8 +336,10 @@
       </concept>
     </language>
     <language id="602c36ad-cc55-47ff-8c40-73d7f12f035c" name="jetbrains.mps.lang.editor.forms">
+      <concept id="7024409093146622323" name="jetbrains.mps.lang.editor.forms.structure.CheckboxUI_Platform" flags="ng" index="jv8YD" />
       <concept id="312429380032619384" name="jetbrains.mps.lang.editor.forms.structure.CellModel_Checkbox" flags="ng" index="2yq9I_">
         <reference id="3696012239575138271" name="propertyDeclaration" index="225u1j" />
+        <child id="8215612579904156902" name="label" index="2fqkNU" />
         <child id="1340057216891284122" name="ui" index="1563LE" />
       </concept>
       <concept id="1340057216891283515" name="jetbrains.mps.lang.editor.forms.structure.CheckboxUI_Text" flags="ng" index="1563Vb">
@@ -3168,6 +3170,13 @@
             <property role="VOm3f" value="true" />
           </node>
           <node concept="l2Vlx" id="vV7zhZ6lZI" role="2czzBx" />
+        </node>
+        <node concept="2yq9I_" id="1kmjBf1Z1VU" role="3EZMnx">
+          <ref role="225u1j" to="l8rz:1kmjBf1YyPt" resolve="collapsed" />
+          <node concept="jv8YD" id="1kmjBf1Z1W7" role="1563LE" />
+          <node concept="3F0ifn" id="1kmjBf1Z1W5" role="2fqkNU">
+            <property role="3F0ifm" value="collapsed" />
+          </node>
         </node>
         <node concept="2T_mXK" id="vV7zhZ6lZJ" role="3EZMnx" />
         <node concept="3F2HdR" id="vV7zhZ6lZK" role="3EZMnx">
