@@ -298,12 +298,17 @@
     <property role="3GE5qa" value="context.object" />
     <property role="TrG5h" value="ObjectTreeContext" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1kmjBf2p1O2" role="1TKVEl">
+      <property role="IQ2nx" value="1519488183373667586" />
+      <property role="TrG5h" value="displayVertical" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="2Yd1qrJRo6G" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045796780" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="objects" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2Yd1qrJRo5d" resolve="Object" />
+      <ref role="20lvS9" node="1kmjBf2kUh6" resolve="IObjectTreeContextRoot" />
     </node>
     <node concept="PrWs8" id="2Yd1qrJR_06" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
@@ -315,8 +320,19 @@
     <property role="TrG5h" value="Object" />
     <property role="34LRSv" value="object" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1kmjBf2oaos" role="1TKVEl">
+      <property role="IQ2nx" value="1519488183373440540" />
+      <property role="TrG5h" value="displayVertical" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="2Yd1qrJRo5e" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1kmjBf2kPEr" role="PzmwI">
+      <ref role="PrY4T" node="1kmjBf2kPEm" resolve="IObjectProperty" />
+    </node>
+    <node concept="PrWs8" id="1kmjBf2kUh8" role="PzmwI">
+      <ref role="PrY4T" node="1kmjBf2kUh6" resolve="IObjectTreeContextRoot" />
     </node>
     <node concept="PrWs8" id="53FN52wrgzl" role="PzmwI">
       <ref role="PrY4T" node="53FN52wrgzo" resolve="ITestCaseContextSubElement" />
@@ -326,21 +342,29 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="properties" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2Yd1qrJRo5g" resolve="ObjectProperty" />
+      <ref role="20lvS9" node="1kmjBf2kPEm" resolve="IObjectProperty" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJRo5g">
     <property role="EcuMT" value="3426401106045796688" />
     <property role="3GE5qa" value="context.object" />
-    <property role="TrG5h" value="ObjectProperty" />
+    <property role="TrG5h" value="SimpleValueProperty" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2Yd1qrJRo5j" role="1TKVEl">
       <property role="IQ2nx" value="3426401106045796691" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="1kmjBf2kNpu" role="1TKVEl">
+      <property role="IQ2nx" value="1519488183372559966" />
+      <property role="TrG5h" value="isStringLiteral" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="2Yd1qrJRo5h" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1kmjBf2kPEw" role="PzmwI">
+      <ref role="PrY4T" node="1kmjBf2kPEm" resolve="IObjectProperty" />
     </node>
     <node concept="PrWs8" id="53FN52wrgzp" role="PzmwI">
       <ref role="PrY4T" node="53FN52wrgzo" resolve="ITestCaseContextSubElement" />
@@ -987,6 +1011,47 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="6ap2:5Nv$FuahBIW" resolve="ColorValue" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1kmjBf2kPEi">
+    <property role="EcuMT" value="1519488183372569234" />
+    <property role="3GE5qa" value="context.object" />
+    <property role="TrG5h" value="Array" />
+    <property role="34LRSv" value="array" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1kmjBf2kPEj" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1kmjBf2kPEn" role="PzmwI">
+      <ref role="PrY4T" node="1kmjBf2kPEm" resolve="IObjectProperty" />
+    </node>
+    <node concept="PrWs8" id="1kmjBf2kUhd" role="PzmwI">
+      <ref role="PrY4T" node="1kmjBf2kUh6" resolve="IObjectTreeContextRoot" />
+    </node>
+    <node concept="PrWs8" id="1kmjBf2kPEk" role="PzmwI">
+      <ref role="PrY4T" node="53FN52wrgzo" resolve="ITestCaseContextSubElement" />
+    </node>
+    <node concept="1TJgyj" id="1kmjBf2kPEl" role="1TKVEi">
+      <property role="IQ2ns" value="1519488183372569237" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="objects" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2Yd1qrJRo5d" resolve="Object" />
+    </node>
+    <node concept="1TJgyi" id="1kmjBf2o94J" role="1TKVEl">
+      <property role="IQ2nx" value="1519488183373435183" />
+      <property role="TrG5h" value="displayVertical" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1kmjBf2kPEm">
+    <property role="EcuMT" value="1519488183372569238" />
+    <property role="3GE5qa" value="context.object" />
+    <property role="TrG5h" value="IObjectProperty" />
+  </node>
+  <node concept="PlHQZ" id="1kmjBf2kUh6">
+    <property role="EcuMT" value="1519488183372588102" />
+    <property role="3GE5qa" value="context.object" />
+    <property role="TrG5h" value="IObjectTreeContextRoot" />
   </node>
 </model>
 

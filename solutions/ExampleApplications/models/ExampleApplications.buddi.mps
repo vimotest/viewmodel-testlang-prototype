@@ -75,13 +75,15 @@
         <child id="2424854242643129810" name="color" index="Psmn4" />
       </concept>
       <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
+        <property id="1519488183373667586" name="displayVertical" index="3ns_dL" />
         <child id="3426401106045796780" name="objects" index="30k8ga" />
       </concept>
       <concept id="3426401106045796685" name="ViewModelTestLanguage.structure.Object" flags="ng" index="30k8jF">
         <child id="3426401106045796730" name="properties" index="30k8js" />
       </concept>
-      <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.ObjectProperty" flags="ng" index="30k8jQ">
+      <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.SimpleValueProperty" flags="ng" index="30k8jQ">
         <property id="3426401106045796691" name="value" index="30k8jP" />
+        <property id="1519488183372559966" name="isStringLiteral" index="3nhnwH" />
       </concept>
       <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
         <child id="3426401106045120780" name="context" index="30nziE" />
@@ -239,6 +241,7 @@
         </node>
       </node>
       <node concept="30k8jE" id="26AO1okMsgV" role="30nziE">
+        <property role="3ns_dL" value="true" />
         <node concept="30k8jF" id="26AO1okMsgY" role="30k8ga">
           <property role="TrG5h" value="AC0" />
           <node concept="30k8jQ" id="26AO1okMsh0" role="30k8js">
@@ -247,18 +250,21 @@
           </node>
           <node concept="30k8jQ" id="26AO1okMsh6" role="30k8js">
             <property role="TrG5h" value="name" />
-            <property role="30k8jP" value="'Chequing'" />
+            <property role="30k8jP" value="Chequing" />
+            <property role="3nhnwH" value="true" />
           </node>
         </node>
         <node concept="30k8jF" id="26AO1okMsh2" role="30k8ga">
           <property role="TrG5h" value="AC1" />
           <node concept="30k8jQ" id="26AO1okMsha" role="30k8js">
             <property role="TrG5h" value="name" />
-            <property role="30k8jP" value="'Savings'" />
+            <property role="30k8jP" value="Savings" />
+            <property role="3nhnwH" value="true" />
           </node>
           <node concept="30k8jQ" id="26AO1okMshJ" role="30k8js">
             <property role="TrG5h" value="children_0_name" />
-            <property role="30k8jP" value="'ACME'" />
+            <property role="30k8jP" value="ACME" />
+            <property role="3nhnwH" value="true" />
           </node>
           <node concept="30k8jQ" id="26AO1okMshK" role="30k8js">
             <property role="TrG5h" value="children_0_amount" />
@@ -273,7 +279,8 @@
           </node>
           <node concept="30k8jQ" id="26AO1okMshf" role="30k8js">
             <property role="TrG5h" value="name" />
-            <property role="30k8jP" value="'Credit Card'" />
+            <property role="30k8jP" value="Credit Card" />
+            <property role="3nhnwH" value="true" />
           </node>
         </node>
       </node>
