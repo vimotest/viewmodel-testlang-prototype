@@ -8299,16 +8299,6 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="3cpWs8" id="7GdAmo3$bgj" role="3cqZAp">
-                              <node concept="3cpWsn" id="7GdAmo3$bgk" role="3cpWs9">
-                                <property role="3TUv4t" value="true" />
-                                <property role="TrG5h" value="hiearchyColumnsCount" />
-                                <node concept="10Oyi0" id="7GdAmo3$bgl" role="1tU5fm" />
-                                <node concept="3cmrfG" id="7GdAmo3$bgm" role="33vP2m">
-                                  <property role="3cmrfH" value="1" />
-                                </node>
-                              </node>
-                            </node>
                             <node concept="3cpWs6" id="2tpQ8G1BGiG" role="3cqZAp">
                               <node concept="AH0OO" id="2tpQ8G1BGiH" role="3cqZAk">
                                 <node concept="3cpWsd" id="7GdAmo3$dwG" role="AHEQo">
@@ -10035,15 +10025,6 @@
             <node concept="10Oyi0" id="1kmjBf23h5o" role="1tU5fm" />
             <node concept="1rXfSq" id="1kmjBf2c2sn" role="33vP2m">
               <ref role="37wK5l" node="1kmjBf2a7Bk" resolve="collectMaxLevel" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="1kmjBf23x_o" role="3cqZAp">
-          <node concept="3cpWsn" id="1kmjBf23x_r" role="3cpWs9">
-            <property role="TrG5h" value="lastLevel" />
-            <node concept="10Oyi0" id="1kmjBf23x_m" role="1tU5fm" />
-            <node concept="3cmrfG" id="1kmjBf23yIn" role="33vP2m">
-              <property role="3cmrfH" value="0" />
             </node>
           </node>
         </node>
