@@ -168,6 +168,18 @@
       <node concept="L2wRC" id="7xn_gHyEnFx" role="39821P">
         <ref role="L2wRA" node="7xn_gHyDcls" resolve="ViewModelLanguage.test" />
       </node>
+      <node concept="L2wRC" id="5E6KScoRf68" role="39821P">
+        <ref role="L2wRA" node="1n6T2_x2WO2" resolve="ViewModelTestLanguage" />
+      </node>
+      <node concept="L2wRC" id="5E6KScoRf6c" role="39821P">
+        <ref role="L2wRA" node="1n6T2_x2WO8" resolve="ViewModelLanguage" />
+      </node>
+      <node concept="L2wRC" id="5E6KScoRf6l" role="39821P">
+        <ref role="L2wRA" node="1n6T2_x2WNQ" resolve="SimpleTypeLanguage" />
+      </node>
+      <node concept="L2wRC" id="5E6KScoRiDK" role="39821P">
+        <ref role="L2wRA" node="65sofNQaI0n" resolve="UseCaseLanguage" />
+      </node>
     </node>
     <node concept="2G$12M" id="1n6T2_x2WOg" role="3989C9">
       <property role="TrG5h" value="viewmodel-testlang-prototype" />
@@ -990,6 +1002,11 @@
             <node concept="3qWCbU" id="7xn_gHyFlrl" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5E6KScoRf2A" role="3bR37C">
+          <node concept="3bR9La" id="5E6KScoRf2B" role="1SiIV1">
+            <ref role="3bR37D" node="1n6T2_x2WO2" resolve="ViewModelTestLanguage" />
           </node>
         </node>
       </node>
