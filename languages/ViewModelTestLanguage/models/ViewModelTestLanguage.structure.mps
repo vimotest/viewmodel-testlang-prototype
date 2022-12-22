@@ -210,6 +210,11 @@
     <node concept="PrWs8" id="65sofNQ5xLK" role="PzmwI">
       <ref role="PrY4T" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
     </node>
+    <node concept="1TJgyi" id="5E6KScpoMPR" role="1TKVEl">
+      <property role="IQ2nx" value="6523116078126804343" />
+      <property role="TrG5h" value="descriptionLabel" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJONfw">
     <property role="EcuMT" value="3426401106045121504" />

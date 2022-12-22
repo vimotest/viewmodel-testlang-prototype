@@ -111,6 +111,7 @@
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
       </concept>
       <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
+        <property id="6523116078126804343" name="descriptionLabel" index="13TuVO" />
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
       </concept>
@@ -377,6 +378,15 @@
                 <property role="3mAuXv" value="red" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="5E6KScpoMPg" role="30nzpy">
+        <property role="13TuVO" value="Net Worth:" />
+        <ref role="30nzpS" node="4XlUEZmo0cl" resolve="NetWorthLabel" />
+        <node concept="2D8cJI" id="5E6KScpoMPN" role="30nDbQ">
+          <node concept="30nz6$" id="5E6KScpoMPO" role="2D8cJs">
+            <property role="30nz6_" value="$13,992.05" />
           </node>
         </node>
       </node>
