@@ -82,6 +82,9 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
+      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
@@ -160,6 +163,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1088,6 +1099,53 @@
               <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
               <node concept="37vLTw" id="5E6KScpsDx1" role="37wK5m">
                 <ref role="3cqZAo" node="5E6KScpsDkz" resolve="viewInputs" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5E6KScpv78W">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1M2myG" to="l8rz:5E6KScpv76K" resolve="ColumnHeaderCheckValue" />
+    <node concept="9S07l" id="5E6KScpv7gy" role="9Vyp8">
+      <node concept="3clFbS" id="5E6KScpv7gz" role="2VODD2">
+        <node concept="3SKdUt" id="5E6KScpv7i8" role="3cqZAp">
+          <node concept="1PaTwC" id="5E6KScpv7i9" role="1aUNEU">
+            <node concept="3oM_SD" id="5E6KScpv7iF" role="1PaTwD">
+              <property role="3oM_SC" value="todo:" />
+            </node>
+            <node concept="3oM_SD" id="5E6KScpv7iK" role="1PaTwD">
+              <property role="3oM_SC" value="check" />
+            </node>
+            <node concept="3oM_SD" id="5E6KScpv7iX" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="5E6KScpv7j6" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="5E6KScpv7jd" role="1PaTwD">
+              <property role="3oM_SC" value="VCFeature" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5E6KScpv94X" role="3cqZAp">
+          <node concept="2OqwBi" id="5E6KScpv9ou" role="3clFbG">
+            <node concept="2OqwBi" id="5E6KScpv94Z" role="2Oq$k0">
+              <node concept="1PxgMI" id="5E6KScpv950" role="2Oq$k0">
+                <node concept="chp4Y" id="5E6KScpv951" role="3oSUPX">
+                  <ref role="cht4Q" to="l8rz:2Yd1qrJONfw" resolve="ViewComponentCheck" />
+                </node>
+                <node concept="nLn13" id="5E6KScpv9PI" role="1m5AlR" />
+              </node>
+              <node concept="2qgKlT" id="5E6KScpv953" role="2OqNvi">
+                <ref role="37wK5l" to="gg8m:4jKdMMdJYzD" resolve="getViewComponentToCheck" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="5E6KScpv9$M" role="2OqNvi">
+              <node concept="chp4Y" id="5E6KScpv9FJ" role="cj9EA">
+                <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
               </node>
             </node>
           </node>

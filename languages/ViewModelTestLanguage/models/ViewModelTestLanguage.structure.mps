@@ -1064,5 +1064,28 @@
     <property role="3GE5qa" value="context.object" />
     <property role="TrG5h" value="IObjectTreeContextRoot" />
   </node>
+  <node concept="1TIwiD" id="5E6KScpv76K">
+    <property role="EcuMT" value="6523116078128460208" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="ColumnHeaderCheckValue" />
+    <property role="34LRSv" value="column header" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5E6KScpv76L" role="1TKVEl">
+      <property role="IQ2nx" value="6523116078128460209" />
+      <property role="TrG5h" value="columnIndex" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="5E6KScpv76N" role="1TKVEl">
+      <property role="IQ2nx" value="6523116078128460211" />
+      <property role="TrG5h" value="header" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="5E6KScpv76M" role="PzmwI">
+      <ref role="PrY4T" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
+    </node>
+    <node concept="PrWs8" id="5E6KScpwRpz" role="PzmwI">
+      <ref role="PrY4T" node="vV7zhZ3DJd" resolve="ITreeViewCheckValue" />
+    </node>
+  </node>
 </model>
 

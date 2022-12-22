@@ -233,7 +233,7 @@
       <concept id="3426401106045796685" name="ViewModelTestLanguage.structure.Object" flags="ng" index="30k8jF">
         <child id="3426401106045796730" name="properties" index="30k8js" />
       </concept>
-      <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.ObjectProperty" flags="ng" index="30k8jQ">
+      <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.SimpleValueProperty" flags="ng" index="30k8jQ">
         <property id="3426401106045796691" name="value" index="30k8jP" />
       </concept>
       <concept id="3426401106045849608" name="ViewModelTestLanguage.structure.ContextReference" flags="ng" index="30kPmI">
@@ -276,10 +276,14 @@
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
       </concept>
+      <concept id="6523116078128460208" name="ViewModelTestLanguage.structure.ColumnHeaderCheckValue" flags="ng" index="13YF8N">
+        <property id="6523116078128460211" name="header" index="13YF8K" />
+        <property id="6523116078128460209" name="columnIndex" index="13YF8M" />
+      </concept>
       <concept id="6743755284656668768" name="ViewModelTestLanguage.structure.TextBoxCheck" flags="ng" index="3fym7j">
         <child id="6743755284656668769" name="checks" index="3fym7i" />
       </concept>
-      <concept id="6692228888293142831" name="ViewModelTestLanguage.structure.ColorCheckValue" flags="ng" index="3mzAeo">
+      <concept id="6692228888293142831" name="ViewModelTestLanguage.structure.BackgroundColorCheckValue" flags="ng" index="3mzAeo">
         <child id="6692228888293142849" name="color" index="3mzAfQ" />
       </concept>
       <concept id="7497173622926527144" name="ViewModelTestLanguage.structure.CheckedCheckValue" flags="ng" index="1tZoko">
@@ -303,6 +307,7 @@
       </concept>
       <concept id="6853349774631251773" name="ViewModelTestLanguage.structure.TableCheck" flags="ng" index="1Dvt9M">
         <child id="643469022294143860" name="rowChecks" index="2D8nNu" />
+        <child id="6853349774631251775" name="checkValues" index="1Dvt9K" />
       </concept>
       <concept id="5830978789222189276" name="ViewModelTestLanguage.structure.ContextSubElementReference" flags="ng" index="3KxGic">
         <reference id="5830978789222189277" name="reference" index="3KxGid" />
@@ -1197,6 +1202,14 @@
                 <property role="3clFbU" value="true" />
               </node>
             </node>
+          </node>
+          <node concept="13YF8N" id="5E6KScpyJZz" role="1Dvt9K">
+            <property role="13YF8M" value="0" />
+            <property role="13YF8K" value="&lt;&gt;" />
+          </node>
+          <node concept="13YF8N" id="5E6KScpyJZ_" role="1Dvt9K">
+            <property role="13YF8M" value="1" />
+            <property role="13YF8K" value="Flag" />
           </node>
         </node>
       </node>
