@@ -1304,15 +1304,34 @@
       <node concept="3Tm1VV" id="5WrZkWPY75D" role="1B3o_S" />
       <node concept="3cqZAl" id="5WrZkWPY7Ay" role="3clF45" />
       <node concept="3clFbS" id="5WrZkWPY75F" role="3clF47">
-        <node concept="3clFbF" id="53FN52wGR4m" role="3cqZAp">
-          <node concept="2OqwBi" id="53FN52wGRDM" role="3clFbG">
-            <node concept="2OqwBi" id="53FN52wGRlA" role="2Oq$k0">
-              <node concept="2JrnkZ" id="5WrZkWPWA4X" role="2Oq$k0">
-                <node concept="13iPFW" id="5WrZkWPW_KT" role="2JrQYb" />
+        <node concept="3cpWs8" id="5E6KScp22EG" role="3cqZAp">
+          <node concept="3cpWsn" id="5E6KScp22EH" role="3cpWs9">
+            <property role="TrG5h" value="model" />
+            <node concept="3uibUv" id="5E6KScp224D" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+            </node>
+            <node concept="2OqwBi" id="5E6KScp22EI" role="33vP2m">
+              <node concept="2JrnkZ" id="5E6KScp22EJ" role="2Oq$k0">
+                <node concept="13iPFW" id="5E6KScp22EK" role="2JrQYb" />
               </node>
-              <node concept="liA8E" id="53FN52wGRzN" role="2OqNvi">
+              <node concept="liA8E" id="5E6KScp22EL" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5E6KScp23Ey" role="3cqZAp">
+          <node concept="3y3z36" id="5E6KScp24mZ" role="1gVkn0">
+            <node concept="10Nm6u" id="5E6KScp24wv" role="3uHU7w" />
+            <node concept="37vLTw" id="5E6KScp23ZH" role="3uHU7B">
+              <ref role="3cqZAo" node="5E6KScp22EH" resolve="model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="53FN52wGR4m" role="3cqZAp">
+          <node concept="2OqwBi" id="53FN52wGRDM" role="3clFbG">
+            <node concept="37vLTw" id="5E6KScp22EM" role="2Oq$k0">
+              <ref role="3cqZAo" node="5E6KScp22EH" resolve="model" />
             </node>
             <node concept="liA8E" id="53FN52wGRQy" role="2OqNvi">
               <ref role="37wK5l" to="mhbf:~SModel.addChangeListener(org.jetbrains.mps.openapi.model.SNodeChangeListener)" resolve="addChangeListener" />

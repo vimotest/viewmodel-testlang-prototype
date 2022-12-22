@@ -849,7 +849,7 @@
     <property role="3GE5qa" value="viewcomponents.treeview" />
     <property role="TrG5h" value="TreeViewRowComponent" />
     <property role="34LRSv" value="tree-row" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" to="rtft:56jsF7$wmcE" resolve="StructType" />
     <node concept="1TJgyj" id="2ClXI6_BoH$" role="1TKVEi">
       <property role="IQ2ns" value="3032601373110537060" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
