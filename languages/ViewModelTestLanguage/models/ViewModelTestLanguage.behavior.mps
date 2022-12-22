@@ -5,6 +5,7 @@
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -10803,6 +10804,42 @@
       <node concept="10Oyi0" id="1kmjBf2ag6U" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="1kmjBf26EKo" role="jymVt" />
+  </node>
+  <node concept="13h7C7" id="5E6KScpdeL3">
+    <property role="3GE5qa" value="context.object" />
+    <ref role="13h7C2" to="l8rz:2Yd1qrJRo5d" resolve="Object" />
+    <node concept="13hLZK" id="5E6KScpdeL4" role="13h7CW">
+      <node concept="3clFbS" id="5E6KScpdeL5" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5E6KScpdeLe" role="13h7CS">
+      <property role="TrG5h" value="isInArray" />
+      <node concept="3Tm1VV" id="5E6KScpdeLf" role="1B3o_S" />
+      <node concept="10P_77" id="5E6KScpdeLu" role="3clF45" />
+      <node concept="3clFbS" id="5E6KScpdeLh" role="3clF47">
+        <node concept="3clFbF" id="5E6KScpdeX0" role="3cqZAp">
+          <node concept="1Wc70l" id="5E6KScpdicM" role="3clFbG">
+            <node concept="2OqwBi" id="1kmjBf2kTY6" role="3uHU7B">
+              <node concept="2OqwBi" id="1kmjBf2kTIQ" role="2Oq$k0">
+                <node concept="13iPFW" id="5E6KScpdf24" role="2Oq$k0" />
+                <node concept="1mfA1w" id="1kmjBf2kTIS" role="2OqNvi" />
+              </node>
+              <node concept="3x8VRR" id="5E6KScpdi81" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="1kmjBf2kToB" role="3uHU7w">
+              <node concept="2OqwBi" id="1kmjBf2kToC" role="2Oq$k0">
+                <node concept="13iPFW" id="5E6KScpdf9g" role="2Oq$k0" />
+                <node concept="1mfA1w" id="1kmjBf2kToE" role="2OqNvi" />
+              </node>
+              <node concept="1mIQ4w" id="1kmjBf2kToF" role="2OqNvi">
+                <node concept="chp4Y" id="1kmjBf2kToG" role="cj9EA">
+                  <ref role="cht4Q" to="l8rz:1kmjBf2kPEi" resolve="Array" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

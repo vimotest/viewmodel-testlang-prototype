@@ -325,6 +325,11 @@
       <property role="TrG5h" value="displayVertical" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="5E6KScpdew7" role="1TKVEl">
+      <property role="IQ2nx" value="6523116078123771911" />
+      <property role="TrG5h" value="showInlineName" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="2Yd1qrJRo5e" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -349,6 +354,7 @@
     <property role="EcuMT" value="3426401106045796688" />
     <property role="3GE5qa" value="context.object" />
     <property role="TrG5h" value="SimpleValueProperty" />
+    <property role="34LRSv" value="property" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2Yd1qrJRo5j" role="1TKVEl">
       <property role="IQ2nx" value="3426401106045796691" />
