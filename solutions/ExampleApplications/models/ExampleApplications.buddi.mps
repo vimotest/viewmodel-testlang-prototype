@@ -79,6 +79,7 @@
         <child id="3426401106045796780" name="objects" index="30k8ga" />
       </concept>
       <concept id="3426401106045796685" name="ViewModelTestLanguage.structure.Object" flags="ng" index="30k8jF">
+        <property id="6523116078123771911" name="showInlineName" index="13GyI4" />
         <child id="3426401106045796730" name="properties" index="30k8js" />
       </concept>
       <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.SimpleValueProperty" flags="ng" index="30k8jQ">
@@ -112,6 +113,10 @@
       <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
+      </concept>
+      <concept id="1519488183372569234" name="ViewModelTestLanguage.structure.Array" flags="ng" index="3nhhjx">
+        <property id="1519488183373435183" name="displayVertical" index="3ntHXs" />
+        <child id="1519488183372569237" name="objects" index="3nhhjA" />
       </concept>
       <concept id="7497173622927425563" name="ViewModelTestLanguage.structure.TableCellCheck" flags="ng" index="1u3WYF">
         <child id="7497173622927425564" name="viewComponentCheck" index="1u3WYG" />
@@ -244,14 +249,14 @@
         <property role="3ns_dL" value="true" />
         <node concept="30k8jF" id="26AO1okMsgY" role="30k8ga">
           <property role="TrG5h" value="AC0" />
-          <node concept="30k8jQ" id="26AO1okMsh0" role="30k8js">
-            <property role="TrG5h" value="amount" />
-            <property role="30k8jP" value="450.24" />
-          </node>
           <node concept="30k8jQ" id="26AO1okMsh6" role="30k8js">
             <property role="TrG5h" value="name" />
             <property role="30k8jP" value="Chequing" />
             <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="30k8jQ" id="26AO1okMsh0" role="30k8js">
+            <property role="TrG5h" value="amount" />
+            <property role="30k8jP" value="450.24" />
           </node>
         </node>
         <node concept="30k8jF" id="26AO1okMsh2" role="30k8ga">
@@ -261,26 +266,34 @@
             <property role="30k8jP" value="Savings" />
             <property role="3nhnwH" value="true" />
           </node>
-          <node concept="30k8jQ" id="26AO1okMshJ" role="30k8js">
-            <property role="TrG5h" value="children_0_name" />
-            <property role="30k8jP" value="ACME" />
-            <property role="3nhnwH" value="true" />
-          </node>
-          <node concept="30k8jQ" id="26AO1okMshK" role="30k8js">
-            <property role="TrG5h" value="children_0_amount" />
-            <property role="30k8jP" value="14226.23" />
+          <node concept="3nhhjx" id="5E6KScpdegF" role="30k8js">
+            <property role="TrG5h" value="children" />
+            <property role="3ntHXs" value="true" />
+            <node concept="30k8jF" id="5E6KScpdegR" role="3nhhjA">
+              <property role="13GyI4" value="true" />
+              <property role="TrG5h" value="AC1.0" />
+              <node concept="30k8jQ" id="5E6KScpdegT" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="ACME" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="5E6KScpeIFz" role="30k8js">
+                <property role="TrG5h" value="amount" />
+                <property role="30k8jP" value="14226.23" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="30k8jF" id="26AO1okMshd" role="30k8ga">
           <property role="TrG5h" value="AC2" />
-          <node concept="30k8jQ" id="26AO1okMsiD" role="30k8js">
-            <property role="TrG5h" value="amount" />
-            <property role="30k8jP" value="-684.42" />
-          </node>
           <node concept="30k8jQ" id="26AO1okMshf" role="30k8js">
             <property role="TrG5h" value="name" />
             <property role="30k8jP" value="Credit Card" />
             <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="30k8jQ" id="26AO1okMsiD" role="30k8js">
+            <property role="TrG5h" value="amount" />
+            <property role="30k8jP" value="-684.42" />
           </node>
         </node>
       </node>
