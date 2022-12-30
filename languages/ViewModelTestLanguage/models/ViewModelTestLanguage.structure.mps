@@ -1015,6 +1015,9 @@
     <node concept="PrWs8" id="26AO1okPVnh" role="PzmwI">
       <ref role="PrY4T" node="vV7zhZ3DJj" resolve="ITreeViewRowCheckValue" />
     </node>
+    <node concept="PrWs8" id="mFfN0XGQPw" role="PzmwI">
+      <ref role="PrY4T" node="zI3UExNGh5" resolve="ILabelCheckValue" />
+    </node>
     <node concept="1TJgyj" id="26AO1okPVni" role="1TKVEi">
       <property role="IQ2ns" value="2424854242643129810" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

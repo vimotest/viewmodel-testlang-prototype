@@ -114,6 +114,7 @@
       </concept>
       <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_">
         <child id="3011041337510922390" name="textFeature" index="27$_qM" />
+        <child id="2194160217324893899" name="colorFeature" index="2NwCZs" />
       </concept>
       <concept id="6853349774625913243" name="ViewModelLanguage.structure.TableCellComponent" flags="ng" index="1D3Ojk">
         <property id="6853349774626093651" name="visible" index="1D38ss" />
@@ -438,6 +439,7 @@
                 <node concept="27$lts" id="2B9nyiIne0m" role="27$_qM">
                   <property role="2PigO5" value="true" />
                 </node>
+                <node concept="3mzAc8" id="1TNehuHX_E6" role="2NwCZs" />
               </node>
               <node concept="2Pim7P" id="5cbOqfAhtbl" role="2Pim73">
                 <property role="2PigO5" value="true" />
@@ -512,6 +514,7 @@
                   <property role="2PigO5" value="true" />
                   <property role="2PigPS" value="Name" />
                 </node>
+                <node concept="3mzAc8" id="1TNehuHX_E7" role="2NwCZs" />
               </node>
             </node>
             <node concept="3mzAc8" id="Z7uvR5sqTo" role="2fy7Q4" />
@@ -652,6 +655,22 @@
       <node concept="2P4x69" id="2gml1W1uDtp" role="2P43km">
         <property role="TrG5h" value="MyCustomBool" />
         <node concept="2P4D6g" id="2gml1W1uDtn" role="2P5Oin" />
+      </node>
+      <node concept="1D10m_" id="1TNehuHXAhu" role="2P43km">
+        <node concept="27$lts" id="1TNehuHXAhw" role="27$_qM">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3mzAc8" id="1TNehuHXAhy" role="2NwCZs" />
+        <node concept="2Pim7P" id="1TNehuHXAh$" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="1TNehuHXAhA" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="1TNehuHXAhC" role="2Pim76">
+          <property role="2PigO5" value="true" />
+          <property role="2PigPS" value="MyLabel" />
+        </node>
       </node>
     </node>
     <node concept="3f4AKs" id="4XlUEZmnvt0" role="3H8Xyh">

@@ -9947,6 +9947,80 @@
     <node concept="13hLZK" id="26AO1okPW3T" role="13h7CW">
       <node concept="3clFbS" id="26AO1okPW3U" role="2VODD2" />
     </node>
+    <node concept="13i0hz" id="mFfN0XGQP$" role="13h7CS">
+      <property role="TrG5h" value="modifyLabel" />
+      <ref role="13i0hy" node="zI3UExNIwv" resolve="modifyLabel" />
+      <node concept="3Tm1VV" id="mFfN0XGQPB" role="1B3o_S" />
+      <node concept="3clFbS" id="mFfN0XGQPE" role="3clF47">
+        <node concept="3cpWs8" id="mFfN0XH5UU" role="3cqZAp">
+          <node concept="3cpWsn" id="mFfN0XH5UV" role="3cpWs9">
+            <property role="TrG5h" value="color" />
+            <node concept="3uibUv" id="mFfN0XH5UW" role="1tU5fm">
+              <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+            </node>
+            <node concept="2OqwBi" id="mFfN0XH5UX" role="33vP2m">
+              <node concept="2OqwBi" id="mFfN0XH5UY" role="2Oq$k0">
+                <node concept="13iPFW" id="mFfN0XH5UZ" role="2Oq$k0" />
+                <node concept="3TrEf2" id="mFfN0XH5V0" role="2OqNvi">
+                  <ref role="3Tt5mk" to="l8rz:26AO1okPVni" resolve="color" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="mFfN0XH5V1" role="2OqNvi">
+                <ref role="37wK5l" to="hhvz:7kmg1RAvF0a" resolve="toAwtColorOrNull" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="mFfN0XH5V2" role="3cqZAp">
+          <node concept="3clFbS" id="mFfN0XH5V3" role="3clFbx">
+            <node concept="3clFbF" id="mFfN0XH5V4" role="3cqZAp">
+              <node concept="2OqwBi" id="mFfN0XH5V5" role="3clFbG">
+                <node concept="37vLTw" id="mFfN0XH5V6" role="2Oq$k0">
+                  <ref role="3cqZAo" node="mFfN0XGQPF" resolve="label" />
+                </node>
+                <node concept="liA8E" id="mFfN0XH5V7" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~JComponent.setForeground(java.awt.Color)" resolve="setForeground" />
+                  <node concept="37vLTw" id="mFfN0XH5V9" role="37wK5m">
+                    <ref role="3cqZAo" node="mFfN0XH5UV" resolve="color" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="mFfN0XH5Va" role="3clFbw">
+            <node concept="10Nm6u" id="mFfN0XH5Vb" role="3uHU7w" />
+            <node concept="37vLTw" id="mFfN0XH5Vc" role="3uHU7B">
+              <ref role="3cqZAo" node="mFfN0XH5UV" resolve="color" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="mFfN0XH5Vd" role="9aQIa">
+            <node concept="3clFbS" id="mFfN0XH5Ve" role="9aQI4">
+              <node concept="3clFbF" id="mFfN0XH5Vf" role="3cqZAp">
+                <node concept="2OqwBi" id="mFfN0XH5Vg" role="3clFbG">
+                  <node concept="37vLTw" id="mFfN0XH5Vh" role="2Oq$k0">
+                    <ref role="3cqZAo" node="mFfN0XGQPF" resolve="label" />
+                  </node>
+                  <node concept="liA8E" id="mFfN0XH5Vi" role="2OqNvi">
+                    <ref role="37wK5l" to="dxuu:~JComponent.setForeground(java.awt.Color)" resolve="setForeground" />
+                    <node concept="10M0yZ" id="mFfN0XH5Vk" role="37wK5m">
+                      <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                      <ref role="3cqZAo" to="z60i:~Color.red" resolve="red" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="mFfN0XGQPF" role="3clF46">
+        <property role="TrG5h" value="label" />
+        <node concept="3uibUv" id="mFfN0XGQPG" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="mFfN0XGQPH" role="3clF45" />
+    </node>
   </node>
   <node concept="312cEu" id="1kmjBf22v6V">
     <property role="TrG5h" value="TreeStringifier" />

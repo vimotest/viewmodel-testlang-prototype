@@ -288,6 +288,13 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2B9nyiIm0_S" resolve="TextVCFeature" />
     </node>
+    <node concept="1TJgyj" id="1TNehuHWrrb" role="1TKVEi">
+      <property role="IQ2ns" value="2194160217324893899" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="colorFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5Nv$Fuakv6Z" resolve="ColorVCFeature" />
+    </node>
     <node concept="1TJgyi" id="5QmCreik75d" role="1TKVEl">
       <property role="IQ2nx" value="6743755284659859789" />
       <property role="TrG5h" value="sampleText" />

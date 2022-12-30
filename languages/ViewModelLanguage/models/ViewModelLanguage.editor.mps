@@ -1559,8 +1559,17 @@
         </node>
       </node>
     </node>
-    <node concept="PMmxH" id="5GYs7qIdnOz" role="6VMZX">
-      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
+    <node concept="3EZMnI" id="1TNehuHWu5C" role="6VMZX">
+      <node concept="l2Vlx" id="1TNehuHWu5D" role="2iSdaV" />
+      <node concept="3F1sOY" id="1TNehuHWu6A" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:1TNehuHWrrb" resolve="colorFeature" />
+      </node>
+      <node concept="PMmxH" id="5GYs7qIdnOz" role="3EZMnx">
+        <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
+        <node concept="pVoyu" id="1TNehuHX7wV" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5WrZkWQ8jtz">
