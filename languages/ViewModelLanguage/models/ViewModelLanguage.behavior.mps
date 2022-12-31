@@ -6223,6 +6223,26 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="1TNehuHZ965" role="jymVt">
+      <property role="TrG5h" value="foregroundColorPerCell" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="1TNehuHZ966" role="1B3o_S" />
+      <node concept="3uibUv" id="1TNehuHZ967" role="1tU5fm">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="3uibUv" id="1TNehuHZcuv" role="11_B2D">
+          <ref role="3uigEE" to="33ny:~List" resolve="List" />
+          <node concept="3uibUv" id="1TNehuHZcuw" role="11_B2D">
+            <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+          </node>
+        </node>
+      </node>
+      <node concept="2ShNRf" id="1TNehuHZ969" role="33vP2m">
+        <node concept="1pGfFk" id="1TNehuHZ96a" role="2ShVmc">
+          <property role="373rjd" value="true" />
+          <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="7kmg1RAExig" role="jymVt" />
     <node concept="3clFbW" id="7kmg1RAEB0m" role="jymVt">
       <node concept="3cqZAl" id="7kmg1RAEB0n" role="3clF45" />
@@ -6492,6 +6512,72 @@
                         <node concept="37vLTw" id="7kmg1RAL0NJ" role="37wK5m">
                           <ref role="3cqZAo" node="7kmg1RAJdi7" resolve="row" />
                         </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbJ" id="1TNehuI0ZkT" role="3cqZAp">
+                <node concept="3clFbS" id="1TNehuI0ZkV" role="3clFbx">
+                  <node concept="3clFbF" id="1TNehuI28RP" role="3cqZAp">
+                    <node concept="37vLTI" id="1TNehuI2aMa" role="3clFbG">
+                      <node concept="2OqwBi" id="1TNehuI2oRj" role="37vLTx">
+                        <node concept="2OqwBi" id="1TNehuI2f6v" role="2Oq$k0">
+                          <node concept="37vLTw" id="1TNehuI2drD" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1TNehuHZ965" resolve="foregroundColorPerCell" />
+                          </node>
+                          <node concept="liA8E" id="1TNehuI2hIY" role="2OqNvi">
+                            <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
+                            <node concept="37vLTw" id="1TNehuI2mat" role="37wK5m">
+                              <ref role="3cqZAo" node="7kmg1RAJdi7" resolve="row" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1TNehuI2rCo" role="2OqNvi">
+                          <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
+                          <node concept="37vLTw" id="1TNehuI2wPE" role="37wK5m">
+                            <ref role="3cqZAo" node="7kmg1RAJdi9" resolve="column" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="1TNehuI28RN" role="37vLTJ">
+                        <ref role="3cqZAo" node="7kmg1RAL0Nz" resolve="foregroundColor" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="1Wc70l" id="1TNehuI1$rh" role="3clFbw">
+                  <node concept="3eOVzh" id="1TNehuI1Go$" role="3uHU7w">
+                    <node concept="2OqwBi" id="1TNehuI1Zo2" role="3uHU7w">
+                      <node concept="2OqwBi" id="1TNehuI1P3c" role="2Oq$k0">
+                        <node concept="37vLTw" id="1TNehuI1Lf7" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1TNehuHZ965" resolve="foregroundColorPerCell" />
+                        </node>
+                        <node concept="liA8E" id="1TNehuI1RIH" role="2OqNvi">
+                          <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
+                          <node concept="37vLTw" id="1TNehuI1W9k" role="37wK5m">
+                            <ref role="3cqZAo" node="7kmg1RAJdi7" resolve="row" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1TNehuI21T7" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="1TNehuI1E25" role="3uHU7B">
+                      <ref role="3cqZAo" node="7kmg1RAJdi9" resolve="column" />
+                    </node>
+                  </node>
+                  <node concept="3eOVzh" id="1TNehuI1tUB" role="3uHU7B">
+                    <node concept="37vLTw" id="1TNehuI1tUH" role="3uHU7B">
+                      <ref role="3cqZAo" node="7kmg1RAJdi7" resolve="row" />
+                    </node>
+                    <node concept="2OqwBi" id="1TNehuI1tUI" role="3uHU7w">
+                      <node concept="37vLTw" id="1TNehuI1tUJ" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1TNehuHZ965" resolve="foregroundColorPerCell" />
+                      </node>
+                      <node concept="liA8E" id="1TNehuI1tUK" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                       </node>
                     </node>
                   </node>
@@ -6776,6 +6862,144 @@
       <node concept="37vLTG" id="7kmg1RASRzh" role="3clF46">
         <property role="TrG5h" value="color" />
         <node concept="3uibUv" id="7kmg1RASRzi" role="1tU5fm">
+          <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1TNehuHYV_A" role="jymVt">
+      <property role="TrG5h" value="setForegroundCellColor" />
+      <node concept="3clFbS" id="1TNehuHYV_B" role="3clF47">
+        <node concept="3clFbJ" id="1TNehuHYV_C" role="3cqZAp">
+          <node concept="3clFbS" id="1TNehuHYV_D" role="3clFbx">
+            <node concept="1Dw8fO" id="1TNehuHZcJ2" role="3cqZAp">
+              <node concept="3cpWsn" id="1TNehuHZcJ3" role="1Duv9x">
+                <property role="TrG5h" value="i" />
+                <node concept="10Oyi0" id="1TNehuHZcJ4" role="1tU5fm" />
+                <node concept="2OqwBi" id="1TNehuHZcJ5" role="33vP2m">
+                  <node concept="37vLTw" id="1TNehuHZcJ6" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1TNehuHZ965" resolve="foregroundColorPerCell" />
+                  </node>
+                  <node concept="liA8E" id="1TNehuHZcJ7" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="1TNehuHZcJ8" role="2LFqv$">
+                <node concept="3clFbF" id="1TNehuHZcJ9" role="3cqZAp">
+                  <node concept="2OqwBi" id="1TNehuHZcJa" role="3clFbG">
+                    <node concept="37vLTw" id="1TNehuHZcJb" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1TNehuHZ965" resolve="foregroundColorPerCell" />
+                    </node>
+                    <node concept="liA8E" id="1TNehuHZcJc" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
+                      <node concept="2ShNRf" id="1TNehuHZneD" role="37wK5m">
+                        <node concept="1pGfFk" id="1TNehuHZRnH" role="2ShVmc">
+                          <property role="373rjd" value="true" />
+                          <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eOVzh" id="1TNehuHZcJe" role="1Dwp0S">
+                <node concept="37vLTw" id="1TNehuHZcJg" role="3uHU7B">
+                  <ref role="3cqZAo" node="1TNehuHZcJ3" resolve="i" />
+                </node>
+                <node concept="3cpWs3" id="1TNehuI0ez1" role="3uHU7w">
+                  <node concept="3cmrfG" id="1TNehuI0f7Z" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="37vLTw" id="1TNehuI08Rj" role="3uHU7B">
+                    <ref role="3cqZAo" node="1TNehuHYV_V" resolve="rowIndex" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3uNrnE" id="1TNehuHZcJh" role="1Dwrff">
+                <node concept="37vLTw" id="1TNehuHZcJi" role="2$L3a6">
+                  <ref role="3cqZAo" node="1TNehuHZcJ3" resolve="i" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1TNehuHZcIO" role="3cqZAp" />
+            <node concept="3cpWs8" id="1TNehuI0sxh" role="3cqZAp">
+              <node concept="3cpWsn" id="1TNehuI0sxi" role="3cpWs9">
+                <property role="TrG5h" value="cellColors" />
+                <node concept="3uibUv" id="1TNehuI0rnH" role="1tU5fm">
+                  <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                  <node concept="3uibUv" id="1TNehuI0rnK" role="11_B2D">
+                    <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1TNehuI0sxj" role="33vP2m">
+                  <node concept="37vLTw" id="1TNehuI0sxk" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1TNehuHZ965" resolve="foregroundColorPerCell" />
+                  </node>
+                  <node concept="liA8E" id="1TNehuI0sxl" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
+                    <node concept="37vLTw" id="1TNehuI0sxm" role="37wK5m">
+                      <ref role="3cqZAo" node="1TNehuHYV_V" resolve="rowIndex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1TNehuHYV_E" role="3cqZAp">
+              <node concept="1rXfSq" id="1TNehuHYV_F" role="3clFbG">
+                <ref role="37wK5l" node="7kmg1RAKbgZ" resolve="ensureSize" />
+                <node concept="37vLTw" id="1TNehuHYV_G" role="37wK5m">
+                  <ref role="3cqZAo" node="1TNehuI0sxi" resolve="cellColors" />
+                </node>
+                <node concept="3cpWs3" id="1TNehuHYV_H" role="37wK5m">
+                  <node concept="3cmrfG" id="1TNehuHYV_I" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="37vLTw" id="1TNehuHYV_J" role="3uHU7B">
+                    <ref role="3cqZAo" node="1TNehuHZ54u" resolve="columnIndex" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1TNehuHYV_K" role="3cqZAp">
+              <node concept="2OqwBi" id="1TNehuHYV_L" role="3clFbG">
+                <node concept="37vLTw" id="1TNehuHYV_M" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1TNehuI0sxi" resolve="cellColors" />
+                </node>
+                <node concept="liA8E" id="1TNehuHYV_N" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~List.set(int,java.lang.Object)" resolve="set" />
+                  <node concept="37vLTw" id="1TNehuI0PfH" role="37wK5m">
+                    <ref role="3cqZAo" node="1TNehuHZ54u" resolve="columnIndex" />
+                  </node>
+                  <node concept="37vLTw" id="1TNehuI0THX" role="37wK5m">
+                    <ref role="3cqZAo" node="1TNehuHYV_X" resolve="color" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2d3UOw" id="1TNehuHYV_Q" role="3clFbw">
+            <node concept="3cmrfG" id="1TNehuHYV_R" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="1TNehuHYV_S" role="3uHU7B">
+              <ref role="3cqZAo" node="1TNehuHYV_V" resolve="rowIndex" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1TNehuHYV_T" role="1B3o_S" />
+      <node concept="3cqZAl" id="1TNehuHYV_U" role="3clF45" />
+      <node concept="37vLTG" id="1TNehuHYV_V" role="3clF46">
+        <property role="TrG5h" value="rowIndex" />
+        <node concept="10Oyi0" id="1TNehuHYV_W" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1TNehuHZ54u" role="3clF46">
+        <property role="TrG5h" value="columnIndex" />
+        <node concept="10Oyi0" id="1TNehuHZ8f2" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1TNehuHYV_X" role="3clF46">
+        <property role="TrG5h" value="color" />
+        <node concept="3uibUv" id="1TNehuHYV_Y" role="1tU5fm">
           <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
         </node>
       </node>

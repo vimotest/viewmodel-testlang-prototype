@@ -3500,7 +3500,7 @@
                         <ref role="3cqZAo" node="7kmg1RAn9uQ" resolve="it" />
                       </node>
                       <node concept="2qgKlT" id="7kmg1RAn9uO" role="2OqNvi">
-                        <ref role="37wK5l" node="7kmg1RAlrar" resolve="modifyTableRowCell" />
+                        <ref role="37wK5l" node="7kmg1RAlrar" resolve="modifyTableRow" />
                         <node concept="37vLTw" id="7kmg1RAn9uP" role="37wK5m">
                           <ref role="3cqZAo" node="7kmg1RAnbQb" resolve="table" />
                         </node>
@@ -3514,6 +3514,180 @@
                 <node concept="Rh6nW" id="7kmg1RAn9uQ" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
                   <node concept="2jxLKc" id="7kmg1RAn9uR" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="1TNehuIaXxV" role="3cqZAp">
+          <node concept="1PaTwC" id="1TNehuIaXxW" role="1aUNEU">
+            <node concept="3oM_SD" id="1TNehuIaXzm" role="1PaTwD">
+              <property role="3oM_SC" value="hardcode" />
+            </node>
+            <node concept="3oM_SD" id="1TNehuIaYqY" role="1PaTwD">
+              <property role="3oM_SC" value="support" />
+            </node>
+            <node concept="3oM_SD" id="1TNehuIaYr9" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="1TNehuIaYrd" role="1PaTwD">
+              <property role="3oM_SC" value="cell" />
+            </node>
+            <node concept="3oM_SD" id="1TNehuIaYrM" role="1PaTwD">
+              <property role="3oM_SC" value="labels" />
+            </node>
+            <node concept="3oM_SD" id="1TNehuIaYrS" role="1PaTwD">
+              <property role="3oM_SC" value="which" />
+            </node>
+            <node concept="3oM_SD" id="1TNehuIaYrZ" role="1PaTwD">
+              <property role="3oM_SC" value="has" />
+            </node>
+            <node concept="3oM_SD" id="1TNehuIaYsn" role="1PaTwD">
+              <property role="3oM_SC" value="color" />
+            </node>
+            <node concept="3oM_SD" id="1TNehuIaYsw" role="1PaTwD">
+              <property role="3oM_SC" value="checks" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1TNehuHYGmz" role="3cqZAp">
+          <node concept="2OqwBi" id="1TNehuHYIAc" role="3clFbG">
+            <node concept="2OqwBi" id="1TNehuI8TIv" role="2Oq$k0">
+              <node concept="2OqwBi" id="1TNehuI8Zel" role="2Oq$k0">
+                <node concept="2OqwBi" id="1TNehuHYGwf" role="2Oq$k0">
+                  <node concept="13iPFW" id="1TNehuHYGmx" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="1TNehuHYHc2" role="2OqNvi">
+                    <ref role="3TtcxE" to="l8rz:5WrZkWQpyXf" resolve="cellChecks" />
+                  </node>
+                </node>
+                <node concept="3$u5V9" id="1TNehuI91e1" role="2OqNvi">
+                  <node concept="1bVj0M" id="1TNehuI91e3" role="23t8la">
+                    <node concept="3clFbS" id="1TNehuI91e4" role="1bW5cS">
+                      <node concept="3clFbF" id="1TNehuI91so" role="3cqZAp">
+                        <node concept="2OqwBi" id="1TNehuI91LZ" role="3clFbG">
+                          <node concept="37vLTw" id="1TNehuI91sn" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1TNehuI91e5" resolve="it" />
+                          </node>
+                          <node concept="3TrEf2" id="1TNehuI92Up" role="2OqNvi">
+                            <ref role="3Tt5mk" to="l8rz:6wbjV0Q180s" resolve="viewComponentCheck" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="1TNehuI91e5" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="1TNehuI91e6" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="v3k3i" id="1TNehuI8Wkh" role="2OqNvi">
+                <node concept="chp4Y" id="1TNehuI8WFs" role="v3oSu">
+                  <ref role="cht4Q" to="l8rz:zI3UExNGh4" resolve="LabelCheck" />
+                </node>
+              </node>
+            </node>
+            <node concept="2es0OD" id="1TNehuHYKKU" role="2OqNvi">
+              <node concept="1bVj0M" id="1TNehuHYKKW" role="23t8la">
+                <node concept="3clFbS" id="1TNehuHYKKX" role="1bW5cS">
+                  <node concept="3cpWs8" id="1TNehuI9iCx" role="3cqZAp">
+                    <node concept="3cpWsn" id="1TNehuI9iCy" role="3cpWs9">
+                      <property role="TrG5h" value="foregroundColorCheck" />
+                      <node concept="3Tqbb2" id="1TNehuI9i$z" role="1tU5fm">
+                        <ref role="ehGHo" to="l8rz:26AO1okPVnf" resolve="ForegroundColorCheckValue" />
+                      </node>
+                      <node concept="2OqwBi" id="1TNehuI9iCz" role="33vP2m">
+                        <node concept="2OqwBi" id="1TNehuI9iC$" role="2Oq$k0">
+                          <node concept="2OqwBi" id="1TNehuI9iC_" role="2Oq$k0">
+                            <node concept="37vLTw" id="1TNehuI9iCA" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1TNehuHYKKY" resolve="labelCellCheck" />
+                            </node>
+                            <node concept="3Tsc0h" id="1TNehuI9iCB" role="2OqNvi">
+                              <ref role="3TtcxE" to="l8rz:zI3UExNGhQ" resolve="checks" />
+                            </node>
+                          </node>
+                          <node concept="v3k3i" id="1TNehuI9iCC" role="2OqNvi">
+                            <node concept="chp4Y" id="1TNehuI9iCD" role="v3oSu">
+                              <ref role="cht4Q" to="l8rz:26AO1okPVnf" resolve="ForegroundColorCheckValue" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="1uHKPH" id="1TNehuI9iCE" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="1TNehuI9l7G" role="3cqZAp">
+                    <node concept="3clFbS" id="1TNehuI9l7I" role="3clFbx">
+                      <node concept="3cpWs8" id="1TNehuI4WUT" role="3cqZAp">
+                        <node concept="3cpWsn" id="1TNehuI4WUU" role="3cpWs9">
+                          <property role="TrG5h" value="cellColor" />
+                          <node concept="3uibUv" id="1TNehuI4SCZ" role="1tU5fm">
+                            <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+                          </node>
+                          <node concept="2OqwBi" id="1TNehuI4WUV" role="33vP2m">
+                            <node concept="2OqwBi" id="1TNehuI4WUW" role="2Oq$k0">
+                              <node concept="37vLTw" id="1TNehuI9o$S" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1TNehuI9iCy" resolve="foregroundColorCheck" />
+                              </node>
+                              <node concept="3TrEf2" id="1TNehuI4WUY" role="2OqNvi">
+                                <ref role="3Tt5mk" to="l8rz:26AO1okPVni" resolve="color" />
+                              </node>
+                            </node>
+                            <node concept="2qgKlT" id="1TNehuI4WUZ" role="2OqNvi">
+                              <ref role="37wK5l" to="hhvz:7kmg1RAvF0a" resolve="toAwtColorOrNull" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="1TNehuHYQD_" role="3cqZAp">
+                        <node concept="2OqwBi" id="1TNehuHYS41" role="3clFbG">
+                          <node concept="37vLTw" id="1TNehuHYQD$" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7kmg1RAnbQb" resolve="table" />
+                          </node>
+                          <node concept="liA8E" id="1TNehuI4frA" role="2OqNvi">
+                            <ref role="37wK5l" to="hhvz:1TNehuHYV_A" resolve="setForegroundCellColor" />
+                            <node concept="37vLTw" id="1TNehuI4g20" role="37wK5m">
+                              <ref role="3cqZAo" node="7kmg1RAnc9U" resolve="row" />
+                            </node>
+                            <node concept="2OqwBi" id="1TNehuI4gVX" role="37wK5m">
+                              <node concept="2OqwBi" id="1TNehuIadd8" role="2Oq$k0">
+                                <node concept="37vLTw" id="1TNehuI7GYf" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1TNehuHYKKY" resolve="labelCellCheck" />
+                                </node>
+                                <node concept="1mfA1w" id="1TNehuIaelx" role="2OqNvi" />
+                              </node>
+                              <node concept="2bSWHS" id="1TNehuI4hFM" role="2OqNvi" />
+                            </node>
+                            <node concept="3K4zz7" id="1TNehuI4Z_m" role="37wK5m">
+                              <node concept="37vLTw" id="1TNehuI4ZGO" role="3K4E3e">
+                                <ref role="3cqZAo" node="1TNehuI4WUU" resolve="cellColor" />
+                              </node>
+                              <node concept="10M0yZ" id="1TNehuI50w3" role="3K4GZi">
+                                <ref role="3cqZAo" to="z60i:~Color.red" resolve="red" />
+                                <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                              </node>
+                              <node concept="3y3z36" id="1TNehuI4Yw6" role="3K4Cdx">
+                                <node concept="10Nm6u" id="1TNehuI4YOU" role="3uHU7w" />
+                                <node concept="37vLTw" id="1TNehuI4WV0" role="3uHU7B">
+                                  <ref role="3cqZAo" node="1TNehuI4WUU" resolve="cellColor" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="1TNehuI9m_V" role="3clFbw">
+                      <node concept="37vLTw" id="1TNehuI9mdo" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1TNehuI9iCy" resolve="foregroundColorCheck" />
+                      </node>
+                      <node concept="3x8VRR" id="1TNehuI9nSo" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="1TNehuHYKKY" role="1bW2Oz">
+                  <property role="TrG5h" value="labelCellCheck" />
+                  <node concept="2jxLKc" id="1TNehuHYKKZ" role="1tU5fm" />
                 </node>
               </node>
             </node>
@@ -7083,7 +7257,7 @@
     <ref role="13h7C2" to="l8rz:5Nv$Fuakv50" resolve="ITableRowCheckValue" />
     <node concept="13i0hz" id="7kmg1RAlrar" role="13h7CS">
       <property role="13i0it" value="true" />
-      <property role="TrG5h" value="modifyTableRowCell" />
+      <property role="TrG5h" value="modifyTableRow" />
       <node concept="37vLTG" id="7kmg1RAmcpq" role="3clF46">
         <property role="TrG5h" value="table" />
         <node concept="3uibUv" id="7kmg1RAmcpr" role="1tU5fm">
@@ -7109,13 +7283,13 @@
       <node concept="3clFbS" id="7kmg1RAlx0S" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="7kmg1RAlx11" role="13h7CS">
-      <property role="TrG5h" value="modifyTableRowCell" />
-      <ref role="13i0hy" node="7kmg1RAlrar" resolve="modifyTableRowCell" />
+      <property role="TrG5h" value="modifyTableRow" />
+      <ref role="13i0hy" node="7kmg1RAlrar" resolve="modifyTableRow" />
       <node concept="3Tm1VV" id="7kmg1RAlx16" role="1B3o_S" />
       <node concept="3clFbS" id="7kmg1RAlx19" role="3clF47">
         <node concept="3clFbF" id="26AO1okPVl6" role="3cqZAp">
           <node concept="BsUDl" id="26AO1okPVl7" role="3clFbG">
-            <ref role="37wK5l" node="26AO1okPUCF" resolve="modifyColorOfTable" />
+            <ref role="37wK5l" node="26AO1okPUCF" resolve="modifyColorOfTableRow" />
             <node concept="37vLTw" id="26AO1okPVl8" role="37wK5m">
               <ref role="3cqZAo" node="7kmg1RAlx1a" resolve="table" />
             </node>
@@ -7138,13 +7312,13 @@
       <node concept="3cqZAl" id="7kmg1RAlx1e" role="3clF45" />
     </node>
     <node concept="13i0hz" id="26AO1okNPYD" role="13h7CS">
-      <property role="TrG5h" value="modifyTreeViewRowCell" />
-      <ref role="13i0hy" node="vV7zhZ3MBx" resolve="modifyTreeViewRowCell" />
+      <property role="TrG5h" value="modifyTreeViewRow" />
+      <ref role="13i0hy" node="vV7zhZ3MBx" resolve="modifyTreeViewRow" />
       <node concept="3Tm1VV" id="26AO1okNPYI" role="1B3o_S" />
       <node concept="3clFbS" id="26AO1okNPYL" role="3clF47">
         <node concept="3clFbF" id="26AO1okPVgH" role="3cqZAp">
           <node concept="BsUDl" id="26AO1okPVgG" role="3clFbG">
-            <ref role="37wK5l" node="26AO1okPUCF" resolve="modifyColorOfTable" />
+            <ref role="37wK5l" node="26AO1okPUCF" resolve="modifyColorOfTableRow" />
             <node concept="37vLTw" id="26AO1okPVh7" role="37wK5m">
               <ref role="3cqZAo" node="26AO1okNPYM" resolve="table" />
             </node>
@@ -7167,7 +7341,7 @@
       <node concept="3cqZAl" id="26AO1okNPYQ" role="3clF45" />
     </node>
     <node concept="13i0hz" id="26AO1okPUCF" role="13h7CS">
-      <property role="TrG5h" value="modifyColorOfTable" />
+      <property role="TrG5h" value="modifyColorOfTableRow" />
       <node concept="37vLTG" id="26AO1okPV4h" role="3clF46">
         <property role="TrG5h" value="table" />
         <node concept="3uibUv" id="26AO1okPV4i" role="1tU5fm">
@@ -7736,7 +7910,7 @@
     <ref role="13h7C2" to="l8rz:vV7zhZ3DJj" resolve="ITreeViewRowCheckValue" />
     <node concept="13i0hz" id="vV7zhZ3MBx" role="13h7CS">
       <property role="13i0it" value="true" />
-      <property role="TrG5h" value="modifyTreeViewRowCell" />
+      <property role="TrG5h" value="modifyTreeViewRow" />
       <node concept="37vLTG" id="vV7zhZ3MBy" role="3clF46">
         <property role="TrG5h" value="table" />
         <node concept="3uibUv" id="vV7zhZ3MBz" role="1tU5fm">
@@ -9750,7 +9924,7 @@
                         <ref role="3cqZAo" node="vV7zhZ6lbB" resolve="it" />
                       </node>
                       <node concept="2qgKlT" id="vV7zhZ6lb$" role="2OqNvi">
-                        <ref role="37wK5l" node="vV7zhZ3MBx" resolve="modifyTreeViewRowCell" />
+                        <ref role="37wK5l" node="vV7zhZ3MBx" resolve="modifyTreeViewRow" />
                         <node concept="37vLTw" id="vV7zhZ6lb_" role="37wK5m">
                           <ref role="3cqZAo" node="vV7zhZ6lbD" resolve="table" />
                         </node>
@@ -9804,13 +9978,13 @@
     <property role="3GE5qa" value="assert.checkvalues" />
     <ref role="13h7C2" to="l8rz:26AO1okPVnf" resolve="ForegroundColorCheckValue" />
     <node concept="13i0hz" id="26AO1okPW43" role="13h7CS">
-      <property role="TrG5h" value="modifyTableRowCell" />
-      <ref role="13i0hy" node="7kmg1RAlrar" resolve="modifyTableRowCell" />
+      <property role="TrG5h" value="modifyTableRow" />
+      <ref role="13i0hy" node="7kmg1RAlrar" resolve="modifyTableRow" />
       <node concept="3Tm1VV" id="26AO1okPW44" role="1B3o_S" />
       <node concept="3clFbS" id="26AO1okPW45" role="3clF47">
         <node concept="3clFbF" id="26AO1okPW46" role="3cqZAp">
           <node concept="BsUDl" id="26AO1okPW47" role="3clFbG">
-            <ref role="37wK5l" node="26AO1okPW4r" />
+            <ref role="37wK5l" node="26AO1okPW4r" resolve="modifyColorOfTableRow" />
             <node concept="37vLTw" id="26AO1okPW48" role="37wK5m">
               <ref role="3cqZAo" node="26AO1okPW4a" resolve="table" />
             </node>
@@ -9833,13 +10007,13 @@
       <node concept="3cqZAl" id="26AO1okPW4e" role="3clF45" />
     </node>
     <node concept="13i0hz" id="26AO1okPW4f" role="13h7CS">
-      <property role="TrG5h" value="modifyTreeViewRowCell" />
-      <ref role="13i0hy" node="vV7zhZ3MBx" resolve="modifyTreeViewRowCell" />
+      <property role="TrG5h" value="modifyTreeViewRow" />
+      <ref role="13i0hy" node="vV7zhZ3MBx" resolve="modifyTreeViewRow" />
       <node concept="3Tm1VV" id="26AO1okPW4g" role="1B3o_S" />
       <node concept="3clFbS" id="26AO1okPW4h" role="3clF47">
         <node concept="3clFbF" id="26AO1okPW4i" role="3cqZAp">
           <node concept="BsUDl" id="26AO1okPW4j" role="3clFbG">
-            <ref role="37wK5l" node="26AO1okPW4r" />
+            <ref role="37wK5l" node="26AO1okPW4r" resolve="modifyColorOfTableRow" />
             <node concept="37vLTw" id="26AO1okPW4k" role="37wK5m">
               <ref role="3cqZAo" node="26AO1okPW4m" resolve="table" />
             </node>
@@ -9862,7 +10036,7 @@
       <node concept="3cqZAl" id="26AO1okPW4q" role="3clF45" />
     </node>
     <node concept="13i0hz" id="26AO1okPW4r" role="13h7CS">
-      <property role="TrG5h" value="modifyColorOfTable" />
+      <property role="TrG5h" value="modifyColorOfTableRow" />
       <node concept="37vLTG" id="26AO1okPW4s" role="3clF46">
         <property role="TrG5h" value="table" />
         <node concept="3uibUv" id="26AO1okPW4t" role="1tU5fm">
