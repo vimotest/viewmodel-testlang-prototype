@@ -32,6 +32,9 @@
         <child id="3032601373110432317" name="rowsFeature" index="2fzwjs" />
         <child id="3032601373110432318" name="selectedRowFeature" index="2fzwjv" />
       </concept>
+      <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
+        <child id="4143793920074545904" name="children" index="2HXGLH" />
+      </concept>
       <concept id="5984107031764840468" name="ViewModelLanguage.structure.ViewComponentFeature" flags="ng" index="2Pim6R">
         <property id="5984107031764851878" name="supported" index="2PigO5" />
       </concept>
@@ -72,6 +75,7 @@
         <child id="6692228888293030818" name="rowColorFeature" index="3mzU$l" />
         <child id="6853349774625913248" name="cells" index="1D3OjJ" />
       </concept>
+      <concept id="4321216645070110073" name="ViewModelLanguage.structure.ButtonComponent" flags="ng" index="3H4brt" />
       <concept id="4321216645070212552" name="ViewModelLanguage.structure.ViewComponent" flags="ng" index="3H4$pG">
         <child id="5984107031764840546" name="visibilityFeature" index="2Pim71" />
         <child id="5984107031764840544" name="sensitivityFeature" index="2Pim73" />
@@ -1232,22 +1236,170 @@
           <property role="2PigPS" value="TransactionsTable" />
         </node>
       </node>
-      <node concept="1D10m_" id="1TNehuHWtJU" role="2P43km">
-        <node concept="27$lts" id="1TNehuHWtJW" role="27$_qM">
+      <node concept="2HXGLM" id="3le5WIC2MY8" role="2P43km">
+        <node concept="3fyYjX" id="3le5WIC2MVY" role="2HXGLH">
+          <node concept="27$lts" id="3le5WIC2MW0" role="3fyYjW">
+            <property role="2PigO5" value="true" />
+            <property role="27$ltt" value="2007/12/26" />
+          </node>
+          <node concept="2Pim7P" id="3le5WIC2MW2" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3le5WIC2MW4" role="2Pim71">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7H" id="3le5WIC2MW6" role="2Pim76">
+            <property role="2PigO5" value="true" />
+            <property role="2PigPS" value="DateText" />
+          </node>
+        </node>
+        <node concept="2Pim7P" id="3le5WIC2MYa" role="2Pim73">
           <property role="2PigO5" value="true" />
         </node>
-        <node concept="2Pim7P" id="1TNehuHWtJY" role="2Pim73">
+        <node concept="2Pim7K" id="3le5WIC2MYc" role="2Pim71">
           <property role="2PigO5" value="true" />
         </node>
-        <node concept="2Pim7K" id="1TNehuHWtK0" role="2Pim71">
+        <node concept="2Pim7H" id="3le5WIC2MYe" role="2Pim76">
           <property role="2PigO5" value="true" />
         </node>
-        <node concept="2Pim7H" id="1TNehuHWtK2" role="2Pim76">
-          <property role="2PigO5" value="true" />
-          <property role="2PigPS" value="hallolabel" />
+        <node concept="3P6jyO" id="3le5WIC2N5j" role="2HXGLH">
+          <property role="3P58UD" value="ACME Corp." />
+          <node concept="3P0PJ2" id="3le5WIC2N5o" role="3P0O4S">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="3P0PJ4" id="3le5WIC2N5t" role="3P0O4A">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7P" id="3le5WIC2N5y" role="2Pim73" />
+          <node concept="2Pim7K" id="3le5WIC2N5B" role="2Pim71" />
+          <node concept="2Pim7H" id="3le5WIC2N5G" role="2Pim76">
+            <property role="2PigPS" value="Description" />
+          </node>
         </node>
-        <node concept="3mzAc8" id="1TNehuHX_Ep" role="2NwCZs">
+        <node concept="3fyYjX" id="3le5WIC2N4z" role="2HXGLH">
+          <node concept="27$lts" id="3le5WIC2N4$" role="3fyYjW">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7P" id="3le5WIC2N4_" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3le5WIC2N4A" role="2Pim71">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7H" id="3le5WIC2N4B" role="2Pim76">
+            <property role="2PigO5" value="true" />
+            <property role="2PigPS" value="NumberText" />
+          </node>
+        </node>
+      </node>
+      <node concept="2HXGLM" id="3le5WIC2N7x" role="2P43km">
+        <node concept="2Pim7P" id="3le5WIC2N7z" role="2Pim73">
           <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3le5WIC2N7_" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="3le5WIC2N7B" role="2Pim76">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3fyYjX" id="3le5WIC2N8V" role="2HXGLH">
+          <node concept="27$lts" id="3le5WIC2N8W" role="3fyYjW">
+            <property role="2PigO5" value="true" />
+            <property role="27$ltt" value="0.00" />
+          </node>
+          <node concept="2Pim7P" id="3le5WIC2N8X" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3le5WIC2N8Y" role="2Pim71">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7H" id="3le5WIC2N8Z" role="2Pim76">
+            <property role="2PigO5" value="true" />
+            <property role="2PigPS" value="Value" />
+          </node>
+        </node>
+        <node concept="3P6jyO" id="3le5WIC2N9i" role="2HXGLH">
+          <node concept="3P0PJ2" id="3le5WIC2N9n" role="3P0O4S">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="3P0PJ4" id="3le5WIC2N9s" role="3P0O4A">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7P" id="3le5WIC2N9x" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3le5WIC2N9A" role="2Pim71">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7H" id="3le5WIC2N9F" role="2Pim76">
+            <property role="2PigO5" value="true" />
+            <property role="2PigPS" value="From" />
+          </node>
+        </node>
+        <node concept="3P6jyO" id="3le5WIC2N9V" role="2HXGLH">
+          <node concept="3P0PJ2" id="3le5WIC2N9W" role="3P0O4S">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="3P0PJ4" id="3le5WIC2N9X" role="3P0O4A">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7P" id="3le5WIC2N9Y" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3le5WIC2N9Z" role="2Pim71">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7H" id="3le5WIC2Na0" role="2Pim76">
+            <property role="2PigO5" value="true" />
+            <property role="2PigPS" value="To" />
+          </node>
+        </node>
+      </node>
+      <node concept="2HXGLM" id="3le5WIC2NbR" role="2P43km">
+        <node concept="2Pim7P" id="3le5WIC2NbT" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3le5WIC2NbV" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="3le5WIC2NbX" role="2Pim76">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3H4brt" id="3le5WIC2NdA" role="2HXGLH">
+          <node concept="2Pim7P" id="3le5WIC2NdB" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3le5WIC2NdC" role="2Pim71">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7H" id="3le5WIC2NdD" role="2Pim76">
+            <property role="2PigO5" value="true" />
+            <property role="2PigPS" value="Delete" />
+          </node>
+        </node>
+        <node concept="3H4brt" id="3le5WIC2NdI" role="2HXGLH">
+          <node concept="2Pim7P" id="3le5WIC2NdJ" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3le5WIC2NdK" role="2Pim71">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7H" id="3le5WIC2NdL" role="2Pim76">
+            <property role="2PigO5" value="true" />
+            <property role="2PigPS" value="Clear" />
+          </node>
+        </node>
+        <node concept="3H4brt" id="3le5WIC2NdU" role="2HXGLH">
+          <node concept="2Pim7P" id="3le5WIC2NdV" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3le5WIC2NdW" role="2Pim71">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7H" id="3le5WIC2NdX" role="2Pim76">
+            <property role="2PigO5" value="true" />
+            <property role="2PigPS" value="Record" />
+          </node>
         </node>
       </node>
     </node>
@@ -1290,38 +1442,137 @@
             <node concept="1u3WYF" id="mFfN0XHPGE" role="1Dvt80">
               <node concept="2D8cJI" id="mFfN0XHPGF" role="1u3WYG">
                 <node concept="30nz6$" id="mFfN0XHPGG" role="2D8cJs">
-                  <property role="30nz6_" value="2007/09/06" />
+                  <property role="30nz6_" value="2007/09/05" />
                 </node>
               </node>
             </node>
             <node concept="1u3WYF" id="mFfN0XHPGH" role="1Dvt80">
               <node concept="2D8cJI" id="mFfN0XHPGI" role="1u3WYG">
                 <node concept="30nz6$" id="mFfN0XHPGJ" role="2D8cJs">
-                  <property role="30nz6_" value="Evil Landlord" />
+                  <property role="30nz6_" value="Olympus America" />
                 </node>
               </node>
             </node>
             <node concept="1u3WYF" id="mFfN0XHPGK" role="1Dvt80">
               <node concept="2D8cJI" id="mFfN0XHPGL" role="1u3WYG">
                 <node concept="30nz6$" id="mFfN0XHPGM" role="2D8cJs">
-                  <property role="30nz6_" value="ACME Bank (Chequing) -&gt; Groceries" />
+                  <property role="30nz6_" value="ACME Bank (Chequing) → Misc. Expert" />
                 </node>
               </node>
             </node>
             <node concept="1u3WYF" id="mFfN0XHPGN" role="1Dvt80">
               <node concept="2D8cJI" id="mFfN0XHPGO" role="1u3WYG">
                 <node concept="30nz6$" id="mFfN0XHPGP" role="2D8cJs">
-                  <property role="30nz6_" value="$78.45" />
+                  <property role="30nz6_" value="$502.00" />
+                </node>
+                <node concept="Psmnp" id="3le5WIC2MSI" role="2D8cJs">
+                  <node concept="3mAu$b" id="3le5WIC2MSJ" role="Psmn4">
+                    <property role="3mAuXv" value="red" />
+                  </node>
                 </node>
               </node>
             </node>
             <node concept="1u3WYF" id="mFfN0XHPGQ" role="1Dvt80">
               <node concept="2D8cJI" id="mFfN0XHPGR" role="1u3WYG">
                 <node concept="30nz6$" id="mFfN0XHPGS" role="2D8cJs">
-                  <property role="30nz6_" value="$-252.69" />
+                  <property role="30nz6_" value="$675.76" />
                 </node>
                 <node concept="Psmnp" id="1TNehuI2J8N" role="2D8cJs">
                   <node concept="3mAu$b" id="1TNehuI2J8P" role="Psmn4">
+                    <property role="3mAuXv" value="black" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Dvt89" id="3le5WIC2MSN" role="2D8nNu">
+            <node concept="1u3WYF" id="3le5WIC2MSO" role="1Dvt80">
+              <node concept="2D8cJI" id="3le5WIC2MSP" role="1u3WYG">
+                <node concept="30nz6$" id="3le5WIC2MSQ" role="2D8cJs">
+                  <property role="30nz6_" value="2007/09/06" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="3le5WIC2MSR" role="1Dvt80">
+              <node concept="2D8cJI" id="3le5WIC2MSS" role="1u3WYG">
+                <node concept="30nz6$" id="3le5WIC2MST" role="2D8cJs">
+                  <property role="30nz6_" value="Evil Landlord" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="3le5WIC2MSU" role="1Dvt80">
+              <node concept="2D8cJI" id="3le5WIC2MSV" role="1u3WYG">
+                <node concept="30nz6$" id="3le5WIC2MSW" role="2D8cJs">
+                  <property role="30nz6_" value="ACME Bank (Chequing) → Rent" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="3le5WIC2MSX" role="1Dvt80">
+              <node concept="2D8cJI" id="3le5WIC2MSY" role="1u3WYG">
+                <node concept="30nz6$" id="3le5WIC2MSZ" role="2D8cJs">
+                  <property role="30nz6_" value="$850.00" />
+                </node>
+                <node concept="Psmnp" id="3le5WIC2MT0" role="2D8cJs">
+                  <node concept="3mAu$b" id="3le5WIC2MT1" role="Psmn4">
+                    <property role="3mAuXv" value="red" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="3le5WIC2MT2" role="1Dvt80">
+              <node concept="2D8cJI" id="3le5WIC2MT3" role="1u3WYG">
+                <node concept="30nz6$" id="3le5WIC2MT4" role="2D8cJs">
+                  <property role="30nz6_" value="$-174.24" />
+                </node>
+                <node concept="Psmnp" id="3le5WIC2MT5" role="2D8cJs">
+                  <node concept="3mAu$b" id="3le5WIC2MT6" role="Psmn4">
+                    <property role="3mAuXv" value="red" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Dvt89" id="3le5WIC2MRF" role="2D8nNu">
+            <node concept="1u3WYF" id="3le5WIC2MRG" role="1Dvt80">
+              <node concept="2D8cJI" id="3le5WIC2MRH" role="1u3WYG">
+                <node concept="30nz6$" id="3le5WIC2MRI" role="2D8cJs">
+                  <property role="30nz6_" value="2007/09/09" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="3le5WIC2MRJ" role="1Dvt80">
+              <node concept="2D8cJI" id="3le5WIC2MRK" role="1u3WYG">
+                <node concept="30nz6$" id="3le5WIC2MRL" role="2D8cJs">
+                  <property role="30nz6_" value="Piggly Wiggly" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="3le5WIC2MRM" role="1Dvt80">
+              <node concept="2D8cJI" id="3le5WIC2MRN" role="1u3WYG">
+                <node concept="30nz6$" id="3le5WIC2MRO" role="2D8cJs">
+                  <property role="30nz6_" value="ACME Bank (Chequing) → Groceries" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="3le5WIC2MRP" role="1Dvt80">
+              <node concept="2D8cJI" id="3le5WIC2MRQ" role="1u3WYG">
+                <node concept="30nz6$" id="3le5WIC2MRR" role="2D8cJs">
+                  <property role="30nz6_" value="$78.45" />
+                </node>
+                <node concept="Psmnp" id="3le5WIC2MS$" role="2D8cJs">
+                  <node concept="3mAu$b" id="3le5WIC2MSA" role="Psmn4">
+                    <property role="3mAuXv" value="red" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="3le5WIC2MRS" role="1Dvt80">
+              <node concept="2D8cJI" id="3le5WIC2MRT" role="1u3WYG">
+                <node concept="30nz6$" id="3le5WIC2MRU" role="2D8cJs">
+                  <property role="30nz6_" value="$-252.69" />
+                </node>
+                <node concept="Psmnp" id="3le5WIC2MRV" role="2D8cJs">
+                  <node concept="3mAu$b" id="3le5WIC2MRW" role="Psmn4">
                     <property role="3mAuXv" value="red" />
                   </node>
                 </node>
