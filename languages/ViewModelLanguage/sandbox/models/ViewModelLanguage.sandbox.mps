@@ -8,7 +8,7 @@
     <use id="03e7d0bc-45e3-4f2d-8cbd-08031e05aea0" name="UseCaseLanguage" version="0" />
     <use id="b344aa7e-2e08-4f45-aa82-4796d5345f7b" name="HamsterViewLanguage" version="0" />
     <use id="0edf22a4-42bc-4e5d-954f-06aaaf51df00" name="jetbrains.mps.lang.makeup" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <engage id="0edf22a4-42bc-4e5d-954f-06aaaf51df00" name="jetbrains.mps.lang.makeup" />
   </languages>
   <imports>

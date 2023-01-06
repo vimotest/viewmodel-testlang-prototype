@@ -380,7 +380,7 @@
         <ref role="30nziQ" node="26AO1okMsdD" resolve="LoadView" />
       </node>
       <node concept="30nzp_" id="26AO1okMsdF" role="30nzpy">
-        <ref role="30nzpS" node="7GdAmo3BaY9" resolve="AccountsTree" />
+        <ref role="30nzpS" node="7GdAmo3BaY9" resolve="AccountsTable" />
         <node concept="1SXonX" id="26AO1okMsdK" role="30nDbQ">
           <node concept="1SXonU" id="26AO1okMsdN" role="1SXonZ">
             <property role="1SXon_" value="0" />

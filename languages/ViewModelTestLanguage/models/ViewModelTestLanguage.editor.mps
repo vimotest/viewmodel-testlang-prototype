@@ -3031,7 +3031,7 @@
             <node concept="3clFbF" id="5WrZkWQaJKb" role="3cqZAp">
               <node concept="2OqwBi" id="5WrZkWQaKvQ" role="3clFbG">
                 <node concept="37vLTw" id="5WrZkWQaJK9" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5WrZkWQaDxw" resolve="leftButton" />
+                  <ref role="3cqZAo" node="5WrZkWQaDxw" resolve="button" />
                 </node>
                 <node concept="liA8E" id="5WrZkWQaLHS" role="2OqNvi">
                   <ref role="37wK5l" to="dxuu:~AbstractButton.setEnabled(boolean)" resolve="setEnabled" />
@@ -3052,7 +3052,7 @@
             <node concept="3clFbF" id="5WrZkWQaCCW" role="3cqZAp">
               <node concept="2OqwBi" id="5WrZkWQaEp0" role="3clFbG">
                 <node concept="37vLTw" id="5WrZkWQaDx$" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5WrZkWQaDxw" resolve="leftButton" />
+                  <ref role="3cqZAo" node="5WrZkWQaDxw" resolve="button" />
                 </node>
                 <node concept="liA8E" id="5WrZkWQaFj8" role="2OqNvi">
                   <ref role="37wK5l" to="dxuu:~AbstractButton.addActionListener(java.awt.event.ActionListener)" resolve="addActionListener" />
@@ -3144,7 +3144,7 @@
             </node>
             <node concept="3clFbF" id="5WrZkWQaJos" role="3cqZAp">
               <node concept="37vLTw" id="5WrZkWQaJoq" role="3clFbG">
-                <ref role="3cqZAo" node="5WrZkWQaDxw" resolve="leftButton" />
+                <ref role="3cqZAo" node="5WrZkWQaDxw" resolve="button" />
               </node>
             </node>
           </node>

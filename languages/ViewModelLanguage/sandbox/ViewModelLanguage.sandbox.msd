@@ -22,7 +22,7 @@
     <language slang="l:89274067-447d-4f60-a26a-6d802a4035c2:ViewModelLanguage" version="0" />
     <language slang="l:d9e42a87-6893-48ea-bc1d-6d609b972a87:ViewModelLanguage2Java" version="0" />
     <language slang="l:5fb99752-5db5-4138-b336-ba094f316151:ViewModelTestLanguage" version="0" />
-    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
+    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:0edf22a4-42bc-4e5d-954f-06aaaf51df00:jetbrains.mps.lang.makeup" version="0" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />

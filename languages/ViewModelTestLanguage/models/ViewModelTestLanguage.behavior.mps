@@ -4599,7 +4599,7 @@
                         <node concept="2OqwBi" id="28eLOYb2DPt" role="2Oq$k0">
                           <node concept="2OqwBi" id="28eLOYb2DPu" role="2Oq$k0">
                             <node concept="Jnkvi" id="28eLOYb2DPv" role="2Oq$k0">
-                              <ref role="1M0zk5" node="28eLOYb2DPG" resolve="table" />
+                              <ref role="1M0zk5" node="28eLOYb2DPG" resolve="tree" />
                             </node>
                             <node concept="3TrEf2" id="28eLOYb2DPw" role="2OqNvi">
                               <ref role="3Tt5mk" to="6ap2:2ClXI6_AZ8X" resolve="rowsFeature" />
@@ -8001,7 +8001,7 @@
                       <ref role="3Tt5mk" to="6ap2:2ClXI6_AZ8X" resolve="rowsFeature" />
                     </node>
                     <node concept="37vLTw" id="vV7zhZ43k7" role="2Oq$k0">
-                      <ref role="3cqZAo" node="vV7zhZ43jW" resolve="tableComponent" />
+                      <ref role="3cqZAo" node="vV7zhZ43jW" resolve="treeViewComponent" />
                     </node>
                   </node>
                   <node concept="3TrEf2" id="vV7zhZ5d_f" role="2OqNvi">
@@ -8306,7 +8306,7 @@
                   <ref role="3cqZAo" node="vV7zhZ43l6" resolve="data" />
                 </node>
                 <node concept="37vLTw" id="vV7zhZ43m8" role="37wK5m">
-                  <ref role="3cqZAo" node="vV7zhZ43jW" resolve="tableComponent" />
+                  <ref role="3cqZAo" node="vV7zhZ43jW" resolve="treeViewComponent" />
                 </node>
               </node>
             </node>
@@ -8685,7 +8685,7 @@
                             <ref role="3cqZAo" node="2tpQ8G1BHTA" resolve="it" />
                           </node>
                           <node concept="2qgKlT" id="2tpQ8G1BHT$" role="2OqNvi">
-                            <ref role="37wK5l" node="vV7zhZ3DJL" resolve="modifyTreeView" />
+                            <ref role="37wK5l" node="vV7zhZ3DJL" resolve="modifyTreeTable" />
                             <node concept="37vLTw" id="2tpQ8G1BHT_" role="37wK5m">
                               <ref role="3cqZAo" node="2tpQ8G1BEMz" resolve="table" />
                             </node>
@@ -9042,7 +9042,7 @@
                       <ref role="3Tt5mk" to="6ap2:2ClXI6_AZ8X" resolve="rowsFeature" />
                     </node>
                     <node concept="37vLTw" id="vV7zhZ5ruw" role="2Oq$k0">
-                      <ref role="3cqZAo" node="vV7zhZ5rw0" resolve="tableComponent" />
+                      <ref role="3cqZAo" node="vV7zhZ5rw0" resolve="treeViewComponent" />
                     </node>
                   </node>
                   <node concept="3TrEf2" id="vV7zhZ5rux" role="2OqNvi">
@@ -9076,7 +9076,7 @@
                         <node concept="2OqwBi" id="vV7zhZ5ruJ" role="2Oq$k0">
                           <node concept="2OqwBi" id="vV7zhZ5ruK" role="2Oq$k0">
                             <node concept="37vLTw" id="vV7zhZ5ruL" role="2Oq$k0">
-                              <ref role="3cqZAo" node="vV7zhZ5rw0" resolve="tableComponent" />
+                              <ref role="3cqZAo" node="vV7zhZ5rw0" resolve="treeViewComponent" />
                             </node>
                             <node concept="3TrEf2" id="vV7zhZ5ruM" role="2OqNvi">
                               <ref role="3Tt5mk" to="6ap2:2ClXI6_AZ8X" resolve="rowsFeature" />
@@ -9148,7 +9148,7 @@
                             <node concept="3clFbF" id="vV7zhZ5rve" role="3cqZAp">
                               <node concept="37vLTI" id="vV7zhZ5rvf" role="3clFbG">
                                 <node concept="BsUDl" id="vV7zhZ5rvg" role="37vLTx">
-                                  <ref role="37wK5l" node="vV7zhZ5rw2" />
+                                  <ref role="37wK5l" node="vV7zhZ5rw2" resolve="getCheckedValueDataForCheck" />
                                   <node concept="37vLTw" id="vV7zhZ5rvh" role="37wK5m">
                                     <ref role="3cqZAo" node="vV7zhZ5ruE" resolve="cellComponent" />
                                   </node>
@@ -9539,7 +9539,7 @@
                   <ref role="3Tt5mk" to="6ap2:2ClXI6_AZ8X" resolve="rowsFeature" />
                 </node>
                 <node concept="37vLTw" id="vV7zhZ5rxG" role="2Oq$k0">
-                  <ref role="3cqZAo" node="vV7zhZ5rxx" resolve="tableComponent" />
+                  <ref role="3cqZAo" node="vV7zhZ5rxx" resolve="treeViewComponent" />
                 </node>
               </node>
               <node concept="3TrEf2" id="vV7zhZ5rxH" role="2OqNvi">
@@ -9878,7 +9878,7 @@
               <node concept="2OqwBi" id="vV7zhZ6lbb" role="2Oq$k0">
                 <node concept="13iPFW" id="vV7zhZ6lbc" role="2Oq$k0" />
                 <node concept="2qgKlT" id="vV7zhZ6lbd" role="2OqNvi">
-                  <ref role="37wK5l" node="vV7zhZ6laQ" resolve="getTable" />
+                  <ref role="37wK5l" node="vV7zhZ6laQ" resolve="getTreeView" />
                 </node>
               </node>
               <node concept="3TrEf2" id="vV7zhZ6lbe" role="2OqNvi">

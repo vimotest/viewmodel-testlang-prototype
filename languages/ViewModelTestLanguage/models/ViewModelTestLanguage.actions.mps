@@ -387,7 +387,7 @@
                   <ref role="3cqZAo" node="vV7zhZ6rfY" resolve="parent" />
                 </node>
                 <node concept="2qgKlT" id="vV7zhZ6rg8" role="2OqNvi">
-                  <ref role="37wK5l" to="gg8m:vV7zhZ5rss" resolve="getTableRow" />
+                  <ref role="37wK5l" to="gg8m:vV7zhZ5rss" resolve="getTreeViewRow" />
                 </node>
               </node>
             </node>
@@ -397,7 +397,7 @@
             <node concept="2OqwBi" id="vV7zhZ6rgb" role="3clFbG">
               <node concept="2OqwBi" id="vV7zhZ6rgc" role="2Oq$k0">
                 <node concept="37vLTw" id="vV7zhZ6rgd" role="2Oq$k0">
-                  <ref role="3cqZAo" node="vV7zhZ6rg4" resolve="tableRow" />
+                  <ref role="3cqZAo" node="vV7zhZ6rg4" resolve="treeViewRow" />
                 </node>
                 <node concept="3Tsc0h" id="vV7zhZ6rge" role="2OqNvi">
                   <ref role="3TtcxE" to="6ap2:2ClXI6_BoH$" resolve="cells" />

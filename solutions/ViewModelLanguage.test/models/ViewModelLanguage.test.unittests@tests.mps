@@ -134,7 +134,7 @@
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="gg8m:1kmjBf22vSX" resolve="TreeStringifier" />
                 <node concept="3xONca" id="1kmjBf23_7c" role="37wK5m">
-                  <ref role="3xOPvv" node="1kmjBf23$R1" resolve="treeViewCheck" />
+                  <ref role="3xOPvv" node="1kmjBf23$R1" resolve="treeCheck_1RowNonCollapsed" />
                 </node>
               </node>
             </node>
@@ -188,7 +188,7 @@
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="gg8m:1kmjBf22vSX" resolve="TreeStringifier" />
                 <node concept="3xONca" id="1kmjBf24mov" role="37wK5m">
-                  <ref role="3xOPvv" node="1kmjBf24kHI" resolve="simpleTreeViewWith1RowCollapsed" />
+                  <ref role="3xOPvv" node="1kmjBf24kHI" resolve="treeCheck_1RowCollapsed" />
                 </node>
               </node>
             </node>
@@ -242,7 +242,7 @@
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="gg8m:1kmjBf22vSX" resolve="TreeStringifier" />
                 <node concept="3xONca" id="1kmjBf24j7Y" role="37wK5m">
-                  <ref role="3xOPvv" node="1kmjBf24m2b" resolve="simpleTreeViewWith1ParentRowNonCollapsed" />
+                  <ref role="3xOPvv" node="1kmjBf24m2b" resolve="treeCheck_1ParentRowNonCollapsed" />
                 </node>
               </node>
             </node>
