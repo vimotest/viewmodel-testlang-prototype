@@ -74,6 +74,7 @@
       </concept>
       <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_">
         <child id="3011041337510922390" name="textFeature" index="27$_qM" />
+        <child id="2194160217324893899" name="colorFeature" index="2NwCZs" />
       </concept>
       <concept id="6853349774625913243" name="ViewModelLanguage.structure.TableCellComponent" flags="ng" index="1D3Ojk">
         <property id="6853349774626093651" name="visible" index="1D38ss" />
@@ -122,7 +123,7 @@
       <concept id="3426401106045796685" name="ViewModelTestLanguage.structure.Object" flags="ng" index="30k8jF">
         <child id="3426401106045796730" name="properties" index="30k8js" />
       </concept>
-      <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.ObjectProperty" flags="ng" index="30k8jQ">
+      <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.SimpleValueProperty" flags="ng" index="30k8jQ">
         <property id="3426401106045796691" name="value" index="30k8jP" />
       </concept>
       <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
@@ -243,6 +244,7 @@
                   <property role="2PigPS" value="Qualifier" />
                   <property role="2PigO5" value="true" />
                 </node>
+                <node concept="3mzAc8" id="1TNehuHX_E8" role="2NwCZs" />
               </node>
             </node>
             <node concept="1D3Ojk" id="5QmCreih4XP" role="1D3OjJ">
@@ -267,6 +269,7 @@
                   <property role="2PigO5" value="true" />
                   <property role="2PigPS" value="Name" />
                 </node>
+                <node concept="3mzAc8" id="1TNehuHX_E9" role="2NwCZs" />
               </node>
             </node>
             <node concept="1D3Ojk" id="5QmCreihqOh" role="1D3OjJ">
@@ -291,6 +294,7 @@
                   <property role="2PigO5" value="true" />
                   <property role="2PigPS" value="Data Elements" />
                 </node>
+                <node concept="3mzAc8" id="1TNehuHX_Ea" role="2NwCZs" />
               </node>
             </node>
             <node concept="1D3Ojk" id="5QmCreihqQb" role="1D3OjJ">
@@ -315,6 +319,7 @@
                   <property role="2PigO5" value="true" />
                   <property role="2PigPS" value="Usages" />
                 </node>
+                <node concept="3mzAc8" id="1TNehuHX_Eb" role="2NwCZs" />
               </node>
             </node>
             <node concept="3mzAc8" id="7kmg1RAPgBG" role="3mzU$l" />

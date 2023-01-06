@@ -82,6 +82,9 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
+      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
@@ -127,6 +130,9 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
+        <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
+      </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
@@ -157,6 +163,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -705,7 +719,7 @@
   </node>
   <node concept="1M2fIO" id="7kmg1RAWSwr">
     <property role="3GE5qa" value="assert.checkvalues" />
-    <ref role="1M2myG" to="l8rz:5Nv$Fuakv4J" resolve="ColorCheckValue" />
+    <ref role="1M2myG" to="l8rz:5Nv$Fuakv4J" resolve="BackgroundColorCheckValue" />
     <node concept="9S07l" id="7kmg1RAWSws" role="9Vyp8">
       <node concept="3clFbS" id="7kmg1RAWSwt" role="2VODD2">
         <node concept="3clFbJ" id="7kmg1RAZXLB" role="3cqZAp">
@@ -716,11 +730,21 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="7kmg1RAZXZr" role="3clFbw">
-            <node concept="nLn13" id="7kmg1RAZXOA" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="7kmg1RAZY7E" role="2OqNvi">
-              <node concept="chp4Y" id="7kmg1RAZYjn" role="cj9EA">
-                <ref role="cht4Q" to="l8rz:5WrZkWQpyX6" resolve="TableRowCheck" />
+          <node concept="22lmx$" id="26AO1okNKdZ" role="3clFbw">
+            <node concept="2OqwBi" id="26AO1okNKXe" role="3uHU7w">
+              <node concept="nLn13" id="26AO1okNKAm" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="26AO1okNLce" role="2OqNvi">
+                <node concept="chp4Y" id="26AO1okNLeY" role="cj9EA">
+                  <ref role="cht4Q" to="l8rz:vV7zhZ3DJe" resolve="TreeViewRowCheck" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7kmg1RAZXZr" role="3uHU7B">
+              <node concept="nLn13" id="7kmg1RAZXOA" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="7kmg1RAZY7E" role="2OqNvi">
+                <node concept="chp4Y" id="7kmg1RAZYjn" role="cj9EA">
+                  <ref role="cht4Q" to="l8rz:5WrZkWQpyX6" resolve="TableRowCheck" />
+                </node>
               </node>
             </node>
           </node>
@@ -931,6 +955,199 @@
               </node>
             </node>
             <node concept="3GX2aA" id="5GYs7qIfqv$" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="vV7zhZ3Zxg">
+    <property role="3GE5qa" value="assert.treeview" />
+    <ref role="1M2myG" to="l8rz:vV7zhZ3DJ9" resolve="TreeViewCheck" />
+    <node concept="9S07l" id="vV7zhZ3Zxh" role="9Vyp8">
+      <node concept="3clFbS" id="vV7zhZ3Zxi" role="2VODD2">
+        <node concept="3cpWs8" id="vV7zhZ3ZxC" role="3cqZAp">
+          <node concept="3cpWsn" id="vV7zhZ3ZxD" role="3cpWs9">
+            <property role="TrG5h" value="viewComponent" />
+            <node concept="3Tqbb2" id="vV7zhZ3ZxE" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+            </node>
+            <node concept="2YIFZM" id="vV7zhZ3ZxF" role="33vP2m">
+              <ref role="1Pybhc" to="gg8m:4jKdMMdK1xy" resolve="ViewComponentCheckUtil" />
+              <ref role="37wK5l" to="gg8m:3HXRBxqx3W2" resolve="getViewComponentToCheckForParent" />
+              <node concept="nLn13" id="vV7zhZ3ZxG" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="vV7zhZ3ZxH" role="3cqZAp">
+          <node concept="2OqwBi" id="vV7zhZ3ZxI" role="3clFbG">
+            <node concept="37vLTw" id="vV7zhZ3ZxJ" role="2Oq$k0">
+              <ref role="3cqZAo" node="vV7zhZ3ZxD" resolve="viewComponent" />
+            </node>
+            <node concept="1mIQ4w" id="vV7zhZ3ZxK" role="2OqNvi">
+              <node concept="chp4Y" id="vV7zhZ3ZxL" role="cj9EA">
+                <ref role="cht4Q" to="6ap2:2ClXI6_AYIS" resolve="TreeViewComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="26AO1okPVEa">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1M2myG" to="l8rz:26AO1okPVnf" resolve="ForegroundColorCheckValue" />
+    <node concept="9S07l" id="26AO1okPVEb" role="9Vyp8">
+      <node concept="3clFbS" id="26AO1okPVEc" role="2VODD2">
+        <node concept="3clFbJ" id="26AO1okPVEy" role="3cqZAp">
+          <node concept="3clFbS" id="26AO1okPVEz" role="3clFbx">
+            <node concept="3cpWs6" id="26AO1okPVE$" role="3cqZAp">
+              <node concept="3clFbT" id="26AO1okPVE_" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="22lmx$" id="26AO1okPVEA" role="3clFbw">
+            <node concept="2OqwBi" id="26AO1okPVEB" role="3uHU7w">
+              <node concept="nLn13" id="26AO1okPVEC" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="26AO1okPVED" role="2OqNvi">
+                <node concept="chp4Y" id="26AO1okPVEE" role="cj9EA">
+                  <ref role="cht4Q" to="l8rz:vV7zhZ3DJe" resolve="TreeViewRowCheck" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="26AO1okPVEF" role="3uHU7B">
+              <node concept="nLn13" id="26AO1okPVEG" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="26AO1okPVEH" role="2OqNvi">
+                <node concept="chp4Y" id="26AO1okPVEI" role="cj9EA">
+                  <ref role="cht4Q" to="l8rz:5WrZkWQpyX6" resolve="TableRowCheck" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="26AO1okPVEJ" role="3cqZAp">
+          <node concept="2OqwBi" id="26AO1okPVEK" role="3clFbG">
+            <node concept="2OqwBi" id="26AO1okPVEL" role="2Oq$k0">
+              <node concept="2OqwBi" id="26AO1okPVEM" role="2Oq$k0">
+                <node concept="2OqwBi" id="26AO1okPVEN" role="2Oq$k0">
+                  <node concept="1PxgMI" id="26AO1okPVEO" role="2Oq$k0">
+                    <node concept="chp4Y" id="26AO1okPVEP" role="3oSUPX">
+                      <ref role="cht4Q" to="l8rz:2Yd1qrJONfw" resolve="ViewComponentCheck" />
+                    </node>
+                    <node concept="nLn13" id="26AO1okPVEQ" role="1m5AlR" />
+                  </node>
+                  <node concept="2qgKlT" id="26AO1okPVER" role="2OqNvi">
+                    <ref role="37wK5l" to="gg8m:4jKdMMdJYzD" resolve="getViewComponentToCheck" />
+                  </node>
+                </node>
+                <node concept="32TBzR" id="26AO1okPVES" role="2OqNvi" />
+              </node>
+              <node concept="v3k3i" id="26AO1okPVET" role="2OqNvi">
+                <node concept="chp4Y" id="26AO1okPVEU" role="v3oSu">
+                  <ref role="cht4Q" to="6ap2:5Nv$Fuakv6Z" resolve="ColorVCFeature" />
+                </node>
+              </node>
+            </node>
+            <node concept="3GX2aA" id="26AO1okPVEV" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5E6KScps$XG">
+    <property role="3GE5qa" value="test" />
+    <ref role="1M2myG" to="l8rz:2Yd1qrJON4f" resolve="ViewInputCall" />
+    <node concept="1N5Pfh" id="5E6KScpsAUJ" role="1Mr941">
+      <ref role="1N5Vy1" to="l8rz:2Yd1qrJON4g" resolve="viewInput" />
+      <node concept="3dgokm" id="5E6KScpsAWP" role="1N6uqs">
+        <node concept="3clFbS" id="5E6KScpsAWR" role="2VODD2">
+          <node concept="3cpWs8" id="5E6KScpsDky" role="3cqZAp">
+            <node concept="3cpWsn" id="5E6KScpsDkz" role="3cpWs9">
+              <property role="TrG5h" value="viewInputs" />
+              <node concept="2I9FWS" id="5E6KScpsDa5" role="1tU5fm">
+                <ref role="2I9WkF" to="6ap2:3JS2UjmQXcM" resolve="ViewInput" />
+              </node>
+              <node concept="2OqwBi" id="5E6KScpsDk$" role="33vP2m">
+                <node concept="2OqwBi" id="5E6KScpsDk_" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5E6KScpsDkA" role="2Oq$k0">
+                    <node concept="2rP1CM" id="5E6KScpsDkB" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="5E6KScpsDkC" role="2OqNvi">
+                      <node concept="1xMEDy" id="5E6KScpsDkD" role="1xVPHs">
+                        <node concept="chp4Y" id="5E6KScpsDkE" role="ri$Ld">
+                          <ref role="cht4Q" to="l8rz:2Yd1qrJOhwF" resolve="ViewTestSuite" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="5E6KScpsDkF" role="2OqNvi">
+                    <ref role="3Tt5mk" to="l8rz:2Yd1qrJOhz1" resolve="targetView" />
+                  </node>
+                </node>
+                <node concept="2Rf3mk" id="5E6KScpsDkG" role="2OqNvi">
+                  <node concept="1xMEDy" id="5E6KScpsDkH" role="1xVPHs">
+                    <node concept="chp4Y" id="5E6KScpsDkI" role="ri$Ld">
+                      <ref role="cht4Q" to="6ap2:3JS2UjmQXcM" resolve="ViewInput" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="5E6KScpsDpl" role="3cqZAp">
+            <node concept="2YIFZM" id="5E6KScpsDuG" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="37vLTw" id="5E6KScpsDx1" role="37wK5m">
+                <ref role="3cqZAo" node="5E6KScpsDkz" resolve="viewInputs" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5E6KScpv78W">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1M2myG" to="l8rz:5E6KScpv76K" resolve="ColumnHeaderCheckValue" />
+    <node concept="9S07l" id="5E6KScpv7gy" role="9Vyp8">
+      <node concept="3clFbS" id="5E6KScpv7gz" role="2VODD2">
+        <node concept="3SKdUt" id="5E6KScpv7i8" role="3cqZAp">
+          <node concept="1PaTwC" id="5E6KScpv7i9" role="1aUNEU">
+            <node concept="3oM_SD" id="5E6KScpv7iF" role="1PaTwD">
+              <property role="3oM_SC" value="todo:" />
+            </node>
+            <node concept="3oM_SD" id="5E6KScpv7iK" role="1PaTwD">
+              <property role="3oM_SC" value="check" />
+            </node>
+            <node concept="3oM_SD" id="5E6KScpv7iX" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="5E6KScpv7j6" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="5E6KScpv7jd" role="1PaTwD">
+              <property role="3oM_SC" value="VCFeature" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5E6KScpv94X" role="3cqZAp">
+          <node concept="2OqwBi" id="5E6KScpv9ou" role="3clFbG">
+            <node concept="2OqwBi" id="5E6KScpv94Z" role="2Oq$k0">
+              <node concept="1PxgMI" id="5E6KScpv950" role="2Oq$k0">
+                <node concept="chp4Y" id="5E6KScpv951" role="3oSUPX">
+                  <ref role="cht4Q" to="l8rz:2Yd1qrJONfw" resolve="ViewComponentCheck" />
+                </node>
+                <node concept="nLn13" id="5E6KScpv9PI" role="1m5AlR" />
+              </node>
+              <node concept="2qgKlT" id="5E6KScpv953" role="2OqNvi">
+                <ref role="37wK5l" to="gg8m:4jKdMMdJYzD" resolve="getViewComponentToCheck" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="5E6KScpv9$M" role="2OqNvi">
+              <node concept="chp4Y" id="5E6KScpv9FJ" role="cj9EA">
+                <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

@@ -288,6 +288,13 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2B9nyiIm0_S" resolve="TextVCFeature" />
     </node>
+    <node concept="1TJgyj" id="1TNehuHWrrb" role="1TKVEi">
+      <property role="IQ2ns" value="2194160217324893899" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="colorFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5Nv$Fuakv6Z" resolve="ColorVCFeature" />
+    </node>
     <node concept="1TJgyi" id="5QmCreik75d" role="1TKVEl">
       <property role="IQ2nx" value="6743755284659859789" />
       <property role="TrG5h" value="sampleText" />
@@ -785,7 +792,7 @@
   </node>
   <node concept="1TIwiD" id="5GYs7qI9Oz2">
     <property role="EcuMT" value="6574816161037764802" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.combobox" />
     <property role="TrG5h" value="ComboBoxComponent" />
     <property role="34LRSv" value="combobox" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
@@ -822,6 +829,62 @@
     <property role="TrG5h" value="SelectedItemVCFeature" />
     <property role="34LRSv" value="selected item feature" />
     <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+  </node>
+  <node concept="1TIwiD" id="2ClXI6_AYIS">
+    <property role="EcuMT" value="3032601373110430648" />
+    <property role="3GE5qa" value="viewcomponents.treeview" />
+    <property role="TrG5h" value="TreeViewComponent" />
+    <property role="34LRSv" value="tree view" />
+    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="TableComponentBase" />
+    <node concept="1TJgyj" id="2ClXI6_AZ8X" role="1TKVEi">
+      <property role="IQ2ns" value="3032601373110432317" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="rowsFeature" />
+      <ref role="20lvS9" node="2ClXI6_AZ92" resolve="TreeViewRowsVCFeature" />
+    </node>
+    <node concept="1TJgyj" id="2ClXI6_AZ8Y" role="1TKVEi">
+      <property role="IQ2ns" value="3032601373110432318" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="selectedRowFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5QmCreinPWR" resolve="SelectedRowVCFeature" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2ClXI6_AZ91">
+    <property role="EcuMT" value="3032601373110432321" />
+    <property role="3GE5qa" value="viewcomponents.treeview" />
+    <property role="TrG5h" value="TreeViewRowComponent" />
+    <property role="34LRSv" value="tree-row" />
+    <ref role="1TJDcQ" to="rtft:56jsF7$wmcE" resolve="StructType" />
+    <node concept="1TJgyj" id="2ClXI6_BoH$" role="1TKVEi">
+      <property role="IQ2ns" value="3032601373110537060" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cells" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5WrZkWQ5bAr" resolve="TableCellComponent" />
+    </node>
+    <node concept="1TJgyj" id="2ClXI6_BoH_" role="1TKVEi">
+      <property role="IQ2ns" value="3032601373110537061" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowColorFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5Nv$Fuakv6Z" resolve="ColorVCFeature" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2ClXI6_AZ92">
+    <property role="EcuMT" value="3032601373110432322" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="TreeViewRowsVCFeature" />
+    <property role="34LRSv" value="tree rows feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyj" id="2ClXI6_AZ93" role="1TKVEi">
+      <property role="IQ2ns" value="3032601373110432323" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowDefinition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2ClXI6_AZ91" resolve="TreeViewRowComponent" />
+    </node>
   </node>
 </model>
 
