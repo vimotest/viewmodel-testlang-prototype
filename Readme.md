@@ -38,6 +38,24 @@ It contains:
 * a hamster simulator example view `HamsterView`
   * the `HamsterViewTests` specifies a sample test case for loading a hamster territory and asserting the contents of the viewmodel
 
+### Subject Applications
+
+The ViMoTest approach is meant to be used with subject applications, which are UI-based applications.
+
+The following sample applications are modelled:
+
+* Hamster Simulator, a mini programming world to teach programming
+* Buddi, a personal finance manager
+* UPM, a Universal Password Manager
+* Rachota, a task management tool
+* Online Shopping, a sample application for online shopping
+* Crosswords, a crossword generator
+* Spark, a messaging application
+* PDFsam, a PDF editor
+
+Note: Most of the subject applications are used from the empirical study of Zuddas' research (https://doi.org/10.1145/3236454.3236489).
+Also see the readme in `solutions/ExampleApplications/Readme.md`.
+
 ## Documentation
 
 See https://vimotest.github.io
