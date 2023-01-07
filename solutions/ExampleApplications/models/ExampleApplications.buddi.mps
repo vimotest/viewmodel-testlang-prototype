@@ -113,6 +113,9 @@
       <concept id="2424854242643129807" name="ViewModelTestLanguage.structure.ForegroundColorCheckValue" flags="ng" index="Psmnp">
         <child id="2424854242643129810" name="color" index="Psmn4" />
       </concept>
+      <concept id="5057557679944221126" name="ViewModelTestLanguage.structure.HorizontalTestCaseAssertions" flags="ng" index="2QbWKJ">
+        <child id="5057557679944221906" name="asserts" index="2QbW$V" />
+      </concept>
       <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
         <property id="1519488183373667586" name="displayVertical" index="3ns_dL" />
         <child id="3426401106045796780" name="objects" index="30k8ga" />
@@ -148,6 +151,12 @@
       </concept>
       <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.ViewInputCall" flags="ng" index="30nziD">
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
+      </concept>
+      <concept id="3426401106045121505" name="ViewModelTestLanguage.structure.ButtonCheck" flags="ng" index="30nzp7">
+        <child id="3426401106045121535" name="checks" index="30nzpp" />
+      </concept>
+      <concept id="3426401106045121530" name="ViewModelTestLanguage.structure.SensitivityCheckValue" flags="ng" index="30nzps">
+        <property id="3426401106045121533" name="sensitivity" index="30nzpr" />
       </concept>
       <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
         <property id="6523116078126804343" name="descriptionLabel" index="13TuVO" />
@@ -1431,7 +1440,11 @@
           <property role="30lZVK" value="Show transactions table" />
         </node>
       </node>
-      <node concept="30k8jE" id="mFfN0XHPGi" role="30nziE" />
+      <node concept="30k8jE" id="mFfN0XHPGi" role="30nziE">
+        <node concept="30k8jF" id="1I4VQspn9r4" role="30k8ga">
+          <property role="TrG5h" value="TODO" />
+        </node>
+      </node>
       <node concept="30nziD" id="mFfN0XHPGl" role="30nzo2">
         <ref role="30nziQ" node="mFfN0XHPGr" resolve="LoadView" />
       </node>
@@ -1577,6 +1590,84 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="1I4VQspn9pV" role="30nzpy">
+        <node concept="30nzp_" id="1I4VQspn9qW" role="2QbW$V">
+          <property role="13TuVO" value="Date" />
+          <ref role="30nzpS" node="3le5WIC2MVY" resolve="DateText" />
+          <node concept="3fym7j" id="1I4VQspn9qY" role="30nDbQ">
+            <node concept="30nz6$" id="1I4VQspn9r0" role="3fym7i">
+              <property role="30nz6_" value="2007/12/26" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="1I4VQspn9rc" role="2QbW$V">
+          <ref role="30nzpS" node="3le5WIC2N5j" resolve="Description" />
+          <node concept="3P0OEx" id="1I4VQspn9ri" role="30nDbQ">
+            <node concept="3P0YG7" id="1I4VQspn9rp" role="3P0OEJ">
+              <node concept="3P0YHh" id="1I4VQspn9rr" role="3P0YG5">
+                <property role="3P0YHu" value=" " />
+              </node>
+            </node>
+            <node concept="3P0YHm" id="1I4VQspn9rk" role="3P0OEJ" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="1I4VQspn9rE" role="2QbW$V">
+          <property role="13TuVO" value="Number" />
+          <ref role="30nzpS" node="3le5WIC2N4z" resolve="NumberText" />
+          <node concept="3fym7j" id="1I4VQspn9rP" role="30nDbQ">
+            <node concept="30nz6$" id="1I4VQspn9rR" role="3fym7i" />
+          </node>
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="1I4VQspn9rY" role="30nzpy">
+        <node concept="30nzp_" id="1I4VQspn9rZ" role="2QbW$V">
+          <ref role="30nzpS" node="3le5WIC2N8V" resolve="Value" />
+          <node concept="3fym7j" id="1I4VQspn9tw" role="30nDbQ">
+            <node concept="30nz6$" id="1I4VQspn9ty" role="3fym7i">
+              <property role="30nz6_" value="0.00" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="1I4VQspn9s2" role="2QbW$V">
+          <ref role="30nzpS" node="3le5WIC2N9i" resolve="From" />
+          <node concept="3P0OEx" id="1I4VQspn9s3" role="30nDbQ">
+            <node concept="3P0YHm" id="1I4VQspn9s6" role="3P0OEJ" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="1I4VQspn9s7" role="2QbW$V">
+          <ref role="30nzpS" node="3le5WIC2N9V" resolve="To" />
+          <node concept="3P0OEx" id="1I4VQspn9t$" role="30nDbQ">
+            <node concept="3P0YHm" id="1I4VQspn9tA" role="3P0OEJ" />
+          </node>
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="1I4VQspn9tD" role="30nzpy">
+        <node concept="30nzp_" id="1I4VQspn9tH" role="2QbW$V">
+          <property role="13TuVO" value=" " />
+          <ref role="30nzpS" node="3le5WIC2NdA" resolve="Delete" />
+          <node concept="30nzp7" id="1I4VQspn9vl" role="30nDbQ">
+            <node concept="30nzps" id="1I4VQspn9vm" role="30nzpp" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="1I4VQspn9tE" role="2QbW$V">
+          <property role="13TuVO" value=" " />
+          <ref role="30nzpS" node="3le5WIC2NdI" resolve="Clear" />
+          <node concept="30nzp7" id="1I4VQspn9vh" role="30nDbQ">
+            <node concept="30nzps" id="1I4VQspn9vi" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="1I4VQspn9tK" role="2QbW$V">
+          <property role="13TuVO" value=" " />
+          <ref role="30nzpS" node="3le5WIC2NdU" resolve="Record" />
+          <node concept="30nzp7" id="1I4VQspn9vy" role="30nDbQ">
+            <node concept="30nzps" id="1I4VQspn9vz" role="30nzpp">
+              <property role="30nzpr" value="true" />
             </node>
           </node>
         </node>
