@@ -4930,7 +4930,7 @@
   </node>
   <node concept="13h7C7" id="5TZVz1z0l7D">
     <property role="3GE5qa" value="viewcomponents.table" />
-    <ref role="13h7C2" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+    <ref role="13h7C2" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
     <node concept="13hLZK" id="5TZVz1z0l7E" role="13h7CW">
       <node concept="3clFbS" id="5TZVz1z0l7F" role="2VODD2">
         <node concept="3clFbF" id="5TZVz1z0lu3" role="3cqZAp">
@@ -5139,7 +5139,7 @@
                 </node>
                 <node concept="1mIQ4w" id="5QmCrei_aC1" role="2OqNvi">
                   <node concept="chp4Y" id="5QmCrei_aC2" role="cj9EA">
-                    <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+                    <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
                   </node>
                 </node>
               </node>
@@ -5262,12 +5262,12 @@
                   <ref role="3cqZAo" node="4XlUEZmjgYz" resolve="anyNodeInView" />
                 </node>
                 <node concept="35c_gC" id="4XlUEZmjgYt" role="37wK5m">
-                  <ref role="35c_gD" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+                  <ref role="35c_gD" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
                 </node>
               </node>
               <node concept="v3k3i" id="4XlUEZmjgYu" role="2OqNvi">
                 <node concept="chp4Y" id="4XlUEZmjgYv" role="v3oSu">
-                  <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+                  <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
                 </node>
               </node>
             </node>
@@ -5277,7 +5277,7 @@
       </node>
       <node concept="3Tm1VV" id="4XlUEZmjgYx" role="1B3o_S" />
       <node concept="2I9FWS" id="4XlUEZmjgYy" role="3clF45">
-        <ref role="2I9WkF" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+        <ref role="2I9WkF" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
       </node>
       <node concept="37vLTG" id="4XlUEZmjgYz" role="3clF46">
         <property role="TrG5h" value="anyNodeInView" />
@@ -5713,7 +5713,7 @@
       <node concept="37vLTG" id="4XlUEZmjinU" role="3clF46">
         <property role="TrG5h" value="tableNode" />
         <node concept="3Tqbb2" id="4XlUEZmjinV" role="1tU5fm">
-          <ref role="ehGHo" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+          <ref role="ehGHo" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
         </node>
       </node>
     </node>
@@ -7677,6 +7677,118 @@
     </node>
     <node concept="13hLZK" id="3rDlSKu7lop" role="13h7CW">
       <node concept="3clFbS" id="3rDlSKu7loq" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6yyqi$iWj9Y">
+    <property role="3GE5qa" value="viewcomponents.listview" />
+    <ref role="13h7C2" to="6ap2:6yyqi$iVArY" resolve="ListViewComponent" />
+    <node concept="13i0hz" id="6yyqi$iWja9" role="13h7CS">
+      <property role="TrG5h" value="makeSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJOWqT" resolve="makeSwingComponent" />
+      <node concept="3Tm1VV" id="6yyqi$iWjaa" role="1B3o_S" />
+      <node concept="3clFbS" id="6yyqi$iWjab" role="3clF47">
+        <node concept="3cpWs8" id="6yyqi$iWVRn" role="3cqZAp">
+          <node concept="3cpWsn" id="6yyqi$iWVRo" role="3cpWs9">
+            <property role="TrG5h" value="list" />
+            <node concept="3uibUv" id="6yyqi$iWVI5" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JList" resolve="JList" />
+              <node concept="17QB3L" id="6yyqi$iWVI8" role="11_B2D" />
+            </node>
+            <node concept="2ShNRf" id="6yyqi$iWVRp" role="33vP2m">
+              <node concept="1pGfFk" id="6yyqi$iWVRq" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~JList.&lt;init&gt;()" resolve="JList" />
+                <node concept="17QB3L" id="6yyqi$iWVRr" role="1pMfVU" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6yyqi$iX7K_" role="3cqZAp">
+          <node concept="3cpWsn" id="6yyqi$iX7KA" role="3cpWs9">
+            <property role="TrG5h" value="model" />
+            <node concept="3uibUv" id="6yyqi$iX7Kz" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~DefaultListModel" resolve="DefaultListModel" />
+              <node concept="17QB3L" id="6yyqi$iX7K$" role="11_B2D" />
+            </node>
+            <node concept="2ShNRf" id="6yyqi$iX7KB" role="33vP2m">
+              <node concept="1pGfFk" id="6yyqi$iX7KC" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~DefaultListModel.&lt;init&gt;()" resolve="DefaultListModel" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6yyqi$iWWS8" role="3cqZAp">
+          <node concept="2OqwBi" id="6yyqi$iX3mT" role="3clFbG">
+            <node concept="37vLTw" id="6yyqi$iX2Mr" role="2Oq$k0">
+              <ref role="3cqZAo" node="6yyqi$iWVRo" resolve="list" />
+            </node>
+            <node concept="liA8E" id="6yyqi$iX4kN" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JList.setModel(javax.swing.ListModel)" resolve="setModel" />
+              <node concept="37vLTw" id="6yyqi$iX7KD" role="37wK5m">
+                <ref role="3cqZAo" node="6yyqi$iX7KA" resolve="model" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6yyqi$iY_7e" role="3cqZAp">
+          <node concept="3clFbS" id="6yyqi$iY_7g" role="3clFbx">
+            <node concept="3clFbF" id="6yyqi$iX8wS" role="3cqZAp">
+              <node concept="2OqwBi" id="6yyqi$iX9TN" role="3clFbG">
+                <node concept="37vLTw" id="6yyqi$iX8wQ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6yyqi$iX7KA" resolve="model" />
+                </node>
+                <node concept="liA8E" id="6yyqi$iXaNY" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~DefaultListModel.addElement(java.lang.Object)" resolve="addElement" />
+                  <node concept="Xl_RD" id="6yyqi$iXb3L" role="37wK5m">
+                    <property role="Xl_RC" value="&lt;list element&gt;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="6yyqi$iYBB1" role="3clFbw">
+            <node concept="10Nm6u" id="6yyqi$iYBBc" role="3uHU7w" />
+            <node concept="2OqwBi" id="6yyqi$iY_PU" role="3uHU7B">
+              <node concept="13iPFW" id="6yyqi$iY_rM" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6yyqi$iYAAl" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:6yyqi$iYzXK" resolve="sampleElement" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="6yyqi$iYDnU" role="9aQIa">
+            <node concept="3clFbS" id="6yyqi$iYDnV" role="9aQI4">
+              <node concept="3clFbF" id="6yyqi$iYDBt" role="3cqZAp">
+                <node concept="2OqwBi" id="6yyqi$iYDBu" role="3clFbG">
+                  <node concept="37vLTw" id="6yyqi$iYDBv" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6yyqi$iX7KA" resolve="model" />
+                  </node>
+                  <node concept="liA8E" id="6yyqi$iYDBw" role="2OqNvi">
+                    <ref role="37wK5l" to="dxuu:~DefaultListModel.addElement(java.lang.Object)" resolve="addElement" />
+                    <node concept="2OqwBi" id="6yyqi$iYEL_" role="37wK5m">
+                      <node concept="13iPFW" id="6yyqi$iYEs6" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="6yyqi$iYF_o" role="2OqNvi">
+                        <ref role="3TsBF5" to="6ap2:6yyqi$iYzXK" resolve="sampleElement" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6yyqi$iWjbg" role="3cqZAp">
+          <node concept="37vLTw" id="6yyqi$iWjbh" role="3clFbG">
+            <ref role="3cqZAo" node="6yyqi$iWVRo" resolve="list" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="6yyqi$iWjbi" role="3clF45">
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="6yyqi$iWj9Z" role="13h7CW">
+      <node concept="3clFbS" id="6yyqi$iWja0" role="2VODD2" />
     </node>
   </node>
 </model>

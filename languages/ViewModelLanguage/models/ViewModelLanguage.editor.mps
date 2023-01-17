@@ -2523,7 +2523,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="5QmCreizUI6" role="2ZBHrp">
-        <ref role="ehGHo" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+        <ref role="ehGHo" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
       </node>
       <node concept="2$S_p_" id="5QmCreizUI7" role="2$S_pT">
         <node concept="3clFbS" id="5QmCreizUI8" role="2VODD2">
@@ -2925,9 +2925,9 @@
     </node>
   </node>
   <node concept="PKFIW" id="5TZVz1z1tBv">
-    <property role="TrG5h" value="TableComponentBase_supportsUpdatingFlag" />
+    <property role="TrG5h" value="ListComponentBase_supportsUpdatingFlag" />
     <property role="3GE5qa" value="viewcomponents.table" />
-    <ref role="1XX52x" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+    <ref role="1XX52x" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
     <node concept="1v6uyg" id="5TZVz1z1tBW" role="2wV5jI">
       <property role="2oejA6" value="true" />
       <node concept="3F0ifn" id="5TZVz1z1tCm" role="wsdo6">
@@ -3336,6 +3336,56 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6yyqi$iVTHY">
+    <property role="3GE5qa" value="viewcomponents.listview" />
+    <ref role="1XX52x" to="6ap2:6yyqi$iVArY" resolve="ListViewComponent" />
+    <node concept="3EZMnI" id="6yyqi$iVTI0" role="6VMZX">
+      <node concept="l2Vlx" id="6yyqi$iVTI1" role="2iSdaV" />
+      <node concept="PMmxH" id="6yyqi$iVTI2" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="PMmxH" id="6yyqi$iVTI3" role="3EZMnx">
+        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="TableComponentBase_supportsUpdatingFlag" />
+        <node concept="pVoyu" id="6yyqi$iVTI4" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6yyqi$iY$bo" role="3EZMnx">
+        <property role="3F0ifm" value="sample element:" />
+        <node concept="pVoyu" id="6yyqi$iY$bF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="6yyqi$iY$b$" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:6yyqi$iYzXK" resolve="sampleElement" />
+      </node>
+    </node>
+    <node concept="3EZMnI" id="6yyqi$iVXv2" role="2wV5jI">
+      <node concept="3F0ifn" id="6yyqi$iVXv3" role="3EZMnx">
+        <property role="3F0ifm" value="list view" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F0A7n" id="6yyqi$iVXv4" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3gTLQM" id="6yyqi$iY9Dv" role="3EZMnx">
+        <node concept="3Fmcul" id="6yyqi$iY9Dx" role="3FoqZy">
+          <node concept="3clFbS" id="6yyqi$iY9Dz" role="2VODD2">
+            <node concept="3clFbF" id="6yyqi$iY9KI" role="3cqZAp">
+              <node concept="2OqwBi" id="6yyqi$iYa4j" role="3clFbG">
+                <node concept="pncrf" id="6yyqi$iY9KH" role="2Oq$k0" />
+                <node concept="2qgKlT" id="6yyqi$iYau0" role="2OqNvi">
+                  <ref role="37wK5l" to="hhvz:2Yd1qrJOWqT" resolve="makeSwingComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="6yyqi$iVXv6" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="6z57CtsqlSU">

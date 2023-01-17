@@ -269,7 +269,7 @@
                   <node concept="17R0WA" id="5WrZkWQ5gVB" role="3uHU7w">
                     <node concept="2DD5aU" id="5WrZkWQ5gVC" role="3uHU7B" />
                     <node concept="35c_gC" id="5WrZkWQ5gVD" role="3uHU7w">
-                      <ref role="35c_gD" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+                      <ref role="35c_gD" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
                     </node>
                   </node>
                 </node>
@@ -452,7 +452,7 @@
                               <node concept="2Xjw5R" id="5QmCreiupZ6" role="2OqNvi">
                                 <node concept="1xMEDy" id="5QmCreiupZ7" role="1xVPHs">
                                   <node concept="chp4Y" id="5QmCreiupZ8" role="ri$Ld">
-                                    <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+                                    <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
                                   </node>
                                 </node>
                               </node>

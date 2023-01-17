@@ -24,6 +24,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -205,7 +206,7 @@
     <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="TableComponent" />
     <property role="34LRSv" value="table" />
-    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="TableComponentBase" />
+    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="ListComponentBase" />
     <node concept="1TJgyj" id="5cbOqfAnxJO" role="1TKVEi">
       <property role="IQ2ns" value="5984107031766637556" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -419,7 +420,7 @@
     <property role="3GE5qa" value="viewcomponents.table" />
     <property role="TrG5h" value="DynamicTableComponent" />
     <property role="34LRSv" value="dynamic table" />
-    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="TableComponentBase" />
+    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="ListComponentBase" />
     <node concept="1TJgyj" id="5cbOqfAMnLV" role="1TKVEi">
       <property role="IQ2ns" value="5984107031773674619" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -714,7 +715,7 @@
     <ref role="1TJDcQ" to="rtft:56jsF7$wmcE" resolve="StructType" />
   </node>
   <node concept="1TIwiD" id="FLNzGRzW2J">
-    <property role="TrG5h" value="TableComponentBase" />
+    <property role="TrG5h" value="ListComponentBase" />
     <property role="3GE5qa" value="viewcomponents.table" />
     <property role="EcuMT" value="788638163497079861" />
     <property role="R5$K7" value="true" />
@@ -835,7 +836,7 @@
     <property role="3GE5qa" value="viewcomponents.treeview" />
     <property role="TrG5h" value="TreeViewComponent" />
     <property role="34LRSv" value="tree view" />
-    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="TableComponentBase" />
+    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="ListComponentBase" />
     <node concept="1TJgyj" id="2ClXI6_AZ8X" role="1TKVEi">
       <property role="IQ2ns" value="3032601373110432317" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -884,6 +885,26 @@
       <property role="20kJfa" value="rowDefinition" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2ClXI6_AZ91" resolve="TreeViewRowComponent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6yyqi$iVArY">
+    <property role="EcuMT" value="7539704351303821054" />
+    <property role="3GE5qa" value="viewcomponents.listview" />
+    <property role="TrG5h" value="ListViewComponent" />
+    <property role="34LRSv" value="list view" />
+    <property role="R4oN_" value="List of simple labels (strings)" />
+    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="ListComponentBase" />
+    <node concept="1TJgyj" id="6yyqi$iVTHP" role="1TKVEi">
+      <property role="IQ2ns" value="7539704351303900021" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="selectedRowFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5QmCreinPWR" resolve="SelectedRowVCFeature" />
+    </node>
+    <node concept="1TJgyi" id="6yyqi$iYzXK" role="1TKVEl">
+      <property role="IQ2nx" value="7539704351304597360" />
+      <property role="TrG5h" value="sampleElement" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="6z57CtsqlrT">
