@@ -259,6 +259,9 @@
       <ref role="PrY4T" node="zI3UExNGh5" resolve="ILabelCheckValue" />
     </node>
     <node concept="PrWs8" id="zI3UExNO9x" role="PzmwI">
+      <ref role="PrY4T" node="6yyqi$j0BNZ" resolve="IListCheckValue" />
+    </node>
+    <node concept="PrWs8" id="6yyqi$j0BO7" role="PzmwI">
       <ref role="PrY4T" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
     </node>
     <node concept="PrWs8" id="3_3BZO9RVpO" role="PzmwI">
@@ -1088,6 +1091,44 @@
     </node>
     <node concept="PrWs8" id="5E6KScpwRpz" role="PzmwI">
       <ref role="PrY4T" node="vV7zhZ3DJd" resolve="ITreeViewCheckValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6yyqi$j0BNW">
+    <property role="EcuMT" value="7539704351305137404" />
+    <property role="3GE5qa" value="assert.listview" />
+    <property role="TrG5h" value="ListCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="6yyqi$j0BNX" role="1TKVEi">
+      <property role="IQ2ns" value="7539704351305137405" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checkValues" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6yyqi$j0BNZ" resolve="IListCheckValue" />
+    </node>
+    <node concept="1TJgyj" id="6yyqi$j0BNY" role="1TKVEi">
+      <property role="IQ2ns" value="7539704351305137406" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rowChecks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6yyqi$j0BO1" resolve="ListRowCheck" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6yyqi$j0BNZ">
+    <property role="EcuMT" value="7539704351305137407" />
+    <property role="3GE5qa" value="assert.listview" />
+    <property role="TrG5h" value="IListCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="6yyqi$j0BO1">
+    <property role="EcuMT" value="7539704351305137409" />
+    <property role="3GE5qa" value="assert.listview" />
+    <property role="TrG5h" value="ListRowCheck" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="6yyqi$j0BO3" role="1TKVEi">
+      <property role="IQ2ns" value="7539704351305137411" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checkValues" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="zI3UExNGh5" resolve="ILabelCheckValue" />
     </node>
   </node>
 </model>

@@ -3668,5 +3668,40 @@
       <node concept="2iRfu4" id="5E6KScpv774" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6yyqi$j0EcH">
+    <property role="3GE5qa" value="assert.listview" />
+    <ref role="1XX52x" to="l8rz:6yyqi$j0BNW" resolve="ListCheck" />
+    <node concept="3EZMnI" id="6yyqi$j1olm" role="2wV5jI">
+      <node concept="2iRkQZ" id="6yyqi$j1oln" role="2iSdaV" />
+      <node concept="3F0ifn" id="6yyqi$j1olo" role="3EZMnx">
+        <property role="3F0ifm" value="List Checks:" />
+      </node>
+      <node concept="3F2HdR" id="6yyqi$j1olp" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:6yyqi$j0BNX" resolve="checkValues" />
+        <node concept="2iRkQZ" id="6yyqi$j1olq" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="6yyqi$j1olr" role="3EZMnx">
+        <property role="3F0ifm" value="Row Checks:" />
+      </node>
+      <node concept="3F2HdR" id="6yyqi$j1ols" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:6yyqi$j0BNY" resolve="rowChecks" />
+        <node concept="2iRkQZ" id="6yyqi$j1olt" role="2czzBx" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6yyqi$j0E_e">
+    <property role="3GE5qa" value="assert.listview" />
+    <ref role="1XX52x" to="l8rz:6yyqi$j0BO1" resolve="ListRowCheck" />
+    <node concept="3EZMnI" id="6yyqi$j24JP" role="2wV5jI">
+      <node concept="3F0ifn" id="6yyqi$j24K1" role="3EZMnx">
+        <property role="3F0ifm" value="check" />
+      </node>
+      <node concept="2iRfu4" id="6yyqi$j24JQ" role="2iSdaV" />
+      <node concept="3F2HdR" id="6yyqi$j0E_g" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:6yyqi$j0BO3" resolve="checkValues" />
+        <node concept="2iRkQZ" id="6yyqi$j0E_j" role="2czzBx" />
+      </node>
+    </node>
+  </node>
 </model>
 
