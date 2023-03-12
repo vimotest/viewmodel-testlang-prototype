@@ -886,5 +886,12 @@
       <ref role="20lvS9" node="2ClXI6_AZ91" resolve="TreeViewRowComponent" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6z57CtsqlrT">
+    <property role="EcuMT" value="7549473917076330233" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="ViewComponentCommand" />
+    <property role="34LRSv" value="command" />
+    <ref role="1TJDcQ" node="3JS2UjmQXcM" resolve="ViewInput" />
+  </node>
 </model>
 

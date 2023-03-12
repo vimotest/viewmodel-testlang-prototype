@@ -51,6 +51,7 @@
       <concept id="4143793920074732899" name="ViewModelLanguage.structure.ImageButtonComponent" flags="ng" index="2HYYfY">
         <reference id="4143793920074734847" name="image" index="2HYYDy" />
       </concept>
+      <concept id="7549473917076330233" name="ViewModelLanguage.structure.ViewComponentCommand" flags="ng" index="OF4xY" />
       <concept id="5984107031764840468" name="ViewModelLanguage.structure.ViewComponentFeature" flags="ng" index="2Pim6R">
         <property id="5984107031764851878" name="supported" index="2PigO5" />
       </concept>
@@ -695,6 +696,10 @@
         <node concept="2P4D6h" id="4XlUEZmnvt6" role="2P5Oin" />
       </node>
     </node>
+    <node concept="OF4xY" id="6z57Ctsryr6" role="3H8Xyh">
+      <property role="TrG5h" value="ClearTable" />
+    </node>
+    <node concept="3H8Xwz" id="6z57Ctsryrl" role="3H8Xyh" />
   </node>
   <node concept="30n1Qd" id="2Yd1qrJPuoQ">
     <property role="TrG5h" value="MyViewTests" />

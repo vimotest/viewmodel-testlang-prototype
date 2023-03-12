@@ -3338,5 +3338,19 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="6z57CtsqlSU">
+    <property role="3GE5qa" value="viewinputs" />
+    <ref role="1XX52x" to="6ap2:6z57CtsqlrT" resolve="ViewComponentCommand" />
+    <node concept="3EZMnI" id="6z57CtsqlSW" role="2wV5jI">
+      <node concept="PMmxH" id="6z57CtsqlSX" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F0A7n" id="6z57CtsqlSY" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="6z57CtsqlTM" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
