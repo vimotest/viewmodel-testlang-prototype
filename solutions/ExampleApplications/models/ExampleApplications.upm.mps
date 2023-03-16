@@ -81,6 +81,9 @@
         <child id="3426401106045120501" name="given" index="30nyDj" />
         <child id="3426401106045120506" name="then" index="30nyDs" />
       </concept>
+      <concept id="3426401106045121538" name="ViewModelTestLanguage.structure.TextCheckValue" flags="ng" index="30nz6$">
+        <property id="3426401106045121539" name="text" index="30nz6_" />
+      </concept>
       <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.ViewInputCall" flags="ng" index="30nziD">
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
       </concept>
@@ -88,7 +91,9 @@
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
       </concept>
-      <concept id="7539704351305137409" name="ViewModelTestLanguage.structure.ListRowCheck" flags="ng" index="1VC1gC" />
+      <concept id="7539704351305137409" name="ViewModelTestLanguage.structure.ListRowCheck" flags="ng" index="1VC1gC">
+        <child id="7539704351305137411" name="checkValues" index="1VC1gE" />
+      </concept>
       <concept id="7539704351305137404" name="ViewModelTestLanguage.structure.ListCheck" flags="ng" index="1VC1nl">
         <child id="7539704351305137406" name="rowChecks" index="1VC1nn" />
       </concept>
@@ -145,8 +150,16 @@
       <node concept="30nzp_" id="6yyqi$j0DU2" role="30nzpy">
         <ref role="30nzpS" node="6yyqi$iY9i0" resolve="PasswordEntries" />
         <node concept="1VC1nl" id="6yyqi$j0DU7" role="30nDbQ">
-          <node concept="1VC1gC" id="6yyqi$j24JK" role="1VC1nn" />
-          <node concept="1VC1gC" id="6yyqi$j24JM" role="1VC1nn" />
+          <node concept="1VC1gC" id="6yyqi$j24JK" role="1VC1nn">
+            <node concept="30nz6$" id="5s8Gqxcc4Cg" role="1VC1gE">
+              <property role="30nz6_" value="A" />
+            </node>
+          </node>
+          <node concept="1VC1gC" id="6yyqi$j24JM" role="1VC1nn">
+            <node concept="30nz6$" id="5s8Gqxcc4Ci" role="1VC1gE">
+              <property role="30nz6_" value="B" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
