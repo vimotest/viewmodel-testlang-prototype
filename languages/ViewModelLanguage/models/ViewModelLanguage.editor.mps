@@ -627,7 +627,7 @@
         </node>
       </node>
       <node concept="PMmxH" id="5TZVz1z1tCt" role="3EZMnx">
-        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="TableComponentBase_supportsUpdatingFlag" />
+        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="ListComponentBase_supportsUpdatingFlag" />
         <node concept="pVoyu" id="5TZVz1z1tCw" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1813,7 +1813,7 @@
         <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
       </node>
       <node concept="PMmxH" id="5TZVz1z1tB$" role="3EZMnx">
-        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="TableComponentBase_supportsUpdatingFlag" />
+        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="ListComponentBase_supportsUpdatingFlag" />
         <node concept="pVoyu" id="5TZVz1z1tBF" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -3331,7 +3331,7 @@
         </node>
       </node>
       <node concept="PMmxH" id="3rDlSKu7irK" role="3EZMnx">
-        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="TableComponentBase_supportsUpdatingFlag" />
+        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="ListComponentBase_supportsUpdatingFlag" />
         <node concept="pVoyu" id="3rDlSKu7irL" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -3347,7 +3347,7 @@
         <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
       </node>
       <node concept="PMmxH" id="6yyqi$iVTI3" role="3EZMnx">
-        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="TableComponentBase_supportsUpdatingFlag" />
+        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="ListComponentBase_supportsUpdatingFlag" />
         <node concept="pVoyu" id="6yyqi$iVTI4" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>

@@ -76,7 +76,7 @@
         <child id="5984107031773145387" name="cellsFeature" index="2PMFy8" />
       </concept>
       <concept id="5984107031776721519" name="ViewModelLanguage.structure.CheckVCFeature" flags="ng" index="2PZ2Jc" />
-      <concept id="788638163497079861" name="ViewModelLanguage.structure.TableComponentBase" flags="ng" index="XvDCe">
+      <concept id="788638163497079861" name="ViewModelLanguage.structure.ListComponentBase" flags="ng" index="XvDCe">
         <property id="788638163497081376" name="supportsUpdatingFlag" index="XvDgr" />
       </concept>
       <concept id="2820520252859978185" name="ViewModelLanguage.structure.ImageStackComponent" flags="ng" index="3eDL7K">

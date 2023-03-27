@@ -43,7 +43,7 @@
       <concept id="5984107031766608520" name="ViewModelLanguage.structure.TableRowsVCFeature" flags="ng" index="2PlBGF">
         <child id="5984107031766610948" name="rowDefinition" index="2PlAmB" />
       </concept>
-      <concept id="788638163497079861" name="ViewModelLanguage.structure.TableComponentBase" flags="ng" index="XvDCe">
+      <concept id="788638163497079861" name="ViewModelLanguage.structure.ListComponentBase" flags="ng" index="XvDCe">
         <property id="788638163497081376" name="supportsUpdatingFlag" index="XvDgr" />
       </concept>
       <concept id="788638163494689239" name="ViewModelLanguage.structure.ViewCallbackResult" flags="ng" index="XALvG" />

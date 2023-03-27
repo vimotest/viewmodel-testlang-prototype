@@ -1172,7 +1172,7 @@
             </node>
             <node concept="1mIQ4w" id="5E6KScpv9$M" role="2OqNvi">
               <node concept="chp4Y" id="5E6KScpv9FJ" role="cj9EA">
-                <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+                <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
               </node>
             </node>
           </node>
