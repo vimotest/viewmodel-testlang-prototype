@@ -73,6 +73,9 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -510,13 +513,27 @@
           </node>
         </node>
         <node concept="3clFbF" id="7LtKSC$w9HR" role="3cqZAp">
-          <node concept="2OqwBi" id="7LtKSC$w9HT" role="3clFbG">
-            <node concept="37vLTw" id="7LtKSC$x2Pl" role="2Oq$k0">
-              <ref role="3cqZAo" node="3HXRBxqyLfD" resolve="viewComponent" />
+          <node concept="1Wc70l" id="QFw6_yo$OP" role="3clFbG">
+            <node concept="3fqX7Q" id="QFw6_yo_Wg" role="3uHU7w">
+              <node concept="2OqwBi" id="QFw6_yo_Wi" role="3fr31v">
+                <node concept="37vLTw" id="QFw6_yo_Wj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3HXRBxqyLfD" resolve="viewComponent" />
+                </node>
+                <node concept="1mIQ4w" id="QFw6_yo_Wk" role="2OqNvi">
+                  <node concept="chp4Y" id="QFw6_yo_Wl" role="cj9EA">
+                    <ref role="cht4Q" to="6ap2:6yyqi$iVArY" resolve="ListViewComponent" />
+                  </node>
+                </node>
+              </node>
             </node>
-            <node concept="1mIQ4w" id="7LtKSC$w9HZ" role="2OqNvi">
-              <node concept="chp4Y" id="7LtKSC$w9I0" role="cj9EA">
-                <ref role="cht4Q" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
+            <node concept="2OqwBi" id="7LtKSC$w9HT" role="3uHU7B">
+              <node concept="37vLTw" id="7LtKSC$x2Pl" role="2Oq$k0">
+                <ref role="3cqZAo" node="3HXRBxqyLfD" resolve="viewComponent" />
+              </node>
+              <node concept="1mIQ4w" id="7LtKSC$w9HZ" role="2OqNvi">
+                <node concept="chp4Y" id="7LtKSC$w9I0" role="cj9EA">
+                  <ref role="cht4Q" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
+                </node>
               </node>
             </node>
           </node>
@@ -1173,6 +1190,39 @@
             <node concept="1mIQ4w" id="5E6KScpv9$M" role="2OqNvi">
               <node concept="chp4Y" id="5E6KScpv9FJ" role="cj9EA">
                 <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="QFw6_yo$4X">
+    <property role="3GE5qa" value="assert.listview" />
+    <ref role="1M2myG" to="l8rz:6yyqi$j0BNW" resolve="ListCheck" />
+    <node concept="9S07l" id="QFw6_yoA2m" role="9Vyp8">
+      <node concept="3clFbS" id="QFw6_yoA2n" role="2VODD2">
+        <node concept="3cpWs8" id="QFw6_yoA3D" role="3cqZAp">
+          <node concept="3cpWsn" id="QFw6_yoA3E" role="3cpWs9">
+            <property role="TrG5h" value="viewComponent" />
+            <node concept="3Tqbb2" id="QFw6_yoA3F" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+            </node>
+            <node concept="2YIFZM" id="QFw6_yoA3G" role="33vP2m">
+              <ref role="37wK5l" to="gg8m:3HXRBxqx3W2" resolve="getViewComponentToCheckForParent" />
+              <ref role="1Pybhc" to="gg8m:4jKdMMdK1xy" resolve="ViewComponentCheckUtil" />
+              <node concept="nLn13" id="QFw6_yoA3H" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="QFw6_yoA3I" role="3cqZAp">
+          <node concept="2OqwBi" id="QFw6_yoA3L" role="3clFbG">
+            <node concept="37vLTw" id="QFw6_yoA3M" role="2Oq$k0">
+              <ref role="3cqZAo" node="QFw6_yoA3E" resolve="viewComponent" />
+            </node>
+            <node concept="1mIQ4w" id="QFw6_yoA3N" role="2OqNvi">
+              <node concept="chp4Y" id="QFw6_yoA3O" role="cj9EA">
+                <ref role="cht4Q" to="6ap2:6yyqi$iVArY" resolve="ListViewComponent" />
               </node>
             </node>
           </node>

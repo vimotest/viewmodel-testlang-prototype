@@ -558,6 +558,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5WrZkWQ5bAq" resolve="TableRowComponent" />
     </node>
+    <node concept="1TJgyi" id="QFw6_ykH2d" role="1TKVEl">
+      <property role="IQ2nx" value="985022133620101261" />
+      <property role="TrG5h" value="isSingleCell" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5cbOqfADF1U">
     <property role="EcuMT" value="5984107031771394170" />
@@ -892,20 +897,8 @@
     <property role="3GE5qa" value="viewcomponents.listview" />
     <property role="TrG5h" value="ListViewComponent" />
     <property role="34LRSv" value="list view" />
-    <property role="R4oN_" value="List of simple labels (strings)" />
-    <ref role="1TJDcQ" node="FLNzGRzW2J" resolve="ListComponentBase" />
-    <node concept="1TJgyj" id="6yyqi$iVTHP" role="1TKVEi">
-      <property role="IQ2ns" value="7539704351303900021" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="selectedRowFeature" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5QmCreinPWR" resolve="SelectedRowVCFeature" />
-    </node>
-    <node concept="1TJgyi" id="6yyqi$iYzXK" role="1TKVEl">
-      <property role="IQ2nx" value="7539704351304597360" />
-      <property role="TrG5h" value="sampleElement" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
+    <property role="R4oN_" value="A table with only one column" />
+    <ref role="1TJDcQ" node="53FN52wrdyE" resolve="TableComponent" />
   </node>
   <node concept="1TIwiD" id="6z57CtsqlrT">
     <property role="EcuMT" value="7549473917076330233" />

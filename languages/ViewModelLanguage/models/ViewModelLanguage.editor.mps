@@ -1381,6 +1381,7 @@
       </node>
     </node>
     <node concept="3EZMnI" id="5WrZkWQ9e8K" role="2wV5jI">
+      <node concept="3F0ifn" id="QFw6_ymEK4" role="3EZMnx" />
       <node concept="Veino" id="4XlUEZmwXqB" role="3F10Kt">
         <node concept="3ZlJ5R" id="4XlUEZmwXqC" role="VblUZ">
           <node concept="3clFbS" id="4XlUEZmwXqD" role="2VODD2">
@@ -2023,15 +2024,35 @@
       <node concept="1CiYdB" id="5cbOqfAnrTx" role="3EZMnx">
         <node concept="2XI2dN" id="5cbOqfAnrTy" role="2XI0mt">
           <node concept="3clFbS" id="5cbOqfAnrTz" role="2VODD2">
-            <node concept="3clFbF" id="5cbOqfAnrT$" role="3cqZAp">
-              <node concept="2ShNRf" id="5cbOqfAnrT_" role="3clFbG">
-                <node concept="1pGfFk" id="5cbOqfAnrTA" role="2ShVmc">
-                  <property role="373rjd" value="true" />
-                  <ref role="37wK5l" to="hhvz:5WrZkWQ5kUg" resolve="TableComponentModel" />
-                  <node concept="2OqwBi" id="5cbOqfAnsao" role="37wK5m">
-                    <node concept="pncrf" id="5cbOqfAnrTB" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="5cbOqfAnssy" role="2OqNvi">
-                      <ref role="3Tt5mk" to="6ap2:5cbOqfAnrg4" resolve="rowDefinition" />
+            <node concept="3clFbF" id="QFw6_yl_Z0" role="3cqZAp">
+              <node concept="3K4zz7" id="QFw6_yl_YS" role="3clFbG">
+                <node concept="2OqwBi" id="QFw6_ylAhs" role="3K4Cdx">
+                  <node concept="pncrf" id="QFw6_ylA3A" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="QFw6_ylAAL" role="2OqNvi">
+                    <ref role="3TsBF5" to="6ap2:QFw6_ykH2d" resolve="isSingleCell" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="QFw6_ylAMv" role="3K4E3e">
+                  <node concept="1pGfFk" id="QFw6_ylBtR" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="hhvz:QFw6_yluJR" resolve="ListViewComponentModel" />
+                    <node concept="2OqwBi" id="QFw6_ylBzv" role="37wK5m">
+                      <node concept="pncrf" id="QFw6_ylBzw" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="QFw6_ylBzx" role="2OqNvi">
+                        <ref role="3Tt5mk" to="6ap2:5cbOqfAnrg4" resolve="rowDefinition" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="QFw6_ylADx" role="3K4GZi">
+                  <node concept="1pGfFk" id="QFw6_ylADy" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="hhvz:5WrZkWQ5kUg" resolve="TableComponentModel" />
+                    <node concept="2OqwBi" id="QFw6_ylADz" role="37wK5m">
+                      <node concept="pncrf" id="QFw6_ylAD$" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="QFw6_ylAD_" role="2OqNvi">
+                        <ref role="3Tt5mk" to="6ap2:5cbOqfAnrg4" resolve="rowDefinition" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -3341,28 +3362,6 @@
   <node concept="24kQdi" id="6yyqi$iVTHY">
     <property role="3GE5qa" value="viewcomponents.listview" />
     <ref role="1XX52x" to="6ap2:6yyqi$iVArY" resolve="ListViewComponent" />
-    <node concept="3EZMnI" id="6yyqi$iVTI0" role="6VMZX">
-      <node concept="l2Vlx" id="6yyqi$iVTI1" role="2iSdaV" />
-      <node concept="PMmxH" id="6yyqi$iVTI2" role="3EZMnx">
-        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
-      </node>
-      <node concept="PMmxH" id="6yyqi$iVTI3" role="3EZMnx">
-        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="ListComponentBase_supportsUpdatingFlag" />
-        <node concept="pVoyu" id="6yyqi$iVTI4" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="6yyqi$iY$bo" role="3EZMnx">
-        <property role="3F0ifm" value="sample element:" />
-        <node concept="pVoyu" id="6yyqi$iY$bF" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="6yyqi$iY$b$" role="3EZMnx">
-        <property role="1O74Pk" value="true" />
-        <ref role="1NtTu8" to="6ap2:6yyqi$iYzXK" resolve="sampleElement" />
-      </node>
-    </node>
     <node concept="3EZMnI" id="6yyqi$iVXv2" role="2wV5jI">
       <node concept="3F0ifn" id="6yyqi$iVXv3" role="3EZMnx">
         <property role="3F0ifm" value="list view" />
@@ -3371,21 +3370,38 @@
       <node concept="3F0A7n" id="6yyqi$iVXv4" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
-      <node concept="3gTLQM" id="6yyqi$iY9Dv" role="3EZMnx">
-        <node concept="3Fmcul" id="6yyqi$iY9Dx" role="3FoqZy">
-          <node concept="3clFbS" id="6yyqi$iY9Dz" role="2VODD2">
-            <node concept="3clFbF" id="6yyqi$iY9KI" role="3cqZAp">
-              <node concept="2OqwBi" id="6yyqi$iYa4j" role="3clFbG">
-                <node concept="pncrf" id="6yyqi$iY9KH" role="2Oq$k0" />
-                <node concept="2qgKlT" id="6yyqi$iYau0" role="2OqNvi">
-                  <ref role="37wK5l" to="hhvz:2Yd1qrJOWqT" resolve="makeSwingComponent" />
-                </node>
+      <node concept="3F1sOY" id="QFw6_ykmNg" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:5cbOqfAnxJO" resolve="rowsFeature" />
+      </node>
+      <node concept="2iRfu4" id="6yyqi$iVXv6" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="QFw6_ykmEj" role="6VMZX">
+      <node concept="l2Vlx" id="QFw6_ykmEk" role="2iSdaV" />
+      <node concept="PMmxH" id="QFw6_ykmEl" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="1iCGBv" id="QFw6_ykmEm" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:5cbOqfAnxJO" resolve="rowsFeature" />
+        <node concept="1sVBvm" id="QFw6_ykmEn" role="1sWHZn">
+          <node concept="1iCGBv" id="QFw6_ykmEo" role="2wV5jI">
+            <ref role="1NtTu8" to="6ap2:5cbOqfAnrg4" resolve="rowDefinition" />
+            <node concept="1sVBvm" id="QFw6_ykmEp" role="1sWHZn">
+              <node concept="PMmxH" id="QFw6_ykmEq" role="2wV5jI">
+                <ref role="PMmxG" node="5Nv$Fuak4bB" resolve="TableRowComponent_details_EditorComponent" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="pVoyu" id="QFw6_ykmEr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
-      <node concept="2iRfu4" id="6yyqi$iVXv6" role="2iSdaV" />
+      <node concept="PMmxH" id="QFw6_ykmEs" role="3EZMnx">
+        <ref role="PMmxG" node="5TZVz1z1tBv" resolve="ListComponentBase_supportsUpdatingFlag" />
+        <node concept="pVoyu" id="QFw6_ykmEt" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6z57CtsqlSU">

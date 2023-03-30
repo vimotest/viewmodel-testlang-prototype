@@ -1097,21 +1097,7 @@
     <property role="EcuMT" value="7539704351305137404" />
     <property role="3GE5qa" value="assert.listview" />
     <property role="TrG5h" value="ListCheck" />
-    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
-    <node concept="1TJgyj" id="6yyqi$j0BNX" role="1TKVEi">
-      <property role="IQ2ns" value="7539704351305137405" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="checkValues" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6yyqi$j0BNZ" resolve="IListCheckValue" />
-    </node>
-    <node concept="1TJgyj" id="6yyqi$j0BNY" role="1TKVEi">
-      <property role="IQ2ns" value="7539704351305137406" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="rowChecks" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6yyqi$j0BO1" resolve="ListRowCheck" />
-    </node>
+    <ref role="1TJDcQ" node="5WrZkWQpyWX" resolve="TableCheck" />
   </node>
   <node concept="PlHQZ" id="6yyqi$j0BNZ">
     <property role="EcuMT" value="7539704351305137407" />

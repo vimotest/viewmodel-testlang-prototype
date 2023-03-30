@@ -583,5 +583,9 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="QFw6_ykldB">
+    <property role="3GE5qa" value="viewcomponents.listview" />
+    <ref role="1M2myG" to="6ap2:6yyqi$iVArY" resolve="ListViewComponent" />
+  </node>
 </model>
 
