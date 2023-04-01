@@ -44,6 +44,15 @@
       <concept id="6692228888292391868" name="ViewModelLanguage.structure.ColorValue" flags="ng" index="3mAu$b">
         <property id="6692228888292392424" name="colorLiteral" index="3mAuXv" />
       </concept>
+      <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
+        <property id="7497173622928850064" name="path" index="1u4ncw" />
+      </concept>
+      <concept id="7497173622928201774" name="ViewModelLanguage.structure.ImagePool" flags="ng" index="1u6Luu">
+        <child id="7497173622928201831" name="images" index="1u6Lvn" />
+      </concept>
+      <concept id="7497173622928201775" name="ViewModelLanguage.structure.Image" flags="ng" index="1u6Luv">
+        <child id="7497173622928203553" name="source" index="1u6L2h" />
+      </concept>
       <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_">
         <child id="3011041337510922390" name="textFeature" index="27$_qM" />
         <child id="2194160217324893899" name="colorFeature" index="2NwCZs" />
@@ -252,6 +261,116 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1u6Luu" id="43lx_5lfZPX">
+    <node concept="1u6Luv" id="43lx_5ljN6w" role="1u6Lvn">
+      <property role="TrG5h" value="stop" />
+      <node concept="1u4ncX" id="43lx_5ljN6y" role="1u6L2h">
+        <property role="1u4ncw" value="images/stop.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN6$" role="1u6Lvn">
+      <property role="TrG5h" value="sync" />
+      <node concept="1u4ncX" id="43lx_5ljN6A" role="1u6L2h">
+        <property role="1u4ncw" value="images/sync.png" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN6C" role="1u6Lvn">
+      <property role="TrG5h" value="search" />
+      <node concept="1u4ncX" id="43lx_5ljN6E" role="1u6L2h">
+        <property role="1u4ncw" value="images/search.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN6G" role="1u6Lvn">
+      <property role="TrG5h" value="stop_d" />
+      <node concept="1u4ncX" id="43lx_5ljN6I" role="1u6L2h">
+        <property role="1u4ncw" value="images/stop_d.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN6K" role="1u6Lvn">
+      <property role="TrG5h" value="sync_d" />
+      <node concept="1u4ncX" id="43lx_5ljN6M" role="1u6L2h">
+        <property role="1u4ncw" value="images/sync_d.png" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN6O" role="1u6Lvn">
+      <property role="TrG5h" value="options" />
+      <node concept="1u4ncX" id="43lx_5ljN6Q" role="1u6L2h">
+        <property role="1u4ncw" value="images/options.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN6S" role="1u6Lvn">
+      <property role="TrG5h" value="search_d" />
+      <node concept="1u4ncX" id="43lx_5ljN6U" role="1u6L2h">
+        <property role="1u4ncw" value="images/search_d.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN6W" role="1u6Lvn">
+      <property role="TrG5h" value="options_d" />
+      <node concept="1u4ncX" id="43lx_5ljN6Y" role="1u6L2h">
+        <property role="1u4ncw" value="images/options_d.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN70" role="1u6Lvn">
+      <property role="TrG5h" value="add_account" />
+      <node concept="1u4ncX" id="43lx_5ljN72" role="1u6L2h">
+        <property role="1u4ncw" value="images/add_account.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN74" role="1u6Lvn">
+      <property role="TrG5h" value="edit_account" />
+      <node concept="1u4ncX" id="43lx_5ljN76" role="1u6L2h">
+        <property role="1u4ncw" value="images/edit_account.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN78" role="1u6Lvn">
+      <property role="TrG5h" value="add_account_d" />
+      <node concept="1u4ncX" id="43lx_5ljN7a" role="1u6L2h">
+        <property role="1u4ncw" value="images/add_account_d.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN7c" role="1u6Lvn">
+      <property role="TrG5h" value="copy_password" />
+      <node concept="1u4ncX" id="43lx_5ljN7e" role="1u6L2h">
+        <property role="1u4ncw" value="images/copy_password.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN7g" role="1u6Lvn">
+      <property role="TrG5h" value="copy_username" />
+      <node concept="1u4ncX" id="43lx_5ljN7i" role="1u6L2h">
+        <property role="1u4ncw" value="images/copy_username.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN7k" role="1u6Lvn">
+      <property role="TrG5h" value="delete_account" />
+      <node concept="1u4ncX" id="43lx_5ljN7m" role="1u6L2h">
+        <property role="1u4ncw" value="images/delete_account.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN7o" role="1u6Lvn">
+      <property role="TrG5h" value="edit_account_d" />
+      <node concept="1u4ncX" id="43lx_5ljN7q" role="1u6L2h">
+        <property role="1u4ncw" value="images/edit_account_d.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN7s" role="1u6Lvn">
+      <property role="TrG5h" value="copy_password_d" />
+      <node concept="1u4ncX" id="43lx_5ljN7u" role="1u6L2h">
+        <property role="1u4ncw" value="images/copy_password_d.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5ljN7w" role="1u6Lvn">
+      <property role="TrG5h" value="copy_username_d" />
+      <node concept="1u4ncX" id="43lx_5ljN7y" role="1u6L2h">
+        <property role="1u4ncw" value="images/copy_username_d.gif" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="43lx_5lkoZt" role="1u6Lvn">
+      <property role="TrG5h" value="delete_account_d" />
+      <node concept="1u4ncX" id="43lx_5lkoZv" role="1u6L2h">
+        <property role="1u4ncw" value="images/delete_account_d.gif" />
       </node>
     </node>
   </node>
