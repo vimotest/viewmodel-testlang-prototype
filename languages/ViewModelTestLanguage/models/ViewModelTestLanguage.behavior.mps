@@ -398,6 +398,14 @@
       </concept>
       <concept id="3358009230508699637" name="jetbrains.mps.baseLanguage.collections.structure.PopOperation" flags="nn" index="2AryhJ" />
       <concept id="3358009230508699932" name="jetbrains.mps.baseLanguage.collections.structure.PushOperation" flags="nn" index="2ArzE6" />
+      <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
+        <child id="1153944400369" name="variable" index="2Gsz3X" />
+        <child id="1153944424730" name="inputSequence" index="2GsD0m" />
+      </concept>
+      <concept id="1153944193378" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" flags="nr" index="2GrKxI" />
+      <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
+        <reference id="1153944258490" name="variable" index="2Gs0qQ" />
+      </concept>
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435807" name="elementType" index="HW$YZ" />
         <child id="1237731803878" name="copyFrom" index="I$8f6" />
@@ -486,6 +494,37 @@
                   <ref role="3TsBF5" to="l8rz:2Yd1qrJONfX" resolve="sensitivity" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="1o_uqzzT$SU" role="3cqZAp">
+          <node concept="2GrKxI" id="1o_uqzzT$SW" role="2Gsz3X">
+            <property role="TrG5h" value="child" />
+          </node>
+          <node concept="3clFbS" id="1o_uqzzT$T0" role="2LFqv$">
+            <node concept="3clFbF" id="1o_uqzzT_l_" role="3cqZAp">
+              <node concept="2OqwBi" id="1o_uqzzT_D9" role="3clFbG">
+                <node concept="2GrUjf" id="1o_uqzzT_l$" role="2Oq$k0">
+                  <ref role="2Gs0qQ" node="1o_uqzzT$SW" resolve="child" />
+                </node>
+                <node concept="liA8E" id="1o_uqzzTA43" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~Component.setEnabled(boolean)" resolve="setEnabled" />
+                  <node concept="2OqwBi" id="1o_uqzzTA98" role="37wK5m">
+                    <node concept="13iPFW" id="1o_uqzzTA99" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="1o_uqzzTA9a" role="2OqNvi">
+                      <ref role="3TsBF5" to="l8rz:2Yd1qrJONfX" resolve="sensitivity" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1o_uqzzTzMf" role="2GsD0m">
+            <node concept="37vLTw" id="1o_uqzzTz25" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Yd1qrJOQfT" resolve="button" />
+            </node>
+            <node concept="liA8E" id="1o_uqzzT$F9" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.getComponents()" resolve="getComponents" />
             </node>
           </node>
         </node>

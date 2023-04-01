@@ -350,6 +350,7 @@
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
       <concept id="6870613620390542976" name="jetbrains.mps.lang.smodel.structure.ConceptAliasOperation" flags="ng" index="3n3YKJ" />
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -2582,6 +2583,51 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="1o_uqzzREv7" role="3cqZAp">
+              <node concept="3clFbS" id="1o_uqzzREv9" role="3clFbx">
+                <node concept="3cpWs8" id="1o_uqzzRFZ7" role="3cqZAp">
+                  <node concept="3cpWsn" id="1o_uqzzRFZ8" role="3cpWs9">
+                    <property role="TrG5h" value="disabledIcon" />
+                    <node concept="3uibUv" id="1o_uqzzRFWn" role="1tU5fm">
+                      <ref role="3uigEE" node="5Xz9Npkd5Iv" resolve="ImageIconWrapper" />
+                    </node>
+                    <node concept="2OqwBi" id="1o_uqzzRFZ9" role="33vP2m">
+                      <node concept="2OqwBi" id="1o_uqzzRFZa" role="2Oq$k0">
+                        <node concept="13iPFW" id="1o_uqzzRFZb" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="1o_uqzzRFZc" role="2OqNvi">
+                          <ref role="3Tt5mk" to="6ap2:1o_uqzzR_sp" resolve="disabledSource" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="1o_uqzzRFZd" role="2OqNvi">
+                        <ref role="37wK5l" node="5WrZkWQ81oz" resolve="createImage" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1o_uqzzRHhn" role="3cqZAp">
+                  <node concept="2OqwBi" id="1o_uqzzRHV0" role="3clFbG">
+                    <node concept="37vLTw" id="1o_uqzzRHhl" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6wbjV0Q4KEL" resolve="imageLabel" />
+                    </node>
+                    <node concept="liA8E" id="1o_uqzzRIAT" role="2OqNvi">
+                      <ref role="37wK5l" to="dxuu:~JLabel.setDisabledIcon(javax.swing.Icon)" resolve="setDisabledIcon" />
+                      <node concept="37vLTw" id="1o_uqzzRJ6U" role="37wK5m">
+                        <ref role="3cqZAo" node="1o_uqzzRFZ8" resolve="disabledIcon" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1o_uqzzRFh9" role="3clFbw">
+                <node concept="2OqwBi" id="1o_uqzzREPl" role="2Oq$k0">
+                  <node concept="13iPFW" id="1o_uqzzREB6" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1o_uqzzRF5t" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6ap2:1o_uqzzR_sp" resolve="disabledSource" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="1o_uqzzRFwx" role="2OqNvi" />
               </node>
             </node>
             <node concept="3cpWs6" id="6wbjV0Q4KEQ" role="3cqZAp">
