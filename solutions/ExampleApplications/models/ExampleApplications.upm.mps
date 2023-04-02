@@ -23,7 +23,9 @@
       </concept>
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
-      <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts" />
+      <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts">
+        <property id="3011041337510726009" name="text" index="27$ltt" />
+      </concept>
       <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
         <child id="4143793920074545904" name="children" index="2HXGLH" />
       </concept>
@@ -42,11 +44,17 @@
         <property id="985022133620101261" name="isSingleCell" index="1JYl3$" />
         <child id="5984107031766610948" name="rowDefinition" index="2PlAmB" />
       </concept>
+      <concept id="5984107031776721519" name="ViewModelLanguage.structure.CheckVCFeature" flags="ng" index="2PZ2Jc" />
       <concept id="788638163497079861" name="ViewModelLanguage.structure.ListComponentBase" flags="ng" index="XvDCe">
         <property id="788638163497081376" name="supportsUpdatingFlag" index="XvDgr" />
       </concept>
       <concept id="6743755284664566090" name="ViewModelLanguage.structure.LoadViewEvent" flags="ng" index="3f3I3T" />
+      <concept id="6743755284663479730" name="ViewModelLanguage.structure.FillTextEvent" flags="ng" index="3f4gK1" />
+      <concept id="6743755284663291311" name="ViewModelLanguage.structure.ClickEvent" flags="ng" index="3f4AKs" />
       <concept id="6743755284663983729" name="ViewModelLanguage.structure.SelectRowEvent" flags="ng" index="3f6vZ2" />
+      <concept id="6743755284656506190" name="ViewModelLanguage.structure.TextBoxComponent" flags="ng" index="3fyYjX">
+        <child id="6743755284656506191" name="textFeature" index="3fyYjW" />
+      </concept>
       <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
       <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
         <reference id="6743755284662355549" name="component" index="3fS2vI" />
@@ -74,11 +82,16 @@
         <child id="6692228888293030818" name="rowColorFeature" index="3mzU$l" />
         <child id="6853349774625913248" name="cells" index="1D3OjJ" />
       </concept>
+      <concept id="4321216645070110073" name="ViewModelLanguage.structure.ButtonComponent" flags="ng" index="3H4brt" />
       <concept id="4321216645070212552" name="ViewModelLanguage.structure.ViewComponent" flags="ng" index="3H4$pG">
         <child id="5984107031764840546" name="visibilityFeature" index="2Pim71" />
         <child id="5984107031764840544" name="sensitivityFeature" index="2Pim73" />
         <child id="5984107031764840549" name="nameFeature" index="2Pim76" />
       </concept>
+      <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb">
+        <child id="5984107031776721828" name="checkFeature" index="2PZ2C7" />
+      </concept>
+      <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym">
         <property id="6743755284663297273" name="hasParameters" index="3f4$la" />
       </concept>
@@ -701,6 +714,164 @@
         <property role="1u4ncw" value="images/delete_account_d.gif" />
       </node>
     </node>
+  </node>
+  <node concept="3H8XyA" id="skyIo3yPLu">
+    <property role="TrG5h" value="AccountDetailsView" />
+    <node concept="3H8Xy_" id="skyIo3yPLv" role="3H8Xyx">
+      <node concept="3fyYjX" id="skyIo3yQco" role="2P43km">
+        <node concept="27$lts" id="skyIo3yQcp" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="del.icio.us" />
+        </node>
+        <node concept="2Pim7P" id="skyIo3yQcq" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="skyIo3yQcr" role="2Pim71" />
+        <node concept="2Pim7H" id="skyIo3yQcs" role="2Pim76">
+          <property role="2PigPS" value="AccountName" />
+        </node>
+      </node>
+      <node concept="3fyYjX" id="skyIo3yQfc" role="2P43km">
+        <node concept="27$lts" id="skyIo3yQfd" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="asmith" />
+        </node>
+        <node concept="2Pim7P" id="skyIo3yQfe" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="skyIo3yQff" role="2Pim71" />
+        <node concept="2Pim7H" id="skyIo3yQfg" role="2Pim76">
+          <property role="2PigPS" value="UserId" />
+        </node>
+      </node>
+      <node concept="2HXGLM" id="skyIo3zf_9" role="2P43km">
+        <node concept="2Pim7P" id="skyIo3zf_f" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="skyIo3zf_l" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="skyIo3zf_r" role="2Pim76">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3fyYjX" id="skyIo3yQgK" role="2HXGLH">
+          <node concept="27$lts" id="skyIo3yQgL" role="3fyYjW">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7P" id="skyIo3yQgM" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="skyIo3yQgN" role="2Pim71" />
+          <node concept="2Pim7H" id="skyIo3yQgO" role="2Pim76">
+            <property role="2PigPS" value="Password" />
+          </node>
+        </node>
+        <node concept="3H4brt" id="skyIo3zfCN" role="2HXGLH">
+          <node concept="2Pim7P" id="skyIo3zfCS" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="skyIo3zfCX" role="2Pim71" />
+          <node concept="2Pim7H" id="skyIo3zfD2" role="2Pim76">
+            <property role="2PigPS" value="Generate" />
+          </node>
+        </node>
+        <node concept="3H4CWb" id="skyIo3$bsN" role="2HXGLH">
+          <node concept="2PZ2Jc" id="skyIo3$bsS" role="2PZ2C7">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7P" id="skyIo3$bsX" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="skyIo3$bt2" role="2Pim71" />
+          <node concept="2Pim7H" id="skyIo3$bt7" role="2Pim76">
+            <property role="2PigPS" value="Hide" />
+          </node>
+        </node>
+      </node>
+      <node concept="3fyYjX" id="skyIo3$bvJ" role="2P43km">
+        <node concept="27$lts" id="skyIo3$bvL" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="http://del.icio.us" />
+        </node>
+        <node concept="2Pim7P" id="skyIo3$bvN" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="skyIo3$bvP" role="2Pim71" />
+        <node concept="2Pim7H" id="skyIo3$bvR" role="2Pim76">
+          <property role="2PigPS" value="Url" />
+        </node>
+      </node>
+      <node concept="3fyYjX" id="skyIo3$b$9" role="2P43km">
+        <node concept="27$lts" id="skyIo3$b$b" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="Some Notes" />
+        </node>
+        <node concept="2Pim7P" id="skyIo3$b$d" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="skyIo3$b$f" role="2Pim71" />
+        <node concept="2Pim7H" id="skyIo3$b$h" role="2Pim76">
+          <property role="2PigPS" value="Notes" />
+        </node>
+      </node>
+    </node>
+    <node concept="3f3I3T" id="skyIo3$bE5" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+    </node>
+    <node concept="3f4AKs" id="skyIo3$bDP" role="3H8Xyh">
+      <property role="TrG5h" value="GenerateClicked" />
+      <ref role="3fS2vI" node="skyIo3zfCN" resolve="Generate" />
+    </node>
+    <node concept="3f4gK1" id="skyIo3$bDQ" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="AccountNameFilled" />
+      <ref role="3fS2vI" node="skyIo3yQco" resolve="AccountName" />
+      <node concept="2P4x69" id="skyIo3$bDR" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="skyIo3$bDS" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="skyIo3$bDT" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="UserIdFilled" />
+      <ref role="3fS2vI" node="skyIo3yQfc" resolve="UserId" />
+      <node concept="2P4x69" id="skyIo3$bDU" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="skyIo3$bDV" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="skyIo3$bDW" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="PasswordFilled" />
+      <ref role="3fS2vI" node="skyIo3yQgK" resolve="Password" />
+      <node concept="2P4x69" id="skyIo3$bDX" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="skyIo3$bDY" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="skyIo3$bDZ" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="UrlFilled" />
+      <ref role="3fS2vI" node="skyIo3$bvJ" resolve="Url" />
+      <node concept="2P4x69" id="skyIo3$bE0" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="skyIo3$bE1" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="skyIo3$bE2" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="NotesFilled" />
+      <ref role="3fS2vI" node="skyIo3$b$9" resolve="Notes" />
+      <node concept="2P4x69" id="skyIo3$bE3" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="skyIo3$bE4" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3H8Xwz" id="skyIo3$bET" role="3H8Xyh" />
+  </node>
+  <node concept="30n1Qd" id="3OXozfJFgcF">
+    <property role="TrG5h" value="AccountDetailsViewTests" />
+    <ref role="30n1PB" node="skyIo3yPLu" resolve="AccountDetailsView" />
   </node>
 </model>
 
