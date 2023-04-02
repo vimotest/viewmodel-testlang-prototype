@@ -567,6 +567,36 @@
       </node>
       <node concept="3cqZAl" id="zI3UExNLNr" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="4kXwATF_5QX" role="13h7CS">
+      <property role="TrG5h" value="modifyTextField" />
+      <ref role="13i0hy" node="5QmCrei7Yq2" resolve="modifyTextField" />
+      <node concept="3Tm1VV" id="4kXwATF_5R0" role="1B3o_S" />
+      <node concept="3clFbS" id="4kXwATF_5R3" role="3clF47">
+        <node concept="3clFbF" id="4kXwATF_94t" role="3cqZAp">
+          <node concept="2OqwBi" id="4kXwATF_94u" role="3clFbG">
+            <node concept="37vLTw" id="4kXwATF_94v" role="2Oq$k0">
+              <ref role="3cqZAo" node="4kXwATF_5R4" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="4kXwATF_94w" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setEnabled(boolean)" resolve="setEnabled" />
+              <node concept="2OqwBi" id="4kXwATF_94x" role="37wK5m">
+                <node concept="13iPFW" id="4kXwATF_94y" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4kXwATF_94z" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:2Yd1qrJONfX" resolve="sensitivity" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4kXwATF_5R4" role="3clF46">
+        <property role="TrG5h" value="textField" />
+        <node concept="3uibUv" id="4kXwATF_5R5" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4kXwATF_5R6" role="3clF45" />
+    </node>
     <node concept="13i0hz" id="zI3UExNOdY" role="13h7CS">
       <property role="TrG5h" value="modifyTable" />
       <ref role="13i0hy" node="zI3UExNNsJ" resolve="modifyTable" />
@@ -11539,10 +11569,9 @@
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="modifyListBox" />
       <node concept="37vLTG" id="5s8GqxccqRI" role="3clF46">
-        <property role="TrG5h" value="listBox" />
-        <node concept="3uibUv" id="5s8GqxccqRW" role="1tU5fm">
-          <ref role="3uigEE" to="dxuu:~JList" resolve="JList" />
-          <node concept="17QB3L" id="5s8GqxccqSq" role="11_B2D" />
+        <property role="TrG5h" value="listBoxTable" />
+        <node concept="3uibUv" id="4kXwATF_cKC" role="1tU5fm">
+          <ref role="3uigEE" to="hhvz:7kmg1RAE35N" resolve="JColoredRowsTable" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5s8GqxccqRc" role="1B3o_S" />
