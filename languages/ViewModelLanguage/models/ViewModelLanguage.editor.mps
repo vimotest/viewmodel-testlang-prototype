@@ -362,6 +362,10 @@
         <child id="8215612579904156902" name="label" index="2fqkNU" />
         <child id="1340057216891284122" name="ui" index="1563LE" />
       </concept>
+      <concept id="1340057216891283515" name="jetbrains.mps.lang.editor.forms.structure.CheckboxUI_Text" flags="ng" index="1563Vb">
+        <property id="1340057216891283520" name="falseText" index="1563UK" />
+        <property id="1340057216891283518" name="trueText" index="1563Ve" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
@@ -2039,7 +2043,10 @@
       <node concept="2iRfu4" id="5cbOqfAiITt" role="2iSdaV" />
       <node concept="2yq9I_" id="5cbOqfAgHN0" role="3EZMnx">
         <ref role="225u1j" to="6ap2:5cbOqfAgHMA" resolve="supported" />
-        <node concept="jv8YD" id="3VvzM8ubmUq" role="1563LE" />
+        <node concept="1563Vb" id="skyIo3zfXJ" role="1563LE">
+          <property role="1563UK" value="[ ]" />
+          <property role="1563Ve" value="[x]" />
+        </node>
         <node concept="3EZMnI" id="5cbOqfAgHN7" role="2fqkNU">
           <node concept="2iRfu4" id="5cbOqfAgHN8" role="2iSdaV" />
           <node concept="PMmxH" id="5cbOqfAgHNg" role="3EZMnx">
