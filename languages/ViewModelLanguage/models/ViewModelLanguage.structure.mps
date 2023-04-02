@@ -913,5 +913,12 @@
     <property role="34LRSv" value="command" />
     <ref role="1TJDcQ" node="3JS2UjmQXcM" resolve="ViewInput" />
   </node>
+  <node concept="1TIwiD" id="4kXwATFEOnI">
+    <property role="EcuMT" value="4989287372960777710" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="CheckEvent" />
+    <property role="34LRSv" value="check event" />
+    <ref role="1TJDcQ" node="5QmCreixcQJ" resolve="ClickEvent" />
+  </node>
 </model>
 
