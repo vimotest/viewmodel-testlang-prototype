@@ -8,6 +8,7 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -17,6 +18,7 @@
       <concept id="5878168047017091882" name="SimpleTypeLanguage.structure.StructType" flags="ng" index="2P4x6r">
         <child id="5878168047017215911" name="contents" index="2P43km" />
       </concept>
+      <concept id="5878168047017124641" name="SimpleTypeLanguage.structure.BoolType" flags="ng" index="2P4D6g" />
       <concept id="5878168047017124640" name="SimpleTypeLanguage.structure.StringType" flags="ng" index="2P4D6h" />
       <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
         <child id="5878168047017276966" name="type" index="2P5Oin" />
@@ -32,6 +34,7 @@
       <concept id="4143793920074732899" name="ViewModelLanguage.structure.ImageButtonComponent" flags="ng" index="2HYYfY">
         <reference id="4143793920074734847" name="image" index="2HYYDy" />
       </concept>
+      <concept id="4989287372960777710" name="ViewModelLanguage.structure.CheckEvent" flags="ng" index="I_Gu0" />
       <concept id="5984107031764840468" name="ViewModelLanguage.structure.ViewComponentFeature" flags="ng" index="2Pim6R">
         <property id="5984107031764851878" name="supported" index="2PigO5" />
       </concept>
@@ -122,6 +125,7 @@
         <child id="3426401106045796780" name="objects" index="30k8ga" />
       </concept>
       <concept id="3426401106045796685" name="ViewModelTestLanguage.structure.Object" flags="ng" index="30k8jF">
+        <property id="1519488183373440540" name="displayVertical" index="3ntIxJ" />
         <child id="3426401106045796730" name="properties" index="30k8js" />
       </concept>
       <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.SimpleValueProperty" flags="ng" index="30k8jQ">
@@ -166,11 +170,20 @@
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
       </concept>
+      <concept id="6743755284656668768" name="ViewModelTestLanguage.structure.TextBoxCheck" flags="ng" index="3fym7j">
+        <child id="6743755284656668769" name="checks" index="3fym7i" />
+      </concept>
       <concept id="6743755284661307780" name="ViewModelTestLanguage.structure.SelectedIndexCheckValue" flags="ng" index="3fW2wR">
         <property id="6743755284661307781" name="selectedIndex" index="3fW2wQ" />
       </concept>
       <concept id="1519488183372569234" name="ViewModelTestLanguage.structure.Array" flags="ng" index="3nhhjx">
         <child id="1519488183372569237" name="objects" index="3nhhjA" />
+      </concept>
+      <concept id="7497173622926527144" name="ViewModelTestLanguage.structure.CheckedCheckValue" flags="ng" index="1tZoko">
+        <property id="7497173622926527147" name="checked" index="1tZokr" />
+      </concept>
+      <concept id="7497173622926526731" name="ViewModelTestLanguage.structure.CheckBoxCheck" flags="ng" index="1tZoqV">
+        <child id="7497173622926527123" name="checks" index="1tZokz" />
       </concept>
       <concept id="7497173622927425563" name="ViewModelTestLanguage.structure.TableCellCheck" flags="ng" index="1u3WYF">
         <child id="7497173622927425564" name="viewComponentCheck" index="1u3WYG" />
@@ -867,11 +880,205 @@
         <node concept="2P4D6h" id="skyIo3$bE4" role="2P5Oin" />
       </node>
     </node>
-    <node concept="3H8Xwz" id="skyIo3$bET" role="3H8Xyh" />
+    <node concept="I_Gu0" id="4kXwATFF52b" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="HideChecked" />
+      <ref role="3fS2vI" node="skyIo3$bsN" resolve="Hide" />
+      <node concept="2P4x69" id="4kXwATFF52c" role="2P43km">
+        <property role="TrG5h" value="isChecked" />
+        <node concept="2P4D6g" id="4kXwATFF52d" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3H8Xwz" id="4kXwATFF52z" role="3H8Xyh" />
   </node>
   <node concept="30n1Qd" id="3OXozfJFgcF">
     <property role="TrG5h" value="AccountDetailsViewTests" />
     <ref role="30n1PB" node="skyIo3yPLu" resolve="AccountDetailsView" />
+    <node concept="30n1Qa" id="4kXwATFz71v" role="30n1Qb">
+      <node concept="30nyDl" id="4kXwATFz71w" role="30nziG">
+        <node concept="30nyDi" id="4kXwATFz71x" role="30nyDj">
+          <property role="30lZVK" value="Account with name, userId, password, url" />
+        </node>
+        <node concept="30nyDi" id="4kXwATFz71y" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4kXwATFz71z" role="30nyDs">
+          <property role="30lZVK" value="Textboxes show values" />
+        </node>
+        <node concept="30nyDi" id="4kXwATFzdBE" role="30nyDs">
+          <property role="30lZVK" value="password is hidden by default" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="4kXwATFz71J" role="30nziE">
+        <node concept="30k8jF" id="4kXwATFz71M" role="30k8ga">
+          <property role="TrG5h" value="database" />
+          <node concept="3nhhjx" id="4kXwATFz71N" role="30k8js">
+            <property role="TrG5h" value="accounts" />
+            <node concept="30k8jF" id="4kXwATFz71O" role="3nhhjA">
+              <property role="3ntIxJ" value="true" />
+              <node concept="30k8jQ" id="4kXwATFz71P" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="del.icio.us" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4kXwATFzdB6" role="30k8js">
+                <property role="TrG5h" value="userId" />
+                <property role="30k8jP" value="smith" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4kXwATFzdBo" role="30k8js">
+                <property role="TrG5h" value="password" />
+                <property role="30k8jP" value="my-secret" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4kXwATFzdBe" role="30k8js">
+                <property role="TrG5h" value="url" />
+                <property role="30k8jP" value="http://del.icio.us" />
+                <property role="3nhnwH" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="4kXwATFz722" role="30nzo2">
+        <ref role="30nziQ" node="skyIo3$bE5" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="4kXwATFzdBH" role="30nzpy">
+        <ref role="30nzpS" node="skyIo3yQco" resolve="AccountName" />
+        <node concept="3fym7j" id="4kXwATFzdBM" role="30nDbQ">
+          <node concept="30nz6$" id="4kXwATFzdBR" role="3fym7i">
+            <property role="30nz6_" value="del.icio.us" />
+          </node>
+          <node concept="30nzps" id="4kXwATF_Ue_" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4kXwATFzdBU" role="30nzpy">
+        <ref role="30nzpS" node="skyIo3yQfc" resolve="UserId" />
+        <node concept="3fym7j" id="4kXwATFzdBV" role="30nDbQ">
+          <node concept="30nz6$" id="4kXwATFzdBW" role="3fym7i">
+            <property role="30nz6_" value="smith" />
+          </node>
+          <node concept="30nzps" id="4kXwATF_UeD" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="4kXwATF_Ugg" role="30nzpy">
+        <node concept="30nzp_" id="4kXwATF_UeG" role="2QbW$V">
+          <ref role="30nzpS" node="skyIo3yQgK" resolve="Password" />
+          <node concept="3fym7j" id="4kXwATF_UeH" role="30nDbQ">
+            <node concept="30nz6$" id="4kXwATF_UeI" role="3fym7i">
+              <property role="30nz6_" value="••••••••" />
+            </node>
+            <node concept="30nzps" id="4kXwATF_UeJ" role="3fym7i" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="4kXwATF_Uha" role="2QbW$V">
+          <ref role="30nzpS" node="skyIo3zfCN" resolve="Generate" />
+          <node concept="30nzp7" id="4kXwATF_Uhm" role="30nDbQ">
+            <node concept="30nzps" id="4kXwATF_Uhn" role="30nzpp" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="4kXwATF_UgQ" role="2QbW$V">
+          <ref role="30nzpS" node="skyIo3$bsN" resolve="Hide" />
+          <node concept="1tZoqV" id="4kXwATF_UgX" role="30nDbQ">
+            <node concept="1tZoko" id="4kXwATF_UgY" role="1tZokz">
+              <property role="1tZokr" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4kXwATFDNSU" role="30nzpy">
+        <ref role="30nzpS" node="skyIo3$bvJ" resolve="Url" />
+        <node concept="3fym7j" id="4kXwATFDNSV" role="30nDbQ">
+          <node concept="30nz6$" id="4kXwATFDNSW" role="3fym7i">
+            <property role="30nz6_" value="http://del.icio.us" />
+          </node>
+          <node concept="30nzps" id="4kXwATFDNSX" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4kXwATFDNV8" role="30nzpy">
+        <ref role="30nzpS" node="skyIo3$b$9" resolve="Notes" />
+        <node concept="3fym7j" id="4kXwATFDNVy" role="30nDbQ">
+          <node concept="30nz6$" id="4kXwATFDNVA" role="3fym7i" />
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4kXwATFDNVD" role="30n1Qb">
+      <node concept="30nyDl" id="4kXwATFDNVE" role="30nziG">
+        <node concept="30nyDi" id="4kXwATFDNVF" role="30nyDj">
+          <property role="30lZVK" value="Account with name, userId, password, url" />
+        </node>
+        <node concept="30nyDi" id="4kXwATFDNVG" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4kXwATFDNX$" role="30nyDh">
+          <property role="30lZVK" value="Check hide checkbox" />
+        </node>
+        <node concept="30nyDi" id="4kXwATFDNVI" role="30nyDs">
+          <property role="30lZVK" value="password is shown in cleartext" />
+        </node>
+      </node>
+      <node concept="30nziD" id="4kXwATFDNVR" role="30nzo2">
+        <ref role="30nziQ" node="skyIo3$bE5" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="4kXwATFDNY8" role="30nzo2">
+        <ref role="30nziQ" node="4kXwATFF52b" resolve="HideChecked" />
+        <node concept="3clFbT" id="4kXwATFF53h" role="30nziO" />
+      </node>
+      <node concept="2QbWKJ" id="4kXwATFDNW0" role="30nzpy">
+        <node concept="30nzp_" id="4kXwATFDNW1" role="2QbW$V">
+          <ref role="30nzpS" node="skyIo3yQgK" resolve="Password" />
+          <node concept="3fym7j" id="4kXwATFDNW2" role="30nDbQ">
+            <node concept="30nz6$" id="4kXwATFDNW3" role="3fym7i">
+              <property role="30nz6_" value="my-secret" />
+            </node>
+            <node concept="30nzps" id="4kXwATFDNW4" role="3fym7i" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="4kXwATFDNW5" role="2QbW$V">
+          <ref role="30nzpS" node="skyIo3zfCN" resolve="Generate" />
+          <node concept="30nzp7" id="4kXwATFDNW6" role="30nDbQ">
+            <node concept="30nzps" id="4kXwATFDNW7" role="30nzpp" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="4kXwATFDNW8" role="2QbW$V">
+          <ref role="30nzpS" node="skyIo3$bsN" resolve="Hide" />
+          <node concept="1tZoqV" id="4kXwATFDNW9" role="30nDbQ">
+            <node concept="1tZoko" id="4kXwATFDNWa" role="1tZokz" />
+          </node>
+        </node>
+      </node>
+      <node concept="30k8jE" id="4kXwATFDNXO" role="30nziE">
+        <node concept="30k8jF" id="4kXwATFDNXR" role="30k8ga">
+          <property role="TrG5h" value="database" />
+          <node concept="3nhhjx" id="4kXwATFDNXS" role="30k8js">
+            <property role="TrG5h" value="accounts" />
+            <node concept="30k8jF" id="4kXwATFDNXT" role="3nhhjA">
+              <property role="3ntIxJ" value="true" />
+              <node concept="30k8jQ" id="4kXwATFDNXU" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="del.icio.us" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4kXwATFDNXV" role="30k8js">
+                <property role="TrG5h" value="userId" />
+                <property role="30k8jP" value="smith" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4kXwATFDNXW" role="30k8js">
+                <property role="TrG5h" value="password" />
+                <property role="30k8jP" value="my-secret" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4kXwATFDNXX" role="30k8js">
+                <property role="TrG5h" value="url" />
+                <property role="30k8jP" value="http://del.icio.us" />
+                <property role="3nhnwH" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
