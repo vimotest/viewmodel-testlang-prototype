@@ -7744,24 +7744,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="QFw6_ymp_L" role="3cqZAp" />
-        <node concept="2xdQw9" id="QFw6_ymaK9" role="3cqZAp">
-          <node concept="3cpWs3" id="QFw6_ymbcJ" role="9lYJi">
-            <node concept="Xl_RD" id="QFw6_ymaKb" role="3uHU7B">
-              <property role="Xl_RC" value="## " />
-            </node>
-            <node concept="2OqwBi" id="QFw6_ymbdg" role="3uHU7w">
-              <node concept="2OqwBi" id="QFw6_ymbdh" role="2Oq$k0">
-                <node concept="13iPFW" id="QFw6_ymbdi" role="2Oq$k0" />
-                <node concept="3TrEf2" id="QFw6_ymbdj" role="2OqNvi">
-                  <ref role="3Tt5mk" to="6ap2:5cbOqfAnxJO" resolve="rowsFeature" />
-                </node>
-              </node>
-              <node concept="3TrEf2" id="QFw6_ymbdk" role="2OqNvi">
-                <ref role="3Tt5mk" to="6ap2:5cbOqfAnrg4" resolve="rowDefinition" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="QFw6_ylnBh" role="3cqZAp">
           <node concept="3cpWsn" id="QFw6_ylnBi" role="3cpWs9">
             <property role="TrG5h" value="cell" />

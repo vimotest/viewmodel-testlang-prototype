@@ -1312,7 +1312,10 @@
     </node>
     <node concept="2yq9I_" id="1kmjBf2kNpz" role="6VMZX">
       <ref role="225u1j" to="l8rz:1kmjBf2kNpu" resolve="isStringLiteral" />
-      <node concept="jv8YD" id="1kmjBf2kNpE" role="1563LE" />
+      <node concept="1563Vb" id="2$XDRugByfm" role="1563LE">
+        <property role="1563UK" value="[ ]" />
+        <property role="1563Ve" value="[x]" />
+      </node>
       <node concept="3F0ifn" id="1kmjBf2kNpC" role="2fqkNU">
         <property role="3F0ifm" value="string literal" />
       </node>
