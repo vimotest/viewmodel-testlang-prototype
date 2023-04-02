@@ -129,6 +129,9 @@
       <concept id="1186414999511" name="jetbrains.mps.lang.editor.structure.UnderlinedStyleClassItem" flags="ln" index="VQ3r3">
         <property id="1214316229833" name="underlined" index="2USNnj" />
       </concept>
+      <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
+        <property id="1221209241505" name="value" index="1lJzqX" />
+      </concept>
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
         <child id="5991739802479788259" name="type" index="22hAXT" />
@@ -1953,7 +1956,6 @@
     <property role="3GE5qa" value="viewcomponents.layout" />
     <ref role="1XX52x" to="6ap2:3A1HDQktRFJ" resolve="HorizontalLayout" />
     <node concept="3EZMnI" id="3A1HDQkvFQ7" role="2wV5jI">
-      <node concept="2iRfu4" id="3A1HDQkvFQ8" role="2iSdaV" />
       <node concept="3EZMnI" id="3A1HDQktRFV" role="3EZMnx">
         <node concept="3F2HdR" id="3A1HDQktRG2" role="3EZMnx">
           <ref role="1NtTu8" to="6ap2:3A1HDQktRFK" resolve="children" />
@@ -1971,6 +1973,15 @@
           <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
+      <node concept="3F0ifn" id="skyIo3jLU_" role="3EZMnx">
+        <node concept="pVoyu" id="skyIo3jLX3" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VSNWy" id="QFw6_ytoe6" role="3F10Kt">
+          <property role="1lJzqX" value="4" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="skyIo3jLN5" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="3A1HDQku_xv">
