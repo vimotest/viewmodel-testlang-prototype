@@ -7,6 +7,11 @@
   </languages>
   <imports />
   <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+    </language>
     <language id="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60" name="SimpleTypeLanguage">
       <concept id="5878168047017091896" name="SimpleTypeLanguage.structure.Field" flags="ng" index="2P4x69" />
       <concept id="5878168047017091882" name="SimpleTypeLanguage.structure.StructType" flags="ng" index="2P4x6r">
@@ -42,17 +47,11 @@
       </concept>
       <concept id="6743755284664566090" name="ViewModelLanguage.structure.LoadViewEvent" flags="ng" index="3f3I3T" />
       <concept id="6743755284663983729" name="ViewModelLanguage.structure.SelectRowEvent" flags="ng" index="3f6vZ2" />
-      <concept id="6743755284656506190" name="ViewModelLanguage.structure.TextBoxComponent" flags="ng" index="3fyYjX">
-        <child id="6743755284656506191" name="textFeature" index="3fyYjW" />
-      </concept>
       <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
       <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
         <reference id="6743755284662355549" name="component" index="3fS2vI" />
       </concept>
       <concept id="6692228888293142975" name="ViewModelLanguage.structure.ColorVCFeature" flags="ng" index="3mzAc8" />
-      <concept id="6692228888292391868" name="ViewModelLanguage.structure.ColorValue" flags="ng" index="3mAu$b">
-        <property id="6692228888292392424" name="colorLiteral" index="3mAuXv" />
-      </concept>
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
         <property id="7497173622928850064" name="path" index="1u4ncw" />
       </concept>
@@ -103,16 +102,22 @@
       <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
         <child id="643469022294099062" name="checks" index="2D8cJs" />
       </concept>
-      <concept id="2424854242643129807" name="ViewModelTestLanguage.structure.ForegroundColorCheckValue" flags="ng" index="Psmnp">
-        <child id="2424854242643129810" name="color" index="Psmn4" />
-      </concept>
       <concept id="5057557679944221126" name="ViewModelTestLanguage.structure.HorizontalTestCaseAssertions" flags="ng" index="2QbWKJ">
         <child id="5057557679944221906" name="asserts" index="2QbW$V" />
       </concept>
       <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
         <child id="3426401106045796780" name="objects" index="30k8ga" />
       </concept>
-      <concept id="3426401106045796685" name="ViewModelTestLanguage.structure.Object" flags="ng" index="30k8jF" />
+      <concept id="3426401106045796685" name="ViewModelTestLanguage.structure.Object" flags="ng" index="30k8jF">
+        <child id="3426401106045796730" name="properties" index="30k8js" />
+      </concept>
+      <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.SimpleValueProperty" flags="ng" index="30k8jQ">
+        <property id="3426401106045796691" name="value" index="30k8jP" />
+        <property id="1519488183372559966" name="isStringLiteral" index="3nhnwH" />
+      </concept>
+      <concept id="3426401106045849608" name="ViewModelTestLanguage.structure.ContextReference" flags="ng" index="30kPmI">
+        <reference id="3426401106045849611" name="contextRef" index="30kPmH" />
+      </concept>
       <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
         <child id="3426401106045120780" name="context" index="30nziE" />
         <child id="3426401106045120778" name="description" index="30nziG" />
@@ -136,6 +141,7 @@
       </concept>
       <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.ViewInputCall" flags="ng" index="30nziD">
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
+        <child id="3426401106045120786" name="parameters" index="30nziO" />
       </concept>
       <concept id="3426401106045121505" name="ViewModelTestLanguage.structure.ButtonCheck" flags="ng" index="30nzp7">
         <child id="3426401106045121535" name="checks" index="30nzpp" />
@@ -147,16 +153,22 @@
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
       </concept>
+      <concept id="6743755284661307780" name="ViewModelTestLanguage.structure.SelectedIndexCheckValue" flags="ng" index="3fW2wR">
+        <property id="6743755284661307781" name="selectedIndex" index="3fW2wQ" />
+      </concept>
+      <concept id="1519488183372569234" name="ViewModelTestLanguage.structure.Array" flags="ng" index="3nhhjx">
+        <child id="1519488183372569237" name="objects" index="3nhhjA" />
+      </concept>
       <concept id="7497173622927425563" name="ViewModelTestLanguage.structure.TableCellCheck" flags="ng" index="1u3WYF">
         <child id="7497173622927425564" name="viewComponentCheck" index="1u3WYG" />
       </concept>
       <concept id="6853349774631251782" name="ViewModelTestLanguage.structure.TableRowCheck" flags="ng" index="1Dvt89">
-        <child id="8437001449088359189" name="checks" index="2ji5G8" />
         <child id="6853349774631251791" name="cellChecks" index="1Dvt80" />
       </concept>
       <concept id="6853349774631251773" name="ViewModelTestLanguage.structure.TableCheck" flags="ng" index="1Dvt9M">
         <property id="4126317592742328721" name="hideColumnHeaders" index="KAApG" />
         <child id="643469022294143860" name="rowChecks" index="2D8nNu" />
+        <child id="6853349774631251775" name="checkValues" index="1Dvt9K" />
       </concept>
       <concept id="7539704351305137404" name="ViewModelTestLanguage.structure.ListCheck" flags="ng" index="1VC1nl" />
     </language>
@@ -277,58 +289,6 @@
           </node>
         </node>
       </node>
-      <node concept="2HXGLM" id="43lx_5lktlI" role="2P43km">
-        <node concept="2Pim7P" id="43lx_5lktlK" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="43lx_5lktlM" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7H" id="43lx_5lktlO" role="2Pim76">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2HYYfY" id="43lx_5lktmG" role="2HXGLH">
-          <ref role="2HYYDy" node="43lx_5ljN6C" resolve="search" />
-          <node concept="2Pim7P" id="43lx_5lktmH" role="2Pim73">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7K" id="43lx_5lktmI" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7H" id="43lx_5lktmJ" role="2Pim76">
-            <property role="2PigO5" value="true" />
-            <property role="2PigPS" value="btnSearch" />
-          </node>
-        </node>
-        <node concept="3fyYjX" id="43lx_5lktn0" role="2HXGLH">
-          <node concept="27$lts" id="43lx_5lktn5" role="3fyYjW">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7P" id="43lx_5lktna" role="2Pim73">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7K" id="43lx_5lktnf" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7H" id="43lx_5lktnk" role="2Pim76">
-            <property role="2PigO5" value="true" />
-            <property role="2PigPS" value="textBoxFilter" />
-          </node>
-        </node>
-        <node concept="2HYYfY" id="43lx_5lktny" role="2HXGLH">
-          <ref role="2HYYDy" node="43lx_5ljN6w" resolve="stop" />
-          <node concept="2Pim7P" id="43lx_5lktnz" role="2Pim73">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7K" id="43lx_5lktn$" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7H" id="43lx_5lktn_" role="2Pim76">
-            <property role="2PigO5" value="true" />
-            <property role="2PigPS" value="btnClear" />
-          </node>
-        </node>
-      </node>
       <node concept="1Uj0Zn" id="QFw6_ym$GE" role="2P43km">
         <property role="XvDgr" value="true" />
         <node concept="2PlBGF" id="QFw6_ym$GF" role="2PlsDn">
@@ -360,7 +320,7 @@
                 </node>
                 <node concept="2Pim7H" id="QFw6_ym$Hf" role="2Pim76">
                   <property role="2PigO5" value="true" />
-                  <property role="2PigPS" value="MyLabel" />
+                  <property role="2PigPS" value="Password" />
                 </node>
               </node>
             </node>
@@ -400,18 +360,48 @@
     <node concept="30n1Qa" id="6yyqi$j0DTu" role="30n1Qb">
       <node concept="30nyDl" id="6yyqi$j0DTv" role="30nziG">
         <node concept="30nyDi" id="6yyqi$j0DTw" role="30nyDj">
-          <property role="30lZVK" value="A" />
+          <property role="30lZVK" value="Database with three accounts" />
         </node>
         <node concept="30nyDi" id="6yyqi$j0DTx" role="30nyDh">
-          <property role="30lZVK" value="B" />
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="2$XDRugBciN" role="30nyDs">
+          <property role="30lZVK" value="List shows three accounts" />
         </node>
         <node concept="30nyDi" id="6yyqi$j0DTy" role="30nyDs">
-          <property role="30lZVK" value="C" />
+          <property role="30lZVK" value="No account is selected" />
+        </node>
+        <node concept="30nyDi" id="2$XDRugBciW" role="30nyDs">
+          <property role="30lZVK" value="only Add Account button sensitive" />
         </node>
       </node>
       <node concept="30k8jE" id="6yyqi$j0DTI" role="30nziE">
         <node concept="30k8jF" id="6yyqi$j0DTL" role="30k8ga">
-          <property role="TrG5h" value="test" />
+          <property role="TrG5h" value="database" />
+          <node concept="3nhhjx" id="2$XDRugBcj0" role="30k8js">
+            <property role="TrG5h" value="accounts" />
+            <node concept="30k8jF" id="2$XDRugBcj2" role="3nhhjA">
+              <node concept="30k8jQ" id="2$XDRugBcj6" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="del.icio.us" />
+                <property role="3nhnwH" value="true" />
+              </node>
+            </node>
+            <node concept="30k8jF" id="2$XDRugBcjl" role="3nhhjA">
+              <node concept="30k8jQ" id="2$XDRugBcjm" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="digg.com" />
+                <property role="3nhnwH" value="true" />
+              </node>
+            </node>
+            <node concept="30k8jF" id="2$XDRugBcjr" role="3nhhjA">
+              <node concept="30k8jQ" id="2$XDRugBcjs" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="flickr" />
+                <property role="3nhnwH" value="true" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="30nziD" id="6yyqi$j0DTN" role="30nzo2">
@@ -455,7 +445,9 @@
         <node concept="30nzp_" id="2b$WerdjQpj" role="2QbW$V">
           <ref role="30nzpS" node="2b$WerdjQn5" resolve="btnOptions" />
           <node concept="30nzp7" id="2b$WerdjQq2" role="30nDbQ">
-            <node concept="30nzps" id="2b$WerdjQq3" role="30nzpp" />
+            <node concept="30nzps" id="2b$WerdjQq3" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
           </node>
         </node>
         <node concept="30nzp_" id="2b$WerdjQq6" role="2QbW$V">
@@ -473,7 +465,7 @@
             <node concept="1u3WYF" id="QFw6_yoEk3" role="1Dvt80">
               <node concept="2D8cJI" id="QFw6_yoEk4" role="1u3WYG">
                 <node concept="30nz6$" id="QFw6_yoEk5" role="2D8cJs">
-                  <property role="30nz6_" value="password1" />
+                  <property role="30nz6_" value="del.icio.us" />
                 </node>
               </node>
             </node>
@@ -482,17 +474,148 @@
             <node concept="1u3WYF" id="QFw6_yoEkh" role="1Dvt80">
               <node concept="2D8cJI" id="QFw6_yoEki" role="1u3WYG">
                 <node concept="30nz6$" id="QFw6_yoEkj" role="2D8cJs">
-                  <property role="30nz6_" value="password2" />
+                  <property role="30nz6_" value="digg.com" />
                 </node>
               </node>
             </node>
-            <node concept="Psmnp" id="QFw6_yoEkw" role="2ji5G8">
-              <node concept="3mAu$b" id="QFw6_yoEkx" role="Psmn4">
-                <property role="3mAuXv" value="red" />
+          </node>
+          <node concept="1Dvt89" id="2$XDRugCXqg" role="2D8nNu">
+            <node concept="1u3WYF" id="2$XDRugCXqh" role="1Dvt80">
+              <node concept="2D8cJI" id="2$XDRugCXqi" role="1u3WYG">
+                <node concept="30nz6$" id="2$XDRugCXqj" role="2D8cJs">
+                  <property role="30nz6_" value="flickr" />
+                </node>
               </node>
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="2$XDRugFTN6" role="30n1Qb">
+      <node concept="30nyDl" id="2$XDRugFTN7" role="30nziG">
+        <node concept="30nyDi" id="2$XDRugFTN8" role="30nyDj">
+          <property role="30lZVK" value="Database with three accounts" />
+        </node>
+        <node concept="30nyDi" id="2$XDRugFTN9" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="2$XDRugFTPH" role="30nyDh">
+          <property role="30lZVK" value="Select First Row" />
+        </node>
+        <node concept="30nyDi" id="2$XDRugFTNb" role="30nyDs">
+          <property role="30lZVK" value="First account is selected" />
+        </node>
+        <node concept="30nyDi" id="2$XDRugFTNc" role="30nyDs">
+          <property role="30lZVK" value="All buttons sensitive" />
+        </node>
+      </node>
+      <node concept="30nziD" id="2$XDRugFTNm" role="30nzo2">
+        <ref role="30nziQ" node="6yyqi$j0DTT" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="2$XDRugFTPY" role="30nzo2">
+        <ref role="30nziQ" node="6yyqi$j0DTQ" resolve="PasswordEntriesRowSelected" />
+        <node concept="3cmrfG" id="2$XDRugFTQ4" role="30nziO">
+          <property role="3cmrfH" value="0" />
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="2$XDRugFTNn" role="30nzpy">
+        <node concept="30nzp_" id="2$XDRugFTNo" role="2QbW$V">
+          <ref role="30nzpS" node="43lx_5lkthe" resolve="btnAddAccount" />
+          <node concept="30nzp7" id="2$XDRugFTNp" role="30nDbQ">
+            <node concept="30nzps" id="2$XDRugFTNq" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="2$XDRugFTNr" role="2QbW$V">
+          <ref role="30nzpS" node="43lx_5lkthy" resolve="btnEditAccount" />
+          <node concept="30nzp7" id="2$XDRugFTNs" role="30nDbQ">
+            <node concept="30nzps" id="2$XDRugFTNt" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="2$XDRugFTNu" role="2QbW$V">
+          <ref role="30nzpS" node="43lx_5lktie" resolve="btnDeleteAccount" />
+          <node concept="30nzp7" id="2$XDRugFTNv" role="30nDbQ">
+            <node concept="30nzps" id="2$XDRugFTNw" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="2$XDRugFTNx" role="30nzpy">
+        <node concept="30nzp_" id="2$XDRugFTNy" role="2QbW$V">
+          <ref role="30nzpS" node="2b$WerdjQmX" resolve="btnCopyUser" />
+          <node concept="30nzp7" id="2$XDRugFTNz" role="30nDbQ">
+            <node concept="30nzps" id="2$XDRugFTN$" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="2$XDRugFTN_" role="2QbW$V">
+          <ref role="30nzpS" node="2b$WerdjQn1" resolve="btnCopyPassword" />
+          <node concept="30nzp7" id="2$XDRugFTNA" role="30nDbQ">
+            <node concept="30nzps" id="2$XDRugFTNB" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="2$XDRugFTNC" role="2QbW$V">
+          <ref role="30nzpS" node="2b$WerdjQn5" resolve="btnOptions" />
+          <node concept="30nzp7" id="2$XDRugFTND" role="30nDbQ">
+            <node concept="30nzps" id="2$XDRugFTNE" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="2$XDRugFTNF" role="2QbW$V">
+          <ref role="30nzpS" node="2b$WerdjQn9" resolve="btnSync" />
+          <node concept="30nzp7" id="2$XDRugFTNG" role="30nDbQ">
+            <node concept="30nzps" id="2$XDRugFTNH" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2$XDRugFTNI" role="30nzpy">
+        <ref role="30nzpS" node="QFw6_ym$GE" resolve="PasswordEntries" />
+        <node concept="1VC1nl" id="2$XDRugFTNJ" role="30nDbQ">
+          <property role="KAApG" value="true" />
+          <node concept="1Dvt89" id="2$XDRugFTNK" role="2D8nNu">
+            <node concept="1u3WYF" id="2$XDRugFTNL" role="1Dvt80">
+              <node concept="2D8cJI" id="2$XDRugFTNM" role="1u3WYG">
+                <node concept="30nz6$" id="2$XDRugFTNN" role="2D8cJs">
+                  <property role="30nz6_" value="del.icio.us" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Dvt89" id="2$XDRugFTNO" role="2D8nNu">
+            <node concept="1u3WYF" id="2$XDRugFTNP" role="1Dvt80">
+              <node concept="2D8cJI" id="2$XDRugFTNQ" role="1u3WYG">
+                <node concept="30nz6$" id="2$XDRugFTNR" role="2D8cJs">
+                  <property role="30nz6_" value="digg.com" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Dvt89" id="2$XDRugFTNS" role="2D8nNu">
+            <node concept="1u3WYF" id="2$XDRugFTNT" role="1Dvt80">
+              <node concept="2D8cJI" id="2$XDRugFTNU" role="1u3WYG">
+                <node concept="30nz6$" id="2$XDRugFTNV" role="2D8cJs">
+                  <property role="30nz6_" value="flickr" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fW2wR" id="2$XDRugFTQe" role="1Dvt9K">
+            <property role="3fW2wQ" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="30kPmI" id="2$XDRugFTPE" role="30nziE">
+        <ref role="30kPmH" node="6yyqi$j0DTI" />
       </node>
     </node>
   </node>
