@@ -189,7 +189,7 @@
   </node>
   <node concept="1TIwiD" id="3JS2UjmUCiJ">
     <property role="EcuMT" value="4321216645070226607" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
     <property role="TrG5h" value="CheckBoxComponent" />
     <property role="34LRSv" value="checkbox" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
@@ -278,7 +278,7 @@
   </node>
   <node concept="1TIwiD" id="5WrZkWQ7ZzE">
     <property role="EcuMT" value="6853349774626650346" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
     <property role="TrG5h" value="LabelComponent" />
     <property role="34LRSv" value="label" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
@@ -624,7 +624,7 @@
   </node>
   <node concept="1TIwiD" id="5QmCrei7kle">
     <property role="EcuMT" value="6743755284656506190" />
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
     <property role="TrG5h" value="TextBoxComponent" />
     <property role="34LRSv" value="textbox" />
     <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />

@@ -337,6 +337,7 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
         <reference id="1139877738879" name="concept" index="1A0vxQ" />
       </concept>
@@ -404,6 +405,7 @@
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
+      <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
@@ -514,12 +516,53 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="2wrhDsWhUDH" role="13h7CS">
+      <property role="TrG5h" value="hasAnySupportedFeature" />
+      <node concept="3Tm1VV" id="2wrhDsWhUDI" role="1B3o_S" />
+      <node concept="10P_77" id="2wrhDsWhYsG" role="3clF45" />
+      <node concept="3clFbS" id="2wrhDsWhUDK" role="3clF47">
+        <node concept="3clFbF" id="2wrhDsWhYTT" role="3cqZAp">
+          <node concept="2OqwBi" id="2wrhDsWi2bX" role="3clFbG">
+            <node concept="2OqwBi" id="2wrhDsWhZ8g" role="2Oq$k0">
+              <node concept="13iPFW" id="2wrhDsWhYTS" role="2Oq$k0" />
+              <node concept="2Rf3mk" id="2wrhDsWhZo$" role="2OqNvi">
+                <node concept="1xMEDy" id="2wrhDsWhZoA" role="1xVPHs">
+                  <node concept="chp4Y" id="2wrhDsWhZGo" role="ri$Ld">
+                    <ref role="cht4Q" to="6ap2:5cbOqfAgHMC" resolve="ViewComponentFeature" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2HwmR7" id="2wrhDsWi3Na" role="2OqNvi">
+              <node concept="1bVj0M" id="2wrhDsWi3Nc" role="23t8la">
+                <node concept="3clFbS" id="2wrhDsWi3Nd" role="1bW5cS">
+                  <node concept="3clFbF" id="2wrhDsWi3Sn" role="3cqZAp">
+                    <node concept="2OqwBi" id="2wrhDsWi46D" role="3clFbG">
+                      <node concept="37vLTw" id="2wrhDsWi3Sm" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2wrhDsWi3Ne" resolve="it" />
+                      </node>
+                      <node concept="3TrcHB" id="2wrhDsWi4nA" role="2OqNvi">
+                        <ref role="3TsBF5" to="6ap2:5cbOqfAgHMA" resolve="supported" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="2wrhDsWi3Ne" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="2wrhDsWi3Nf" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13hLZK" id="2Yd1qrJOWqJ" role="13h7CW">
       <node concept="3clFbS" id="2Yd1qrJOWqK" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="2Yd1qrJOWs1">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
     <ref role="13h7C2" to="6ap2:3JS2UjmUCiJ" resolve="CheckBoxComponent" />
     <node concept="13hLZK" id="2Yd1qrJOWs2" role="13h7CW">
       <node concept="3clFbS" id="2Yd1qrJOWs3" role="2VODD2" />
@@ -1926,7 +1969,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="5WrZkWQ7ZOQ">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
     <ref role="13h7C2" to="6ap2:5WrZkWQ7ZzE" resolve="LabelComponent" />
     <node concept="13hLZK" id="5WrZkWQ7ZOR" role="13h7CW">
       <node concept="3clFbS" id="5WrZkWQ7ZOS" role="2VODD2" />
@@ -4899,7 +4942,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="5QmCrei7kHo">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
     <ref role="13h7C2" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
     <node concept="13hLZK" id="5QmCrei7kHp" role="13h7CW">
       <node concept="3clFbS" id="5QmCrei7kHq" role="2VODD2" />

@@ -321,7 +321,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="5QmCreik75h">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
     <ref role="1M2myG" to="6ap2:5WrZkWQ7ZzE" resolve="LabelComponent" />
     <node concept="EnEH3" id="5QmCreik75i" role="1MhHOB">
       <ref role="EomxK" to="6ap2:5QmCreik75d" resolve="sampleText" />
@@ -365,7 +365,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="3VvzM8u60jq">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
     <ref role="1M2myG" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
     <node concept="EnEH3" id="3VvzM8u60vm" role="1MhHOB">
       <ref role="EomxK" to="6ap2:3VvzM8u5ZZL" resolve="sampleText" />
