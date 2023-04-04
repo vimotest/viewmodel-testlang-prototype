@@ -107,6 +107,13 @@
         <child id="5984107031766637556" name="rowsFeature" index="2PlsDn" />
         <child id="6743755284660838203" name="selectedRowFeature" index="3fMvU8" />
       </concept>
+      <concept id="6574816161039199156" name="ViewModelLanguage.structure.SelectedItemVCFeature" flags="ng" index="3P0PJ2" />
+      <concept id="6574816161039199154" name="ViewModelLanguage.structure.ItemsVCFeature" flags="ng" index="3P0PJ4" />
+      <concept id="6574816161037764802" name="ViewModelLanguage.structure.ComboBoxComponent" flags="ng" index="3P6jyO">
+        <property id="6574816161038008031" name="sampleSelectedItemText" index="3P58UD" />
+        <child id="6574816161039200592" name="itemsFeature" index="3P0O4A" />
+        <child id="6574816161039200590" name="selectedItemFeature" index="3P0O4S" />
+      </concept>
       <concept id="7539704351303821054" name="ViewModelLanguage.structure.ListViewComponent" flags="ng" index="1Uj0Zn" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -135,6 +142,7 @@
       <concept id="3426401106045849608" name="ViewModelTestLanguage.structure.ContextReference" flags="ng" index="30kPmI">
         <reference id="3426401106045849611" name="contextRef" index="30kPmH" />
       </concept>
+      <concept id="3426401106045532804" name="ViewModelTestLanguage.structure.EmptyContext" flags="ng" index="30l7Wy" />
       <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
         <child id="3426401106045120780" name="context" index="30nziE" />
         <child id="3426401106045120778" name="description" index="30nziG" />
@@ -167,6 +175,7 @@
         <property id="3426401106045121533" name="sensitivity" index="30nzpr" />
       </concept>
       <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
+        <property id="6523116078126804343" name="descriptionLabel" index="13TuVO" />
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
       </concept>
@@ -195,6 +204,18 @@
         <property id="4126317592742328721" name="hideColumnHeaders" index="KAApG" />
         <child id="643469022294143860" name="rowChecks" index="2D8nNu" />
         <child id="6853349774631251775" name="checkValues" index="1Dvt9K" />
+      </concept>
+      <concept id="6574816161039203031" name="ViewModelTestLanguage.structure.ComboBoxCheck" flags="ng" index="3P0OEx">
+        <child id="6574816161039203033" name="checks" index="3P0OEJ" />
+      </concept>
+      <concept id="6574816161039227761" name="ViewModelTestLanguage.structure.SelectedItemCheckValue" flags="ng" index="3P0YG7">
+        <child id="6574816161039227763" name="selectedItem" index="3P0YG5" />
+      </concept>
+      <concept id="6574816161039227687" name="ViewModelTestLanguage.structure.ItemValue" flags="ng" index="3P0YHh">
+        <property id="6574816161039227688" name="value" index="3P0YHu" />
+      </concept>
+      <concept id="6574816161039227680" name="ViewModelTestLanguage.structure.ItemsCheckValue" flags="ng" index="3P0YHm">
+        <child id="6574816161039227685" name="items" index="3P0YHj" />
       </concept>
       <concept id="7539704351305137404" name="ViewModelTestLanguage.structure.ListCheck" flags="ng" index="1VC1nl" />
     </language>
@@ -1077,6 +1098,329 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3H8XyA" id="2wrhDsVYayF">
+    <property role="TrG5h" value="OptionsView" />
+    <node concept="3H8Xy_" id="2wrhDsVYayG" role="3H8Xyx">
+      <node concept="3fyYjX" id="2wrhDsVYaKy" role="2P43km">
+        <node concept="27$lts" id="2wrhDsVYaKz" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="C:\Users\dummy\myDatabase.db" />
+        </node>
+        <node concept="2Pim7P" id="2wrhDsVYaK$" role="2Pim73" />
+        <node concept="2Pim7K" id="2wrhDsVYaK_" role="2Pim71" />
+        <node concept="2Pim7H" id="2wrhDsVYaKA" role="2Pim76">
+          <property role="2PigPS" value="DataBaseFilePath" />
+        </node>
+      </node>
+      <node concept="3P6jyO" id="2wrhDsVYaP_" role="2P43km">
+        <property role="3P58UD" value="English (English)" />
+        <node concept="3P0PJ2" id="2wrhDsVYaPB" role="3P0O4S">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="2wrhDsVYaPD" role="3P0O4A">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="2wrhDsVYaPF" role="2Pim73" />
+        <node concept="2Pim7K" id="2wrhDsVYaPH" role="2Pim71" />
+        <node concept="2Pim7H" id="2wrhDsVYaPJ" role="2Pim76">
+          <property role="2PigPS" value="Language" />
+        </node>
+      </node>
+      <node concept="3H4CWb" id="2wrhDsVYaUE" role="2P43km">
+        <node concept="2PZ2Jc" id="2wrhDsVYaUG" role="2PZ2C7">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="2wrhDsVYaUI" role="2Pim73" />
+        <node concept="2Pim7K" id="2wrhDsVYaUK" role="2Pim71" />
+        <node concept="2Pim7H" id="2wrhDsVYaUM" role="2Pim76">
+          <property role="2PigPS" value="EnableProxy" />
+        </node>
+      </node>
+      <node concept="3fyYjX" id="2wrhDsVYaXd" role="2P43km">
+        <node concept="27$lts" id="2wrhDsVYaXf" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="localhost" />
+        </node>
+        <node concept="2Pim7P" id="2wrhDsVYaXh" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="2wrhDsVYaXj" role="2Pim71" />
+        <node concept="2Pim7H" id="2wrhDsVYaXl" role="2Pim76">
+          <property role="2PigPS" value="HttpProxy" />
+        </node>
+      </node>
+      <node concept="3fyYjX" id="2wrhDsVYb05" role="2P43km">
+        <node concept="27$lts" id="2wrhDsVYb06" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="8080" />
+        </node>
+        <node concept="2Pim7P" id="2wrhDsVYb07" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="2wrhDsVYb08" role="2Pim71" />
+        <node concept="2Pim7H" id="2wrhDsVYb09" role="2Pim76">
+          <property role="2PigPS" value="Port" />
+        </node>
+      </node>
+      <node concept="3fyYjX" id="2wrhDsVYb1C" role="2P43km">
+        <node concept="27$lts" id="2wrhDsVYb1D" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value=" " />
+        </node>
+        <node concept="2Pim7P" id="2wrhDsVYb1E" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="2wrhDsVYb1F" role="2Pim71" />
+        <node concept="2Pim7H" id="2wrhDsVYb1G" role="2Pim76">
+          <property role="2PigPS" value="HttpProxyUsername" />
+        </node>
+      </node>
+      <node concept="2HXGLM" id="2wrhDsVYb9x" role="2P43km">
+        <node concept="2Pim7P" id="2wrhDsVYb9B" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="2wrhDsVYb9H" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="2wrhDsVYb9N" role="2Pim76">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3fyYjX" id="2wrhDsVYb4_" role="2HXGLH">
+          <node concept="27$lts" id="2wrhDsVYb4A" role="3fyYjW">
+            <property role="2PigO5" value="true" />
+            <property role="27$ltt" value=" " />
+          </node>
+          <node concept="2Pim7P" id="2wrhDsVYb4B" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="2wrhDsVYb4C" role="2Pim71" />
+          <node concept="2Pim7H" id="2wrhDsVYb4D" role="2Pim76">
+            <property role="2PigPS" value="HttpProxyPassword" />
+          </node>
+        </node>
+        <node concept="3H4CWb" id="2wrhDsVYbc8" role="2HXGLH">
+          <node concept="2PZ2Jc" id="2wrhDsVYbcd" role="2PZ2C7">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7P" id="2wrhDsVYbci" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="2wrhDsVYbcn" role="2Pim71" />
+          <node concept="2Pim7H" id="2wrhDsVYbcs" role="2Pim76">
+            <property role="2PigPS" value="Hide" />
+          </node>
+        </node>
+      </node>
+      <node concept="3H4brt" id="2wrhDsVYbgf" role="2P43km">
+        <node concept="2Pim7P" id="2wrhDsVYbgh" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="2wrhDsVYbgj" role="2Pim71" />
+        <node concept="2Pim7H" id="2wrhDsVYbgl" role="2Pim76">
+          <property role="2PigPS" value="OK" />
+        </node>
+      </node>
+      <node concept="3H4brt" id="2wrhDsVYbhV" role="2P43km">
+        <node concept="2Pim7P" id="2wrhDsVYbhW" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="2wrhDsVYbhX" role="2Pim71" />
+        <node concept="2Pim7H" id="2wrhDsVYbhY" role="2Pim76">
+          <property role="2PigPS" value="Cancel" />
+        </node>
+      </node>
+    </node>
+    <node concept="3f3I3T" id="2wrhDsVYbjS" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+    </node>
+    <node concept="3f4AKs" id="2wrhDsVYbjT" role="3H8Xyh">
+      <property role="TrG5h" value="OKClicked" />
+      <ref role="3fS2vI" node="2wrhDsVYbgf" resolve="OK" />
+    </node>
+    <node concept="3f4AKs" id="2wrhDsVYbjU" role="3H8Xyh">
+      <property role="TrG5h" value="CancelClicked" />
+      <ref role="3fS2vI" node="2wrhDsVYbhV" resolve="Cancel" />
+    </node>
+    <node concept="I_Gu0" id="2wrhDsVYbjV" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="EnableProxyChecked" />
+      <ref role="3fS2vI" node="2wrhDsVYaUE" resolve="EnableProxy" />
+      <node concept="2P4x69" id="2wrhDsVYbjW" role="2P43km">
+        <property role="TrG5h" value="isChecked" />
+        <node concept="2P4D6g" id="2wrhDsVYbjX" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="I_Gu0" id="2wrhDsVYbjY" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="HideChecked" />
+      <ref role="3fS2vI" node="2wrhDsVYbc8" resolve="Hide" />
+      <node concept="2P4x69" id="2wrhDsVYbjZ" role="2P43km">
+        <property role="TrG5h" value="isChecked" />
+        <node concept="2P4D6g" id="2wrhDsVYbk0" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="2wrhDsVYbk1" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="DataBaseFilePathFilled" />
+      <ref role="3fS2vI" node="2wrhDsVYaKy" resolve="DataBaseFilePath" />
+      <node concept="2P4x69" id="2wrhDsVYbk2" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="2wrhDsVYbk3" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="2wrhDsVYbk4" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="HttpProxyFilled" />
+      <ref role="3fS2vI" node="2wrhDsVYaXd" resolve="HttpProxy" />
+      <node concept="2P4x69" id="2wrhDsVYbk5" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="2wrhDsVYbk6" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="2wrhDsVYbk7" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="PortFilled" />
+      <ref role="3fS2vI" node="2wrhDsVYb05" resolve="Port" />
+      <node concept="2P4x69" id="2wrhDsVYbk8" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="2wrhDsVYbk9" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="2wrhDsVYbka" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="HttpProxyUsernameFilled" />
+      <ref role="3fS2vI" node="2wrhDsVYb1C" resolve="HttpProxyUsername" />
+      <node concept="2P4x69" id="2wrhDsVYbkb" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="2wrhDsVYbkc" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="2wrhDsVYbkd" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="HttpProxyPasswordFilled" />
+      <ref role="3fS2vI" node="2wrhDsVYb4_" resolve="HttpProxyPassword" />
+      <node concept="2P4x69" id="2wrhDsVYbke" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="2wrhDsVYbkf" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3H8Xwz" id="2wrhDsVYbla" role="3H8Xyh" />
+  </node>
+  <node concept="30n1Qd" id="2wrhDsVYyco">
+    <property role="TrG5h" value="OptionsViewTests" />
+    <ref role="30n1PB" node="2wrhDsVYayF" resolve="OptionsView" />
+    <node concept="30n1Qa" id="2wrhDsVYyp5" role="30n1Qb">
+      <node concept="30nyDl" id="2wrhDsVYyp6" role="30nziG">
+        <node concept="30nyDi" id="2wrhDsVYyp7" role="30nyDj">
+          <property role="30lZVK" value="No database selected" />
+        </node>
+        <node concept="30nyDi" id="2wrhDsVYyp8" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="2wrhDsVYyp9" role="30nyDs">
+          <property role="30lZVK" value="Show default values" />
+        </node>
+        <node concept="30nyDi" id="2wrhDsVYysx" role="30nyDs">
+          <property role="30lZVK" value="Proxy is disabled" />
+        </node>
+      </node>
+      <node concept="30l7Wy" id="2wrhDsVYyuX" role="30nziE" />
+      <node concept="30nzp_" id="2wrhDsWaRt7" role="30nzpy">
+        <property role="13TuVO" value="Database to Load on Startup" />
+        <ref role="30nzpS" node="2wrhDsVYaKy" resolve="DataBaseFilePath" />
+        <node concept="3fym7j" id="2wrhDsWaRuv" role="30nDbQ">
+          <node concept="30nz6$" id="2wrhDsWaRv3" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="2wrhDsWaRvB" role="30nzpy">
+        <ref role="30nzpS" node="2wrhDsVYaP_" resolve="Language" />
+        <node concept="3P0OEx" id="2wrhDsWaR_C" role="30nDbQ">
+          <node concept="3P0YG7" id="2wrhDsWaRAc" role="3P0OEJ">
+            <node concept="3P0YHh" id="2wrhDsWaRAd" role="3P0YG5">
+              <property role="3P0YHu" value="English (English)" />
+            </node>
+          </node>
+          <node concept="3P0YHm" id="2wrhDsWaRBD" role="3P0OEJ">
+            <node concept="3P0YHh" id="2wrhDsWaRCx" role="3P0YHj">
+              <property role="3P0YHu" value="English (English)" />
+            </node>
+            <node concept="3P0YHh" id="2wrhDsWaRD5" role="3P0YHj">
+              <property role="3P0YHu" value="German (German)" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2wrhDsWaRFx" role="30nzpy">
+        <ref role="30nzpS" node="2wrhDsVYaUE" resolve="EnableProxy" />
+        <node concept="1tZoqV" id="2wrhDsWaRGX" role="30nDbQ">
+          <node concept="1tZoko" id="2wrhDsWaRGY" role="1tZokz" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="2wrhDsWaRIm" role="30nzpy">
+        <ref role="30nzpS" node="2wrhDsVYaXd" resolve="HttpProxy" />
+        <node concept="3fym7j" id="2wrhDsWaRJb" role="30nDbQ">
+          <node concept="30nzps" id="2wrhDsWaRJJ" role="3fym7i" />
+          <node concept="30nz6$" id="2wrhDsWaRRw" role="3fym7i">
+            <property role="30nz6_" value="localhost" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2wrhDsWaRNi" role="30nzpy">
+        <ref role="30nzpS" node="2wrhDsVYb05" resolve="Port" />
+        <node concept="3fym7j" id="2wrhDsWaRNZ" role="30nDbQ">
+          <node concept="30nzps" id="2wrhDsWaROz" role="3fym7i" />
+          <node concept="30nz6$" id="2wrhDsWaROT" role="3fym7i">
+            <property role="30nz6_" value="8080" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2wrhDsWaRK2" role="30nzpy">
+        <ref role="30nzpS" node="2wrhDsVYb1C" resolve="HttpProxyUsername" />
+        <node concept="3fym7j" id="2wrhDsWaRLj" role="30nDbQ">
+          <node concept="30nzps" id="2wrhDsWaRMr" role="3fym7i" />
+          <node concept="30nz6$" id="2wrhDsWaRQl" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="2wrhDsWaRY9" role="30nzpy">
+        <node concept="30nzp_" id="2wrhDsWaRKD" role="2QbW$V">
+          <ref role="30nzpS" node="2wrhDsVYb4_" resolve="HttpProxyPassword" />
+          <node concept="3fym7j" id="2wrhDsWaRLR" role="30nDbQ">
+            <node concept="30nzps" id="2wrhDsWaRMZ" role="3fym7i" />
+            <node concept="30nz6$" id="2wrhDsWaRPK" role="3fym7i" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="2wrhDsWaS0A" role="2QbW$V">
+          <ref role="30nzpS" node="2wrhDsVYbc8" resolve="Hide" />
+          <node concept="1tZoqV" id="2wrhDsWaS1L" role="30nDbQ">
+            <node concept="1tZoko" id="2wrhDsWaS1M" role="1tZokz">
+              <property role="1tZokr" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="2wrhDsWaS9w" role="30nzpy">
+        <node concept="30nzp_" id="2wrhDsWaSal" role="2QbW$V">
+          <ref role="30nzpS" node="2wrhDsVYbgf" resolve="OK" />
+          <node concept="30nzp7" id="2wrhDsWcoU6" role="30nDbQ">
+            <node concept="30nzps" id="2wrhDsWcoU7" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="2wrhDsWcoV6" role="2QbW$V">
+          <ref role="30nzpS" node="2wrhDsVYbhV" resolve="Cancel" />
+          <node concept="30nzp7" id="2wrhDsWcoVt" role="30nDbQ">
+            <node concept="30nzps" id="2wrhDsWcoVu" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="2wrhDsW18tE" role="30nzo2">
+        <ref role="30nziQ" node="2wrhDsVYbjS" resolve="LoadView" />
       </node>
     </node>
   </node>
