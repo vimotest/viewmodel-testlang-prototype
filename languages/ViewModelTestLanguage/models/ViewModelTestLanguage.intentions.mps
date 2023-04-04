@@ -55,6 +55,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -298,6 +299,44 @@
               <node concept="3TrcHB" id="5QmCreimIEB" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2wrhDsVYkJ3" role="3cqZAp" />
+        <node concept="3cpWs8" id="2wrhDsVYlFp" role="3cqZAp">
+          <node concept="3cpWsn" id="2wrhDsVYlFq" role="3cpWs9">
+            <property role="TrG5h" value="editorPanelManager" />
+            <node concept="3uibUv" id="2wrhDsVYlFr" role="1tU5fm">
+              <ref role="3uigEE" to="cj4x:~EditorPanelManager" resolve="EditorPanelManager" />
+            </node>
+            <node concept="2OqwBi" id="2wrhDsVYlFs" role="33vP2m">
+              <node concept="1XNTG" id="2wrhDsVYlFt" role="2Oq$k0" />
+              <node concept="liA8E" id="2wrhDsVYlFu" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorContext.getEditorPanelManager()" resolve="getEditorPanelManager" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2wrhDsVYlFv" role="3cqZAp">
+          <node concept="3clFbS" id="2wrhDsVYlFw" role="3clFbx">
+            <node concept="3clFbF" id="2wrhDsVYlFx" role="3cqZAp">
+              <node concept="2OqwBi" id="2wrhDsVYlFy" role="3clFbG">
+                <node concept="37vLTw" id="2wrhDsVYlFz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2wrhDsVYlFq" resolve="editorPanelManager" />
+                </node>
+                <node concept="liA8E" id="2wrhDsVYlF$" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorPanelManager.openEditor(org.jetbrains.mps.openapi.model.SNode)" resolve="openEditor" />
+                  <node concept="37vLTw" id="2wrhDsVYlF_" role="37wK5m">
+                    <ref role="3cqZAo" node="5QmCreilHYs" resolve="testSuite" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2wrhDsVYlFA" role="3clFbw">
+            <node concept="10Nm6u" id="2wrhDsVYlFB" role="3uHU7w" />
+            <node concept="37vLTw" id="2wrhDsVYlFC" role="3uHU7B">
+              <ref role="3cqZAo" node="2wrhDsVYlFq" resolve="editorPanelManager" />
             </node>
           </node>
         </node>
