@@ -3710,6 +3710,9 @@
         </node>
       </node>
       <node concept="3EZMnI" id="2wrhDsWi680" role="3EZMnx">
+        <node concept="PMmxH" id="2wrhDsWibxA" role="3EZMnx">
+          <ref role="PMmxG" node="2wrhDsWibxw" resolve="ViewComponent_AdditionalViewComponentFeatures_EditorComponent" />
+        </node>
         <node concept="3EZMnI" id="2wrhDsWia_H" role="3EZMnx">
           <node concept="VPM3Z" id="2wrhDsWia_J" role="3F10Kt" />
           <node concept="3F1sOY" id="2wrhDsWi9qp" role="3EZMnx">
@@ -3773,9 +3776,6 @@
             </node>
           </node>
           <node concept="2iRfu4" id="2wrhDsWia_M" role="2iSdaV" />
-        </node>
-        <node concept="PMmxH" id="2wrhDsWibxA" role="3EZMnx">
-          <ref role="PMmxG" node="2wrhDsWibxw" resolve="ViewComponent_AdditionalViewComponentFeatures_EditorComponent" />
         </node>
         <node concept="VPM3Z" id="2wrhDsWi681" role="3F10Kt" />
         <node concept="2iRfu4" id="2wrhDsWi683" role="2iSdaV" />
