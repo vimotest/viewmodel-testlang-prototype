@@ -557,6 +557,23 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="42$opxWyBOG" role="13h7CS">
+      <property role="TrG5h" value="getTypeAliasForEditor" />
+      <property role="13i0it" value="true" />
+      <node concept="3Tm1VV" id="42$opxWyGVb" role="1B3o_S" />
+      <node concept="17QB3L" id="42$opxWyCkK" role="3clF45" />
+      <node concept="3clFbS" id="42$opxWyBOJ" role="3clF47">
+        <node concept="3clFbF" id="42$opxWyCM5" role="3cqZAp">
+          <node concept="2OqwBi" id="42$opxWyDFs" role="3clFbG">
+            <node concept="2OqwBi" id="42$opxWyCXW" role="2Oq$k0">
+              <node concept="13iPFW" id="42$opxWyCM4" role="2Oq$k0" />
+              <node concept="2yIwOk" id="42$opxWyDkK" role="2OqNvi" />
+            </node>
+            <node concept="3n3YKJ" id="42$opxWyE1q" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13hLZK" id="2Yd1qrJOWqJ" role="13h7CW">
       <node concept="3clFbS" id="2Yd1qrJOWqK" role="2VODD2" />
     </node>
@@ -4919,6 +4936,22 @@
     <node concept="13hLZK" id="3A1HDQkuAs$" role="13h7CW">
       <node concept="3clFbS" id="3A1HDQkuAs_" role="2VODD2" />
     </node>
+    <node concept="13i0hz" id="42$opxW_w8s" role="13h7CS">
+      <property role="TrG5h" value="getTypeAliasForEditor" />
+      <ref role="13i0hy" node="42$opxWyBOG" resolve="getTypeAliasForEditor" />
+      <node concept="3Tm1VV" id="42$opxW_w8t" role="1B3o_S" />
+      <node concept="3clFbS" id="42$opxW_w8A" role="3clF47">
+        <node concept="3clFbF" id="42$opxW_wH4" role="3cqZAp">
+          <node concept="2OqwBi" id="42$opxW_xfS" role="3clFbG">
+            <node concept="35c_gC" id="42$opxW_wGZ" role="2Oq$k0">
+              <ref role="35c_gD" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
+            </node>
+            <node concept="3n3YKJ" id="42$opxW_x_B" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="42$opxW_w8B" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="5cbOqfAhmp5">
     <property role="3GE5qa" value="viewcomponents.features" />
@@ -8249,6 +8282,13 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="42$opxWv2w6">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="13h7C2" to="6ap2:5GYs7qIfiIO" resolve="SelectedItemVCFeature" />
+    <node concept="13hLZK" id="42$opxWv2w7" role="13h7CW">
+      <node concept="3clFbS" id="42$opxWv2w8" role="2VODD2" />
     </node>
   </node>
 </model>
