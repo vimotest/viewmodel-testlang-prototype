@@ -13,7 +13,6 @@
   <accessoryModels />
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">89274067-447d-4f60-a26a-6d802a4035c2(ViewModelLanguage)</dependency>
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
@@ -83,6 +82,8 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" version="0" />
   </dependencyVersions>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>89274067-447d-4f60-a26a-6d802a4035c2(ViewModelLanguage)</extendedLanguage>
+  </extendedLanguages>
 </language>
 

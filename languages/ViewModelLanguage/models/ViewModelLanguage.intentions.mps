@@ -794,10 +794,10 @@
               <ref role="1Pybhc" to="18ew:~FileUtil" resolve="FileUtil" />
               <ref role="37wK5l" to="18ew:~FileUtil.isAncestor(java.lang.String,java.lang.String)" resolve="isAncestor" />
               <node concept="37vLTw" id="43lx_5liadv" role="37wK5m">
-                <ref role="3cqZAo" node="43lx_5liadq" resolve="path" />
+                <ref role="3cqZAo" node="43lx_5liadq" resolve="modulePath" />
               </node>
               <node concept="37vLTw" id="43lx_5licjU" role="37wK5m">
-                <ref role="3cqZAo" node="43lx_5licjP" resolve="path" />
+                <ref role="3cqZAo" node="43lx_5licjP" resolve="chosenPath" />
               </node>
             </node>
           </node>
@@ -1138,7 +1138,7 @@
                     </node>
                     <node concept="2cAKMz" id="skhZFNonO3" role="2OqNvi">
                       <node concept="37vLTw" id="43lx_5liadw" role="2cAKU6">
-                        <ref role="3cqZAo" node="43lx_5liadq" resolve="path" />
+                        <ref role="3cqZAo" node="43lx_5liadq" resolve="modulePath" />
                       </node>
                     </node>
                   </node>

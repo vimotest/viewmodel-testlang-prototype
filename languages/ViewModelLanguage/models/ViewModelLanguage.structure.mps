@@ -11,6 +11,26 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="2756621024541681841" name="jetbrains.mps.lang.resources.structure.Primitive" flags="ng" index="1irPi6">
+        <child id="1860120738943552529" name="fillColor" index="3PKjn_" />
+        <child id="1860120738943552531" name="borderColor" index="3PKjnB" />
+      </concept>
+      <concept id="2756621024541681849" name="jetbrains.mps.lang.resources.structure.Text" flags="ng" index="1irPie">
+        <property id="2756621024541681854" name="text" index="1irPi9" />
+        <child id="1860120738943552534" name="color" index="3PKjny" />
+      </concept>
+      <concept id="2756621024541674821" name="jetbrains.mps.lang.resources.structure.TextIcon" flags="ng" index="1irR5M">
+        <property id="1358878980655415353" name="iconId" index="2$rrk2" />
+        <child id="2756621024541675110" name="layers" index="1irR9h" />
+      </concept>
+      <concept id="2756621024541675104" name="jetbrains.mps.lang.resources.structure.Circle" flags="ng" index="1irR9n">
+        <property id="2756621024541681857" name="r" index="1irPjQ" />
+      </concept>
+      <concept id="1860120738943552477" name="jetbrains.mps.lang.resources.structure.ColorLiteral" flags="ng" index="3PKj8D">
+        <property id="1860120738943552481" name="val" index="3PKj8l" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
@@ -37,6 +57,7 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="6327362524875300597" name="icon" index="rwd14" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
@@ -99,6 +120,29 @@
       <property role="IQ2nx" value="4143793920076287509" />
       <property role="TrG5h" value="packageName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1irR5M" id="2ZnRpGqLyF6" role="rwd14">
+      <property role="2$rrk2" value="1" />
+      <node concept="1irR9n" id="2ZnRpGqLyK5" role="1irR9h">
+        <node concept="3PKj8D" id="2ZnRpGqLyL_" role="3PKjn_">
+          <property role="3PKj8l" value="ED7D31" />
+        </node>
+      </node>
+      <node concept="1irR9n" id="2ZnRpGr2vRW" role="1irR9h">
+        <property role="1irPjQ" value="1ng4Vf3UMuc/medium" />
+        <node concept="3PKj8D" id="2ZnRpGr2vRX" role="3PKjn_">
+          <property role="3PKj8l" value="F4B184" />
+        </node>
+        <node concept="3PKj8D" id="2ZnRpGr2vRY" role="3PKjnB">
+          <property role="3PKj8l" value="FADBC6" />
+        </node>
+      </node>
+      <node concept="1irPie" id="2ZnRpGr2vRZ" role="1irR9h">
+        <property role="1irPi9" value="v" />
+        <node concept="3PKj8D" id="2ZnRpGr2vS0" role="3PKjny">
+          <property role="3PKj8l" value="303030" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="3JS2UjmQXcM">
@@ -349,6 +393,29 @@
       <property role="20kJfa" value="images" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6wbjV0Q45wJ" resolve="Image" />
+    </node>
+    <node concept="1irR5M" id="2ZnRpGqW7FG" role="rwd14">
+      <property role="2$rrk2" value="2" />
+      <node concept="1irR9n" id="2ZnRpGqW7H7" role="1irR9h">
+        <node concept="3PKj8D" id="2ZnRpGqW7K1" role="3PKjn_">
+          <property role="3PKj8l" value="A0A0A0" />
+        </node>
+      </node>
+      <node concept="1irR9n" id="2ZnRpGqW7OQ" role="1irR9h">
+        <property role="1irPjQ" value="1ng4Vf3UMuc/medium" />
+        <node concept="3PKj8D" id="2ZnRpGqW7R7" role="3PKjn_">
+          <property role="3PKj8l" value="A0A0A0" />
+        </node>
+        <node concept="3PKj8D" id="2ZnRpGqW7ST" role="3PKjnB">
+          <property role="3PKj8l" value="C0C0C0" />
+        </node>
+      </node>
+      <node concept="1irPie" id="2ZnRpGqW80Q" role="1irR9h">
+        <property role="1irPi9" value="i" />
+        <node concept="3PKj8D" id="2ZnRpGqW87u" role="3PKjny">
+          <property role="3PKj8l" value="000000" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="6wbjV0Q45wJ">
@@ -919,6 +986,10 @@
     <property role="TrG5h" value="CheckEvent" />
     <property role="34LRSv" value="check event" />
     <ref role="1TJDcQ" node="5QmCreixcQJ" resolve="ClickEvent" />
+  </node>
+  <node concept="PlHQZ" id="2ZnRpGqKU3p">
+    <property role="EcuMT" value="3447467698014101721" />
+    <property role="TrG5h" value="ILinkedViewTest" />
   </node>
 </model>
 
