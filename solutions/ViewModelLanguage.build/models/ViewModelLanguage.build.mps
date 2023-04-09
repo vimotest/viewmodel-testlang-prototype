@@ -468,11 +468,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="1n6T2_x2WRh" role="3bR37C">
-          <node concept="3bR9La" id="1n6T2_x2WRi" role="1SiIV1">
-            <ref role="3bR37D" node="1n6T2_x2WO8" resolve="ViewModelLanguage" />
-          </node>
-        </node>
         <node concept="3rtmxn" id="65sofNQaGXp" role="3bR31x">
           <node concept="3LXTmp" id="65sofNQaGXq" role="3rtmxm">
             <node concept="55IIr" id="65sofNQaGXr" role="3LXTmr">
@@ -501,6 +496,11 @@
         <node concept="1SiIV0" id="2gml1W1v7k9" role="3bR37C">
           <node concept="3bR9La" id="2gml1W1v7ka" role="1SiIV1">
             <ref role="3bR37D" node="1n6T2_x2WNQ" resolve="SimpleTypeLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5tEnXXhJ4pk" role="3bR37C">
+          <node concept="1Busua" id="5tEnXXhJ4pl" role="1SiIV1">
+            <ref role="1Busuk" node="1n6T2_x2WO8" resolve="ViewModelLanguage" />
           </node>
         </node>
       </node>

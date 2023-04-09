@@ -1125,7 +1125,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.HamsterViewLanguage.generator" depends="java.compile.HamsterViewLanguage, java.compile.ViewModelLanguage2Java, java.compile.ViewModelLanguage2Java.generator, java.compile.ViewModelTestLanguage, fetchDependencies">
+  <target name="java.compile.HamsterViewLanguage.generator" depends="java.compile.HamsterViewLanguage, java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, java.compile.ViewModelLanguage2Java, java.compile.ViewModelLanguage2Java.generator, java.compile.ViewModelTestLanguage, fetchDependencies">
     <mkdir dir="${project_home}/languages/HamsterViewLanguage/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/HamsterViewLanguage.generator" />
     <javac destdir="${build.tmp}/java/out/HamsterViewLanguage.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -1160,6 +1160,8 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <pathelement path="${build.tmp}/java/out/HamsterViewLanguage" />
+        <pathelement path="${build.tmp}/java/out/SimpleTypeLanguage" />
+        <pathelement path="${build.tmp}/java/out/ViewModelLanguage" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java" />
         <pathelement path="${build.tmp}/java/out/ViewModelLanguage2Java.generator" />
         <pathelement path="${build.tmp}/java/out/ViewModelTestLanguage" />
@@ -1177,6 +1179,7 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.table.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.lang.makeup.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
@@ -1237,7 +1240,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.ViewModelLanguage.test" depends="java.compile.ViewModelTestLanguage, fetchDependencies">
+  <target name="java.compile.ViewModelLanguage.test" depends="java.compile.SimpleTypeLanguage, java.compile.ViewModelLanguage, java.compile.ViewModelTestLanguage, fetchDependencies">
     <mkdir dir="${project_home}/solutions/ViewModelLanguage.test/source_gen" />
     <mkdir dir="${build.tmp}/java/out/ViewModelLanguage.test" />
     <javac destdir="${build.tmp}/java/out/ViewModelLanguage.test" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -1271,6 +1274,8 @@
         <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <pathelement path="${build.tmp}/java/out/SimpleTypeLanguage" />
+        <pathelement path="${build.tmp}/java/out/ViewModelLanguage" />
         <pathelement path="${build.tmp}/java/out/ViewModelTestLanguage" />
         <fileset file="${artifacts.mps}/lib/mps-test.jar" />
         <fileset file="${artifacts.mps}/lib/ant/lib/ant.jar" />
@@ -1290,6 +1295,7 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.table.runtime.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.matcher.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
