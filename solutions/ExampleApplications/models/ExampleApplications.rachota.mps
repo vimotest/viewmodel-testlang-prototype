@@ -16,6 +16,15 @@
       <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts">
         <property id="3011041337510726009" name="text" index="27$ltt" />
       </concept>
+      <concept id="6939806161745792236" name="ViewModelLanguage.structure.ProgressBarComponent" flags="ng" index="oCYw3">
+        <child id="6939806161745980085" name="textFeature" index="oC8Tq" />
+        <child id="6939806161745847799" name="progressFeature" index="oCC4o" />
+      </concept>
+      <concept id="6939806161745795487" name="ViewModelLanguage.structure.ProgressVCFeature" flags="ng" index="oCZPK">
+        <property id="6939806161745800640" name="max" index="oCW$J" />
+        <property id="6939806161745795488" name="min" index="oCZPf" />
+        <property id="6939806161747339101" name="progress" index="piOeM" />
+      </concept>
       <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
         <child id="4143793920074545904" name="children" index="2HXGLH" />
       </concept>
@@ -30,6 +39,7 @@
       </concept>
       <concept id="5984107031764840531" name="ViewModelLanguage.structure.VisibilityVCFeature" flags="ng" index="2Pim7K" />
       <concept id="5984107031764840534" name="ViewModelLanguage.structure.SensitivityVCFeature" flags="ng" index="2Pim7P" />
+      <concept id="6743755284664566090" name="ViewModelLanguage.structure.LoadViewEvent" flags="ng" index="3f3I3T" />
       <concept id="6743755284656506190" name="ViewModelLanguage.structure.TextBoxComponent" flags="ng" index="3fyYjX">
         <child id="6743755284656506191" name="textFeature" index="3fyYjW" />
       </concept>
@@ -49,12 +59,54 @@
       </concept>
       <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_" />
       <concept id="4321216645069263618" name="ViewModelLanguage.structure.View" flags="ng" index="3H8XyA">
+        <child id="4321216645069263669" name="contents" index="3H8Xyh" />
         <child id="4321216645069263621" name="viewModel" index="3H8Xyx" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="6939806161753627029" name="ViewModelTestLanguage.structure.ProgressCheckValue" flags="ng" index="paRPU">
+        <property id="6939806161753678957" name="checkMax" index="paw22" />
+        <property id="6939806161753677946" name="checkMin" index="pawil" />
+        <property id="6939806161753632163" name="max" index="paO_c" />
+        <property id="6939806161753631111" name="min" index="paOPC" />
+        <property id="6939806161753631684" name="progress" index="paOWF" />
+      </concept>
+      <concept id="6939806161753442499" name="ViewModelTestLanguage.structure.ProgressBarCheck" flags="ng" index="pbEKG">
+        <child id="6939806161753450898" name="checks" index="pbCPX" />
+      </concept>
+      <concept id="3426401106045532804" name="ViewModelTestLanguage.structure.EmptyContext" flags="ng" index="30l7Wy" />
+      <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
+        <child id="3426401106045120780" name="context" index="30nziE" />
+        <child id="3426401106045120778" name="description" index="30nziG" />
+        <child id="3426401106045121444" name="inputCalls" index="30nzo2" />
+        <child id="3426401106045121476" name="asserts" index="30nzpy" />
+      </concept>
+      <concept id="3426401106044983339" name="ViewModelTestLanguage.structure.ViewTestSuite" flags="ng" index="30n1Qd">
+        <reference id="3426401106044983489" name="targetView" index="30n1PB" />
+        <child id="3426401106044983341" name="tests" index="30n1Qb" />
+      </concept>
+      <concept id="3426401106045120500" name="ViewModelTestLanguage.structure.DescriptionPart" flags="ng" index="30nyDi">
+        <property id="3426401106045631318" name="text" index="30lZVK" />
+      </concept>
+      <concept id="3426401106045120499" name="ViewModelTestLanguage.structure.TestCaseDescription" flags="ng" index="30nyDl">
+        <child id="3426401106045120503" name="when" index="30nyDh" />
+        <child id="3426401106045120501" name="given" index="30nyDj" />
+        <child id="3426401106045120506" name="then" index="30nyDs" />
+      </concept>
+      <concept id="3426401106045121538" name="ViewModelTestLanguage.structure.TextCheckValue" flags="ng" index="30nz6$">
+        <property id="3426401106045121539" name="text" index="30nz6_" />
+      </concept>
+      <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.ViewInputCall" flags="ng" index="30nziD">
+        <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
+      </concept>
+      <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
+        <reference id="3426401106045121502" name="component" index="30nzpS" />
+        <child id="3426401106045146960" name="check" index="30nDbQ" />
       </concept>
     </language>
   </registry>
@@ -136,14 +188,20 @@
           </node>
         </node>
       </node>
-      <node concept="3fyYjX" id="61f9eXSVaD9" role="2P43km">
-        <node concept="27$lts" id="61f9eXSVaDb" role="3fyYjW">
+      <node concept="oCYw3" id="61f9eXT9Unu" role="2P43km">
+        <node concept="oCZPK" id="61f9eXT9Unw" role="oCC4o">
           <property role="2PigO5" value="true" />
-          <property role="27$ltt" value="05:08:55" />
+          <property role="oCZPf" value="0" />
+          <property role="oCW$J" value="100" />
+          <property role="piOeM" value="80" />
         </node>
-        <node concept="2Pim7P" id="61f9eXSVaDd" role="2Pim73" />
-        <node concept="2Pim7K" id="61f9eXSVaDf" role="2Pim71" />
-        <node concept="2Pim7H" id="61f9eXSVaDh" role="2Pim76">
+        <node concept="27$lts" id="61f9eXTcbrz" role="oC8Tq">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="01:02:03" />
+        </node>
+        <node concept="2Pim7P" id="61f9eXT9Un$" role="2Pim73" />
+        <node concept="2Pim7K" id="61f9eXT9UnA" role="2Pim71" />
+        <node concept="2Pim7H" id="61f9eXT9UnC" role="2Pim76">
           <property role="2PigPS" value="Progress" />
         </node>
       </node>
@@ -199,6 +257,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3f3I3T" id="61f9eXTB5m0" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
     </node>
   </node>
   <node concept="1u6Luu" id="1$0urrTNxR2">
@@ -440,6 +501,42 @@
       <property role="TrG5h" value="invoice_preview" />
       <node concept="1u4ncX" id="61f9eXSU2M5" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/invoice_preview.png" />
+      </node>
+    </node>
+  </node>
+  <node concept="30n1Qd" id="61f9eXTB4OD">
+    <property role="TrG5h" value="DayViewTests" />
+    <ref role="30n1PB" node="1$0urrTN2$j" resolve="DayView" />
+    <node concept="30n1Qa" id="61f9eXTB5dm" role="30n1Qb">
+      <node concept="30nyDl" id="61f9eXTB5dn" role="30nziG">
+        <node concept="30nyDi" id="61f9eXTB5do" role="30nyDj">
+          <property role="30lZVK" value="A" />
+        </node>
+        <node concept="30nyDi" id="61f9eXTB5dp" role="30nyDh">
+          <property role="30lZVK" value="B" />
+        </node>
+        <node concept="30nyDi" id="61f9eXTB5dq" role="30nyDs">
+          <property role="30lZVK" value="C" />
+        </node>
+      </node>
+      <node concept="30l7Wy" id="61f9eXTB5hD" role="30nziE" />
+      <node concept="30nziD" id="61f9eXTB5qm" role="30nzo2">
+        <ref role="30nziQ" node="61f9eXTB5m0" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="61f9eXTB5rS" role="30nzpy">
+        <ref role="30nzpS" node="61f9eXT9Unu" resolve="Progress" />
+        <node concept="pbEKG" id="61f9eXTB5ue" role="30nDbQ">
+          <node concept="paRPU" id="61f9eXTB5uf" role="pbCPX">
+            <property role="pawil" value="true" />
+            <property role="paw22" value="true" />
+            <property role="paOPC" value="0" />
+            <property role="paO_c" value="523" />
+            <property role="paOWF" value="309" />
+          </node>
+          <node concept="30nz6$" id="61f9eXTB5CY" role="pbCPX">
+            <property role="30nz6_" value="05:08:55" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
