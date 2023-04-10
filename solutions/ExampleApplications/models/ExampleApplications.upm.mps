@@ -670,82 +670,82 @@
     <node concept="1u6Luv" id="43lx_5ljN6w" role="1u6Lvn">
       <property role="TrG5h" value="stop" />
       <node concept="1u4ncX" id="43lx_5ljN6y" role="1u6L2h">
-        <property role="1u4ncw" value="images/stop.gif" />
+        <property role="1u4ncw" value="images/upm/stop.gif" />
       </node>
       <node concept="1u4ncX" id="1o_uqzzTrqM" role="3PYMUL">
-        <property role="1u4ncw" value="images/stop_d.gif" />
+        <property role="1u4ncw" value="images/upm/stop_d.gif" />
       </node>
     </node>
     <node concept="1u6Luv" id="43lx_5ljN6$" role="1u6Lvn">
       <property role="TrG5h" value="sync" />
       <node concept="1u4ncX" id="43lx_5ljN6A" role="1u6L2h">
-        <property role="1u4ncw" value="images/sync.png" />
+        <property role="1u4ncw" value="images/upm/sync.png" />
       </node>
       <node concept="1u4ncX" id="1o_uqzzT0Fg" role="3PYMUL">
-        <property role="1u4ncw" value="images/sync_d.png" />
+        <property role="1u4ncw" value="images/upm/sync_d.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="43lx_5ljN6C" role="1u6Lvn">
       <property role="TrG5h" value="search" />
       <node concept="1u4ncX" id="43lx_5ljN6E" role="1u6L2h">
-        <property role="1u4ncw" value="images/search.gif" />
+        <property role="1u4ncw" value="images/upm/search.gif" />
       </node>
       <node concept="1u4ncX" id="43lx_5ljN6U" role="3PYMUL">
-        <property role="1u4ncw" value="images/search_d.gif" />
+        <property role="1u4ncw" value="images/upm/search_d.gif" />
       </node>
     </node>
     <node concept="1u6Luv" id="43lx_5ljN6O" role="1u6Lvn">
       <property role="TrG5h" value="options" />
       <node concept="1u4ncX" id="43lx_5ljN6Q" role="1u6L2h">
-        <property role="1u4ncw" value="images/options.gif" />
+        <property role="1u4ncw" value="images/upm/options.gif" />
       </node>
       <node concept="1u4ncX" id="43lx_5ljN6Y" role="3PYMUL">
-        <property role="1u4ncw" value="images/options_d.gif" />
+        <property role="1u4ncw" value="images/upm/options_d.gif" />
       </node>
     </node>
     <node concept="1u6Luv" id="43lx_5ljN70" role="1u6Lvn">
       <property role="TrG5h" value="add_account" />
       <node concept="1u4ncX" id="43lx_5ljN72" role="1u6L2h">
-        <property role="1u4ncw" value="images/add_account.gif" />
+        <property role="1u4ncw" value="images/upm/add_account.gif" />
       </node>
       <node concept="1u4ncX" id="43lx_5ljN7a" role="3PYMUL">
-        <property role="1u4ncw" value="images/add_account_d.gif" />
+        <property role="1u4ncw" value="images/upm/add_account_d.gif" />
       </node>
     </node>
     <node concept="1u6Luv" id="43lx_5ljN74" role="1u6Lvn">
       <property role="TrG5h" value="edit_account" />
       <node concept="1u4ncX" id="43lx_5ljN76" role="1u6L2h">
-        <property role="1u4ncw" value="images/edit_account.gif" />
+        <property role="1u4ncw" value="images/upm/edit_account.gif" />
       </node>
       <node concept="1u4ncX" id="43lx_5ljN7q" role="3PYMUL">
-        <property role="1u4ncw" value="images/edit_account_d.gif" />
+        <property role="1u4ncw" value="images/upm/edit_account_d.gif" />
       </node>
     </node>
     <node concept="1u6Luv" id="43lx_5ljN7c" role="1u6Lvn">
       <property role="TrG5h" value="copy_password" />
       <node concept="1u4ncX" id="43lx_5ljN7e" role="1u6L2h">
-        <property role="1u4ncw" value="images/copy_password.gif" />
+        <property role="1u4ncw" value="images/upm/copy_password.gif" />
       </node>
       <node concept="1u4ncX" id="43lx_5ljN7u" role="3PYMUL">
-        <property role="1u4ncw" value="images/copy_password_d.gif" />
+        <property role="1u4ncw" value="images/upm/copy_password_d.gif" />
       </node>
     </node>
     <node concept="1u6Luv" id="43lx_5ljN7g" role="1u6Lvn">
       <property role="TrG5h" value="copy_username" />
       <node concept="1u4ncX" id="43lx_5ljN7i" role="1u6L2h">
-        <property role="1u4ncw" value="images/copy_username.gif" />
+        <property role="1u4ncw" value="images/upm/copy_username.gif" />
       </node>
       <node concept="1u4ncX" id="1o_uqzzT0If" role="3PYMUL">
-        <property role="1u4ncw" value="images/copy_username_d.gif" />
+        <property role="1u4ncw" value="images/upm/copy_username_d.gif" />
       </node>
     </node>
     <node concept="1u6Luv" id="43lx_5ljN7k" role="1u6Lvn">
       <property role="TrG5h" value="delete_account" />
       <node concept="1u4ncX" id="43lx_5ljN7m" role="1u6L2h">
-        <property role="1u4ncw" value="images/delete_account.gif" />
+        <property role="1u4ncw" value="images/upm/delete_account.gif" />
       </node>
       <node concept="1u4ncX" id="43lx_5lkoZv" role="3PYMUL">
-        <property role="1u4ncw" value="images/delete_account_d.gif" />
+        <property role="1u4ncw" value="images/upm/delete_account_d.gif" />
       </node>
     </node>
   </node>
