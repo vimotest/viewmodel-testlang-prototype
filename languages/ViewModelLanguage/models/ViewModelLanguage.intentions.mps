@@ -1239,5 +1239,213 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="1$0urrTN33d">
+    <property role="3GE5qa" value="viewcomponents.button" />
+    <property role="TrG5h" value="ConvertToImageButtonIntention" />
+    <ref role="2ZfgGC" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
+    <node concept="2S6ZIM" id="1$0urrTN33e" role="2ZfVej">
+      <node concept="3clFbS" id="1$0urrTN33f" role="2VODD2">
+        <node concept="3clFbF" id="1$0urrTN3Fg" role="3cqZAp">
+          <node concept="Xl_RD" id="1$0urrTN3Ff" role="3clFbG">
+            <property role="Xl_RC" value="Convert to image button" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1$0urrTN33g" role="2ZfgGD">
+      <node concept="3clFbS" id="1$0urrTN33h" role="2VODD2">
+        <node concept="3cpWs8" id="1$0urrTN4DN" role="3cqZAp">
+          <node concept="3cpWsn" id="1$0urrTN4DO" role="3cpWs9">
+            <property role="TrG5h" value="imageButton" />
+            <node concept="3Tqbb2" id="1$0urrTN4$X" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
+            </node>
+            <node concept="2OqwBi" id="1$0urrTN4DP" role="33vP2m">
+              <node concept="2Sf5sV" id="1$0urrTN4DQ" role="2Oq$k0" />
+              <node concept="2DeJnW" id="1$0urrTN4DR" role="2OqNvi">
+                <ref role="1_rbq0" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1$0urrTN4Qs" role="3cqZAp">
+          <node concept="37vLTI" id="1$0urrTN5FK" role="3clFbG">
+            <node concept="2OqwBi" id="1$0urrTN61K" role="37vLTx">
+              <node concept="2Sf5sV" id="1$0urrTN5LI" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1$0urrTN88O" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1w" resolve="sensitivityFeature" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1$0urrTN54V" role="37vLTJ">
+              <node concept="37vLTw" id="1$0urrTN4Qq" role="2Oq$k0">
+                <ref role="3cqZAo" node="1$0urrTN4DO" resolve="imageButton" />
+              </node>
+              <node concept="3TrEf2" id="1$0urrTN72Y" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1w" resolve="sensitivityFeature" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1$0urrTN8gS" role="3cqZAp">
+          <node concept="37vLTI" id="1$0urrTN8gT" role="3clFbG">
+            <node concept="2OqwBi" id="1$0urrTN8gU" role="37vLTx">
+              <node concept="2Sf5sV" id="1$0urrTN8gV" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1$0urrTN8Y8" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1y" resolve="visibilityFeature" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1$0urrTN8gX" role="37vLTJ">
+              <node concept="37vLTw" id="1$0urrTN8gY" role="2Oq$k0">
+                <ref role="3cqZAo" node="1$0urrTN4DO" resolve="imageButton" />
+              </node>
+              <node concept="3TrEf2" id="1$0urrTN8qN" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1y" resolve="visibilityFeature" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1$0urrTN6xm" role="3cqZAp">
+          <node concept="37vLTI" id="1$0urrTN6xn" role="3clFbG">
+            <node concept="2OqwBi" id="1$0urrTN6xo" role="37vLTx">
+              <node concept="2Sf5sV" id="1$0urrTN6xp" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1$0urrTN6xq" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1_" resolve="nameFeature" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1$0urrTN6xr" role="37vLTJ">
+              <node concept="37vLTw" id="1$0urrTN6xs" role="2Oq$k0">
+                <ref role="3cqZAo" node="1$0urrTN4DO" resolve="imageButton" />
+              </node>
+              <node concept="3TrEf2" id="1$0urrTN6xt" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1_" resolve="nameFeature" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1$0urrTN90Q" role="3cqZAp">
+          <node concept="37vLTI" id="1$0urrTN90R" role="3clFbG">
+            <node concept="2OqwBi" id="1$0urrTN90S" role="37vLTx">
+              <node concept="2Sf5sV" id="1$0urrTN90T" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1$0urrTNa8s" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:3JS2UjmUbQ1" resolve="sensitiveState" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1$0urrTN90V" role="37vLTJ">
+              <node concept="37vLTw" id="1$0urrTN90W" role="2Oq$k0">
+                <ref role="3cqZAo" node="1$0urrTN4DO" resolve="imageButton" />
+              </node>
+              <node concept="3TrcHB" id="1$0urrTN9wo" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:3JS2UjmUbQ1" resolve="sensitiveState" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1$0urrTNajE">
+    <property role="3GE5qa" value="viewcomponents.button" />
+    <property role="TrG5h" value="ConvertToTextButtonIntention" />
+    <ref role="2ZfgGC" to="6ap2:3A1HDQku_lz" resolve="ImageButtonComponent" />
+    <node concept="2S6ZIM" id="1$0urrTNajF" role="2ZfVej">
+      <node concept="3clFbS" id="1$0urrTNajG" role="2VODD2">
+        <node concept="3clFbF" id="1$0urrTNajH" role="3cqZAp">
+          <node concept="Xl_RD" id="1$0urrTNajI" role="3clFbG">
+            <property role="Xl_RC" value="Convert to text button" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1$0urrTNajJ" role="2ZfgGD">
+      <node concept="3clFbS" id="1$0urrTNajK" role="2VODD2">
+        <node concept="3cpWs8" id="1$0urrTNajL" role="3cqZAp">
+          <node concept="3cpWsn" id="1$0urrTNajM" role="3cpWs9">
+            <property role="TrG5h" value="textButton" />
+            <node concept="3Tqbb2" id="1$0urrTNajN" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
+            </node>
+            <node concept="2OqwBi" id="1$0urrTNajO" role="33vP2m">
+              <node concept="2Sf5sV" id="1$0urrTNajP" role="2Oq$k0" />
+              <node concept="2DeJnW" id="1$0urrTNajQ" role="2OqNvi">
+                <ref role="1_rbq0" to="6ap2:3JS2UjmUbPT" resolve="ButtonComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1$0urrTNajR" role="3cqZAp">
+          <node concept="37vLTI" id="1$0urrTNajS" role="3clFbG">
+            <node concept="2OqwBi" id="1$0urrTNajT" role="37vLTx">
+              <node concept="2Sf5sV" id="1$0urrTNajU" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1$0urrTNajV" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1w" resolve="sensitivityFeature" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1$0urrTNajW" role="37vLTJ">
+              <node concept="37vLTw" id="1$0urrTNajX" role="2Oq$k0">
+                <ref role="3cqZAo" node="1$0urrTNajM" resolve="imageButton" />
+              </node>
+              <node concept="3TrEf2" id="1$0urrTNajY" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1w" resolve="sensitivityFeature" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1$0urrTNajZ" role="3cqZAp">
+          <node concept="37vLTI" id="1$0urrTNak0" role="3clFbG">
+            <node concept="2OqwBi" id="1$0urrTNak1" role="37vLTx">
+              <node concept="2Sf5sV" id="1$0urrTNak2" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1$0urrTNak3" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1y" resolve="visibilityFeature" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1$0urrTNak4" role="37vLTJ">
+              <node concept="37vLTw" id="1$0urrTNak5" role="2Oq$k0">
+                <ref role="3cqZAo" node="1$0urrTNajM" resolve="imageButton" />
+              </node>
+              <node concept="3TrEf2" id="1$0urrTNak6" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1y" resolve="visibilityFeature" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1$0urrTNak7" role="3cqZAp">
+          <node concept="37vLTI" id="1$0urrTNak8" role="3clFbG">
+            <node concept="2OqwBi" id="1$0urrTNak9" role="37vLTx">
+              <node concept="2Sf5sV" id="1$0urrTNaka" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1$0urrTNakb" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1_" resolve="nameFeature" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1$0urrTNakc" role="37vLTJ">
+              <node concept="37vLTw" id="1$0urrTNakd" role="2Oq$k0">
+                <ref role="3cqZAo" node="1$0urrTNajM" resolve="imageButton" />
+              </node>
+              <node concept="3TrEf2" id="1$0urrTNake" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1_" resolve="nameFeature" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1$0urrTNakf" role="3cqZAp">
+          <node concept="37vLTI" id="1$0urrTNakg" role="3clFbG">
+            <node concept="2OqwBi" id="1$0urrTNakh" role="37vLTx">
+              <node concept="2Sf5sV" id="1$0urrTNaki" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1$0urrTNakj" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:3JS2UjmUbQ1" resolve="sensitiveState" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1$0urrTNakk" role="37vLTJ">
+              <node concept="37vLTw" id="1$0urrTNakl" role="2Oq$k0">
+                <ref role="3cqZAo" node="1$0urrTNajM" resolve="imageButton" />
+              </node>
+              <node concept="3TrcHB" id="1$0urrTNakm" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:3JS2UjmUbQ1" resolve="sensitiveState" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
