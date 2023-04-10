@@ -222,6 +222,16 @@
         <property id="282652060087409064" name="title" index="npJs_" />
         <property id="282652060087409066" name="message" index="npJsB" />
       </concept>
+      <concept id="6939806161753627029" name="ViewModelTestLanguage.structure.ProgressCheckValue" flags="ng" index="paRPU">
+        <property id="6939806161753678957" name="checkMax" index="paw22" />
+        <property id="6939806161753677946" name="checkMin" index="pawil" />
+        <property id="6939806161753632163" name="max" index="paO_c" />
+        <property id="6939806161753631111" name="min" index="paOPC" />
+        <property id="6939806161753631684" name="progress" index="paOWF" />
+      </concept>
+      <concept id="6939806161753442499" name="ViewModelTestLanguage.structure.ProgressBarCheck" flags="ng" index="pbEKG">
+        <child id="6939806161753450898" name="checks" index="pbCPX" />
+      </concept>
       <concept id="2600358326998253203" name="ViewModelTestLanguage.structure.FieldAssertion" flags="ng" index="_oYEc">
         <child id="2600358326998253206" name="checkValue" index="_oYE9" />
       </concept>
@@ -253,6 +263,7 @@
         <reference id="3426401106045849611" name="contextRef" index="30kPmH" />
         <child id="5830978789222189283" name="elementsToExclude" index="3KxGiN" />
       </concept>
+      <concept id="3426401106045532804" name="ViewModelTestLanguage.structure.EmptyContext" flags="ng" index="30l7Wy" />
       <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
         <child id="3426401106045120780" name="context" index="30nziE" />
         <child id="3426401106045120778" name="description" index="30nziG" />
@@ -1171,6 +1182,38 @@
             <node concept="3P0YHh" id="5GYs7qIhkAH" role="3P0YHj">
               <property role="3P0YHu" value="C" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="61f9eXTtH3B" role="30n1Qb">
+      <node concept="30nyDl" id="61f9eXTtH3C" role="30nziG">
+        <node concept="30nyDi" id="61f9eXTtH3D" role="30nyDj">
+          <property role="30lZVK" value="No objects" />
+        </node>
+        <node concept="30nyDi" id="61f9eXTtH3E" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="61f9eXTtH3F" role="30nyDs">
+          <property role="30lZVK" value="Progress shown" />
+        </node>
+      </node>
+      <node concept="30nziD" id="61f9eXTtH3J" role="30nzo2">
+        <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
+      </node>
+      <node concept="30l7Wy" id="61f9eXTtHFG" role="30nziE" />
+      <node concept="30nzp_" id="61f9eXTtHN8" role="30nzpy">
+        <ref role="30nzpS" node="61f9eXT9Unu" resolve="MyProgress" />
+        <node concept="pbEKG" id="61f9eXTtHTk" role="30nDbQ">
+          <node concept="paRPU" id="61f9eXTtHUt" role="pbCPX">
+            <property role="pawil" value="true" />
+            <property role="paw22" value="true" />
+            <property role="paOPC" value="0" />
+            <property role="paO_c" value="10" />
+            <property role="paOWF" value="8" />
+          </node>
+          <node concept="30nz6$" id="61f9eXTtI3j" role="pbCPX">
+            <property role="30nz6_" value="80%" />
           </node>
         </node>
       </node>

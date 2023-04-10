@@ -6,6 +6,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -269,6 +270,9 @@
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
+    </language>
+    <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
+      <concept id="767145758118872833" name="jetbrains.mps.lang.actions.structure.NF_LinkList_AddNewChildOperation" flags="nn" index="2DeJg1" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
@@ -853,6 +857,36 @@
         </node>
       </node>
       <node concept="3cqZAl" id="5QmCrei7YK6" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="61f9eXTtJ77" role="13h7CS">
+      <property role="TrG5h" value="modifyProgressBar" />
+      <ref role="13i0hy" node="61f9eXToqax" resolve="modifyProgressBar" />
+      <node concept="3Tm1VV" id="61f9eXTtJ7a" role="1B3o_S" />
+      <node concept="3clFbS" id="61f9eXTtJ7d" role="3clF47">
+        <node concept="3clFbF" id="61f9eXTtJnw" role="3cqZAp">
+          <node concept="2OqwBi" id="61f9eXTtK01" role="3clFbG">
+            <node concept="37vLTw" id="61f9eXTtJnq" role="2Oq$k0">
+              <ref role="3cqZAo" node="61f9eXTtJ7e" resolve="progressBar" />
+            </node>
+            <node concept="liA8E" id="61f9eXTtKMd" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JProgressBar.setString(java.lang.String)" resolve="setString" />
+              <node concept="2OqwBi" id="61f9eXTtL5e" role="37wK5m">
+                <node concept="13iPFW" id="61f9eXTtKPu" role="2Oq$k0" />
+                <node concept="3TrcHB" id="61f9eXTtLsY" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:2Yd1qrJONg3" resolve="text" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="61f9eXTtJ7e" role="3clF46">
+        <property role="TrG5h" value="progressBar" />
+        <node concept="3uibUv" id="61f9eXTtJ7f" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JProgressBar" resolve="JProgressBar" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="61f9eXTtJ7g" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="2Yd1qrJP3Fw">
@@ -4967,6 +5001,22 @@
               </node>
             </node>
           </node>
+          <node concept="1pnPoh" id="61f9eXT$N9b" role="1_3QMm">
+            <node concept="3gn64h" id="61f9eXT$N9c" role="1pnPq6">
+              <ref role="3gnhBz" to="6ap2:5GYs7qI9Oz2" resolve="ComboBoxComponent" />
+            </node>
+            <node concept="3clFbS" id="61f9eXT$N9d" role="1pnPq1">
+              <node concept="3cpWs6" id="61f9eXT$N9e" role="3cqZAp">
+                <node concept="2ShNRf" id="61f9eXT$N9f" role="3cqZAk">
+                  <node concept="3zrR0B" id="61f9eXT$N9g" role="2ShVmc">
+                    <node concept="3Tqbb2" id="61f9eXT$N9h" role="3zrR0E">
+                      <ref role="ehGHo" to="l8rz:5GYs7qIfjFn" resolve="ComboBoxCheck" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="1pnPoh" id="3HXRBxqB89J" role="1_3QMm">
             <node concept="3gn64h" id="3HXRBxqB89K" role="1pnPq6">
               <ref role="3gnhBz" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
@@ -4993,6 +5043,38 @@
                   <node concept="3zrR0B" id="26AO1okNb9D" role="2ShVmc">
                     <node concept="3Tqbb2" id="26AO1okNb9E" role="3zrR0E">
                       <ref role="ehGHo" to="l8rz:vV7zhZ3DJ9" resolve="TreeViewCheck" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1pnPoh" id="61f9eXTywgf" role="1_3QMm">
+            <node concept="3gn64h" id="61f9eXTywgg" role="1pnPq6">
+              <ref role="3gnhBz" to="6ap2:6yyqi$iVArY" resolve="ListViewComponent" />
+            </node>
+            <node concept="3clFbS" id="61f9eXTywgh" role="1pnPq1">
+              <node concept="3cpWs6" id="61f9eXTywgi" role="3cqZAp">
+                <node concept="2ShNRf" id="61f9eXTywgj" role="3cqZAk">
+                  <node concept="3zrR0B" id="61f9eXTywgk" role="2ShVmc">
+                    <node concept="3Tqbb2" id="61f9eXTywgl" role="3zrR0E">
+                      <ref role="ehGHo" to="l8rz:6yyqi$j0BNW" resolve="ListCheck" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1pnPoh" id="61f9eXTyvKH" role="1_3QMm">
+            <node concept="3gn64h" id="61f9eXTyvKI" role="1pnPq6">
+              <ref role="3gnhBz" to="6ap2:61f9eXSVcNG" resolve="ProgressBarComponent" />
+            </node>
+            <node concept="3clFbS" id="61f9eXTyvKJ" role="1pnPq1">
+              <node concept="3cpWs6" id="61f9eXTyvKK" role="3cqZAp">
+                <node concept="2ShNRf" id="61f9eXTyvKL" role="3cqZAk">
+                  <node concept="3zrR0B" id="61f9eXTyvKM" role="2ShVmc">
+                    <node concept="3Tqbb2" id="61f9eXTyvKN" role="3zrR0E">
+                      <ref role="ehGHo" to="l8rz:61f9eXTooz3" resolve="ProgressBarCheck" />
                     </node>
                   </node>
                 </node>
@@ -7143,7 +7225,21 @@
     <property role="3GE5qa" value="assert.texbox" />
     <ref role="13h7C2" to="l8rz:5QmCrei7W1w" resolve="TextBoxCheck" />
     <node concept="13hLZK" id="5QmCrei7WYs" role="13h7CW">
-      <node concept="3clFbS" id="5QmCrei7WYt" role="2VODD2" />
+      <node concept="3clFbS" id="5QmCrei7WYt" role="2VODD2">
+        <node concept="3clFbF" id="61f9eXTw7h6" role="3cqZAp">
+          <node concept="2OqwBi" id="61f9eXTw9mI" role="3clFbG">
+            <node concept="2OqwBi" id="61f9eXTw7rS" role="2Oq$k0">
+              <node concept="13iPFW" id="61f9eXTw7h5" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="61f9eXTw7G$" role="2OqNvi">
+                <ref role="3TtcxE" to="l8rz:5QmCrei7W1x" resolve="checks" />
+              </node>
+            </node>
+            <node concept="2DeJg1" id="61f9eXTwaSf" role="2OqNvi">
+              <ref role="1A0vxQ" to="l8rz:2Yd1qrJONg2" resolve="TextCheckValue" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="5QmCrei7WYA" role="13h7CS">
       <property role="TrG5h" value="applyOnSwingComponent" />
@@ -11604,6 +11700,215 @@
       <node concept="3Tqbb2" id="2ZnRpGqL$7A" role="3clF45">
         <ref role="ehGHo" to="6ap2:3JS2UjmQXc2" resolve="View" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="61f9eXTopAC">
+    <property role="3GE5qa" value="assert.progress" />
+    <ref role="13h7C2" to="l8rz:61f9eXTop3E" resolve="IProgressBarCheckValue" />
+    <node concept="13i0hz" id="61f9eXToqax" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="modifyProgressBar" />
+      <node concept="37vLTG" id="61f9eXToqay" role="3clF46">
+        <property role="TrG5h" value="progressBar" />
+        <node concept="3uibUv" id="61f9eXToqaz" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JProgressBar" resolve="JProgressBar" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="61f9eXToqa$" role="1B3o_S" />
+      <node concept="3cqZAl" id="61f9eXToqa_" role="3clF45" />
+      <node concept="3clFbS" id="61f9eXToqaA" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="61f9eXTopAD" role="13h7CW">
+      <node concept="3clFbS" id="61f9eXTopAE" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="61f9eXTot1t">
+    <property role="3GE5qa" value="assert.progress" />
+    <ref role="13h7C2" to="l8rz:61f9eXTooz3" resolve="ProgressBarCheck" />
+    <node concept="13hLZK" id="61f9eXTot1u" role="13h7CW">
+      <node concept="3clFbS" id="61f9eXTot1v" role="2VODD2">
+        <node concept="3clFbF" id="61f9eXTw1YD" role="3cqZAp">
+          <node concept="2OqwBi" id="61f9eXTw448" role="3clFbG">
+            <node concept="2OqwBi" id="61f9eXTw29r" role="2Oq$k0">
+              <node concept="13iPFW" id="61f9eXTw1YC" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="61f9eXTw2pj" role="2OqNvi">
+                <ref role="3TtcxE" to="l8rz:61f9eXToqAi" resolve="checks" />
+              </node>
+            </node>
+            <node concept="2DeJg1" id="61f9eXTw6_1" role="2OqNvi">
+              <ref role="1A0vxQ" to="l8rz:61f9eXTp5Al" resolve="ProgressCheckValue" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="61f9eXTottf" role="13h7CS">
+      <property role="TrG5h" value="applyOnSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJP3FF" resolve="applyOnSwingComponent" />
+      <node concept="3Tm1VV" id="61f9eXTottk" role="1B3o_S" />
+      <node concept="3clFbS" id="61f9eXTottn" role="3clF47">
+        <node concept="3cpWs8" id="61f9eXTow1R" role="3cqZAp">
+          <node concept="3cpWsn" id="61f9eXTow1S" role="3cpWs9">
+            <property role="TrG5h" value="progressBar" />
+            <node concept="3uibUv" id="61f9eXTovXF" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JProgressBar" resolve="JProgressBar" />
+            </node>
+            <node concept="0kSF2" id="61f9eXTow1T" role="33vP2m">
+              <node concept="3uibUv" id="61f9eXTow1U" role="0kSFW">
+                <ref role="3uigEE" to="dxuu:~JProgressBar" resolve="JProgressBar" />
+              </node>
+              <node concept="37vLTw" id="61f9eXTow1V" role="0kSFX">
+                <ref role="3cqZAo" node="61f9eXTotto" resolve="swingComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="61f9eXToweI" role="3cqZAp">
+          <node concept="3clFbS" id="61f9eXToweK" role="3clFbx">
+            <node concept="3clFbF" id="61f9eXTox38" role="3cqZAp">
+              <node concept="2OqwBi" id="61f9eXTozbu" role="3clFbG">
+                <node concept="2OqwBi" id="61f9eXToxdU" role="2Oq$k0">
+                  <node concept="13iPFW" id="61f9eXTox36" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="61f9eXToxwD" role="2OqNvi">
+                    <ref role="3TtcxE" to="l8rz:61f9eXToqAi" resolve="checks" />
+                  </node>
+                </node>
+                <node concept="2es0OD" id="61f9eXTo$D4" role="2OqNvi">
+                  <node concept="1bVj0M" id="61f9eXTo$D6" role="23t8la">
+                    <node concept="3clFbS" id="61f9eXTo$D7" role="1bW5cS">
+                      <node concept="3clFbF" id="61f9eXTo$Hw" role="3cqZAp">
+                        <node concept="2OqwBi" id="61f9eXTo$S$" role="3clFbG">
+                          <node concept="37vLTw" id="61f9eXTo$Hv" role="2Oq$k0">
+                            <ref role="3cqZAo" node="61f9eXTo$D8" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="61f9eXTo_9P" role="2OqNvi">
+                            <ref role="37wK5l" node="61f9eXToqax" resolve="modifyProgressBar" />
+                            <node concept="37vLTw" id="61f9eXTp4z_" role="37wK5m">
+                              <ref role="3cqZAo" node="61f9eXTow1S" resolve="progressBar" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="61f9eXTo$D8" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="61f9eXTo$D9" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="61f9eXTowWU" role="3clFbw">
+            <node concept="10Nm6u" id="61f9eXTowYf" role="3uHU7w" />
+            <node concept="37vLTw" id="61f9eXTowi2" role="3uHU7B">
+              <ref role="3cqZAo" node="61f9eXTow1S" resolve="progressBar" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="61f9eXTotto" role="3clF46">
+        <property role="TrG5h" value="swingComponent" />
+        <node concept="3uibUv" id="61f9eXTottp" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="61f9eXTottq" role="3clF46">
+        <property role="TrG5h" value="viewComponent" />
+        <node concept="3Tqbb2" id="61f9eXTottr" role="1tU5fm">
+          <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="61f9eXTotts" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="61f9eXTpbMQ">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="13h7C2" to="l8rz:61f9eXTp5Al" resolve="ProgressCheckValue" />
+    <node concept="13hLZK" id="61f9eXTpbMR" role="13h7CW">
+      <node concept="3clFbS" id="61f9eXTpbMS" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="61f9eXTpcec" role="13h7CS">
+      <property role="TrG5h" value="modifyProgressBar" />
+      <ref role="13i0hy" node="61f9eXToqax" resolve="modifyProgressBar" />
+      <node concept="3Tm1VV" id="61f9eXTpcef" role="1B3o_S" />
+      <node concept="3clFbS" id="61f9eXTpcei" role="3clF47">
+        <node concept="3clFbJ" id="61f9eXTpdRZ" role="3cqZAp">
+          <node concept="2OqwBi" id="61f9eXTpe52" role="3clFbw">
+            <node concept="13iPFW" id="61f9eXTpdTw" role="2Oq$k0" />
+            <node concept="3TrcHB" id="61f9eXTpekY" role="2OqNvi">
+              <ref role="3TsBF5" to="l8rz:61f9eXTpi1U" resolve="checkMin" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="61f9eXTpdS1" role="3clFbx">
+            <node concept="3clFbF" id="61f9eXTpkZ1" role="3cqZAp">
+              <node concept="2OqwBi" id="61f9eXTpmsL" role="3clFbG">
+                <node concept="37vLTw" id="61f9eXTpkZ0" role="2Oq$k0">
+                  <ref role="3cqZAo" node="61f9eXTpcej" resolve="progressBar" />
+                </node>
+                <node concept="liA8E" id="61f9eXTpneI" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~JProgressBar.setMinimum(int)" resolve="setMinimum" />
+                  <node concept="2OqwBi" id="61f9eXTpnui" role="37wK5m">
+                    <node concept="13iPFW" id="61f9eXTpngV" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="61f9eXTpnJN" role="2OqNvi">
+                      <ref role="3TsBF5" to="l8rz:61f9eXTp6A7" resolve="min" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="61f9eXTpnOc" role="3cqZAp">
+          <node concept="2OqwBi" id="61f9eXTpnOd" role="3clFbw">
+            <node concept="13iPFW" id="61f9eXTpnOe" role="2Oq$k0" />
+            <node concept="3TrcHB" id="61f9eXTpnOf" role="2OqNvi">
+              <ref role="3TsBF5" to="l8rz:61f9eXTpihH" resolve="checkMax" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="61f9eXTpnOg" role="3clFbx">
+            <node concept="3clFbF" id="61f9eXTpnOh" role="3cqZAp">
+              <node concept="2OqwBi" id="61f9eXTpnOi" role="3clFbG">
+                <node concept="37vLTw" id="61f9eXTpnOj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="61f9eXTpcej" resolve="progressBar" />
+                </node>
+                <node concept="liA8E" id="61f9eXTpnOk" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~JProgressBar.setMaximum(int)" resolve="setMaximum" />
+                  <node concept="2OqwBi" id="61f9eXTpnOl" role="37wK5m">
+                    <node concept="13iPFW" id="61f9eXTpnOm" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="61f9eXTpnOn" role="2OqNvi">
+                      <ref role="3TsBF5" to="l8rz:61f9eXTp6Qz" resolve="max" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="61f9eXTpqmy" role="3cqZAp">
+          <node concept="2OqwBi" id="61f9eXTpr0N" role="3clFbG">
+            <node concept="37vLTw" id="61f9eXTpqmw" role="2Oq$k0">
+              <ref role="3cqZAo" node="61f9eXTpcej" resolve="progressBar" />
+            </node>
+            <node concept="liA8E" id="61f9eXTprOf" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JProgressBar.setValue(int)" resolve="setValue" />
+              <node concept="2OqwBi" id="61f9eXTpsbd" role="37wK5m">
+                <node concept="13iPFW" id="61f9eXTprRn" role="2Oq$k0" />
+                <node concept="3TrcHB" id="61f9eXTpsms" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:61f9eXTp6J4" resolve="progress" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="61f9eXTpcej" role="3clF46">
+        <property role="TrG5h" value="progressBar" />
+        <node concept="3uibUv" id="61f9eXTpcek" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JProgressBar" resolve="JProgressBar" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="61f9eXTpcel" role="3clF45" />
     </node>
   </node>
 </model>

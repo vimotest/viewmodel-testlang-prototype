@@ -341,6 +341,9 @@
     <node concept="PrWs8" id="5QmCrei7Y_g" role="PzmwI">
       <ref role="PrY4T" node="5QmCrei7W1y" resolve="ITextBoxCheckValue" />
     </node>
+    <node concept="PrWs8" id="61f9eXTp4T1" role="PzmwI">
+      <ref role="PrY4T" node="61f9eXTop3E" resolve="IProgressBarCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJQnE4">
     <property role="EcuMT" value="3426401106045532804" />
@@ -1165,6 +1168,59 @@
       <property role="20kJfa" value="checkValues" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="zI3UExNGh5" resolve="ILabelCheckValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="61f9eXTooz3">
+    <property role="EcuMT" value="6939806161753442499" />
+    <property role="3GE5qa" value="assert.progress" />
+    <property role="TrG5h" value="ProgressBarCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="61f9eXToqAi" role="1TKVEi">
+      <property role="IQ2ns" value="6939806161753450898" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checks" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="61f9eXTop3E" resolve="IProgressBarCheckValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="61f9eXTop3E">
+    <property role="EcuMT" value="6939806161753444586" />
+    <property role="3GE5qa" value="assert.progress" />
+    <property role="TrG5h" value="IProgressBarCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="61f9eXTp5Al">
+    <property role="EcuMT" value="6939806161753627029" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="ProgressCheckValue" />
+    <property role="34LRSv" value="progress" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="61f9eXTp6e2" role="PzmwI">
+      <ref role="PrY4T" node="61f9eXTop3E" resolve="IProgressBarCheckValue" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXTpi1U" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161753677946" />
+      <property role="TrG5h" value="checkMin" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXTp6A7" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161753631111" />
+      <property role="TrG5h" value="min" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXTpihH" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161753678957" />
+      <property role="TrG5h" value="checkMax" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXTp6Qz" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161753632163" />
+      <property role="TrG5h" value="max" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXTp6J4" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161753631684" />
+      <property role="TrG5h" value="progress" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

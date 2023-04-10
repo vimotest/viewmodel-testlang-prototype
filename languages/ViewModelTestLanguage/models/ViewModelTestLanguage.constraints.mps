@@ -1230,5 +1230,72 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="61f9eXTorFk">
+    <property role="3GE5qa" value="assert.progress" />
+    <ref role="1M2myG" to="l8rz:61f9eXTooz3" resolve="ProgressBarCheck" />
+    <node concept="9S07l" id="61f9eXTosai" role="9Vyp8">
+      <node concept="3clFbS" id="61f9eXTosaj" role="2VODD2">
+        <node concept="3cpWs8" id="61f9eXTosbZ" role="3cqZAp">
+          <node concept="3cpWsn" id="61f9eXTosc0" role="3cpWs9">
+            <property role="TrG5h" value="viewComponent" />
+            <node concept="3Tqbb2" id="61f9eXTosc1" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+            </node>
+            <node concept="2YIFZM" id="61f9eXTosc2" role="33vP2m">
+              <ref role="37wK5l" to="gg8m:3HXRBxqx3W2" resolve="getViewComponentToCheckForParent" />
+              <ref role="1Pybhc" to="gg8m:4jKdMMdK1xy" resolve="ViewComponentCheckUtil" />
+              <node concept="nLn13" id="61f9eXTosc3" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="61f9eXTosc4" role="3cqZAp">
+          <node concept="2OqwBi" id="61f9eXTosc5" role="3clFbG">
+            <node concept="1mIQ4w" id="61f9eXTosc6" role="2OqNvi">
+              <node concept="chp4Y" id="61f9eXTosc7" role="cj9EA">
+                <ref role="cht4Q" to="6ap2:61f9eXSVcNG" resolve="ProgressBarComponent" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="61f9eXTosc8" role="2Oq$k0">
+              <ref role="3cqZAo" node="61f9eXTosc0" resolve="viewComponent" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="61f9eXTp9yc">
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <ref role="1M2myG" to="l8rz:61f9eXTp5Al" resolve="ProgressCheckValue" />
+    <node concept="9S07l" id="61f9eXTpaur" role="9Vyp8">
+      <node concept="3clFbS" id="61f9eXTpaus" role="2VODD2">
+        <node concept="3clFbF" id="61f9eXTpav2" role="3cqZAp">
+          <node concept="2OqwBi" id="61f9eXTpav3" role="3clFbG">
+            <node concept="2OqwBi" id="61f9eXTpav4" role="2Oq$k0">
+              <node concept="2OqwBi" id="61f9eXTpav5" role="2Oq$k0">
+                <node concept="2OqwBi" id="61f9eXTpav6" role="2Oq$k0">
+                  <node concept="1PxgMI" id="61f9eXTpav7" role="2Oq$k0">
+                    <node concept="chp4Y" id="61f9eXTpav8" role="3oSUPX">
+                      <ref role="cht4Q" to="l8rz:2Yd1qrJONfw" resolve="ViewComponentCheck" />
+                    </node>
+                    <node concept="nLn13" id="61f9eXTpav9" role="1m5AlR" />
+                  </node>
+                  <node concept="2qgKlT" id="61f9eXTpava" role="2OqNvi">
+                    <ref role="37wK5l" to="gg8m:4jKdMMdJYzD" resolve="getViewComponentToCheck" />
+                  </node>
+                </node>
+                <node concept="32TBzR" id="61f9eXTpavb" role="2OqNvi" />
+              </node>
+              <node concept="v3k3i" id="61f9eXTpavc" role="2OqNvi">
+                <node concept="chp4Y" id="61f9eXTpavd" role="v3oSu">
+                  <ref role="cht4Q" to="6ap2:61f9eXSVdAv" resolve="ProgressVCFeature" />
+                </node>
+              </node>
+            </node>
+            <node concept="3GX2aA" id="61f9eXTpave" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
