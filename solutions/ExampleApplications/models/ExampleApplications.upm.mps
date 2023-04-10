@@ -1423,6 +1423,81 @@
         <ref role="30nziQ" node="2wrhDsVYbjS" resolve="LoadView" />
       </node>
     </node>
+    <node concept="30n1Qa" id="2rKiCwqpGx0" role="30n1Qb">
+      <node concept="30nyDl" id="2rKiCwqpGx1" role="30nziG">
+        <node concept="30nyDi" id="2rKiCwqpGx2" role="30nyDj">
+          <property role="30lZVK" value="Database selected" />
+        </node>
+        <node concept="30nyDi" id="2rKiCwqpGx3" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="2rKiCwqpGx4" role="30nyDs">
+          <property role="30lZVK" value="Show stored options values" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="2rKiCwqpGx7" role="30nzpy">
+        <property role="13TuVO" value="Database to Load on Startup" />
+        <ref role="30nzpS" node="2wrhDsVYaKy" resolve="DataBaseFilePath" />
+        <node concept="3fym7j" id="2rKiCwqpGx8" role="30nDbQ">
+          <node concept="30nz6$" id="2rKiCwqpGx9" role="3fym7i">
+            <property role="30nz6_" value="mydatabase.db" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2rKiCwqpGxh" role="30nzpy">
+        <ref role="30nzpS" node="2wrhDsVYaUE" resolve="EnableProxy" />
+        <node concept="1tZoqV" id="2rKiCwqpGxi" role="30nDbQ">
+          <node concept="1tZoko" id="2rKiCwqpGxj" role="1tZokz">
+            <property role="1tZokr" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2rKiCwqpGxk" role="30nzpy">
+        <ref role="30nzpS" node="2wrhDsVYaXd" resolve="HttpProxy" />
+        <node concept="3fym7j" id="2rKiCwqpGxl" role="30nDbQ">
+          <node concept="30nzps" id="2rKiCwqpGxm" role="3fym7i">
+            <property role="30nzpr" value="true" />
+          </node>
+          <node concept="30nz6$" id="2rKiCwqpGxn" role="3fym7i">
+            <property role="30nz6_" value="myproxy" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2rKiCwqpGxo" role="30nzpy">
+        <ref role="30nzpS" node="2wrhDsVYb05" resolve="Port" />
+        <node concept="3fym7j" id="2rKiCwqpGxp" role="30nDbQ">
+          <node concept="30nzps" id="2rKiCwqpGxq" role="3fym7i">
+            <property role="30nzpr" value="true" />
+          </node>
+          <node concept="30nz6$" id="2rKiCwqpGxr" role="3fym7i">
+            <property role="30nz6_" value="1234" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="2rKiCwqpGxJ" role="30nzo2" />
+      <node concept="30k8jE" id="2rKiCwqpGCB" role="30nziE">
+        <node concept="30k8jF" id="2rKiCwqpGDe" role="30k8ga">
+          <property role="TrG5h" value="database" />
+          <node concept="30k8jQ" id="1$0urrTb4tG" role="30k8js">
+            <property role="TrG5h" value="filePath" />
+            <property role="30k8jP" value="mydatabase.db" />
+            <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="30k8jF" id="2rKiCwqpGER" role="30k8js">
+            <property role="TrG5h" value="dboptions" />
+            <node concept="30k8jQ" id="1$0urrTek4q" role="30k8js">
+              <property role="TrG5h" value="proxy" />
+              <property role="30k8jP" value="myproxy" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jQ" id="1$0urrTmluu" role="30k8js">
+              <property role="TrG5h" value="port" />
+              <property role="30k8jP" value="1234" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
