@@ -8365,5 +8365,180 @@
       <node concept="3clFbS" id="2ZnRpGqLNyL" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="61f9eXSVkjm">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="13h7C2" to="6ap2:61f9eXSVdAv" resolve="ProgressVCFeature" />
+    <node concept="13hLZK" id="61f9eXSVkjn" role="13h7CW">
+      <node concept="3clFbS" id="61f9eXSVkjo" role="2VODD2">
+        <node concept="3clFbF" id="61f9eXSVoBw" role="3cqZAp">
+          <node concept="37vLTI" id="61f9eXSVq3O" role="3clFbG">
+            <node concept="3cmrfG" id="61f9eXSVq4C" role="37vLTx">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="61f9eXSVoNG" role="37vLTJ">
+              <node concept="13iPFW" id="61f9eXSVoBv" role="2Oq$k0" />
+              <node concept="3TrcHB" id="61f9eXSVp2o" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:61f9eXSVdAw" resolve="min" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="61f9eXT16BB" role="3cqZAp">
+          <node concept="37vLTI" id="61f9eXT16BC" role="3clFbG">
+            <node concept="3cmrfG" id="61f9eXT16BD" role="37vLTx">
+              <property role="3cmrfH" value="100" />
+            </node>
+            <node concept="2OqwBi" id="61f9eXT16BE" role="37vLTJ">
+              <node concept="13iPFW" id="61f9eXT16BF" role="2Oq$k0" />
+              <node concept="3TrcHB" id="61f9eXT16BG" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:61f9eXSVeR0" resolve="max" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="61f9eXT17er" role="3cqZAp">
+          <node concept="37vLTI" id="61f9eXT18wV" role="3clFbG">
+            <node concept="3cmrfG" id="61f9eXT18R1" role="37vLTx">
+              <property role="3cmrfH" value="50" />
+            </node>
+            <node concept="2OqwBi" id="61f9eXT17rc" role="37vLTJ">
+              <node concept="13iPFW" id="61f9eXT17ep" role="2Oq$k0" />
+              <node concept="3TrcHB" id="61f9eXT17vd" role="2OqNvi">
+                <ref role="3TsBF5" to="6ap2:61f9eXT16tt" resolve="progress" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="61f9eXSVtSf">
+    <property role="3GE5qa" value="viewcomponents.progress" />
+    <ref role="13h7C2" to="6ap2:61f9eXSVcNG" resolve="ProgressBarComponent" />
+    <node concept="13hLZK" id="61f9eXSVtSg" role="13h7CW">
+      <node concept="3clFbS" id="61f9eXSVtSh" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="61f9eXSVujb" role="13h7CS">
+      <property role="TrG5h" value="makeSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJOWqT" resolve="makeSwingComponent" />
+      <node concept="3Tm1VV" id="61f9eXSVujc" role="1B3o_S" />
+      <node concept="3clFbS" id="61f9eXSVujr" role="3clF47">
+        <node concept="3cpWs8" id="61f9eXT142A" role="3cqZAp">
+          <node concept="3cpWsn" id="61f9eXT142B" role="3cpWs9">
+            <property role="TrG5h" value="progressBar" />
+            <node concept="3uibUv" id="61f9eXT13QV" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JProgressBar" resolve="JProgressBar" />
+            </node>
+            <node concept="2ShNRf" id="61f9eXT142C" role="33vP2m">
+              <node concept="1pGfFk" id="61f9eXT142D" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~JProgressBar.&lt;init&gt;(int,int)" resolve="JProgressBar" />
+                <node concept="2OqwBi" id="61f9eXT142E" role="37wK5m">
+                  <node concept="2OqwBi" id="61f9eXT142F" role="2Oq$k0">
+                    <node concept="13iPFW" id="61f9eXT142G" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="61f9eXT142H" role="2OqNvi">
+                      <ref role="3Tt5mk" to="6ap2:61f9eXSVqnR" resolve="progressFeature" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="61f9eXT142I" role="2OqNvi">
+                    <ref role="3TsBF5" to="6ap2:61f9eXSVdAw" resolve="min" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="61f9eXT142J" role="37wK5m">
+                  <node concept="2OqwBi" id="61f9eXT142K" role="2Oq$k0">
+                    <node concept="13iPFW" id="61f9eXT142L" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="61f9eXT142M" role="2OqNvi">
+                      <ref role="3Tt5mk" to="6ap2:61f9eXSVqnR" resolve="progressFeature" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="61f9eXT142N" role="2OqNvi">
+                    <ref role="3TsBF5" to="6ap2:61f9eXSVeR0" resolve="max" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="61f9eXT9ULW" role="3cqZAp">
+          <node concept="2OqwBi" id="61f9eXT9V$6" role="3clFbG">
+            <node concept="37vLTw" id="61f9eXT9ULU" role="2Oq$k0">
+              <ref role="3cqZAo" node="61f9eXT142B" resolve="progressBar" />
+            </node>
+            <node concept="liA8E" id="61f9eXT9WmR" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JProgressBar.setValue(int)" resolve="setValue" />
+              <node concept="2OqwBi" id="61f9eXT9X_c" role="37wK5m">
+                <node concept="2OqwBi" id="61f9eXT9WF3" role="2Oq$k0">
+                  <node concept="13iPFW" id="61f9eXT9Wqn" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="61f9eXT9X5r" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6ap2:61f9eXSVqnR" resolve="progressFeature" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="61f9eXT9Y0j" role="2OqNvi">
+                  <ref role="3TsBF5" to="6ap2:61f9eXT16tt" resolve="progress" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="61f9eXTfbGI" role="3cqZAp">
+          <node concept="3clFbS" id="61f9eXTfbGK" role="3clFbx">
+            <node concept="3clFbF" id="61f9eXT14fU" role="3cqZAp">
+              <node concept="2OqwBi" id="61f9eXT14TC" role="3clFbG">
+                <node concept="37vLTw" id="61f9eXT14fS" role="2Oq$k0">
+                  <ref role="3cqZAo" node="61f9eXT142B" resolve="progressBar" />
+                </node>
+                <node concept="liA8E" id="61f9eXT15Hr" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~JProgressBar.setString(java.lang.String)" resolve="setString" />
+                  <node concept="2OqwBi" id="61f9eXT5fCB" role="37wK5m">
+                    <node concept="2OqwBi" id="61f9eXT15ZW" role="2Oq$k0">
+                      <node concept="13iPFW" id="61f9eXT15KM" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="61f9eXT5foK" role="2OqNvi">
+                        <ref role="3Tt5mk" to="6ap2:61f9eXSVUEP" resolve="textFeature" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="61f9eXT5fUI" role="2OqNvi">
+                      <ref role="3TsBF5" to="6ap2:2B9nyiIm0_T" resolve="text" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="61f9eXTcWxf" role="3cqZAp">
+              <node concept="2OqwBi" id="61f9eXTcXld" role="3clFbG">
+                <node concept="37vLTw" id="61f9eXTcWxd" role="2Oq$k0">
+                  <ref role="3cqZAo" node="61f9eXT142B" resolve="progressBar" />
+                </node>
+                <node concept="liA8E" id="61f9eXTcXWY" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~JProgressBar.setStringPainted(boolean)" resolve="setStringPainted" />
+                  <node concept="3clFbT" id="61f9eXTcY1L" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="61f9eXTfcxu" role="3clFbw">
+            <node concept="2OqwBi" id="61f9eXTfc0p" role="2Oq$k0">
+              <node concept="13iPFW" id="61f9eXTfbL5" role="2Oq$k0" />
+              <node concept="3TrEf2" id="61f9eXTfcjf" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:61f9eXSVUEP" resolve="textFeature" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="61f9eXTfcPz" role="2OqNvi">
+              <ref role="3TsBF5" to="6ap2:5cbOqfAgHMA" resolve="supported" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="61f9eXSVuFf" role="3cqZAp">
+          <node concept="37vLTw" id="61f9eXT142O" role="3clFbG">
+            <ref role="3cqZAo" node="61f9eXT142B" resolve="bar" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="61f9eXSVujs" role="3clF45">
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+      </node>
+    </node>
+  </node>
 </model>
 

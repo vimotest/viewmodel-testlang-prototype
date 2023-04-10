@@ -991,5 +991,48 @@
     <property role="EcuMT" value="3447467698014101721" />
     <property role="TrG5h" value="ILinkedViewTest" />
   </node>
+  <node concept="1TIwiD" id="61f9eXSVcNG">
+    <property role="EcuMT" value="6939806161745792236" />
+    <property role="3GE5qa" value="viewcomponents.progress" />
+    <property role="TrG5h" value="ProgressBarComponent" />
+    <property role="34LRSv" value="progress bar" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="61f9eXSVqnR" role="1TKVEi">
+      <property role="IQ2ns" value="6939806161745847799" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="progressFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="61f9eXSVdAv" resolve="ProgressVCFeature" />
+    </node>
+    <node concept="1TJgyj" id="61f9eXSVUEP" role="1TKVEi">
+      <property role="IQ2ns" value="6939806161745980085" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="textFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2B9nyiIm0_S" resolve="TextVCFeature" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="61f9eXSVdAv">
+    <property role="EcuMT" value="6939806161745795487" />
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <property role="TrG5h" value="ProgressVCFeature" />
+    <property role="34LRSv" value="progress feature" />
+    <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyi" id="61f9eXSVdAw" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161745795488" />
+      <property role="TrG5h" value="min" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXSVeR0" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161745800640" />
+      <property role="TrG5h" value="max" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXT16tt" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161747339101" />
+      <property role="TrG5h" value="progress" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
 </model>
 

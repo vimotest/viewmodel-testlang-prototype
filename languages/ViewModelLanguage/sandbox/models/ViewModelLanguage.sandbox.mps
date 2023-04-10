@@ -33,7 +33,9 @@
       <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
-      <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts" />
+      <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts">
+        <property id="3011041337510726009" name="text" index="27$ltt" />
+      </concept>
       <concept id="3032601373110432321" name="ViewModelLanguage.structure.TreeViewRowComponent" flags="ng" index="2fzwiw">
         <child id="3032601373110537061" name="rowColorFeature" index="2fy7Q4" />
         <child id="3032601373110537060" name="cells" index="2fy7Q5" />
@@ -44,6 +46,15 @@
       <concept id="3032601373110430648" name="ViewModelLanguage.structure.TreeViewComponent" flags="ng" index="2fzxPp">
         <child id="3032601373110432317" name="rowsFeature" index="2fzwjs" />
         <child id="3032601373110432318" name="selectedRowFeature" index="2fzwjv" />
+      </concept>
+      <concept id="6939806161745792236" name="ViewModelLanguage.structure.ProgressBarComponent" flags="ng" index="oCYw3">
+        <child id="6939806161745980085" name="textFeature" index="oC8Tq" />
+        <child id="6939806161745847799" name="progressFeature" index="oCC4o" />
+      </concept>
+      <concept id="6939806161745795487" name="ViewModelLanguage.structure.ProgressVCFeature" flags="ng" index="oCZPK">
+        <property id="6939806161745800640" name="max" index="oCW$J" />
+        <property id="6939806161745795488" name="min" index="oCZPf" />
+        <property id="6939806161747339101" name="progress" index="piOeM" />
       </concept>
       <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
         <child id="4143793920074545904" name="children" index="2HXGLH" />
@@ -673,6 +684,24 @@
           <property role="2PigPS" value="MyLabel" />
         </node>
       </node>
+      <node concept="oCYw3" id="61f9eXT9Unu" role="2P43km">
+        <node concept="oCZPK" id="61f9eXT9Unw" role="oCC4o">
+          <property role="2PigO5" value="true" />
+          <property role="oCZPf" value="0" />
+          <property role="oCW$J" value="100" />
+          <property role="piOeM" value="70" />
+        </node>
+        <node concept="27$lts" id="61f9eXTcbrz" role="oC8Tq">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="70%" />
+        </node>
+        <node concept="2Pim7P" id="61f9eXT9Un$" role="2Pim73" />
+        <node concept="2Pim7K" id="61f9eXT9UnA" role="2Pim71" />
+        <node concept="2Pim7H" id="61f9eXT9UnC" role="2Pim76">
+          <property role="2PigPS" value="MyProgress" />
+        </node>
+      </node>
+      <node concept="3H9sB4" id="61f9eXThjKe" role="2P43km" />
     </node>
     <node concept="3f4AKs" id="4XlUEZmnvt0" role="3H8Xyh">
       <property role="TrG5h" value="CancelClicked" />
