@@ -16,6 +16,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
@@ -111,6 +114,10 @@
       <concept id="6692228888292391868" name="ViewModelLanguage.structure.ColorValue" flags="ng" index="3mAu$b">
         <property id="6692228888292392424" name="colorLiteral" index="3mAuXv" />
       </concept>
+      <concept id="5492784021103035231" name="ViewModelLanguage.structure.RadioButtonsComponent" flags="ng" index="1pWSEC">
+        <child id="5492784021103459775" name="itemsFeature" index="1pUBh8" />
+        <child id="5492784021103176839" name="selectedItemFeature" index="1pWqlK" />
+      </concept>
       <concept id="1369810475999939491" name="ViewModelLanguage.structure.DynamicTableComponent" flags="ng" index="3s_O3X">
         <child id="5984107031773674619" name="rowsFeature" index="2PKERo" />
       </concept>
@@ -168,7 +175,9 @@
         <child id="6743755284660838203" name="selectedRowFeature" index="3fMvU8" />
       </concept>
       <concept id="6574816161039199156" name="ViewModelLanguage.structure.SelectedItemVCFeature" flags="ng" index="3P0PJ2" />
-      <concept id="6574816161039199154" name="ViewModelLanguage.structure.ItemsVCFeature" flags="ng" index="3P0PJ4" />
+      <concept id="6574816161039199154" name="ViewModelLanguage.structure.ItemsVCFeature" flags="ng" index="3P0PJ4">
+        <child id="5492784021105622821" name="items" index="1pMRri" />
+      </concept>
       <concept id="6574816161037764802" name="ViewModelLanguage.structure.ComboBoxComponent" flags="ng" index="3P6jyO">
         <property id="6574816161038008031" name="sampleSelectedItemText" index="3P58UD" />
         <child id="6574816161039200592" name="itemsFeature" index="3P0O4A" />
@@ -673,6 +682,33 @@
         </node>
         <node concept="3P0PJ4" id="5GYs7qIgxN0" role="3P0O4A">
           <property role="2PigO5" value="true" />
+        </node>
+      </node>
+      <node concept="1pWSEC" id="4KUivslTsYY" role="2P43km">
+        <node concept="3P0PJ2" id="4KUivslTsZ0" role="1pWqlK">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="4KUivslTsZ2" role="1pUBh8">
+          <property role="2PigO5" value="true" />
+          <node concept="Xl_RD" id="4KUivsm1gKY" role="1pMRri">
+            <property role="Xl_RC" value="A" />
+          </node>
+          <node concept="Xl_RD" id="4KUivsm1gM_" role="1pMRri">
+            <property role="Xl_RC" value="B" />
+          </node>
+          <node concept="Xl_RD" id="4KUivsm1gNH" role="1pMRri">
+            <property role="Xl_RC" value="C" />
+          </node>
+        </node>
+        <node concept="2Pim7P" id="4KUivslTsZ4" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="4KUivslTsZ6" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="4KUivslTsZ8" role="2Pim76">
+          <property role="2PigO5" value="true" />
+          <property role="2PigPS" value="MyRadioButtons" />
         </node>
       </node>
       <node concept="2P4x69" id="2gml1W1uDtp" role="2P43km">

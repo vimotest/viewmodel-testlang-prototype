@@ -4017,7 +4017,7 @@
         <property role="3F0ifm" value="sel" />
         <ref role="1k5W1q" node="43UPKEZ9RW1" resolve="ViewFeatureIndicationStyle" />
         <node concept="Veino" id="42$opxWv4OB" role="3F10Kt">
-          <property role="Vb096" value="fLwANPp/orange" />
+          <property role="Vb096" value="fLwANPq/yellow" />
         </node>
       </node>
     </node>
@@ -4037,10 +4037,7 @@
         <property role="3F0ifm" value="i" />
         <ref role="1k5W1q" node="43UPKEZ9RW1" resolve="ViewFeatureIndicationStyle" />
         <node concept="Veino" id="42$opxWv6E1" role="3F10Kt">
-          <property role="Vb096" value="hEZAO13/white" />
-        </node>
-        <node concept="VPXOz" id="42$opxWv6Va" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+          <property role="Vb096" value="fLwANPo/pink" />
         </node>
       </node>
     </node>
@@ -4454,6 +4451,129 @@
     </node>
     <node concept="1PE4EZ" id="61f9eXThkdx" role="1PM95z">
       <ref role="1PE7su" node="2wrhDsWibxw" resolve="ViewComponent_AdditionalViewComponentFeatures_EditorComponent" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4KUivslN7nz">
+    <property role="3GE5qa" value="viewcomponents.standard" />
+    <ref role="1XX52x" to="6ap2:4KUivslMsdv" resolve="RadioButtonsComponent" />
+    <node concept="3EZMnI" id="4KUivslN83N" role="2wV5jI">
+      <node concept="PMmxH" id="4KUivslN83O" role="3EZMnx">
+        <ref role="PMmxG" node="2wrhDsWi67V" resolve="ViewComponent_TypeAliasWithFeatureIndication_EditorComponent" />
+      </node>
+      <node concept="3F0A7n" id="4KUivslN83P" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3gTLQM" id="4KUivslN83Q" role="3EZMnx">
+        <node concept="3Fmcul" id="4KUivslN83R" role="3FoqZy">
+          <node concept="3clFbS" id="4KUivslN83S" role="2VODD2">
+            <node concept="3clFbF" id="4KUivslN83T" role="3cqZAp">
+              <node concept="2OqwBi" id="4KUivslN83U" role="3clFbG">
+                <node concept="pncrf" id="4KUivslN83V" role="2Oq$k0" />
+                <node concept="2qgKlT" id="4KUivslN83W" role="2OqNvi">
+                  <ref role="37wK5l" to="hhvz:2Yd1qrJOWqT" resolve="makeSwingComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="4KUivslN83X" role="2iSdaV" />
+    </node>
+    <node concept="PMmxH" id="4KUivslN8ty" role="6VMZX">
+      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="4KUivslN8XU">
+    <property role="3GE5qa" value="viewcomponents.standard" />
+    <property role="TrG5h" value="RadioButtonComponent_details_EditorComponent" />
+    <ref role="1XX52x" to="6ap2:4KUivslMsdv" resolve="RadioButtonsComponent" />
+    <node concept="1PE4EZ" id="4KUivslNhbL" role="1PM95z">
+      <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
+    </node>
+    <node concept="3EZMnI" id="4KUivslWl21" role="2wV5jI">
+      <node concept="l2Vlx" id="4KUivslWl22" role="2iSdaV" />
+      <node concept="PMmxH" id="4KUivslNi2Q" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="3F0ifn" id="4KUivslWl9t" role="3EZMnx">
+        <property role="3F0ifm" value="items" />
+        <node concept="pVoyu" id="4KUivslWlgX" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="4KUivslWlnG" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:4KUivslO3QZ" resolve="itemsFeature" />
+        <node concept="1sVBvm" id="4KUivslWlnI" role="1sWHZn">
+          <node concept="3F2HdR" id="4KUivslWlqk" role="2wV5jI">
+            <ref role="1NtTu8" to="6ap2:4KUivslWjW_" resolve="items" />
+            <node concept="2iRkQZ" id="4KUivslWlzX" role="2czzBx" />
+          </node>
+        </node>
+      </node>
+      <node concept="2yq9I_" id="4KUivsm5hUl" role="3EZMnx">
+        <ref role="225u1j" to="6ap2:4KUivsm1gZz" resolve="showVertical" />
+        <node concept="1563Vb" id="4KUivsm5hUn" role="1563LE">
+          <property role="1563UK" value="[ ]" />
+          <property role="1563Ve" value="[x]" />
+        </node>
+        <node concept="3F0ifn" id="4KUivsm5i1O" role="2fqkNU">
+          <property role="3F0ifm" value="show vertically" />
+        </node>
+        <node concept="pVoyu" id="4KUivsm5ig_" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4KUivslNiMp">
+    <property role="3GE5qa" value="viewcomponents.standard" />
+    <property role="TrG5h" value="RadioButtonComponent_AdditionalViewComponentFeatures_EditorComponent" />
+    <ref role="1XX52x" to="6ap2:4KUivslMsdv" resolve="RadioButtonsComponent" />
+    <node concept="1PE4EZ" id="4KUivslNjj_" role="1PM95z">
+      <ref role="1PE7su" node="2wrhDsWibxw" resolve="ViewComponent_AdditionalViewComponentFeatures_EditorComponent" />
+    </node>
+    <node concept="3EZMnI" id="4KUivslNjNN" role="2wV5jI">
+      <node concept="3F1sOY" id="4KUivslNjNO" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:4KUivslMYM7" resolve="selectedItemFeature" />
+        <node concept="pkWqt" id="4KUivslNjNP" role="pqm2j">
+          <node concept="3clFbS" id="4KUivslNjNQ" role="2VODD2">
+            <node concept="3clFbF" id="4KUivslNjNR" role="3cqZAp">
+              <node concept="2OqwBi" id="4KUivslNjNS" role="3clFbG">
+                <node concept="2OqwBi" id="4KUivslNjNT" role="2Oq$k0">
+                  <node concept="pncrf" id="4KUivslNjNU" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="4KUivslNjNV" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6ap2:4KUivslMYM7" resolve="selectedItemFeature" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="4KUivslNjNW" role="2OqNvi">
+                  <ref role="3TsBF5" to="6ap2:5cbOqfAgHMA" resolve="supported" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F1sOY" id="4KUivslO4ka" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:4KUivslO3QZ" resolve="itemsFeature" />
+        <node concept="pkWqt" id="4KUivslO4kb" role="pqm2j">
+          <node concept="3clFbS" id="4KUivslO4kc" role="2VODD2">
+            <node concept="3clFbF" id="4KUivslO4kd" role="3cqZAp">
+              <node concept="2OqwBi" id="4KUivslO4ke" role="3clFbG">
+                <node concept="2OqwBi" id="4KUivslO4kf" role="2Oq$k0">
+                  <node concept="pncrf" id="4KUivslO4kg" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="4KUivslO4kh" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6ap2:4KUivslO3QZ" resolve="itemsFeature" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="4KUivslO4ki" role="2OqNvi">
+                  <ref role="3TsBF5" to="6ap2:5cbOqfAgHMA" resolve="supported" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="4KUivslNjNX" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -36,6 +36,7 @@
     <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" />
     <import index="i8bi" ref="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -316,6 +317,7 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="8432949284911505116" name="jetbrains.mps.lang.smodel.structure.Node_HasPrevSiblingOperation" flags="nn" index="2t3KhH" />
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
@@ -409,6 +411,14 @@
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
+      <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
+        <child id="1153944400369" name="variable" index="2Gsz3X" />
+        <child id="1153944424730" name="inputSequence" index="2GsD0m" />
+      </concept>
+      <concept id="1153944193378" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" flags="nr" index="2GrKxI" />
+      <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
+        <reference id="1153944258490" name="variable" index="2Gs0qQ" />
+      </concept>
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435808" name="initValue" index="HW$Y0" />
@@ -8538,6 +8548,243 @@
       <node concept="3uibUv" id="61f9eXSVujs" role="3clF45">
         <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="4KUivslNnvR">
+    <property role="3GE5qa" value="viewcomponents.standard" />
+    <ref role="13h7C2" to="6ap2:4KUivslMsdv" resolve="RadioButtonsComponent" />
+    <node concept="13i0hz" id="4KUivslNogF" role="13h7CS">
+      <property role="TrG5h" value="makeSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJOWqT" resolve="makeSwingComponent" />
+      <node concept="3Tm1VV" id="4KUivslNogG" role="1B3o_S" />
+      <node concept="3clFbS" id="4KUivslNogH" role="3clF47">
+        <node concept="3cpWs8" id="4KUivslOdiE" role="3cqZAp">
+          <node concept="3cpWsn" id="4KUivslOdiF" role="3cpWs9">
+            <property role="TrG5h" value="buttonsPanel" />
+            <node concept="3uibUv" id="4KUivslOcMW" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+            </node>
+            <node concept="2ShNRf" id="4KUivslOdiG" role="33vP2m">
+              <node concept="1pGfFk" id="4KUivslOdiH" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~JPanel.&lt;init&gt;()" resolve="JPanel" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4KUivsm1i0k" role="3cqZAp" />
+        <node concept="3clFbJ" id="4KUivsm1iGX" role="3cqZAp">
+          <node concept="3clFbS" id="4KUivsm1iGZ" role="3clFbx">
+            <node concept="3clFbF" id="4KUivsm1lfk" role="3cqZAp">
+              <node concept="2OqwBi" id="4KUivsm1m27" role="3clFbG">
+                <node concept="37vLTw" id="4KUivsm1lfi" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4KUivslOdiF" resolve="buttonsPanel" />
+                </node>
+                <node concept="liA8E" id="4KUivsm1nqv" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~Container.setLayout(java.awt.LayoutManager)" resolve="setLayout" />
+                  <node concept="2ShNRf" id="4KUivsm1nBt" role="37wK5m">
+                    <node concept="1pGfFk" id="4KUivsm1oMb" role="2ShVmc">
+                      <property role="373rjd" value="true" />
+                      <ref role="37wK5l" to="dxuu:~BoxLayout.&lt;init&gt;(java.awt.Container,int)" resolve="BoxLayout" />
+                      <node concept="37vLTw" id="4KUivsm1pKp" role="37wK5m">
+                        <ref role="3cqZAo" node="4KUivslOdiF" resolve="buttonsPanel" />
+                      </node>
+                      <node concept="10M0yZ" id="4KUivsm1ree" role="37wK5m">
+                        <ref role="3cqZAo" to="dxuu:~BoxLayout.Y_AXIS" resolve="Y_AXIS" />
+                        <ref role="1PxDUh" to="dxuu:~BoxLayout" resolve="BoxLayout" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4KUivsm1j9X" role="3clFbw">
+            <node concept="13iPFW" id="4KUivsm1iJw" role="2Oq$k0" />
+            <node concept="3TrcHB" id="4KUivsm1jAW" role="2OqNvi">
+              <ref role="3TsBF5" to="6ap2:4KUivsm1gZz" resolve="showVertical" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4KUivslOb87" role="3cqZAp" />
+        <node concept="3cpWs8" id="4KUivslO8gr" role="3cqZAp">
+          <node concept="3cpWsn" id="4KUivslO8gs" role="3cpWs9">
+            <property role="TrG5h" value="buttonGroup" />
+            <node concept="3uibUv" id="4KUivslO7Jh" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~ButtonGroup" resolve="ButtonGroup" />
+            </node>
+            <node concept="2ShNRf" id="4KUivslO8gt" role="33vP2m">
+              <node concept="1pGfFk" id="4KUivslO8gu" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~ButtonGroup.&lt;init&gt;()" resolve="ButtonGroup" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4KUivslO5K_" role="3cqZAp" />
+        <node concept="2Gpval" id="4KUivslWxvg" role="3cqZAp">
+          <node concept="2GrKxI" id="4KUivslWxvi" role="2Gsz3X">
+            <property role="TrG5h" value="item" />
+          </node>
+          <node concept="3clFbS" id="4KUivslWxvm" role="2LFqv$">
+            <node concept="3cpWs8" id="4KUivslNogI" role="3cqZAp">
+              <node concept="3cpWsn" id="4KUivslNogJ" role="3cpWs9">
+                <property role="TrG5h" value="radioButton" />
+                <node concept="3uibUv" id="4KUivslNogK" role="1tU5fm">
+                  <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+                </node>
+                <node concept="2ShNRf" id="4KUivslNogL" role="33vP2m">
+                  <node concept="1pGfFk" id="4KUivslNogM" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="dxuu:~JRadioButton.&lt;init&gt;(java.lang.String)" resolve="JRadioButton" />
+                    <node concept="2OqwBi" id="4KUivslW_mY" role="37wK5m">
+                      <node concept="2GrUjf" id="4KUivslW$x8" role="2Oq$k0">
+                        <ref role="2Gs0qQ" node="4KUivslWxvi" resolve="item" />
+                      </node>
+                      <node concept="3TrcHB" id="4KUivslW_LI" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4KUivslNogQ" role="3cqZAp">
+              <node concept="2OqwBi" id="4KUivslNogR" role="3clFbG">
+                <node concept="37vLTw" id="4KUivslNogS" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4KUivslNogJ" resolve="radioButton" />
+                </node>
+                <node concept="liA8E" id="4KUivslNogT" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~AbstractButton.setModel(javax.swing.ButtonModel)" resolve="setModel" />
+                  <node concept="2ShNRf" id="4KUivslNogU" role="37wK5m">
+                    <node concept="YeOm9" id="4KUivslNogV" role="2ShVmc">
+                      <node concept="1Y3b0j" id="4KUivslNogW" role="YeSDq">
+                        <property role="2bfB8j" value="true" />
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" to="dxuu:~DefaultButtonModel.&lt;init&gt;()" resolve="DefaultButtonModel" />
+                        <ref role="1Y3XeK" to="dxuu:~DefaultButtonModel" resolve="DefaultButtonModel" />
+                        <node concept="3Tm1VV" id="4KUivslNogX" role="1B3o_S" />
+                        <node concept="3clFb_" id="4KUivslNogY" role="jymVt">
+                          <property role="TrG5h" value="isArmed" />
+                          <node concept="3Tm1VV" id="4KUivslNogZ" role="1B3o_S" />
+                          <node concept="10P_77" id="4KUivslNoh0" role="3clF45" />
+                          <node concept="3clFbS" id="4KUivslNoh1" role="3clF47">
+                            <node concept="3clFbF" id="4KUivslNoh2" role="3cqZAp">
+                              <node concept="3clFbT" id="4KUivslNoh3" role="3clFbG" />
+                            </node>
+                          </node>
+                          <node concept="2AHcQZ" id="4KUivslNoh4" role="2AJF6D">
+                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                          </node>
+                        </node>
+                        <node concept="3clFb_" id="4KUivslNoh5" role="jymVt">
+                          <property role="TrG5h" value="isPressed" />
+                          <node concept="3Tm1VV" id="4KUivslNoh6" role="1B3o_S" />
+                          <node concept="10P_77" id="4KUivslNoh7" role="3clF45" />
+                          <node concept="3clFbS" id="4KUivslNoh8" role="3clF47">
+                            <node concept="3clFbF" id="4KUivslNoh9" role="3cqZAp">
+                              <node concept="3clFbT" id="4KUivslNoha" role="3clFbG" />
+                            </node>
+                          </node>
+                          <node concept="2AHcQZ" id="4KUivslNohb" role="2AJF6D">
+                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="4KUivslWAMM" role="3cqZAp">
+              <node concept="3clFbS" id="4KUivslWAMO" role="3clFbx">
+                <node concept="3clFbF" id="4KUivslNohc" role="3cqZAp">
+                  <node concept="2OqwBi" id="4KUivslNohd" role="3clFbG">
+                    <node concept="37vLTw" id="4KUivslNohe" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4KUivslNogJ" resolve="radioButton" />
+                    </node>
+                    <node concept="liA8E" id="4KUivslNohf" role="2OqNvi">
+                      <ref role="37wK5l" to="dxuu:~AbstractButton.setSelected(boolean)" resolve="setSelected" />
+                      <node concept="3clFbT" id="4KUivslNohg" role="37wK5m">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="4KUivslWDiC" role="3clFbw">
+                <node concept="2OqwBi" id="4KUivslWDiE" role="3fr31v">
+                  <node concept="2GrUjf" id="4KUivslWDiF" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="4KUivslWxvi" resolve="item" />
+                  </node>
+                  <node concept="2t3KhH" id="4KUivslWDiG" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="4KUivslOl$i" role="3cqZAp" />
+            <node concept="3clFbF" id="4KUivslOlRy" role="3cqZAp">
+              <node concept="2OqwBi" id="4KUivslOmgz" role="3clFbG">
+                <node concept="37vLTw" id="4KUivslOlRw" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4KUivslO8gs" resolve="buttonGroup" />
+                </node>
+                <node concept="liA8E" id="4KUivslOn8I" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~ButtonGroup.add(javax.swing.AbstractButton)" resolve="add" />
+                  <node concept="37vLTw" id="4KUivslOnof" role="37wK5m">
+                    <ref role="3cqZAo" node="4KUivslNogJ" resolve="radioButton" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4KUivslOibi" role="3cqZAp">
+              <node concept="2OqwBi" id="4KUivslOiLf" role="3clFbG">
+                <node concept="37vLTw" id="4KUivslOibg" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4KUivslOdiF" resolve="buttonsPanel" />
+                </node>
+                <node concept="liA8E" id="4KUivslOjIa" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
+                  <node concept="37vLTw" id="4KUivslOkek" role="37wK5m">
+                    <ref role="3cqZAo" node="4KUivslNogJ" resolve="radioButton" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4KUivslWxM5" role="2GsD0m">
+            <node concept="2OqwBi" id="4KUivslWxM6" role="2Oq$k0">
+              <node concept="13iPFW" id="4KUivslWxM7" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4KUivslWxM8" role="2OqNvi">
+                <ref role="3Tt5mk" to="6ap2:4KUivslO3QZ" resolve="itemsFeature" />
+              </node>
+            </node>
+            <node concept="3Tsc0h" id="4KUivslWxM9" role="2OqNvi">
+              <ref role="3TtcxE" to="6ap2:4KUivslWjW_" resolve="items" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4KUivslOaRq" role="3cqZAp" />
+        <node concept="3clFbF" id="4KUivslNohh" role="3cqZAp">
+          <node concept="37vLTw" id="4KUivslNohi" role="3clFbG">
+            <ref role="3cqZAo" node="4KUivslOdiF" resolve="buttonsPanel" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="4KUivslNohj" role="3clF45">
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="4KUivslNrXl" role="13h7CS">
+      <property role="TrG5h" value="renderedUiElementContainsName" />
+      <ref role="13i0hy" node="4kXwATFCqbM" resolve="renderedUiElementContainsName" />
+      <node concept="3Tm1VV" id="4KUivslNrXm" role="1B3o_S" />
+      <node concept="3clFbS" id="4KUivslNrXn" role="3clF47">
+        <node concept="3clFbF" id="4KUivslNrXo" role="3cqZAp">
+          <node concept="3clFbT" id="4KUivslNrXp" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="10P_77" id="4KUivslNrXq" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="4KUivslNnvS" role="13h7CW">
+      <node concept="3clFbS" id="4KUivslNnvT" role="2VODD2" />
     </node>
   </node>
 </model>

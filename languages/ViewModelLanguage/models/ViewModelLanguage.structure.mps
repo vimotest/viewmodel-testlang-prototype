@@ -9,6 +9,7 @@
     <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" />
     <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -901,6 +902,13 @@
     <property role="TrG5h" value="ItemsVCFeature" />
     <property role="34LRSv" value="items feature" />
     <ref role="1TJDcQ" node="5cbOqfAgHMC" resolve="ViewComponentFeature" />
+    <node concept="1TJgyj" id="4KUivslWjW_" role="1TKVEi">
+      <property role="IQ2ns" value="5492784021105622821" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="items" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5GYs7qIfiIO">
     <property role="EcuMT" value="6574816161039199156" />
@@ -1032,6 +1040,32 @@
       <property role="IQ2nx" value="6939806161747339101" />
       <property role="TrG5h" value="progress" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4KUivslMsdv">
+    <property role="EcuMT" value="5492784021103035231" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
+    <property role="TrG5h" value="RadioButtonsComponent" />
+    <property role="34LRSv" value="radio buttons" />
+    <ref role="1TJDcQ" node="3JS2UjmU$R8" resolve="ViewComponent" />
+    <node concept="1TJgyj" id="4KUivslMYM7" role="1TKVEi">
+      <property role="IQ2ns" value="5492784021103176839" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="selectedItemFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5GYs7qIfiIO" resolve="SelectedItemVCFeature" />
+    </node>
+    <node concept="1TJgyj" id="4KUivslO3QZ" role="1TKVEi">
+      <property role="IQ2ns" value="5492784021103459775" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="itemsFeature" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5GYs7qIfiIM" resolve="ItemsVCFeature" />
+    </node>
+    <node concept="1TJgyi" id="4KUivsm1gZz" role="1TKVEl">
+      <property role="IQ2nx" value="5492784021106921443" />
+      <property role="TrG5h" value="showVertical" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>
