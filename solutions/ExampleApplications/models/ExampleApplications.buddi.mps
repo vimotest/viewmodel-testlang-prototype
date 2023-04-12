@@ -95,6 +95,9 @@
       </concept>
       <concept id="6574816161039199156" name="ViewModelLanguage.structure.SelectedItemVCFeature" flags="ng" index="3P0PJ2" />
       <concept id="6574816161039199154" name="ViewModelLanguage.structure.ItemsVCFeature" flags="ng" index="3P0PJ4" />
+      <concept id="6574816161039227687" name="ViewModelLanguage.structure.ItemValue" flags="ng" index="3P0YHh">
+        <property id="6574816161039227688" name="value" index="3P0YHu" />
+      </concept>
       <concept id="6574816161037764802" name="ViewModelLanguage.structure.ComboBoxComponent" flags="ng" index="3P6jyO">
         <property id="6574816161038008031" name="sampleSelectedItemText" index="3P58UD" />
         <child id="6574816161039200592" name="itemsFeature" index="3P0O4A" />
@@ -190,9 +193,6 @@
       </concept>
       <concept id="6574816161039227761" name="ViewModelTestLanguage.structure.SelectedItemCheckValue" flags="ng" index="3P0YG7">
         <child id="6574816161039227763" name="selectedItem" index="3P0YG5" />
-      </concept>
-      <concept id="6574816161039227687" name="ViewModelTestLanguage.structure.ItemValue" flags="ng" index="3P0YHh">
-        <property id="6574816161039227688" name="value" index="3P0YHu" />
       </concept>
       <concept id="6574816161039227680" name="ViewModelTestLanguage.structure.ItemsCheckValue" flags="ng" index="3P0YHm">
         <child id="6574816161039227685" name="items" index="3P0YHj" />
@@ -610,18 +610,18 @@
         <ref role="30nzpS" node="5E6KScpsoqg" resolve="AccountType" />
         <node concept="3P0OEx" id="5E6KScpsR8W" role="30nDbQ">
           <node concept="3P0YHm" id="5E6KScpsR8Y" role="3P0OEJ">
-            <node concept="3P0YHh" id="5E6KScpsR90" role="3P0YHj">
+            <node concept="3P0YHh" id="1A1$ESeOlIY" role="3P0YHj">
               <property role="3P0YHu" value="Savings" />
             </node>
-            <node concept="3P0YHh" id="5E6KScpsR9s" role="3P0YHj">
+            <node concept="3P0YHh" id="1A1$ESeOlJk" role="3P0YHj">
               <property role="3P0YHu" value="Credit Card" />
             </node>
-            <node concept="3P0YHh" id="5E6KScpsR9v" role="3P0YHj">
+            <node concept="3P0YHh" id="1A1$ESeOlKd" role="3P0YHj">
               <property role="3P0YHu" value="Chequing" />
             </node>
           </node>
           <node concept="3P0YG7" id="5E6KScpsR9h" role="3P0OEJ">
-            <node concept="3P0YHh" id="5E6KScpsR9p" role="3P0YG5">
+            <node concept="3P0YHh" id="1A1$ESeOlMC" role="3P0YG5">
               <property role="3P0YHu" value="Savings" />
             </node>
           </node>
@@ -1073,18 +1073,18 @@
         <ref role="30nzpS" node="5E6KScp$fE5" resolve="Budget Net Income Span" />
         <node concept="3P0OEx" id="5E6KScp$fNF" role="30nDbQ">
           <node concept="3P0YHm" id="5E6KScp$fNH" role="3P0OEJ">
-            <node concept="3P0YHh" id="5E6KScp$fNJ" role="3P0YHj">
+            <node concept="3P0YHh" id="1A1$ESeOlNt" role="3P0YHj">
               <property role="3P0YHu" value="Day" />
             </node>
-            <node concept="3P0YHh" id="5E6KScp$fNX" role="3P0YHj">
+            <node concept="3P0YHh" id="1A1$ESeOlNN" role="3P0YHj">
               <property role="3P0YHu" value="Month" />
             </node>
-            <node concept="3P0YHh" id="5E6KScp$fO0" role="3P0YHj">
+            <node concept="3P0YHh" id="1A1$ESeOlOa" role="3P0YHj">
               <property role="3P0YHu" value="Year" />
             </node>
           </node>
           <node concept="3P0YG7" id="5E6KScp$fNP" role="3P0OEJ">
-            <node concept="3P0YHh" id="5E6KScp$fNR" role="3P0YG5">
+            <node concept="3P0YHh" id="1A1$ESeOlPM" role="3P0YG5">
               <property role="3P0YHu" value="Month" />
             </node>
           </node>
@@ -1607,12 +1607,12 @@
         <node concept="30nzp_" id="1I4VQspn9rc" role="2QbW$V">
           <ref role="30nzpS" node="3le5WIC2N5j" resolve="Description" />
           <node concept="3P0OEx" id="1I4VQspn9ri" role="30nDbQ">
+            <node concept="3P0YHm" id="1I4VQspn9rk" role="3P0OEJ" />
             <node concept="3P0YG7" id="1I4VQspn9rp" role="3P0OEJ">
-              <node concept="3P0YHh" id="1I4VQspn9rr" role="3P0YG5">
+              <node concept="3P0YHh" id="1A1$ESeOlR9" role="3P0YG5">
                 <property role="3P0YHu" value=" " />
               </node>
             </node>
-            <node concept="3P0YHm" id="1I4VQspn9rk" role="3P0OEJ" />
           </node>
         </node>
         <node concept="30nzp_" id="1I4VQspn9rE" role="2QbW$V">

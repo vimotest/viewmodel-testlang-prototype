@@ -8,8 +8,7 @@
   <imports>
     <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" />
     <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -907,7 +906,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20kJfa" value="items" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+      <ref role="20lvS9" node="5GYs7qIfpGB" resolve="ItemValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="5GYs7qIfiIO">
@@ -1066,6 +1065,18 @@
       <property role="IQ2nx" value="5492784021106921443" />
       <property role="TrG5h" value="showVertical" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5GYs7qIfpGB">
+    <property role="EcuMT" value="6574816161039227687" />
+    <property role="3GE5qa" value="viewcomponents.util" />
+    <property role="TrG5h" value="ItemValue" />
+    <property role="34LRSv" value="item value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5GYs7qIfpGC" role="1TKVEl">
+      <property role="IQ2nx" value="6574816161039227688" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

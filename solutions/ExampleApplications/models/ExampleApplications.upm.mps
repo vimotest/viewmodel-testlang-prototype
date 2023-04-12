@@ -109,6 +109,9 @@
       </concept>
       <concept id="6574816161039199156" name="ViewModelLanguage.structure.SelectedItemVCFeature" flags="ng" index="3P0PJ2" />
       <concept id="6574816161039199154" name="ViewModelLanguage.structure.ItemsVCFeature" flags="ng" index="3P0PJ4" />
+      <concept id="6574816161039227687" name="ViewModelLanguage.structure.ItemValue" flags="ng" index="3P0YHh">
+        <property id="6574816161039227688" name="value" index="3P0YHu" />
+      </concept>
       <concept id="6574816161037764802" name="ViewModelLanguage.structure.ComboBoxComponent" flags="ng" index="3P6jyO">
         <property id="6574816161038008031" name="sampleSelectedItemText" index="3P58UD" />
         <child id="6574816161039200592" name="itemsFeature" index="3P0O4A" />
@@ -210,9 +213,6 @@
       </concept>
       <concept id="6574816161039227761" name="ViewModelTestLanguage.structure.SelectedItemCheckValue" flags="ng" index="3P0YG7">
         <child id="6574816161039227763" name="selectedItem" index="3P0YG5" />
-      </concept>
-      <concept id="6574816161039227687" name="ViewModelTestLanguage.structure.ItemValue" flags="ng" index="3P0YHh">
-        <property id="6574816161039227688" name="value" index="3P0YHu" />
       </concept>
       <concept id="6574816161039227680" name="ViewModelTestLanguage.structure.ItemsCheckValue" flags="ng" index="3P0YHm">
         <child id="6574816161039227685" name="items" index="3P0YHj" />
@@ -1338,17 +1338,17 @@
       <node concept="30nzp_" id="2wrhDsWaRvB" role="30nzpy">
         <ref role="30nzpS" node="2wrhDsVYaP_" resolve="Language" />
         <node concept="3P0OEx" id="2wrhDsWaR_C" role="30nDbQ">
-          <node concept="3P0YG7" id="2wrhDsWaRAc" role="3P0OEJ">
-            <node concept="3P0YHh" id="2wrhDsWaRAd" role="3P0YG5">
+          <node concept="3P0YHm" id="2wrhDsWaRBD" role="3P0OEJ">
+            <node concept="3P0YHh" id="1A1$ESeI$vX" role="3P0YHj">
               <property role="3P0YHu" value="English (English)" />
+            </node>
+            <node concept="3P0YHh" id="1A1$ESeI$xL" role="3P0YHj">
+              <property role="3P0YHu" value="German (German)" />
             </node>
           </node>
-          <node concept="3P0YHm" id="2wrhDsWaRBD" role="3P0OEJ">
-            <node concept="3P0YHh" id="2wrhDsWaRCx" role="3P0YHj">
+          <node concept="3P0YG7" id="2wrhDsWaRAc" role="3P0OEJ">
+            <node concept="3P0YHh" id="1A1$ESeI$v6" role="3P0YG5">
               <property role="3P0YHu" value="English (English)" />
-            </node>
-            <node concept="3P0YHh" id="2wrhDsWaRD5" role="3P0YHj">
-              <property role="3P0YHu" value="German (German)" />
             </node>
           </node>
         </node>

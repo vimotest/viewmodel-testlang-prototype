@@ -1382,7 +1382,7 @@
             </node>
             <node concept="2OqwBi" id="1$0urrTNajW" role="37vLTJ">
               <node concept="37vLTw" id="1$0urrTNajX" role="2Oq$k0">
-                <ref role="3cqZAo" node="1$0urrTNajM" resolve="imageButton" />
+                <ref role="3cqZAo" node="1$0urrTNajM" resolve="textButton" />
               </node>
               <node concept="3TrEf2" id="1$0urrTNajY" role="2OqNvi">
                 <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1w" resolve="sensitivityFeature" />
@@ -1400,7 +1400,7 @@
             </node>
             <node concept="2OqwBi" id="1$0urrTNak4" role="37vLTJ">
               <node concept="37vLTw" id="1$0urrTNak5" role="2Oq$k0">
-                <ref role="3cqZAo" node="1$0urrTNajM" resolve="imageButton" />
+                <ref role="3cqZAo" node="1$0urrTNajM" resolve="textButton" />
               </node>
               <node concept="3TrEf2" id="1$0urrTNak6" role="2OqNvi">
                 <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1y" resolve="visibilityFeature" />
@@ -1418,7 +1418,7 @@
             </node>
             <node concept="2OqwBi" id="1$0urrTNakc" role="37vLTJ">
               <node concept="37vLTw" id="1$0urrTNakd" role="2Oq$k0">
-                <ref role="3cqZAo" node="1$0urrTNajM" resolve="imageButton" />
+                <ref role="3cqZAo" node="1$0urrTNajM" resolve="textButton" />
               </node>
               <node concept="3TrEf2" id="1$0urrTNake" role="2OqNvi">
                 <ref role="3Tt5mk" to="6ap2:5cbOqfAgF1_" resolve="nameFeature" />
@@ -1436,7 +1436,7 @@
             </node>
             <node concept="2OqwBi" id="1$0urrTNakk" role="37vLTJ">
               <node concept="37vLTw" id="1$0urrTNakl" role="2Oq$k0">
-                <ref role="3cqZAo" node="1$0urrTNajM" resolve="imageButton" />
+                <ref role="3cqZAo" node="1$0urrTNajM" resolve="textButton" />
               </node>
               <node concept="3TrcHB" id="1$0urrTNakm" role="2OqNvi">
                 <ref role="3TsBF5" to="6ap2:3JS2UjmUbQ1" resolve="sensitiveState" />
