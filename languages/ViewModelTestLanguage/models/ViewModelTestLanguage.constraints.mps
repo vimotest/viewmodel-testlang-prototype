@@ -1297,5 +1297,38 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="1A1$ESehtx3">
+    <property role="3GE5qa" value="assert.radio" />
+    <ref role="1M2myG" to="l8rz:1A1$ESegXiH" resolve="RadioButtonsCheck" />
+    <node concept="9S07l" id="1A1$ESehtVP" role="9Vyp8">
+      <node concept="3clFbS" id="1A1$ESehtVQ" role="2VODD2">
+        <node concept="3cpWs8" id="1A1$ESehtXN" role="3cqZAp">
+          <node concept="3cpWsn" id="1A1$ESehtXO" role="3cpWs9">
+            <property role="TrG5h" value="viewComponent" />
+            <node concept="3Tqbb2" id="1A1$ESehtXP" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+            </node>
+            <node concept="2YIFZM" id="1A1$ESehtXQ" role="33vP2m">
+              <ref role="37wK5l" to="gg8m:3HXRBxqx3W2" resolve="getViewComponentToCheckForParent" />
+              <ref role="1Pybhc" to="gg8m:4jKdMMdK1xy" resolve="ViewComponentCheckUtil" />
+              <node concept="nLn13" id="1A1$ESehtXR" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1A1$ESehtXS" role="3cqZAp">
+          <node concept="2OqwBi" id="1A1$ESehtXT" role="3clFbG">
+            <node concept="1mIQ4w" id="1A1$ESehtXU" role="2OqNvi">
+              <node concept="chp4Y" id="1A1$ESehtXV" role="cj9EA">
+                <ref role="cht4Q" to="6ap2:4KUivslMsdv" resolve="RadioButtonsComponent" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="1A1$ESehtXW" role="2Oq$k0">
+              <ref role="3cqZAo" node="1A1$ESehtXO" resolve="viewComponent" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

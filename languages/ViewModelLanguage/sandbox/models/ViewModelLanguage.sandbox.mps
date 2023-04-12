@@ -16,9 +16,6 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
@@ -178,6 +175,9 @@
       <concept id="6574816161039199154" name="ViewModelLanguage.structure.ItemsVCFeature" flags="ng" index="3P0PJ4">
         <child id="5492784021105622821" name="items" index="1pMRri" />
       </concept>
+      <concept id="6574816161039227687" name="ViewModelLanguage.structure.ItemValue" flags="ng" index="3P0YHh">
+        <property id="6574816161039227688" name="value" index="3P0YHu" />
+      </concept>
       <concept id="6574816161037764802" name="ViewModelLanguage.structure.ComboBoxComponent" flags="ng" index="3P6jyO">
         <property id="6574816161038008031" name="sampleSelectedItemText" index="3P58UD" />
         <child id="6574816161039200592" name="itemsFeature" index="3P0O4A" />
@@ -230,6 +230,9 @@
       <concept id="282652060087409063" name="ViewModelTestLanguage.structure.ViewShowErrorCheck" flags="ng" index="npJsE">
         <property id="282652060087409064" name="title" index="npJs_" />
         <property id="282652060087409066" name="message" index="npJsB" />
+      </concept>
+      <concept id="1837911399205164205" name="ViewModelTestLanguage.structure.RadioButtonsCheck" flags="ng" index="nK$o3">
+        <child id="1837911399205282623" name="checks" index="nL36h" />
       </concept>
       <concept id="6939806161753627029" name="ViewModelTestLanguage.structure.ProgressCheckValue" flags="ng" index="paRPU">
         <property id="6939806161753678957" name="checkMax" index="paw22" />
@@ -350,9 +353,6 @@
       </concept>
       <concept id="6574816161039227761" name="ViewModelTestLanguage.structure.SelectedItemCheckValue" flags="ng" index="3P0YG7">
         <child id="6574816161039227763" name="selectedItem" index="3P0YG5" />
-      </concept>
-      <concept id="6574816161039227687" name="ViewModelTestLanguage.structure.ItemValue" flags="ng" index="3P0YHh">
-        <property id="6574816161039227688" name="value" index="3P0YHu" />
       </concept>
       <concept id="6574816161039227680" name="ViewModelTestLanguage.structure.ItemsCheckValue" flags="ng" index="3P0YHm">
         <child id="6574816161039227685" name="items" index="3P0YHj" />
@@ -690,14 +690,14 @@
         </node>
         <node concept="3P0PJ4" id="4KUivslTsZ2" role="1pUBh8">
           <property role="2PigO5" value="true" />
-          <node concept="Xl_RD" id="4KUivsm1gKY" role="1pMRri">
-            <property role="Xl_RC" value="A" />
+          <node concept="3P0YHh" id="1A1$ESeOl1A" role="1pMRri">
+            <property role="3P0YHu" value="A" />
           </node>
-          <node concept="Xl_RD" id="4KUivsm1gM_" role="1pMRri">
-            <property role="Xl_RC" value="B" />
+          <node concept="3P0YHh" id="1A1$ESeOl2s" role="1pMRri">
+            <property role="3P0YHu" value="B" />
           </node>
-          <node concept="Xl_RD" id="4KUivsm1gNH" role="1pMRri">
-            <property role="Xl_RC" value="C" />
+          <node concept="3P0YHh" id="1A1$ESeOl31" role="1pMRri">
+            <property role="3P0YHu" value="C" />
           </node>
         </node>
         <node concept="2Pim7P" id="4KUivslTsZ4" role="2Pim73">
@@ -1169,6 +1169,9 @@
         <node concept="30nyDi" id="5GYs7qIhgtS" role="30nyDs">
           <property role="30lZVK" value="ComboBox has items" />
         </node>
+        <node concept="30nyDi" id="1A1$ESeOmyj" role="30nyDs">
+          <property role="30lZVK" value="Radio Buttons are AB&gt;CDE" />
+        </node>
       </node>
       <node concept="30nziD" id="5QmCrei9Vr_" role="30nzo2">
         <ref role="30nziQ" node="5QmCreiBqsN" resolve="LoadView" />
@@ -1203,11 +1206,6 @@
       <node concept="30nzp_" id="5GYs7qIhgu8" role="30nzpy">
         <ref role="30nzpS" node="5GYs7qIc6o3" resolve="MyOption" />
         <node concept="3P0OEx" id="5GYs7qIhguk" role="30nDbQ">
-          <node concept="3P0YG7" id="5GYs7qIhkAy" role="3P0OEJ">
-            <node concept="3P0YHh" id="5GYs7qIhkA$" role="3P0YG5">
-              <property role="3P0YHu" value="A" />
-            </node>
-          </node>
           <node concept="3P0YHm" id="5GYs7qIhgum" role="3P0OEJ">
             <node concept="3P0YHh" id="5GYs7qIhguo" role="3P0YHj">
               <property role="3P0YHu" value="A" />
@@ -1216,6 +1214,38 @@
               <property role="3P0YHu" value="B" />
             </node>
             <node concept="3P0YHh" id="5GYs7qIhkAH" role="3P0YHj">
+              <property role="3P0YHu" value="C" />
+            </node>
+          </node>
+          <node concept="3P0YG7" id="5GYs7qIhkAy" role="3P0OEJ">
+            <node concept="3P0YHh" id="5GYs7qIhkA$" role="3P0YG5">
+              <property role="3P0YHu" value="A" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="CypPOEPsOz" role="30nzpy">
+        <ref role="30nzpS" node="4KUivslTsYY" resolve="MyRadioButtons" />
+        <node concept="nK$o3" id="CypPOEPsOR" role="30nDbQ">
+          <node concept="3P0YHm" id="CypPOEPsQB" role="nL36h">
+            <node concept="3P0YHh" id="CypPOEPsSy" role="3P0YHj">
+              <property role="3P0YHu" value="A" />
+            </node>
+            <node concept="3P0YHh" id="CypPOEPsTg" role="3P0YHj">
+              <property role="3P0YHu" value="B" />
+            </node>
+            <node concept="3P0YHh" id="CypPOEPsTP" role="3P0YHj">
+              <property role="3P0YHu" value="C" />
+            </node>
+            <node concept="3P0YHh" id="CypPOEPsUa" role="3P0YHj">
+              <property role="3P0YHu" value="D" />
+            </node>
+            <node concept="3P0YHh" id="CypPOEPsUw" role="3P0YHj">
+              <property role="3P0YHu" value="E" />
+            </node>
+          </node>
+          <node concept="3P0YG7" id="CypPOEPsOS" role="nL36h">
+            <node concept="3P0YHh" id="CypPOEPsOT" role="3P0YG5">
               <property role="3P0YHu" value="C" />
             </node>
           </node>

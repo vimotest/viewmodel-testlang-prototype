@@ -3167,13 +3167,6 @@
       <node concept="2iRkQZ" id="5GYs7qIfjF_" role="2czzBx" />
     </node>
   </node>
-  <node concept="24kQdi" id="5GYs7qIfpGL">
-    <property role="3GE5qa" value="assert.checkvalues.utils" />
-    <ref role="1XX52x" to="l8rz:5GYs7qIfpGB" resolve="ItemValue" />
-    <node concept="3F0A7n" id="5GYs7qIfpGN" role="2wV5jI">
-      <ref role="1NtTu8" to="l8rz:5GYs7qIfpGC" resolve="value" />
-    </node>
-  </node>
   <node concept="24kQdi" id="5GYs7qIfpGX">
     <property role="3GE5qa" value="assert.checkvalues" />
     <ref role="1XX52x" to="l8rz:5GYs7qIfpGw" resolve="ItemsCheckValue" />
@@ -4075,7 +4068,7 @@
           </node>
           <node concept="3clFbF" id="1$0urrT48sA" role="3cqZAp">
             <node concept="37vLTw" id="1$0urrT4q88" role="3clFbG">
-              <ref role="3cqZAo" node="1$0urrT4q84" resolve="node" />
+              <ref role="3cqZAo" node="1$0urrT4q84" resolve="property" />
             </node>
           </node>
         </node>
@@ -4475,6 +4468,14 @@
         <ref role="1NtTu8" to="l8rz:61f9eXTp6J4" resolve="progress" />
       </node>
       <node concept="2iRfu4" id="61f9eXTp7wR" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1A1$ESehpy1">
+    <property role="3GE5qa" value="assert.radio" />
+    <ref role="1XX52x" to="l8rz:1A1$ESegXiH" resolve="RadioButtonsCheck" />
+    <node concept="3F2HdR" id="1A1$ESehq2E" role="2wV5jI">
+      <ref role="1NtTu8" to="l8rz:1A1$ESehqcZ" resolve="checks" />
+      <node concept="2iRkQZ" id="1A1$ESehq2F" role="2czzBx" />
     </node>
   </node>
 </model>

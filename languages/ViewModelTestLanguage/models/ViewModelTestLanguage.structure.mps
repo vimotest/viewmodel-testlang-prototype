@@ -320,6 +320,9 @@
     <node concept="PrWs8" id="5GYs7qIfmef" role="PzmwI">
       <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
     </node>
+    <node concept="PrWs8" id="1A1$ESeikBp" role="PzmwI">
+      <ref role="PrY4T" node="1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJONg2">
     <property role="EcuMT" value="3426401106045121538" />
@@ -808,6 +811,9 @@
     <node concept="PrWs8" id="5GYs7qIfme8" role="PzmwI">
       <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
     </node>
+    <node concept="PrWs8" id="1A1$ESeikI$" role="PzmwI">
+      <ref role="PrY4T" node="1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5QmCrei7W1w">
     <property role="EcuMT" value="6743755284656668768" />
@@ -957,24 +963,15 @@
     <node concept="PrWs8" id="5GYs7qIfpGx" role="PzmwI">
       <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
     </node>
+    <node concept="PrWs8" id="1A1$ESeikmF" role="PzmwI">
+      <ref role="PrY4T" node="1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
+    </node>
     <node concept="1TJgyj" id="5GYs7qIfpG_" role="1TKVEi">
       <property role="IQ2ns" value="6574816161039227685" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20kJfa" value="items" />
-      <ref role="20lvS9" node="5GYs7qIfpGB" resolve="ItemValue" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5GYs7qIfpGB">
-    <property role="EcuMT" value="6574816161039227687" />
-    <property role="3GE5qa" value="assert.checkvalues.utils" />
-    <property role="TrG5h" value="ItemValue" />
-    <property role="34LRSv" value="item value" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5GYs7qIfpGC" role="1TKVEl">
-      <property role="IQ2nx" value="6574816161039227688" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="20lvS9" to="6ap2:5GYs7qIfpGB" resolve="ItemValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="5GYs7qIfpHL">
@@ -986,12 +983,15 @@
     <node concept="PrWs8" id="5GYs7qIfpHM" role="PzmwI">
       <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
     </node>
+    <node concept="PrWs8" id="1A1$ESeikvD" role="PzmwI">
+      <ref role="PrY4T" node="1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
+    </node>
     <node concept="1TJgyj" id="5GYs7qIfpHN" role="1TKVEi">
       <property role="IQ2ns" value="6574816161039227763" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="20kJfa" value="selectedItem" />
-      <ref role="20lvS9" node="5GYs7qIfpGB" resolve="ItemValue" />
+      <ref role="20lvS9" to="6ap2:5GYs7qIfpGB" resolve="ItemValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="vV7zhZ3DJ9">
@@ -1193,7 +1193,7 @@
     <property role="3GE5qa" value="assert.checkvalues" />
     <property role="TrG5h" value="ProgressCheckValue" />
     <property role="34LRSv" value="progress" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="61f9eXTp6e2" role="PzmwI">
       <ref role="PrY4T" node="61f9eXTop3E" resolve="IProgressBarCheckValue" />
     </node>
@@ -1222,6 +1222,24 @@
       <property role="TrG5h" value="progress" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1A1$ESegXiH">
+    <property role="EcuMT" value="1837911399205164205" />
+    <property role="3GE5qa" value="assert.radio" />
+    <property role="TrG5h" value="RadioButtonsCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="1A1$ESehqcZ" role="1TKVEi">
+      <property role="IQ2ns" value="1837911399205282623" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1A1$ESehnLd">
+    <property role="EcuMT" value="1837911399205272653" />
+    <property role="3GE5qa" value="assert.radio" />
+    <property role="TrG5h" value="IRadioButtonsCheckValue" />
   </node>
 </model>
 

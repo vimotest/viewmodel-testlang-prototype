@@ -144,6 +144,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -342,7 +343,9 @@
         <child id="5944356402132808753" name="case" index="1_3QMm" />
         <child id="5944356402132808752" name="expression" index="1_3QMn" />
       </concept>
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <property id="1238684351431" name="asCast" index="1BlNFB" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -402,6 +405,7 @@
       </concept>
       <concept id="3358009230508699637" name="jetbrains.mps.baseLanguage.collections.structure.PopOperation" flags="nn" index="2AryhJ" />
       <concept id="3358009230508699932" name="jetbrains.mps.baseLanguage.collections.structure.PushOperation" flags="nn" index="2ArzE6" />
+      <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -441,6 +445,7 @@
         <child id="1225711191269" name="index" index="1y58nS" />
       </concept>
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
+      <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1184963466173" name="jetbrains.mps.baseLanguage.collections.structure.ToArrayOperation" flags="nn" index="3_kTaI" />
       <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
@@ -760,6 +765,44 @@
         </node>
       </node>
       <node concept="3cqZAl" id="5GYs7qIfmur" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1A1$ESein5q" role="13h7CS">
+      <property role="TrG5h" value="modifyRadioButtons" />
+      <ref role="13i0hy" node="1A1$ESeibG8" resolve="modifyRadioButtons" />
+      <node concept="3Tm1VV" id="1A1$ESein5r" role="1B3o_S" />
+      <node concept="3clFbS" id="1A1$ESein5z" role="3clF47">
+        <node concept="3clFbF" id="1A1$ESeinmO" role="3cqZAp">
+          <node concept="2OqwBi" id="1A1$ESeinWo" role="3clFbG">
+            <node concept="37vLTw" id="1A1$ESeinmH" role="2Oq$k0">
+              <ref role="3cqZAo" node="1A1$ESein5$" resolve="surroundingPanel" />
+            </node>
+            <node concept="liA8E" id="1A1$ESeioCl" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setEnabled(boolean)" resolve="setEnabled" />
+              <node concept="2OqwBi" id="1A1$ESeip0y" role="37wK5m">
+                <node concept="13iPFW" id="1A1$ESeioGp" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1A1$ESeipvK" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:2Yd1qrJONfX" resolve="sensitivity" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESein5$" role="3clF46">
+        <property role="TrG5h" value="surroundingPanel" />
+        <node concept="3uibUv" id="1A1$ESein5_" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESein5A" role="3clF46">
+        <property role="TrG5h" value="radioButtons" />
+        <node concept="_YKpA" id="1A1$ESein5B" role="1tU5fm">
+          <node concept="3uibUv" id="1A1$ESein5C" role="_ZDj9">
+            <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1A1$ESein5D" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="2Yd1qrJORUx">
@@ -5017,6 +5060,22 @@
               </node>
             </node>
           </node>
+          <node concept="1pnPoh" id="1A1$ESeG1xI" role="1_3QMm">
+            <node concept="3gn64h" id="1A1$ESeG1xJ" role="1pnPq6">
+              <ref role="3gnhBz" to="6ap2:4KUivslMsdv" resolve="RadioButtonsComponent" />
+            </node>
+            <node concept="3clFbS" id="1A1$ESeG1xK" role="1pnPq1">
+              <node concept="3cpWs6" id="1A1$ESeG1xL" role="3cqZAp">
+                <node concept="2ShNRf" id="1A1$ESeG1xM" role="3cqZAk">
+                  <node concept="3zrR0B" id="1A1$ESeG1xN" role="2ShVmc">
+                    <node concept="3Tqbb2" id="1A1$ESeG1xO" role="3zrR0E">
+                      <ref role="ehGHo" to="l8rz:1A1$ESegXiH" resolve="RadioButtonsCheck" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="1pnPoh" id="3HXRBxqB89J" role="1_3QMm">
             <node concept="3gn64h" id="3HXRBxqB89K" role="1pnPq6">
               <ref role="3gnhBz" to="6ap2:53FN52wrdyE" resolve="TableComponent" />
@@ -7220,6 +7279,44 @@
       </node>
       <node concept="3cqZAl" id="5GYs7qIfoWz" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="1A1$ESeilsT" role="13h7CS">
+      <property role="TrG5h" value="modifyRadioButtons" />
+      <ref role="13i0hy" node="1A1$ESeibG8" resolve="modifyRadioButtons" />
+      <node concept="3Tm1VV" id="1A1$ESeilsU" role="1B3o_S" />
+      <node concept="3clFbS" id="1A1$ESeilt2" role="3clF47">
+        <node concept="3clFbF" id="1A1$ESeim7g" role="3cqZAp">
+          <node concept="2OqwBi" id="1A1$ESeim7h" role="3clFbG">
+            <node concept="37vLTw" id="1A1$ESeim7i" role="2Oq$k0">
+              <ref role="3cqZAo" node="1A1$ESeilt3" resolve="surroundingPanel" />
+            </node>
+            <node concept="liA8E" id="1A1$ESeim7j" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setVisible(boolean)" resolve="setVisible" />
+              <node concept="2OqwBi" id="1A1$ESeim7k" role="37wK5m">
+                <node concept="13iPFW" id="1A1$ESeim7l" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1A1$ESeim7m" role="2OqNvi">
+                  <ref role="3TsBF5" to="l8rz:5cbOqfA60pr" resolve="visibility" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESeilt3" role="3clF46">
+        <property role="TrG5h" value="surroundingPanel" />
+        <node concept="3uibUv" id="1A1$ESeilt4" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESeilt5" role="3clF46">
+        <property role="TrG5h" value="radioButtons" />
+        <node concept="_YKpA" id="1A1$ESeilt6" role="1tU5fm">
+          <node concept="3uibUv" id="1A1$ESeilt7" role="_ZDj9">
+            <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1A1$ESeilt8" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="5QmCrei7WYr">
     <property role="3GE5qa" value="assert.texbox" />
@@ -7938,7 +8035,7 @@
                   </node>
                 </node>
                 <node concept="3TrcHB" id="5GYs7qIhlBs" role="2OqNvi">
-                  <ref role="3TsBF5" to="l8rz:5GYs7qIfpGC" resolve="value" />
+                  <ref role="3TsBF5" to="6ap2:5GYs7qIfpGC" resolve="value" />
                 </node>
               </node>
             </node>
@@ -7959,7 +8056,7 @@
                   </node>
                 </node>
                 <node concept="3TrcHB" id="5GYs7qIhlrM" role="2OqNvi">
-                  <ref role="3TsBF5" to="l8rz:5GYs7qIfpGC" resolve="value" />
+                  <ref role="3TsBF5" to="6ap2:5GYs7qIfpGC" resolve="value" />
                 </node>
               </node>
             </node>
@@ -7973,6 +8070,76 @@
         </node>
       </node>
       <node concept="3cqZAl" id="5GYs7qIgxNn" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1A1$ESeisco" role="13h7CS">
+      <property role="TrG5h" value="modifyRadioButtons" />
+      <ref role="13i0hy" node="1A1$ESeibG8" resolve="modifyRadioButtons" />
+      <node concept="3Tm1VV" id="1A1$ESeiscp" role="1B3o_S" />
+      <node concept="3clFbS" id="1A1$ESeiscx" role="3clF47">
+        <node concept="3clFbF" id="1A1$ESeisxK" role="3cqZAp">
+          <node concept="2OqwBi" id="1A1$ESeitjB" role="3clFbG">
+            <node concept="37vLTw" id="1A1$ESeisxD" role="2Oq$k0">
+              <ref role="3cqZAo" node="1A1$ESeisc$" resolve="radioButtons" />
+            </node>
+            <node concept="2es0OD" id="1A1$ESeiu7d" role="2OqNvi">
+              <node concept="1bVj0M" id="1A1$ESeiu7f" role="23t8la">
+                <node concept="3clFbS" id="1A1$ESeiu7g" role="1bW5cS">
+                  <node concept="3clFbF" id="1A1$ESeiulp" role="3cqZAp">
+                    <node concept="2OqwBi" id="1A1$ESeiuZP" role="3clFbG">
+                      <node concept="37vLTw" id="1A1$ESeiulo" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1A1$ESeiu7h" resolve="it" />
+                      </node>
+                      <node concept="liA8E" id="1A1$ESeiw0m" role="2OqNvi">
+                        <ref role="37wK5l" to="dxuu:~AbstractButton.setSelected(boolean)" resolve="setSelected" />
+                        <node concept="17R0WA" id="1A1$ESeiygL" role="37wK5m">
+                          <node concept="2OqwBi" id="1A1$ESeizFg" role="3uHU7w">
+                            <node concept="2OqwBi" id="1A1$ESeiyFU" role="2Oq$k0">
+                              <node concept="13iPFW" id="1A1$ESeiyn$" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="1A1$ESeiz3c" role="2OqNvi">
+                                <ref role="3Tt5mk" to="l8rz:5GYs7qIfpHN" resolve="selectedItem" />
+                              </node>
+                            </node>
+                            <node concept="3TrcHB" id="1A1$ESeizYD" role="2OqNvi">
+                              <ref role="3TsBF5" to="6ap2:5GYs7qIfpGC" resolve="value" />
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="1A1$ESeiwvJ" role="3uHU7B">
+                            <node concept="37vLTw" id="1A1$ESeiw5s" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1A1$ESeiu7h" resolve="it" />
+                            </node>
+                            <node concept="liA8E" id="1A1$ESeix9M" role="2OqNvi">
+                              <ref role="37wK5l" to="dxuu:~AbstractButton.getText()" resolve="getText" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="1A1$ESeiu7h" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1A1$ESeiu7i" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESeiscy" role="3clF46">
+        <property role="TrG5h" value="surroundingPanel" />
+        <node concept="3uibUv" id="1A1$ESeiscz" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESeisc$" role="3clF46">
+        <property role="TrG5h" value="radioButtons" />
+        <node concept="_YKpA" id="1A1$ESeisc_" role="1tU5fm">
+          <node concept="3uibUv" id="1A1$ESeiscA" role="_ZDj9">
+            <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1A1$ESeiscB" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="5GYs7qIgxS7">
@@ -8004,7 +8171,7 @@
                             <ref role="3cqZAo" node="5GYs7qIgPzL" resolve="it" />
                           </node>
                           <node concept="3TrcHB" id="5GYs7qIgPZz" role="2OqNvi">
-                            <ref role="3TsBF5" to="l8rz:5GYs7qIfpGC" resolve="value" />
+                            <ref role="3TsBF5" to="6ap2:5GYs7qIfpGC" resolve="value" />
                           </node>
                         </node>
                       </node>
@@ -8048,6 +8215,157 @@
     </node>
     <node concept="13hLZK" id="5GYs7qIgxS8" role="13h7CW">
       <node concept="3clFbS" id="5GYs7qIgxS9" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1A1$ESeiCdy" role="13h7CS">
+      <property role="TrG5h" value="modifyRadioButtons" />
+      <ref role="13i0hy" node="1A1$ESeibG8" resolve="modifyRadioButtons" />
+      <node concept="3Tm1VV" id="1A1$ESeiCdz" role="1B3o_S" />
+      <node concept="3clFbS" id="1A1$ESeiCdF" role="3clF47">
+        <node concept="3cpWs8" id="1A1$ESejSEY" role="3cqZAp">
+          <node concept="3cpWsn" id="1A1$ESejSEZ" role="3cpWs9">
+            <property role="TrG5h" value="viewComponent" />
+            <node concept="3Tqbb2" id="1A1$ESejSvL" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+            </node>
+            <node concept="2OqwBi" id="1A1$ESejSF0" role="33vP2m">
+              <node concept="1PxgMI" id="1A1$ESejSF1" role="2Oq$k0">
+                <node concept="chp4Y" id="1A1$ESejSF2" role="3oSUPX">
+                  <ref role="cht4Q" to="l8rz:2Yd1qrJONfw" resolve="ViewComponentCheck" />
+                </node>
+                <node concept="2OqwBi" id="1A1$ESejSF3" role="1m5AlR">
+                  <node concept="13iPFW" id="1A1$ESejSF4" role="2Oq$k0" />
+                  <node concept="1mfA1w" id="1A1$ESejSF5" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="1A1$ESejSF6" role="2OqNvi">
+                <ref role="37wK5l" node="4jKdMMdJYzD" resolve="getViewComponentToCheck" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1A1$ESejTQr" role="3cqZAp">
+          <node concept="3cpWsn" id="1A1$ESejTQs" role="3cpWs9">
+            <property role="TrG5h" value="radioButtonsComponent" />
+            <node concept="3Tqbb2" id="1A1$ESejTKc" role="1tU5fm">
+              <ref role="ehGHo" to="6ap2:4KUivslMsdv" resolve="RadioButtonsComponent" />
+            </node>
+            <node concept="1PxgMI" id="1A1$ESejTQt" role="33vP2m">
+              <property role="1BlNFB" value="true" />
+              <node concept="chp4Y" id="1A1$ESejTQu" role="3oSUPX">
+                <ref role="cht4Q" to="6ap2:4KUivslMsdv" resolve="RadioButtonsComponent" />
+              </node>
+              <node concept="37vLTw" id="1A1$ESejTQv" role="1m5AlR">
+                <ref role="3cqZAo" node="1A1$ESejSEZ" resolve="viewComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1A1$ESemhHB" role="3cqZAp">
+          <node concept="3cpWsn" id="1A1$ESemhHC" role="3cpWs9">
+            <property role="TrG5h" value="newRadioButtons" />
+            <node concept="_YKpA" id="1A1$ESemh_r" role="1tU5fm">
+              <node concept="3uibUv" id="1A1$ESemh_u" role="_ZDj9">
+                <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1A1$ESemhHD" role="33vP2m">
+              <node concept="37vLTw" id="1A1$ESemhHE" role="2Oq$k0">
+                <ref role="3cqZAo" node="1A1$ESejTQs" resolve="radioButtonsComponent" />
+              </node>
+              <node concept="2qgKlT" id="1A1$ESemhHF" role="2OqNvi">
+                <ref role="37wK5l" to="hhvz:1A1$ESeiEOq" resolve="createRadioButtons" />
+                <node concept="2OqwBi" id="1A1$ESemhHG" role="37wK5m">
+                  <node concept="2OqwBi" id="1A1$ESemhHH" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1A1$ESemhHI" role="2Oq$k0">
+                      <node concept="13iPFW" id="1A1$ESemhHJ" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="1A1$ESemhHK" role="2OqNvi">
+                        <ref role="3TtcxE" to="l8rz:5GYs7qIfpG_" resolve="items" />
+                      </node>
+                    </node>
+                    <node concept="3$u5V9" id="1A1$ESemhHL" role="2OqNvi">
+                      <node concept="1bVj0M" id="1A1$ESemhHM" role="23t8la">
+                        <node concept="3clFbS" id="1A1$ESemhHN" role="1bW5cS">
+                          <node concept="3clFbF" id="1A1$ESemhHO" role="3cqZAp">
+                            <node concept="2OqwBi" id="1A1$ESemhHP" role="3clFbG">
+                              <node concept="37vLTw" id="1A1$ESemhHQ" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1A1$ESemhHS" resolve="it" />
+                              </node>
+                              <node concept="3TrcHB" id="1A1$ESemhHR" role="2OqNvi">
+                                <ref role="3TsBF5" to="6ap2:5GYs7qIfpGC" resolve="value" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="1A1$ESemhHS" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="1A1$ESemhHT" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="ANE8D" id="1A1$ESemhHU" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1A1$ESejR8N" role="3cqZAp" />
+        <node concept="3clFbF" id="1A1$ESeiCEZ" role="3cqZAp">
+          <node concept="2OqwBi" id="1A1$ESeiDga" role="3clFbG">
+            <node concept="37vLTw" id="1A1$ESeiCEY" role="2Oq$k0">
+              <ref role="3cqZAo" node="1A1$ESeiCdG" resolve="surroundingPanel" />
+            </node>
+            <node concept="liA8E" id="1A1$ESemk_V" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.removeAll()" resolve="removeAll" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1A1$ESemmTE" role="3cqZAp">
+          <node concept="2OqwBi" id="1A1$ESemnID" role="3clFbG">
+            <node concept="37vLTw" id="1A1$ESemmTC" role="2Oq$k0">
+              <ref role="3cqZAo" node="1A1$ESemhHC" resolve="newRadioButtons" />
+            </node>
+            <node concept="2es0OD" id="1A1$ESemoSl" role="2OqNvi">
+              <node concept="1bVj0M" id="1A1$ESemoSn" role="23t8la">
+                <node concept="3clFbS" id="1A1$ESemoSo" role="1bW5cS">
+                  <node concept="3clFbF" id="1A1$ESempbm" role="3cqZAp">
+                    <node concept="2OqwBi" id="1A1$ESemprJ" role="3clFbG">
+                      <node concept="37vLTw" id="1A1$ESempbl" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1A1$ESeiCdG" resolve="surroundingPanel" />
+                      </node>
+                      <node concept="liA8E" id="1A1$ESempDa" role="2OqNvi">
+                        <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
+                        <node concept="37vLTw" id="1A1$ESemq1p" role="37wK5m">
+                          <ref role="3cqZAo" node="1A1$ESemoSp" resolve="it" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="1A1$ESemoSp" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1A1$ESemoSq" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESeiCdG" role="3clF46">
+        <property role="TrG5h" value="surroundingPanel" />
+        <node concept="3uibUv" id="1A1$ESeiCdH" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESeiCdI" role="3clF46">
+        <property role="TrG5h" value="oldRadioButtons" />
+        <node concept="_YKpA" id="1A1$ESeiCdJ" role="1tU5fm">
+          <node concept="3uibUv" id="1A1$ESeiCdK" role="_ZDj9">
+            <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1A1$ESeiCdL" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="vV7zhZ3DJA">
@@ -11909,6 +12227,323 @@
         </node>
       </node>
       <node concept="3cqZAl" id="61f9eXTpcel" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1A1$ESehI3q">
+    <property role="3GE5qa" value="assert.radio" />
+    <ref role="13h7C2" to="l8rz:1A1$ESegXiH" resolve="RadioButtonsCheck" />
+    <node concept="13hLZK" id="1A1$ESehI3r" role="13h7CW">
+      <node concept="3clFbS" id="1A1$ESehI3s" role="2VODD2">
+        <node concept="3clFbF" id="CypPOEN61R" role="3cqZAp">
+          <node concept="2OqwBi" id="CypPOEN61T" role="3clFbG">
+            <node concept="2OqwBi" id="CypPOEN61U" role="2Oq$k0">
+              <node concept="13iPFW" id="CypPOEN61V" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="CypPOEN61W" role="2OqNvi">
+                <ref role="3TtcxE" to="l8rz:1A1$ESehqcZ" resolve="checks" />
+              </node>
+            </node>
+            <node concept="2DeJg1" id="CypPOEN61X" role="2OqNvi">
+              <ref role="1A0vxQ" to="l8rz:5GYs7qIfpHL" resolve="SelectedItemCheckValue" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="1A1$ESehJpb" role="13h7CS">
+      <property role="TrG5h" value="applyOnSwingComponent" />
+      <ref role="13i0hy" node="2Yd1qrJP3FF" resolve="applyOnSwingComponent" />
+      <node concept="3Tm1VV" id="1A1$ESehJpg" role="1B3o_S" />
+      <node concept="3clFbS" id="1A1$ESehJpj" role="3clF47">
+        <node concept="3cpWs8" id="1A1$ESehP_R" role="3cqZAp">
+          <node concept="3cpWsn" id="1A1$ESehP_S" role="3cpWs9">
+            <property role="TrG5h" value="panelWithRadioButtons" />
+            <node concept="3uibUv" id="1A1$ESehPxh" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+            </node>
+            <node concept="0kSF2" id="1A1$ESehP_T" role="33vP2m">
+              <node concept="3uibUv" id="1A1$ESehP_U" role="0kSFW">
+                <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+              </node>
+              <node concept="37vLTw" id="1A1$ESehP_V" role="0kSFX">
+                <ref role="3cqZAo" node="1A1$ESehJpk" resolve="swingComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1A1$ESehPSW" role="3cqZAp">
+          <node concept="3clFbS" id="1A1$ESehPSY" role="3clFbx">
+            <node concept="3SKdUt" id="CypPOET3Xi" role="3cqZAp">
+              <node concept="1PaTwC" id="CypPOET3Xj" role="1aUNEU">
+                <node concept="3oM_SD" id="CypPOET4i7" role="1PaTwD">
+                  <property role="3oM_SC" value="handle" />
+                </node>
+                <node concept="3oM_SD" id="CypPOET40L" role="1PaTwD">
+                  <property role="3oM_SC" value="items" />
+                </node>
+                <node concept="3oM_SD" id="CypPOET4cw" role="1PaTwD">
+                  <property role="3oM_SC" value="check" />
+                </node>
+                <node concept="3oM_SD" id="CypPOET4eC" role="1PaTwD">
+                  <property role="3oM_SC" value="first," />
+                </node>
+                <node concept="3oM_SD" id="CypPOEVA28" role="1PaTwD">
+                  <property role="3oM_SC" value="since" />
+                </node>
+                <node concept="3oM_SD" id="CypPOEVA2C" role="1PaTwD">
+                  <property role="3oM_SC" value="it" />
+                </node>
+                <node concept="3oM_SD" id="CypPOEVA3O" role="1PaTwD">
+                  <property role="3oM_SC" value="modifies" />
+                </node>
+                <node concept="3oM_SD" id="CypPOEVA7J" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="CypPOEVA8G" role="1PaTwD">
+                  <property role="3oM_SC" value="list" />
+                </node>
+                <node concept="3oM_SD" id="CypPOEVAaS" role="1PaTwD">
+                  <property role="3oM_SC" value="of" />
+                </node>
+                <node concept="3oM_SD" id="CypPOEVAbR" role="1PaTwD">
+                  <property role="3oM_SC" value="JRadioButtons" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="CypPOESSdo" role="3cqZAp">
+              <node concept="2OqwBi" id="CypPOESWm1" role="3clFbG">
+                <node concept="2OqwBi" id="CypPOESUiP" role="2Oq$k0">
+                  <node concept="2OqwBi" id="CypPOESSdq" role="2Oq$k0">
+                    <node concept="13iPFW" id="CypPOESSdr" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="CypPOESSds" role="2OqNvi">
+                      <ref role="3TtcxE" to="l8rz:1A1$ESehqcZ" resolve="checks" />
+                    </node>
+                  </node>
+                  <node concept="v3k3i" id="CypPOESVP7" role="2OqNvi">
+                    <node concept="chp4Y" id="CypPOESW0V" role="v3oSu">
+                      <ref role="cht4Q" to="l8rz:5GYs7qIfpGw" resolve="ItemsCheckValue" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2es0OD" id="CypPOESXcO" role="2OqNvi">
+                  <node concept="1bVj0M" id="CypPOESXcQ" role="23t8la">
+                    <node concept="3clFbS" id="CypPOESXcR" role="1bW5cS">
+                      <node concept="3clFbF" id="CypPOESXuE" role="3cqZAp">
+                        <node concept="2OqwBi" id="CypPOESXNt" role="3clFbG">
+                          <node concept="37vLTw" id="CypPOESXuD" role="2Oq$k0">
+                            <ref role="3cqZAo" node="CypPOESXcS" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="CypPOESYig" role="2OqNvi">
+                            <ref role="37wK5l" node="1A1$ESeibG8" resolve="modifyRadioButtons" />
+                            <node concept="37vLTw" id="CypPOET3nQ" role="37wK5m">
+                              <ref role="3cqZAo" node="1A1$ESehP_S" resolve="panelWithRadioButtons" />
+                            </node>
+                            <node concept="2ShNRf" id="CypPOESYQ5" role="37wK5m">
+                              <node concept="Tc6Ow" id="CypPOET19_" role="2ShVmc">
+                                <node concept="3uibUv" id="CypPOET2IF" role="HW$YZ">
+                                  <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="CypPOESXcS" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="CypPOESXcT" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="CypPOESS4f" role="3cqZAp" />
+            <node concept="3cpWs8" id="1A1$ESei7fU" role="3cqZAp">
+              <node concept="3cpWsn" id="1A1$ESei7fV" role="3cpWs9">
+                <property role="TrG5h" value="radioButtons" />
+                <node concept="_YKpA" id="1A1$ESei7bx" role="1tU5fm">
+                  <node concept="3uibUv" id="1A1$ESei7b$" role="_ZDj9">
+                    <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="1A1$ESei7fW" role="33vP2m">
+                  <node concept="Tc6Ow" id="1A1$ESei7fX" role="2ShVmc">
+                    <node concept="3uibUv" id="1A1$ESei7fY" role="HW$YZ">
+                      <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1DcWWT" id="1A1$ESehTvV" role="3cqZAp">
+              <node concept="3clFbS" id="1A1$ESehTw0" role="2LFqv$">
+                <node concept="3cpWs8" id="1A1$ESehUNL" role="3cqZAp">
+                  <node concept="3cpWsn" id="1A1$ESehUNM" role="3cpWs9">
+                    <property role="TrG5h" value="radioButton" />
+                    <node concept="3uibUv" id="1A1$ESehULO" role="1tU5fm">
+                      <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+                    </node>
+                    <node concept="0kSF2" id="1A1$ESehUNN" role="33vP2m">
+                      <node concept="3uibUv" id="1A1$ESehUNO" role="0kSFW">
+                        <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+                      </node>
+                      <node concept="37vLTw" id="1A1$ESehUNP" role="0kSFX">
+                        <ref role="3cqZAo" node="1A1$ESehTw1" resolve="component" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="1A1$ESehVis" role="3cqZAp">
+                  <node concept="3clFbS" id="1A1$ESehViu" role="3clFbx">
+                    <node concept="3clFbF" id="1A1$ESei7XK" role="3cqZAp">
+                      <node concept="2OqwBi" id="1A1$ESei8Nw" role="3clFbG">
+                        <node concept="37vLTw" id="1A1$ESei7XI" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1A1$ESei7fV" resolve="radioButtons" />
+                        </node>
+                        <node concept="TSZUe" id="1A1$ESei9OO" role="2OqNvi">
+                          <node concept="37vLTw" id="1A1$ESeia0F" role="25WWJ7">
+                            <ref role="3cqZAo" node="1A1$ESehUNM" resolve="radioButton" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3y3z36" id="1A1$ESehXJE" role="3clFbw">
+                    <node concept="10Nm6u" id="1A1$ESehXLE" role="3uHU7w" />
+                    <node concept="37vLTw" id="1A1$ESehWDd" role="3uHU7B">
+                      <ref role="3cqZAo" node="1A1$ESehUNM" resolve="radioButton" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWsn" id="1A1$ESehTw1" role="1Duv9x">
+                <property role="TrG5h" value="component" />
+                <node concept="3uibUv" id="1A1$ESehT$Z" role="1tU5fm">
+                  <ref role="3uigEE" to="z60i:~Component" resolve="Component" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1A1$ESehS48" role="1DdaDG">
+                <node concept="37vLTw" id="1A1$ESehP_W" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1A1$ESehP_S" resolve="panelWithRadioButtons" />
+                </node>
+                <node concept="liA8E" id="1A1$ESehSZ$" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~Container.getComponents()" resolve="getComponents" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1A1$ESeialm" role="3cqZAp">
+              <node concept="2OqwBi" id="1A1$ESeialn" role="3clFbG">
+                <node concept="2OqwBi" id="CypPOET5Ea" role="2Oq$k0">
+                  <node concept="2OqwBi" id="CypPOEVD7w" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1A1$ESeialo" role="2Oq$k0">
+                      <node concept="13iPFW" id="1A1$ESeialp" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="1A1$ESeialq" role="2OqNvi">
+                        <ref role="3TtcxE" to="l8rz:1A1$ESehqcZ" resolve="checks" />
+                      </node>
+                    </node>
+                    <node concept="ANE8D" id="CypPOEVKLY" role="2OqNvi" />
+                  </node>
+                  <node concept="3zZkjj" id="CypPOF1rdg" role="2OqNvi">
+                    <node concept="1bVj0M" id="CypPOF1rdi" role="23t8la">
+                      <node concept="3clFbS" id="CypPOF1rdj" role="1bW5cS">
+                        <node concept="3clFbF" id="CypPOF1rdk" role="3cqZAp">
+                          <node concept="17QLQc" id="CypPOF1ti1" role="3clFbG">
+                            <node concept="35c_gC" id="CypPOF1tCD" role="3uHU7w">
+                              <ref role="35c_gD" to="l8rz:5GYs7qIfpGw" resolve="ItemsCheckValue" />
+                            </node>
+                            <node concept="2OqwBi" id="CypPOF1rVY" role="3uHU7B">
+                              <node concept="37vLTw" id="CypPOF1rdm" role="2Oq$k0">
+                                <ref role="3cqZAo" node="CypPOF1rdp" resolve="it" />
+                              </node>
+                              <node concept="2yIwOk" id="CypPOF1sup" role="2OqNvi" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="CypPOF1rdp" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="CypPOF1rdq" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2es0OD" id="1A1$ESeialr" role="2OqNvi">
+                  <node concept="1bVj0M" id="1A1$ESeials" role="23t8la">
+                    <node concept="3clFbS" id="1A1$ESeialt" role="1bW5cS">
+                      <node concept="3clFbF" id="1A1$ESeialu" role="3cqZAp">
+                        <node concept="2OqwBi" id="1A1$ESeialv" role="3clFbG">
+                          <node concept="37vLTw" id="1A1$ESeialw" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1A1$ESeialz" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="1A1$ESeialx" role="2OqNvi">
+                            <ref role="37wK5l" node="1A1$ESeibG8" resolve="modifyRadioButtons" />
+                            <node concept="37vLTw" id="1A1$ESeialy" role="37wK5m">
+                              <ref role="3cqZAo" node="1A1$ESehP_S" resolve="panelWithRadioButtons" />
+                            </node>
+                            <node concept="37vLTw" id="1A1$ESeidYz" role="37wK5m">
+                              <ref role="3cqZAo" node="1A1$ESei7fV" resolve="radioButtons" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="1A1$ESeialz" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="1A1$ESeial$" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="1A1$ESehQC3" role="3clFbw">
+            <node concept="10Nm6u" id="1A1$ESehQDo" role="3uHU7w" />
+            <node concept="37vLTw" id="1A1$ESehPXu" role="3uHU7B">
+              <ref role="3cqZAo" node="1A1$ESehP_S" resolve="panelWithRadioButtons" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESehJpk" role="3clF46">
+        <property role="TrG5h" value="swingComponent" />
+        <node concept="3uibUv" id="1A1$ESehJpl" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESehJpm" role="3clF46">
+        <property role="TrG5h" value="viewComponent" />
+        <node concept="3Tqbb2" id="1A1$ESehJpn" role="1tU5fm">
+          <ref role="ehGHo" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1A1$ESehJpo" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1A1$ESeib3J">
+    <property role="3GE5qa" value="assert.radio" />
+    <ref role="13h7C2" to="l8rz:1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
+    <node concept="13i0hz" id="1A1$ESeibG8" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="modifyRadioButtons" />
+      <node concept="3Tm1VV" id="1A1$ESeibG9" role="1B3o_S" />
+      <node concept="3cqZAl" id="1A1$ESeibGa" role="3clF45" />
+      <node concept="3clFbS" id="1A1$ESeibGb" role="3clF47" />
+      <node concept="37vLTG" id="1A1$ESeibGc" role="3clF46">
+        <property role="TrG5h" value="surroundingPanel" />
+        <node concept="3uibUv" id="1A1$ESeibGd" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1A1$ESeicqc" role="3clF46">
+        <property role="TrG5h" value="radioButtons" />
+        <node concept="_YKpA" id="1A1$ESeicEl" role="1tU5fm">
+          <node concept="3uibUv" id="1A1$ESeicMj" role="_ZDj9">
+            <ref role="3uigEE" to="dxuu:~JRadioButton" resolve="JRadioButton" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="1A1$ESeib3K" role="13h7CW">
+      <node concept="3clFbS" id="1A1$ESeib3L" role="2VODD2" />
     </node>
   </node>
 </model>
