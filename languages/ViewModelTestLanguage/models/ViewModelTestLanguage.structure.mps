@@ -3,12 +3,14 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="l3im" ref="r:39b441c7-a1d5-452b-b50b-8348c2e0c7aa(UseCaseLanguage.structure)" />
     <import index="6ap2" ref="r:eb134abe-e3cf-4c45-9c39-b0e1fd592dbc(ViewModelLanguage.structure)" />
+    <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" implicit="true" />
   </imports>
@@ -352,6 +354,7 @@
     <property role="EcuMT" value="3426401106045532804" />
     <property role="3GE5qa" value="context.empty" />
     <property role="TrG5h" value="EmptyContext" />
+    <property role="34LRSv" value="empty context" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2Yd1qrJQnE5" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
@@ -361,6 +364,7 @@
     <property role="EcuMT" value="3426401106045796684" />
     <property role="3GE5qa" value="context.object" />
     <property role="TrG5h" value="ObjectTreeContext" />
+    <property role="34LRSv" value="json context" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1kmjBf2p1O2" role="1TKVEl">
       <property role="IQ2nx" value="1519488183373667586" />
@@ -444,7 +448,7 @@
     <property role="EcuMT" value="3426401106045849608" />
     <property role="3GE5qa" value="context.ref" />
     <property role="TrG5h" value="ContextReference" />
-    <property role="34LRSv" value="ref" />
+    <property role="34LRSv" value="referenced context" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2Yd1qrJR_09" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
@@ -654,6 +658,7 @@
     <property role="EcuMT" value="4126317592746173580" />
     <property role="3GE5qa" value="context.string" />
     <property role="TrG5h" value="MultiLineStringContext" />
+    <property role="34LRSv" value="multi line string" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3_3BZOa5aid" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
@@ -1240,6 +1245,40 @@
     <property role="EcuMT" value="1837911399205272653" />
     <property role="3GE5qa" value="assert.radio" />
     <property role="TrG5h" value="IRadioButtonsCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="6$atX315_2f">
+    <property role="EcuMT" value="7568993862225907855" />
+    <property role="3GE5qa" value="context.xml" />
+    <property role="TrG5h" value="XmlContextWithProlog" />
+    <property role="34LRSv" value="xml context (with prolog)" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="6$atX315_Bx" role="1TKVEi">
+      <property role="IQ2ns" value="7568993862225910241" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="xmlDocument" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="iuxj:5SJpJa5_6F9" resolve="XmlDocument" />
+    </node>
+    <node concept="PrWs8" id="6$atX315_cO" role="PzmwI">
+      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6$atX318vvd">
+    <property role="EcuMT" value="7568993862226671565" />
+    <property role="3GE5qa" value="context.xml" />
+    <property role="TrG5h" value="XmlElementContext" />
+    <property role="34LRSv" value="xml context" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="6$atX318vve" role="1TKVEi">
+      <property role="IQ2ns" value="7568993862226671566" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="xmlDocument" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="iuxj:5M4a$b5ikxH" resolve="XmlBaseElement" />
+    </node>
+    <node concept="PrWs8" id="6$atX318vvf" role="PzmwI">
+      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
+    </node>
   </node>
 </model>
 
