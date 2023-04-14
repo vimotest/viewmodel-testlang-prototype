@@ -2758,6 +2758,23 @@
                 </node>
                 <node concept="3x8VRR" id="1o_uqzzRFwx" role="2OqNvi" />
               </node>
+              <node concept="9aQIb" id="3WOrfOPiLvn" role="9aQIa">
+                <node concept="3clFbS" id="3WOrfOPiLvo" role="9aQI4">
+                  <node concept="3clFbF" id="3WOrfOPiLOL" role="3cqZAp">
+                    <node concept="2OqwBi" id="3WOrfOPiLOM" role="3clFbG">
+                      <node concept="37vLTw" id="3WOrfOPiLON" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6wbjV0Q4KEL" resolve="imageLabel" />
+                      </node>
+                      <node concept="liA8E" id="3WOrfOPiLOO" role="2OqNvi">
+                        <ref role="37wK5l" to="dxuu:~JLabel.setDisabledIcon(javax.swing.Icon)" resolve="setDisabledIcon" />
+                        <node concept="37vLTw" id="3WOrfOPiLOP" role="37wK5m">
+                          <ref role="3cqZAo" node="6wbjV0Q4KEE" resolve="icon" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="3cpWs6" id="6wbjV0Q4KEQ" role="3cqZAp">
               <node concept="37vLTw" id="6wbjV0Q4KER" role="3cqZAk">
