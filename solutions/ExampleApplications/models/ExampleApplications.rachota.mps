@@ -138,6 +138,16 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="6939806161753627029" name="ViewModelTestLanguage.structure.ProgressCheckValue" flags="ng" index="paRPU">
+        <property id="6939806161753678957" name="checkMax" index="paw22" />
+        <property id="6939806161753677946" name="checkMin" index="pawil" />
+        <property id="6939806161753632163" name="max" index="paO_c" />
+        <property id="6939806161753631111" name="min" index="paOPC" />
+        <property id="6939806161753631684" name="progress" index="paOWF" />
+      </concept>
+      <concept id="6939806161753442499" name="ViewModelTestLanguage.structure.ProgressBarCheck" flags="ng" index="pbEKG">
+        <child id="6939806161753450898" name="checks" index="pbCPX" />
+      </concept>
       <concept id="7568993862226671565" name="ViewModelTestLanguage.structure.XmlElementContext" flags="ng" index="2CaS0t">
         <child id="7568993862226671566" name="xmlDocument" index="2CaS0u" />
       </concept>
@@ -146,6 +156,9 @@
       </concept>
       <concept id="2424854242643129807" name="ViewModelTestLanguage.structure.ForegroundColorCheckValue" flags="ng" index="Psmnp">
         <child id="2424854242643129810" name="color" index="Psmn4" />
+      </concept>
+      <concept id="5057557679944221126" name="ViewModelTestLanguage.structure.HorizontalTestCaseAssertions" flags="ng" index="2QbWKJ">
+        <child id="5057557679944221906" name="asserts" index="2QbW$V" />
       </concept>
       <concept id="3426401106045849608" name="ViewModelTestLanguage.structure.ContextReference" flags="ng" index="30kPmI">
         <reference id="3426401106045849611" name="contextRef" index="30kPmH" />
@@ -164,6 +177,7 @@
         <property id="3426401106045631318" name="text" index="30lZVK" />
       </concept>
       <concept id="3426401106045120499" name="ViewModelTestLanguage.structure.TestCaseDescription" flags="ng" index="30nyDl">
+        <property id="3426401106045120517" name="scenario" index="30nzmz" />
         <child id="3426401106045120503" name="when" index="30nyDh" />
         <child id="3426401106045120501" name="given" index="30nyDj" />
         <child id="3426401106045120506" name="then" index="30nyDs" />
@@ -175,9 +189,18 @@
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
         <child id="3426401106045120786" name="parameters" index="30nziO" />
       </concept>
+      <concept id="3426401106045121505" name="ViewModelTestLanguage.structure.ButtonCheck" flags="ng" index="30nzp7">
+        <child id="3426401106045121535" name="checks" index="30nzpp" />
+      </concept>
+      <concept id="3426401106045121530" name="ViewModelTestLanguage.structure.SensitivityCheckValue" flags="ng" index="30nzps">
+        <property id="3426401106045121533" name="sensitivity" index="30nzpr" />
+      </concept>
       <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
+      </concept>
+      <concept id="6743755284656668768" name="ViewModelTestLanguage.structure.TextBoxCheck" flags="ng" index="3fym7j">
+        <child id="6743755284656668769" name="checks" index="3fym7i" />
       </concept>
       <concept id="6692228888293142831" name="ViewModelTestLanguage.structure.BackgroundColorCheckValue" flags="ng" index="3mzAeo">
         <child id="6692228888293142849" name="color" index="3mzAfQ" />
@@ -237,6 +260,17 @@
           <node concept="2Pim7H" id="61f9eXSU5pK" role="2Pim76">
             <property role="2PigPS" value="Next" />
           </node>
+        </node>
+      </node>
+      <node concept="3fyYjX" id="7rVlXou0n$v" role="2P43km">
+        <node concept="27$lts" id="7rVlXou0n$x" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="1." />
+        </node>
+        <node concept="2Pim7P" id="7rVlXou0n$z" role="2Pim73" />
+        <node concept="2Pim7K" id="7rVlXou0n$_" role="2Pim71" />
+        <node concept="2Pim7H" id="7rVlXou0n$B" role="2Pim76">
+          <property role="2PigPS" value="Week" />
         </node>
       </node>
       <node concept="2HXGLM" id="61f9eXSU6Ml" role="2P43km">
@@ -857,6 +891,7 @@
     <ref role="30n1PB" node="1$0urrTN2$j" resolve="DayView" />
     <node concept="30n1Qa" id="61f9eXTB5dm" role="30n1Qb">
       <node concept="30nyDl" id="61f9eXTB5dn" role="30nziG">
+        <property role="30nzmz" value="Task is shown in table" />
         <node concept="30nyDi" id="61f9eXTB5do" role="30nyDj">
           <property role="30lZVK" value="One Task" />
         </node>
@@ -967,6 +1002,7 @@
     </node>
     <node concept="30n1Qa" id="6$atX31bkzt" role="30n1Qb">
       <node concept="30nyDl" id="6$atX31bkzu" role="30nziG">
+        <property role="30nzmz" value="Selected task is shown in table" />
         <node concept="30nyDi" id="6$atX31bkzv" role="30nyDj">
           <property role="30lZVK" value="One Task" />
         </node>
@@ -980,7 +1016,13 @@
           <property role="30lZVK" value="Plan table shows one row" />
         </node>
         <node concept="30nyDi" id="6$atX31bozx" role="30nyDs">
-          <property role="30lZVK" value="row is marked by color" />
+          <property role="30lZVK" value="Row is marked by color" />
+        </node>
+        <node concept="30nyDi" id="3r_aeMgKFTN" role="30nyDs">
+          <property role="30lZVK" value="Add button is enabled" />
+        </node>
+        <node concept="30nyDi" id="3r_aeMgKFYf" role="30nyDs">
+          <property role="30lZVK" value="Select, View, Remove buttons are disabled" />
         </node>
       </node>
       <node concept="30nziD" id="6$atX31bkzy" role="30nzo2">
@@ -1037,8 +1079,158 @@
           </node>
         </node>
       </node>
+      <node concept="2QbWKJ" id="3r_aeMgKG6v" role="30nzpy">
+        <node concept="30nzp_" id="3r_aeMgKG6X" role="2QbW$V">
+          <ref role="30nzpS" node="6$atX31bk_A" resolve="Select" />
+          <node concept="30nzp7" id="3r_aeMgKG6Y" role="30nDbQ">
+            <node concept="30nzps" id="3r_aeMgKG6Z" role="30nzpp" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="3r_aeMgKG7b" role="2QbW$V">
+          <ref role="30nzpS" node="6$atX31bk_E" resolve="Add" />
+          <node concept="30nzp7" id="3r_aeMgKG87" role="30nDbQ">
+            <node concept="30nzps" id="3r_aeMgKG88" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="3r_aeMgKG7k" role="2QbW$V">
+          <ref role="30nzpS" node="6$atX31bk_I" resolve="View" />
+          <node concept="30nzp7" id="3r_aeMgKG8F" role="30nDbQ">
+            <node concept="30nzps" id="3r_aeMgKG8G" role="30nzpp" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="3r_aeMgKG7K" role="2QbW$V">
+          <ref role="30nzpS" node="6$atX31bkDA" resolve="Remove" />
+          <node concept="30nzp7" id="3r_aeMgKG97" role="30nDbQ">
+            <node concept="30nzps" id="3r_aeMgKG98" role="30nzpp" />
+          </node>
+        </node>
+      </node>
       <node concept="30kPmI" id="6$atX31bozA" role="30nziE">
         <ref role="30kPmH" node="6$atX31bkwW" />
+      </node>
+    </node>
+    <node concept="30n1Qa" id="7rVlXou0nvJ" role="30n1Qb">
+      <node concept="30nyDl" id="7rVlXou0nvK" role="30nziG">
+        <property role="30nzmz" value="Progress is correctly rendered on active day" />
+        <node concept="30nyDi" id="7rVlXou0nvL" role="30nyDj">
+          <property role="30lZVK" value="One Task" />
+        </node>
+        <node concept="30nyDi" id="7rVlXou0nvM" role="30nyDh">
+          <property role="30lZVK" value="Load View" />
+        </node>
+        <node concept="30nyDi" id="3r_aeMfVsUw" role="30nyDh">
+          <property role="30lZVK" value="Select first Row" />
+        </node>
+        <node concept="30nyDi" id="7rVlXou0nvO" role="30nyDs">
+          <property role="30lZVK" value="Date is shown" />
+        </node>
+        <node concept="30nyDi" id="7rVlXou0nvP" role="30nyDs">
+          <property role="30lZVK" value="Times are shown" />
+        </node>
+        <node concept="30nyDi" id="7rVlXou0nxQ" role="30nyDs">
+          <property role="30lZVK" value="Progress is shown" />
+        </node>
+        <node concept="30nyDi" id="7rVlXou0nxU" role="30nyDs">
+          <property role="30lZVK" value="Task description is shown" />
+        </node>
+        <node concept="30nyDi" id="3r_aeMfVsVq" role="30nyDs">
+          <property role="30lZVK" value="Work button is disabled" />
+        </node>
+      </node>
+      <node concept="30nziD" id="7rVlXou0nvQ" role="30nzo2">
+        <ref role="30nziQ" node="61f9eXTB5m0" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="3r_aeMfVsUA" role="30nzo2">
+        <ref role="30nziQ" node="6$atX31bo0a" resolve="SelectClicked" />
+        <node concept="3cmrfG" id="3r_aeMfVsUE" role="30nziO">
+          <property role="3cmrfH" value="0" />
+        </node>
+      </node>
+      <node concept="30kPmI" id="7rVlXou0nwc" role="30nziE">
+        <ref role="30kPmH" node="6$atX31bkwW" />
+      </node>
+      <node concept="30nzp_" id="7rVlXou0ny0" role="30nzpy">
+        <ref role="30nzpS" node="61f9eXSU6DJ" resolve="Date" />
+        <node concept="3fym7j" id="7rVlXou0ny4" role="30nDbQ">
+          <node concept="30nz6$" id="7rVlXou0ny5" role="3fym7i">
+            <property role="30nz6_" value="Thursday - 14. February, 2008" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="7rVlXou0nyd" role="30nzpy">
+        <ref role="30nzpS" node="7rVlXou0n$v" resolve="Week" />
+        <node concept="3fym7j" id="7rVlXou0nye" role="30nDbQ">
+          <node concept="30nz6$" id="7rVlXou0nyf" role="3fym7i">
+            <property role="30nz6_" value="7." />
+          </node>
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="7rVlXou0nAT" role="30nzpy">
+        <node concept="30nzp_" id="7rVlXou0nB2" role="2QbW$V">
+          <ref role="30nzpS" node="61f9eXSU6Nk" resolve="StartedAt" />
+          <node concept="3fym7j" id="3r_aeMfVitc" role="30nDbQ">
+            <node concept="30nz6$" id="3r_aeMfVitd" role="3fym7i">
+              <property role="30nz6_" value="06:10" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="3r_aeMfVsTG" role="2QbW$V">
+          <ref role="30nzpS" node="61f9eXSU6Q4" resolve="FinishedAt" />
+          <node concept="3fym7j" id="3r_aeMfVsTM" role="30nDbQ">
+            <node concept="30nz6$" id="3r_aeMfVsTN" role="3fym7i">
+              <property role="30nz6_" value="14:53" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="3r_aeMfVsU5" role="30nzpy">
+        <ref role="30nzpS" node="61f9eXT9Unu" resolve="Progress" />
+        <node concept="pbEKG" id="3r_aeMfVsUl" role="30nDbQ">
+          <node concept="paRPU" id="3r_aeMfVsUm" role="pbCPX">
+            <property role="pawil" value="true" />
+            <property role="paw22" value="true" />
+            <property role="paOPC" value="370" />
+            <property role="paO_c" value="893" />
+            <property role="paOWF" value="678" />
+          </node>
+          <node concept="30nz6$" id="3r_aeMfVsUs" role="pbCPX">
+            <property role="30nz6_" value="05:08:55" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="3r_aeMfVsV2" role="30nzpy">
+        <ref role="30nzpS" node="61f9eXSVarp" resolve="Task" />
+        <node concept="3fym7j" id="3r_aeMfVsVm" role="30nDbQ">
+          <node concept="30nz6$" id="3r_aeMfVsVn" role="3fym7i">
+            <property role="30nz6_" value="Testing Plugin Portal version 3" />
+          </node>
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="3r_aeMfVsVQ" role="30nzpy">
+        <node concept="30nzp_" id="3r_aeMgr$GW" role="2QbW$V">
+          <ref role="30nzpS" node="61f9eXSVax6" resolve="Work" />
+          <node concept="30nzp7" id="3r_aeMgr$GX" role="30nDbQ">
+            <node concept="30nzps" id="3r_aeMgr$GY" role="30nzpp" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="3r_aeMgr$H7" role="2QbW$V">
+          <ref role="30nzpS" node="61f9eXSVayO" resolve="Relax" />
+          <node concept="30nzp7" id="3r_aeMgr$H8" role="30nDbQ">
+            <node concept="30nzps" id="3r_aeMgr$H9" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="3r_aeMgr$Ho" role="2QbW$V">
+          <ref role="30nzpS" node="61f9eXSVaAI" resolve="Done" />
+          <node concept="30nzp7" id="3r_aeMgr$Hp" role="30nDbQ">
+            <node concept="30nzps" id="3r_aeMgr$Hq" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
