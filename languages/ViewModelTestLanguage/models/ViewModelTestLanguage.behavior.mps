@@ -35,6 +35,7 @@
     <import index="rgfa" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.tree(JDK/)" />
     <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -200,6 +201,7 @@
       </concept>
       <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
         <child id="1160998896846" name="condition" index="1gVkn0" />
+        <child id="1160998916832" name="message" index="1gVpfI" />
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -5143,6 +5145,22 @@
           <node concept="3clFbS" id="3HXRBxqB5Mr" role="1prKM_">
             <node concept="1gVbGN" id="3HXRBxqB5Mp" role="3cqZAp">
               <node concept="3clFbT" id="3HXRBxqB6ey" role="1gVkn0" />
+              <node concept="3cpWs3" id="3r_aeMguWEv" role="1gVpfI">
+                <node concept="2OqwBi" id="3r_aeMguXS6" role="3uHU7w">
+                  <node concept="2OqwBi" id="3r_aeMguXfj" role="2Oq$k0">
+                    <node concept="37vLTw" id="3r_aeMguWPR" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3HXRBxqB3S1" resolve="viewComponent" />
+                    </node>
+                    <node concept="2yIwOk" id="3r_aeMguX_S" role="2OqNvi" />
+                  </node>
+                  <node concept="liA8E" id="3r_aeMguYka" role="2OqNvi">
+                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="3r_aeMguVvk" role="3uHU7B">
+                  <property role="Xl_RC" value="ViewComponentCheckUtil does not support: " />
+                </node>
+              </node>
             </node>
             <node concept="3cpWs6" id="3HXRBxqB6Ki" role="3cqZAp">
               <node concept="10Nm6u" id="3HXRBxqB771" role="3cqZAk" />
