@@ -2664,6 +2664,25 @@
               </node>
             </node>
             <node concept="3clFbS" id="6wbjV0Q4GvV" role="1zc67A">
+              <node concept="2xdQw9" id="3r_aeMg_hz9" role="3cqZAp">
+                <property role="2xdLsb" value="gZ5fh_4/error" />
+                <node concept="3cpWs3" id="3r_aeMg_iGC" role="9lYJi">
+                  <node concept="2OqwBi" id="3r_aeMg_j51" role="3uHU7w">
+                    <node concept="37vLTw" id="3r_aeMg_iH9" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6wbjV0Q4GvT" resolve="e" />
+                    </node>
+                    <node concept="liA8E" id="3r_aeMg_jpS" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="3r_aeMg_hzb" role="3uHU7B">
+                    <property role="Xl_RC" value="Error creating image: " />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="3r_aeMg_jBO" role="9lYJj">
+                  <ref role="3cqZAo" node="6wbjV0Q4GvT" resolve="e" />
+                </node>
+              </node>
               <node concept="3cpWs6" id="6wbjV0Q4o5V" role="3cqZAp">
                 <node concept="2ShNRf" id="6wbjV0Q4oTe" role="3cqZAk">
                   <node concept="1pGfFk" id="6wbjV0Q4FlW" role="2ShVmc">
@@ -2757,23 +2776,6 @@
                   </node>
                 </node>
                 <node concept="3x8VRR" id="1o_uqzzRFwx" role="2OqNvi" />
-              </node>
-              <node concept="9aQIb" id="3WOrfOPiLvn" role="9aQIa">
-                <node concept="3clFbS" id="3WOrfOPiLvo" role="9aQI4">
-                  <node concept="3clFbF" id="3WOrfOPiLOL" role="3cqZAp">
-                    <node concept="2OqwBi" id="3WOrfOPiLOM" role="3clFbG">
-                      <node concept="37vLTw" id="3WOrfOPiLON" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6wbjV0Q4KEL" resolve="imageLabel" />
-                      </node>
-                      <node concept="liA8E" id="3WOrfOPiLOO" role="2OqNvi">
-                        <ref role="37wK5l" to="dxuu:~JLabel.setDisabledIcon(javax.swing.Icon)" resolve="setDisabledIcon" />
-                        <node concept="37vLTw" id="3WOrfOPiLOP" role="37wK5m">
-                          <ref role="3cqZAo" node="6wbjV0Q4KEE" resolve="icon" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
               </node>
             </node>
             <node concept="3cpWs6" id="6wbjV0Q4KEQ" role="3cqZAp">
@@ -4438,6 +4440,17 @@
         </node>
       </node>
       <node concept="3clFbS" id="5Xz9Npkd5Su" role="3clF47">
+        <node concept="XkiVB" id="3r_aeMgDXWJ" role="3cqZAp">
+          <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.awt.Image)" resolve="ImageIcon" />
+          <node concept="2OqwBi" id="3r_aeMgDZ$3" role="37wK5m">
+            <node concept="37vLTw" id="3r_aeMgDZ53" role="2Oq$k0">
+              <ref role="3cqZAo" node="5Xz9Npkd5Ss" resolve="wrappedIcon" />
+            </node>
+            <node concept="liA8E" id="3r_aeMgDZVR" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5Xz9Npkd6np" role="3cqZAp">
           <node concept="37vLTI" id="5Xz9Npkd6nr" role="3clFbG">
             <node concept="2OqwBi" id="5Xz9Npkd8tz" role="37vLTJ">
