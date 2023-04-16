@@ -1,6 +1,7 @@
 # Sample Applications of related work
 
 Note: mainly obtained from the empirical study of Zuddas' dissertation.
+Note: login form inspired by "Moreira: Towards a Pattern Language for Model-Based GUI Testing"
 
 ## Buddi
 
