@@ -18,7 +18,7 @@ task mpsBuild {
 
 task mpsClean {
     group 'mps'
-    dependsOn 'mpsAntCleanSources'
+    dependsOn 'mpsAntClean', 'mpsAntCleanSources'
 }
 
 task mpsTest {
@@ -28,7 +28,7 @@ task mpsTest {
 
 task openProjectInMps {
     group 'mps'
-    dependsOn 'openProjectInMpsForCurrentOs'
+    dependsOn 'mpsOpenProjectInMpsForCurrentOs'
 }
 
 task buildAndOpenProjectInMps {
