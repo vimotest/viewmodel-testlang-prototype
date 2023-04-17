@@ -90,6 +90,11 @@
       <concept id="6692228888292391868" name="ViewModelLanguage.structure.ColorValue" flags="ng" index="3mAu$b">
         <property id="6692228888292392424" name="colorLiteral" index="3mAuXv" />
       </concept>
+      <concept id="5492784021103035231" name="ViewModelLanguage.structure.RadioButtonsComponent" flags="ng" index="1pWSEC">
+        <property id="5492784021106921443" name="showVertical" index="1qfOok" />
+        <child id="5492784021103459775" name="itemsFeature" index="1pUBh8" />
+        <child id="5492784021103176839" name="selectedItemFeature" index="1pWqlK" />
+      </concept>
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
         <property id="7497173622928850064" name="path" index="1u4ncw" />
       </concept>
@@ -130,6 +135,18 @@
       <concept id="5830978789222176938" name="ViewModelLanguage.structure.TableComponent" flags="ng" index="3KxLjU">
         <child id="5984107031766637556" name="rowsFeature" index="2PlsDn" />
         <child id="6743755284660838203" name="selectedRowFeature" index="3fMvU8" />
+      </concept>
+      <concept id="6574816161039199156" name="ViewModelLanguage.structure.SelectedItemVCFeature" flags="ng" index="3P0PJ2" />
+      <concept id="6574816161039199154" name="ViewModelLanguage.structure.ItemsVCFeature" flags="ng" index="3P0PJ4">
+        <child id="5492784021105622821" name="items" index="1pMRri" />
+      </concept>
+      <concept id="6574816161039227687" name="ViewModelLanguage.structure.ItemValue" flags="ng" index="3P0YHh">
+        <property id="6574816161039227688" name="value" index="3P0YHu" />
+      </concept>
+      <concept id="6574816161037764802" name="ViewModelLanguage.structure.ComboBoxComponent" flags="ng" index="3P6jyO">
+        <property id="6574816161038008031" name="sampleSelectedItemText" index="3P58UD" />
+        <child id="6574816161039200592" name="itemsFeature" index="3P0O4A" />
+        <child id="6574816161039200590" name="selectedItemFeature" index="3P0O4S" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -262,15 +279,58 @@
           </node>
         </node>
       </node>
-      <node concept="3fyYjX" id="7rVlXou0n$v" role="2P43km">
-        <node concept="27$lts" id="7rVlXou0n$x" role="3fyYjW">
+      <node concept="2HXGLM" id="3AnL_FusXex" role="2P43km">
+        <node concept="2Pim7P" id="3AnL_FusXeB" role="2Pim73">
           <property role="2PigO5" value="true" />
-          <property role="27$ltt" value="1." />
         </node>
-        <node concept="2Pim7P" id="7rVlXou0n$z" role="2Pim73" />
-        <node concept="2Pim7K" id="7rVlXou0n$_" role="2Pim71" />
-        <node concept="2Pim7H" id="7rVlXou0n$B" role="2Pim76">
-          <property role="2PigPS" value="Week" />
+        <node concept="2Pim7K" id="3AnL_FusXeH" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="3AnL_FusXeN" role="2Pim76">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2HYYfY" id="3AnL_FusXii" role="2HXGLH">
+          <ref role="2HYYDy" node="61f9eXSU2LN" resolve="previous_week" />
+          <node concept="2Pim7P" id="3AnL_FusXij" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusXik" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXil" role="2Pim76">
+            <property role="2PigPS" value="PreviousWeek" />
+          </node>
+        </node>
+        <node concept="2HYYfY" id="3AnL_FusXie" role="2HXGLH">
+          <ref role="2HYYDy" node="61f9eXSU2LV" resolve="previous_month" />
+          <node concept="2Pim7P" id="3AnL_FusXif" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusXig" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXih" role="2Pim76">
+            <property role="2PigPS" value="PreviousMonth" />
+          </node>
+        </node>
+        <node concept="3fyYjX" id="7rVlXou0n$v" role="2HXGLH">
+          <node concept="27$lts" id="7rVlXou0n$x" role="3fyYjW">
+            <property role="2PigO5" value="true" />
+            <property role="27$ltt" value="1." />
+          </node>
+          <node concept="2Pim7P" id="7rVlXou0n$z" role="2Pim73" />
+          <node concept="2Pim7K" id="7rVlXou0n$_" role="2Pim71" />
+          <node concept="2Pim7H" id="7rVlXou0n$B" role="2Pim76">
+            <property role="2PigPS" value="Week" />
+          </node>
+        </node>
+        <node concept="2HYYfY" id="3AnL_FusXhX" role="2HXGLH">
+          <ref role="2HYYDy" node="61f9eXSU2Lz" resolve="next_month" />
+          <node concept="2Pim7P" id="3AnL_FusXhY" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusXhZ" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXi0" role="2Pim76">
+            <property role="2PigPS" value="NextMonth" />
+          </node>
+        </node>
+        <node concept="2HYYfY" id="3AnL_FusXhn" role="2HXGLH">
+          <ref role="2HYYDy" node="61f9eXSU2KZ" resolve="next_week" />
+          <node concept="2Pim7P" id="3AnL_FusXhs" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusXhx" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXhA" role="2Pim76">
+            <property role="2PigPS" value="NextWeek" />
+          </node>
         </node>
       </node>
       <node concept="2HXGLM" id="61f9eXSU6Ml" role="2P43km">
@@ -641,6 +701,31 @@
       <node concept="2P4x69" id="6$atX31bo0u" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="6$atX31bo0v" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4AKs" id="3AnL_FusXjZ" role="3H8Xyh">
+      <property role="TrG5h" value="PreviousWeekClicked" />
+      <ref role="3fS2vI" node="3AnL_FusXii" resolve="PreviousWeek" />
+    </node>
+    <node concept="3f4AKs" id="3AnL_FusXk0" role="3H8Xyh">
+      <property role="TrG5h" value="PreviousMonthClicked" />
+      <ref role="3fS2vI" node="3AnL_FusXie" resolve="PreviousMonth" />
+    </node>
+    <node concept="3f4AKs" id="3AnL_FusXk1" role="3H8Xyh">
+      <property role="TrG5h" value="NextMonthClicked" />
+      <ref role="3fS2vI" node="3AnL_FusXhX" resolve="NextMonth" />
+    </node>
+    <node concept="3f4AKs" id="3AnL_FusXk2" role="3H8Xyh">
+      <property role="TrG5h" value="NextWeekClicked" />
+      <ref role="3fS2vI" node="3AnL_FusXhn" resolve="NextWeek" />
+    </node>
+    <node concept="3f4gK1" id="3AnL_FusXk3" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="WeekFilled" />
+      <ref role="3fS2vI" node="7rVlXou0n$v" resolve="Week" />
+      <node concept="2P4x69" id="3AnL_FusXk4" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="3AnL_FusXk5" role="2P5Oin" />
       </node>
     </node>
   </node>
@@ -1233,6 +1318,470 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="3H8XyA" id="3AnL_FusX9G">
+    <property role="TrG5h" value="HistoryView" />
+    <node concept="3H8Xy_" id="3AnL_FusX9H" role="3H8Xyx">
+      <node concept="2HXGLM" id="3AnL_FusX9I" role="2P43km">
+        <node concept="2Pim7P" id="3AnL_FusX9J" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3AnL_FusX9K" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="3AnL_FusX9L" role="2Pim76">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P6jyO" id="3AnL_FusX9Q" role="2HXGLH">
+          <property role="3P58UD" value="month" />
+          <node concept="3P0PJ2" id="3AnL_FusX9R" role="3P0O4S">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="3P0PJ4" id="3AnL_FusX9S" role="3P0O4A">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7P" id="3AnL_FusX9T" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusX9U" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusX9V" role="2Pim76">
+            <property role="2PigPS" value="Period" />
+          </node>
+        </node>
+        <node concept="2HYYfY" id="3AnL_FusXag" role="2HXGLH">
+          <ref role="2HYYDy" node="61f9eXSU2Kn" resolve="report" />
+          <node concept="2Pim7P" id="3AnL_FusXal" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3AnL_FusXaq" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXav" role="2Pim76">
+            <property role="2PigPS" value="GenerateReport" />
+          </node>
+        </node>
+      </node>
+      <node concept="2HXGLM" id="3AnL_FusXaI" role="2P43km">
+        <node concept="2Pim7P" id="3AnL_FusXaJ" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3AnL_FusXaK" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="3AnL_FusXaL" role="2Pim76">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3fyYjX" id="3AnL_FusXbs" role="2HXGLH">
+          <node concept="27$lts" id="3AnL_FusXbt" role="3fyYjW">
+            <property role="2PigO5" value="true" />
+            <property role="27$ltt" value="0" />
+          </node>
+          <node concept="2Pim7P" id="3AnL_FusXbu" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusXbv" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXbw" role="2Pim76">
+            <property role="2PigPS" value="NumberScaledUnitsPrior" />
+          </node>
+        </node>
+        <node concept="2HYYfY" id="3AnL_FusXcr" role="2HXGLH">
+          <ref role="2HYYDy" node="61f9eXSU2KN" resolve="previous" />
+          <node concept="2Pim7P" id="3AnL_FusXcw" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusXc_" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXcE" role="2Pim76">
+            <property role="2PigPS" value="PreviousPeriod" />
+          </node>
+        </node>
+        <node concept="3fyYjX" id="3AnL_FusXdH" role="2HXGLH">
+          <node concept="27$lts" id="3AnL_FusXdM" role="3fyYjW">
+            <property role="2PigO5" value="true" />
+            <property role="27$ltt" value="October, 2007" />
+          </node>
+          <node concept="2Pim7P" id="3AnL_FusXdR" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusXdW" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXe1" role="2Pim76">
+            <property role="2PigPS" value="PeriodDate" />
+          </node>
+        </node>
+        <node concept="2HYYfY" id="3AnL_FusXcX" role="2HXGLH">
+          <ref role="2HYYDy" node="61f9eXSU2JV" resolve="next" />
+          <node concept="2Pim7P" id="3AnL_FusXcY" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusXcZ" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXd0" role="2Pim76">
+            <property role="2PigPS" value="NextPeriod" />
+          </node>
+        </node>
+        <node concept="3fyYjX" id="3AnL_FusXbU" role="2HXGLH">
+          <node concept="27$lts" id="3AnL_FusXbV" role="3fyYjW">
+            <property role="2PigO5" value="true" />
+            <property role="27$ltt" value="0" />
+          </node>
+          <node concept="2Pim7P" id="3AnL_FusXbW" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusXbX" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXbY" role="2Pim76">
+            <property role="2PigPS" value="NumberScaledUnitsAfter" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3H8XyA" id="3AnL_FusXkD">
+    <property role="TrG5h" value="HistoryTimesView" />
+    <node concept="3H8Xy_" id="3AnL_FusXkE" role="3H8Xyx">
+      <node concept="1pWSEC" id="3AnL_FusXkF" role="2P43km">
+        <property role="1qfOok" value="true" />
+        <node concept="3P0PJ2" id="3AnL_FusXkG" role="1pWqlK">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="3AnL_FusXkH" role="1pUBh8">
+          <property role="2PigO5" value="true" />
+          <node concept="3P0YHh" id="3AnL_FusXkR" role="1pMRri">
+            <property role="3P0YHu" value="total time" />
+          </node>
+          <node concept="3P0YHh" id="3AnL_FusXkT" role="1pMRri">
+            <property role="3P0YHu" value="from/to" />
+          </node>
+          <node concept="3P0YHh" id="3AnL_FusXkW" role="1pMRri">
+            <property role="3P0YHu" value="time usage" />
+          </node>
+        </node>
+        <node concept="2Pim7P" id="3AnL_FusXkI" role="2Pim73" />
+        <node concept="2Pim7K" id="3AnL_FusXkJ" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXkK" role="2Pim76">
+          <property role="2PigPS" value="ChartType" />
+        </node>
+      </node>
+      <node concept="3fyYjX" id="3AnL_FusXlb" role="2P43km">
+        <node concept="27$lts" id="3AnL_FusXld" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="1:00:00" />
+        </node>
+        <node concept="2Pim7P" id="3AnL_FusXlf" role="2Pim73" />
+        <node concept="2Pim7K" id="3AnL_FusXlh" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXlj" role="2Pim76">
+          <property role="2PigPS" value="TotalTime" />
+        </node>
+      </node>
+      <node concept="3H4CWb" id="3AnL_FusXlN" role="2P43km">
+        <node concept="2PZ2Jc" id="3AnL_FusXlP" role="2PZ2C7">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="3AnL_FusXlR" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3AnL_FusXlT" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXlV" role="2Pim76">
+          <property role="2PigPS" value="HighlightedTask" />
+        </node>
+      </node>
+      <node concept="3P6jyO" id="3AnL_FusXm_" role="2P43km">
+        <property role="3P58UD" value="Description" />
+        <node concept="3P0PJ2" id="3AnL_FusXmB" role="3P0O4S">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="3AnL_FusXmD" role="3P0O4A">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="3AnL_FusXmF" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3AnL_FusXmH" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXmJ" role="2Pim76">
+          <property role="2PigPS" value="RequiredTaskProperty" />
+        </node>
+      </node>
+      <node concept="3P6jyO" id="3AnL_FusXoy" role="2P43km">
+        <property role="3P58UD" value="contains" />
+        <node concept="3P0PJ2" id="3AnL_FusXoz" role="3P0O4S">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="3AnL_FusXo$" role="3P0O4A">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="3AnL_FusXo_" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3AnL_FusXoA" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXoB" role="2Pim76">
+          <property role="2PigPS" value="ContentTypeRule" />
+        </node>
+      </node>
+      <node concept="3P6jyO" id="3AnL_FusXro" role="2P43km">
+        <property role="3P58UD" value="New" />
+        <node concept="3P0PJ2" id="3AnL_FusXrp" role="3P0O4S">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="3AnL_FusXrq" role="3P0O4A">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="3AnL_FusXrr" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3AnL_FusXrs" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXrt" role="2Pim76">
+          <property role="2PigPS" value="PropertyValueOption" />
+        </node>
+      </node>
+      <node concept="3fyYjX" id="3AnL_FusXsE" role="2P43km">
+        <node concept="27$lts" id="3AnL_FusXsG" role="3fyYjW">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="e-mails" />
+        </node>
+        <node concept="2Pim7P" id="3AnL_FusXsI" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3AnL_FusXsK" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXsM" role="2Pim76">
+          <property role="2PigPS" value="PropertyValueText" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3H8XyA" id="3AnL_FusXtu">
+    <property role="TrG5h" value="HistoryTasksView" />
+    <node concept="3H8Xy_" id="3AnL_FusXtv" role="3H8Xyx">
+      <node concept="3KxLjU" id="3AnL_FusXtw" role="2P43km">
+        <property role="XvDgr" value="true" />
+        <node concept="2PlBGF" id="3AnL_FusXtx" role="2PlsDn">
+          <property role="2PigO5" value="true" />
+          <node concept="1D3Ojl" id="3AnL_FusXty" role="2PlAmB">
+            <node concept="1D3Ojk" id="3AnL_FusXtO" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="3AnL_FusXtP" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="3AnL_FusXtQ" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="3AnL_FusXtR" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="3AnL_FusXtX" role="1D3Ojh">
+                <node concept="27$lts" id="3AnL_FusXtY" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="Duration" />
+                </node>
+                <node concept="3mzAc8" id="3AnL_FusXtZ" role="2NwCZs" />
+                <node concept="2Pim7P" id="3AnL_FusXu0" role="2Pim73" />
+                <node concept="2Pim7K" id="3AnL_FusXu1" role="2Pim71" />
+                <node concept="2Pim7H" id="3AnL_FusXu2" role="2Pim76">
+                  <property role="2PigPS" value="Name" />
+                </node>
+              </node>
+            </node>
+            <node concept="1D3Ojk" id="3AnL_FusXum" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="3AnL_FusXun" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="3AnL_FusXuo" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="3AnL_FusXup" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="3AnL_FusXuq" role="1D3Ojh">
+                <node concept="27$lts" id="3AnL_FusXur" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="more than" />
+                </node>
+                <node concept="3mzAc8" id="3AnL_FusXus" role="2NwCZs" />
+                <node concept="2Pim7P" id="3AnL_FusXut" role="2Pim73" />
+                <node concept="2Pim7K" id="3AnL_FusXuu" role="2Pim71" />
+                <node concept="2Pim7H" id="3AnL_FusXuv" role="2Pim76">
+                  <property role="2PigPS" value="ContentRule" />
+                </node>
+              </node>
+            </node>
+            <node concept="1D3Ojk" id="3AnL_FusXvu" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="3AnL_FusXvv" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="3AnL_FusXvw" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="3AnL_FusXvx" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="3AnL_FusXvy" role="1D3Ojh">
+                <node concept="27$lts" id="3AnL_FusXvz" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="02:00:00" />
+                </node>
+                <node concept="3mzAc8" id="3AnL_FusXv$" role="2NwCZs" />
+                <node concept="2Pim7P" id="3AnL_FusXv_" role="2Pim73" />
+                <node concept="2Pim7K" id="3AnL_FusXvA" role="2Pim71" />
+                <node concept="2Pim7H" id="3AnL_FusXvB" role="2Pim76">
+                  <property role="2PigPS" value="Value" />
+                </node>
+              </node>
+            </node>
+            <node concept="3mzAc8" id="3AnL_FusXtz" role="3mzU$l" />
+          </node>
+        </node>
+        <node concept="3fMvU4" id="3AnL_FusXt$" role="3fMvU8">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="3AnL_FusXt_" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3AnL_FusXtA" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXtB" role="2Pim76">
+          <property role="2PigPS" value="Filters" />
+        </node>
+      </node>
+      <node concept="2HXGLM" id="3AnL_FusXxu" role="2P43km">
+        <node concept="2Pim7P" id="3AnL_FusXxw" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3AnL_FusXxy" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="3AnL_FusXx$" role="2Pim76">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2HYYfY" id="3AnL_FusXyg" role="2HXGLH">
+          <ref role="2HYYDy" node="61f9eXSU2Lv" resolve="new_filter" />
+          <node concept="2Pim7P" id="3AnL_FusXyh" role="2Pim73" />
+          <node concept="2Pim7K" id="3AnL_FusXyi" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXyj" role="2Pim76">
+            <property role="2PigPS" value="AddFilter" />
+          </node>
+        </node>
+        <node concept="2HYYfY" id="3AnL_FusXyo" role="2HXGLH">
+          <ref role="2HYYDy" node="61f9eXSU2LB" resolve="edit_filter" />
+          <node concept="2Pim7P" id="3AnL_FusXyp" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3AnL_FusXyq" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXyr" role="2Pim76">
+            <property role="2PigPS" value="EditFilter" />
+          </node>
+        </node>
+        <node concept="2HYYfY" id="3AnL_FusXy$" role="2HXGLH">
+          <ref role="2HYYDy" node="61f9eXSU2LR" resolve="remove_filter" />
+          <node concept="2Pim7P" id="3AnL_FusXy_" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="3AnL_FusXyA" role="2Pim71" />
+          <node concept="2Pim7H" id="3AnL_FusXyB" role="2Pim76">
+            <property role="2PigPS" value="RemoveFilter" />
+          </node>
+        </node>
+      </node>
+      <node concept="3KxLjU" id="3AnL_FusXyO" role="2P43km">
+        <property role="XvDgr" value="true" />
+        <node concept="2PlBGF" id="3AnL_FusXyP" role="2PlsDn">
+          <property role="2PigO5" value="true" />
+          <node concept="1D3Ojl" id="3AnL_FusXyQ" role="2PlAmB">
+            <node concept="1D3Ojk" id="3AnL_FusXyR" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="3AnL_FusXyS" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="3AnL_FusXyT" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="3AnL_FusXyU" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="3AnL_FusXyV" role="1D3Ojh">
+                <node concept="27$lts" id="3AnL_FusXyW" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="My Task" />
+                </node>
+                <node concept="3mzAc8" id="3AnL_FusXyX" role="2NwCZs" />
+                <node concept="2Pim7P" id="3AnL_FusXyY" role="2Pim73" />
+                <node concept="2Pim7K" id="3AnL_FusXyZ" role="2Pim71" />
+                <node concept="2Pim7H" id="3AnL_FusXz0" role="2Pim76">
+                  <property role="2PigPS" value="Task" />
+                </node>
+              </node>
+            </node>
+            <node concept="1D3Ojk" id="3AnL_FusXz1" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="3AnL_FusXz2" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="3AnL_FusXz3" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="3AnL_FusXz4" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="3AnL_FusXz5" role="1D3Ojh">
+                <node concept="27$lts" id="3AnL_FusXz6" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="01:00:00" />
+                </node>
+                <node concept="3mzAc8" id="3AnL_FusXz7" role="2NwCZs" />
+                <node concept="2Pim7P" id="3AnL_FusXz8" role="2Pim73" />
+                <node concept="2Pim7K" id="3AnL_FusXz9" role="2Pim71" />
+                <node concept="2Pim7H" id="3AnL_FusXza" role="2Pim76">
+                  <property role="2PigPS" value="Time" />
+                </node>
+              </node>
+            </node>
+            <node concept="1D3Ojk" id="3AnL_FusXzb" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="3AnL_FusXzc" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="3AnL_FusXzd" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="3AnL_FusXze" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="3AnL_FusXzf" role="1D3Ojh">
+                <node concept="27$lts" id="3AnL_FusXzg" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="1" />
+                </node>
+                <node concept="3mzAc8" id="3AnL_FusXzh" role="2NwCZs" />
+                <node concept="2Pim7P" id="3AnL_FusXzi" role="2Pim73" />
+                <node concept="2Pim7K" id="3AnL_FusXzj" role="2Pim71" />
+                <node concept="2Pim7H" id="3AnL_FusXzk" role="2Pim76">
+                  <property role="2PigPS" value="Days" />
+                </node>
+              </node>
+            </node>
+            <node concept="3mzAc8" id="3AnL_FusXzl" role="3mzU$l" />
+          </node>
+        </node>
+        <node concept="3fMvU4" id="3AnL_FusXzm" role="3fMvU8">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="3AnL_FusXzn" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="3AnL_FusXzo" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXzp" role="2Pim76">
+          <property role="2PigPS" value="Tasks" />
+        </node>
+      </node>
+      <node concept="3H4CWb" id="3AnL_FusXGe" role="2P43km">
+        <node concept="2PZ2Jc" id="3AnL_FusXGg" role="2PZ2C7">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="3AnL_FusXGi" role="2Pim73" />
+        <node concept="2Pim7K" id="3AnL_FusXGk" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXGm" role="2Pim76">
+          <property role="2PigPS" value="GroupDaysWithSameDescription" />
+        </node>
+      </node>
+      <node concept="1D10m_" id="3AnL_FusXOg" role="2P43km">
+        <node concept="27$lts" id="3AnL_FusXOi" role="27$_qM">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="01:00:00" />
+        </node>
+        <node concept="3mzAc8" id="3AnL_FusXOk" role="2NwCZs" />
+        <node concept="2Pim7P" id="3AnL_FusXOm" role="2Pim73" />
+        <node concept="2Pim7K" id="3AnL_FusXOo" role="2Pim71" />
+        <node concept="2Pim7H" id="3AnL_FusXOq" role="2Pim76">
+          <property role="2PigPS" value="TotalFilteredTime" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3H8XyA" id="3AnL_FusXQ3">
+    <property role="TrG5h" value="HistoryProjectsView" />
+    <node concept="3H8Xy_" id="3AnL_FusXQ4" role="3H8Xyx" />
   </node>
 </model>
 
