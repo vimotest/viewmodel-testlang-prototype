@@ -445,6 +445,16 @@
       <property role="TrG5h" value="generatedName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="2Btob8oF1pE" role="1TKVEl">
+      <property role="IQ2nx" value="3016673643442476650" />
+      <property role="TrG5h" value="width" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="2Btob8oF1ub" role="1TKVEl">
+      <property role="IQ2nx" value="3016673643442476939" />
+      <property role="TrG5h" value="height" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6wbjV0Q6zMd">
     <property role="EcuMT" value="7497173622928850061" />

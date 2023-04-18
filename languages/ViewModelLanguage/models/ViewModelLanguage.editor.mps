@@ -1915,6 +1915,25 @@
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="2Btob8oMhiL" role="3EZMnx">
+        <property role="3F0ifm" value="size:" />
+        <node concept="pVoyu" id="2Btob8oMhSr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="2Btob8oMhu1" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;default&gt;" />
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6ap2:2Btob8oF1pE" resolve="width" />
+      </node>
+      <node concept="3F0ifn" id="2Btob8oMhy_" role="3EZMnx">
+        <property role="3F0ifm" value="x" />
+      </node>
+      <node concept="3F0A7n" id="2Btob8oMhN$" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <property role="1$x2rV" value="&lt;default&gt;" />
+        <ref role="1NtTu8" to="6ap2:2Btob8oF1ub" resolve="height" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6wbjV0Q45x_">
@@ -2524,11 +2543,11 @@
     <property role="TrG5h" value="ImageStackComponent_details_EditorComponent" />
     <property role="3GE5qa" value="viewcomponents.imagestack" />
     <ref role="1XX52x" to="6ap2:2s$w3BDwT79" resolve="ImageStackComponent" />
-    <node concept="3F1sOY" id="3VvzM8tZYS0" role="2wV5jI">
-      <ref role="1NtTu8" to="6ap2:2s$w3BDwTjy" resolve="imageLayersFeature" />
-    </node>
     <node concept="1PE4EZ" id="4XlUEZmt8$w" role="1PM95z">
       <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
+    </node>
+    <node concept="3F1sOY" id="3VvzM8tZYS0" role="2wV5jI">
+      <ref role="1NtTu8" to="6ap2:2s$w3BDwTjy" resolve="imageLayersFeature" />
     </node>
   </node>
   <node concept="24kQdi" id="4oK3uBJMZZb">

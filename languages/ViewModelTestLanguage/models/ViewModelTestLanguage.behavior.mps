@@ -4190,6 +4190,41 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="2Btob8p6qHT" role="3cqZAp">
+          <node concept="3cpWsn" id="2Btob8p6qHU" role="3cpWs9">
+            <property role="TrG5h" value="scaledIcon" />
+            <node concept="3uibUv" id="2Btob8p6qCi" role="1tU5fm">
+              <ref role="3uigEE" to="hhvz:5Xz9Npkd5Iv" resolve="ImageIconWrapper" />
+            </node>
+            <node concept="2OqwBi" id="2Btob8p6qHV" role="33vP2m">
+              <node concept="35c_gC" id="2Btob8p6qHW" role="2Oq$k0">
+                <ref role="35c_gD" to="6ap2:5WrZkWQ81on" resolve="IImageProvider" />
+              </node>
+              <node concept="2qgKlT" id="2Btob8p6qHX" role="2OqNvi">
+                <ref role="37wK5l" to="hhvz:6wbjV0PXjeu" resolve="scaleImage" />
+                <node concept="37vLTw" id="2Btob8p6qHY" role="37wK5m">
+                  <ref role="3cqZAo" node="5Xz9Npkdo$T" resolve="icon" />
+                </node>
+                <node concept="2OqwBi" id="2Btob8p6qHZ" role="37wK5m">
+                  <node concept="37vLTw" id="2Btob8p6qI0" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6wbjV0Q5A8r" resolve="imageIconWrapper" />
+                  </node>
+                  <node concept="liA8E" id="2Btob8p6qI1" role="2OqNvi">
+                    <ref role="37wK5l" to="hhvz:5Xz9NpkeHoz" resolve="getIconWidth" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="2Btob8p6qI2" role="37wK5m">
+                  <node concept="37vLTw" id="2Btob8p6qI3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6wbjV0Q5A8r" resolve="imageIconWrapper" />
+                  </node>
+                  <node concept="liA8E" id="2Btob8p6qI4" role="2OqNvi">
+                    <ref role="37wK5l" to="hhvz:5Xz9NpkeKK3" resolve="getIconHeight" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5Xz9NpkdnNw" role="3cqZAp">
           <node concept="2OqwBi" id="5Xz9Npkdo7t" role="3clFbG">
             <node concept="37vLTw" id="5Xz9NpkdnNu" role="2Oq$k0">
@@ -4198,7 +4233,7 @@
             <node concept="liA8E" id="5Xz9NpkdozF" role="2OqNvi">
               <ref role="37wK5l" to="hhvz:5Xz9NpkdeKz" resolve="setWrappedIcon" />
               <node concept="37vLTw" id="5Xz9NpkdoDQ" role="37wK5m">
-                <ref role="3cqZAo" node="5Xz9Npkdo$T" resolve="icon" />
+                <ref role="3cqZAo" node="2Btob8p6qHU" resolve="scaledIcon" />
               </node>
             </node>
           </node>
