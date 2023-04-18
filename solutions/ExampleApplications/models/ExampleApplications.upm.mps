@@ -70,6 +70,7 @@
         <child id="7497173622928201831" name="images" index="1u6Lvn" />
       </concept>
       <concept id="7497173622928201775" name="ViewModelLanguage.structure.Image" flags="ng" index="1u6Luv">
+        <property id="3016673643442476939" name="height" index="LsnsT" />
         <child id="7497173622928203553" name="source" index="1u6L2h" />
         <child id="1595815409257174809" name="disabledSource" index="3PYMUL" />
       </concept>
@@ -669,6 +670,7 @@
   <node concept="1u6Luu" id="43lx_5lfZPX">
     <node concept="1u6Luv" id="43lx_5ljN6w" role="1u6Lvn">
       <property role="TrG5h" value="stop" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="43lx_5ljN6y" role="1u6L2h">
         <property role="1u4ncw" value="images/upm/stop.gif" />
       </node>
@@ -678,6 +680,7 @@
     </node>
     <node concept="1u6Luv" id="43lx_5ljN6$" role="1u6Lvn">
       <property role="TrG5h" value="sync" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="43lx_5ljN6A" role="1u6L2h">
         <property role="1u4ncw" value="images/upm/sync.png" />
       </node>
@@ -687,6 +690,7 @@
     </node>
     <node concept="1u6Luv" id="43lx_5ljN6C" role="1u6Lvn">
       <property role="TrG5h" value="search" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="43lx_5ljN6E" role="1u6L2h">
         <property role="1u4ncw" value="images/upm/search.gif" />
       </node>
@@ -696,6 +700,7 @@
     </node>
     <node concept="1u6Luv" id="43lx_5ljN6O" role="1u6Lvn">
       <property role="TrG5h" value="options" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="43lx_5ljN6Q" role="1u6L2h">
         <property role="1u4ncw" value="images/upm/options.gif" />
       </node>
@@ -705,6 +710,7 @@
     </node>
     <node concept="1u6Luv" id="43lx_5ljN70" role="1u6Lvn">
       <property role="TrG5h" value="add_account" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="43lx_5ljN72" role="1u6L2h">
         <property role="1u4ncw" value="images/upm/add_account.gif" />
       </node>
@@ -714,6 +720,7 @@
     </node>
     <node concept="1u6Luv" id="43lx_5ljN74" role="1u6Lvn">
       <property role="TrG5h" value="edit_account" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="43lx_5ljN76" role="1u6L2h">
         <property role="1u4ncw" value="images/upm/edit_account.gif" />
       </node>
@@ -723,6 +730,7 @@
     </node>
     <node concept="1u6Luv" id="43lx_5ljN7c" role="1u6Lvn">
       <property role="TrG5h" value="copy_password" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="43lx_5ljN7e" role="1u6L2h">
         <property role="1u4ncw" value="images/upm/copy_password.gif" />
       </node>
@@ -732,6 +740,7 @@
     </node>
     <node concept="1u6Luv" id="43lx_5ljN7g" role="1u6Lvn">
       <property role="TrG5h" value="copy_username" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="43lx_5ljN7i" role="1u6L2h">
         <property role="1u4ncw" value="images/upm/copy_username.gif" />
       </node>
@@ -741,6 +750,7 @@
     </node>
     <node concept="1u6Luv" id="43lx_5ljN7k" role="1u6Lvn">
       <property role="TrG5h" value="delete_account" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="43lx_5ljN7m" role="1u6L2h">
         <property role="1u4ncw" value="images/upm/delete_account.gif" />
       </node>

@@ -115,6 +115,8 @@
         <child id="7497173622928201831" name="images" index="1u6Lvn" />
       </concept>
       <concept id="7497173622928201775" name="ViewModelLanguage.structure.Image" flags="ng" index="1u6Luv">
+        <property id="3016673643442476650" name="width" index="Lsnro" />
+        <property id="3016673643442476939" name="height" index="LsnsT" />
         <child id="7497173622928203553" name="source" index="1u6L2h" />
       </concept>
       <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_">
@@ -772,242 +774,310 @@
   <node concept="1u6Luu" id="1$0urrTNxR2">
     <node concept="1u6Luv" id="61f9eXSU2JB" role="1u6Lvn">
       <property role="TrG5h" value="add" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2JD" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/add.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2JF" role="1u6Lvn">
       <property role="TrG5h" value="done" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2JH" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/done.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2JJ" role="1u6Lvn">
       <property role="TrG5h" value="edit" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2JL" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/edit.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2JN" role="1u6Lvn">
       <property role="TrG5h" value="exit" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2JP" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/exit.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2JR" role="1u6Lvn">
       <property role="TrG5h" value="info" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2JT" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/info.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2JV" role="1u6Lvn">
       <property role="TrG5h" value="next" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2JX" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/next.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2JZ" role="1u6Lvn">
       <property role="TrG5h" value="note" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2K1" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/note.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2K3" role="1u6Lvn">
       <property role="TrG5h" value="work" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2K5" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/work.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2K7" role="1u6Lvn">
       <property role="TrG5h" value="clock" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2K9" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/clock.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2Kb" role="1u6Lvn">
       <property role="TrG5h" value="paint" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2Kd" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/paint.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2Kf" role="1u6Lvn">
       <property role="TrG5h" value="table" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2Kh" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/table.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2Kj" role="1u6Lvn">
       <property role="TrG5h" value="delete" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2Kl" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/delete.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2Kn" role="1u6Lvn">
       <property role="TrG5h" value="report" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2Kp" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/report.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2Kr" role="1u6Lvn">
       <property role="TrG5h" value="select" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2Kt" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/select.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="61f9eXSU2Kv" role="1u6Lvn">
-      <property role="TrG5h" value="logo_48" />
-      <node concept="1u4ncX" id="61f9eXSU2Kx" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/logo_48.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="61f9eXSU2Kz" role="1u6Lvn">
       <property role="TrG5h" value="service" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2K_" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/service.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2KB" role="1u6Lvn">
       <property role="TrG5h" value="warning" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2KD" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/warning.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2KF" role="1u6Lvn">
       <property role="TrG5h" value="calendar" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2KH" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/calendar.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2KJ" role="1u6Lvn">
       <property role="TrG5h" value="fix_time" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2KL" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/fix_time.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2KN" role="1u6Lvn">
       <property role="TrG5h" value="previous" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2KP" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/previous.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2KR" role="1u6Lvn">
       <property role="TrG5h" value="move_task" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2KT" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/move_task.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2KV" role="1u6Lvn">
       <property role="TrG5h" value="move_time" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2KX" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/move_time.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2KZ" role="1u6Lvn">
       <property role="TrG5h" value="next_week" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2L1" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/next_week.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2L3" role="1u6Lvn">
       <property role="TrG5h" value="ranking_0" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2L5" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/ranking_0.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2L7" role="1u6Lvn">
       <property role="TrG5h" value="ranking_1" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2L9" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/ranking_1.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2Lb" role="1u6Lvn">
       <property role="TrG5h" value="ranking_2" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2Ld" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/ranking_2.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2Lf" role="1u6Lvn">
       <property role="TrG5h" value="ranking_3" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2Lh" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/ranking_3.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2Lj" role="1u6Lvn">
       <property role="TrG5h" value="ranking_4" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2Ll" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/ranking_4.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2Ln" role="1u6Lvn">
       <property role="TrG5h" value="ranking_5" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2Lp" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/ranking_5.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="61f9eXSU2Lr" role="1u6Lvn">
-      <property role="TrG5h" value="logo_small" />
-      <node concept="1u4ncX" id="61f9eXSU2Lt" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/logo_small.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="61f9eXSU2Lv" role="1u6Lvn">
       <property role="TrG5h" value="new_filter" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2Lx" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/new_filter.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2Lz" role="1u6Lvn">
       <property role="TrG5h" value="next_month" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2L_" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/next_month.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2LB" role="1u6Lvn">
       <property role="TrG5h" value="edit_filter" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2LD" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/edit_filter.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="61f9eXSU2LF" role="1u6Lvn">
-      <property role="TrG5h" value="logo_red_48" />
-      <node concept="1u4ncX" id="61f9eXSU2LH" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/logo_red_48.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="61f9eXSU2LJ" role="1u6Lvn">
-      <property role="TrG5h" value="logo_name_48" />
-      <node concept="1u4ncX" id="61f9eXSU2LL" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/logo_name_48.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="61f9eXSU2LN" role="1u6Lvn">
       <property role="TrG5h" value="previous_week" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2LP" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/previous_week.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2LR" role="1u6Lvn">
       <property role="TrG5h" value="remove_filter" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2LT" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/remove_filter.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2LV" role="1u6Lvn">
       <property role="TrG5h" value="previous_month" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2LX" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/previous_month.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2LZ" role="1u6Lvn">
       <property role="TrG5h" value="report_preview" />
+      <property role="LsnsT" value="32" />
       <node concept="1u4ncX" id="61f9eXSU2M1" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/report_preview.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="61f9eXSU2M3" role="1u6Lvn">
       <property role="TrG5h" value="invoice_preview" />
+      <property role="LsnsT" value="32" />
       <node concept="1u4ncX" id="61f9eXSU2M5" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/invoice_preview.png" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="61f9eXSU2Lr" role="1u6Lvn">
+      <property role="TrG5h" value="logo_small" />
+      <property role="LsnsT" value="16" />
+      <node concept="1u4ncX" id="61f9eXSU2Lt" role="1u6L2h">
+        <property role="1u4ncw" value="images/rachota/logo_small.png" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="61f9eXSU2Kv" role="1u6Lvn">
+      <property role="TrG5h" value="logo_48" />
+      <property role="LsnsT" value="32" />
+      <node concept="1u4ncX" id="61f9eXSU2Kx" role="1u6L2h">
+        <property role="1u4ncw" value="images/rachota/logo_48.png" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="61f9eXSU2LJ" role="1u6Lvn">
+      <property role="TrG5h" value="logo_name_48" />
+      <property role="LsnsT" value="32" />
+      <node concept="1u4ncX" id="61f9eXSU2LL" role="1u6L2h">
+        <property role="1u4ncw" value="images/rachota/logo_name_48.png" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="61f9eXSU2LF" role="1u6Lvn">
+      <property role="TrG5h" value="logo_red_48" />
+      <property role="LsnsT" value="16" />
+      <node concept="1u4ncX" id="61f9eXSU2LH" role="1u6L2h">
+        <property role="1u4ncw" value="images/rachota/logo_red_48.png" />
       </node>
     </node>
   </node>
