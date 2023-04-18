@@ -19,9 +19,11 @@
       </concept>
       <concept id="5878168047017124641" name="SimpleTypeLanguage.structure.BoolType" flags="ng" index="2P4D6g" />
       <concept id="5878168047017124640" name="SimpleTypeLanguage.structure.StringType" flags="ng" index="2P4D6h" />
+      <concept id="5878168047017124637" name="SimpleTypeLanguage.structure.IntType" flags="ng" index="2P4D6G" />
       <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
         <child id="5878168047017276966" name="type" index="2P5Oin" />
       </concept>
+      <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
       <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
@@ -43,6 +45,17 @@
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
       <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts">
         <property id="3011041337510726009" name="text" index="27$ltt" />
+      </concept>
+      <concept id="3032601373110432321" name="ViewModelLanguage.structure.TreeViewRowComponent" flags="ng" index="2fzwiw">
+        <child id="3032601373110537061" name="rowColorFeature" index="2fy7Q4" />
+        <child id="3032601373110537060" name="cells" index="2fy7Q5" />
+      </concept>
+      <concept id="3032601373110432322" name="ViewModelLanguage.structure.TreeViewRowsVCFeature" flags="ng" index="2fzwiz">
+        <child id="3032601373110432323" name="rowDefinition" index="2fzwiy" />
+      </concept>
+      <concept id="3032601373110430648" name="ViewModelLanguage.structure.TreeViewComponent" flags="ng" index="2fzxPp">
+        <child id="3032601373110432317" name="rowsFeature" index="2fzwjs" />
+        <child id="3032601373110432318" name="selectedRowFeature" index="2fzwjv" />
       </concept>
       <concept id="6939806161745792236" name="ViewModelLanguage.structure.ProgressBarComponent" flags="ng" index="oCYw3">
         <child id="6939806161745980085" name="textFeature" index="oC8Tq" />
@@ -155,6 +168,9 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="1837911399205164205" name="ViewModelTestLanguage.structure.RadioButtonsCheck" flags="ng" index="nK$o3">
+        <child id="1837911399205282623" name="checks" index="nL36h" />
+      </concept>
       <concept id="6939806161753627029" name="ViewModelTestLanguage.structure.ProgressCheckValue" flags="ng" index="paRPU">
         <property id="6939806161753678957" name="checkMax" index="paw22" />
         <property id="6939806161753677946" name="checkMin" index="pawil" />
@@ -222,6 +238,12 @@
       <concept id="6692228888293142831" name="ViewModelTestLanguage.structure.BackgroundColorCheckValue" flags="ng" index="3mzAeo">
         <child id="6692228888293142849" name="color" index="3mzAfQ" />
       </concept>
+      <concept id="7497173622926527144" name="ViewModelTestLanguage.structure.CheckedCheckValue" flags="ng" index="1tZoko">
+        <property id="7497173622926527147" name="checked" index="1tZokr" />
+      </concept>
+      <concept id="7497173622926526731" name="ViewModelTestLanguage.structure.CheckBoxCheck" flags="ng" index="1tZoqV">
+        <child id="7497173622926527123" name="checks" index="1tZokz" />
+      </concept>
       <concept id="7497173622927425563" name="ViewModelTestLanguage.structure.TableCellCheck" flags="ng" index="1u3WYF">
         <child id="7497173622927425564" name="viewComponentCheck" index="1u3WYG" />
       </concept>
@@ -231,6 +253,12 @@
       </concept>
       <concept id="6853349774631251773" name="ViewModelTestLanguage.structure.TableCheck" flags="ng" index="1Dvt9M">
         <child id="643469022294143860" name="rowChecks" index="2D8nNu" />
+      </concept>
+      <concept id="6574816161039203031" name="ViewModelTestLanguage.structure.ComboBoxCheck" flags="ng" index="3P0OEx">
+        <child id="6574816161039203033" name="checks" index="3P0OEJ" />
+      </concept>
+      <concept id="6574816161039227761" name="ViewModelTestLanguage.structure.SelectedItemCheckValue" flags="ng" index="3P0YG7">
+        <child id="6574816161039227763" name="selectedItem" index="3P0YG5" />
       </concept>
     </language>
   </registry>
@@ -1530,6 +1558,45 @@
         </node>
       </node>
     </node>
+    <node concept="3f3I3T" id="2Btob8ors9M" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+      <property role="3f4$la" value="true" />
+      <node concept="2P4x69" id="2Btob8ouwWT" role="2P43km">
+        <property role="TrG5h" value="WeekName" />
+        <node concept="2P4D6G" id="2Btob8ouwWS" role="2P5Oin" />
+      </node>
+      <node concept="2P4x69" id="2Btob8ouwWW" role="2P43km">
+        <property role="TrG5h" value="Year" />
+        <node concept="2P4D6G" id="2Btob8ouwWX" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="I_Gu0" id="2Btob8ors9N" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="HighlightedTaskChecked" />
+      <ref role="3fS2vI" node="3AnL_FusXlN" resolve="HighlightedTask" />
+      <node concept="2P4x69" id="2Btob8ors9O" role="2P43km">
+        <property role="TrG5h" value="isChecked" />
+        <node concept="2P4D6g" id="2Btob8ors9P" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="2Btob8ors9Q" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="TotalTimeFilled" />
+      <ref role="3fS2vI" node="3AnL_FusXlb" resolve="TotalTime" />
+      <node concept="2P4x69" id="2Btob8ors9R" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="2Btob8ors9S" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="2Btob8ors9T" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="PropertyValueTextFilled" />
+      <ref role="3fS2vI" node="3AnL_FusXsE" resolve="PropertyValueText" />
+      <node concept="2P4x69" id="2Btob8ors9U" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="2Btob8ors9V" role="2P5Oin" />
+      </node>
+    </node>
   </node>
   <node concept="3H8XyA" id="3AnL_FusXtu">
     <property role="TrG5h" value="HistoryTasksView" />
@@ -1781,7 +1848,244 @@
   </node>
   <node concept="3H8XyA" id="3AnL_FusXQ3">
     <property role="TrG5h" value="HistoryProjectsView" />
-    <node concept="3H8Xy_" id="3AnL_FusXQ4" role="3H8Xyx" />
+    <node concept="3H8Xy_" id="3AnL_FusXQ4" role="3H8Xyx">
+      <node concept="2fzxPp" id="2Btob8ors1M" role="2P43km">
+        <property role="XvDgr" value="true" />
+        <node concept="2fzwiz" id="2Btob8ors1N" role="2fzwjs">
+          <property role="2PigO5" value="true" />
+          <node concept="2fzwiw" id="2Btob8ors1O" role="2fzwiy">
+            <node concept="1D3Ojk" id="2Btob8ors22" role="2fy7Q5">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="2Btob8ors23" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="2Btob8ors24" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="2Btob8ors25" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="2Btob8ors2b" role="1D3Ojh">
+                <node concept="27$lts" id="2Btob8ors2c" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="3mzAc8" id="2Btob8ors2d" role="2NwCZs" />
+                <node concept="2Pim7P" id="2Btob8ors2e" role="2Pim73">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7K" id="2Btob8ors2f" role="2Pim71">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7H" id="2Btob8ors2g" role="2Pim76">
+                  <property role="2PigO5" value="true" />
+                  <property role="2PigPS" value="ProjectName" />
+                </node>
+              </node>
+            </node>
+            <node concept="3mzAc8" id="2Btob8ors1P" role="2fy7Q4" />
+          </node>
+        </node>
+        <node concept="3fMvU4" id="2Btob8ors1Q" role="2fzwjv">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="2Btob8ors1R" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="2Btob8ors1S" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="2Btob8ors1T" role="2Pim76">
+          <property role="2PigO5" value="true" />
+          <property role="2PigPS" value="Projects" />
+        </node>
+      </node>
+      <node concept="1D10m_" id="2Btob8ors4q" role="2P43km">
+        <node concept="27$lts" id="2Btob8ors4s" role="27$_qM">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="All projects" />
+        </node>
+        <node concept="3mzAc8" id="2Btob8ors4u" role="2NwCZs" />
+        <node concept="2Pim7P" id="2Btob8ors4w" role="2Pim73" />
+        <node concept="2Pim7K" id="2Btob8ors4y" role="2Pim71" />
+        <node concept="2Pim7H" id="2Btob8ors4$" role="2Pim76">
+          <property role="2PigPS" value="Name" />
+        </node>
+      </node>
+      <node concept="1D10m_" id="2Btob8ors5o" role="2P43km">
+        <node concept="27$lts" id="2Btob8ors5q" role="27$_qM">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="58:00:10" />
+        </node>
+        <node concept="3mzAc8" id="2Btob8ors5s" role="2NwCZs" />
+        <node concept="2Pim7P" id="2Btob8ors5u" role="2Pim73" />
+        <node concept="2Pim7K" id="2Btob8ors5w" role="2Pim71" />
+        <node concept="2Pim7H" id="2Btob8ors5y" role="2Pim76">
+          <property role="2PigPS" value="Time" />
+        </node>
+      </node>
+      <node concept="1D10m_" id="2Btob8ors6y" role="2P43km">
+        <node concept="27$lts" id="2Btob8ors6z" role="27$_qM">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="30" />
+        </node>
+        <node concept="3mzAc8" id="2Btob8ors6$" role="2NwCZs" />
+        <node concept="2Pim7P" id="2Btob8ors6_" role="2Pim73" />
+        <node concept="2Pim7K" id="2Btob8ors6A" role="2Pim71" />
+        <node concept="2Pim7H" id="2Btob8ors6B" role="2Pim76">
+          <property role="2PigPS" value="Tasks" />
+        </node>
+      </node>
+      <node concept="1D10m_" id="2Btob8ors7d" role="2P43km">
+        <node concept="27$lts" id="2Btob8ors7e" role="27$_qM">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="100%" />
+        </node>
+        <node concept="3mzAc8" id="2Btob8ors7f" role="2NwCZs" />
+        <node concept="2Pim7P" id="2Btob8ors7g" role="2Pim73" />
+        <node concept="2Pim7K" id="2Btob8ors7h" role="2Pim71" />
+        <node concept="2Pim7H" id="2Btob8ors7i" role="2Pim76">
+          <property role="2PigPS" value="Share" />
+        </node>
+      </node>
+      <node concept="1D10m_" id="2Btob8ors7Y" role="2P43km">
+        <node concept="27$lts" id="2Btob8ors7Z" role="27$_qM">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="Medium" />
+        </node>
+        <node concept="3mzAc8" id="2Btob8ors80" role="2NwCZs" />
+        <node concept="2Pim7P" id="2Btob8ors81" role="2Pim73" />
+        <node concept="2Pim7K" id="2Btob8ors82" role="2Pim71" />
+        <node concept="2Pim7H" id="2Btob8ors83" role="2Pim76">
+          <property role="2PigPS" value="AveragePriority" />
+        </node>
+      </node>
+      <node concept="1D10m_" id="2Btob8ors8P" role="2P43km">
+        <node concept="27$lts" id="2Btob8ors8Q" role="27$_qM">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="Started" />
+        </node>
+        <node concept="3mzAc8" id="2Btob8ors8R" role="2NwCZs" />
+        <node concept="2Pim7P" id="2Btob8ors8S" role="2Pim73" />
+        <node concept="2Pim7K" id="2Btob8ors8T" role="2Pim71" />
+        <node concept="2Pim7H" id="2Btob8ors8U" role="2Pim76">
+          <property role="2PigPS" value="AverageState" />
+        </node>
+      </node>
+      <node concept="3H9sB4" id="2Btob8ors62" role="2P43km" />
+    </node>
+  </node>
+  <node concept="30n1Qd" id="2Btob8orsa6">
+    <property role="TrG5h" value="HistoryTimesViewTests" />
+    <ref role="30n1PB" node="3AnL_FusXkD" resolve="HistoryTimesView" />
+    <node concept="30n1Qa" id="2Btob8orsa7" role="30n1Qb">
+      <node concept="30nyDl" id="2Btob8orsa8" role="30nziG">
+        <property role="30nzmz" value="Times of week" />
+        <node concept="30nyDi" id="2Btob8orsa9" role="30nyDj">
+          <property role="30lZVK" value="History with week time 10h" />
+        </node>
+        <node concept="30nyDi" id="2Btob8orsaa" role="30nyDh">
+          <property role="30lZVK" value="Load view for week 7 of 2008" />
+        </node>
+        <node concept="30nyDi" id="2Btob8orsab" role="30nyDs">
+          <property role="30lZVK" value="Chart type is 'total time'" />
+        </node>
+        <node concept="30nyDi" id="2Btob8orsbR" role="30nyDs">
+          <property role="30lZVK" value="Total time is 10:00:00" />
+        </node>
+        <node concept="30nyDi" id="2Btob8orsbU" role="30nyDs">
+          <property role="30lZVK" value="No filter is given" />
+        </node>
+      </node>
+      <node concept="2CaS0t" id="2Btob8orsc6" role="30nziE">
+        <node concept="2pNNFK" id="2Btob8orscc" role="2CaS0u">
+          <property role="2pNNFO" value="History" />
+          <node concept="3o6iSG" id="2Btob8orse5" role="3o6s8t" />
+          <node concept="2pNNFK" id="2Btob8orseb" role="3o6s8t">
+            <property role="2pNNFO" value="Week" />
+            <node concept="3o6iSG" id="2Btob8orseo" role="3o6s8t" />
+            <node concept="2pNUuL" id="2Btob8orsek" role="2pNNFR">
+              <property role="2pNUuO" value="number" />
+              <node concept="2pMdtt" id="2Btob8orsel" role="2pMdts">
+                <property role="2pMdty" value="7" />
+              </node>
+            </node>
+            <node concept="2pNUuL" id="2Btob8ouwXm" role="2pNNFR">
+              <property role="2pNUuO" value="year" />
+              <node concept="2pMdtt" id="2Btob8ouwXn" role="2pMdts">
+                <property role="2pMdty" value="2008" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="2Btob8orsdZ" role="3o6s8t">
+              <property role="2pNNFO" value="Value" />
+              <node concept="3o6iSG" id="2Btob8orse3" role="3o6s8t">
+                <property role="3o6i5n" value="10:00:00" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="2Btob8orsfi" role="30nzo2">
+        <ref role="30nziQ" node="2Btob8ors9M" resolve="LoadView" />
+        <node concept="3cmrfG" id="2Btob8ouwX4" role="30nziO">
+          <property role="3cmrfH" value="7" />
+        </node>
+        <node concept="3cmrfG" id="2Btob8ouwXc" role="30nziO">
+          <property role="3cmrfH" value="2008" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="2Btob8orsfZ" role="30nzpy">
+        <ref role="30nzpS" node="3AnL_FusXkF" resolve="ChartType" />
+        <node concept="nK$o3" id="2Btob8orsg0" role="30nDbQ">
+          <node concept="3P0YG7" id="2Btob8orsg1" role="nL36h">
+            <node concept="3P0YHh" id="2Btob8orsg2" role="3P0YG5">
+              <property role="3P0YHu" value="total time" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2Btob8orsgd" role="30nzpy">
+        <ref role="30nzpS" node="3AnL_FusXlb" resolve="TotalTime" />
+        <node concept="3fym7j" id="2Btob8orsge" role="30nDbQ">
+          <node concept="30nz6$" id="2Btob8orsgf" role="3fym7i">
+            <property role="30nz6_" value="10:00:00" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2Btob8orsgw" role="30nzpy">
+        <ref role="30nzpS" node="3AnL_FusXlN" resolve="HighlightedTask" />
+        <node concept="1tZoqV" id="2Btob8orsgx" role="30nDbQ">
+          <node concept="1tZoko" id="2Btob8orsgy" role="1tZokz">
+            <property role="1tZokr" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2Btob8ouwnS" role="30nzpy">
+        <ref role="30nzpS" node="3AnL_FusXro" resolve="PropertyValueOption" />
+        <node concept="3P0OEx" id="2Btob8ouwo5" role="30nDbQ">
+          <node concept="3P0YG7" id="2Btob8ouwo7" role="3P0OEJ">
+            <node concept="3P0YHh" id="2Btob8ouwo8" role="3P0YG5">
+              <property role="3P0YHu" value="Keyword" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2Btob8ouwob" role="30nzpy">
+        <ref role="30nzpS" node="3AnL_FusXoy" resolve="ContentTypeRule" />
+        <node concept="3P0OEx" id="2Btob8ouwox" role="30nDbQ">
+          <node concept="3P0YG7" id="2Btob8ouwoz" role="3P0OEJ">
+            <node concept="3P0YHh" id="2Btob8ouwo$" role="3P0YG5">
+              <property role="3P0YHu" value="contains" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="2Btob8ouwoB" role="30nzpy">
+        <ref role="30nzpS" node="3AnL_FusXsE" resolve="PropertyValueText" />
+        <node concept="3fym7j" id="2Btob8ouwp1" role="30nDbQ">
+          <node concept="30nz6$" id="2Btob8ouwp2" role="3fym7i" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
