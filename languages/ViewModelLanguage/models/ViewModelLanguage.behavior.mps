@@ -2079,19 +2079,6 @@
         <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
       </node>
     </node>
-    <node concept="13i0hz" id="4kXwATFC_BR" role="13h7CS">
-      <property role="TrG5h" value="renderedUiElementContainsName" />
-      <ref role="13i0hy" node="4kXwATFCqbM" resolve="renderedUiElementContainsName" />
-      <node concept="3Tm1VV" id="4kXwATFC_BS" role="1B3o_S" />
-      <node concept="3clFbS" id="4kXwATFC_BT" role="3clF47">
-        <node concept="3clFbF" id="4kXwATFC_BU" role="3cqZAp">
-          <node concept="3clFbT" id="4kXwATFC_BV" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-      <node concept="10P_77" id="4kXwATFC_BW" role="3clF45" />
-    </node>
   </node>
   <node concept="13h7C7" id="5WrZkWQ81oo">
     <property role="3GE5qa" value="viewcomponents.image" />
