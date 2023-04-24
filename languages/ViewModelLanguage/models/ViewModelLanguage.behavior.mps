@@ -4823,6 +4823,22 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6grJKEH$SpC" role="3cqZAp">
+          <node concept="2OqwBi" id="6grJKEH$T4z" role="3clFbG">
+            <node concept="Xjq3P" id="6grJKEH$SpA" role="2Oq$k0" />
+            <node concept="liA8E" id="6grJKEH$TAp" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~ImageIcon.setImage(java.awt.Image)" resolve="setImage" />
+              <node concept="2OqwBi" id="6grJKEH$WOV" role="37wK5m">
+                <node concept="37vLTw" id="6grJKEH$Wfa" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5Xz9NpkdeKE" resolve="wrappedIcon" />
+                </node>
+                <node concept="liA8E" id="6grJKEH$XkS" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="5Xz9NpkdeKE" role="3clF46">
         <property role="TrG5h" value="wrappedIcon" />
