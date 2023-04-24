@@ -1025,7 +1025,7 @@
     <node concept="1u6Luv" id="61f9eXSU2LR" role="1u6Lvn">
       <property role="TrG5h" value="remove_filter" />
       <property role="Lsnro" value="16" />
-      <property role="LsnsT" value="16" />
+      <property role="LsnsT" value="8" />
       <node concept="1u4ncX" id="61f9eXSU2LT" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/remove_filter.png" />
       </node>
