@@ -2136,7 +2136,7 @@
               <node concept="liA8E" id="6wbjV0PXlQG" role="2OqNvi">
                 <ref role="37wK5l" to="z60i:~Image.getScaledInstance(int,int,int)" resolve="getScaledInstance" />
                 <node concept="37vLTw" id="6wbjV0PXlQH" role="37wK5m">
-                  <ref role="3cqZAo" node="6wbjV0PXlPU" resolve="size" />
+                  <ref role="3cqZAo" node="6wbjV0PXlPU" resolve="width" />
                 </node>
                 <node concept="37vLTw" id="6wbjV0PXlQI" role="37wK5m">
                   <ref role="3cqZAo" node="2Btob8oSeEI" resolve="height" />

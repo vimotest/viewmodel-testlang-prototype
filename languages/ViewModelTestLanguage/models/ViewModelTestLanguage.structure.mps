@@ -1251,7 +1251,7 @@
     <property role="3GE5qa" value="context.xml" />
     <property role="TrG5h" value="XmlContextWithProlog" />
     <property role="34LRSv" value="xml context (with prolog)" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6$atX315_Bx" role="1TKVEi">
       <property role="IQ2ns" value="7568993862225910241" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1268,7 +1268,7 @@
     <property role="3GE5qa" value="context.xml" />
     <property role="TrG5h" value="XmlElementContext" />
     <property role="34LRSv" value="xml context" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6$atX318vve" role="1TKVEi">
       <property role="IQ2ns" value="7568993862226671566" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
