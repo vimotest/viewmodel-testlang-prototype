@@ -33,7 +33,7 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" />
     <import index="rgfa" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.tree(JDK/)" />
-    <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
+    <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -603,7 +603,7 @@
       <node concept="37vLTG" id="4kXwATF_5R4" role="3clF46">
         <property role="TrG5h" value="textField" />
         <node concept="3uibUv" id="4kXwATF_5R5" role="1tU5fm">
-          <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+          <ref role="3uigEE" to="r791:~JTextComponent" resolve="JTextComponent" />
         </node>
       </node>
       <node concept="3cqZAl" id="4kXwATF_5R6" role="3clF45" />
@@ -898,7 +898,7 @@
       <node concept="37vLTG" id="5QmCrei7YK4" role="3clF46">
         <property role="TrG5h" value="textField" />
         <node concept="3uibUv" id="5QmCrei7YK5" role="1tU5fm">
-          <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+          <ref role="3uigEE" to="r791:~JTextComponent" resolve="JTextComponent" />
         </node>
       </node>
       <node concept="3cqZAl" id="5QmCrei7YK6" role="3clF45" />
@@ -7557,11 +7557,11 @@
           <node concept="3cpWsn" id="5QmCrei7X3O" role="3cpWs9">
             <property role="TrG5h" value="textField" />
             <node concept="3uibUv" id="5QmCrei7X3P" role="1tU5fm">
-              <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+              <ref role="3uigEE" to="r791:~JTextComponent" resolve="JTextComponent" />
             </node>
             <node concept="0kSF2" id="5QmCrei7X3Q" role="33vP2m">
               <node concept="3uibUv" id="5QmCrei7X3R" role="0kSFW">
-                <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+                <ref role="3uigEE" to="r791:~JTextComponent" resolve="JTextComponent" />
               </node>
               <node concept="37vLTw" id="5QmCrei7X3S" role="0kSFX">
                 <ref role="3cqZAo" node="5QmCrei7WYJ" resolve="swingComponent" />
@@ -7637,7 +7637,7 @@
       <node concept="37vLTG" id="5QmCrei7Yq3" role="3clF46">
         <property role="TrG5h" value="textField" />
         <node concept="3uibUv" id="5QmCrei7Yq4" role="1tU5fm">
-          <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+          <ref role="3uigEE" to="r791:~JTextComponent" resolve="JTextComponent" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5QmCrei7Yq5" role="1B3o_S" />

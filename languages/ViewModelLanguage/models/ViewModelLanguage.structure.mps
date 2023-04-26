@@ -717,6 +717,11 @@
       <property role="TrG5h" value="sampleText" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="1XmN919qXiI" role="1TKVEl">
+      <property role="IQ2nx" value="2258217183252042926" />
+      <property role="TrG5h" value="multiLine" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5QmCreinPWR">
     <property role="EcuMT" value="6743755284660838199" />

@@ -35,7 +35,7 @@
     <import index="eurq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs.path(MPS.Core/)" />
     <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" />
     <import index="i8bi" ref="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
-    <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
+    <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -5295,18 +5295,100 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="5QmCrei9P7i" role="3cqZAp">
-          <node concept="3cpWsn" id="5QmCrei9P7j" role="3cpWs9">
+        <node concept="3cpWs8" id="1XmN919GGoE" role="3cqZAp">
+          <node concept="3cpWsn" id="1XmN919GGoF" role="3cpWs9">
             <property role="TrG5h" value="textField" />
-            <node concept="3uibUv" id="5QmCrei9P4A" role="1tU5fm">
-              <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+            <node concept="3uibUv" id="1XmN919GGoG" role="1tU5fm">
+              <ref role="3uigEE" to="r791:~JTextComponent" resolve="JTextComponent" />
             </node>
-            <node concept="2ShNRf" id="5QmCrei9P7k" role="33vP2m">
-              <node concept="1pGfFk" id="5QmCrei9P7l" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="dxuu:~JTextField.&lt;init&gt;(java.lang.String)" resolve="JTextField" />
-                <node concept="37vLTw" id="5QmCreijfvs" role="37wK5m">
-                  <ref role="3cqZAo" node="5QmCreijfBT" resolve="sampleText" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1XmN919GGIv" role="3cqZAp">
+          <node concept="3clFbS" id="1XmN919GGIx" role="3clFbx">
+            <node concept="3clFbF" id="1XmN919GHrO" role="3cqZAp">
+              <node concept="37vLTI" id="1XmN919GI7h" role="3clFbG">
+                <node concept="37vLTw" id="1XmN919GHrM" role="37vLTJ">
+                  <ref role="3cqZAo" node="1XmN919GGoF" resolve="textField" />
+                </node>
+                <node concept="2ShNRf" id="1XmN919GIkC" role="37vLTx">
+                  <node concept="1pGfFk" id="1XmN919GIkD" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="dxuu:~JTextArea.&lt;init&gt;(int,int)" resolve="JTextArea" />
+                    <node concept="3cmrfG" id="1XmN919L0jh" role="37wK5m">
+                      <property role="3cmrfH" value="3" />
+                    </node>
+                    <node concept="3cmrfG" id="1XmN919L0mL" role="37wK5m">
+                      <property role="3cmrfH" value="20" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1XmN919L0KX" role="3cqZAp">
+              <node concept="2OqwBi" id="1XmN919L1ub" role="3clFbG">
+                <node concept="37vLTw" id="1XmN919L0KV" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1XmN919GGoF" resolve="textField" />
+                </node>
+                <node concept="liA8E" id="1XmN919L26m" role="2OqNvi">
+                  <ref role="37wK5l" to="r791:~JTextComponent.setText(java.lang.String)" resolve="setText" />
+                  <node concept="2OqwBi" id="1XmN919Lvw2" role="37wK5m">
+                    <node concept="37vLTw" id="1XmN919L2bU" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5QmCreijfBT" resolve="sampleText" />
+                    </node>
+                    <node concept="liA8E" id="1XmN919LvU9" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                      <node concept="Xl_RD" id="1XmN919LvUA" role="37wK5m">
+                        <property role="Xl_RC" value="\\\\n" />
+                      </node>
+                      <node concept="Xl_RD" id="1XmN919Lwhy" role="37wK5m">
+                        <property role="Xl_RC" value="\n" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1XmN919LfrW" role="3cqZAp">
+              <node concept="2OqwBi" id="1XmN919Lg9B" role="3clFbG">
+                <node concept="37vLTw" id="1XmN919LfrU" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1XmN919GGoF" resolve="textField" />
+                </node>
+                <node concept="liA8E" id="1XmN919LgRl" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~JComponent.setBorder(javax.swing.border.Border)" resolve="setBorder" />
+                  <node concept="2YIFZM" id="1XmN919LSYH" role="37wK5m">
+                    <ref role="37wK5l" to="dxuu:~BorderFactory.createLineBorder(java.awt.Color)" resolve="createLineBorder" />
+                    <ref role="1Pybhc" to="dxuu:~BorderFactory" resolve="BorderFactory" />
+                    <node concept="10M0yZ" id="1XmN919M629" role="37wK5m">
+                      <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                      <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1XmN919GH3r" role="3clFbw">
+            <node concept="13iPFW" id="1XmN919GGML" role="2Oq$k0" />
+            <node concept="3TrcHB" id="1XmN919GHmK" role="2OqNvi">
+              <ref role="3TsBF5" to="6ap2:1XmN919qXiI" resolve="multiLine" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="1XmN919GIr0" role="9aQIa">
+            <node concept="3clFbS" id="1XmN919GIr1" role="9aQI4">
+              <node concept="3clFbF" id="1XmN919GIza" role="3cqZAp">
+                <node concept="37vLTI" id="1XmN919GIA8" role="3clFbG">
+                  <node concept="37vLTw" id="1XmN919GIz9" role="37vLTJ">
+                    <ref role="3cqZAo" node="1XmN919GGoF" resolve="textField" />
+                  </node>
+                  <node concept="2ShNRf" id="1XmN919GIIe" role="37vLTx">
+                    <node concept="1pGfFk" id="1XmN919GIIf" role="2ShVmc">
+                      <property role="373rjd" value="true" />
+                      <ref role="37wK5l" to="dxuu:~JTextField.&lt;init&gt;(java.lang.String)" resolve="JTextField" />
+                      <node concept="37vLTw" id="1XmN919GIIg" role="37wK5m">
+                        <ref role="3cqZAo" node="5QmCreijfBT" resolve="sampleText" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -5315,7 +5397,7 @@
         <node concept="3clFbF" id="5QmCrei9Pgg" role="3cqZAp">
           <node concept="2OqwBi" id="5QmCrei9PSW" role="3clFbG">
             <node concept="37vLTw" id="5QmCrei9Pge" role="2Oq$k0">
-              <ref role="3cqZAo" node="5QmCrei9P7j" resolve="textField" />
+              <ref role="3cqZAo" node="1XmN919GGoF" resolve="textField" />
             </node>
             <node concept="liA8E" id="5QmCrei9QBr" role="2OqNvi">
               <ref role="37wK5l" to="r791:~JTextComponent.setEditable(boolean)" resolve="setEditable" />
@@ -5325,7 +5407,7 @@
         </node>
         <node concept="3clFbF" id="5QmCrei7uM7" role="3cqZAp">
           <node concept="37vLTw" id="5QmCrei9P7p" role="3clFbG">
-            <ref role="3cqZAo" node="5QmCrei9P7j" resolve="textField" />
+            <ref role="3cqZAo" node="1XmN919GGoF" resolve="textField" />
           </node>
         </node>
       </node>

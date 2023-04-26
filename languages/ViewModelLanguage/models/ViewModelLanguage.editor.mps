@@ -2505,6 +2505,19 @@
         <property role="1O74Pk" value="true" />
         <ref role="1NtTu8" to="6ap2:3VvzM8u5ZZL" resolve="sampleText" />
       </node>
+      <node concept="2yq9I_" id="1XmN919Kvp_" role="3EZMnx">
+        <ref role="225u1j" to="6ap2:1XmN919qXiI" resolve="multiLine" />
+        <node concept="1563Vb" id="1XmN919KvpB" role="1563LE">
+          <property role="1563UK" value="[ ]" />
+          <property role="1563Ve" value="[x]" />
+        </node>
+        <node concept="3F0ifn" id="1XmN919KvtP" role="2fqkNU">
+          <property role="3F0ifm" value="multi-line" />
+        </node>
+        <node concept="pVoyu" id="1XmN919KvEj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
     <node concept="1PE4EZ" id="4XlUEZmt8$E" role="1PM95z">
       <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
