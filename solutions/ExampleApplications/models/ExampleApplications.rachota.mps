@@ -8,6 +8,9 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -153,6 +156,7 @@
       <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb">
         <child id="5984107031776721828" name="checkFeature" index="2PZ2C7" />
       </concept>
+      <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym">
         <property id="6743755284663297273" name="hasParameters" index="3f4$la" />
       </concept>
@@ -200,6 +204,13 @@
       <concept id="6939806161753442499" name="ViewModelTestLanguage.structure.ProgressBarCheck" flags="ng" index="pbEKG">
         <child id="6939806161753450898" name="checks" index="pbCPX" />
       </concept>
+      <concept id="2600358326998253203" name="ViewModelTestLanguage.structure.FieldAssertion" flags="ng" index="_oYEc">
+        <child id="2600358326998253206" name="checkValue" index="_oYE9" />
+      </concept>
+      <concept id="2600358326997816560" name="ViewModelTestLanguage.structure.FieldExpressionCheckValue" flags="ng" index="_uk3J">
+        <reference id="2600358326997823196" name="fieldReference" index="_unF3" />
+        <child id="2600358326997816563" name="expression" index="_uk3G" />
+      </concept>
       <concept id="7568993862226671565" name="ViewModelTestLanguage.structure.XmlElementContext" flags="ng" index="2CaS0t">
         <child id="7568993862226671566" name="xmlDocument" index="2CaS0u" />
       </concept>
@@ -215,6 +226,7 @@
       <concept id="3426401106045849608" name="ViewModelTestLanguage.structure.ContextReference" flags="ng" index="30kPmI">
         <reference id="3426401106045849611" name="contextRef" index="30kPmH" />
       </concept>
+      <concept id="3426401106045532804" name="ViewModelTestLanguage.structure.EmptyContext" flags="ng" index="30l7Wy" />
       <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
         <child id="3426401106045120780" name="context" index="30nziE" />
         <child id="3426401106045120778" name="description" index="30nziG" />
@@ -268,6 +280,12 @@
       </concept>
       <concept id="7497173622927425563" name="ViewModelTestLanguage.structure.TableCellCheck" flags="ng" index="1u3WYF">
         <child id="7497173622927425564" name="viewComponentCheck" index="1u3WYG" />
+      </concept>
+      <concept id="7497173622928363536" name="ViewModelTestLanguage.structure.ImageCheck" flags="ng" index="1u6pYw">
+        <child id="7497173622928363675" name="checks" index="1u6pWF" />
+      </concept>
+      <concept id="7497173622928375666" name="ViewModelTestLanguage.structure.ImageRefCheckValue" flags="ng" index="1u6r32">
+        <reference id="7497173622928375669" name="image" index="1u6r35" />
       </concept>
       <concept id="6853349774631251782" name="ViewModelTestLanguage.structure.TableRowCheck" flags="ng" index="1Dvt89">
         <child id="8437001449088359189" name="checks" index="2ji5G8" />
@@ -2887,6 +2905,27 @@
         </node>
       </node>
     </node>
+    <node concept="3f3I3T" id="4r5LaleGjVV" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+    </node>
+    <node concept="3f4gK1" id="4r5LaleGjVW" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="SuggestionsFilled" />
+      <ref role="3fS2vI" node="1XmN919qz4x" resolve="Suggestions" />
+      <node concept="2P4x69" id="4r5LaleGjVX" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="4r5LaleGjVY" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4AKs" id="4r5LaleVUn8" role="3H8Xyh">
+      <property role="TrG5h" value="TimeUsageClicked" />
+      <property role="3f4$la" value="true" />
+      <node concept="2P4x69" id="4r5LaleVUnr" role="2P43km">
+        <property role="TrG5h" value="radioButton" />
+        <node concept="2P4D6h" id="4r5LaleVUnq" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3H8Xwz" id="4r5LaleGjWD" role="3H8Xyh" />
     <node concept="3H9FR8" id="1XmN919qzhz" role="3H8Xyh">
       <node concept="2P469S" id="1XmN919qzh$" role="3H9FRb">
         <property role="TrG5h" value="TimeUsageBar" />
@@ -2905,6 +2944,461 @@
         <node concept="2P4x69" id="1XmN919qzq6" role="2P43km">
           <property role="TrG5h" value="ColorCode" />
           <node concept="2P4D6h" id="1XmN919qzq4" role="2P5Oin" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="30n1Qd" id="4r5LaleGjVU">
+    <property role="TrG5h" value="AnalyticsViewTests" />
+    <ref role="30n1PB" node="1XmN919qz4v" resolve="AnalyticsView" />
+    <node concept="30n1Qa" id="4r5LaleTnX9" role="30n1Qb">
+      <node concept="30nyDl" id="4r5LaleTnXa" role="30nziG">
+        <property role="30nzmz" value="Empty usage shows empty bars" />
+        <node concept="30nyDi" id="4r5LaleTnXb" role="30nyDj">
+          <property role="30lZVK" value="Empty usages" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleTnXc" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleTnXd" role="30nyDs">
+          <property role="30lZVK" value="Show empty bars" />
+        </node>
+      </node>
+      <node concept="30l7Wy" id="4r5LaleTnXw" role="30nziE" />
+      <node concept="30nziD" id="4r5LaleTnXz" role="30nzo2">
+        <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
+      </node>
+      <node concept="_oYEc" id="4r5LaleTnXD" role="30nzpy">
+        <node concept="_uk3J" id="4r5LaleTnXE" role="_oYE9">
+          <ref role="_unF3" node="1XmN919qziB" resolve="WorkingTimeYou" />
+          <node concept="3cmrfG" id="4r5LaleTnXJ" role="_uk3G">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="_oYEc" id="4r5LaleTnXO" role="30nzpy">
+        <node concept="_uk3J" id="4r5LaleTnXP" role="_oYE9">
+          <ref role="_unF3" node="1XmN919qzqg" resolve="WorkingTimeOthers" />
+          <node concept="3cmrfG" id="4r5LaleTnXQ" role="_uk3G">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="_oYEc" id="4r5LaleTnY3" role="30nzpy">
+        <node concept="_uk3J" id="4r5LaleTnY4" role="_oYE9">
+          <ref role="_unF3" node="1XmN919qzjB" resolve="IdleTimeYou" />
+          <node concept="3cmrfG" id="4r5LaleTnY5" role="_uk3G">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="_oYEc" id="4r5LaleTnY0" role="30nzpy">
+        <node concept="_uk3J" id="4r5LaleTnY1" role="_oYE9">
+          <ref role="_unF3" node="1XmN919qzrd" resolve="IdleTimeOthers" />
+          <node concept="3cmrfG" id="4r5LaleTnY2" role="_uk3G">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="_oYEc" id="4r5LaleTnYr" role="30nzpy">
+        <node concept="_uk3J" id="4r5LaleTnYs" role="_oYE9">
+          <ref role="_unF3" node="1XmN919qzkD" resolve="PrivateTasksYou" />
+          <node concept="3cmrfG" id="4r5LaleTnYt" role="_uk3G">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="_oYEc" id="4r5LaleTnYo" role="30nzpy">
+        <node concept="_uk3J" id="4r5LaleTnYp" role="_oYE9">
+          <ref role="_unF3" node="1XmN919qzsc" resolve="PrivateTasksOthers" />
+          <node concept="3cmrfG" id="4r5LaleTnYq" role="_uk3G">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4r5LaleTnYU" role="30n1Qb">
+      <node concept="30nyDl" id="4r5LaleTnYV" role="30nziG">
+        <property role="30nzmz" value="Empty usage has empty analysis" />
+        <node concept="30nyDi" id="4r5LaleTnYW" role="30nyDj">
+          <property role="30lZVK" value="Empty usages" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleTnYX" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleTnYZ" role="30nyDs">
+          <property role="30lZVK" value="Show analysis for previous week" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUhc" role="30nyDs">
+          <property role="30lZVK" value="Show analysis with zero stars" />
+        </node>
+      </node>
+      <node concept="30l7Wy" id="4r5LaleTnZ1" role="30nziE" />
+      <node concept="30nziD" id="4r5LaleTnZ2" role="30nzo2">
+        <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUir" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz8z" resolve="TimeUsage" />
+        <node concept="nK$o3" id="4r5LaleVUis" role="30nDbQ">
+          <node concept="3P0YG7" id="4r5LaleVUit" role="nL36h">
+            <node concept="3P0YHh" id="4r5LaleVUiu" role="3P0YG5">
+              <property role="3P0YHu" value="PreviousWeek" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleTo20" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz4M" resolve="Efficiency" />
+        <node concept="1u6pYw" id="4r5LaleTo21" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleTo22" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUbp" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz59" resolve="Granularity" />
+        <node concept="1u6pYw" id="4r5LaleVUcf" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUcg" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUby" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz5w" resolve="Prioritization" />
+        <node concept="1u6pYw" id="4r5LaleVUcj" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUck" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUbI" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz5X" resolve="Categorization" />
+        <node concept="1u6pYw" id="4r5LaleVUcn" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUco" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUbX" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz6w" resolve="Statusing" />
+        <node concept="1u6pYw" id="4r5LaleVUcr" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUcs" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUcv" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz79" resolve="Repetition" />
+        <node concept="1u6pYw" id="4r5LaleVUcO" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUcP" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUdc" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz4x" resolve="Suggestions" />
+        <node concept="3fym7j" id="4r5LaleVUdd" role="30nDbQ">
+          <node concept="30nz6$" id="4r5LaleVUde" role="3fym7i" />
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4r5LaleVUd$" role="30n1Qb">
+      <node concept="30nyDl" id="4r5LaleVUd_" role="30nziG">
+        <property role="30nzmz" value="Sample usage previous week" />
+        <node concept="30nyDi" id="4r5LaleVUdA" role="30nyDj">
+          <property role="30lZVK" value="Sample usage" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUdB" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUhf" role="30nyDs">
+          <property role="30lZVK" value="Show analysis for previous week" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUdC" role="30nyDs">
+          <property role="30lZVK" value="Show analysis with filled stars" />
+        </node>
+      </node>
+      <node concept="30nziD" id="4r5LaleVUdE" role="30nzo2">
+        <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUhE" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz8z" resolve="TimeUsage" />
+        <node concept="nK$o3" id="4r5LaleVUhF" role="30nDbQ">
+          <node concept="3P0YG7" id="4r5LaleVUhG" role="nL36h">
+            <node concept="3P0YHh" id="4r5LaleVUhH" role="3P0YG5">
+              <property role="3P0YHu" value="PreviousWeek" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUdF" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz4M" resolve="Efficiency" />
+        <node concept="1u6pYw" id="4r5LaleVUdG" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUdH" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Lj" resolve="ranking_4" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUdI" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz59" resolve="Granularity" />
+        <node concept="1u6pYw" id="4r5LaleVUdJ" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUdK" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUdL" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz5w" resolve="Prioritization" />
+        <node concept="1u6pYw" id="4r5LaleVUdM" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUdN" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUdO" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz5X" resolve="Categorization" />
+        <node concept="1u6pYw" id="4r5LaleVUdP" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUdQ" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUdR" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz6w" resolve="Statusing" />
+        <node concept="1u6pYw" id="4r5LaleVUdS" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUdT" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Lb" resolve="ranking_2" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUdU" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz79" resolve="Repetition" />
+        <node concept="1u6pYw" id="4r5LaleVUdV" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUdW" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Ln" resolve="ranking_5" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CaS0t" id="4r5LaleVUfn" role="30nziE">
+        <node concept="2pNNFK" id="4r5LaleVUft" role="2CaS0u">
+          <property role="2pNNFO" value="TimeUsage" />
+          <node concept="2pNNFK" id="4r5LaleVUfx" role="3o6s8t">
+            <property role="2pNNFO" value="PreviousWeek" />
+            <node concept="2pNNFK" id="4r5LaleVUf$" role="3o6s8t">
+              <property role="2pNNFO" value="WorkingTimeYou" />
+              <node concept="3o6iSG" id="4r5LaleVUfA" role="3o6s8t">
+                <property role="3o6i5n" value="38:31" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="4r5LaleVUfC" role="3o6s8t">
+              <property role="2pNNFO" value="WorkingTimeOthers" />
+              <node concept="3o6iSG" id="4r5LaleVUfD" role="3o6s8t">
+                <property role="3o6i5n" value="18:01" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="4r5LaleVUfW" role="3o6s8t">
+              <property role="2pNNFO" value="IdleTimeYou" />
+              <node concept="3o6iSG" id="4r5LaleVUfX" role="3o6s8t">
+                <property role="3o6i5n" value="14:07" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="4r5LaleVUfU" role="3o6s8t">
+              <property role="2pNNFO" value="IdleTimeOthers" />
+              <node concept="3o6iSG" id="4r5LaleVUfV" role="3o6s8t">
+                <property role="3o6i5n" value="13:40" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="4r5LaleVUfK" role="3o6s8t">
+              <property role="2pNNFO" value="PrivateTasksTimeYou" />
+              <node concept="3o6iSG" id="4r5LaleVUfL" role="3o6s8t">
+                <property role="3o6i5n" value="01:26" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="4r5LaleVUfI" role="3o6s8t">
+              <property role="2pNNFO" value="PrivateTasksTimeOthers" />
+              <node concept="3o6iSG" id="4r5LaleVUfJ" role="3o6s8t">
+                <property role="3o6i5n" value="00:40" />
+              </node>
+            </node>
+          </node>
+          <node concept="2pNNFK" id="4r5LaleVUga" role="3o6s8t">
+            <property role="2pNNFO" value="PreviousMonth" />
+          </node>
+          <node concept="2pNNFK" id="4r5LaleVUgq" role="3o6s8t">
+            <property role="2pNNFO" value="AllTime" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4r5LaleVUiS" role="30n1Qb">
+      <node concept="30nyDl" id="4r5LaleVUiT" role="30nziG">
+        <property role="30nzmz" value="Sample usage previous month" />
+        <node concept="30nyDi" id="4r5LaleVUiU" role="30nyDj">
+          <property role="30lZVK" value="Sample usage" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUiV" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUlW" role="30nyDh">
+          <property role="30lZVK" value="Select previous month" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUiW" role="30nyDs">
+          <property role="30lZVK" value="Show analysis for previous month" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUiX" role="30nyDs">
+          <property role="30lZVK" value="Show analysis with filled stars" />
+        </node>
+      </node>
+      <node concept="30nziD" id="4r5LaleVUiY" role="30nzo2">
+        <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="4r5LaleVUnx" role="30nzo2">
+        <ref role="30nziQ" node="4r5LaleVUn8" resolve="TimeUsageClicked" />
+        <node concept="Xl_RD" id="4r5LaleVUn_" role="30nziO">
+          <property role="Xl_RC" value="PreviousMonth" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUiZ" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz8z" resolve="TimeUsage" />
+        <node concept="nK$o3" id="4r5LaleVUj0" role="30nDbQ">
+          <node concept="3P0YG7" id="4r5LaleVUj1" role="nL36h">
+            <node concept="3P0YHh" id="4r5LaleVUj2" role="3P0YG5">
+              <property role="3P0YHu" value="PreviousMonth" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUj3" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz4M" resolve="Efficiency" />
+        <node concept="1u6pYw" id="4r5LaleVUj4" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUj5" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Lj" resolve="ranking_4" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUj6" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz59" resolve="Granularity" />
+        <node concept="1u6pYw" id="4r5LaleVUj7" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUj8" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUj9" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz5w" resolve="Prioritization" />
+        <node concept="1u6pYw" id="4r5LaleVUja" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUjb" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUjc" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz5X" resolve="Categorization" />
+        <node concept="1u6pYw" id="4r5LaleVUjd" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUje" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUjf" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz6w" resolve="Statusing" />
+        <node concept="1u6pYw" id="4r5LaleVUjg" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUjh" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Lb" resolve="ranking_2" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4r5LaleVUji" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz79" resolve="Repetition" />
+        <node concept="1u6pYw" id="4r5LaleVUjj" role="30nDbQ">
+          <node concept="1u6r32" id="4r5LaleVUjk" role="1u6pWF">
+            <ref role="1u6r35" node="61f9eXSU2Ln" resolve="ranking_5" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CaS0t" id="4r5LaleVUjl" role="30nziE">
+        <node concept="2pNNFK" id="4r5LaleVUjm" role="2CaS0u">
+          <property role="2pNNFO" value="TimeUsage" />
+          <node concept="2pNNFK" id="4r5LaleVUjn" role="3o6s8t">
+            <property role="2pNNFO" value="PreviousWeek" />
+          </node>
+          <node concept="2pNNFK" id="4r5LaleVUj$" role="3o6s8t">
+            <property role="2pNNFO" value="PreviousMonth" />
+            <node concept="2pNNFK" id="4r5LaleVUjo" role="3o6s8t">
+              <property role="2pNNFO" value="WorkingTimeYou" />
+              <node concept="3o6iSG" id="4r5LaleVUjp" role="3o6s8t">
+                <property role="3o6i5n" value="38:31" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="4r5LaleVUjq" role="3o6s8t">
+              <property role="2pNNFO" value="WorkingTimeOthers" />
+              <node concept="3o6iSG" id="4r5LaleVUjr" role="3o6s8t">
+                <property role="3o6i5n" value="18:01" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="4r5LaleVUjs" role="3o6s8t">
+              <property role="2pNNFO" value="IdleTimeYou" />
+              <node concept="3o6iSG" id="4r5LaleVUjt" role="3o6s8t">
+                <property role="3o6i5n" value="14:07" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="4r5LaleVUju" role="3o6s8t">
+              <property role="2pNNFO" value="IdleTimeOthers" />
+              <node concept="3o6iSG" id="4r5LaleVUjv" role="3o6s8t">
+                <property role="3o6i5n" value="13:40" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="4r5LaleVUjw" role="3o6s8t">
+              <property role="2pNNFO" value="PrivateTasksTimeYou" />
+              <node concept="3o6iSG" id="4r5LaleVUjx" role="3o6s8t">
+                <property role="3o6i5n" value="01:26" />
+              </node>
+            </node>
+            <node concept="2pNNFK" id="4r5LaleVUjy" role="3o6s8t">
+              <property role="2pNNFO" value="PrivateTasksTimeOthers" />
+              <node concept="3o6iSG" id="4r5LaleVUjz" role="3o6s8t">
+                <property role="3o6i5n" value="00:40" />
+              </node>
+            </node>
+          </node>
+          <node concept="2pNNFK" id="4r5LaleVUj_" role="3o6s8t">
+            <property role="2pNNFO" value="AllTime" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4r5LaleVUnK" role="30n1Qb">
+      <node concept="30nyDl" id="4r5LaleVUnL" role="30nziG">
+        <property role="30nzmz" value="Suggesions filled" />
+        <node concept="30nyDi" id="4r5LaleVUnM" role="30nyDj">
+          <property role="30lZVK" value="Sample usage" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUnN" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUnO" role="30nyDh">
+          <property role="30lZVK" value="Fill suggestions" />
+        </node>
+        <node concept="30nyDi" id="4r5LaleVUnP" role="30nyDs">
+          <property role="30lZVK" value="Suggestions contains filled text" />
+        </node>
+      </node>
+      <node concept="30nziD" id="4r5LaleVUnR" role="30nzo2">
+        <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="4r5LaleVUrY" role="30nzo2">
+        <ref role="30nziQ" node="4r5LaleGjVW" resolve="SuggestionsFilled" />
+        <node concept="Xl_RD" id="4r5LaleVUs2" role="30nziO">
+          <property role="Xl_RC" value="Sample" />
+        </node>
+      </node>
+      <node concept="30l7Wy" id="4r5LaleVUrL" role="30nziE" />
+      <node concept="30nzp_" id="4r5LaleVUrP" role="30nzpy">
+        <ref role="30nzpS" node="1XmN919qz4x" resolve="Suggestions" />
+        <node concept="3fym7j" id="4r5LaleVUrQ" role="30nDbQ">
+          <node concept="30nz6$" id="4r5LaleVUrR" role="3fym7i">
+            <property role="30nz6_" value="Sample" />
+          </node>
         </node>
       </node>
     </node>
