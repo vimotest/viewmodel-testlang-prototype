@@ -39,6 +39,8 @@
         <child id="7497173622928201831" name="images" index="1u6Lvn" />
       </concept>
       <concept id="7497173622928201775" name="ViewModelLanguage.structure.Image" flags="ng" index="1u6Luv">
+        <property id="3016673643442476650" name="width" index="Lsnro" />
+        <property id="3016673643442476939" name="height" index="LsnsT" />
         <child id="7497173622928203553" name="source" index="1u6L2h" />
       </concept>
       <concept id="4321216645070110073" name="ViewModelLanguage.structure.ButtonComponent" flags="ng" index="3H4brt" />
@@ -299,6 +301,8 @@
     </node>
     <node concept="1u6Luv" id="7y3M9oPB7d5" role="1u6Lvn">
       <property role="TrG5h" value="alert" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="7y3M9oPB7d7" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/alert.png" />
       </node>
@@ -433,24 +437,6 @@
       <property role="TrG5h" value="upload" />
       <node concept="1u4ncX" id="7y3M9oPB7ev" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/upload.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7ex" role="1u6Lvn">
-      <property role="TrG5h" value="user24" />
-      <node concept="1u4ncX" id="7y3M9oPB7ez" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/user24.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7e_" role="1u6Lvn">
-      <property role="TrG5h" value="user32" />
-      <node concept="1u4ncX" id="7y3M9oPB7eB" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/user32.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7eD" role="1u6Lvn">
-      <property role="TrG5h" value="user64" />
-      <node concept="1u4ncX" id="7y3M9oPB7eF" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/user64.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="7y3M9oPB7eH" role="1u6Lvn">
@@ -879,24 +865,6 @@
         <property role="1u4ncw" value="images/spark/star_moderator.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7j9" role="1u6Lvn">
-      <property role="TrG5h" value="conference_24x24" />
-      <node concept="1u4ncX" id="7y3M9oPB7jb" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/conference_24x24.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7jd" role="1u6Lvn">
-      <property role="TrG5h" value="conference_32x32" />
-      <node concept="1u4ncX" id="7y3M9oPB7jf" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/conference_32x32.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7jh" role="1u6Lvn">
-      <property role="TrG5h" value="conference_48x48" />
-      <node concept="1u4ncX" id="7y3M9oPB7jj" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/conference_48x48.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7jl" role="1u6Lvn">
       <property role="TrG5h" value="incoming_message" />
       <node concept="1u4ncX" id="7y3M9oPB7jn" role="1u6L2h">
@@ -981,12 +949,6 @@
         <property role="1u4ncw" value="images/spark/spark_tray_message-16x16.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7kd" role="1u6Lvn">
-      <property role="TrG5h" value="spark_tray_message-24x24" />
-      <node concept="1u4ncX" id="7y3M9oPB7kf" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/spark_tray_message-24x24.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7kh" role="1u6Lvn">
       <property role="TrG5h" value="privacy_presence_in_allow" />
       <node concept="1u4ncX" id="7y3M9oPB7kj" role="1u6L2h">
@@ -1009,12 +971,6 @@
       <property role="TrG5h" value="spark_tray_connecting-16x16" />
       <node concept="1u4ncX" id="7y3M9oPB7kv" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/spark_tray_connecting-16x16.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7kx" role="1u6Lvn">
-      <property role="TrG5h" value="spark_tray_connecting-24x24" />
-      <node concept="1u4ncX" id="7y3M9oPB7kz" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/spark_tray_connecting-24x24.png" />
       </node>
     </node>
   </node>
