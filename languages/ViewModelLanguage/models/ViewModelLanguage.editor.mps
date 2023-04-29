@@ -388,7 +388,6 @@
       </concept>
     </language>
     <language id="602c36ad-cc55-47ff-8c40-73d7f12f035c" name="jetbrains.mps.lang.editor.forms">
-      <concept id="7024409093146622323" name="jetbrains.mps.lang.editor.forms.structure.CheckboxUI_Platform" flags="ng" index="jv8YD" />
       <concept id="312429380032619384" name="jetbrains.mps.lang.editor.forms.structure.CellModel_Checkbox" flags="ng" index="2yq9I_">
         <reference id="3696012239575138271" name="propertyDeclaration" index="225u1j" />
         <child id="8215612579904156902" name="label" index="2fqkNU" />
@@ -3226,14 +3225,20 @@
       <node concept="l2Vlx" id="FLNzGRr5uE" role="2iSdaV" />
       <node concept="2yq9I_" id="FLNzGRr5vZ" role="3EZMnx">
         <ref role="225u1j" to="6ap2:FLNzGRr5w6" resolve="hasResult" />
-        <node concept="jv8YD" id="FLNzGRr5w3" role="1563LE" />
+        <node concept="1563Vb" id="7y3M9oPBLKm" role="1563LE">
+          <property role="1563UK" value="[ ]" />
+          <property role="1563Ve" value="[x]" />
+        </node>
         <node concept="3F0ifn" id="FLNzGRr8z0" role="2fqkNU">
           <property role="3F0ifm" value="has result" />
         </node>
       </node>
       <node concept="2yq9I_" id="FLNzGRsx47" role="3EZMnx">
         <ref role="225u1j" to="6ap2:FLNzGRswPA" resolve="isMessageBox" />
-        <node concept="jv8YD" id="FLNzGRsx48" role="1563LE" />
+        <node concept="1563Vb" id="7y3M9oPBLNf" role="1563LE">
+          <property role="1563UK" value="[ ]" />
+          <property role="1563Ve" value="[x]" />
+        </node>
         <node concept="3F0ifn" id="FLNzGRsx49" role="2fqkNU">
           <property role="3F0ifm" value="is messagebox" />
         </node>
@@ -3243,7 +3248,10 @@
       </node>
       <node concept="2yq9I_" id="FLNzGRtkML" role="3EZMnx">
         <ref role="225u1j" to="6ap2:FLNzGRtkuC" resolve="indicatesErrors" />
-        <node concept="jv8YD" id="FLNzGRtkMM" role="1563LE" />
+        <node concept="1563Vb" id="7y3M9oPBLOU" role="1563LE">
+          <property role="1563UK" value="[ ]" />
+          <property role="1563Ve" value="[x]" />
+        </node>
         <node concept="3F0ifn" id="FLNzGRtkMN" role="2fqkNU">
           <property role="3F0ifm" value="is error" />
         </node>
@@ -3264,7 +3272,10 @@
       </node>
       <node concept="2yq9I_" id="5TZVz1z1tC8" role="1j7Clw">
         <ref role="225u1j" to="6ap2:FLNzGRzPCw" resolve="supportsUpdatingFlag" />
-        <node concept="jv8YD" id="5TZVz1z23fi" role="1563LE" />
+        <node concept="1563Vb" id="7y3M9oPBLjM" role="1563LE">
+          <property role="1563UK" value="[ ]" />
+          <property role="1563Ve" value="[x]" />
+        </node>
         <node concept="3F0ifn" id="5TZVz1z1tCa" role="2fqkNU">
           <property role="3F0ifm" value="supports updating flag" />
         </node>
