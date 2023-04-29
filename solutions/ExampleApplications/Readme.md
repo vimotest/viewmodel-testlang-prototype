@@ -31,7 +31,7 @@ URL: https://sourceforge.net/projects/crosswordsage/
 ## Spark
 
 Type: Messaging
-URL: https://igniterealtime.org/projects/
+URL: https://github.com/igniterealtime/Spark
 
 ## PDFsam
 

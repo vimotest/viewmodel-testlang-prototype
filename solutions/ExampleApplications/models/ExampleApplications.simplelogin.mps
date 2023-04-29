@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:90759173-5ac0-4e14-b217-2a754cc65c6d(ExampleApplications.login)">
+<model ref="r:90759173-5ac0-4e14-b217-2a754cc65c6d(ExampleApplications.simplelogin)">
   <persistence version="9" />
   <languages>
     <use id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage" version="0" />
@@ -129,7 +129,7 @@
     </language>
   </registry>
   <node concept="3H8XyA" id="7YmZ2rG9HBU">
-    <property role="TrG5h" value="LoginView" />
+    <property role="TrG5h" value="SimpleLoginView" />
     <node concept="3H8Xy_" id="7YmZ2rG9HBV" role="3H8Xyx">
       <node concept="3fyYjX" id="7YmZ2rG9HBW" role="2P43km">
         <node concept="27$lts" id="7YmZ2rG9HBX" role="3fyYjW">
@@ -209,7 +209,7 @@
     </node>
   </node>
   <node concept="30n1Qd" id="7YmZ2rG9HDW">
-    <property role="TrG5h" value="LoginViewTests" />
+    <property role="TrG5h" value="SimpleLoginViewTests" />
     <ref role="30n1PB" node="7YmZ2rG9HBU" resolve="LoginView" />
     <node concept="30n1Qa" id="7YmZ2rG9HDX" role="30n1Qb">
       <node concept="30nyDl" id="7YmZ2rG9HDY" role="30nziG">
