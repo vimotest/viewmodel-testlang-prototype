@@ -624,6 +624,86 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7y3M9oPFRu5" role="3cqZAp">
+          <node concept="2OqwBi" id="7y3M9oPFRu6" role="3clFbG">
+            <node concept="2YIFZM" id="7y3M9oPFSGN" role="2Oq$k0">
+              <ref role="37wK5l" to="hhvz:7y3M9oPFPnM" resolve="findRadioButtonsWithoutEvents" />
+              <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
+              <node concept="2Sf5sV" id="7y3M9oPFSGO" role="37wK5m" />
+            </node>
+            <node concept="2es0OD" id="7y3M9oPFRu9" role="2OqNvi">
+              <node concept="1bVj0M" id="7y3M9oPFRua" role="23t8la">
+                <node concept="3clFbS" id="7y3M9oPFRub" role="1bW5cS">
+                  <node concept="3clFbF" id="7y3M9oPFRuc" role="3cqZAp">
+                    <node concept="2OqwBi" id="7y3M9oPFRud" role="3clFbG">
+                      <node concept="2OqwBi" id="7y3M9oPFRue" role="2Oq$k0">
+                        <node concept="37vLTw" id="7y3M9oPFRuf" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4XlUEZmmwou" resolve="view" />
+                        </node>
+                        <node concept="3Tsc0h" id="7y3M9oPFRug" role="2OqNvi">
+                          <ref role="3TtcxE" to="6ap2:3JS2UjmQXcP" resolve="contents" />
+                        </node>
+                      </node>
+                      <node concept="TSZUe" id="7y3M9oPFRuh" role="2OqNvi">
+                        <node concept="2YIFZM" id="7y3M9oPFWrg" role="25WWJ7">
+                          <ref role="37wK5l" to="hhvz:7y3M9oPFU9m" resolve="createClickEventForRadioButtons" />
+                          <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
+                          <node concept="37vLTw" id="7y3M9oPFWrh" role="37wK5m">
+                            <ref role="3cqZAo" node="7y3M9oPFRuk" resolve="it" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="7y3M9oPFRuk" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="7y3M9oPFRul" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7y3M9oPFWKa" role="3cqZAp">
+          <node concept="2OqwBi" id="7y3M9oPFWKb" role="3clFbG">
+            <node concept="2YIFZM" id="7y3M9oPG0FH" role="2Oq$k0">
+              <ref role="37wK5l" to="hhvz:7y3M9oPFY6G" resolve="findComboBoxesWithoutEvents" />
+              <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
+              <node concept="2Sf5sV" id="7y3M9oPG0FI" role="37wK5m" />
+            </node>
+            <node concept="2es0OD" id="7y3M9oPFWKe" role="2OqNvi">
+              <node concept="1bVj0M" id="7y3M9oPFWKf" role="23t8la">
+                <node concept="3clFbS" id="7y3M9oPFWKg" role="1bW5cS">
+                  <node concept="3clFbF" id="7y3M9oPFWKh" role="3cqZAp">
+                    <node concept="2OqwBi" id="7y3M9oPFWKi" role="3clFbG">
+                      <node concept="2OqwBi" id="7y3M9oPFWKj" role="2Oq$k0">
+                        <node concept="37vLTw" id="7y3M9oPFWKk" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4XlUEZmmwou" resolve="view" />
+                        </node>
+                        <node concept="3Tsc0h" id="7y3M9oPFWKl" role="2OqNvi">
+                          <ref role="3TtcxE" to="6ap2:3JS2UjmQXcP" resolve="contents" />
+                        </node>
+                      </node>
+                      <node concept="TSZUe" id="7y3M9oPFWKm" role="2OqNvi">
+                        <node concept="2YIFZM" id="7y3M9oPG58Z" role="25WWJ7">
+                          <ref role="37wK5l" to="hhvz:7y3M9oPG1D2" resolve="createSelectionEventForComboBox" />
+                          <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
+                          <node concept="37vLTw" id="7y3M9oPG590" role="37wK5m">
+                            <ref role="3cqZAo" node="7y3M9oPFWKp" resolve="it" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="7y3M9oPFWKp" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="7y3M9oPFWKq" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2SaL7w" id="4XlUEZml2wI" role="2ZfVeh">

@@ -1094,5 +1094,12 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="30wBDFH2Lqs">
+    <property role="EcuMT" value="3467946101314360988" />
+    <property role="3GE5qa" value="viewinputs" />
+    <property role="TrG5h" value="SelectItemEvent" />
+    <property role="34LRSv" value="select item event" />
+    <ref role="1TJDcQ" node="5QmCreitCpq" resolve="ViewComponentEvent" />
+  </node>
 </model>
 
