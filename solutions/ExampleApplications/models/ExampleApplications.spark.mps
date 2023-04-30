@@ -7,11 +7,17 @@
   </languages>
   <imports />
   <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+    </language>
     <language id="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60" name="SimpleTypeLanguage">
       <concept id="5878168047017091896" name="SimpleTypeLanguage.structure.Field" flags="ng" index="2P4x69" />
       <concept id="5878168047017091882" name="SimpleTypeLanguage.structure.StructType" flags="ng" index="2P4x6r">
         <child id="5878168047017215911" name="contents" index="2P43km" />
       </concept>
+      <concept id="5878168047017124641" name="SimpleTypeLanguage.structure.BoolType" flags="ng" index="2P4D6g" />
       <concept id="5878168047017124640" name="SimpleTypeLanguage.structure.StringType" flags="ng" index="2P4D6h" />
       <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
         <child id="5878168047017276966" name="type" index="2P5Oin" />
@@ -27,6 +33,7 @@
       <concept id="4143793920074732899" name="ViewModelLanguage.structure.ImageButtonComponent" flags="ng" index="2HYYfY">
         <reference id="4143793920074734847" name="image" index="2HYYDy" />
       </concept>
+      <concept id="4989287372960777710" name="ViewModelLanguage.structure.CheckEvent" flags="ng" index="I_Gu0" />
       <concept id="5984107031764840468" name="ViewModelLanguage.structure.ViewComponentFeature" flags="ng" index="2Pim6R">
         <property id="5984107031764851878" name="supported" index="2PigO5" />
       </concept>
@@ -117,6 +124,9 @@
       <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
         <child id="643469022294099062" name="checks" index="2D8cJs" />
       </concept>
+      <concept id="5057557679944221126" name="ViewModelTestLanguage.structure.HorizontalTestCaseAssertions" flags="ng" index="2QbWKJ">
+        <child id="5057557679944221906" name="asserts" index="2QbW$V" />
+      </concept>
       <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
         <child id="3426401106045796780" name="objects" index="30k8ga" />
       </concept>
@@ -127,6 +137,7 @@
         <property id="3426401106045796691" name="value" index="30k8jP" />
         <property id="1519488183372559966" name="isStringLiteral" index="3nhnwH" />
       </concept>
+      <concept id="3426401106045532804" name="ViewModelTestLanguage.structure.EmptyContext" flags="ng" index="30l7Wy" />
       <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
         <child id="3426401106045120780" name="context" index="30nziE" />
         <child id="3426401106045120778" name="description" index="30nziG" />
@@ -151,13 +162,29 @@
       </concept>
       <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.ViewInputCall" flags="ng" index="30nziD">
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
+        <child id="3426401106045120786" name="parameters" index="30nziO" />
+      </concept>
+      <concept id="3426401106045121505" name="ViewModelTestLanguage.structure.ButtonCheck" flags="ng" index="30nzp7">
+        <child id="3426401106045121535" name="checks" index="30nzpp" />
+      </concept>
+      <concept id="3426401106045121530" name="ViewModelTestLanguage.structure.SensitivityCheckValue" flags="ng" index="30nzps">
+        <property id="3426401106045121533" name="sensitivity" index="30nzpr" />
       </concept>
       <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
       </concept>
+      <concept id="6743755284656668768" name="ViewModelTestLanguage.structure.TextBoxCheck" flags="ng" index="3fym7j">
+        <child id="6743755284656668769" name="checks" index="3fym7i" />
+      </concept>
       <concept id="1519488183372569234" name="ViewModelTestLanguage.structure.Array" flags="ng" index="3nhhjx">
         <child id="1519488183372569237" name="objects" index="3nhhjA" />
+      </concept>
+      <concept id="7497173622926527144" name="ViewModelTestLanguage.structure.CheckedCheckValue" flags="ng" index="1tZoko">
+        <property id="7497173622926527147" name="checked" index="1tZokr" />
+      </concept>
+      <concept id="7497173622926526731" name="ViewModelTestLanguage.structure.CheckBoxCheck" flags="ng" index="1tZoqV">
+        <child id="7497173622926527123" name="checks" index="1tZokz" />
       </concept>
       <concept id="7497173622927425563" name="ViewModelTestLanguage.structure.TableCellCheck" flags="ng" index="1u3WYF">
         <child id="7497173622927425564" name="viewComponentCheck" index="1u3WYG" />
@@ -283,6 +310,84 @@
             <property role="2PigPS" value="Advanced" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3f3I3T" id="4ZSoa7ztVPT" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztVPU" role="3H8Xyh">
+      <property role="TrG5h" value="LoginClicked" />
+      <ref role="3fS2vI" node="7y3M9oP_GpV" resolve="Login" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztVPV" role="3H8Xyh">
+      <property role="TrG5h" value="AccountsClicked" />
+      <ref role="3fS2vI" node="7y3M9oP_GpB" resolve="Accounts" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztVPW" role="3H8Xyh">
+      <property role="TrG5h" value="AdvancedClicked" />
+      <ref role="3fS2vI" node="7y3M9oP_GpJ" resolve="Advanced" />
+    </node>
+    <node concept="I_Gu0" id="4ZSoa7ztVPX" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="SavePasswordChecked" />
+      <ref role="3fS2vI" node="7y3M9oP_GmY" resolve="SavePassword" />
+      <node concept="2P4x69" id="4ZSoa7ztVPY" role="2P43km">
+        <property role="TrG5h" value="isChecked" />
+        <node concept="2P4D6g" id="4ZSoa7ztVPZ" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="I_Gu0" id="4ZSoa7ztVQ0" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="AutoLoginChecked" />
+      <ref role="3fS2vI" node="7y3M9oP_Gns" resolve="AutoLogin" />
+      <node concept="2P4x69" id="4ZSoa7ztVQ1" role="2P43km">
+        <property role="TrG5h" value="isChecked" />
+        <node concept="2P4D6g" id="4ZSoa7ztVQ2" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="I_Gu0" id="4ZSoa7ztVQ3" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="LoginAsInvisibleChecked" />
+      <ref role="3fS2vI" node="7y3M9oP_GnU" resolve="LoginAsInvisible" />
+      <node concept="2P4x69" id="4ZSoa7ztVQ4" role="2P43km">
+        <property role="TrG5h" value="isChecked" />
+        <node concept="2P4D6g" id="4ZSoa7ztVQ5" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="I_Gu0" id="4ZSoa7ztVQ6" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="LoginAnonymouslyChecked" />
+      <ref role="3fS2vI" node="7y3M9oP_GqT" resolve="LoginAnonymously" />
+      <node concept="2P4x69" id="4ZSoa7ztVQ7" role="2P43km">
+        <property role="TrG5h" value="isChecked" />
+        <node concept="2P4D6g" id="4ZSoa7ztVQ8" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="4ZSoa7ztVQ9" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="UsernameFilled" />
+      <ref role="3fS2vI" node="7y3M9oP_GlR" resolve="Username" />
+      <node concept="2P4x69" id="4ZSoa7ztVQa" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="4ZSoa7ztVQb" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="4ZSoa7ztVQc" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="DomainFilled" />
+      <ref role="3fS2vI" node="7y3M9oP_Gmp" resolve="Domain" />
+      <node concept="2P4x69" id="4ZSoa7ztVQd" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="4ZSoa7ztVQe" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="4ZSoa7ztVQf" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="PasswordFilled" />
+      <ref role="3fS2vI" node="7y3M9oP_Gm1" resolve="Password" />
+      <node concept="2P4x69" id="4ZSoa7ztVQg" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="4ZSoa7ztVQh" role="2P5Oin" />
       </node>
     </node>
   </node>
@@ -1577,6 +1682,184 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="30n1Qd" id="4ZSoa7ztVQF">
+    <property role="TrG5h" value="LoginViewTests" />
+    <ref role="30n1PB" node="7y3M9oP_GlG" resolve="LoginView" />
+    <node concept="30n1Qa" id="4ZSoa7ztVQG" role="30n1Qb">
+      <node concept="30nyDl" id="4ZSoa7ztVQH" role="30nziG">
+        <property role="30nzmz" value="Load empty UI" />
+        <node concept="30nyDi" id="4ZSoa7ztVQI" role="30nyDj">
+          <property role="30lZVK" value="Empty context" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztVQJ" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztVQK" role="30nyDs">
+          <property role="30lZVK" value="All fields are empty" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztVQW" role="30nyDs">
+          <property role="30lZVK" value="Login button is disabled" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztVTb" role="30nyDs">
+          <property role="30lZVK" value="Checkboxes have defaults" />
+        </node>
+      </node>
+      <node concept="30l7Wy" id="4ZSoa7ztVQZ" role="30nziE" />
+      <node concept="30nziD" id="4ZSoa7ztVR2" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztVPT" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVR5" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_GlR" resolve="Username" />
+        <node concept="3fym7j" id="4ZSoa7ztVR6" role="30nDbQ">
+          <node concept="30nz6$" id="4ZSoa7ztVR7" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVRb" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_Gmp" resolve="Domain" />
+        <node concept="3fym7j" id="4ZSoa7ztVRk" role="30nDbQ">
+          <node concept="30nz6$" id="4ZSoa7ztVRl" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVRo" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_Gm1" resolve="Password" />
+        <node concept="3fym7j" id="4ZSoa7ztVR$" role="30nDbQ">
+          <node concept="30nz6$" id="4ZSoa7ztVR_" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVTt" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_GmY" resolve="SavePassword" />
+        <node concept="1tZoqV" id="4ZSoa7ztVTu" role="30nDbQ">
+          <node concept="1tZoko" id="4ZSoa7ztVTv" role="1tZokz" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVTJ" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_Gns" resolve="AutoLogin" />
+        <node concept="1tZoqV" id="4ZSoa7ztVU4" role="30nDbQ">
+          <node concept="1tZoko" id="4ZSoa7ztVU5" role="1tZokz" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVU8" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_GnU" resolve="LoginAsInvisible" />
+        <node concept="1tZoqV" id="4ZSoa7ztVUw" role="30nDbQ">
+          <node concept="1tZoko" id="4ZSoa7ztVUx" role="1tZokz" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVU$" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_GqT" resolve="LoginAnonymously" />
+        <node concept="1tZoqV" id="4ZSoa7ztVUZ" role="30nDbQ">
+          <node concept="1tZoko" id="4ZSoa7ztVV0" role="1tZokz">
+            <property role="1tZokr" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="2QbWKJ" id="4ZSoa7ztVV3" role="30nzpy">
+        <node concept="30nzp_" id="4ZSoa7ztVRC" role="2QbW$V">
+          <ref role="30nzpS" node="7y3M9oP_GpV" resolve="Login" />
+          <node concept="30nzp7" id="4ZSoa7ztVRR" role="30nDbQ">
+            <node concept="30nzps" id="4ZSoa7ztVRS" role="30nzpp" />
+          </node>
+        </node>
+        <node concept="30nzp_" id="4ZSoa7ztVVC" role="2QbW$V">
+          <ref role="30nzpS" node="7y3M9oP_GpB" resolve="Accounts" />
+          <node concept="30nzp7" id="4ZSoa7ztVVD" role="30nDbQ">
+            <node concept="30nzps" id="4ZSoa7ztVVE" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="4ZSoa7ztVVL" role="2QbW$V">
+          <ref role="30nzpS" node="7y3M9oP_GpJ" resolve="Advanced" />
+          <node concept="30nzp7" id="4ZSoa7ztVVX" role="30nDbQ">
+            <node concept="30nzps" id="4ZSoa7ztVVY" role="30nzpp">
+              <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4ZSoa7ztVW1" role="30n1Qb">
+      <node concept="30nyDl" id="4ZSoa7ztVW2" role="30nziG">
+        <property role="30nzmz" value="Fill fields" />
+        <node concept="30nyDi" id="4ZSoa7ztVW3" role="30nyDj">
+          <property role="30lZVK" value="Empty context" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztVW4" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztVXT" role="30nyDh">
+          <property role="30lZVK" value="Fill username, domain, password" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztVW5" role="30nyDs">
+          <property role="30lZVK" value="Fields are filled" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztVW6" role="30nyDs">
+          <property role="30lZVK" value="Login button is enabled" />
+        </node>
+      </node>
+      <node concept="30l7Wy" id="4ZSoa7ztVW8" role="30nziE" />
+      <node concept="30nziD" id="4ZSoa7ztVW9" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztVPT" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="4ZSoa7ztVY1" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztVQ9" resolve="UsernameFilled" />
+        <node concept="Xl_RD" id="4ZSoa7ztVY7" role="30nziO">
+          <property role="Xl_RC" value="bob" />
+        </node>
+      </node>
+      <node concept="30nziD" id="4ZSoa7ztVYi" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztVQf" resolve="PasswordFilled" />
+        <node concept="Xl_RD" id="4ZSoa7ztVYj" role="30nziO">
+          <property role="Xl_RC" value="password123" />
+        </node>
+      </node>
+      <node concept="30nziD" id="4ZSoa7ztVYv" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztVQc" resolve="DomainFilled" />
+        <node concept="Xl_RD" id="4ZSoa7ztVYw" role="30nziO">
+          <property role="Xl_RC" value="myserver.com" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVWa" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_GlR" resolve="Username" />
+        <node concept="3fym7j" id="4ZSoa7ztVWb" role="30nDbQ">
+          <node concept="30nz6$" id="4ZSoa7ztVWc" role="3fym7i">
+            <property role="30nz6_" value="bob" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVWd" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_Gmp" resolve="Domain" />
+        <node concept="3fym7j" id="4ZSoa7ztVWe" role="30nDbQ">
+          <node concept="30nz6$" id="4ZSoa7ztVWf" role="3fym7i">
+            <property role="30nz6_" value="myserver.com" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVWg" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_Gm1" resolve="Password" />
+        <node concept="3fym7j" id="4ZSoa7ztVWh" role="30nDbQ">
+          <node concept="30nz6$" id="4ZSoa7ztVWi" role="3fym7i">
+            <property role="30nz6_" value="●●●●●●●●●●●" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVWs" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_GqT" resolve="LoginAnonymously" />
+        <node concept="1tZoqV" id="4ZSoa7ztVWt" role="30nDbQ">
+          <node concept="1tZoko" id="4ZSoa7ztVWu" role="1tZokz">
+            <property role="1tZokr" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztVWw" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oP_GpV" resolve="Login" />
+        <node concept="30nzp7" id="4ZSoa7ztVWx" role="30nDbQ">
+          <node concept="30nzps" id="4ZSoa7ztVWy" role="30nzpp">
+            <property role="30nzpr" value="true" />
           </node>
         </node>
       </node>
