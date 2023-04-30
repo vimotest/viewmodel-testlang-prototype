@@ -156,7 +156,6 @@
       <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb">
         <child id="5984107031776721828" name="checkFeature" index="2PZ2C7" />
       </concept>
-      <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym">
         <property id="6743755284663297273" name="hasParameters" index="3f4$la" />
       </concept>
@@ -2917,15 +2916,15 @@
         <node concept="2P4D6h" id="4r5LaleGjVY" role="2P5Oin" />
       </node>
     </node>
-    <node concept="3f4AKs" id="4r5LaleVUn8" role="3H8Xyh">
-      <property role="TrG5h" value="TimeUsageClicked" />
+    <node concept="3f4AKs" id="4ZSoa7ztTCO" role="3H8Xyh">
       <property role="3f4$la" value="true" />
-      <node concept="2P4x69" id="4r5LaleVUnr" role="2P43km">
-        <property role="TrG5h" value="radioButton" />
-        <node concept="2P4D6h" id="4r5LaleVUnq" role="2P5Oin" />
+      <property role="TrG5h" value="TimeUsageClicked" />
+      <ref role="3fS2vI" node="1XmN919qz8z" resolve="TimeUsage" />
+      <node concept="2P4x69" id="4ZSoa7ztTCP" role="2P43km">
+        <property role="TrG5h" value="option" />
+        <node concept="2P4D6h" id="4ZSoa7ztTCQ" role="2P5Oin" />
       </node>
     </node>
-    <node concept="3H8Xwz" id="4r5LaleGjWD" role="3H8Xyh" />
     <node concept="3H9FR8" id="1XmN919qzhz" role="3H8Xyh">
       <node concept="2P469S" id="1XmN919qzh$" role="3H9FRb">
         <property role="TrG5h" value="TimeUsageBar" />
@@ -3253,7 +3252,7 @@
         <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
       </node>
       <node concept="30nziD" id="4r5LaleVUnx" role="30nzo2">
-        <ref role="30nziQ" node="4r5LaleVUn8" resolve="TimeUsageClicked" />
+        <ref role="30nziQ" node="4ZSoa7ztTCO" resolve="TimeUsageClicked" />
         <node concept="Xl_RD" id="4r5LaleVUn_" role="30nziO">
           <property role="Xl_RC" value="PreviousMonth" />
         </node>

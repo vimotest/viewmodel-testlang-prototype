@@ -8,8 +8,13 @@
   <imports />
   <registry>
     <language id="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60" name="SimpleTypeLanguage">
+      <concept id="5878168047017091896" name="SimpleTypeLanguage.structure.Field" flags="ng" index="2P4x69" />
       <concept id="5878168047017091882" name="SimpleTypeLanguage.structure.StructType" flags="ng" index="2P4x6r">
         <child id="5878168047017215911" name="contents" index="2P43km" />
+      </concept>
+      <concept id="5878168047017124640" name="SimpleTypeLanguage.structure.StringType" flags="ng" index="2P4D6h" />
+      <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
+        <child id="5878168047017276966" name="type" index="2P5Oin" />
       </concept>
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
@@ -43,10 +48,17 @@
       <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
+      <concept id="6743755284664566090" name="ViewModelLanguage.structure.LoadViewEvent" flags="ng" index="3f3I3T" />
+      <concept id="6743755284663479730" name="ViewModelLanguage.structure.FillTextEvent" flags="ng" index="3f4gK1" />
+      <concept id="6743755284663291311" name="ViewModelLanguage.structure.ClickEvent" flags="ng" index="3f4AKs" />
+      <concept id="6743755284663983729" name="ViewModelLanguage.structure.SelectRowEvent" flags="ng" index="3f6vZ2" />
       <concept id="6743755284656506190" name="ViewModelLanguage.structure.TextBoxComponent" flags="ng" index="3fyYjX">
         <child id="6743755284656506191" name="textFeature" index="3fyYjW" />
       </concept>
       <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
+      <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
+        <reference id="6743755284662355549" name="component" index="3fS2vI" />
+      </concept>
       <concept id="6692228888293142975" name="ViewModelLanguage.structure.ColorVCFeature" flags="ng" index="3mzAc8" />
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
         <property id="7497173622928850064" name="path" index="1u4ncw" />
@@ -83,8 +95,12 @@
       <concept id="4321216645070226607" name="ViewModelLanguage.structure.CheckBoxComponent" flags="ng" index="3H4CWb">
         <child id="5984107031776721828" name="checkFeature" index="2PZ2C7" />
       </concept>
+      <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym">
+        <property id="6743755284663297273" name="hasParameters" index="3f4$la" />
+      </concept>
       <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_" />
       <concept id="4321216645069263618" name="ViewModelLanguage.structure.View" flags="ng" index="3H8XyA">
+        <child id="4321216645069263669" name="contents" index="3H8Xyh" />
         <child id="4321216645069263621" name="viewModel" index="3H8Xyx" />
       </concept>
       <concept id="5830978789222176938" name="ViewModelLanguage.structure.TableComponent" flags="ng" index="3KxLjU">
@@ -95,6 +111,68 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
+        <child id="643469022294099062" name="checks" index="2D8cJs" />
+      </concept>
+      <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
+        <child id="3426401106045796780" name="objects" index="30k8ga" />
+      </concept>
+      <concept id="3426401106045796685" name="ViewModelTestLanguage.structure.Object" flags="ng" index="30k8jF">
+        <child id="3426401106045796730" name="properties" index="30k8js" />
+      </concept>
+      <concept id="3426401106045796688" name="ViewModelTestLanguage.structure.SimpleValueProperty" flags="ng" index="30k8jQ">
+        <property id="3426401106045796691" name="value" index="30k8jP" />
+        <property id="1519488183372559966" name="isStringLiteral" index="3nhnwH" />
+      </concept>
+      <concept id="3426401106044983340" name="ViewModelTestLanguage.structure.ViewTestCase" flags="ng" index="30n1Qa">
+        <child id="3426401106045120780" name="context" index="30nziE" />
+        <child id="3426401106045120778" name="description" index="30nziG" />
+        <child id="3426401106045121444" name="inputCalls" index="30nzo2" />
+        <child id="3426401106045121476" name="asserts" index="30nzpy" />
+      </concept>
+      <concept id="3426401106044983339" name="ViewModelTestLanguage.structure.ViewTestSuite" flags="ng" index="30n1Qd">
+        <reference id="3426401106044983489" name="targetView" index="30n1PB" />
+        <child id="3426401106044983341" name="tests" index="30n1Qb" />
+      </concept>
+      <concept id="3426401106045120500" name="ViewModelTestLanguage.structure.DescriptionPart" flags="ng" index="30nyDi">
+        <property id="3426401106045631318" name="text" index="30lZVK" />
+      </concept>
+      <concept id="3426401106045120499" name="ViewModelTestLanguage.structure.TestCaseDescription" flags="ng" index="30nyDl">
+        <property id="3426401106045120517" name="scenario" index="30nzmz" />
+        <child id="3426401106045120503" name="when" index="30nyDh" />
+        <child id="3426401106045120501" name="given" index="30nyDj" />
+        <child id="3426401106045120506" name="then" index="30nyDs" />
+      </concept>
+      <concept id="3426401106045121538" name="ViewModelTestLanguage.structure.TextCheckValue" flags="ng" index="30nz6$">
+        <property id="3426401106045121539" name="text" index="30nz6_" />
+      </concept>
+      <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.ViewInputCall" flags="ng" index="30nziD">
+        <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
+      </concept>
+      <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
+        <reference id="3426401106045121502" name="component" index="30nzpS" />
+        <child id="3426401106045146960" name="check" index="30nDbQ" />
+      </concept>
+      <concept id="1519488183372569234" name="ViewModelTestLanguage.structure.Array" flags="ng" index="3nhhjx">
+        <child id="1519488183372569237" name="objects" index="3nhhjA" />
+      </concept>
+      <concept id="7497173622927425563" name="ViewModelTestLanguage.structure.TableCellCheck" flags="ng" index="1u3WYF">
+        <child id="7497173622927425564" name="viewComponentCheck" index="1u3WYG" />
+      </concept>
+      <concept id="7497173622928363536" name="ViewModelTestLanguage.structure.ImageCheck" flags="ng" index="1u6pYw">
+        <child id="7497173622928363675" name="checks" index="1u6pWF" />
+      </concept>
+      <concept id="7497173622928375666" name="ViewModelTestLanguage.structure.ImageRefCheckValue" flags="ng" index="1u6r32">
+        <reference id="7497173622928375669" name="image" index="1u6r35" />
+      </concept>
+      <concept id="6853349774631251782" name="ViewModelTestLanguage.structure.TableRowCheck" flags="ng" index="1Dvt89">
+        <child id="6853349774631251791" name="cellChecks" index="1Dvt80" />
+      </concept>
+      <concept id="6853349774631251773" name="ViewModelTestLanguage.structure.TableCheck" flags="ng" index="1Dvt9M">
+        <child id="643469022294143860" name="rowChecks" index="2D8nNu" />
       </concept>
     </language>
   </registry>
@@ -467,6 +545,63 @@
             <property role="2PigPS" value="IsSecure" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3f3I3T" id="4ZSoa7ztU8I" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztU8J" role="3H8Xyh">
+      <property role="TrG5h" value="StatusFreeToChatClicked" />
+      <ref role="3fS2vI" node="7y3M9oP_Gsb" resolve="StatusFreeToChat" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztU8K" role="3H8Xyh">
+      <property role="TrG5h" value="StatusOnlineClicked" />
+      <ref role="3fS2vI" node="7y3M9oPBjSA" resolve="StatusOnline" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztU8L" role="3H8Xyh">
+      <property role="TrG5h" value="StatusAwayClicked" />
+      <ref role="3fS2vI" node="7y3M9oPBjSM" resolve="StatusAway" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztU8M" role="3H8Xyh">
+      <property role="TrG5h" value="StatusOnThePhoneClicked" />
+      <ref role="3fS2vI" node="7y3M9oPBjT2" resolve="StatusOnThePhone" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztU8N" role="3H8Xyh">
+      <property role="TrG5h" value="StatusExtendedAwayClicked" />
+      <ref role="3fS2vI" node="7y3M9oPBjTm" resolve="StatusExtendedAway" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztU8O" role="3H8Xyh">
+      <property role="TrG5h" value="StatusDoNotDisturbClicked" />
+      <ref role="3fS2vI" node="7y3M9oPBjTI" resolve="StatusDoNotDisturb" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztU8P" role="3H8Xyh">
+      <property role="TrG5h" value="StatusInvisibleClicked" />
+      <ref role="3fS2vI" node="7y3M9oPBjUa" resolve="StatusInvisible" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztU8Q" role="3H8Xyh">
+      <property role="TrG5h" value="SetStatusMessageClicked" />
+      <ref role="3fS2vI" node="7y3M9oPBjV8" resolve="SetStatusMessage" />
+    </node>
+    <node concept="3f4AKs" id="4ZSoa7ztU8R" role="3H8Xyh">
+      <property role="TrG5h" value="EditCustomStatusMessagesClicked" />
+      <ref role="3fS2vI" node="7y3M9oPBjVK" resolve="EditCustomStatusMessages" />
+    </node>
+    <node concept="3f6vZ2" id="4ZSoa7ztU8S" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="UsersRowSelected" />
+      <ref role="3fS2vI" node="7y3M9oPBjYw" resolve="Users" />
+      <node concept="2P4x69" id="4ZSoa7ztU8T" role="2P43km">
+        <property role="TrG5h" value="rowHandle" />
+        <node concept="2P4D6h" id="4ZSoa7ztU8U" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3f4gK1" id="4ZSoa7ztU8V" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="SearchPeopleFilled" />
+      <ref role="3fS2vI" node="7y3M9oPFM5N" resolve="SearchPeople" />
+      <node concept="2P4x69" id="4ZSoa7ztU8W" role="2P43km">
+        <property role="TrG5h" value="text" />
+        <node concept="2P4D6h" id="4ZSoa7ztU8X" role="2P5Oin" />
       </node>
     </node>
   </node>
@@ -1191,6 +1326,259 @@
       <property role="TrG5h" value="spark_tray_connecting-16x16" />
       <node concept="1u4ncX" id="7y3M9oPB7kv" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/spark_tray_connecting-16x16.png" />
+      </node>
+    </node>
+  </node>
+  <node concept="30n1Qd" id="4ZSoa7ztU9e">
+    <property role="TrG5h" value="MainViewTests" />
+    <ref role="30n1PB" node="7y3M9oP_Gs9" resolve="MainView" />
+    <node concept="30n1Qa" id="4ZSoa7ztU9f" role="30n1Qb">
+      <node concept="30nyDl" id="4ZSoa7ztU9g" role="30nziG">
+        <property role="30nzmz" value="Status available" />
+        <node concept="30nyDi" id="4ZSoa7ztU9h" role="30nyDj">
+          <property role="30lZVK" value="Status 'available'" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztU9i" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztU9U" role="30nyDs">
+          <property role="30lZVK" value="Status is 'available'" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="4ZSoa7ztU9v" role="30nziE">
+        <node concept="30k8jF" id="4ZSoa7ztU9y" role="30k8ga">
+          <property role="TrG5h" value="account" />
+          <node concept="30k8jQ" id="4ZSoa7ztU9$" role="30k8js">
+            <property role="TrG5h" value="id" />
+            <property role="30k8jP" value="MyUser" />
+            <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="30k8jQ" id="4ZSoa7ztU9D" role="30k8js">
+            <property role="TrG5h" value="status" />
+            <property role="30k8jP" value="available" />
+            <property role="3nhnwH" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="4ZSoa7ztU9G" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztU8I" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztU9J" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oPBjWY" resolve="CurrentStatus" />
+        <node concept="1u6pYw" id="4ZSoa7ztU9K" role="30nDbQ">
+          <node concept="1u6r32" id="4ZSoa7ztU9L" role="1u6pWF">
+            <ref role="1u6r35" node="7y3M9oPB7it" resolve="im_available" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4ZSoa7ztUdD" role="30n1Qb">
+      <node concept="30nyDl" id="4ZSoa7ztUdE" role="30nziG">
+        <property role="30nzmz" value="Change status to away" />
+        <node concept="30nyDi" id="4ZSoa7ztUdF" role="30nyDj">
+          <property role="30lZVK" value="Status 'available'" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztUdG" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztUf7" role="30nyDh">
+          <property role="30lZVK" value="Change status to 'away'" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztUdH" role="30nyDs">
+          <property role="30lZVK" value="Status is 'away'" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="4ZSoa7ztUdI" role="30nziE">
+        <node concept="30k8jF" id="4ZSoa7ztUdJ" role="30k8ga">
+          <property role="TrG5h" value="account" />
+          <node concept="30k8jQ" id="4ZSoa7ztUdK" role="30k8js">
+            <property role="TrG5h" value="id" />
+            <property role="30k8jP" value="MyUser" />
+            <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="30k8jQ" id="4ZSoa7ztUdL" role="30k8js">
+            <property role="TrG5h" value="status" />
+            <property role="30k8jP" value="available" />
+            <property role="3nhnwH" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="4ZSoa7ztUdM" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztU8I" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="4ZSoa7ztUfd" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztU8L" resolve="StatusAwayClicked" />
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztUdN" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oPBjWY" resolve="CurrentStatus" />
+        <node concept="1u6pYw" id="4ZSoa7ztUdO" role="30nDbQ">
+          <node concept="1u6r32" id="4ZSoa7ztUdP" role="1u6pWF">
+            <ref role="1u6r35" node="7y3M9oPB7eT" resolve="im_away" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4ZSoa7ztUaS" role="30n1Qb">
+      <node concept="30nyDl" id="4ZSoa7ztUaT" role="30nziG">
+        <property role="30nzmz" value="Status do not disturb" />
+        <node concept="30nyDi" id="4ZSoa7ztUaU" role="30nyDj">
+          <property role="30lZVK" value="Status 'do not disturb'" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztUaV" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztUaW" role="30nyDs">
+          <property role="30lZVK" value="Status is 'do not disturb'" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="4ZSoa7ztUaX" role="30nziE">
+        <node concept="30k8jF" id="4ZSoa7ztUaY" role="30k8ga">
+          <property role="TrG5h" value="account" />
+          <node concept="30k8jQ" id="4ZSoa7ztUaZ" role="30k8js">
+            <property role="TrG5h" value="id" />
+            <property role="30k8jP" value="MyUser" />
+            <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="30k8jQ" id="4ZSoa7ztUb0" role="30k8js">
+            <property role="TrG5h" value="status" />
+            <property role="30k8jP" value="available" />
+            <property role="3nhnwH" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="4ZSoa7ztUb1" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztU8I" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztUb2" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oPBjWY" resolve="CurrentStatus" />
+        <node concept="1u6pYw" id="4ZSoa7ztUb3" role="30nDbQ">
+          <node concept="1u6r32" id="4ZSoa7ztUb4" role="1u6pWF">
+            <ref role="1u6r35" node="7y3M9oPB7e5" resolve="im_dnd" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4ZSoa7ztUa4" role="30n1Qb">
+      <node concept="30nyDl" id="4ZSoa7ztUa5" role="30nziG">
+        <property role="30nzmz" value="Empty contacts" />
+        <node concept="30nyDi" id="4ZSoa7ztUa6" role="30nyDj">
+          <property role="30lZVK" value="No contacts" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztUa7" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztUa9" role="30nyDs">
+          <property role="30lZVK" value="Users table is empty" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="4ZSoa7ztUaa" role="30nziE">
+        <node concept="30k8jF" id="4ZSoa7ztUab" role="30k8ga">
+          <property role="TrG5h" value="account" />
+          <node concept="30k8jQ" id="4ZSoa7ztUac" role="30k8js">
+            <property role="TrG5h" value="id" />
+            <property role="30k8jP" value="MyUser" />
+            <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="30k8jQ" id="4ZSoa7ztUad" role="30k8js">
+            <property role="TrG5h" value="status" />
+            <property role="30k8jP" value="available" />
+            <property role="3nhnwH" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="4ZSoa7ztUae" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztU8I" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztUai" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oPBjYw" resolve="Users" />
+        <node concept="1Dvt9M" id="4ZSoa7ztUaj" role="30nDbQ" />
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4ZSoa7ztUbM" role="30n1Qb">
+      <node concept="30nyDl" id="4ZSoa7ztUbN" role="30nziG">
+        <property role="30nzmz" value="One contact" />
+        <node concept="30nyDi" id="4ZSoa7ztUbO" role="30nyDj">
+          <property role="30lZVK" value="Contact Alice status 'away'" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztUbP" role="30nyDh">
+          <property role="30lZVK" value="Load view" />
+        </node>
+        <node concept="30nyDi" id="4ZSoa7ztUbQ" role="30nyDs">
+          <property role="30lZVK" value="Users table shows one row of Alice" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="4ZSoa7ztUbR" role="30nziE">
+        <node concept="30k8jF" id="4ZSoa7ztUbS" role="30k8ga">
+          <property role="TrG5h" value="account" />
+          <node concept="30k8jQ" id="4ZSoa7ztUbT" role="30k8js">
+            <property role="TrG5h" value="id" />
+            <property role="30k8jP" value="MyUser" />
+            <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="30k8jQ" id="4ZSoa7ztUbU" role="30k8js">
+            <property role="TrG5h" value="status" />
+            <property role="30k8jP" value="available" />
+            <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="3nhhjx" id="4ZSoa7ztUcW" role="30k8js">
+            <property role="TrG5h" value="contacts" />
+            <node concept="30k8jF" id="4ZSoa7ztUd1" role="3nhhjA">
+              <node concept="30k8jQ" id="4ZSoa7ztUd3" role="30k8js">
+                <property role="TrG5h" value="id" />
+                <property role="30k8jP" value="alice" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4ZSoa7ztUd5" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="Alice" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4ZSoa7ztUd8" role="30k8js">
+                <property role="TrG5h" value="status" />
+                <property role="30k8jP" value="away" />
+                <property role="3nhnwH" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="4ZSoa7ztUbV" role="30nzo2">
+        <ref role="30nziQ" node="4ZSoa7ztU8I" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="4ZSoa7ztUbW" role="30nzpy">
+        <ref role="30nzpS" node="7y3M9oPBjYw" resolve="Users" />
+        <node concept="1Dvt9M" id="4ZSoa7ztUbX" role="30nDbQ">
+          <node concept="1Dvt89" id="4ZSoa7ztUdc" role="2D8nNu">
+            <node concept="1u3WYF" id="4ZSoa7ztUdd" role="1Dvt80">
+              <node concept="1u6pYw" id="4ZSoa7ztUd$" role="1u3WYG">
+                <node concept="1u6r32" id="4ZSoa7ztUd_" role="1u6pWF">
+                  <ref role="1u6r35" node="7y3M9oPB7eT" resolve="im_away" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="4ZSoa7ztUdf" role="1Dvt80">
+              <node concept="2D8cJI" id="4ZSoa7ztUdg" role="1u3WYG">
+                <node concept="30nz6$" id="4ZSoa7ztUdh" role="2D8cJs">
+                  <property role="30nz6_" value="Alice" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="4ZSoa7ztUdi" role="1Dvt80">
+              <node concept="2D8cJI" id="4ZSoa7ztUdj" role="1u3WYG">
+                <node concept="30nz6$" id="4ZSoa7ztUdk" role="2D8cJs">
+                  <property role="30nz6_" value="- Away" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="4ZSoa7ztUdl" role="1Dvt80">
+              <node concept="2D8cJI" id="4ZSoa7ztUdm" role="1u3WYG">
+                <node concept="30nz6$" id="4ZSoa7ztUdn" role="2D8cJs">
+                  <property role="30nz6_" value="default" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
