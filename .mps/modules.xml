@@ -12,6 +12,7 @@
       <modulePath path="$PROJECT_DIR$/languages/ViewModelTestLanguage/ViewModelTestLanguage.mpl" folder="test" />
       <modulePath path="$PROJECT_DIR$/solutions/ExampleApplications/ExampleApplications.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ViewModelLanguage.build/ViewModelLanguage.build.msd" folder="build" />
+      <modulePath path="$PROJECT_DIR$/solutions/ViewModelLanguage.plugin/ViewModelLanguage.plugin.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/solutions/ViewModelLanguage.test/ViewModelLanguage.test.msd" folder="build" />
     </projectModules>
   </component>

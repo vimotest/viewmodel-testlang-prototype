@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:069fa714-a6ca-4da2-b509-0247db4d61f5(ViewModelLanguage.plugin)">
+<model ref="r:badfe6ce-0068-4cc2-b186-fac7a2793134(ViewModelLanguage.plugin.plugin)">
   <persistence version="9" />
   <languages>
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
-    <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
-    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
-    <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="6ap2" ref="r:eb134abe-e3cf-4c45-9c39-b0e1fd592dbc(ViewModelLanguage.structure)" implicit="true" />
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" />
+    <import index="6ap2" ref="r:eb134abe-e3cf-4c45-9c39-b0e1fd592dbc(ViewModelLanguage.structure)" />
+    <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
@@ -1109,7 +1110,7 @@
             <node concept="17QB3L" id="4QeqjxZSUHF" role="1tU5fm" />
           </node>
           <node concept="37vLTw" id="4QeqjxZXcSp" role="1DdaDG">
-            <ref role="3cqZAo" node="4QeqjxZXcSn" resolve="set" />
+            <ref role="3cqZAo" node="4QeqjxZXcSn" resolve="orderedComponentUsages" />
           </node>
         </node>
       </node>
@@ -1444,7 +1445,7 @@
                     <ref role="3cqZAo" node="4QeqjxZWSnh" resolve="result" />
                   </node>
                   <node concept="37vLTw" id="4QeqjxZYYuO" role="3ElVtu">
-                    <ref role="3cqZAo" node="4QeqjxZYYuF" resolve="string" />
+                    <ref role="3cqZAo" node="4QeqjxZYYuF" resolve="key" />
                   </node>
                 </node>
               </node>
@@ -1476,13 +1477,14 @@
         </node>
         <node concept="3clFbF" id="4QeqjxZWRdM" role="3cqZAp">
           <node concept="37vLTw" id="4QeqjxZWSnm" role="3clFbG">
-            <ref role="3cqZAo" node="4QeqjxZWSnh" resolve="map_string_int" />
+            <ref role="3cqZAo" node="4QeqjxZWSnh" resolve="result" />
           </node>
         </node>
       </node>
       <node concept="3Tm6S6" id="4QeqjxZWDie" role="1B3o_S" />
     </node>
   </node>
+  <node concept="2DaZZR" id="4ZSoa7zAjri" />
   <node concept="tC5Ba" id="4ZSoa7z_Pwk">
     <property role="TrG5h" value="ViMoTestGroup" />
     <node concept="ftmFs" id="4ZSoa7z_Pwm" role="ftER_">
@@ -1494,6 +1496,5 @@
       <ref role="tU$_T" to="tprs:miYJQAr2Uj" resolve="CommonModuleActions" />
     </node>
   </node>
-  <node concept="2DaZZR" id="4ZSoa7zAjri" />
 </model>
 
