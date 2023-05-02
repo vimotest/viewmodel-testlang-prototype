@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:90759173-5ac0-4e14-b217-2a754cc65c6d(ExampleApplications.simplelogin)">
+<model ref="r:f8b6161a-6c5e-48be-bba6-fc5f48ecece3(ExampleApplications.simplelogin)">
   <persistence version="9" />
   <languages>
     <use id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage" version="0" />
