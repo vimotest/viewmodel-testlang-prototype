@@ -6561,7 +6561,7 @@
         <node concept="3clFbF" id="7y3M9oPFU9u" role="3cqZAp">
           <node concept="37vLTI" id="7y3M9oPFU9v" role="3clFbG">
             <node concept="37vLTw" id="7y3M9oPFU9w" role="37vLTx">
-              <ref role="3cqZAo" node="7y3M9oPFU9M" resolve="buttonNode" />
+              <ref role="3cqZAo" node="7y3M9oPFU9M" resolve="radioButtonsNode" />
             </node>
             <node concept="2OqwBi" id="7y3M9oPFU9x" role="37vLTJ">
               <node concept="37vLTw" id="7y3M9oPFU9y" role="2Oq$k0">
@@ -6581,7 +6581,7 @@
               </node>
               <node concept="2OqwBi" id="7y3M9oPFU9C" role="3uHU7B">
                 <node concept="37vLTw" id="7y3M9oPFU9D" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7y3M9oPFU9M" resolve="buttonNode" />
+                  <ref role="3cqZAo" node="7y3M9oPFU9M" resolve="radioButtonsNode" />
                 </node>
                 <node concept="3TrcHB" id="7y3M9oPFU9E" role="2OqNvi">
                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -6636,7 +6636,7 @@
         <node concept="3clFbF" id="7y3M9oPG1Da" role="3cqZAp">
           <node concept="37vLTI" id="7y3M9oPG1Db" role="3clFbG">
             <node concept="37vLTw" id="7y3M9oPG1Dc" role="37vLTx">
-              <ref role="3cqZAo" node="7y3M9oPG1Du" resolve="tableNode" />
+              <ref role="3cqZAo" node="7y3M9oPG1Du" resolve="comboBoxNode" />
             </node>
             <node concept="2OqwBi" id="7y3M9oPG1Dd" role="37vLTJ">
               <node concept="37vLTw" id="7y3M9oPG1De" role="2Oq$k0">
@@ -6656,7 +6656,7 @@
               </node>
               <node concept="2OqwBi" id="7y3M9oPG1Dk" role="3uHU7B">
                 <node concept="37vLTw" id="7y3M9oPG1Dl" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7y3M9oPG1Du" resolve="tableNode" />
+                  <ref role="3cqZAo" node="7y3M9oPG1Du" resolve="comboBoxNode" />
                 </node>
                 <node concept="3TrcHB" id="7y3M9oPG1Dm" role="2OqNvi">
                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />

@@ -210,7 +210,7 @@
   </node>
   <node concept="30n1Qd" id="7YmZ2rG9HDW">
     <property role="TrG5h" value="SimpleLoginViewTests" />
-    <ref role="30n1PB" node="7YmZ2rG9HBU" resolve="LoginView" />
+    <ref role="30n1PB" node="7YmZ2rG9HBU" resolve="SimpleLoginView" />
     <node concept="30n1Qa" id="7YmZ2rG9HDX" role="30n1Qb">
       <node concept="30nyDl" id="7YmZ2rG9HDY" role="30nziG">
         <property role="30nzmz" value="Empty form" />
