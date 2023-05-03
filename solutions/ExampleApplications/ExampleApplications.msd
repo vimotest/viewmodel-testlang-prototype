@@ -14,6 +14,7 @@
   <dependencies>
     <dependency reexport="false">d4c3c703-e253-4bbb-a1ce-7fefd9f004cc(HamsterViewLanguage.generator)</dependency>
     <dependency reexport="false">b344aa7e-2e08-4f45-aa82-4796d5345f7b(HamsterViewLanguage)</dependency>
+    <dependency reexport="false">bb0a550d-4d97-495d-a6c8-f0f86a1372f7(ViewModelLanguage2Java.generator)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:b344aa7e-2e08-4f45-aa82-4796d5345f7b:HamsterViewLanguage" version="0" />
