@@ -835,6 +835,62 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="60Ls6eJaYj5" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="ExampleApplications" />
+        <property role="3LESm3" value="99753e4b-2127-4cca-bdd3-33c8e9a9f97b" />
+        <node concept="55IIr" id="60Ls6eJaYny" role="3LF7KH">
+          <node concept="2Ry0Ak" id="60Ls6eJaYnC" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="60Ls6eJaYnH" role="2Ry0An">
+              <property role="2Ry0Am" value="ExampleApplications" />
+              <node concept="2Ry0Ak" id="60Ls6eJaYnM" role="2Ry0An">
+                <property role="2Ry0Am" value="ExampleApplications.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="60Ls6eJaYjb" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="60Ls6eJaYq7" role="1HemKq">
+            <node concept="398BVA" id="60Ls6eJaYpV" role="3LXTmr">
+              <ref role="398BVh" node="1n6T2_x2WNE" resolve="project_home" />
+              <node concept="2Ry0Ak" id="60Ls6eJaYpW" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="60Ls6eJaYpX" role="2Ry0An">
+                  <property role="2Ry0Am" value="ExampleApplications" />
+                  <node concept="2Ry0Ak" id="60Ls6eJaYpY" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="60Ls6eJaYq8" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3bR9La" id="60Ls6eJaYjj" role="3bR37C">
+          <ref role="3bR37D" node="1n6T2_x2WPj" resolve="ViewModelLanguage2Java.generator" />
+        </node>
+        <node concept="1SiIV0" id="60Ls6eJaYpP" role="3bR37C">
+          <node concept="3bR9La" id="60Ls6eJaYpQ" role="1SiIV1">
+            <ref role="3bR37D" node="5SMmqCnuKhI" resolve="HamsterViewLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="60Ls6eJaYpR" role="3bR37C">
+          <node concept="3bR9La" id="60Ls6eJaYpS" role="1SiIV1">
+            <ref role="3bR37D" node="5SMmqCnuKnB" resolve="HamsterViewLanguage.generator" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="60Ls6eJaYpT" role="3bR37C">
+          <node concept="3bR9La" id="60Ls6eJaYpU" role="1SiIV1">
+            <ref role="3bR37D" node="1n6T2_x2WPj" resolve="ViewModelLanguage2Java.generator" />
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtA" id="7xn_gHyDcls" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="ViewModelLanguage.test" />
