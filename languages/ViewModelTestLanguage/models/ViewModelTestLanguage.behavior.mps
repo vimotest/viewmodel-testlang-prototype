@@ -12585,7 +12585,7 @@
               </node>
             </node>
             <node concept="BsUDl" id="2gml1W1sW1O" role="33vP2m">
-              <ref role="37wK5l" node="2gml1W1sRGr" />
+              <ref role="37wK5l" node="2gml1W1sRGr" resolve="getFieldReferenceScopeForParentNode" />
               <node concept="2OqwBi" id="2gml1W1sW1P" role="37wK5m">
                 <node concept="13iPFW" id="2gml1W1sW1Q" role="2Oq$k0" />
                 <node concept="1mfA1w" id="2gml1W1sW1R" role="2OqNvi" />
@@ -12628,7 +12628,7 @@
                       <ref role="1M0zk5" node="$0NZ7Dhzic" resolve="parentStructFieldReference" />
                     </node>
                     <node concept="2qgKlT" id="$0NZ7DDQNL" role="2OqNvi">
-                      <ref role="37wK5l" node="$0NZ7DDHEU" resolve="getScope" />
+                      <ref role="37wK5l" node="$0NZ7DDHEU" resolve="getStructScope" />
                     </node>
                   </node>
                   <node concept="3Tsc0h" id="$0NZ7Dh$iQ" role="2OqNvi">

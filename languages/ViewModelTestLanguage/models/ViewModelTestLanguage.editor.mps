@@ -4830,41 +4830,122 @@
     </node>
     <node concept="2VfDsV" id="3r_aeMfZnLS" role="3ft7WO" />
   </node>
-  <node concept="24kQdi" id="5QKRmMfM7x7">
-    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <ref role="1XX52x" to="l8rz:5QKRmMfM7wU" resolve="NestingStructFieldReference" />
-    <node concept="3EZMnI" id="5QKRmMfM7xe" role="2wV5jI">
-      <node concept="3F1sOY" id="5QKRmMfM7xl" role="3EZMnx">
-        <ref role="1NtTu8" to="l8rz:5QKRmMfM7xb" resolve="contextReference" />
-      </node>
-      <node concept="3F0ifn" id="5QKRmMfM7xr" role="3EZMnx">
-        <property role="3F0ifm" value="." />
-        <node concept="11L4FC" id="5QKRmMfMaZm" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="11LMrY" id="5QKRmMfMaZr" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F1sOY" id="5QKRmMfM7xz" role="3EZMnx">
-        <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
-        <ref role="1NtTu8" to="l8rz:76FdW9MssZb" resolve="nestedReference" />
-      </node>
-      <node concept="2iRfu4" id="5QKRmMfM7xh" role="2iSdaV" />
+  <node concept="2ABfQD" id="tZJf$pHnRH">
+    <property role="TrG5h" value="Editor2PdfHints" />
+    <node concept="2BsEeg" id="tZJf$pHnRI" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="only_tests" />
+    </node>
+    <node concept="2BsEeg" id="tZJf$pJsVO" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="only_description" />
+    </node>
+    <node concept="2BsEeg" id="tZJf$pHnRK" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="only_context" />
+    </node>
+    <node concept="2BsEeg" id="tZJf$pHnRN" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="only_triggers" />
+    </node>
+    <node concept="2BsEeg" id="tZJf$pHnRR" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="only_asserts" />
     </node>
   </node>
-  <node concept="24kQdi" id="5QKRmMfMaZv">
-    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <ref role="1XX52x" to="l8rz:5QKRmMfM7wX" resolve="DirectStructFieldReference" />
-    <node concept="1iCGBv" id="5QKRmMfMaZx" role="2wV5jI">
-      <ref role="1NtTu8" to="l8rz:5QKRmMfM7x0" resolve="field" />
-      <node concept="1sVBvm" id="5QKRmMfMaZz" role="1sWHZn">
-        <node concept="3F0A7n" id="5QKRmMfMaZE" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+  <node concept="24kQdi" id="tZJf$pHpdA">
+    <ref role="1XX52x" to="l8rz:2Yd1qrJOhwF" resolve="ViewTestSuite" />
+    <node concept="2aJ2om" id="tZJf$pHpQN" role="CpUAK">
+      <ref role="2$4xQ3" node="tZJf$pHnRI" resolve="only_tests" />
+    </node>
+    <node concept="3F2HdR" id="tZJf$pHpfe" role="2wV5jI">
+      <property role="2czwfO" value="\n" />
+      <ref role="1NtTu8" to="l8rz:2Yd1qrJOhwH" resolve="tests" />
+      <node concept="2iRkQZ" id="tZJf$pHpff" role="2czzBx" />
+      <node concept="lj46D" id="tZJf$pHpfg" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="ljvvj" id="tZJf$pHpfh" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="tZJf$pHq1T">
+    <property role="3GE5qa" value="test" />
+    <ref role="1XX52x" to="l8rz:2Yd1qrJOhwG" resolve="ViewTestCase" />
+    <node concept="2aJ2om" id="tZJf$pHq2o" role="CpUAK">
+      <ref role="2$4xQ3" node="tZJf$pJsVO" resolve="only_description" />
+    </node>
+    <node concept="3F1sOY" id="tZJf$pHq1V" role="2wV5jI">
+      <ref role="1NtTu8" to="l8rz:2Yd1qrJON4a" resolve="description" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="tZJf$pJsVU">
+    <property role="3GE5qa" value="test" />
+    <ref role="1XX52x" to="l8rz:2Yd1qrJOhwG" resolve="ViewTestCase" />
+    <node concept="2aJ2om" id="tZJf$pJsWp" role="CpUAK">
+      <ref role="2$4xQ3" node="tZJf$pHnRK" resolve="only_context" />
+    </node>
+    <node concept="3F1sOY" id="tZJf$pJsVX" role="2wV5jI">
+      <ref role="1NtTu8" to="l8rz:2Yd1qrJON4c" resolve="context" />
+      <node concept="pVoyu" id="tZJf$pJsVY" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="lj46D" id="tZJf$pJsVZ" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="tZJf$pJsWw">
+    <property role="3GE5qa" value="test" />
+    <ref role="1XX52x" to="l8rz:2Yd1qrJOhwG" resolve="ViewTestCase" />
+    <node concept="2aJ2om" id="tZJf$pJsWZ" role="CpUAK">
+      <ref role="2$4xQ3" node="tZJf$pHnRN" resolve="only_triggers" />
+    </node>
+    <node concept="3F2HdR" id="tZJf$pJsWE" role="2wV5jI">
+      <ref role="1NtTu8" to="l8rz:2Yd1qrJONe$" resolve="inputCalls" />
+      <node concept="2iRkQZ" id="tZJf$pJsWF" role="2czzBx" />
+      <node concept="pVoyu" id="tZJf$pJsWG" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="lj46D" id="tZJf$pJsWH" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="tZJf$pJsX5">
+    <property role="3GE5qa" value="test" />
+    <ref role="1XX52x" to="l8rz:2Yd1qrJOhwG" resolve="ViewTestCase" />
+    <node concept="2aJ2om" id="tZJf$pJsX$" role="CpUAK">
+      <ref role="2$4xQ3" node="tZJf$pHnRR" resolve="only_asserts" />
+    </node>
+    <node concept="3F2HdR" id="tZJf$pJsXn" role="2wV5jI">
+      <property role="2czwfO" value=" " />
+      <ref role="1NtTu8" to="l8rz:2Yd1qrJONf4" resolve="asserts" />
+      <node concept="pVoyu" id="tZJf$pJsXo" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="lj46D" id="tZJf$pJsXp" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="2iRkQZ" id="tZJf$pJsXq" role="2czzBx" />
+      <node concept="tppnM" id="tZJf$pJsXr" role="sWeuL">
+        <node concept="ljvvj" id="tZJf$pJsXs" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="tZJf$pJsXt" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VSNWy" id="tZJf$pJsXu" role="3F10Kt">
+          <property role="1lJzqX" value="4" />
         </node>
       </node>
     </node>
+  </node>
+  <node concept="22mcaB" id="$0NZ7DpEse">
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <ref role="aqKnT" to="l8rz:5QKRmMfM7wU" resolve="NestingStructFieldReference" />
+    <node concept="22hDWj" id="$0NZ7DpEsf" role="22hAXT" />
   </node>
   <node concept="3ICUPy" id="$0NZ7DbJBX">
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
@@ -4980,7 +5061,7 @@
                 </node>
                 <node concept="2OqwBi" id="45b0rFhQSlK" role="37vLTJ">
                   <node concept="37vLTw" id="45b0rFhQSlL" role="2Oq$k0">
-                    <ref role="3cqZAo" node="45b0rFhQSlC" resolve="nestingFieldReference" />
+                    <ref role="3cqZAo" node="45b0rFhQSlC" resolve="indexAccessReference" />
                   </node>
                   <node concept="3TrEf2" id="45b0rFhQSlM" role="2OqNvi">
                     <ref role="3Tt5mk" to="l8rz:5QKRmMfM7x0" resolve="field" />
@@ -4994,7 +5075,7 @@
                 <node concept="liA8E" id="45b0rFhQSlQ" role="2OqNvi">
                   <ref role="37wK5l" to="cj4x:~EditorContext.selectWRTFocusPolicy(org.jetbrains.mps.openapi.model.SNode)" resolve="selectWRTFocusPolicy" />
                   <node concept="37vLTw" id="45b0rFhQSlR" role="37wK5m">
-                    <ref role="3cqZAo" node="45b0rFhQSlC" resolve="nestingFieldReference" />
+                    <ref role="3cqZAo" node="45b0rFhQSlC" resolve="indexAccessReference" />
                   </node>
                 </node>
               </node>
@@ -5048,7 +5129,7 @@
                 <node concept="7Obwk" id="45b0rFhW5vm" role="37vLTx" />
                 <node concept="2OqwBi" id="45b0rFhW5vn" role="37vLTJ">
                   <node concept="37vLTw" id="45b0rFhW5vo" role="2Oq$k0">
-                    <ref role="3cqZAo" node="45b0rFhW5vf" resolve="indexAccessReference" />
+                    <ref role="3cqZAo" node="45b0rFhW5vf" resolve="sizeAccessReference" />
                   </node>
                   <node concept="3TrEf2" id="45b0rFhW5vp" role="2OqNvi">
                     <ref role="3Tt5mk" to="l8rz:45b0rFhW4Ox" resolve="baseReference" />
@@ -5062,7 +5143,7 @@
                 <node concept="liA8E" id="45b0rFhW5vt" role="2OqNvi">
                   <ref role="37wK5l" to="cj4x:~EditorContext.selectWRTFocusPolicy(org.jetbrains.mps.openapi.model.SNode)" resolve="selectWRTFocusPolicy" />
                   <node concept="37vLTw" id="45b0rFhW5vu" role="37wK5m">
-                    <ref role="3cqZAo" node="45b0rFhW5vf" resolve="indexAccessReference" />
+                    <ref role="3cqZAo" node="45b0rFhW5vf" resolve="sizeAccessReference" />
                   </node>
                 </node>
               </node>
@@ -5085,6 +5166,65 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="45b0rFhW4Oy">
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <ref role="1XX52x" to="l8rz:45b0rFhW4Ov" resolve="SizeStructFieldReference" />
+    <node concept="3EZMnI" id="45b0rFhW4O$" role="2wV5jI">
+      <node concept="3F1sOY" id="45b0rFhW4O_" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:45b0rFhW4Ox" resolve="baseReference" />
+      </node>
+      <node concept="3F0ifn" id="45b0rFhW4OA" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+        <node concept="11L4FC" id="45b0rFhW4OB" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="45b0rFhW4OC" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="45b0rFhW4P1" role="3EZMnx">
+        <property role="3F0ifm" value="size" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="2iRfu4" id="45b0rFhW4OG" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5QKRmMfMaZv">
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <ref role="1XX52x" to="l8rz:5QKRmMfM7wX" resolve="DirectStructFieldReference" />
+    <node concept="1iCGBv" id="5QKRmMfMaZx" role="2wV5jI">
+      <ref role="1NtTu8" to="l8rz:5QKRmMfM7x0" resolve="field" />
+      <node concept="1sVBvm" id="5QKRmMfMaZz" role="1sWHZn">
+        <node concept="3F0A7n" id="5QKRmMfMaZE" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5QKRmMfM7x7">
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <ref role="1XX52x" to="l8rz:5QKRmMfM7wU" resolve="NestingStructFieldReference" />
+    <node concept="3EZMnI" id="5QKRmMfM7xe" role="2wV5jI">
+      <node concept="3F1sOY" id="5QKRmMfM7xl" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:5QKRmMfM7xb" resolve="contextReference" />
+      </node>
+      <node concept="3F0ifn" id="5QKRmMfM7xr" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+        <node concept="11L4FC" id="5QKRmMfMaZm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="5QKRmMfMaZr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="5QKRmMfM7xz" role="3EZMnx">
+        <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
+        <ref role="1NtTu8" to="l8rz:76FdW9MssZb" resolve="nestedReference" />
+      </node>
+      <node concept="2iRfu4" id="5QKRmMfM7xh" role="2iSdaV" />
     </node>
   </node>
   <node concept="22mcaB" id="$0NZ7Dhyjj">
@@ -5151,11 +5291,6 @@
       </node>
     </node>
   </node>
-  <node concept="22mcaB" id="$0NZ7DpEse">
-    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <ref role="aqKnT" to="l8rz:5QKRmMfM7wU" resolve="NestingStructFieldReference" />
-    <node concept="22hDWj" id="$0NZ7DpEsf" role="22hAXT" />
-  </node>
   <node concept="24kQdi" id="45b0rFhQjHg">
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
     <ref role="1XX52x" to="l8rz:45b0rFhQjHa" resolve="IndexAccessStructFieldReference" />
@@ -5189,29 +5324,6 @@
         </node>
       </node>
       <node concept="2iRfu4" id="45b0rFhQjHo" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="45b0rFhW4Oy">
-    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <ref role="1XX52x" to="l8rz:45b0rFhW4Ov" resolve="SizeStructFieldReference" />
-    <node concept="3EZMnI" id="45b0rFhW4O$" role="2wV5jI">
-      <node concept="3F1sOY" id="45b0rFhW4O_" role="3EZMnx">
-        <ref role="1NtTu8" to="l8rz:45b0rFhW4Ox" resolve="baseReference" />
-      </node>
-      <node concept="3F0ifn" id="45b0rFhW4OA" role="3EZMnx">
-        <property role="3F0ifm" value="." />
-        <node concept="11L4FC" id="45b0rFhW4OB" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="11LMrY" id="45b0rFhW4OC" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="45b0rFhW4P1" role="3EZMnx">
-        <property role="3F0ifm" value="size" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
-      </node>
-      <node concept="2iRfu4" id="45b0rFhW4OG" role="2iSdaV" />
     </node>
   </node>
 </model>

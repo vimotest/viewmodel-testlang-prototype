@@ -4,9 +4,18 @@
   <languages>
     <use id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage" version="0" />
     <use id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage" version="0" />
+    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="1" />
   </languages>
   <imports />
   <registry>
+    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
+      <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
+        <property id="893392931327129956" name="path" index="KZc57" />
+      </concept>
+      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
+        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
+      </concept>
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
@@ -133,6 +142,10 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -764,6 +777,10 @@
         <node concept="2P4D6h" id="5E6KScpsyZ5" role="2P5Oin" />
       </node>
     </node>
+    <node concept="3ZW7eb" id="13X4gZvaDVS" role="lGtFl">
+      <property role="TrG5h" value="myaccountsdetailsview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
     <node concept="3H8Xwz" id="4lBlEoKmb6K" role="3H8Xyh" />
     <node concept="3f4AKs" id="4lBlEoKmb53" role="3H8Xyh">
       <property role="TrG5h" value="OKClicked" />
@@ -843,14 +860,6 @@
           </node>
         </node>
       </node>
-      <node concept="30nzp_" id="4lBlEoKmb3j" role="30nzpy">
-        <ref role="30nzpS" node="4lBlEoKmaXM" resolve="OK" />
-        <node concept="30nzp7" id="4lBlEoKmb3B" role="30nDbQ">
-          <node concept="30nzps" id="4lBlEoKmb3C" role="30nzpp">
-            <property role="30nzpr" value="true" />
-          </node>
-        </node>
-      </node>
       <node concept="30k8jE" id="5E6KScpsyXS" role="30nziE">
         <property role="3ns_dL" value="true" />
         <node concept="30k8jF" id="5E6KScpsyXT" role="30k8ga">
@@ -887,6 +896,14 @@
         <ref role="30nziQ" node="5E6KScpsyZ6" resolve="LoadView" />
         <node concept="Xl_RD" id="4lBlEoKmb18" role="30nziO">
           <property role="Xl_RC" value="ACME" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKmb3j" role="30nzpy">
+        <ref role="30nzpS" node="4lBlEoKmaXM" resolve="OK" />
+        <node concept="30nzp7" id="4lBlEoKmb3B" role="30nDbQ">
+          <node concept="30nzps" id="4lBlEoKmb3C" role="30nzpp">
+            <property role="30nzpr" value="true" />
+          </node>
         </node>
       </node>
     </node>
@@ -1846,114 +1863,6 @@
           <property role="30lZVK" value="Show transactions table" />
         </node>
       </node>
-      <node concept="30k8jE" id="4lBlEoKtZDV" role="30nziE">
-        <node concept="3nhhjx" id="4lBlEoKtZEo" role="30k8ga">
-          <property role="TrG5h" value="transactions" />
-          <property role="3ntHXs" value="true" />
-          <node concept="30k8jF" id="1I4VQspn9r4" role="3nhhjA">
-            <property role="TrG5h" value="transaction0" />
-            <node concept="30k8jQ" id="4lBlEoKtZlV" role="30k8js">
-              <property role="TrG5h" value="date" />
-              <property role="30k8jP" value="2007/09/05" />
-              <property role="3nhnwH" value="true" />
-            </node>
-            <node concept="30k8jQ" id="4lBlEoKtZpA" role="30k8js">
-              <property role="TrG5h" value="name" />
-              <property role="30k8jP" value="Olympus America" />
-              <property role="3nhnwH" value="true" />
-            </node>
-            <node concept="30k8jF" id="4lBlEoKtZtB" role="30k8js">
-              <property role="TrG5h" value="account" />
-              <node concept="30k8jQ" id="4lBlEoKtZuW" role="30k8js">
-                <property role="TrG5h" value="name" />
-                <property role="3nhnwH" value="true" />
-                <property role="30k8jP" value="ACME Bank" />
-              </node>
-              <node concept="30k8jQ" id="4lBlEoKtZwT" role="30k8js">
-                <property role="TrG5h" value="type" />
-                <property role="30k8jP" value="Chequing" />
-                <property role="3nhnwH" value="true" />
-              </node>
-            </node>
-            <node concept="30k8jQ" id="4lBlEoKtZzp" role="30k8js">
-              <property role="TrG5h" value="amount" />
-              <property role="30k8jP" value="-502" />
-            </node>
-            <node concept="30k8jQ" id="4lBlEoKtZ$$" role="30k8js">
-              <property role="TrG5h" value="cumulatedSum" />
-              <property role="30k8jP" value="675.76" />
-            </node>
-          </node>
-          <node concept="30k8jF" id="4lBlEoKtZGS" role="3nhhjA">
-            <property role="TrG5h" value="transaction0" />
-            <node concept="30k8jQ" id="4lBlEoKtZGT" role="30k8js">
-              <property role="TrG5h" value="date" />
-              <property role="30k8jP" value="2007/09/06" />
-              <property role="3nhnwH" value="true" />
-            </node>
-            <node concept="30k8jQ" id="4lBlEoKtZGU" role="30k8js">
-              <property role="TrG5h" value="name" />
-              <property role="30k8jP" value="Evil Landlord" />
-              <property role="3nhnwH" value="true" />
-            </node>
-            <node concept="30k8jF" id="4lBlEoKtZGV" role="30k8js">
-              <property role="TrG5h" value="account" />
-              <node concept="30k8jQ" id="4lBlEoKtZGW" role="30k8js">
-                <property role="TrG5h" value="name" />
-                <property role="3nhnwH" value="true" />
-                <property role="30k8jP" value="ACME Bank" />
-              </node>
-              <node concept="30k8jQ" id="4lBlEoKtZGX" role="30k8js">
-                <property role="TrG5h" value="type" />
-                <property role="30k8jP" value="Chequing" />
-                <property role="3nhnwH" value="true" />
-              </node>
-            </node>
-            <node concept="30k8jQ" id="4lBlEoKtZGY" role="30k8js">
-              <property role="TrG5h" value="amount" />
-              <property role="30k8jP" value="-850" />
-            </node>
-            <node concept="30k8jQ" id="4lBlEoKtZGZ" role="30k8js">
-              <property role="TrG5h" value="cumulatedSum" />
-              <property role="30k8jP" value="-174.24" />
-            </node>
-          </node>
-          <node concept="30k8jF" id="4lBlEoKtZMq" role="3nhhjA">
-            <property role="TrG5h" value="transaction0" />
-            <node concept="30k8jQ" id="4lBlEoKtZMr" role="30k8js">
-              <property role="TrG5h" value="date" />
-              <property role="30k8jP" value="2007/09/09" />
-              <property role="3nhnwH" value="true" />
-            </node>
-            <node concept="30k8jQ" id="4lBlEoKtZMs" role="30k8js">
-              <property role="TrG5h" value="name" />
-              <property role="30k8jP" value="Piggly Wiggly" />
-              <property role="3nhnwH" value="true" />
-            </node>
-            <node concept="30k8jF" id="4lBlEoKtZMt" role="30k8js">
-              <property role="TrG5h" value="account" />
-              <node concept="30k8jQ" id="4lBlEoKtZMu" role="30k8js">
-                <property role="TrG5h" value="name" />
-                <property role="3nhnwH" value="true" />
-                <property role="30k8jP" value="ACME Bank" />
-              </node>
-              <node concept="30k8jQ" id="4lBlEoKtZMv" role="30k8js">
-                <property role="TrG5h" value="type" />
-                <property role="30k8jP" value="Chequing" />
-                <property role="3nhnwH" value="true" />
-              </node>
-            </node>
-            <node concept="30k8jQ" id="4lBlEoKtZMw" role="30k8js">
-              <property role="TrG5h" value="amount" />
-              <property role="30k8jP" value="-78.45" />
-            </node>
-            <node concept="30k8jQ" id="4lBlEoKtZMx" role="30k8js">
-              <property role="TrG5h" value="cumulatedSum" />
-              <property role="30k8jP" value="-252.69" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="30nziD" id="mFfN0XHPGl" role="30nzo2">
         <ref role="30nziQ" node="mFfN0XHPGr" resolve="LoadView" />
       </node>
@@ -2177,6 +2086,114 @@
           <node concept="30nzp7" id="1I4VQspn9vy" role="30nDbQ">
             <node concept="30nzps" id="1I4VQspn9vz" role="30nzpp">
               <property role="30nzpr" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30k8jE" id="4lBlEoKtZDV" role="30nziE">
+        <node concept="3nhhjx" id="4lBlEoKtZEo" role="30k8ga">
+          <property role="TrG5h" value="transactions" />
+          <property role="3ntHXs" value="true" />
+          <node concept="30k8jF" id="1I4VQspn9r4" role="3nhhjA">
+            <property role="TrG5h" value="transaction0" />
+            <node concept="30k8jQ" id="4lBlEoKtZlV" role="30k8js">
+              <property role="TrG5h" value="date" />
+              <property role="30k8jP" value="2007/09/05" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZpA" role="30k8js">
+              <property role="TrG5h" value="name" />
+              <property role="30k8jP" value="Olympus America" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jF" id="4lBlEoKtZtB" role="30k8js">
+              <property role="TrG5h" value="account" />
+              <node concept="30k8jQ" id="4lBlEoKtZuW" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="3nhnwH" value="true" />
+                <property role="30k8jP" value="ACME Bank" />
+              </node>
+              <node concept="30k8jQ" id="4lBlEoKtZwT" role="30k8js">
+                <property role="TrG5h" value="type" />
+                <property role="30k8jP" value="Chequing" />
+                <property role="3nhnwH" value="true" />
+              </node>
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZzp" role="30k8js">
+              <property role="TrG5h" value="amount" />
+              <property role="30k8jP" value="-502" />
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZ$$" role="30k8js">
+              <property role="TrG5h" value="cumulatedSum" />
+              <property role="30k8jP" value="675.76" />
+            </node>
+          </node>
+          <node concept="30k8jF" id="4lBlEoKtZGS" role="3nhhjA">
+            <property role="TrG5h" value="transaction0" />
+            <node concept="30k8jQ" id="4lBlEoKtZGT" role="30k8js">
+              <property role="TrG5h" value="date" />
+              <property role="30k8jP" value="2007/09/06" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZGU" role="30k8js">
+              <property role="TrG5h" value="name" />
+              <property role="30k8jP" value="Evil Landlord" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jF" id="4lBlEoKtZGV" role="30k8js">
+              <property role="TrG5h" value="account" />
+              <node concept="30k8jQ" id="4lBlEoKtZGW" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="3nhnwH" value="true" />
+                <property role="30k8jP" value="ACME Bank" />
+              </node>
+              <node concept="30k8jQ" id="4lBlEoKtZGX" role="30k8js">
+                <property role="TrG5h" value="type" />
+                <property role="30k8jP" value="Chequing" />
+                <property role="3nhnwH" value="true" />
+              </node>
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZGY" role="30k8js">
+              <property role="TrG5h" value="amount" />
+              <property role="30k8jP" value="-850" />
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZGZ" role="30k8js">
+              <property role="TrG5h" value="cumulatedSum" />
+              <property role="30k8jP" value="-174.24" />
+            </node>
+          </node>
+          <node concept="30k8jF" id="4lBlEoKtZMq" role="3nhhjA">
+            <property role="TrG5h" value="transaction0" />
+            <node concept="30k8jQ" id="4lBlEoKtZMr" role="30k8js">
+              <property role="TrG5h" value="date" />
+              <property role="30k8jP" value="2007/09/09" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZMs" role="30k8js">
+              <property role="TrG5h" value="name" />
+              <property role="30k8jP" value="Piggly Wiggly" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jF" id="4lBlEoKtZMt" role="30k8js">
+              <property role="TrG5h" value="account" />
+              <node concept="30k8jQ" id="4lBlEoKtZMu" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="3nhnwH" value="true" />
+                <property role="30k8jP" value="ACME Bank" />
+              </node>
+              <node concept="30k8jQ" id="4lBlEoKtZMv" role="30k8js">
+                <property role="TrG5h" value="type" />
+                <property role="30k8jP" value="Chequing" />
+                <property role="3nhnwH" value="true" />
+              </node>
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZMw" role="30k8js">
+              <property role="TrG5h" value="amount" />
+              <property role="30k8jP" value="-78.45" />
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZMx" role="30k8js">
+              <property role="TrG5h" value="cumulatedSum" />
+              <property role="30k8jP" value="-252.69" />
             </node>
           </node>
         </node>
@@ -2806,6 +2823,11 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="KZc4b" id="2y_rcZoPgoB">
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="FIGURES" />
+    <property role="KZc57" value=".editor2pdf/buddi" />
   </node>
 </model>
 

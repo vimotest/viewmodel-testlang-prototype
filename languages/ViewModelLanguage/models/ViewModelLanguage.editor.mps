@@ -2264,18 +2264,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="5cbOqfAiITO" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-        <node concept="Vb9p2" id="5cbOqfAiIUB" role="3F10Kt" />
-      </node>
-      <node concept="3F0ifn" id="5cbOqfAiIU6" role="3EZMnx">
-        <property role="3F0ifm" value="custom name" />
-        <node concept="Vb9p2" id="5cbOqfAiIU_" role="3F10Kt" />
-      </node>
-      <node concept="3F0A7n" id="5cbOqfAiIUq" role="3EZMnx">
-        <property role="1O74Pk" value="true" />
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5cbOqfAjy_2">
@@ -4643,22 +4631,103 @@
       <node concept="3F0ifn" id="CypPOERTBJ" role="3EZMnx" />
     </node>
   </node>
-  <node concept="24kQdi" id="4lBlEoKmb9q">
-    <property role="3GE5qa" value="viewcomponents.features" />
-    <ref role="1XX52x" to="6ap2:5QmCreinPWR" resolve="SelectedRowVCFeature" />
-    <node concept="2aJ2om" id="4lBlEoKmcUE" role="CpUAK">
-      <ref role="2$4xQ3" node="2wrhDsWia7I" resolve="ViewComponentFeatureIconHint" />
+  <node concept="24kQdi" id="tZJf$pLsf2">
+    <ref role="1XX52x" to="6ap2:3JS2UjmQXc2" resolve="View" />
+    <node concept="2aJ2om" id="tZJf$pLsUM" role="CpUAK">
+      <ref role="2$4xQ3" node="tZJf$pLrhL" resolve="only_viewmodel" />
     </node>
-    <node concept="1v6uyg" id="4lBlEoKmcUG" role="2wV5jI">
-      <property role="2oejA6" value="true" />
-      <node concept="3F0ifn" id="4lBlEoKmcUH" role="wsdo6">
-        <property role="3F0ifm" value="supports selected row" />
+    <node concept="3F1sOY" id="tZJf$pLsgs" role="2wV5jI">
+      <ref role="1NtTu8" to="6ap2:3JS2UjmQXc5" resolve="viewModel" />
+      <node concept="pVoyu" id="tZJf$pLsgt" role="3F10Kt">
+        <property role="VOm3f" value="true" />
       </node>
-      <node concept="3F0ifn" id="4lBlEoKmcUI" role="1j7Clw">
-        <property role="3F0ifm" value="sel" />
-        <ref role="1k5W1q" node="43UPKEZ9RW1" resolve="ViewFeatureIndicationStyle" />
-        <node concept="Veino" id="4lBlEoKmcUJ" role="3F10Kt">
-          <property role="Vb096" value="fLwANPq/yellow" />
+      <node concept="lj46D" id="tZJf$pLsgu" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1H7z6aHLaZH">
+    <property role="3GE5qa" value="viewcomponents.standard" />
+    <ref role="1XX52x" to="6ap2:3JS2UjmUCiJ" resolve="CheckBoxComponent" />
+    <node concept="2aJ2om" id="1H7z6aHLbdq" role="CpUAK">
+      <ref role="2$4xQ3" node="1H7z6aHLaKZ" resolve="only_inspector" />
+    </node>
+    <node concept="PMmxH" id="1H7z6aHLaZT" role="2wV5jI">
+      <ref role="PMmxG" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
+    </node>
+  </node>
+  <node concept="2ABfQD" id="tZJf$pLrhI">
+    <property role="TrG5h" value="editor2pdf_view" />
+    <node concept="2BsEeg" id="tZJf$pLrhJ" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="only_viewcontents" />
+    </node>
+    <node concept="2BsEeg" id="tZJf$pLrhL" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="only_viewmodel" />
+    </node>
+    <node concept="2BsEeg" id="1H7z6aHLaKZ" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="only_inspector" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1H7z6aHM330">
+    <ref role="1XX52x" to="6ap2:3JS2UjmQXc1" resolve="ViewModel" />
+    <node concept="2aJ2om" id="1H7z6aHM35W" role="CpUAK">
+      <ref role="2$4xQ3" node="1H7z6aHLaKZ" resolve="only_inspector" />
+    </node>
+    <node concept="3F2HdR" id="1H7z6aHM336" role="2wV5jI">
+      <ref role="1NtTu8" to="rtft:56jsF7$wOuB" resolve="contents" />
+      <node concept="l2Vlx" id="1H7z6aHM337" role="2czzBx" />
+      <node concept="pj6Ft" id="1H7z6aHM338" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="lj46D" id="1H7z6aHM339" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="ljvvj" id="1H7z6aHM33a" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="4$FPG" id="1H7z6aHM33b" role="4_6I_">
+        <node concept="3clFbS" id="1H7z6aHM33c" role="2VODD2">
+          <node concept="3clFbF" id="1H7z6aHM33d" role="3cqZAp">
+            <node concept="2ShNRf" id="1H7z6aHM33e" role="3clFbG">
+              <node concept="3zrR0B" id="1H7z6aHM33f" role="2ShVmc">
+                <node concept="3Tqbb2" id="1H7z6aHM33g" role="3zrR0E">
+                  <ref role="ehGHo" to="rtft:3JS2UjmRs9w" resolve="EmptyStructContent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="tZJf$pLrjO">
+    <ref role="1XX52x" to="6ap2:3JS2UjmQXc2" resolve="View" />
+    <node concept="2aJ2om" id="tZJf$pLs0r" role="CpUAK">
+      <ref role="2$4xQ3" node="tZJf$pLrhJ" resolve="only_viewcontents" />
+    </node>
+    <node concept="3F2HdR" id="tZJf$pLrl3" role="2wV5jI">
+      <ref role="1NtTu8" to="6ap2:3JS2UjmQXcP" resolve="contents" />
+      <node concept="2iRkQZ" id="tZJf$pLrl4" role="2czzBx" />
+      <node concept="pVoyu" id="tZJf$pLrl5" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="lj46D" id="tZJf$pLrl6" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="4$FPG" id="tZJf$pLrl7" role="4_6I_">
+        <node concept="3clFbS" id="tZJf$pLrl8" role="2VODD2">
+          <node concept="3clFbF" id="tZJf$pLrl9" role="3cqZAp">
+            <node concept="2ShNRf" id="tZJf$pLrla" role="3clFbG">
+              <node concept="3zrR0B" id="tZJf$pLrlb" role="2ShVmc">
+                <node concept="3Tqbb2" id="tZJf$pLrlc" role="3zrR0E">
+                  <ref role="ehGHo" to="6ap2:3JS2UjmQXe7" resolve="EmptyContent" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -4701,6 +4770,26 @@
         </node>
       </node>
       <node concept="2iRfu4" id="4lBlEoKpWoP" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4lBlEoKmb9q">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="1XX52x" to="6ap2:5QmCreinPWR" resolve="SelectedRowVCFeature" />
+    <node concept="2aJ2om" id="4lBlEoKmcUE" role="CpUAK">
+      <ref role="2$4xQ3" node="2wrhDsWia7I" resolve="ViewComponentFeatureIconHint" />
+    </node>
+    <node concept="1v6uyg" id="4lBlEoKmcUG" role="2wV5jI">
+      <property role="2oejA6" value="true" />
+      <node concept="3F0ifn" id="4lBlEoKmcUH" role="wsdo6">
+        <property role="3F0ifm" value="supports selected row" />
+      </node>
+      <node concept="3F0ifn" id="4lBlEoKmcUI" role="1j7Clw">
+        <property role="3F0ifm" value="sel" />
+        <ref role="1k5W1q" node="43UPKEZ9RW1" resolve="ViewFeatureIndicationStyle" />
+        <node concept="Veino" id="4lBlEoKmcUJ" role="3F10Kt">
+          <property role="Vb096" value="fLwANPq/yellow" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

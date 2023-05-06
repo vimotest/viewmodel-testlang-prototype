@@ -4,12 +4,25 @@
   <languages>
     <use id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage" version="0" />
     <use id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage" version="0" />
+    <use id="d243ad59-559f-4353-bc02-0ab31b59cc43" name="ViewEditorExtensions" version="0" />
+    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="1" />
   </languages>
   <imports />
   <registry>
+    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
+      <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
+        <property id="893392931327129956" name="path" index="KZc57" />
+      </concept>
+      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
+        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
+      </concept>
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
     </language>
     <language id="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60" name="SimpleTypeLanguage">
@@ -22,6 +35,21 @@
       <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
         <child id="5878168047017276966" name="type" index="2P5Oin" />
       </concept>
+    </language>
+    <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
+      <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
+        <property id="6666499814681541920" name="text" index="2pMdty" />
+      </concept>
+      <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
+        <property id="6666499814681415862" name="tagName" index="2pNNFO" />
+        <child id="6666499814681415861" name="attributes" index="2pNNFR" />
+        <child id="1622293396948928802" name="content" index="3o6s8t" />
+      </concept>
+      <concept id="6666499814681447923" name="jetbrains.mps.core.xml.structure.XmlAttribute" flags="ng" index="2pNUuL">
+        <property id="6666499814681447926" name="attrName" index="2pNUuO" />
+        <child id="6666499814681541918" name="value" index="2pMdts" />
+      </concept>
+      <concept id="1622293396948952339" name="jetbrains.mps.core.xml.structure.XmlText" flags="nn" index="3o6iSG" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
       <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts">
@@ -46,6 +74,14 @@
       <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
         <reference id="6743755284662355549" name="component" index="3fS2vI" />
       </concept>
+      <concept id="6692228888293142975" name="ViewModelLanguage.structure.ColorVCFeature" flags="ng" index="3mzAc8" />
+      <concept id="6692228888292391868" name="ViewModelLanguage.structure.ColorValue" flags="ng" index="3mAu$b">
+        <property id="6692228888292392424" name="colorLiteral" index="3mAuXv" />
+      </concept>
+      <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_">
+        <child id="3011041337510922390" name="textFeature" index="27$_qM" />
+        <child id="2194160217324893899" name="colorFeature" index="2NwCZs" />
+      </concept>
       <concept id="4321216645070110073" name="ViewModelLanguage.structure.ButtonComponent" flags="ng" index="3H4brt" />
       <concept id="4321216645070212552" name="ViewModelLanguage.structure.ViewComponent" flags="ng" index="3H4$pG">
         <child id="5984107031764840546" name="visibilityFeature" index="2Pim71" />
@@ -65,11 +101,24 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="7568993862226671565" name="ViewModelTestLanguage.structure.XmlElementContext" flags="ng" index="2CaS0t">
+        <child id="7568993862226671566" name="xmlDocument" index="2CaS0u" />
+      </concept>
+      <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
+        <child id="643469022294099062" name="checks" index="2D8cJs" />
+      </concept>
+      <concept id="2424854242643129807" name="ViewModelTestLanguage.structure.ForegroundColorCheckValue" flags="ng" index="Psmnp">
+        <child id="2424854242643129810" name="color" index="Psmn4" />
+      </concept>
       <concept id="3426401106045796684" name="ViewModelTestLanguage.structure.ObjectTreeContext" flags="ng" index="30k8jE">
         <child id="3426401106045796780" name="objects" index="30k8ga" />
       </concept>
@@ -114,6 +163,7 @@
         <property id="3426401106045121533" name="sensitivity" index="30nzpr" />
       </concept>
       <concept id="3426401106045121475" name="ViewModelTestLanguage.structure.ViewAssertion" flags="ng" index="30nzp_">
+        <property id="6523116078126804343" name="descriptionLabel" index="13TuVO" />
         <reference id="3426401106045121502" name="component" index="30nzpS" />
         <child id="3426401106045146960" name="check" index="30nDbQ" />
       </concept>
@@ -433,6 +483,156 @@
           <node concept="30k8jQ" id="7YmZ2rG9HLL" role="30k8js">
             <property role="TrG5h" value="keepLoggedIn" />
             <property role="30k8jP" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3H8XyA" id="tZJf$pHjuI">
+    <property role="TrG5h" value="MyView" />
+    <node concept="3H8Xy_" id="tZJf$pHjuJ" role="3H8Xyx">
+      <node concept="3H4CWb" id="tZJf$pHjuM" role="2P43km">
+        <node concept="2PZ2Jc" id="tZJf$pHjuN" role="2PZ2C7">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="tZJf$pHjuO" role="2Pim73" />
+        <node concept="2Pim7K" id="tZJf$pHjuP" role="2Pim71" />
+        <node concept="2Pim7H" id="tZJf$pHjuQ" role="2Pim76">
+          <property role="2PigPS" value="MyFlag" />
+        </node>
+      </node>
+      <node concept="3H4brt" id="tZJf$pHjv7" role="2P43km">
+        <node concept="2Pim7P" id="tZJf$pHjv9" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="tZJf$pHjvb" role="2Pim71" />
+        <node concept="2Pim7H" id="tZJf$pHjvd" role="2Pim76">
+          <property role="2PigPS" value="MyButton" />
+        </node>
+      </node>
+      <node concept="1D10m_" id="6sgA9_dJI6r" role="2P43km">
+        <node concept="27$lts" id="6sgA9_dJI6t" role="27$_qM">
+          <property role="2PigO5" value="true" />
+          <property role="27$ltt" value="&lt;empty&gt;" />
+        </node>
+        <node concept="3mzAc8" id="6sgA9_dJI6v" role="2NwCZs">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="6sgA9_dJI6x" role="2Pim73" />
+        <node concept="2Pim7K" id="6sgA9_dJI6z" role="2Pim71" />
+        <node concept="2Pim7H" id="6sgA9_dJI6_" role="2Pim76">
+          <property role="2PigPS" value="MyLabel" />
+        </node>
+      </node>
+    </node>
+    <node concept="3ZW7eb" id="tZJf$pHjuK" role="lGtFl">
+      <property role="TrG5h" value="myview_dummy" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
+    <node concept="3f3I3T" id="tZJf$pHjvo" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+    </node>
+    <node concept="3f4AKs" id="tZJf$pHjvp" role="3H8Xyh">
+      <property role="TrG5h" value="MyButtonClicked" />
+      <ref role="3fS2vI" node="tZJf$pHjv7" resolve="MyButton" />
+    </node>
+    <node concept="I_Gu0" id="tZJf$pHjvq" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="MyFlagChecked" />
+      <ref role="3fS2vI" node="tZJf$pHjuM" resolve="MyFlag" />
+      <node concept="2P4x69" id="tZJf$pHjvr" role="2P43km">
+        <property role="TrG5h" value="isChecked" />
+        <node concept="2P4D6g" id="tZJf$pHjvs" role="2P5Oin" />
+      </node>
+    </node>
+  </node>
+  <node concept="KZc4b" id="2y_rcZoPgoB">
+    <property role="3GE5qa" value="editor2pdf" />
+    <property role="TrG5h" value="FIGURES" />
+    <property role="KZc57" value=".editor2pdf/sandbox" />
+  </node>
+  <node concept="30n1Qd" id="tZJf$pHjvL">
+    <property role="TrG5h" value="MyViewTests" />
+    <ref role="30n1PB" node="tZJf$pHjuI" resolve="MyView" />
+    <node concept="3ZW7eb" id="tZJf$pHjw5" role="lGtFl">
+      <property role="TrG5h" value="myviewtests_dummy" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
+    <node concept="30n1Qa" id="tZJf$pHjw7" role="30n1Qb">
+      <node concept="30nyDl" id="tZJf$pHjw8" role="30nziG">
+        <property role="30nzmz" value="My Scenario" />
+        <node concept="30nyDi" id="tZJf$pHjw9" role="30nyDj">
+          <property role="30lZVK" value="Value is False" />
+        </node>
+        <node concept="30nyDi" id="tZJf$pHjwa" role="30nyDh">
+          <property role="30lZVK" value="Load View" />
+        </node>
+        <node concept="30nyDi" id="6sgA9_dJI5_" role="30nyDh">
+          <property role="30lZVK" value="Check MyFlag" />
+        </node>
+        <node concept="30nyDi" id="iR_dEQ15zR" role="30nyDh">
+          <property role="30lZVK" value="Click MyButton" />
+        </node>
+        <node concept="30nyDi" id="tZJf$pHjwb" role="30nyDs">
+          <property role="30lZVK" value="MyFlag is Checked" />
+        </node>
+        <node concept="30nyDi" id="6sgA9_dJI5W" role="30nyDs">
+          <property role="30lZVK" value="MyButton is Disabled" />
+        </node>
+        <node concept="30nyDi" id="6sgA9_dJI5T" role="30nyDs">
+          <property role="30lZVK" value="MyLabel shows 'Changed' in Red" />
+        </node>
+      </node>
+      <node concept="2CaS0t" id="tZJf$pHjwn" role="30nziE">
+        <node concept="2pNNFK" id="tZJf$pHjwt" role="2CaS0u">
+          <property role="2pNNFO" value="my-data" />
+          <node concept="2pNUuL" id="iR_dEQ15$6" role="2pNNFR">
+            <property role="2pNUuO" value="value" />
+            <node concept="2pMdtt" id="iR_dEQ15$7" role="2pMdts">
+              <property role="2pMdty" value="False" />
+            </node>
+          </node>
+          <node concept="3o6iSG" id="tZJf$pHjwv" role="3o6s8t" />
+        </node>
+      </node>
+      <node concept="30nziD" id="tZJf$pHjwx" role="30nzo2">
+        <ref role="30nziQ" node="tZJf$pHjvo" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="6sgA9_dJI5H" role="30nzo2">
+        <ref role="30nziQ" node="tZJf$pHjvq" resolve="MyFlagChecked" />
+        <node concept="3clFbT" id="6sgA9_dJI5O" role="30nziO">
+          <property role="3clFbU" value="true" />
+        </node>
+      </node>
+      <node concept="30nziD" id="tZJf$pHjwB" role="30nzo2">
+        <ref role="30nziQ" node="tZJf$pHjvp" resolve="MyButtonClicked" />
+      </node>
+      <node concept="30nzp_" id="tZJf$pHjwQ" role="30nzpy">
+        <property role="13TuVO" value="checked" />
+        <ref role="30nzpS" node="tZJf$pHjuM" resolve="MyFlag" />
+        <node concept="1tZoqV" id="tZJf$pHjwR" role="30nDbQ">
+          <node concept="1tZoko" id="tZJf$pHjwS" role="1tZokz">
+            <property role="1tZokr" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="tZJf$pHjwF" role="30nzpy">
+        <property role="13TuVO" value="disabled" />
+        <ref role="30nzpS" node="tZJf$pHjv7" resolve="MyButton" />
+        <node concept="30nzp7" id="tZJf$pHjwG" role="30nDbQ">
+          <node concept="30nzps" id="tZJf$pHjwH" role="30nzpp" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="6sgA9_dJI74" role="30nzpy">
+        <ref role="30nzpS" node="6sgA9_dJI6r" resolve="MyLabel" />
+        <node concept="2D8cJI" id="6sgA9_dJI7d" role="30nDbQ">
+          <node concept="30nz6$" id="6sgA9_dJI7e" role="2D8cJs">
+            <property role="30nz6_" value="Changed" />
+          </node>
+          <node concept="Psmnp" id="6sgA9_dJI7k" role="2D8cJs">
+            <node concept="3mAu$b" id="6sgA9_dJI7m" role="Psmn4">
+              <property role="3mAuXv" value="red" />
+            </node>
           </node>
         </node>
       </node>

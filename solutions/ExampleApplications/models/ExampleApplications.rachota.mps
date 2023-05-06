@@ -4,9 +4,18 @@
   <languages>
     <use id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage" version="0" />
     <use id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage" version="0" />
+    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="1" />
   </languages>
   <imports />
   <registry>
+    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
+      <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
+        <property id="893392931327129956" name="path" index="KZc57" />
+      </concept>
+      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
+        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
+      </concept>
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
@@ -185,6 +194,10 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -2037,6 +2050,10 @@
         <node concept="2P4D6h" id="2Btob8oyF_u" role="2P5Oin" />
       </node>
     </node>
+    <node concept="3ZW7eb" id="5qJ$Po8oBik" role="lGtFl">
+      <property role="TrG5h" value="historyProjectsView" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="30n1Qd" id="2Btob8orsa6">
     <property role="TrG5h" value="HistoryTimesViewTests" />
@@ -2827,6 +2844,10 @@
         </node>
       </node>
     </node>
+    <node concept="3ZW7eb" id="5qJ$Po8kLmR" role="lGtFl">
+      <property role="TrG5h" value="analyticsview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="30n1Qd" id="4r5LaleGjVU">
     <property role="TrG5h" value="AnalyticsViewTests" />
@@ -3294,6 +3315,11 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="KZc4b" id="2y_rcZoPgoB">
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="FIGURES" />
+    <property role="KZc57" value=".editor2pdf/rachota" />
   </node>
   <node concept="30n1Qd" id="4lBlEoKu05i">
     <property role="TrG5h" value="HistoryViewTests" />
