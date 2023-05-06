@@ -126,11 +126,15 @@
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
+        <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
+      </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="1145570846907" name="jetbrains.mps.lang.smodel.structure.Node_GetNextSiblingsOperation" flags="nn" index="2TlYAL" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
@@ -159,6 +163,9 @@
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
+      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
+        <child id="1151689745422" name="elementType" index="A3Ik2" />
+      </concept>
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1205679737078" name="jetbrains.mps.baseLanguage.collections.structure.SortOperation" flags="nn" index="2S7cBI">
@@ -168,6 +175,7 @@
       <concept id="1178286324487" name="jetbrains.mps.baseLanguage.collections.structure.SortDirection" flags="nn" index="1nlBCl" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
+      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
   <node concept="18kY7G" id="5WrZkWQpyXq">
@@ -626,6 +634,57 @@
     <node concept="1YaCAy" id="vV7zhZ6m$S" role="1YuTPh">
       <property role="TrG5h" value="treeViewRowCheck" />
       <ref role="1YaFvo" to="l8rz:vV7zhZ3DJe" resolve="TreeViewRowCheck" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1A1$ESeOoUr">
+    <property role="TrG5h" value="check_SelectedItemCheckValue" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <node concept="3clFbS" id="1A1$ESeOoUs" role="18ibNy">
+      <node concept="3cpWs8" id="1A1$ESeOtR1" role="3cqZAp">
+        <node concept="3cpWsn" id="1A1$ESeOtR2" role="3cpWs9">
+          <property role="TrG5h" value="succeedingItemsCheck" />
+          <node concept="A3Dl8" id="1A1$ESeOtN7" role="1tU5fm">
+            <node concept="3Tqbb2" id="1A1$ESeOtNa" role="A3Ik2">
+              <ref role="ehGHo" to="l8rz:5GYs7qIfpGw" resolve="ItemsCheckValue" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1A1$ESeOtR3" role="33vP2m">
+            <node concept="2OqwBi" id="1A1$ESeOtR4" role="2Oq$k0">
+              <node concept="1YBJjd" id="1A1$ESeOtR5" role="2Oq$k0">
+                <ref role="1YBMHb" node="1A1$ESeOoUu" resolve="selectedItemCheckValue" />
+              </node>
+              <node concept="2TlYAL" id="1A1$ESeOtR6" role="2OqNvi" />
+            </node>
+            <node concept="v3k3i" id="1A1$ESeOtR7" role="2OqNvi">
+              <node concept="chp4Y" id="1A1$ESeOtR8" role="v3oSu">
+                <ref role="cht4Q" to="l8rz:5GYs7qIfpGw" resolve="ItemsCheckValue" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1A1$ESeOu6s" role="3cqZAp">
+        <node concept="3clFbS" id="1A1$ESeOu6u" role="3clFbx">
+          <node concept="2MkqsV" id="1A1$ESeOuHq" role="3cqZAp">
+            <node concept="Xl_RD" id="1A1$ESeOuIk" role="2MkJ7o">
+              <property role="Xl_RC" value="Selected Item Check must not be placed before Items Check" />
+            </node>
+            <node concept="1YBJjd" id="1A1$ESeOveP" role="1urrMF">
+              <ref role="1YBMHb" node="1A1$ESeOoUu" resolve="selectedItemCheckValue" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1A1$ESeOup7" role="3clFbw">
+          <node concept="37vLTw" id="1A1$ESeOuaM" role="2Oq$k0">
+            <ref role="3cqZAo" node="1A1$ESeOtR2" resolve="succeedingItemsCheck" />
+          </node>
+          <node concept="3GX2aA" id="1A1$ESeOuB2" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1A1$ESeOoUu" role="1YuTPh">
+      <property role="TrG5h" value="selectedItemCheckValue" />
+      <ref role="1YaFvo" to="l8rz:5GYs7qIfpHL" resolve="SelectedItemCheckValue" />
     </node>
   </node>
 </model>

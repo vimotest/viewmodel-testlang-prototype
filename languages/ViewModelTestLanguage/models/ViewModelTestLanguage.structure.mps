@@ -3,16 +3,38 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="l3im" ref="r:39b441c7-a1d5-452b-b50b-8348c2e0c7aa(UseCaseLanguage.structure)" />
+    <import index="6ap2" ref="r:eb134abe-e3cf-4c45-9c39-b0e1fd592dbc(ViewModelLanguage.structure)" />
+    <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="6ap2" ref="r:eb134abe-e3cf-4c45-9c39-b0e1fd592dbc(ViewModelLanguage.structure)" implicit="true" />
     <import index="rtft" ref="r:aafdce1b-5e38-4db1-aacc-71ff6237349c(SimpleTypeLanguage.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="2756621024541681841" name="jetbrains.mps.lang.resources.structure.Primitive" flags="ng" index="1irPi6">
+        <child id="1860120738943552529" name="fillColor" index="3PKjn_" />
+        <child id="1860120738943552531" name="borderColor" index="3PKjnB" />
+      </concept>
+      <concept id="2756621024541681849" name="jetbrains.mps.lang.resources.structure.Text" flags="ng" index="1irPie">
+        <property id="2756621024541681854" name="text" index="1irPi9" />
+        <child id="1860120738943552534" name="color" index="3PKjny" />
+      </concept>
+      <concept id="2756621024541674821" name="jetbrains.mps.lang.resources.structure.TextIcon" flags="ng" index="1irR5M">
+        <property id="1358878980655415353" name="iconId" index="2$rrk2" />
+        <child id="2756621024541675110" name="layers" index="1irR9h" />
+      </concept>
+      <concept id="2756621024541675104" name="jetbrains.mps.lang.resources.structure.Circle" flags="ng" index="1irR9n">
+        <property id="2756621024541681857" name="r" index="1irPjQ" />
+      </concept>
+      <concept id="1860120738943552477" name="jetbrains.mps.lang.resources.structure.ColorLiteral" flags="ng" index="3PKj8D">
+        <property id="1860120738943552481" name="val" index="3PKj8l" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
@@ -33,6 +55,7 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="6327362524875300597" name="icon" index="rwd14" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
@@ -61,7 +84,7 @@
     <property role="EcuMT" value="3426401106044983339" />
     <property role="TrG5h" value="ViewTestSuite" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="suite" />
+    <property role="34LRSv" value="test suite" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2Yd1qrJOhwH" role="1TKVEi">
       <property role="IQ2ns" value="3426401106044983341" />
@@ -79,11 +102,37 @@
     <node concept="PrWs8" id="2Yd1qrJOhxd" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="2ZnRpGqLzBp" role="PzmwI">
+      <ref role="PrY4T" to="6ap2:2ZnRpGqKU3p" resolve="ILinkedViewTest" />
+    </node>
     <node concept="1TJgyj" id="2Yd1qrJOhz1" role="1TKVEi">
       <property role="IQ2ns" value="3426401106044983489" />
       <property role="20kJfa" value="targetView" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="6ap2:3JS2UjmQXc2" resolve="View" />
+    </node>
+    <node concept="1irR5M" id="2ZnRpGqLyTY" role="rwd14">
+      <property role="2$rrk2" value="1" />
+      <node concept="1irR9n" id="2ZnRpGqLyK5" role="1irR9h">
+        <node concept="3PKj8D" id="2ZnRpGqLyL_" role="3PKjn_">
+          <property role="3PKj8l" value="000000" />
+        </node>
+      </node>
+      <node concept="1irR9n" id="2ZnRpGr2vRW" role="1irR9h">
+        <property role="1irPjQ" value="1ng4Vf3UMuc/medium" />
+        <node concept="3PKj8D" id="2ZnRpGr2vRX" role="3PKjn_">
+          <property role="3PKj8l" value="000000" />
+        </node>
+        <node concept="3PKj8D" id="2ZnRpGr2vRY" role="3PKjnB">
+          <property role="3PKj8l" value="303030" />
+        </node>
+      </node>
+      <node concept="1irPie" id="2ZnRpGqLsHX" role="1irR9h">
+        <property role="1irPi9" value="T" />
+        <node concept="3PKj8D" id="2ZnRpGqLsOy" role="3PKjny">
+          <property role="3PKj8l" value="FFFFFF" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJOhwG">
@@ -258,7 +307,13 @@
     <node concept="PrWs8" id="zI3UExNK1Q" role="PzmwI">
       <ref role="PrY4T" node="zI3UExNGh5" resolve="ILabelCheckValue" />
     </node>
+    <node concept="PrWs8" id="4kXwATF_3e_" role="PzmwI">
+      <ref role="PrY4T" node="5QmCrei7W1y" resolve="ITextBoxCheckValue" />
+    </node>
     <node concept="PrWs8" id="zI3UExNO9x" role="PzmwI">
+      <ref role="PrY4T" node="6yyqi$j0BNZ" resolve="IListCheckValue" />
+    </node>
+    <node concept="PrWs8" id="6yyqi$j0BO7" role="PzmwI">
       <ref role="PrY4T" node="5WrZkWQpyWY" resolve="ITableCheckValue" />
     </node>
     <node concept="PrWs8" id="3_3BZO9RVpO" role="PzmwI">
@@ -266,6 +321,9 @@
     </node>
     <node concept="PrWs8" id="5GYs7qIfmef" role="PzmwI">
       <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
+    </node>
+    <node concept="PrWs8" id="1A1$ESeikBp" role="PzmwI">
+      <ref role="PrY4T" node="1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJONg2">
@@ -288,11 +346,15 @@
     <node concept="PrWs8" id="5QmCrei7Y_g" role="PzmwI">
       <ref role="PrY4T" node="5QmCrei7W1y" resolve="ITextBoxCheckValue" />
     </node>
+    <node concept="PrWs8" id="61f9eXTp4T1" role="PzmwI">
+      <ref role="PrY4T" node="61f9eXTop3E" resolve="IProgressBarCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2Yd1qrJQnE4">
     <property role="EcuMT" value="3426401106045532804" />
     <property role="3GE5qa" value="context.empty" />
     <property role="TrG5h" value="EmptyContext" />
+    <property role="34LRSv" value="empty context" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2Yd1qrJQnE5" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
@@ -302,6 +364,7 @@
     <property role="EcuMT" value="3426401106045796684" />
     <property role="3GE5qa" value="context.object" />
     <property role="TrG5h" value="ObjectTreeContext" />
+    <property role="34LRSv" value="json context" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1kmjBf2p1O2" role="1TKVEl">
       <property role="IQ2nx" value="1519488183373667586" />
@@ -385,7 +448,7 @@
     <property role="EcuMT" value="3426401106045849608" />
     <property role="3GE5qa" value="context.ref" />
     <property role="TrG5h" value="ContextReference" />
-    <property role="34LRSv" value="ref" />
+    <property role="34LRSv" value="referenced context" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2Yd1qrJR_09" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
@@ -595,6 +658,7 @@
     <property role="EcuMT" value="4126317592746173580" />
     <property role="3GE5qa" value="context.string" />
     <property role="TrG5h" value="MultiLineStringContext" />
+    <property role="34LRSv" value="multi line string" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3_3BZOa5aid" role="PzmwI">
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
@@ -752,6 +816,9 @@
     <node concept="PrWs8" id="5GYs7qIfme8" role="PzmwI">
       <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
     </node>
+    <node concept="PrWs8" id="1A1$ESeikI$" role="PzmwI">
+      <ref role="PrY4T" node="1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5QmCrei7W1w">
     <property role="EcuMT" value="6743755284656668768" />
@@ -901,24 +968,15 @@
     <node concept="PrWs8" id="5GYs7qIfpGx" role="PzmwI">
       <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
     </node>
+    <node concept="PrWs8" id="1A1$ESeikmF" role="PzmwI">
+      <ref role="PrY4T" node="1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
+    </node>
     <node concept="1TJgyj" id="5GYs7qIfpG_" role="1TKVEi">
       <property role="IQ2ns" value="6574816161039227685" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20kJfa" value="items" />
-      <ref role="20lvS9" node="5GYs7qIfpGB" resolve="ItemValue" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5GYs7qIfpGB">
-    <property role="EcuMT" value="6574816161039227687" />
-    <property role="3GE5qa" value="assert.checkvalues.utils" />
-    <property role="TrG5h" value="ItemValue" />
-    <property role="34LRSv" value="item value" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5GYs7qIfpGC" role="1TKVEl">
-      <property role="IQ2nx" value="6574816161039227688" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="20lvS9" to="6ap2:5GYs7qIfpGB" resolve="ItemValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="5GYs7qIfpHL">
@@ -930,12 +988,15 @@
     <node concept="PrWs8" id="5GYs7qIfpHM" role="PzmwI">
       <ref role="PrY4T" node="5GYs7qIfjFo" resolve="IComboBoxCheckValue" />
     </node>
+    <node concept="PrWs8" id="1A1$ESeikvD" role="PzmwI">
+      <ref role="PrY4T" node="1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
+    </node>
     <node concept="1TJgyj" id="5GYs7qIfpHN" role="1TKVEi">
       <property role="IQ2ns" value="6574816161039227763" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="20kJfa" value="selectedItem" />
-      <ref role="20lvS9" node="5GYs7qIfpGB" resolve="ItemValue" />
+      <ref role="20lvS9" to="6ap2:5GYs7qIfpGB" resolve="ItemValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="vV7zhZ3DJ9">
@@ -1088,6 +1149,135 @@
     </node>
     <node concept="PrWs8" id="5E6KScpwRpz" role="PzmwI">
       <ref role="PrY4T" node="vV7zhZ3DJd" resolve="ITreeViewCheckValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6yyqi$j0BNW">
+    <property role="EcuMT" value="7539704351305137404" />
+    <property role="3GE5qa" value="assert.listview" />
+    <property role="TrG5h" value="ListCheck" />
+    <ref role="1TJDcQ" node="5WrZkWQpyWX" resolve="TableCheck" />
+  </node>
+  <node concept="PlHQZ" id="6yyqi$j0BNZ">
+    <property role="EcuMT" value="7539704351305137407" />
+    <property role="3GE5qa" value="assert.listview" />
+    <property role="TrG5h" value="IListCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="6yyqi$j0BO1">
+    <property role="EcuMT" value="7539704351305137409" />
+    <property role="3GE5qa" value="assert.listview" />
+    <property role="TrG5h" value="ListRowCheck" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6yyqi$j0BO3" role="1TKVEi">
+      <property role="IQ2ns" value="7539704351305137411" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checkValues" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="zI3UExNGh5" resolve="ILabelCheckValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="61f9eXTooz3">
+    <property role="EcuMT" value="6939806161753442499" />
+    <property role="3GE5qa" value="assert.progress" />
+    <property role="TrG5h" value="ProgressBarCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="61f9eXToqAi" role="1TKVEi">
+      <property role="IQ2ns" value="6939806161753450898" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checks" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="61f9eXTop3E" resolve="IProgressBarCheckValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="61f9eXTop3E">
+    <property role="EcuMT" value="6939806161753444586" />
+    <property role="3GE5qa" value="assert.progress" />
+    <property role="TrG5h" value="IProgressBarCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="61f9eXTp5Al">
+    <property role="EcuMT" value="6939806161753627029" />
+    <property role="3GE5qa" value="assert.checkvalues" />
+    <property role="TrG5h" value="ProgressCheckValue" />
+    <property role="34LRSv" value="progress" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="61f9eXTp6e2" role="PzmwI">
+      <ref role="PrY4T" node="61f9eXTop3E" resolve="IProgressBarCheckValue" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXTpi1U" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161753677946" />
+      <property role="TrG5h" value="checkMin" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXTp6A7" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161753631111" />
+      <property role="TrG5h" value="min" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXTpihH" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161753678957" />
+      <property role="TrG5h" value="checkMax" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXTp6Qz" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161753632163" />
+      <property role="TrG5h" value="max" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="61f9eXTp6J4" role="1TKVEl">
+      <property role="IQ2nx" value="6939806161753631684" />
+      <property role="TrG5h" value="progress" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1A1$ESegXiH">
+    <property role="EcuMT" value="1837911399205164205" />
+    <property role="3GE5qa" value="assert.radio" />
+    <property role="TrG5h" value="RadioButtonsCheck" />
+    <ref role="1TJDcQ" node="2Yd1qrJONfw" resolve="ViewComponentCheck" />
+    <node concept="1TJgyj" id="1A1$ESehqcZ" role="1TKVEi">
+      <property role="IQ2ns" value="1837911399205282623" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="checks" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1A1$ESehnLd" resolve="IRadioButtonsCheckValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1A1$ESehnLd">
+    <property role="EcuMT" value="1837911399205272653" />
+    <property role="3GE5qa" value="assert.radio" />
+    <property role="TrG5h" value="IRadioButtonsCheckValue" />
+  </node>
+  <node concept="1TIwiD" id="6$atX315_2f">
+    <property role="EcuMT" value="7568993862225907855" />
+    <property role="3GE5qa" value="context.xml" />
+    <property role="TrG5h" value="XmlContextWithProlog" />
+    <property role="34LRSv" value="xml context (with prolog)" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6$atX315_Bx" role="1TKVEi">
+      <property role="IQ2ns" value="7568993862225910241" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="xmlDocument" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="iuxj:5SJpJa5_6F9" resolve="XmlDocument" />
+    </node>
+    <node concept="PrWs8" id="6$atX315_cO" role="PzmwI">
+      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6$atX318vvd">
+    <property role="EcuMT" value="7568993862226671565" />
+    <property role="3GE5qa" value="context.xml" />
+    <property role="TrG5h" value="XmlElementContext" />
+    <property role="34LRSv" value="xml context" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6$atX318vve" role="1TKVEi">
+      <property role="IQ2ns" value="7568993862226671566" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="xmlDocument" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="iuxj:5M4a$b5ikxH" resolve="XmlBaseElement" />
+    </node>
+    <node concept="PrWs8" id="6$atX318vvf" role="PzmwI">
+      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
     </node>
   </node>
 </model>

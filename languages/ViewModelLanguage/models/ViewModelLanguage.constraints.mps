@@ -269,7 +269,7 @@
                   <node concept="17R0WA" id="5WrZkWQ5gVB" role="3uHU7w">
                     <node concept="2DD5aU" id="5WrZkWQ5gVC" role="3uHU7B" />
                     <node concept="35c_gC" id="5WrZkWQ5gVD" role="3uHU7w">
-                      <ref role="35c_gD" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+                      <ref role="35c_gD" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
                     </node>
                   </node>
                 </node>
@@ -321,7 +321,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="5QmCreik75h">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
     <ref role="1M2myG" to="6ap2:5WrZkWQ7ZzE" resolve="LabelComponent" />
     <node concept="EnEH3" id="5QmCreik75i" role="1MhHOB">
       <ref role="EomxK" to="6ap2:5QmCreik75d" resolve="sampleText" />
@@ -365,7 +365,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="3VvzM8u60jq">
-    <property role="3GE5qa" value="viewcomponents" />
+    <property role="3GE5qa" value="viewcomponents.standard" />
     <ref role="1M2myG" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
     <node concept="EnEH3" id="3VvzM8u60vm" role="1MhHOB">
       <ref role="EomxK" to="6ap2:3VvzM8u5ZZL" resolve="sampleText" />
@@ -452,7 +452,7 @@
                               <node concept="2Xjw5R" id="5QmCreiupZ6" role="2OqNvi">
                                 <node concept="1xMEDy" id="5QmCreiupZ7" role="1xVPHs">
                                   <node concept="chp4Y" id="5QmCreiupZ8" role="ri$Ld">
-                                    <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="TableComponentBase" />
+                                    <ref role="cht4Q" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
                                   </node>
                                 </node>
                               </node>
@@ -582,6 +582,10 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="1M2fIO" id="QFw6_ykldB">
+    <property role="3GE5qa" value="viewcomponents.listview" />
+    <ref role="1M2myG" to="6ap2:6yyqi$iVArY" resolve="ListViewComponent" />
   </node>
 </model>
 
