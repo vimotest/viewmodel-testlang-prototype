@@ -48,10 +48,7 @@ The following sample applications are modelled:
 * Buddi, a personal finance manager
 * UPM, a Universal Password Manager
 * Rachota, a task management tool
-* Online Shopping, a sample application for online shopping
-* Crosswords, a crossword generator
 * Spark, a messaging application
-* PDFsam, a PDF editor
 
 Note: Most of the subject applications are used from the empirical study of Zuddas' research (https://doi.org/10.1145/3236454.3236489).
 Also see the readme in `solutions/ExampleApplications/Readme.md`.
