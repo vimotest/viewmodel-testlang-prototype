@@ -53,6 +53,20 @@ The following sample applications are modelled:
 Note: Most of the subject applications are used from the empirical study of Zuddas' research (https://doi.org/10.1145/3236454.3236489).
 Also see the readme in `solutions/ExampleApplications/Readme.md`.
 
+### Screenshots
+
+Hamster Simulator Test:
+
+![HamsterViewTest](documentation/screenshots/screenshot_hamster_test.png)
+
+Login View Test:
+
+![LoginViewTest](documentation/screenshots/screenshot_loginview_test.png)
+
+History Tasks View Test:
+
+![HistoryTaskViewTest](documentation/screenshots/screenshot_historytasksview_test.png)
+
 ## Documentation
 
 See https://vimotest.github.io
