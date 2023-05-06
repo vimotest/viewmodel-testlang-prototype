@@ -161,6 +161,7 @@
         <property id="3426401106045631318" name="text" index="30lZVK" />
       </concept>
       <concept id="3426401106045120499" name="ViewModelTestLanguage.structure.TestCaseDescription" flags="ng" index="30nyDl">
+        <property id="3426401106045120517" name="scenario" index="30nzmz" />
         <child id="3426401106045120503" name="when" index="30nyDh" />
         <child id="3426401106045120501" name="given" index="30nyDj" />
         <child id="3426401106045120506" name="then" index="30nyDs" />
@@ -407,6 +408,7 @@
     <ref role="30n1PB" node="6yyqi$iVArW" resolve="MainView" />
     <node concept="30n1Qa" id="6yyqi$j0DTu" role="30n1Qb">
       <node concept="30nyDl" id="6yyqi$j0DTv" role="30nziG">
+        <property role="30nzmz" value="Load sample accounts" />
         <node concept="30nyDi" id="6yyqi$j0DTw" role="30nyDj">
           <property role="30lZVK" value="Database with three accounts" />
         </node>
@@ -541,6 +543,7 @@
     </node>
     <node concept="30n1Qa" id="2$XDRugFTN6" role="30n1Qb">
       <node concept="30nyDl" id="2$XDRugFTN7" role="30nziG">
+        <property role="30nzmz" value="Select first account" />
         <node concept="30nyDi" id="2$XDRugFTN8" role="30nyDj">
           <property role="30lZVK" value="Database with three accounts" />
         </node>
@@ -927,6 +930,7 @@
     <ref role="30n1PB" node="skyIo3yPLu" resolve="AccountDetailsView" />
     <node concept="30n1Qa" id="4kXwATFz71v" role="30n1Qb">
       <node concept="30nyDl" id="4kXwATFz71w" role="30nziG">
+        <property role="30nzmz" value="Load sample account" />
         <node concept="30nyDi" id="4kXwATFz71x" role="30nyDj">
           <property role="30lZVK" value="Account with name, userId, password, url" />
         </node>
@@ -1035,6 +1039,7 @@
     </node>
     <node concept="30n1Qa" id="4kXwATFDNVD" role="30n1Qb">
       <node concept="30nyDl" id="4kXwATFDNVE" role="30nziG">
+        <property role="30nzmz" value="Check hide checkbox" />
         <node concept="30nyDi" id="4kXwATFDNVF" role="30nyDj">
           <property role="30lZVK" value="Account with name, userId, password, url" />
         </node>
@@ -1324,6 +1329,7 @@
     <ref role="30n1PB" node="2wrhDsVYayF" resolve="OptionsView" />
     <node concept="30n1Qa" id="2wrhDsVYyp5" role="30n1Qb">
       <node concept="30nyDl" id="2wrhDsVYyp6" role="30nziG">
+        <property role="30nzmz" value="Load no database" />
         <node concept="30nyDi" id="2wrhDsVYyp7" role="30nyDj">
           <property role="30lZVK" value="No database selected" />
         </node>
@@ -1435,6 +1441,7 @@
     </node>
     <node concept="30n1Qa" id="2rKiCwqpGx0" role="30n1Qb">
       <node concept="30nyDl" id="2rKiCwqpGx1" role="30nziG">
+        <property role="30nzmz" value="Load selected sample database" />
         <node concept="30nyDi" id="2rKiCwqpGx2" role="30nyDj">
           <property role="30lZVK" value="Database selected" />
         </node>

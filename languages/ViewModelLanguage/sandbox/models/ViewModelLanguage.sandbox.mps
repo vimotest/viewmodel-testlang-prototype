@@ -229,6 +229,7 @@
         <property id="3426401106045631318" name="text" index="30lZVK" />
       </concept>
       <concept id="3426401106045120499" name="ViewModelTestLanguage.structure.TestCaseDescription" flags="ng" index="30nyDl">
+        <property id="3426401106045120517" name="scenario" index="30nzmz" />
         <child id="3426401106045120503" name="when" index="30nyDh" />
         <child id="3426401106045120501" name="given" index="30nyDj" />
         <child id="3426401106045120506" name="then" index="30nyDs" />
@@ -720,6 +721,7 @@
     <ref role="30n1PB" node="3JS2UjmSmXC" resolve="MyView" />
     <node concept="30n1Qa" id="2Yd1qrJPAvf" role="30n1Qb">
       <node concept="30nyDl" id="2Yd1qrJPAvg" role="30nziG">
+        <property role="30nzmz" value="Button sensitive" />
         <node concept="30nyDi" id="2Yd1qrJPAvh" role="30nyDj">
           <property role="30lZVK" value="Two objects" />
         </node>
@@ -769,6 +771,7 @@
     </node>
     <node concept="30n1Qa" id="2Yd1qrJRMCh" role="30n1Qb">
       <node concept="30nyDl" id="2Yd1qrJRMCi" role="30nziG">
+        <property role="30nzmz" value="Button insensitive and Context ref with modifications" />
         <node concept="30nyDi" id="2Yd1qrJV2In" role="30nyDj">
           <property role="30lZVK" value="Two objects" />
         </node>
@@ -806,6 +809,7 @@
     </node>
     <node concept="30n1Qa" id="5WrZkWQqRIe" role="30n1Qb">
       <node concept="30nyDl" id="5WrZkWQqRIf" role="30nziG">
+        <property role="30nzmz" value="Table" />
         <node concept="30nyDi" id="5WrZkWQqRIg" role="30nyDj">
           <property role="30lZVK" value="Two objects" />
         </node>
@@ -912,6 +916,7 @@
     </node>
     <node concept="30n1Qa" id="28eLOYb2rV7" role="30n1Qb">
       <node concept="30nyDl" id="28eLOYb2rV8" role="30nziG">
+        <property role="30nzmz" value="TreeView" />
         <node concept="30nyDi" id="28eLOYb2rV9" role="30nyDj">
           <property role="30lZVK" value="Two objects" />
         </node>
@@ -1043,6 +1048,7 @@
     </node>
     <node concept="30n1Qa" id="7qebotZ8exh" role="30n1Qb">
       <node concept="30nyDl" id="7qebotZ8exi" role="30nziG">
+        <property role="30nzmz" value="Stacked Icons" />
         <node concept="30nyDi" id="7qebotZ8exj" role="30nyDj">
           <property role="30lZVK" value="Circle object" />
         </node>
@@ -1088,6 +1094,7 @@
     </node>
     <node concept="30n1Qa" id="5QmCrei9Vru" role="30n1Qb">
       <node concept="30nyDl" id="5QmCrei9Vrv" role="30nziG">
+        <property role="30nzmz" value="Standard Controls (Checkbox, Image, TextBox, ComboBox, RadioButtons)" />
         <node concept="30nyDi" id="5QmCrei9Vrx" role="30nyDj">
           <property role="30lZVK" value="Two objects" />
         </node>
@@ -1191,6 +1198,7 @@
     </node>
     <node concept="30n1Qa" id="61f9eXTtH3B" role="30n1Qb">
       <node concept="30nyDl" id="61f9eXTtH3C" role="30nziG">
+        <property role="30nzmz" value="Progress Bar" />
         <node concept="30nyDi" id="61f9eXTtH3D" role="30nyDj">
           <property role="30lZVK" value="No objects" />
         </node>
@@ -1223,6 +1231,7 @@
     </node>
     <node concept="30n1Qa" id="fGbCOkzRtR" role="30n1Qb">
       <node concept="30nyDl" id="fGbCOkzRtS" role="30nziG">
+        <property role="30nzmz" value="MessageBox" />
         <node concept="30nyDi" id="fGbCOkzRtT" role="30nyDj">
           <property role="30lZVK" value="Two objects" />
         </node>
@@ -1252,6 +1261,7 @@
     </node>
     <node concept="30n1Qa" id="2gml1W1trS2" role="30n1Qb">
       <node concept="30nyDl" id="2gml1W1trS3" role="30nziG">
+        <property role="30nzmz" value="Custom boolean field" />
         <node concept="30nyDi" id="2gml1W1trS4" role="30nyDj">
           <property role="30lZVK" value="Two objects" />
         </node>
