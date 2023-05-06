@@ -145,6 +145,7 @@
         <property id="3426401106045631318" name="text" index="30lZVK" />
       </concept>
       <concept id="3426401106045120499" name="ViewModelTestLanguage.structure.TestCaseDescription" flags="ng" index="30nyDl">
+        <property id="3426401106045120517" name="scenario" index="30nzmz" />
         <child id="3426401106045120503" name="when" index="30nyDh" />
         <child id="3426401106045120501" name="given" index="30nyDj" />
         <child id="3426401106045120506" name="then" index="30nyDs" />
@@ -323,6 +324,7 @@
     <ref role="30n1PB" node="4XlUEZmo08T" resolve="MyAccountsView" />
     <node concept="30n1Qa" id="26AO1okMsdk" role="30n1Qb">
       <node concept="30nyDl" id="26AO1okMsdl" role="30nziG">
+        <property role="30nzmz" value="Load account with sample data" />
         <node concept="30nyDi" id="26AO1okMsdm" role="30nyDj">
           <property role="30lZVK" value="Sample Data" />
         </node>
@@ -586,6 +588,7 @@
     <ref role="30n1PB" node="5E6KScpsopj" resolve="MyAccountsDetailsView" />
     <node concept="30n1Qa" id="5E6KScpsyXC" role="30n1Qb">
       <node concept="30nyDl" id="5E6KScpsyXD" role="30nziG">
+        <property role="30nzmz" value="Load account details" />
         <node concept="30nyDi" id="5E6KScpsyXE" role="30nyDj">
           <property role="30lZVK" value="An account" />
         </node>
@@ -879,6 +882,7 @@
     <ref role="30n1PB" node="5E6KScpsRe_" resolve="MyBudgetView" />
     <node concept="30n1Qa" id="5E6KScp$f_n" role="30n1Qb">
       <node concept="30nyDl" id="5E6KScp$f_o" role="30nziG">
+        <property role="30nzmz" value="Load budget categories" />
         <node concept="30nyDi" id="5E6KScp$f_p" role="30nyDj">
           <property role="30lZVK" value="Sample categories" />
         </node>
@@ -1430,6 +1434,7 @@
     <ref role="30n1PB" node="3BqtrqiHMGU" resolve="TransactionsView" />
     <node concept="30n1Qa" id="mFfN0XHPG2" role="30n1Qb">
       <node concept="30nyDl" id="mFfN0XHPG3" role="30nziG">
+        <property role="30nzmz" value="Load sample transactions" />
         <node concept="30nyDi" id="mFfN0XHPG4" role="30nyDj">
           <property role="30lZVK" value="Sample transactions" />
         </node>
