@@ -8,13 +8,14 @@ import groovy.json.JsonSlurper
 import org.apache.tools.ant.taskdefs.condition.Os
 import java.nio.file.Files
 
-// see: https://github.com/JetBrains/JetBrainsRuntime/tree/jbr11#releases
+// see: https://github.com/JetBrains/JetBrainsRuntime/tree/main#releases-based-on-jdk-17
 def jbrMappings = [
         "2021.2": "11_0_13-b1504.49",
         "2021.3": "11_0_14_1-b1751.46",
         "2022.1": "11_0_15-b2043.56",
         "2022.2": "17.0.5-b469.71",
-        "2022.3": "17.0.5-b653.14" ]
+        "2022.3": "17.0.6-b653.34",
+        "2023.1": "17.0.6-b829.9" ]
 
 
 if (!project.hasProperty("mpsVersion")) {
