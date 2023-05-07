@@ -830,22 +830,6 @@
         <property role="1u4ncw" value="images/rachota/edit.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="61f9eXSU2JN" role="1u6Lvn">
-      <property role="TrG5h" value="exit" />
-      <property role="Lsnro" value="16" />
-      <property role="LsnsT" value="16" />
-      <node concept="1u4ncX" id="61f9eXSU2JP" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/exit.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="61f9eXSU2JR" role="1u6Lvn">
-      <property role="TrG5h" value="info" />
-      <property role="Lsnro" value="16" />
-      <property role="LsnsT" value="16" />
-      <node concept="1u4ncX" id="61f9eXSU2JT" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/info.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="61f9eXSU2JV" role="1u6Lvn">
       <property role="TrG5h" value="next" />
       <property role="Lsnro" value="16" />
@@ -1070,48 +1054,6 @@
       <property role="LsnsT" value="16" />
       <node concept="1u4ncX" id="61f9eXSU2LX" role="1u6L2h">
         <property role="1u4ncw" value="images/rachota/previous_month.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="61f9eXSU2LZ" role="1u6Lvn">
-      <property role="TrG5h" value="report_preview" />
-      <property role="LsnsT" value="32" />
-      <node concept="1u4ncX" id="61f9eXSU2M1" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/report_preview.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="61f9eXSU2M3" role="1u6Lvn">
-      <property role="TrG5h" value="invoice_preview" />
-      <property role="LsnsT" value="32" />
-      <node concept="1u4ncX" id="61f9eXSU2M5" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/invoice_preview.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="61f9eXSU2Lr" role="1u6Lvn">
-      <property role="TrG5h" value="logo_small" />
-      <property role="LsnsT" value="16" />
-      <node concept="1u4ncX" id="61f9eXSU2Lt" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/logo_small.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="61f9eXSU2Kv" role="1u6Lvn">
-      <property role="TrG5h" value="logo_48" />
-      <property role="LsnsT" value="32" />
-      <node concept="1u4ncX" id="61f9eXSU2Kx" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/logo_48.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="61f9eXSU2LJ" role="1u6Lvn">
-      <property role="TrG5h" value="logo_name_48" />
-      <property role="LsnsT" value="32" />
-      <node concept="1u4ncX" id="61f9eXSU2LL" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/logo_name_48.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="61f9eXSU2LF" role="1u6Lvn">
-      <property role="TrG5h" value="logo_red_48" />
-      <property role="LsnsT" value="16" />
-      <node concept="1u4ncX" id="61f9eXSU2LH" role="1u6L2h">
-        <property role="1u4ncw" value="images/rachota/logo_red_48.png" />
       </node>
     </node>
   </node>

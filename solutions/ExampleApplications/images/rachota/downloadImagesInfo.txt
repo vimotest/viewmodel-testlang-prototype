@@ -5,14 +5,7 @@ https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/done.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/edit.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/edit_filter.png
-https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/exit.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/fix_time.png
-https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/info.png
-https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/invoice_preview.png
-https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/logo_48.png
-https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/logo_name_48.png
-https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/logo_red_48.png
-https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/logo_small.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/move_task.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/move_time.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/new_filter.png
@@ -32,7 +25,6 @@ https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/ranking_5.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/remove_filter.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/report.png
-https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/report_preview.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/select.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/service.png
 https://github.com/vovkasm/rachota/raw/0d8f630e377c1f534c4d8126bf7dd3b5a26732f5/src/main/resources/org/cesilko/rachota/gui/images/table.png

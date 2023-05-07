@@ -723,12 +723,6 @@
         <property role="1u4ncw" value="images/spark/ban.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7c5" role="1u6Lvn">
-      <property role="TrG5h" value="Away" />
-      <node concept="1u4ncX" id="7y3M9oPB7c7" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/Away.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7c9" role="1u6Lvn">
       <property role="TrG5h" value="back" />
       <node concept="1u4ncX" id="7y3M9oPB7cb" role="1u6L2h">
@@ -799,12 +793,6 @@
       <property role="TrG5h" value="save" />
       <node concept="1u4ncX" id="7y3M9oPB7cR" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/save.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7cT" role="1u6Lvn">
-      <property role="TrG5h" value="star" />
-      <node concept="1u4ncX" id="7y3M9oPB7cV" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/star.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="7y3M9oPB7cX" role="1u6Lvn">
@@ -885,18 +873,6 @@
       <property role="TrG5h" value="users" />
       <node concept="1u4ncX" id="7y3M9oPB7dJ" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/users.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7dL" role="1u6Lvn">
-      <property role="TrG5h" value="XAway" />
-      <node concept="1u4ncX" id="7y3M9oPB7dN" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/XAway.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7dP" role="1u6Lvn">
-      <property role="TrG5h" value="accept" />
-      <node concept="1u4ncX" id="7y3M9oPB7dR" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/accept.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="7y3M9oPB7dT" role="1u6Lvn">
@@ -995,12 +971,6 @@
         <property role="1u4ncw" value="images/spark/plugins.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7f9" role="1u6Lvn">
-      <property role="TrG5h" value="privacy" />
-      <node concept="1u4ncX" id="7y3M9oPB7fb" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7fd" role="1u6Lvn">
       <property role="TrG5h" value="profile" />
       <node concept="1u4ncX" id="7y3M9oPB7ff" role="1u6L2h">
@@ -1037,12 +1007,6 @@
         <property role="1u4ncw" value="images/spark/contacts.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7f_" role="1u6Lvn">
-      <property role="TrG5h" value="invite24" />
-      <node concept="1u4ncX" id="7y3M9oPB7fB" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/invite24.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7fD" role="1u6Lvn">
       <property role="TrG5h" value="language" />
       <node concept="1u4ncX" id="7y3M9oPB7fF" role="1u6L2h">
@@ -1065,12 +1029,6 @@
       <property role="TrG5h" value="settings" />
       <node concept="1u4ncX" id="7y3M9oPB7fR" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/settings.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7fT" role="1u6Lvn">
-      <property role="TrG5h" value="star_red" />
-      <node concept="1u4ncX" id="7y3M9oPB7fV" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/star_red.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="7y3M9oPB7fX" role="1u6Lvn">
@@ -1133,12 +1091,6 @@
         <property role="1u4ncw" value="images/spark/send_file.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7gH" role="1u6Lvn">
-      <property role="TrG5h" value="star_blue" />
-      <node concept="1u4ncX" id="7y3M9oPB7gJ" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/star_blue.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7gL" role="1u6Lvn">
       <property role="TrG5h" value="subscribe" />
       <node concept="1u4ncX" id="7y3M9oPB7gN" role="1u6L2h">
@@ -1173,24 +1125,6 @@
       <property role="TrG5h" value="invitemore" />
       <node concept="1u4ncX" id="7y3M9oPB7hb" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/invitemore.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7hd" role="1u6Lvn">
-      <property role="TrG5h" value="star_admin" />
-      <node concept="1u4ncX" id="7y3M9oPB7hf" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/star_admin.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7hh" role="1u6Lvn">
-      <property role="TrG5h" value="star_green" />
-      <node concept="1u4ncX" id="7y3M9oPB7hj" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/star_green.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7hl" role="1u6Lvn">
-      <property role="TrG5h" value="star_owner" />
-      <node concept="1u4ncX" id="7y3M9oPB7hn" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/star_owner.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="7y3M9oPB7hp" role="1u6Lvn">
@@ -1235,12 +1169,6 @@
         <property role="1u4ncw" value="images/spark/small_entry.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7i5" role="1u6Lvn">
-      <property role="TrG5h" value="star_yellow" />
-      <node concept="1u4ncX" id="7y3M9oPB7i7" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/star_yellow.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7id" role="1u6Lvn">
       <property role="TrG5h" value="address_book" />
       <node concept="1u4ncX" id="7y3M9oPB7if" role="1u6L2h">
@@ -1251,12 +1179,6 @@
       <property role="TrG5h" value="check_update" />
       <node concept="1u4ncX" id="7y3M9oPB7ij" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/check_update.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7il" role="1u6Lvn">
-      <property role="TrG5h" value="DoNotDisturb" />
-      <node concept="1u4ncX" id="7y3M9oPB7in" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/DoNotDisturb.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="7y3M9oPB7ip" role="1u6Lvn">
@@ -1283,12 +1205,6 @@
         <property role="1u4ncw" value="images/spark/im_free_chat.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7iD" role="1u6Lvn">
-      <property role="TrG5h" value="screenshot24" />
-      <node concept="1u4ncX" id="7y3M9oPB7iF" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/screenshot24.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7iH" role="1u6Lvn">
       <property role="TrG5h" value="chat_settings" />
       <node concept="1u4ncX" id="7y3M9oPB7iJ" role="1u6L2h">
@@ -1313,22 +1229,10 @@
         <property role="1u4ncw" value="images/spark/notifications.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7iX" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_check" />
-      <node concept="1u4ncX" id="7y3M9oPB7iZ" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_check.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7j1" role="1u6Lvn">
       <property role="TrG5h" value="im_unavailable" />
       <node concept="1u4ncX" id="7y3M9oPB7j3" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/im_unavailable.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7j5" role="1u6Lvn">
-      <property role="TrG5h" value="star_moderator" />
-      <node concept="1u4ncX" id="7y3M9oPB7j7" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/star_moderator.png" />
       </node>
     </node>
     <node concept="1u6Luv" id="7y3M9oPB7jl" role="1u6Lvn">
@@ -1343,12 +1247,6 @@
         <property role="1u4ncw" value="images/spark/start_conference.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7jt" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_lightning" />
-      <node concept="1u4ncX" id="7y3M9oPB7jv" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_lightning.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7j_" role="1u6Lvn">
       <property role="TrG5h" value="im_available_stale" />
       <node concept="1u4ncX" id="7y3M9oPB7jB" role="1u6L2h">
@@ -1361,76 +1259,10 @@
         <property role="1u4ncw" value="images/spark/im_free_chat_stale.png" />
       </node>
     </node>
-    <node concept="1u6Luv" id="7y3M9oPB7jH" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_query_deny" />
-      <node concept="1u4ncX" id="7y3M9oPB7jJ" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_query_deny.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7jL" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_query_allow" />
-      <node concept="1u4ncX" id="7y3M9oPB7jN" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_query_allow.png" />
-      </node>
-    </node>
     <node concept="1u6Luv" id="7y3M9oPB7jP" role="1u6Lvn">
       <property role="TrG5h" value="im_unavailable_stale" />
       <node concept="1u4ncX" id="7y3M9oPB7jR" role="1u6L2h">
         <property role="1u4ncw" value="images/spark/im_unavailable_stale.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7jT" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_message_deny" />
-      <node concept="1u4ncX" id="7y3M9oPB7jV" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_message_deny.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7jX" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_message_allow" />
-      <node concept="1u4ncX" id="7y3M9oPB7jZ" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_message_allow.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7k1" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_list_deactivate" />
-      <node concept="1u4ncX" id="7y3M9oPB7k3" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_list_deactivate.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7k5" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_presence_in_deny" />
-      <node concept="1u4ncX" id="7y3M9oPB7k7" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_presence_in_deny.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7k9" role="1u6Lvn">
-      <property role="TrG5h" value="spark_tray_message-16x16" />
-      <node concept="1u4ncX" id="7y3M9oPB7kb" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/spark_tray_message-16x16.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7kh" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_presence_in_allow" />
-      <node concept="1u4ncX" id="7y3M9oPB7kj" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_presence_in_allow.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7kl" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_presence_out_deny" />
-      <node concept="1u4ncX" id="7y3M9oPB7kn" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_presence_out_deny.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7kp" role="1u6Lvn">
-      <property role="TrG5h" value="privacy_presence_out_allow" />
-      <node concept="1u4ncX" id="7y3M9oPB7kr" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/privacy_presence_out_allow.png" />
-      </node>
-    </node>
-    <node concept="1u6Luv" id="7y3M9oPB7kt" role="1u6Lvn">
-      <property role="TrG5h" value="spark_tray_connecting-16x16" />
-      <node concept="1u4ncX" id="7y3M9oPB7kv" role="1u6L2h">
-        <property role="1u4ncw" value="images/spark/spark_tray_connecting-16x16.png" />
       </node>
     </node>
   </node>
