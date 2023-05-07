@@ -298,6 +298,15 @@ task copyOsSpecificBinFiles {
         file("$targetFolderName/bin/win").deleteDir()
         file("$targetFolderName/bin/mac").deleteDir()
         file("$targetFolderName/bin/linux").deleteDir()
+
+        // workaround: MPS-35648
+        if (isWindows() && mpsVersion == "2022.3") {
+            println("Workaround for UnsatisfiedLinkError with jnidispatch.dll: copying jna files to $targetFolderName/lib/jna")
+            copy {
+                from fileTree("$targetFolderName/lib/jna/amd64")
+                into file("$targetFolderName/lib/jna")
+            }
+        }
     }
 }
 
