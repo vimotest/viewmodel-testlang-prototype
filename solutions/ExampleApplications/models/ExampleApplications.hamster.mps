@@ -559,7 +559,7 @@
         <property role="Np8mw" value="example.ter" />
       </node>
       <node concept="30nziD" id="3hw7vs6eHOc" role="30nzo2">
-        <ref role="30nziQ" node="3hw7vs6eHOa" resolve="LoadView" />
+        <ref role="30nziQ" node="3hw7vs6eHOa" resolve="loadView" />
       </node>
     </node>
     <node concept="30n1Qa" id="3hw7vs6eHJ4" role="30n1Qb">
@@ -579,7 +579,7 @@
         </node>
       </node>
       <node concept="30nziD" id="3hw7vs6eHOh" role="30nzo2">
-        <ref role="30nziQ" node="3hw7vs6eHOa" resolve="LoadView" />
+        <ref role="30nziQ" node="3hw7vs6eHOa" resolve="loadView" />
       </node>
       <node concept="2nhTvs" id="3hw7vs6eHJa" role="30nzo2">
         <ref role="2nhTuD" node="65sofNQ578I" resolve="move" />
