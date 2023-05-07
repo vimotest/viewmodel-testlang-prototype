@@ -4,10 +4,11 @@ ext.mpsPlugins = [ "de.itemis.mps.extensions.build": 17136,
 
 apply from: 'gradle/init-gradle-scripts.gradle'
 apply from: 'gradle/download-hamstersimulator.gradle'
+apply from: 'gradle/download-example-images.gradle'
 
 task prepareMps {
     group 'mps'
-    dependsOn 'buildOsSpecificBundle'
+    dependsOn 'buildOsSpecificBundle', downloadExampleImages
 }
 
 task mpsBuild {

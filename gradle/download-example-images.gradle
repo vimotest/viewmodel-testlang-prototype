@@ -1,0 +1,34 @@
+def examplesDir = file("solutions/ExampleApplications/images")
+
+task downloadExampleImages() {
+    group 'other'
+
+    doLast {
+        examplesDir.eachDir { exampleDir ->
+            def downloadImagesInfoFile = file("$exampleDir/downloadImagesInfo.txt")
+            if (downloadImagesInfoFile.exists()) {
+
+                print "Downloading images for ${exampleDir.name}: "
+
+                downloadImagesInfoFile.eachLine { fileUrl ->
+                    def imageFileName = fileUrl.substring(fileUrl.lastIndexOf('/') + 1)
+                    def imageFile = file("$exampleDir/$imageFileName")
+                    if (!imageFile.exists()) {
+                        print "."
+                        downloadFile(fileUrl, imageFile)
+                    }
+                }
+                println()
+            }
+        }
+    }
+
+}
+
+private def downloadFile(String url, File file) {
+    file.withOutputStream { outputStream ->
+        new URL(url).withInputStream { inputStream ->
+            outputStream << inputStream
+        }
+    }
+}
