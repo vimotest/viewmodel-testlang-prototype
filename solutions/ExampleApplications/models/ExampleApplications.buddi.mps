@@ -7,15 +7,28 @@
   </languages>
   <imports />
   <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
+    </language>
     <language id="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60" name="SimpleTypeLanguage">
+      <concept id="5878168047017201865" name="SimpleTypeLanguage.structure.Struct" flags="ng" index="2P469S" />
       <concept id="5878168047017091896" name="SimpleTypeLanguage.structure.Field" flags="ng" index="2P4x69" />
       <concept id="5878168047017091882" name="SimpleTypeLanguage.structure.StructType" flags="ng" index="2P4x6r">
         <child id="5878168047017215911" name="contents" index="2P43km" />
       </concept>
+      <concept id="5878168047017124641" name="SimpleTypeLanguage.structure.BoolType" flags="ng" index="2P4D6g" />
       <concept id="5878168047017124640" name="SimpleTypeLanguage.structure.StringType" flags="ng" index="2P4D6h" />
+      <concept id="5878168047017124647" name="SimpleTypeLanguage.structure.ListType" flags="ng" index="2P4D6m">
+        <child id="5878168047017124755" name="baseType" index="2P4D4y" />
+      </concept>
+      <concept id="5878168047017124637" name="SimpleTypeLanguage.structure.IntType" flags="ng" index="2P4D6G" />
+      <concept id="5878168047017276201" name="SimpleTypeLanguage.structure.TypeReference" flags="ng" index="2P5O6o">
+        <reference id="5878168047017276202" name="referencedTypeDeclaration" index="2P5O6r" />
+      </concept>
       <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
         <child id="5878168047017276966" name="type" index="2P5Oin" />
       </concept>
+      <concept id="4321216645069390432" name="SimpleTypeLanguage.structure.EmptyStructContent" flags="ng" index="3H9sB4" />
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
       <concept id="3011041337510726008" name="ViewModelLanguage.structure.TextVCFeature" flags="ng" index="27$lts">
@@ -63,6 +76,7 @@
       <concept id="6692228888292391868" name="ViewModelLanguage.structure.ColorValue" flags="ng" index="3mAu$b">
         <property id="6692228888292392424" name="colorLiteral" index="3mAuXv" />
       </concept>
+      <concept id="3467946101314360988" name="ViewModelLanguage.structure.SelectItemEvent" flags="ng" index="3taSw6" />
       <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_">
         <child id="3011041337510922390" name="textFeature" index="27$_qM" />
         <child id="2194160217324893899" name="colorFeature" index="2NwCZs" />
@@ -81,6 +95,7 @@
         <child id="5984107031764840544" name="sensitivityFeature" index="2Pim73" />
         <child id="5984107031764840549" name="nameFeature" index="2Pim76" />
       </concept>
+      <concept id="4321216645069263751" name="ViewModelLanguage.structure.EmptyContent" flags="ng" index="3H8Xwz" />
       <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym">
         <property id="6743755284663297273" name="hasParameters" index="3f4$la" />
       </concept>
@@ -88,6 +103,9 @@
       <concept id="4321216645069263618" name="ViewModelLanguage.structure.View" flags="ng" index="3H8XyA">
         <child id="4321216645069263669" name="contents" index="3H8Xyh" />
         <child id="4321216645069263621" name="viewModel" index="3H8Xyx" />
+      </concept>
+      <concept id="4321216645069452908" name="ViewModelLanguage.structure.StructWrapper" flags="ng" index="3H9FR8">
+        <child id="4321216645069452911" name="struct" index="3H9FRb" />
       </concept>
       <concept id="5830978789222176938" name="ViewModelLanguage.structure.TableComponent" flags="ng" index="3KxLjU">
         <child id="5984107031766637556" name="rowsFeature" index="2PlsDn" />
@@ -110,6 +128,13 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="2600358326998253203" name="ViewModelTestLanguage.structure.FieldAssertion" flags="ng" index="_oYEc">
+        <child id="2600358326998253206" name="checkValue" index="_oYE9" />
+      </concept>
+      <concept id="2600358326997816560" name="ViewModelTestLanguage.structure.FieldExpressionCheckValue" flags="ng" index="_uk3J">
+        <reference id="2600358326997823196" name="fieldReference" index="_unF3" />
+        <child id="2600358326997816563" name="expression" index="_uk3G" />
+      </concept>
       <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
         <child id="643469022294099062" name="checks" index="2D8cJs" />
       </concept>
@@ -1675,6 +1700,352 @@
               <property role="30nzpr" value="true" />
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3H8XyA" id="5QKRmMfM2yB">
+    <property role="TrG5h" value="ReportView" />
+    <node concept="3H8Xy_" id="5QKRmMfM2yC" role="3H8Xyx">
+      <node concept="3P6jyO" id="5QKRmMfM2yD" role="2P43km">
+        <node concept="3P0PJ2" id="5QKRmMfM2yE" role="3P0O4S">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="5QKRmMfM2yF" role="3P0O4A">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="5QKRmMfM2yG" role="2Pim73" />
+        <node concept="2Pim7K" id="5QKRmMfM2yH" role="2Pim71" />
+        <node concept="2Pim7H" id="5QKRmMfM2yI" role="2Pim76">
+          <property role="2PigPS" value="IncomeAndExpensesByCategory" />
+        </node>
+      </node>
+      <node concept="3P6jyO" id="5QKRmMfM2yP" role="2P43km">
+        <node concept="3P0PJ2" id="5QKRmMfM2yQ" role="3P0O4S">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="5QKRmMfM2yR" role="3P0O4A">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="5QKRmMfM2yS" role="2Pim73" />
+        <node concept="2Pim7K" id="5QKRmMfM2yT" role="2Pim71" />
+        <node concept="2Pim7H" id="5QKRmMfM2yU" role="2Pim76">
+          <property role="2PigPS" value="AverageIncomeAndExpensesByCategory" />
+        </node>
+      </node>
+      <node concept="3P6jyO" id="5QKRmMfM2zl" role="2P43km">
+        <node concept="3P0PJ2" id="5QKRmMfM2zm" role="3P0O4S">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="5QKRmMfM2zn" role="3P0O4A">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="5QKRmMfM2zo" role="2Pim73" />
+        <node concept="2Pim7K" id="5QKRmMfM2zp" role="2Pim71" />
+        <node concept="2Pim7H" id="5QKRmMfM2zq" role="2Pim76">
+          <property role="2PigPS" value="PieChartOfIncome" />
+        </node>
+      </node>
+      <node concept="3P6jyO" id="5QKRmMfM2zI" role="2P43km">
+        <node concept="3P0PJ2" id="5QKRmMfM2zJ" role="3P0O4S">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="5QKRmMfM2zK" role="3P0O4A">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="5QKRmMfM2zL" role="2Pim73" />
+        <node concept="2Pim7K" id="5QKRmMfM2zM" role="2Pim71" />
+        <node concept="2Pim7H" id="5QKRmMfM2zN" role="2Pim76">
+          <property role="2PigPS" value="PieChartOfExpenses" />
+        </node>
+      </node>
+      <node concept="3P6jyO" id="5QKRmMfM2$C" role="2P43km">
+        <node concept="3P0PJ2" id="5QKRmMfM2$D" role="3P0O4S">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3P0PJ4" id="5QKRmMfM2$E" role="3P0O4A">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="5QKRmMfM2$F" role="2Pim73" />
+        <node concept="2Pim7K" id="5QKRmMfM2$G" role="2Pim71" />
+        <node concept="2Pim7H" id="5QKRmMfM2$H" role="2Pim76">
+          <property role="2PigPS" value="ChartOfNetWorthOverPast" />
+        </node>
+      </node>
+      <node concept="3H9sB4" id="5QKRmMfM2z7" role="2P43km" />
+      <node concept="2P4x69" id="5QKRmMfM2CX" role="2P43km">
+        <property role="TrG5h" value="PieChart" />
+        <node concept="2P5O6o" id="5QKRmMfM2CV" role="2P5Oin">
+          <ref role="2P5O6r" node="5QKRmMfM2An" resolve="PieChart" />
+        </node>
+      </node>
+      <node concept="3KxLjU" id="5QKRmMfM2E3" role="2P43km">
+        <node concept="2PlBGF" id="5QKRmMfM2E5" role="2PlsDn">
+          <property role="2PigO5" value="true" />
+          <node concept="1D3Ojl" id="5QKRmMfM2E7" role="2PlAmB">
+            <node concept="1D3Ojk" id="5QKRmMfM2F0" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="5QKRmMfM2F1" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="5QKRmMfM2F2" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="5QKRmMfM2F3" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="5QKRmMfM2F9" role="1D3Ojh">
+                <node concept="27$lts" id="5QKRmMfM2Fa" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="Bonus" />
+                </node>
+                <node concept="3mzAc8" id="5QKRmMfM2Fb" role="2NwCZs" />
+                <node concept="2Pim7P" id="5QKRmMfM2Fc" role="2Pim73" />
+                <node concept="2Pim7K" id="5QKRmMfM2Fd" role="2Pim71" />
+                <node concept="2Pim7H" id="5QKRmMfM2Fe" role="2Pim76">
+                  <property role="2PigPS" value="Name" />
+                </node>
+              </node>
+            </node>
+            <node concept="3mzAc8" id="5QKRmMfM2E9" role="3mzU$l" />
+            <node concept="1D3Ojk" id="5QKRmMfM2Fv" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="5QKRmMfM2Fw" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="5QKRmMfM2Fx" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="5QKRmMfM2Fy" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="5QKRmMfM2Gc" role="1D3Ojh">
+                <node concept="27$lts" id="5QKRmMfM2Gd" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="$0.00" />
+                </node>
+                <node concept="3mzAc8" id="5QKRmMfM2Ge" role="2NwCZs">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7P" id="5QKRmMfM2Gf" role="2Pim73" />
+                <node concept="2Pim7K" id="5QKRmMfM2Gg" role="2Pim71" />
+                <node concept="2Pim7H" id="5QKRmMfM2Gh" role="2Pim76">
+                  <property role="2PigPS" value="Actual" />
+                </node>
+              </node>
+            </node>
+            <node concept="1D3Ojk" id="5QKRmMfM2FN" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="5QKRmMfM2FO" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="5QKRmMfM2FP" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="5QKRmMfM2FQ" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="5QKRmMfM2Ha" role="1D3Ojh">
+                <node concept="27$lts" id="5QKRmMfM2Hb" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="$0.00" />
+                </node>
+                <node concept="3mzAc8" id="5QKRmMfM2Hc" role="2NwCZs">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7P" id="5QKRmMfM2Hd" role="2Pim73" />
+                <node concept="2Pim7K" id="5QKRmMfM2He" role="2Pim71" />
+                <node concept="2Pim7H" id="5QKRmMfM2Hf" role="2Pim76">
+                  <property role="2PigPS" value="Budgeted" />
+                </node>
+              </node>
+            </node>
+            <node concept="1D3Ojk" id="5QKRmMfM2I9" role="1D3OjJ">
+              <property role="1D38ss" value="true" />
+              <node concept="2Pim7H" id="5QKRmMfM2Ia" role="2Pim76">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7P" id="5QKRmMfM2Ib" role="2Pim73">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="2Pim7K" id="5QKRmMfM2Ic" role="2Pim71">
+                <property role="2PigO5" value="true" />
+              </node>
+              <node concept="1D10m_" id="5QKRmMfM2Id" role="1D3Ojh">
+                <node concept="27$lts" id="5QKRmMfM2Ie" role="27$_qM">
+                  <property role="2PigO5" value="true" />
+                  <property role="27$ltt" value="$0.00" />
+                </node>
+                <node concept="3mzAc8" id="5QKRmMfM2If" role="2NwCZs">
+                  <property role="2PigO5" value="true" />
+                </node>
+                <node concept="2Pim7P" id="5QKRmMfM2Ig" role="2Pim73" />
+                <node concept="2Pim7K" id="5QKRmMfM2Ih" role="2Pim71" />
+                <node concept="2Pim7H" id="5QKRmMfM2Ii" role="2Pim76">
+                  <property role="2PigPS" value="Difference" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3fMvU4" id="5QKRmMfM2Eb" role="3fMvU8">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7P" id="5QKRmMfM2Ed" role="2Pim73" />
+        <node concept="2Pim7K" id="5QKRmMfM2Ef" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="5QKRmMfM2Eh" role="2Pim76">
+          <property role="2PigPS" value="IncomeAndExpensesChart" />
+        </node>
+      </node>
+    </node>
+    <node concept="3f3I3T" id="5QKRmMfM2Kk" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+    </node>
+    <node concept="3f6vZ2" id="5QKRmMfM2Kl" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="IncomeAndExpensesChartRowSelected" />
+      <ref role="3fS2vI" node="5QKRmMfM2E3" resolve="IncomeAndExpensesChart" />
+      <node concept="2P4x69" id="5QKRmMfM2Km" role="2P43km">
+        <property role="TrG5h" value="rowHandle" />
+        <node concept="2P4D6h" id="5QKRmMfM2Kn" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3taSw6" id="5QKRmMfM2Ko" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="IncomeAndExpensesByCategoryItemSelected" />
+      <ref role="3fS2vI" node="5QKRmMfM2yD" resolve="IncomeAndExpensesByCategory" />
+      <node concept="2P4x69" id="5QKRmMfM2Kp" role="2P43km">
+        <property role="TrG5h" value="selectedItem" />
+        <node concept="2P4D6h" id="5QKRmMfM2Kq" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3taSw6" id="5QKRmMfM2Kr" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="AverageIncomeAndExpensesByCategoryItemSelected" />
+      <ref role="3fS2vI" node="5QKRmMfM2yP" resolve="AverageIncomeAndExpensesByCategory" />
+      <node concept="2P4x69" id="5QKRmMfM2Ks" role="2P43km">
+        <property role="TrG5h" value="selectedItem" />
+        <node concept="2P4D6h" id="5QKRmMfM2Kt" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3taSw6" id="5QKRmMfM2Ku" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="PieChartOfIncomeItemSelected" />
+      <ref role="3fS2vI" node="5QKRmMfM2zl" resolve="PieChartOfIncome" />
+      <node concept="2P4x69" id="5QKRmMfM2Kv" role="2P43km">
+        <property role="TrG5h" value="selectedItem" />
+        <node concept="2P4D6h" id="5QKRmMfM2Kw" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3taSw6" id="5QKRmMfM2Kx" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="PieChartOfExpensesItemSelected" />
+      <ref role="3fS2vI" node="5QKRmMfM2zI" resolve="PieChartOfExpenses" />
+      <node concept="2P4x69" id="5QKRmMfM2Ky" role="2P43km">
+        <property role="TrG5h" value="selectedItem" />
+        <node concept="2P4D6h" id="5QKRmMfM2Kz" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3taSw6" id="5QKRmMfM2K$" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="ChartOfNetWorthOverPastItemSelected" />
+      <ref role="3fS2vI" node="5QKRmMfM2$C" resolve="ChartOfNetWorthOverPast" />
+      <node concept="2P4x69" id="5QKRmMfM2K_" role="2P43km">
+        <property role="TrG5h" value="selectedItem" />
+        <node concept="2P4D6h" id="5QKRmMfM2KA" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3H8Xwz" id="5QKRmMfM2OR" role="3H8Xyh" />
+    <node concept="3H9FR8" id="5QKRmMfM2Am" role="3H8Xyh">
+      <node concept="2P469S" id="5QKRmMfM2An" role="3H9FRb">
+        <property role="TrG5h" value="PieChart" />
+        <node concept="2P4x69" id="5QKRmMfM2Ar" role="2P43km">
+          <property role="TrG5h" value="Visible" />
+          <node concept="2P4D6g" id="5QKRmMfM2Aq" role="2P5Oin" />
+        </node>
+        <node concept="2P4x69" id="5QKRmMfM2AA" role="2P43km">
+          <property role="TrG5h" value="Pieces" />
+          <node concept="2P4D6m" id="5QKRmMfM2Ay" role="2P5Oin">
+            <node concept="2P5O6o" id="5QKRmMfM2Ci" role="2P4D4y">
+              <ref role="2P5O6r" node="5QKRmMfM2Bu" resolve="PieChartPiece" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3H9FR8" id="5QKRmMfM2Bt" role="3H8Xyh">
+      <node concept="2P469S" id="5QKRmMfM2Bu" role="3H9FRb">
+        <property role="TrG5h" value="PieChartPiece" />
+        <node concept="2P4x69" id="5QKRmMfM2Ca" role="2P43km">
+          <property role="TrG5h" value="Degree" />
+          <node concept="2P4D6G" id="5QKRmMfM2C6" role="2P5Oin" />
+        </node>
+        <node concept="2P4x69" id="5QKRmMfM2B$" role="2P43km">
+          <property role="TrG5h" value="Color" />
+          <node concept="2P4D6h" id="5QKRmMfM2BA" role="2P5Oin" />
+        </node>
+        <node concept="2P4x69" id="5QKRmMfM2JV" role="2P43km">
+          <property role="TrG5h" value="Label" />
+          <node concept="2P4D6h" id="5QKRmMfM2JT" role="2P5Oin" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="30n1Qd" id="5QKRmMfM2K3">
+    <property role="TrG5h" value="ReportViewTests" />
+    <ref role="30n1PB" node="5QKRmMfM2yB" resolve="ReportView" />
+    <node concept="30n1Qa" id="5QKRmMfM2K4" role="30n1Qb">
+      <node concept="30nyDl" id="5QKRmMfM2K5" role="30nziG">
+        <property role="30nzmz" value="Show Pie Chart of My Income" />
+        <node concept="30nyDi" id="5QKRmMfM2K6" role="30nyDj">
+          <property role="30lZVK" value="Incomes $1000 'Work', $100 'Misc'" />
+        </node>
+        <node concept="30nyDi" id="5QKRmMfM2K7" role="30nyDh">
+          <property role="30lZVK" value="Set combobox of Pie Chart for Income" />
+        </node>
+        <node concept="30nyDi" id="5QKRmMfM2K8" role="30nyDs">
+          <property role="30lZVK" value="Show Pie Chart" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="5QKRmMfM2Pr" role="30nziE">
+        <node concept="3nhhjx" id="5QKRmMfM2Pu" role="30k8ga">
+          <property role="TrG5h" value="incomes" />
+          <node concept="30k8jF" id="5QKRmMfM2Pw" role="3nhhjA">
+            <node concept="30k8jQ" id="5QKRmMfM2Py" role="30k8js">
+              <property role="TrG5h" value="name" />
+              <property role="30k8jP" value="Work" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jQ" id="5QKRmMfM2PB" role="30k8js">
+              <property role="TrG5h" value="amount" />
+              <property role="30k8jP" value="1000" />
+            </node>
+          </node>
+          <node concept="30k8jF" id="5QKRmMfM2PE" role="3nhhjA">
+            <node concept="30k8jQ" id="5QKRmMfM2PF" role="30k8js">
+              <property role="TrG5h" value="name" />
+              <property role="30k8jP" value="Misc" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jQ" id="5QKRmMfM2PG" role="30k8js">
+              <property role="TrG5h" value="amount" />
+              <property role="30k8jP" value="100" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="5QKRmMfM2PN" role="30nzo2">
+        <ref role="30nziQ" node="5QKRmMfM2Kk" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="5QKRmMfM2PT" role="30nzo2">
+        <ref role="30nziQ" node="5QKRmMfM2Ku" resolve="PieChartOfIncomeItemSelected" />
+      </node>
+      <node concept="_oYEc" id="5QKRmMfM2PX" role="30nzpy">
+        <node concept="_uk3J" id="5QKRmMfM2PZ" role="_oYE9">
+          <ref role="_unF3" node="5QKRmMfM2CX" resolve="PieChart" />
+          <node concept="33vP2n" id="5QKRmMfM2Q1" role="_uk3G" />
         </node>
       </node>
     </node>
