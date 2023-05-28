@@ -1306,7 +1306,7 @@
     <property role="EcuMT" value="6751139299766859837" />
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
     <property role="TrG5h" value="DirectStructFieldReference" />
-    <property role="34LRSv" value="field ref" />
+    <property role="34LRSv" value="-&gt;field in struct" />
     <ref role="1TJDcQ" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
     <node concept="1TJgyj" id="5QKRmMfM7x0" role="1TKVEi">
       <property role="IQ2ns" value="6751139299766859840" />

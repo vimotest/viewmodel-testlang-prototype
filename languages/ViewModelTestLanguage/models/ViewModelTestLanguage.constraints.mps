@@ -1374,6 +1374,20 @@
         </node>
       </node>
     </node>
+    <node concept="3EP7_v" id="WSTDzND5cA" role="1MtirG">
+      <node concept="3dgokm" id="WSTDzND5dq" role="3EP$qY">
+        <node concept="3clFbS" id="WSTDzND5ds" role="2VODD2">
+          <node concept="3clFbF" id="WSTDzND5gU" role="3cqZAp">
+            <node concept="2OqwBi" id="WSTDzND5xt" role="3clFbG">
+              <node concept="3kakTB" id="WSTDzND5gT" role="2Oq$k0" />
+              <node concept="2qgKlT" id="WSTDzND5MC" role="2OqNvi">
+                <ref role="37wK5l" to="gg8m:2gml1W1sPiI" resolve="getScopeForFieldReference" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
