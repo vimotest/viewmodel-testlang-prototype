@@ -1320,12 +1320,6 @@
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
     <property role="EcuMT" value="6751139299766859829" />
     <property role="R5$K7" value="true" />
-    <node concept="1TJgyj" id="76FdW9Ms6Mr" role="1TKVEi">
-      <property role="IQ2ns" value="8190701655586532507" />
-      <property role="20kJfa" value="scope" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="rtft:56jsF7$wmcE" resolve="StructType" />
-    </node>
     <node concept="PrWs8" id="76FdW9MBCl5" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>

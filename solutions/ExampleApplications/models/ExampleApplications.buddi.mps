@@ -8,7 +8,6 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
@@ -135,10 +134,8 @@
         <child id="2600358326998253206" name="checkValue" index="_oYE9" />
       </concept>
       <concept id="2600358326997816560" name="ViewModelTestLanguage.structure.FieldExpressionCheckValue" flags="ng" index="_uk3J">
-        <reference id="2600358326997823196" name="fieldReference" index="_unF3" />
         <child id="8190701655586623615" name="fieldReference" index="3QIuX" />
         <child id="8190701655586532503" name="expression" index="3QPHl" />
-        <child id="2600358326997816563" name="expression" index="_uk3G" />
       </concept>
       <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
         <child id="643469022294099062" name="checks" index="2D8cJs" />
@@ -210,9 +207,6 @@
       <concept id="6751139299766859834" name="ViewModelTestLanguage.structure.NestingStructFieldReference" flags="ng" index="3iualm">
         <child id="8190701655586623435" name="nestedReference" index="3QJw9" />
         <child id="6751139299766859851" name="contextReference" index="3iuakB" />
-      </concept>
-      <concept id="6751139299766859829" name="ViewModelTestLanguage.structure.StructFieldReference" flags="ng" index="3iualp">
-        <reference id="8190701655586532507" name="scope" index="3QPHp" />
       </concept>
       <concept id="1519488183372569234" name="ViewModelTestLanguage.structure.Array" flags="ng" index="3nhhjx">
         <property id="1519488183373435183" name="displayVertical" index="3ntHXs" />
@@ -2057,20 +2051,17 @@
       <node concept="30nziD" id="5QKRmMfM2PT" role="30nzo2">
         <ref role="30nziQ" node="5QKRmMfM2Ku" resolve="PieChartOfIncomeItemSelected" />
       </node>
-      <node concept="_oYEc" id="5QKRmMfM2PX" role="30nzpy">
-        <node concept="_uk3J" id="5QKRmMfM2PZ" role="_oYE9">
-          <ref role="_unF3" node="5QKRmMfM2CX" resolve="PieChart" />
-          <node concept="33vP2n" id="5QKRmMfM2Q1" role="_uk3G" />
-          <node concept="3clFbT" id="WSTDzND3wS" role="3QPHl">
+      <node concept="_oYEc" id="$0NZ7DBRc0" role="30nzpy">
+        <node concept="_uk3J" id="$0NZ7DBRc2" role="_oYE9">
+          <node concept="3clFbT" id="$0NZ7DBRcs" role="3QPHl">
             <property role="3clFbU" value="true" />
           </node>
-          <node concept="3iualm" id="$0NZ7Dfp6V" role="3QIuX">
-            <ref role="3QPHp" node="5QKRmMfM2An" resolve="PieChart" />
-            <node concept="3iualh" id="$0NZ7DbJlk" role="3iuakB">
+          <node concept="3iualm" id="$0NZ7DI9YW" role="3QIuX">
+            <node concept="3iualh" id="$0NZ7DI9YT" role="3iuakB">
               <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
             </node>
-            <node concept="3iualh" id="$0NZ7Dfp6Z" role="3QJw9">
-              <ref role="3iuakG" node="5QKRmMfM2B$" resolve="Color" />
+            <node concept="3iualh" id="$0NZ7DI9Z8" role="3QJw9">
+              <ref role="3iuakG" node="5QKRmMfM2Ar" resolve="Visible" />
             </node>
           </node>
         </node>

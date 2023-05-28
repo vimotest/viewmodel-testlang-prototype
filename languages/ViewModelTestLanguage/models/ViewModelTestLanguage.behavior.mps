@@ -12614,6 +12614,41 @@
         </node>
       </node>
       <node concept="3clFbS" id="2gml1W1sRGu" role="3clF47">
+        <node concept="Jncv_" id="$0NZ7Dhzi9" role="3cqZAp">
+          <ref role="JncvD" to="l8rz:5QKRmMfM7wU" resolve="NestingStructFieldReference" />
+          <node concept="37vLTw" id="$0NZ7Dly4c" role="JncvB">
+            <ref role="3cqZAo" node="2gml1W1sSjz" resolve="parentNode" />
+          </node>
+          <node concept="3clFbS" id="$0NZ7Dhzib" role="Jncv$">
+            <node concept="3cpWs6" id="$0NZ7Dhzs0" role="3cqZAp">
+              <node concept="2OqwBi" id="$0NZ7Dh_wl" role="3cqZAk">
+                <node concept="2OqwBi" id="$0NZ7Dh$3x" role="2Oq$k0">
+                  <node concept="2OqwBi" id="$0NZ7DhzCf" role="2Oq$k0">
+                    <node concept="Jnkvi" id="$0NZ7DhzsN" role="2Oq$k0">
+                      <ref role="1M0zk5" node="$0NZ7Dhzic" resolve="parentStructFieldReference" />
+                    </node>
+                    <node concept="2qgKlT" id="$0NZ7DDQNL" role="2OqNvi">
+                      <ref role="37wK5l" node="$0NZ7DDHEU" resolve="getScope" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="$0NZ7Dh$iQ" role="2OqNvi">
+                    <ref role="3TtcxE" to="rtft:56jsF7$wOuB" resolve="contents" />
+                  </node>
+                </node>
+                <node concept="v3k3i" id="$0NZ7DhATx" role="2OqNvi">
+                  <node concept="chp4Y" id="$0NZ7DhAVh" role="v3oSu">
+                    <ref role="cht4Q" to="rtft:56jsF7$wmcS" resolve="Field" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="JncvC" id="$0NZ7Dhzic" role="JncvA">
+            <property role="TrG5h" value="parentStructFieldReference" />
+            <node concept="2jxLKc" id="$0NZ7Dhzid" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="$0NZ7DlxD$" role="3cqZAp" />
         <node concept="3cpWs8" id="2gml1W1sRGv" role="3cqZAp">
           <node concept="3cpWsn" id="2gml1W1sRGw" role="3cpWs9">
             <property role="TrG5h" value="rowCheck" />
@@ -12771,6 +12806,81 @@
     </node>
     <node concept="13hLZK" id="76FdW9Ms8HT" role="13h7CW">
       <node concept="3clFbS" id="76FdW9Ms8HU" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="$0NZ7DDHEB">
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <ref role="13h7C2" to="l8rz:5QKRmMfM7wU" resolve="NestingStructFieldReference" />
+    <node concept="13i0hz" id="$0NZ7DDHEU" role="13h7CS">
+      <property role="TrG5h" value="getStructScope" />
+      <node concept="3Tm1VV" id="$0NZ7DDHEV" role="1B3o_S" />
+      <node concept="3Tqbb2" id="$0NZ7DDHFr" role="3clF45">
+        <ref role="ehGHo" to="rtft:56jsF7$wmcE" resolve="StructType" />
+      </node>
+      <node concept="3clFbS" id="$0NZ7DDHEX" role="3clF47">
+        <node concept="3clFbF" id="$0NZ7DDHW1" role="3cqZAp">
+          <node concept="2OqwBi" id="$0NZ7DDIEq" role="3clFbG">
+            <node concept="2OqwBi" id="$0NZ7DDI9Y" role="2Oq$k0">
+              <node concept="13iPFW" id="$0NZ7DDHW0" role="2Oq$k0" />
+              <node concept="3TrEf2" id="$0NZ7DDIpn" role="2OqNvi">
+                <ref role="3Tt5mk" to="l8rz:5QKRmMfM7xb" resolve="contextReference" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="$0NZ7DDPh2" role="2OqNvi">
+              <ref role="37wK5l" node="$0NZ7DDKaQ" resolve="getReferencedFieldAsStructType" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="$0NZ7DDHEC" role="13h7CW">
+      <node concept="3clFbS" id="$0NZ7DDHED" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="$0NZ7DDKaz">
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <ref role="13h7C2" to="l8rz:5QKRmMfM7wX" resolve="DirectStructFieldReference" />
+    <node concept="13i0hz" id="$0NZ7DDKaQ" role="13h7CS">
+      <property role="TrG5h" value="getReferencedFieldAsStructType" />
+      <node concept="3Tm1VV" id="$0NZ7DDKaR" role="1B3o_S" />
+      <node concept="3Tqbb2" id="$0NZ7DDKbn" role="3clF45">
+        <ref role="ehGHo" to="rtft:56jsF7$wmcE" resolve="StructType" />
+      </node>
+      <node concept="3clFbS" id="$0NZ7DDKaT" role="3clF47">
+        <node concept="3clFbF" id="$0NZ7DDKcU" role="3cqZAp">
+          <node concept="1PxgMI" id="$0NZ7DDL3z" role="3clFbG">
+            <property role="1BlNFB" value="true" />
+            <node concept="chp4Y" id="$0NZ7DDL57" role="3oSUPX">
+              <ref role="cht4Q" to="rtft:56jsF7$wmcE" resolve="StructType" />
+            </node>
+            <node concept="2OqwBi" id="$0NZ7DbMGj" role="1m5AlR">
+              <node concept="1PxgMI" id="$0NZ7DbMtR" role="2Oq$k0">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="$0NZ7DbMvp" role="3oSUPX">
+                  <ref role="cht4Q" to="rtft:56jsF7$x3cD" resolve="TypeReference" />
+                </node>
+                <node concept="2OqwBi" id="$0NZ7DbKDD" role="1m5AlR">
+                  <node concept="2OqwBi" id="$0NZ7DbK7A" role="2Oq$k0">
+                    <node concept="13iPFW" id="$0NZ7DDL6d" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="$0NZ7DbKnc" role="2OqNvi">
+                      <ref role="3Tt5mk" to="l8rz:5QKRmMfM7x0" resolve="field" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="$0NZ7DbL1Q" role="2OqNvi">
+                    <ref role="3Tt5mk" to="rtft:56jsF7$x3oA" resolve="type" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrEf2" id="$0NZ7DbMWn" role="2OqNvi">
+                <ref role="3Tt5mk" to="rtft:56jsF7$x3cE" resolve="referencedTypeDeclaration" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="$0NZ7DDKa$" role="13h7CW">
+      <node concept="3clFbS" id="$0NZ7DDKa_" role="2VODD2" />
     </node>
   </node>
 </model>
