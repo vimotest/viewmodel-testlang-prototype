@@ -279,6 +279,10 @@
       </concept>
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
+      <concept id="1217960179967" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowErrorMessage" flags="nn" index="2k5nB$" />
+      <concept id="1217960314443" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowMessageBase" flags="nn" index="2k5Stg">
+        <child id="1217960314448" name="messageText" index="2k5Stb" />
+      </concept>
       <concept id="1218047638031" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_CreateUniqueName" flags="nn" index="2piZGk">
         <child id="1218047638032" name="baseName" index="2piZGb" />
       </concept>
@@ -338,6 +342,9 @@
       <concept id="1145573345940" name="jetbrains.mps.lang.smodel.structure.Node_GetAllSiblingsOperation" flags="nn" index="2TvwIu" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -7471,7 +7478,7 @@
                               </node>
                             </node>
                             <node concept="3TrEf2" id="2gml1W1$LLZ" role="2OqNvi">
-                              <ref role="3Tt5mk" to="l8rz:2gml1W1rMVs" resolve="fieldReference" />
+                              <ref role="3Tt5mk" to="l8rz:76FdW9Mst1Z" resolve="fieldReference" />
                             </node>
                           </node>
                           <node concept="3TrcHB" id="2gml1W1$MaR" role="2OqNvi">
@@ -7624,15 +7631,52 @@
                     <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
                     <node concept="3$xsQk" id="2gml1W1$kfG" role="3$ytzL">
                       <node concept="3clFbS" id="2gml1W1$kfH" role="2VODD2">
+                        <node concept="3clFbJ" id="76FdW9ME_cN" role="3cqZAp">
+                          <node concept="3clFbS" id="76FdW9ME_cP" role="3clFbx">
+                            <node concept="3clFbF" id="76FdW9MECXr" role="3cqZAp">
+                              <node concept="2OqwBi" id="76FdW9MEDE3" role="3clFbG">
+                                <node concept="1iwH7S" id="76FdW9MECXq" role="2Oq$k0" />
+                                <node concept="2k5nB$" id="76FdW9MEDTl" role="2OqNvi">
+                                  <node concept="Xl_RD" id="76FdW9MEDTx" role="2k5Stb">
+                                    <property role="Xl_RC" value="TODO: Implement NestingStructFieldReference" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="76FdW9MEBST" role="3clFbw">
+                            <node concept="2OqwBi" id="76FdW9ME_KV" role="2Oq$k0">
+                              <node concept="30H73N" id="76FdW9ME_n5" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="76FdW9MEA7s" role="2OqNvi">
+                                <ref role="3Tt5mk" to="l8rz:76FdW9Mst1Z" resolve="fieldReference" />
+                              </node>
+                            </node>
+                            <node concept="1mIQ4w" id="76FdW9MECzr" role="2OqNvi">
+                              <node concept="chp4Y" id="76FdW9MECJQ" role="cj9EA">
+                                <ref role="cht4Q" to="l8rz:5QKRmMfM7wU" resolve="NestingStructFieldReference" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                         <node concept="3clFbF" id="2gml1W1$luD" role="3cqZAp">
                           <node concept="2OqwBi" id="2gml1W1$luF" role="3clFbG">
                             <node concept="1iwH7S" id="2gml1W1$luG" role="2Oq$k0" />
                             <node concept="1iwH70" id="2gml1W1$luH" role="2OqNvi">
                               <ref role="1iwH77" node="4WZ9qS8onPa" resolve="field_GetterMethod" />
-                              <node concept="2OqwBi" id="2gml1W1$luI" role="1iwH7V">
-                                <node concept="30H73N" id="2gml1W1$luK" role="2Oq$k0" />
-                                <node concept="3TrEf2" id="2gml1W1$luM" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="l8rz:2gml1W1rMVs" resolve="fieldReference" />
+                              <node concept="2OqwBi" id="76FdW9MEHTQ" role="1iwH7V">
+                                <node concept="1PxgMI" id="76FdW9MEHhX" role="2Oq$k0">
+                                  <node concept="chp4Y" id="76FdW9MEHrA" role="3oSUPX">
+                                    <ref role="cht4Q" to="l8rz:5QKRmMfM7wX" resolve="DirectStructFieldReference" />
+                                  </node>
+                                  <node concept="2OqwBi" id="2gml1W1$luI" role="1m5AlR">
+                                    <node concept="30H73N" id="2gml1W1$luK" role="2Oq$k0" />
+                                    <node concept="3TrEf2" id="2gml1W1$luM" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="l8rz:76FdW9Mst1Z" resolve="fieldReference" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3TrEf2" id="76FdW9MEIjt" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="l8rz:5QKRmMfM7x0" resolve="field" />
                                 </node>
                               </node>
                             </node>
@@ -7687,7 +7731,7 @@
                         <node concept="2OqwBi" id="2gml1W1$mur" role="3clFbG">
                           <node concept="30H73N" id="2gml1W1$muu" role="2Oq$k0" />
                           <node concept="3TrEf2" id="2gml1W1$muv" role="2OqNvi">
-                            <ref role="3Tt5mk" to="l8rz:2gml1W1rLjN" resolve="expression" />
+                            <ref role="3Tt5mk" to="l8rz:76FdW9Ms6Mn" resolve="expression" />
                           </node>
                         </node>
                       </node>

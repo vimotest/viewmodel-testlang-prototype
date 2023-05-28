@@ -3163,20 +3163,14 @@
     <property role="3GE5qa" value="assert.checkvalues" />
     <ref role="1XX52x" to="l8rz:2gml1W1rLjK" resolve="FieldExpressionCheckValue" />
     <node concept="3EZMnI" id="2gml1W1rMVC" role="2wV5jI">
-      <node concept="1iCGBv" id="2gml1W1rMVJ" role="3EZMnx">
-        <ref role="1NtTu8" to="l8rz:2gml1W1rMVs" resolve="fieldReference" />
-        <node concept="1sVBvm" id="2gml1W1rMVL" role="1sWHZn">
-          <node concept="3F0A7n" id="2gml1W1rMVS" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
+      <node concept="3F1sOY" id="76FdW9Mst29" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:76FdW9Mst1Z" resolve="fieldReference" />
       </node>
       <node concept="3F0ifn" id="2gml1W1rMWe" role="3EZMnx">
         <property role="3F0ifm" value=":eq:" />
       </node>
       <node concept="3F1sOY" id="2gml1W1rMWq" role="3EZMnx">
-        <ref role="1NtTu8" to="l8rz:2gml1W1rLjN" resolve="expression" />
+        <ref role="1NtTu8" to="l8rz:76FdW9Ms6Mn" resolve="expression" />
       </node>
       <node concept="2iRfu4" id="2gml1W1rMVF" role="2iSdaV" />
     </node>
@@ -4823,19 +4817,12 @@
     </node>
     <node concept="2VfDsV" id="3r_aeMfZnLS" role="3ft7WO" />
   </node>
-  <node concept="24kQdi" id="5QKRmMfM7x2">
-    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <ref role="1XX52x" to="l8rz:5QKRmMfM7wN" resolve="FieldBaseLanguageExpression" />
-    <node concept="3F1sOY" id="5QKRmMfM7x4" role="2wV5jI">
-      <ref role="1NtTu8" to="l8rz:5QKRmMfM7wS" resolve="expression" />
-    </node>
-  </node>
   <node concept="24kQdi" id="5QKRmMfM7x7">
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <ref role="1XX52x" to="l8rz:5QKRmMfM7wU" resolve="FieldDotExpression" />
+    <ref role="1XX52x" to="l8rz:5QKRmMfM7wU" resolve="NestingStructFieldReference" />
     <node concept="3EZMnI" id="5QKRmMfM7xe" role="2wV5jI">
       <node concept="3F1sOY" id="5QKRmMfM7xl" role="3EZMnx">
-        <ref role="1NtTu8" to="l8rz:5QKRmMfM7wV" resolve="base" />
+        <ref role="1NtTu8" to="l8rz:5QKRmMfM7xb" resolve="contextReference" />
       </node>
       <node concept="3F0ifn" id="5QKRmMfM7xr" role="3EZMnx">
         <property role="3F0ifm" value="." />
@@ -4847,14 +4834,14 @@
         </node>
       </node>
       <node concept="3F1sOY" id="5QKRmMfM7xz" role="3EZMnx">
-        <ref role="1NtTu8" to="l8rz:5QKRmMfM7xb" resolve="operand" />
+        <ref role="1NtTu8" to="l8rz:76FdW9MssZb" resolve="nestedReference" />
       </node>
       <node concept="2iRfu4" id="5QKRmMfM7xh" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="5QKRmMfMaZv">
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <ref role="1XX52x" to="l8rz:5QKRmMfM7wX" resolve="FieldReferenceExpression" />
+    <ref role="1XX52x" to="l8rz:5QKRmMfM7wX" resolve="DirectStructFieldReference" />
     <node concept="1iCGBv" id="5QKRmMfMaZx" role="2wV5jI">
       <ref role="1NtTu8" to="l8rz:5QKRmMfM7x0" resolve="field" />
       <node concept="1sVBvm" id="5QKRmMfMaZz" role="1sWHZn">

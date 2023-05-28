@@ -904,18 +904,19 @@
     <property role="TrG5h" value="FieldExpressionCheckValue" />
     <property role="34LRSv" value="field check" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2gml1W1rMVs" role="1TKVEi">
-      <property role="IQ2ns" value="2600358326997823196" />
-      <property role="20kJfa" value="fieldReference" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="rtft:56jsF7$wmcS" resolve="Field" />
-    </node>
-    <node concept="1TJgyj" id="2gml1W1rLjN" role="1TKVEi">
-      <property role="IQ2ns" value="2600358326997816563" />
+    <node concept="1TJgyj" id="76FdW9Ms6Mn" role="1TKVEi">
+      <property role="IQ2ns" value="8190701655586532503" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5QKRmMfM7wN" resolve="FieldBaseLanguageExpression" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="76FdW9Mst1Z" role="1TKVEi">
+      <property role="IQ2ns" value="8190701655586623615" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="fieldReference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
     </node>
     <node concept="PrWs8" id="ZR1ceS98b0" role="PzmwI">
       <ref role="PrY4T" node="5Nv$Fuakv50" resolve="ITableRowCheckValue" />
@@ -1280,66 +1281,53 @@
       <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5QKRmMfM7wN">
-    <property role="EcuMT" value="6751139299766859827" />
-    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <property role="TrG5h" value="FieldBaseLanguageExpression" />
-    <property role="34LRSv" value="baselanguage expression" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5QKRmMfM7wS" role="1TKVEi">
-      <property role="IQ2ns" value="6751139299766859832" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="PrWs8" id="5QKRmMfM7wQ" role="PzmwI">
-      <ref role="PrY4T" node="5QKRmMfM7wP" resolve="IFieldExpression" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="5QKRmMfM7wP">
-    <property role="EcuMT" value="6751139299766859829" />
-    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <property role="TrG5h" value="IFieldExpression" />
-  </node>
   <node concept="1TIwiD" id="5QKRmMfM7wU">
     <property role="EcuMT" value="6751139299766859834" />
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <property role="TrG5h" value="FieldDotExpression" />
+    <property role="TrG5h" value="NestingStructFieldReference" />
     <property role="34LRSv" value="." />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="5QKRmMfM7wV" role="1TKVEi">
-      <property role="IQ2ns" value="6751139299766859835" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="base" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5QKRmMfM7wP" resolve="IFieldExpression" />
-    </node>
+    <ref role="1TJDcQ" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
     <node concept="1TJgyj" id="5QKRmMfM7xb" role="1TKVEi">
       <property role="IQ2ns" value="6751139299766859851" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="operand" />
+      <property role="20kJfa" value="contextReference" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5QKRmMfM7wP" resolve="IFieldExpression" />
+      <ref role="20lvS9" node="5QKRmMfM7wX" resolve="DirectStructFieldReference" />
     </node>
-    <node concept="PrWs8" id="5QKRmMfM7x9" role="PzmwI">
-      <ref role="PrY4T" node="5QKRmMfM7wP" resolve="IFieldExpression" />
+    <node concept="1TJgyj" id="76FdW9MssZb" role="1TKVEi">
+      <property role="IQ2ns" value="8190701655586623435" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nestedReference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="5QKRmMfM7wX">
     <property role="EcuMT" value="6751139299766859837" />
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <property role="TrG5h" value="FieldReferenceExpression" />
+    <property role="TrG5h" value="DirectStructFieldReference" />
     <property role="34LRSv" value="field ref" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="5QKRmMfM7wY" role="PzmwI">
-      <ref role="PrY4T" node="5QKRmMfM7wP" resolve="IFieldExpression" />
-    </node>
+    <ref role="1TJDcQ" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
     <node concept="1TJgyj" id="5QKRmMfM7x0" role="1TKVEi">
       <property role="IQ2ns" value="6751139299766859840" />
       <property role="20kJfa" value="field" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="rtft:56jsF7$wmcS" resolve="Field" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="76FdW9Ms6Mq">
+    <property role="TrG5h" value="StructFieldReference" />
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <property role="EcuMT" value="6751139299766859829" />
+    <property role="R5$K7" value="true" />
+    <node concept="1TJgyj" id="76FdW9Ms6Mr" role="1TKVEi">
+      <property role="IQ2ns" value="8190701655586532507" />
+      <property role="20kJfa" value="scope" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="rtft:56jsF7$wmcE" resolve="StructType" />
+    </node>
+    <node concept="PrWs8" id="76FdW9MBCl5" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
