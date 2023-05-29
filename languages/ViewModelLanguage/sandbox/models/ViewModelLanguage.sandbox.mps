@@ -195,8 +195,8 @@
         <child id="2600358326998253206" name="checkValue" index="_oYE9" />
       </concept>
       <concept id="2600358326997816560" name="ViewModelTestLanguage.structure.FieldExpressionCheckValue" flags="ng" index="_uk3J">
-        <reference id="2600358326997823196" name="fieldReference" index="_unF3" />
-        <child id="2600358326997816563" name="expression" index="_uk3G" />
+        <child id="8190701655586623615" name="fieldReference" index="3QIuX" />
+        <child id="8190701655586532503" name="expression" index="3QPHl" />
       </concept>
       <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
         <child id="643469022294099062" name="checks" index="2D8cJs" />
@@ -256,6 +256,9 @@
       </concept>
       <concept id="6743755284656668768" name="ViewModelTestLanguage.structure.TextBoxCheck" flags="ng" index="3fym7j">
         <child id="6743755284656668769" name="checks" index="3fym7i" />
+      </concept>
+      <concept id="6751139299766859837" name="ViewModelTestLanguage.structure.DirectStructFieldReference" flags="ng" index="3iualh">
+        <reference id="6751139299766859840" name="field" index="3iuakG" />
       </concept>
       <concept id="6692228888293142831" name="ViewModelTestLanguage.structure.BackgroundColorCheckValue" flags="ng" index="3mzAeo">
         <child id="6692228888293142849" name="color" index="3mzAfQ" />
@@ -1280,8 +1283,10 @@
       </node>
       <node concept="_oYEc" id="2gml1W1uDuz" role="30nzpy">
         <node concept="_uk3J" id="2gml1W1uDu$" role="_oYE9">
-          <ref role="_unF3" node="2gml1W1uDtp" resolve="MyCustomBool" />
-          <node concept="3clFbT" id="2gml1W1uQ_E" role="_uk3G" />
+          <node concept="3iualh" id="5Xcbv_QM79a" role="3QIuX">
+            <ref role="3iuakG" node="2gml1W1uDtp" resolve="MyCustomBool" />
+          </node>
+          <node concept="3clFbT" id="5Xcbv_QO3Hs" role="3QPHl" />
         </node>
       </node>
       <node concept="30nzp_" id="ZR1ceS989q" role="30nzpy">
@@ -1306,8 +1311,10 @@
               </node>
             </node>
             <node concept="_uk3J" id="ZR1ceSacIP" role="2ji5G8">
-              <ref role="_unF3" node="ZR1ceS98a2" resolve="isBold" />
-              <node concept="3clFbT" id="ZR1ceSacIT" role="_uk3G">
+              <node concept="3iualh" id="5Xcbv_QO3Hx" role="3QIuX">
+                <ref role="3iuakG" node="ZR1ceS98a2" resolve="isBold" />
+              </node>
+              <node concept="3clFbT" id="5Xcbv_QO3Hz" role="3QPHl">
                 <property role="3clFbU" value="true" />
               </node>
             </node>
