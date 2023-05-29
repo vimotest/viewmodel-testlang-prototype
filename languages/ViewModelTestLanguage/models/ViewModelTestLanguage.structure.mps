@@ -1306,7 +1306,7 @@
     <property role="EcuMT" value="6751139299766859837" />
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
     <property role="TrG5h" value="DirectStructFieldReference" />
-    <property role="34LRSv" value="-&gt;field in struct" />
+    <property role="34LRSv" value="field in struct" />
     <ref role="1TJDcQ" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
     <node concept="1TJgyj" id="5QKRmMfM7x0" role="1TKVEi">
       <property role="IQ2ns" value="6751139299766859840" />
@@ -1322,6 +1322,39 @@
     <property role="R5$K7" value="true" />
     <node concept="PrWs8" id="76FdW9MBCl5" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="45b0rFhQjHa">
+    <property role="EcuMT" value="4704856137614834506" />
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <property role="TrG5h" value="IndexAccessStructFieldReference" />
+    <property role="34LRSv" value="[]" />
+    <ref role="1TJDcQ" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
+    <node concept="1TJgyi" id="45b0rFhQjHw" role="1TKVEl">
+      <property role="IQ2nx" value="4704856137614834528" />
+      <property role="TrG5h" value="index" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="45b0rFhQjHe" role="1TKVEi">
+      <property role="IQ2ns" value="4704856137614834510" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="baseReference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="45b0rFhW4Ov">
+    <property role="EcuMT" value="4704856137616346399" />
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <property role="TrG5h" value="SizeStructFieldReference" />
+    <property role="34LRSv" value="size" />
+    <ref role="1TJDcQ" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
+    <node concept="1TJgyj" id="45b0rFhW4Ox" role="1TKVEi">
+      <property role="IQ2ns" value="4704856137616346401" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="baseReference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
     </node>
   </node>
 </model>

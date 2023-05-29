@@ -1389,5 +1389,53 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="45b0rFhQyEu">
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <ref role="1M2myG" to="l8rz:45b0rFhQjHa" resolve="IndexAccessStructFieldReference" />
+    <node concept="9S07l" id="45b0rFhQyEv" role="9Vyp8">
+      <node concept="3clFbS" id="45b0rFhQyEw" role="2VODD2">
+        <node concept="3clFbF" id="45b0rFhQPb1" role="3cqZAp">
+          <node concept="2OqwBi" id="45b0rFhQPQ$" role="3clFbG">
+            <node concept="35c_gC" id="45b0rFhQPaZ" role="2Oq$k0">
+              <ref role="35c_gD" to="l8rz:45b0rFhQjHa" resolve="IndexAccessStructFieldReference" />
+            </node>
+            <node concept="2qgKlT" id="45b0rFhQQd8" role="2OqNvi">
+              <ref role="37wK5l" to="gg8m:45b0rFhQF$9" resolve="canBeWrappedAround" />
+              <node concept="2OqwBi" id="45b0rFhQQt4" role="37wK5m">
+                <node concept="EsrRn" id="45b0rFhQQt5" role="2Oq$k0" />
+                <node concept="3TrEf2" id="45b0rFhQQt6" role="2OqNvi">
+                  <ref role="3Tt5mk" to="l8rz:45b0rFhQjHe" resolve="baseReference" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="45b0rFhW6J$">
+    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
+    <ref role="1M2myG" to="l8rz:45b0rFhW4Ov" resolve="SizeStructFieldReference" />
+    <node concept="9S07l" id="45b0rFhW6J_" role="9Vyp8">
+      <node concept="3clFbS" id="45b0rFhW6JA" role="2VODD2">
+        <node concept="3clFbF" id="45b0rFhW6OW" role="3cqZAp">
+          <node concept="2OqwBi" id="45b0rFhW7oP" role="3clFbG">
+            <node concept="35c_gC" id="45b0rFhW6OV" role="2Oq$k0">
+              <ref role="35c_gD" to="l8rz:45b0rFhW4Ov" resolve="SizeStructFieldReference" />
+            </node>
+            <node concept="2qgKlT" id="45b0rFhW7Iw" role="2OqNvi">
+              <ref role="37wK5l" to="gg8m:45b0rFhW6qO" resolve="canBeWrappedAround" />
+              <node concept="2OqwBi" id="45b0rFi3NhI" role="37wK5m">
+                <node concept="EsrRn" id="45b0rFhW7OU" role="2Oq$k0" />
+                <node concept="3TrEf2" id="45b0rFi3NJr" role="2OqNvi">
+                  <ref role="3Tt5mk" to="l8rz:45b0rFhW4Ox" resolve="baseReference" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

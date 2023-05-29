@@ -8,8 +8,12 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
     </language>
     <language id="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60" name="SimpleTypeLanguage">
@@ -130,6 +134,13 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="4704856137614834506" name="ViewModelTestLanguage.structure.IndexAccessStructFieldReference" flags="ng" index="2g$zFK">
+        <property id="4704856137614834528" name="index" index="2g$zFq" />
+        <child id="4704856137614834510" name="baseReference" index="2g$zFO" />
+      </concept>
+      <concept id="4704856137616346399" name="ViewModelTestLanguage.structure.SizeStructFieldReference" flags="ng" index="2gIOM_">
+        <child id="4704856137616346401" name="baseReference" index="2gIOMr" />
+      </concept>
       <concept id="2600358326998253203" name="ViewModelTestLanguage.structure.FieldAssertion" flags="ng" index="_oYEc">
         <child id="2600358326998253206" name="checkValue" index="_oYE9" />
       </concept>
@@ -2064,6 +2075,39 @@
               <ref role="3iuakG" node="5QKRmMfM2Ar" resolve="Visible" />
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="_oYEc" id="$0NZ7DKTn$" role="30nzpy">
+        <node concept="_uk3J" id="$0NZ7DKTn_" role="_oYE9">
+          <node concept="3iualm" id="$0NZ7DKTnB" role="3QIuX">
+            <node concept="3iualh" id="$0NZ7DKTnC" role="3iuakB">
+              <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
+            </node>
+            <node concept="2gIOM_" id="45b0rFi3LRS" role="3QJw9">
+              <node concept="3iualh" id="45b0rFi3LRO" role="2gIOMr">
+                <ref role="3iuakG" node="5QKRmMfM2AA" resolve="Pieces" />
+              </node>
+            </node>
+          </node>
+          <node concept="3cmrfG" id="45b0rFi3LS4" role="3QPHl">
+            <property role="3cmrfH" value="2" />
+          </node>
+        </node>
+      </node>
+      <node concept="_oYEc" id="45b0rFi439c" role="30nzpy">
+        <node concept="_uk3J" id="45b0rFi439d" role="_oYE9">
+          <node concept="3iualm" id="45b0rFi439e" role="3QIuX">
+            <node concept="3iualh" id="45b0rFi439f" role="3iuakB">
+              <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
+            </node>
+            <node concept="2g$zFK" id="45b0rFi439N" role="3QJw9">
+              <property role="2g$zFq" value="0" />
+              <node concept="3iualh" id="45b0rFi439G" role="2g$zFO">
+                <ref role="3iuakG" node="5QKRmMfM2AA" resolve="Pieces" />
+              </node>
+            </node>
+          </node>
+          <node concept="33vP2n" id="45b0rFi439I" role="3QPHl" />
         </node>
       </node>
     </node>
