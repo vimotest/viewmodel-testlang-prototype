@@ -12842,6 +12842,7 @@
     <ref role="13h7C2" to="l8rz:5QKRmMfM7wX" resolve="DirectStructFieldReference" />
     <node concept="13i0hz" id="$0NZ7DDKaQ" role="13h7CS">
       <property role="TrG5h" value="getReferencedFieldAsStructType" />
+      <property role="13i0it" value="true" />
       <node concept="3Tm1VV" id="$0NZ7DDKaR" role="1B3o_S" />
       <node concept="3Tqbb2" id="$0NZ7DDKbn" role="3clF45">
         <ref role="ehGHo" to="rtft:56jsF7$wmcE" resolve="StructType" />
@@ -12930,6 +12931,74 @@
     </node>
     <node concept="13hLZK" id="45b0rFhQFzR" role="13h7CW">
       <node concept="3clFbS" id="45b0rFhQFzS" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="45b0rFi74vv" role="13h7CS">
+      <property role="TrG5h" value="getReferencedFieldAsStructType" />
+      <ref role="13i0hy" node="$0NZ7DDKaQ" resolve="getReferencedFieldAsStructType" />
+      <node concept="3Tm1VV" id="45b0rFi74vw" role="1B3o_S" />
+      <node concept="3clFbS" id="45b0rFi74vJ" role="3clF47">
+        <node concept="3clFbF" id="45b0rFi76xf" role="3cqZAp">
+          <node concept="1PxgMI" id="45b0rFi7abb" role="3clFbG">
+            <property role="1BlNFB" value="true" />
+            <node concept="chp4Y" id="45b0rFi7ads" role="3oSUPX">
+              <ref role="cht4Q" to="rtft:56jsF7$wmcE" resolve="StructType" />
+            </node>
+            <node concept="2OqwBi" id="45b0rFi79D6" role="1m5AlR">
+              <node concept="1PxgMI" id="45b0rFi78bQ" role="2Oq$k0">
+                <property role="1BlNFB" value="true" />
+                <node concept="chp4Y" id="45b0rFi78db" role="3oSUPX">
+                  <ref role="cht4Q" to="rtft:56jsF7$x3cD" resolve="TypeReference" />
+                </node>
+                <node concept="2OqwBi" id="45b0rFi77yX" role="1m5AlR">
+                  <node concept="2OqwBi" id="45b0rFi76K1" role="2Oq$k0">
+                    <node concept="13iPFW" id="45b0rFi76xe" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="45b0rFi77ep" role="2OqNvi">
+                      <ref role="37wK5l" node="45b0rFi74E3" resolve="getReferencedFieldAsListType" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="45b0rFi77Nh" role="2OqNvi">
+                    <ref role="3Tt5mk" to="rtft:56jsF7$wuej" resolve="baseType" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrEf2" id="45b0rFi79Tg" role="2OqNvi">
+                <ref role="3Tt5mk" to="rtft:56jsF7$x3cE" resolve="referencedTypeDeclaration" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="45b0rFi74vK" role="3clF45">
+        <ref role="ehGHo" to="rtft:56jsF7$wmcE" resolve="StructType" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="45b0rFi74E3" role="13h7CS">
+      <property role="TrG5h" value="getReferencedFieldAsListType" />
+      <node concept="3Tm1VV" id="45b0rFi74E4" role="1B3o_S" />
+      <node concept="3clFbS" id="45b0rFi74E5" role="3clF47">
+        <node concept="3clFbF" id="45b0rFi74Gg" role="3cqZAp">
+          <node concept="1PxgMI" id="45b0rFi75My" role="3clFbG">
+            <property role="1BlNFB" value="true" />
+            <node concept="chp4Y" id="45b0rFi75N$" role="3oSUPX">
+              <ref role="cht4Q" to="rtft:56jsF7$wucB" resolve="ListType" />
+            </node>
+            <node concept="2OqwBi" id="45b0rFi74Gj" role="1m5AlR">
+              <node concept="2OqwBi" id="45b0rFi74Gk" role="2Oq$k0">
+                <node concept="3TrEf2" id="45b0rFi74Gl" role="2OqNvi">
+                  <ref role="3Tt5mk" to="l8rz:5QKRmMfM7x0" resolve="field" />
+                </node>
+                <node concept="13iPFW" id="45b0rFi756S" role="2Oq$k0" />
+              </node>
+              <node concept="3TrEf2" id="45b0rFi74Gp" role="2OqNvi">
+                <ref role="3Tt5mk" to="rtft:56jsF7$x3oA" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="45b0rFi74E6" role="3clF45">
+        <ref role="ehGHo" to="rtft:56jsF7$wucB" resolve="ListType" />
+      </node>
     </node>
   </node>
   <node concept="13h7C7" id="45b0rFhW6ez">

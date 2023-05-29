@@ -1329,18 +1329,11 @@
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
     <property role="TrG5h" value="IndexAccessStructFieldReference" />
     <property role="34LRSv" value="[]" />
-    <ref role="1TJDcQ" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
+    <ref role="1TJDcQ" node="5QKRmMfM7wX" resolve="DirectStructFieldReference" />
     <node concept="1TJgyi" id="45b0rFhQjHw" role="1TKVEl">
       <property role="IQ2nx" value="4704856137614834528" />
       <property role="TrG5h" value="index" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyj" id="45b0rFhQjHe" role="1TKVEi">
-      <property role="IQ2ns" value="4704856137614834510" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="baseReference" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="45b0rFhW4Ov">

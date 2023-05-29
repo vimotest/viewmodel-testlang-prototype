@@ -4972,13 +4972,18 @@
             </node>
             <node concept="3clFbF" id="45b0rFhQSlH" role="3cqZAp">
               <node concept="37vLTI" id="45b0rFhQSlI" role="3clFbG">
-                <node concept="7Obwk" id="45b0rFhQSlJ" role="37vLTx" />
+                <node concept="2OqwBi" id="45b0rFiad5B" role="37vLTx">
+                  <node concept="7Obwk" id="45b0rFhQSlJ" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="45b0rFiadnx" role="2OqNvi">
+                    <ref role="3Tt5mk" to="l8rz:5QKRmMfM7x0" resolve="field" />
+                  </node>
+                </node>
                 <node concept="2OqwBi" id="45b0rFhQSlK" role="37vLTJ">
                   <node concept="37vLTw" id="45b0rFhQSlL" role="2Oq$k0">
                     <ref role="3cqZAo" node="45b0rFhQSlC" resolve="nestingFieldReference" />
                   </node>
                   <node concept="3TrEf2" id="45b0rFhQSlM" role="2OqNvi">
-                    <ref role="3Tt5mk" to="l8rz:45b0rFhQjHe" resolve="baseReference" />
+                    <ref role="3Tt5mk" to="l8rz:5QKRmMfM7x0" resolve="field" />
                   </node>
                 </node>
               </node>
@@ -5155,8 +5160,14 @@
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
     <ref role="1XX52x" to="l8rz:45b0rFhQjHa" resolve="IndexAccessStructFieldReference" />
     <node concept="3EZMnI" id="45b0rFhQjHi" role="2wV5jI">
-      <node concept="3F1sOY" id="45b0rFhQjHj" role="3EZMnx">
-        <ref role="1NtTu8" to="l8rz:45b0rFhQjHe" resolve="baseReference" />
+      <node concept="1iCGBv" id="45b0rFi73ha" role="3EZMnx">
+        <ref role="1NtTu8" to="l8rz:5QKRmMfM7x0" resolve="field" />
+        <node concept="1sVBvm" id="45b0rFi73hc" role="1sWHZn">
+          <node concept="3F0A7n" id="45b0rFieTmp" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="45b0rFhQjHA" role="3EZMnx">
         <property role="3F0ifm" value="[" />
@@ -5179,11 +5190,6 @@
       </node>
       <node concept="2iRfu4" id="45b0rFhQjHo" role="2iSdaV" />
     </node>
-  </node>
-  <node concept="22mcaB" id="45b0rFhQyEr">
-    <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
-    <ref role="aqKnT" to="l8rz:45b0rFhQjHa" resolve="IndexAccessStructFieldReference" />
-    <node concept="22hDWj" id="45b0rFhQyEs" role="22hAXT" />
   </node>
   <node concept="24kQdi" id="45b0rFhW4Oy">
     <property role="3GE5qa" value="assert.checkvalues.fieldexpression" />
