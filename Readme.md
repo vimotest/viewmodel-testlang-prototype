@@ -14,8 +14,16 @@ The ViMoTest approach is based on three things:
 ViewModel-based Testing is meant to be an automated testing approach, where (unit) tests are written against a specific abstraction layer, i.e. ViewModels.
 ViewModels are an architectural pattern, mainly known from the Microsoft's MVVM (Model-View-ViewModel) pattern.
 
-This approach tries to tackle the problem of fragility in UI-based tests.
-By using ViewModels, a large portion of the View-Logic (presenter, controller code) can be written isolated from concrete UI frameworks, and enables a good testability.
+This approach tries to tackle the problem of fragility in GUI-based tests.
+By using ViewModels, a large portion of the View-Logic (presenter, controller code) can be written isolated from concrete GUI frameworks, and enables a good testability.
+
+## Terminology
+
+* **View**: A View is a part of the overall GUI, which is itself composed of GUI widgets.
+* **ViewModel**: A ViewModel is a datastructure, which represents information to be rendered in a GUI. It is independent from a concrete GUI framework.
+* **GUI Widget**: A GUI widget is a concrete GUI element. Examples are buttons, textfields, tables, etc.
+* **View Component**: Synonym for _GUI Widget_ and used internally in the implementation of the prototype.
+* **View Event**: A View Event is an event, which is triggered by a GUI widget (when users interact with the GUI). Examples are button clicks, textfield changes, etc.
 
 ## Getting started
 
@@ -40,7 +48,7 @@ It contains:
 
 ### Subject Applications
 
-The ViMoTest approach is meant to be used with subject applications, which are UI-based applications.
+The ViMoTest approach is meant to be used with subject applications, which are GUI-based applications.
 
 The following sample applications are modelled:
 
