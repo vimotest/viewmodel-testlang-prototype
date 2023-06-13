@@ -207,8 +207,8 @@
         <child id="2600358326998253206" name="checkValue" index="_oYE9" />
       </concept>
       <concept id="2600358326997816560" name="ViewModelTestLanguage.structure.FieldExpressionCheckValue" flags="ng" index="_uk3J">
-        <reference id="2600358326997823196" name="fieldReference" index="_unF3" />
-        <child id="2600358326997816563" name="expression" index="_uk3G" />
+        <child id="8190701655586623615" name="fieldReference" index="3QIuX" />
+        <child id="8190701655586532503" name="expression" index="3QPHl" />
       </concept>
       <concept id="7568993862226671565" name="ViewModelTestLanguage.structure.XmlElementContext" flags="ng" index="2CaS0t">
         <child id="7568993862226671566" name="xmlDocument" index="2CaS0u" />
@@ -267,6 +267,9 @@
       </concept>
       <concept id="6743755284661307780" name="ViewModelTestLanguage.structure.SelectedIndexCheckValue" flags="ng" index="3fW2wR">
         <property id="6743755284661307781" name="selectedIndex" index="3fW2wQ" />
+      </concept>
+      <concept id="6751139299766859837" name="ViewModelTestLanguage.structure.DirectStructFieldReference" flags="ng" index="3iualh">
+        <reference id="6751139299766859840" name="field" index="3iuakG" />
       </concept>
       <concept id="6692228888293142831" name="ViewModelTestLanguage.structure.BackgroundColorCheckValue" flags="ng" index="3mzAeo">
         <child id="6692228888293142849" name="color" index="3mzAfQ" />
@@ -2832,49 +2835,61 @@
       </node>
       <node concept="_oYEc" id="4r5LaleTnXD" role="30nzpy">
         <node concept="_uk3J" id="4r5LaleTnXE" role="_oYE9">
-          <ref role="_unF3" node="1XmN919qziB" resolve="WorkingTimeYou" />
-          <node concept="3cmrfG" id="4r5LaleTnXJ" role="_uk3G">
+          <node concept="3cmrfG" id="4r5LaleTnXJ" role="3QPHl">
             <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="3iualh" id="5Xcbv_QM79B" role="3QIuX">
+            <ref role="3iuakG" node="1XmN919qziB" resolve="WorkingTimeYou" />
           </node>
         </node>
       </node>
       <node concept="_oYEc" id="4r5LaleTnXO" role="30nzpy">
         <node concept="_uk3J" id="4r5LaleTnXP" role="_oYE9">
-          <ref role="_unF3" node="1XmN919qzqg" resolve="WorkingTimeOthers" />
-          <node concept="3cmrfG" id="4r5LaleTnXQ" role="_uk3G">
+          <node concept="3cmrfG" id="4r5LaleTnXQ" role="3QPHl">
             <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="3iualh" id="5Xcbv_QO3Hf" role="3QIuX">
+            <ref role="3iuakG" node="1XmN919qzqg" resolve="WorkingTimeOthers" />
           </node>
         </node>
       </node>
       <node concept="_oYEc" id="4r5LaleTnY3" role="30nzpy">
         <node concept="_uk3J" id="4r5LaleTnY4" role="_oYE9">
-          <ref role="_unF3" node="1XmN919qzjB" resolve="IdleTimeYou" />
-          <node concept="3cmrfG" id="4r5LaleTnY5" role="_uk3G">
+          <node concept="3cmrfG" id="4r5LaleTnY5" role="3QPHl">
             <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="3iualh" id="5Xcbv_QO3Hh" role="3QIuX">
+            <ref role="3iuakG" node="1XmN919qzjB" resolve="IdleTimeYou" />
           </node>
         </node>
       </node>
       <node concept="_oYEc" id="4r5LaleTnY0" role="30nzpy">
         <node concept="_uk3J" id="4r5LaleTnY1" role="_oYE9">
-          <ref role="_unF3" node="1XmN919qzrd" resolve="IdleTimeOthers" />
-          <node concept="3cmrfG" id="4r5LaleTnY2" role="_uk3G">
+          <node concept="3cmrfG" id="4r5LaleTnY2" role="3QPHl">
             <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="3iualh" id="5Xcbv_QO3Hj" role="3QIuX">
+            <ref role="3iuakG" node="1XmN919qzrd" resolve="IdleTimeOthers" />
           </node>
         </node>
       </node>
       <node concept="_oYEc" id="4r5LaleTnYr" role="30nzpy">
         <node concept="_uk3J" id="4r5LaleTnYs" role="_oYE9">
-          <ref role="_unF3" node="1XmN919qzkD" resolve="PrivateTasksYou" />
-          <node concept="3cmrfG" id="4r5LaleTnYt" role="_uk3G">
+          <node concept="3cmrfG" id="4r5LaleTnYt" role="3QPHl">
             <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="3iualh" id="5Xcbv_QO3Hl" role="3QIuX">
+            <ref role="3iuakG" node="1XmN919qzkD" resolve="PrivateTasksYou" />
           </node>
         </node>
       </node>
       <node concept="_oYEc" id="4r5LaleTnYo" role="30nzpy">
         <node concept="_uk3J" id="4r5LaleTnYp" role="_oYE9">
-          <ref role="_unF3" node="1XmN919qzsc" resolve="PrivateTasksOthers" />
-          <node concept="3cmrfG" id="4r5LaleTnYq" role="_uk3G">
+          <node concept="3cmrfG" id="4r5LaleTnYq" role="3QPHl">
             <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="3iualh" id="5Xcbv_QO3Hn" role="3QIuX">
+            <ref role="3iuakG" node="1XmN919qzsc" resolve="PrivateTasksOthers" />
           </node>
         </node>
       </node>
