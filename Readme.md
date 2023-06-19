@@ -27,11 +27,16 @@ By using ViewModels, a large portion of the View-Logic (presenter, controller co
 
 ## Getting started
 
-* execute `gradlew openProjectInMps` (Windows), `sh ./gradlew openProjectInMps` (MacOS)
+* execute `gradlew buildAndOpenProjectInMps` (Windows), `sh ./gradlew buildAndOpenProjectInMps` (MacOS)
   * this downloads MPS for your current OS and creates an executable installation in `build/mps-bundle`
   * Windows: executes `build/mps-bundle/mps/bin/mps.bat`
   * MacOS: executes `build/mps-bundle/Contents/MacOS/mps`
-* then, when MPS has opened the project and is ready
+  * additionally builds the language modules and opens it in MPS
+* then, when MPS has opened, the project is ready
+
+### Alternative: Build directly in MPS
+
+* when MPS has opened the project and is ready
   * perform menu `Build`/`Make Project`
   * if there are initial build errors, ignore them for now (they shall be resolved after one complete build)
 
