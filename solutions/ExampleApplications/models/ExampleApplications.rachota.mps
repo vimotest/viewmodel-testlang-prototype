@@ -820,6 +820,10 @@
         <node concept="2P4D6h" id="3AnL_FusXk5" role="2P5Oin" />
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vF" role="lGtFl">
+      <property role="TrG5h" value="dayview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="1u6Luu" id="1$0urrTNxR2">
     <node concept="1u6Luv" id="61f9eXSU2JB" role="1u6Lvn">
@@ -1341,6 +1345,10 @@
         </node>
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vG" role="lGtFl">
+      <property role="TrG5h" value="dayviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="3H8XyA" id="3AnL_FusX9G">
     <property role="TrG5h" value="HistoryView" />
@@ -1440,6 +1448,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vH" role="lGtFl">
+      <property role="TrG5h" value="historyview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
     <node concept="3f3I3T" id="4lBlEoKu04g" role="3H8Xyh">
       <property role="TrG5h" value="LoadView" />
@@ -1606,6 +1618,10 @@
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="2Btob8ors9V" role="2P5Oin" />
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vI" role="lGtFl">
+      <property role="TrG5h" value="historytimesview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="3H8XyA" id="3AnL_FusXtu">
@@ -1906,6 +1922,10 @@
         <node concept="2P4D6h" id="2Btob8ovLPs" role="2P5Oin" />
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vJ" role="lGtFl">
+      <property role="TrG5h" value="historytasksview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="3H8XyA" id="3AnL_FusXQ3">
     <property role="TrG5h" value="HistoryProjectsView" />
@@ -2050,8 +2070,8 @@
         <node concept="2P4D6h" id="2Btob8oyF_u" role="2P5Oin" />
       </node>
     </node>
-    <node concept="3ZW7eb" id="5qJ$Po8oBik" role="lGtFl">
-      <property role="TrG5h" value="historyProjectsView" />
+    <node concept="3ZW7eb" id="4lBlEoKm9vK" role="lGtFl">
+      <property role="TrG5h" value="historyprojectsview" />
       <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
@@ -2166,6 +2186,10 @@
           <node concept="30nz6$" id="2Btob8ouwp2" role="3fym7i" />
         </node>
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vL" role="lGtFl">
+      <property role="TrG5h" value="historytimesviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="30n1Qd" id="2Btob8ovLQa">
@@ -2473,6 +2497,10 @@
         </node>
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vM" role="lGtFl">
+      <property role="TrG5h" value="historytasksviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="30n1Qd" id="2Btob8ovLRK">
     <property role="TrG5h" value="HistoryProjectsViewTests" />
@@ -2647,6 +2675,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vN" role="lGtFl">
+      <property role="TrG5h" value="historyprojectsviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="3H8XyA" id="1XmN919qz4v">
@@ -2844,7 +2876,7 @@
         </node>
       </node>
     </node>
-    <node concept="3ZW7eb" id="5qJ$Po8kLmR" role="lGtFl">
+    <node concept="3ZW7eb" id="4lBlEoKm9vO" role="lGtFl">
       <property role="TrG5h" value="analyticsview" />
       <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
@@ -3314,6 +3346,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vP" role="lGtFl">
+      <property role="TrG5h" value="analyticsviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="KZc4b" id="2y_rcZoPgoB">

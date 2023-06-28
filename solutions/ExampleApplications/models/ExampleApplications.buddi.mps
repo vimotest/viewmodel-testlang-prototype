@@ -390,6 +390,10 @@
         <node concept="2P4D6h" id="5E6KScpsyZj" role="2P5Oin" />
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9w0" role="lGtFl">
+      <property role="TrG5h" value="myaccountsview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
     <node concept="3f4AKs" id="4lBlEoKtYh$" role="3H8Xyh">
       <property role="TrG5h" value="ShowDetailsClicked" />
       <ref role="3fS2vI" node="4lBlEoKtYfc" resolve="ShowDetails" />
@@ -653,6 +657,10 @@
         </node>
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9w1" role="lGtFl">
+      <property role="TrG5h" value="myaccountsviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="3H8XyA" id="5E6KScpsopj">
     <property role="TrG5h" value="MyAccountsDetailsView" />
@@ -777,7 +785,7 @@
         <node concept="2P4D6h" id="5E6KScpsyZ5" role="2P5Oin" />
       </node>
     </node>
-    <node concept="3ZW7eb" id="13X4gZvaDVS" role="lGtFl">
+    <node concept="3ZW7eb" id="4lBlEoKm9w2" role="lGtFl">
       <property role="TrG5h" value="myaccountsdetailsview" />
       <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
@@ -906,6 +914,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9w3" role="lGtFl">
+      <property role="TrG5h" value="myaccountsdetailsviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
     <node concept="30n1Qa" id="4lBlEoKmaTp" role="30n1Qb">
       <node concept="30nyDl" id="4lBlEoKmaTq" role="30nziG">
@@ -1320,6 +1332,10 @@
         <node concept="2P4D6h" id="5E6KScp$fAK" role="2P5Oin" />
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9w4" role="lGtFl">
+      <property role="TrG5h" value="mybudgetview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="30n1Qd" id="5E6KScp$f_m">
     <property role="TrG5h" value="MyBudgetViewTests" />
@@ -1546,6 +1562,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9w5" role="lGtFl">
+      <property role="TrG5h" value="mybudgetviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="3H8XyA" id="3BqtrqiHMGU">
@@ -1832,6 +1852,10 @@
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="mFfN0XHPGq" role="2P5Oin" />
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9w6" role="lGtFl">
+      <property role="TrG5h" value="transactionsview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
     <node concept="3f4AKs" id="4lBlEoKtZgh" role="3H8Xyh">
       <property role="TrG5h" value="DeleteClicked" />
@@ -2199,6 +2223,10 @@
         </node>
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9w7" role="lGtFl">
+      <property role="TrG5h" value="transactionsviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="3H8XyA" id="5QKRmMfM2yB">
     <property role="TrG5h" value="ReportView" />
@@ -2493,6 +2521,10 @@
         </node>
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9w8" role="lGtFl">
+      <property role="TrG5h" value="reportview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="30n1Qd" id="5QKRmMfM2K3">
     <property role="TrG5h" value="ReportViewTests" />
@@ -2704,6 +2736,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9w9" role="lGtFl">
+      <property role="TrG5h" value="reportviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
     <node concept="30n1Qa" id="4lBlEoKtZTy" role="30n1Qb">
       <node concept="30nyDl" id="4lBlEoKtZTz" role="30nziG">

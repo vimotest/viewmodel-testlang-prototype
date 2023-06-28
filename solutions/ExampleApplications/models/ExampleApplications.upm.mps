@@ -12,6 +12,9 @@
       <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
         <property id="893392931327129956" name="path" index="KZc57" />
       </concept>
+      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
+        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
+      </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
@@ -129,6 +132,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -384,6 +388,10 @@
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="6yyqi$j0DTS" role="2P5Oin" />
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vU" role="lGtFl">
+      <property role="TrG5h" value="mainview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="30n1Qd" id="6yyqi$j0DTt">
@@ -652,6 +660,10 @@
         <ref role="30kPmH" node="6yyqi$j0DTI" />
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vV" role="lGtFl">
+      <property role="TrG5h" value="mainviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="1u6Luu" id="43lx_5lfZPX">
     <node concept="1u6Luv" id="43lx_5ljN6w" role="1u6Lvn">
@@ -907,6 +919,10 @@
       </node>
     </node>
     <node concept="3H8Xwz" id="4kXwATFF52z" role="3H8Xyh" />
+    <node concept="3ZW7eb" id="4lBlEoKm9vW" role="lGtFl">
+      <property role="TrG5h" value="accountdetailsview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="30n1Qd" id="3OXozfJFgcF">
     <property role="TrG5h" value="AccountDetailsViewTests" />
@@ -1097,6 +1113,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vX" role="lGtFl">
+      <property role="TrG5h" value="accountdetailsviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="3H8XyA" id="2wrhDsVYayF">
@@ -1306,6 +1326,10 @@
       </node>
     </node>
     <node concept="3H8Xwz" id="2wrhDsVYbla" role="3H8Xyh" />
+    <node concept="3ZW7eb" id="4lBlEoKm9vY" role="lGtFl">
+      <property role="TrG5h" value="optionsview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="30n1Qd" id="2wrhDsVYyco">
     <property role="TrG5h" value="OptionsViewTests" />
@@ -1497,6 +1521,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vZ" role="lGtFl">
+      <property role="TrG5h" value="optionsviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="KZc4b" id="2y_rcZoPgoB">

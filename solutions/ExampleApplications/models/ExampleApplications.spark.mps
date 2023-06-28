@@ -12,6 +12,9 @@
       <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
         <property id="893392931327129956" name="path" index="KZc57" />
       </concept>
+      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
+        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
+      </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
@@ -122,6 +125,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -396,6 +400,10 @@
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="4ZSoa7ztVQh" role="2P5Oin" />
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9wc" role="lGtFl">
+      <property role="TrG5h" value="loginview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="3H8XyA" id="7y3M9oP_Gs9">
@@ -716,6 +724,10 @@
         <node concept="2P4D6h" id="4ZSoa7ztU8X" role="2P5Oin" />
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9wd" role="lGtFl">
+      <property role="TrG5h" value="mainview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="1u6Luu" id="7y3M9oP_Gsj">
     <node concept="1u6Luv" id="7y3M9oPB7cD" role="1u6Lvn">
@@ -1019,6 +1031,10 @@
         </node>
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9we" role="lGtFl">
+      <property role="TrG5h" value="mainviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="30n1Qd" id="4ZSoa7ztVQF">
     <property role="TrG5h" value="LoginViewTests" />
@@ -1196,6 +1212,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9wf" role="lGtFl">
+      <property role="TrG5h" value="loginviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="KZc4b" id="2y_rcZoPgoB">

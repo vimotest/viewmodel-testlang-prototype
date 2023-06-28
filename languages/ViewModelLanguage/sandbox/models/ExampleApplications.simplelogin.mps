@@ -102,7 +102,6 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -256,6 +255,10 @@
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="7YmZ2rG9HDK" role="2P5Oin" />
       </node>
+    </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vQ" role="lGtFl">
+      <property role="TrG5h" value="simpleloginview" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
   <node concept="30n1Qd" id="7YmZ2rG9HDW">
@@ -487,6 +490,10 @@
         </node>
       </node>
     </node>
+    <node concept="3ZW7eb" id="4lBlEoKm9vR" role="lGtFl">
+      <property role="TrG5h" value="simpleloginviewtests" />
+      <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
+    </node>
   </node>
   <node concept="3H8XyA" id="tZJf$pHjuI">
     <property role="TrG5h" value="MyView" />
@@ -525,8 +532,8 @@
         </node>
       </node>
     </node>
-    <node concept="3ZW7eb" id="tZJf$pHjuK" role="lGtFl">
-      <property role="TrG5h" value="myview_dummy" />
+    <node concept="3ZW7eb" id="4lBlEoKm9vS" role="lGtFl">
+      <property role="TrG5h" value="myview" />
       <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
     <node concept="3f3I3T" id="tZJf$pHjvo" role="3H8Xyh">
@@ -547,15 +554,14 @@
     </node>
   </node>
   <node concept="KZc4b" id="2y_rcZoPgoB">
-    <property role="3GE5qa" value="editor2pdf" />
     <property role="TrG5h" value="FIGURES" />
     <property role="KZc57" value=".editor2pdf/sandbox" />
   </node>
   <node concept="30n1Qd" id="tZJf$pHjvL">
     <property role="TrG5h" value="MyViewTests" />
     <ref role="30n1PB" node="tZJf$pHjuI" resolve="MyView" />
-    <node concept="3ZW7eb" id="tZJf$pHjw5" role="lGtFl">
-      <property role="TrG5h" value="myviewtests_dummy" />
+    <node concept="3ZW7eb" id="4lBlEoKm9vT" role="lGtFl">
+      <property role="TrG5h" value="myviewtests" />
       <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
     <node concept="30n1Qa" id="tZJf$pHjw7" role="30n1Qb">

@@ -301,8 +301,8 @@
         </node>
       </node>
     </node>
-    <node concept="3ZW7eb" id="2y_rcZoPgo_" role="lGtFl">
-      <property role="TrG5h" value="hamsterView" />
+    <node concept="3ZW7eb" id="4lBlEoKm9wa" role="lGtFl">
+      <property role="TrG5h" value="hamsterview" />
       <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
     <node concept="3f4AKs" id="4lBlEoKmaLZ" role="3H8Xyh">
@@ -573,8 +573,8 @@
         <property role="Np8mw" value="example.ter" />
       </node>
     </node>
-    <node concept="3ZW7eb" id="2y_rcZoPgoM" role="lGtFl">
-      <property role="TrG5h" value="demo_hamstertests" />
+    <node concept="3ZW7eb" id="4lBlEoKm9wb" role="lGtFl">
+      <property role="TrG5h" value="hamsterviewtests" />
       <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
