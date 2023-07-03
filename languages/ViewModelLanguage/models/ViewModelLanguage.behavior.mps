@@ -8878,13 +8878,6 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="42$opxWv2w6">
-    <property role="3GE5qa" value="viewcomponents.features" />
-    <ref role="13h7C2" to="6ap2:5GYs7qIfiIO" resolve="SelectedItemVCFeature" />
-    <node concept="13hLZK" id="42$opxWv2w7" role="13h7CW">
-      <node concept="3clFbS" id="42$opxWv2w8" role="2VODD2" />
-    </node>
-  </node>
   <node concept="13h7C7" id="2ZnRpGqKUBJ">
     <ref role="13h7C2" to="6ap2:2ZnRpGqKU3p" resolve="ILinkedViewTest" />
     <node concept="13i0hz" id="2ZnRpGqKV6r" role="13h7CS">

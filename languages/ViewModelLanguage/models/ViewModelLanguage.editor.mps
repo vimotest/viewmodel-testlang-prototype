@@ -4643,5 +4643,65 @@
       <node concept="3F0ifn" id="CypPOERTBJ" role="3EZMnx" />
     </node>
   </node>
+  <node concept="24kQdi" id="4lBlEoKmb9q">
+    <property role="3GE5qa" value="viewcomponents.features" />
+    <ref role="1XX52x" to="6ap2:5QmCreinPWR" resolve="SelectedRowVCFeature" />
+    <node concept="2aJ2om" id="4lBlEoKmcUE" role="CpUAK">
+      <ref role="2$4xQ3" node="2wrhDsWia7I" resolve="ViewComponentFeatureIconHint" />
+    </node>
+    <node concept="1v6uyg" id="4lBlEoKmcUG" role="2wV5jI">
+      <property role="2oejA6" value="true" />
+      <node concept="3F0ifn" id="4lBlEoKmcUH" role="wsdo6">
+        <property role="3F0ifm" value="supports selected row" />
+      </node>
+      <node concept="3F0ifn" id="4lBlEoKmcUI" role="1j7Clw">
+        <property role="3F0ifm" value="sel" />
+        <ref role="1k5W1q" node="43UPKEZ9RW1" resolve="ViewFeatureIndicationStyle" />
+        <node concept="Veino" id="4lBlEoKmcUJ" role="3F10Kt">
+          <property role="Vb096" value="fLwANPq/yellow" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4lBlEoKpWou">
+    <property role="3GE5qa" value="viewcomponents.table" />
+    <property role="TrG5h" value="ListComponent_AdditionalViewComponentFeatures_EditorComponent" />
+    <ref role="1XX52x" to="6ap2:FLNzGRzW2J" resolve="ListComponentBase" />
+    <node concept="1PE4EZ" id="4lBlEoKpWow" role="1PM95z">
+      <ref role="1PE7su" node="2wrhDsWibxw" resolve="ViewComponent_AdditionalViewComponentFeatures_EditorComponent" />
+    </node>
+    <node concept="3EZMnI" id="4lBlEoKpWoy" role="2wV5jI">
+      <node concept="1v6uyg" id="4lBlEoKpX1$" role="3EZMnx">
+        <property role="2oejA6" value="true" />
+        <node concept="3F0ifn" id="4lBlEoKpX1_" role="wsdo6">
+          <property role="3F0ifm" value="supports selected item" />
+        </node>
+        <node concept="3F0ifn" id="4lBlEoKpX1A" role="1j7Clw">
+          <property role="3F0ifm" value="sel" />
+          <ref role="1k5W1q" node="43UPKEZ9RW1" resolve="ViewFeatureIndicationStyle" />
+          <node concept="Veino" id="4lBlEoKpX1B" role="3F10Kt">
+            <property role="Vb096" value="fLwANPq/yellow" />
+          </node>
+        </node>
+      </node>
+      <node concept="1v6uyg" id="4lBlEoKpX1s" role="3EZMnx">
+        <property role="2oejA6" value="true" />
+        <node concept="3F0ifn" id="4lBlEoKpX1t" role="wsdo6">
+          <property role="3F0ifm" value="supports rows" />
+        </node>
+        <node concept="3F0ifn" id="4lBlEoKpX1u" role="1j7Clw">
+          <property role="3F0ifm" value="r" />
+          <ref role="1k5W1q" node="43UPKEZ9RW1" resolve="ViewFeatureIndicationStyle" />
+          <node concept="Veino" id="4lBlEoKpX1v" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
+          </node>
+          <node concept="VechU" id="4lBlEoKpX1N" role="3F10Kt">
+            <property role="Vb096" value="hEZAO13/white" />
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="4lBlEoKpWoP" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
