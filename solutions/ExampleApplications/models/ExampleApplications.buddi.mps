@@ -350,6 +350,20 @@
         </node>
         <node concept="3mzAc8" id="1TNehuHX_Ee" role="2NwCZs" />
       </node>
+      <node concept="3H4brt" id="4lBlEoKtYfc" role="2P43km">
+        <node concept="2Pim7P" id="4lBlEoKtYfd" role="2Pim73" />
+        <node concept="2Pim7K" id="4lBlEoKtYfe" role="2Pim71" />
+        <node concept="2Pim7H" id="4lBlEoKtYff" role="2Pim76">
+          <property role="2PigPS" value="ShowDetails" />
+        </node>
+      </node>
+      <node concept="3H4brt" id="4lBlEoKtYdh" role="2P43km">
+        <node concept="2Pim7P" id="4lBlEoKtYdm" role="2Pim73" />
+        <node concept="2Pim7K" id="4lBlEoKtYdr" role="2Pim71" />
+        <node concept="2Pim7H" id="4lBlEoKtYdw" role="2Pim76">
+          <property role="2PigPS" value="ShowTransactions" />
+        </node>
+      </node>
     </node>
     <node concept="3f6vZ2" id="5E6KScpsyZh" role="3H8Xyh">
       <property role="3f4$la" value="true" />
@@ -360,13 +374,15 @@
         <node concept="2P4D6h" id="5E6KScpsyZj" role="2P5Oin" />
       </node>
     </node>
-    <node concept="3f4AKs" id="4lBlEoKmaWj" role="3H8Xyh">
-      <property role="TrG5h" value="ShowDetailsForSelectionClicked" />
+    <node concept="3f4AKs" id="4lBlEoKtYh$" role="3H8Xyh">
+      <property role="TrG5h" value="ShowDetailsClicked" />
+      <ref role="3fS2vI" node="4lBlEoKtYfc" resolve="ShowDetails" />
     </node>
-    <node concept="3f4AKs" id="4lBlEoKmb4O" role="3H8Xyh">
-      <property role="TrG5h" value="ShowTransactionsForSelectionClicked" />
+    <node concept="3f4AKs" id="4lBlEoKtYh_" role="3H8Xyh">
+      <property role="TrG5h" value="ShowTransactionsClicked" />
+      <ref role="3fS2vI" node="4lBlEoKtYdh" resolve="ShowTransactions" />
     </node>
-    <node concept="3H8Xwz" id="4lBlEoKmb4V" role="3H8Xyh" />
+    <node concept="3H8Xwz" id="4lBlEoKtYhN" role="3H8Xyh" />
   </node>
   <node concept="30n1Qd" id="26AO1okMsdj">
     <property role="TrG5h" value="MyAccountsViewTests" />
