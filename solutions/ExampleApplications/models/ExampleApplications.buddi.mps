@@ -154,6 +154,9 @@
       <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
         <child id="643469022294099062" name="checks" index="2D8cJs" />
       </concept>
+      <concept id="5984107031762044474" name="ViewModelTestLanguage.structure.VisibilityCheckValue" flags="ng" index="2P4Xup">
+        <property id="5984107031762044507" name="visibility" index="2P4XvS" />
+      </concept>
       <concept id="2424854242643129807" name="ViewModelTestLanguage.structure.ForegroundColorCheckValue" flags="ng" index="Psmnp">
         <child id="2424854242643129810" name="color" index="Psmn4" />
       </concept>
@@ -2184,6 +2187,7 @@
     <property role="TrG5h" value="ReportView" />
     <node concept="3H8Xy_" id="5QKRmMfM2yC" role="3H8Xyx">
       <node concept="3P6jyO" id="5QKRmMfM2yD" role="2P43km">
+        <property role="3P58UD" value="This Week" />
         <node concept="3P0PJ2" id="5QKRmMfM2yE" role="3P0O4S">
           <property role="2PigO5" value="true" />
         </node>
@@ -2197,6 +2201,7 @@
         </node>
       </node>
       <node concept="3P6jyO" id="5QKRmMfM2yP" role="2P43km">
+        <property role="3P58UD" value="This Week" />
         <node concept="3P0PJ2" id="5QKRmMfM2yQ" role="3P0O4S">
           <property role="2PigO5" value="true" />
         </node>
@@ -2210,6 +2215,7 @@
         </node>
       </node>
       <node concept="3P6jyO" id="5QKRmMfM2zl" role="2P43km">
+        <property role="3P58UD" value="This Week" />
         <node concept="3P0PJ2" id="5QKRmMfM2zm" role="3P0O4S">
           <property role="2PigO5" value="true" />
         </node>
@@ -2223,6 +2229,7 @@
         </node>
       </node>
       <node concept="3P6jyO" id="5QKRmMfM2zI" role="2P43km">
+        <property role="3P58UD" value="This Week" />
         <node concept="3P0PJ2" id="5QKRmMfM2zJ" role="3P0O4S">
           <property role="2PigO5" value="true" />
         </node>
@@ -2236,6 +2243,7 @@
         </node>
       </node>
       <node concept="3P6jyO" id="5QKRmMfM2$C" role="2P43km">
+        <property role="3P58UD" value="This Week" />
         <node concept="3P0PJ2" id="5QKRmMfM2$D" role="3P0O4S">
           <property role="2PigO5" value="true" />
         </node>
@@ -2479,7 +2487,7 @@
           <property role="30lZVK" value="Incomes $1000 'Work', $100 'Misc'" />
         </node>
         <node concept="30nyDi" id="5QKRmMfM2K7" role="30nyDh">
-          <property role="30lZVK" value="Set combobox of Pie Chart for Income" />
+          <property role="30lZVK" value="Set combobox of Pie Chart for Income of 'This Week'" />
         </node>
         <node concept="30nyDi" id="5QKRmMfM2K8" role="30nyDs">
           <property role="30lZVK" value="Show Pie Chart" />
@@ -2517,6 +2525,9 @@
       </node>
       <node concept="30nziD" id="5QKRmMfM2PT" role="30nzo2">
         <ref role="30nziQ" node="5QKRmMfM2Ku" resolve="PieChartOfIncomeItemSelected" />
+        <node concept="Xl_RD" id="4lBlEoKtZTq" role="30nziO">
+          <property role="Xl_RC" value="This Week" />
+        </node>
       </node>
       <node concept="_oYEc" id="$0NZ7DBRc0" role="30nzpy">
         <node concept="_uk3J" id="$0NZ7DBRc2" role="_oYE9">
@@ -2673,6 +2684,124 @@
           </node>
           <node concept="Xl_RD" id="45b0rFigZdn" role="3QPHl">
             <property role="Xl_RC" value="Misc" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4lBlEoKtZTy" role="30n1Qb">
+      <node concept="30nyDl" id="4lBlEoKtZTz" role="30nziG">
+        <property role="30nzmz" value="Show Tabular Chart of My Income/Expenses" />
+        <node concept="30nyDi" id="4lBlEoKtZT$" role="30nyDj">
+          <property role="30lZVK" value="Incomes $1000 'Work', $100 'Misc'" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKtZT_" role="30nyDh">
+          <property role="30lZVK" value="Set combobox of Income/Expenses by Category of 'This Week'" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKtZTA" role="30nyDs">
+          <property role="30lZVK" value="Show Pie Chart" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="4lBlEoKtZTB" role="30nziE">
+        <node concept="3nhhjx" id="4lBlEoKtZTC" role="30k8ga">
+          <property role="TrG5h" value="incomes" />
+          <node concept="30k8jF" id="4lBlEoKtZTD" role="3nhhjA">
+            <node concept="30k8jQ" id="4lBlEoKtZTE" role="30k8js">
+              <property role="TrG5h" value="name" />
+              <property role="30k8jP" value="Work" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZTF" role="30k8js">
+              <property role="TrG5h" value="amount" />
+              <property role="30k8jP" value="1000" />
+            </node>
+          </node>
+          <node concept="30k8jF" id="4lBlEoKtZTG" role="3nhhjA">
+            <node concept="30k8jQ" id="4lBlEoKtZTH" role="30k8js">
+              <property role="TrG5h" value="name" />
+              <property role="30k8jP" value="Misc" />
+              <property role="3nhnwH" value="true" />
+            </node>
+            <node concept="30k8jQ" id="4lBlEoKtZTI" role="30k8js">
+              <property role="TrG5h" value="amount" />
+              <property role="30k8jP" value="100" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="4lBlEoKtZTJ" role="30nzo2">
+        <ref role="30nziQ" node="5QKRmMfM2Kk" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="4lBlEoKtZTK" role="30nzo2">
+        <ref role="30nziQ" node="5QKRmMfM2Ko" resolve="IncomeAndExpensesByCategoryItemSelected" />
+        <node concept="Xl_RD" id="4lBlEoKtZTL" role="30nziO">
+          <property role="Xl_RC" value="This Week" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKtZX$" role="30nzpy">
+        <ref role="30nzpS" node="5QKRmMfM2E3" resolve="IncomeAndExpensesChart" />
+        <node concept="1Dvt9M" id="4lBlEoKtZX_" role="30nDbQ">
+          <node concept="1Dvt89" id="4lBlEoKtZXC" role="2D8nNu">
+            <node concept="1u3WYF" id="4lBlEoKtZXD" role="1Dvt80">
+              <node concept="2D8cJI" id="4lBlEoKtZXE" role="1u3WYG">
+                <node concept="30nz6$" id="4lBlEoKtZXF" role="2D8cJs">
+                  <property role="30nz6_" value="Work" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="4lBlEoKtZXG" role="1Dvt80">
+              <node concept="2D8cJI" id="4lBlEoKtZXH" role="1u3WYG">
+                <node concept="30nz6$" id="4lBlEoKtZXI" role="2D8cJs">
+                  <property role="30nz6_" value="1000" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="4lBlEoKtZXJ" role="1Dvt80">
+              <node concept="2D8cJI" id="4lBlEoKtZXK" role="1u3WYG">
+                <node concept="30nz6$" id="4lBlEoKtZXL" role="2D8cJs">
+                  <property role="30nz6_" value="1000" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="4lBlEoKtZXM" role="1Dvt80">
+              <node concept="2D8cJI" id="4lBlEoKtZXN" role="1u3WYG">
+                <node concept="30nz6$" id="4lBlEoKtZXO" role="2D8cJs">
+                  <property role="30nz6_" value="$0.00" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Dvt89" id="4lBlEoKu000" role="2D8nNu">
+            <node concept="1u3WYF" id="4lBlEoKu001" role="1Dvt80">
+              <node concept="2D8cJI" id="4lBlEoKu002" role="1u3WYG">
+                <node concept="30nz6$" id="4lBlEoKu003" role="2D8cJs">
+                  <property role="30nz6_" value="Misc" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="4lBlEoKu004" role="1Dvt80">
+              <node concept="2D8cJI" id="4lBlEoKu005" role="1u3WYG">
+                <node concept="30nz6$" id="4lBlEoKu006" role="2D8cJs">
+                  <property role="30nz6_" value="100" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="4lBlEoKu007" role="1Dvt80">
+              <node concept="2D8cJI" id="4lBlEoKu008" role="1u3WYG">
+                <node concept="30nz6$" id="4lBlEoKu009" role="2D8cJs">
+                  <property role="30nz6_" value="100" />
+                </node>
+              </node>
+            </node>
+            <node concept="1u3WYF" id="4lBlEoKu00a" role="1Dvt80">
+              <node concept="2D8cJI" id="4lBlEoKu00b" role="1u3WYG">
+                <node concept="30nz6$" id="4lBlEoKu00c" role="2D8cJs">
+                  <property role="30nz6_" value="$0.00" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2P4Xup" id="4lBlEoKtZZY" role="1Dvt9K">
+            <property role="2P4XvS" value="true" />
           </node>
         </node>
       </node>
