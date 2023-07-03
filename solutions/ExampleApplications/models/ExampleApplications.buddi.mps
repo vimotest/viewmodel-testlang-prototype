@@ -75,6 +75,7 @@
       <concept id="6743755284663291311" name="ViewModelLanguage.structure.ClickEvent" flags="ng" index="3f4AKs" />
       <concept id="6743755284663983729" name="ViewModelLanguage.structure.SelectRowEvent" flags="ng" index="3f6vZ2" />
       <concept id="6743755284656506190" name="ViewModelLanguage.structure.TextBoxComponent" flags="ng" index="3fyYjX">
+        <property id="2258217183252042926" name="multiLine" index="1mfhwY" />
         <child id="6743755284656506191" name="textFeature" index="3fyYjW" />
       </concept>
       <concept id="6743755284660838199" name="ViewModelLanguage.structure.SelectedRowVCFeature" flags="ng" index="3fMvU4" />
@@ -662,6 +663,7 @@
         </node>
       </node>
       <node concept="3fyYjX" id="5E6KScpsorw" role="2P43km">
+        <property role="1mfhwY" value="true" />
         <node concept="27$lts" id="5E6KScpsory" role="3fyYjW">
           <property role="2PigO5" value="true" />
           <property role="27$ltt" value="&lt;Notes&gt;" />
@@ -1106,14 +1108,9 @@
           <property role="2PigO5" value="true" />
           <property role="27$ltt" value="Sep 2007" />
         </node>
-        <node concept="2Pim7P" id="5E6KScpsReP" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="5E6KScpsReQ" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
+        <node concept="2Pim7P" id="5E6KScpsReP" role="2Pim73" />
+        <node concept="2Pim7K" id="5E6KScpsReQ" role="2Pim71" />
         <node concept="2Pim7H" id="5E6KScpsReR" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="Current Budget Period" />
         </node>
       </node>
@@ -1232,14 +1229,9 @@
         <node concept="3fMvU4" id="5E6KScpv75l" role="3fMvU8">
           <property role="2PigO5" value="true" />
         </node>
-        <node concept="2Pim7P" id="5E6KScpv75n" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="5E6KScpv75p" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
+        <node concept="2Pim7P" id="5E6KScpv75n" role="2Pim73" />
+        <node concept="2Pim7K" id="5E6KScpv75p" role="2Pim71" />
         <node concept="2Pim7H" id="5E6KScpv75r" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="Budget Table" />
         </node>
       </node>
@@ -1262,17 +1254,14 @@
           <property role="2PigO5" value="true" />
           <property role="27$ltt" value="$1,215.00" />
         </node>
-        <node concept="2Pim7P" id="5E6KScp$fG5" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="5E6KScp$fG7" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
+        <node concept="2Pim7P" id="5E6KScp$fG5" role="2Pim73" />
+        <node concept="2Pim7K" id="5E6KScp$fG7" role="2Pim71" />
         <node concept="2Pim7H" id="5E6KScp$fG9" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="Budget Net Income Value" />
         </node>
-        <node concept="3mzAc8" id="1TNehuHX_Ej" role="2NwCZs" />
+        <node concept="3mzAc8" id="1TNehuHX_Ej" role="2NwCZs">
+          <property role="2PigO5" value="true" />
+        </node>
       </node>
     </node>
     <node concept="3f3I3T" id="5E6KScp$fAL" role="3H8Xyh">
