@@ -22,10 +22,15 @@
       </concept>
     </language>
     <language id="77c93106-0ffc-4fe6-8c92-dea8ea8cbc60" name="SimpleTypeLanguage">
+      <concept id="5878168047017091896" name="SimpleTypeLanguage.structure.Field" flags="ng" index="2P4x69" />
       <concept id="5878168047017091882" name="SimpleTypeLanguage.structure.StructType" flags="ng" index="2P4x6r">
         <child id="5878168047017215911" name="contents" index="2P43km" />
       </concept>
       <concept id="5878168047017124641" name="SimpleTypeLanguage.structure.BoolType" flags="ng" index="2P4D6g" />
+      <concept id="5878168047017124640" name="SimpleTypeLanguage.structure.StringType" flags="ng" index="2P4D6h" />
+      <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
+        <child id="5878168047017276966" name="type" index="2P5Oin" />
+      </concept>
     </language>
     <language id="89274067-447d-4f60-a26a-6d802a4035c2" name="ViewModelLanguage">
       <concept id="4143793920074545903" name="ViewModelLanguage.structure.HorizontalLayout" flags="ng" index="2HXGLM">
@@ -58,6 +63,11 @@
         <reference id="2820520252859978187" name="image" index="3eDL7M" />
       </concept>
       <concept id="6743755284664566090" name="ViewModelLanguage.structure.LoadViewEvent" flags="ng" index="3f3I3T" />
+      <concept id="6743755284663291311" name="ViewModelLanguage.structure.ClickEvent" flags="ng" index="3f4AKs" />
+      <concept id="6743755284663983729" name="ViewModelLanguage.structure.SelectRowEvent" flags="ng" index="3f6vZ2" />
+      <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
+        <reference id="6743755284662355549" name="component" index="3fS2vI" />
+      </concept>
       <concept id="1369810475999939491" name="ViewModelLanguage.structure.DynamicTableComponent" flags="ng" index="3s_O3X">
         <child id="5984107031773674619" name="rowsFeature" index="2PKERo" />
       </concept>
@@ -81,6 +91,9 @@
         <child id="5984107031764840546" name="visibilityFeature" index="2Pim71" />
         <child id="5984107031764840544" name="sensitivityFeature" index="2Pim73" />
         <child id="5984107031764840549" name="nameFeature" index="2Pim76" />
+      </concept>
+      <concept id="4321216645069263666" name="ViewModelLanguage.structure.ViewInput" flags="ng" index="3H8Xym">
+        <property id="6743755284663297273" name="hasParameters" index="3f4$la" />
       </concept>
       <concept id="4321216645069263617" name="ViewModelLanguage.structure.ViewModel" flags="ng" index="3H8Xy_">
         <property id="8491766643000808876" name="viewModelClassCustomName" index="1aiWlD" />
@@ -202,14 +215,9 @@
     <node concept="3H8Xy_" id="5hmNBhT2vLI" role="3H8Xyx">
       <property role="1aiWlD" value="GameViewModel" />
       <node concept="3s_O3X" id="1c2yPVfA6F9" role="2P43km">
-        <node concept="2Pim7P" id="5cbOqfAhtaO" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="5cbOqfAhtaP" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
+        <node concept="2Pim7P" id="5cbOqfAhtaO" role="2Pim73" />
+        <node concept="2Pim7K" id="5cbOqfAhtaP" role="2Pim71" />
         <node concept="2Pim7H" id="5cbOqfAhtaQ" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="territory" />
         </node>
         <node concept="2PMFtw" id="5cbOqfAMM_6" role="2PKERo">
@@ -258,53 +266,33 @@
       <node concept="2HXGLM" id="3A1HDQku_le" role="2P43km">
         <node concept="2HYYfY" id="3A1HDQkwDcX" role="2HXGLH">
           <ref role="2HYYDy" node="5hmNBhT2vM$" resolve="hamster_play" />
-          <node concept="2Pim7P" id="5cbOqfAhtaX" role="2Pim73">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7K" id="5cbOqfAhtaY" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7P" id="5cbOqfAhtaX" role="2Pim73" />
+          <node concept="2Pim7K" id="5cbOqfAhtaY" role="2Pim71" />
           <node concept="2Pim7H" id="5cbOqfAhtaZ" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="playButton" />
           </node>
         </node>
         <node concept="2HYYfY" id="3A1HDQkwDc_" role="2HXGLH">
           <ref role="2HYYDy" node="5hmNBhT2vMK" resolve="hamster_pause" />
-          <node concept="2Pim7P" id="5cbOqfAhtb0" role="2Pim73">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7K" id="5cbOqfAhtb1" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7P" id="5cbOqfAhtb0" role="2Pim73" />
+          <node concept="2Pim7K" id="5cbOqfAhtb1" role="2Pim71" />
           <node concept="2Pim7H" id="5cbOqfAhtb2" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="pauseButton" />
           </node>
         </node>
         <node concept="2HYYfY" id="3A1HDQkwDdl" role="2HXGLH">
           <ref role="2HYYDy" node="5hmNBhT2vMY" resolve="hamster_undo" />
-          <node concept="2Pim7P" id="5cbOqfAhtb3" role="2Pim73">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7K" id="5cbOqfAhtb4" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7P" id="5cbOqfAhtb3" role="2Pim73" />
+          <node concept="2Pim7K" id="5cbOqfAhtb4" role="2Pim71" />
           <node concept="2Pim7H" id="5cbOqfAhtb5" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="undoButton" />
           </node>
         </node>
         <node concept="2HYYfY" id="3A1HDQkwDdp" role="2HXGLH">
           <ref role="2HYYDy" node="5hmNBhT2vNe" resolve="hamster_redo" />
-          <node concept="2Pim7P" id="5cbOqfAhtb6" role="2Pim73">
-            <property role="2PigO5" value="true" />
-          </node>
-          <node concept="2Pim7K" id="5cbOqfAhtb7" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7P" id="5cbOqfAhtb6" role="2Pim73" />
+          <node concept="2Pim7K" id="5cbOqfAhtb7" role="2Pim71" />
           <node concept="2Pim7H" id="5cbOqfAhtb8" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="redoButton" />
           </node>
         </node>
@@ -317,6 +305,31 @@
         <node concept="2Pim7H" id="5cbOqfAhtaW" role="2Pim76">
           <property role="2PigO5" value="true" />
         </node>
+      </node>
+    </node>
+    <node concept="3f4AKs" id="4lBlEoKmaLZ" role="3H8Xyh">
+      <property role="TrG5h" value="playButtonClicked" />
+      <ref role="3fS2vI" node="3A1HDQkwDcX" resolve="playButton" />
+    </node>
+    <node concept="3f4AKs" id="4lBlEoKmaM0" role="3H8Xyh">
+      <property role="TrG5h" value="pauseButtonClicked" />
+      <ref role="3fS2vI" node="3A1HDQkwDc_" resolve="pauseButton" />
+    </node>
+    <node concept="3f4AKs" id="4lBlEoKmaM1" role="3H8Xyh">
+      <property role="TrG5h" value="undoButtonClicked" />
+      <ref role="3fS2vI" node="3A1HDQkwDdl" resolve="undoButton" />
+    </node>
+    <node concept="3f4AKs" id="4lBlEoKmaM2" role="3H8Xyh">
+      <property role="TrG5h" value="redoButtonClicked" />
+      <ref role="3fS2vI" node="3A1HDQkwDdp" resolve="redoButton" />
+    </node>
+    <node concept="3f6vZ2" id="4lBlEoKmaM3" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="territoryRowSelected" />
+      <ref role="3fS2vI" node="1c2yPVfA6F9" resolve="territory" />
+      <node concept="2P4x69" id="4lBlEoKmaM4" role="2P43km">
+        <property role="TrG5h" value="rowHandle" />
+        <node concept="2P4D6h" id="4lBlEoKmaM5" role="2P5Oin" />
       </node>
     </node>
   </node>

@@ -1428,6 +1428,21 @@
         </node>
       </node>
     </node>
+    <node concept="3f3I3T" id="4lBlEoKu04g" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+    </node>
+    <node concept="3f4AKs" id="4lBlEoKu04h" role="3H8Xyh">
+      <property role="TrG5h" value="GenerateReportClicked" />
+      <ref role="3fS2vI" node="3AnL_FusXag" resolve="GenerateReport" />
+    </node>
+    <node concept="3f4AKs" id="4lBlEoKu04i" role="3H8Xyh">
+      <property role="TrG5h" value="PreviousPeriodClicked" />
+      <ref role="3fS2vI" node="3AnL_FusXcr" resolve="PreviousPeriod" />
+    </node>
+    <node concept="3f4AKs" id="4lBlEoKu04j" role="3H8Xyh">
+      <property role="TrG5h" value="NextPeriodClicked" />
+      <ref role="3fS2vI" node="3AnL_FusXcX" resolve="NextPeriod" />
+    </node>
   </node>
   <node concept="3H8XyA" id="3AnL_FusXkD">
     <property role="TrG5h" value="HistoryTimesView" />
@@ -3275,6 +3290,185 @@
         <node concept="3fym7j" id="4r5LaleVUrQ" role="30nDbQ">
           <node concept="30nz6$" id="4r5LaleVUrR" role="3fym7i">
             <property role="30nz6_" value="Sample" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="30n1Qd" id="4lBlEoKu05i">
+    <property role="TrG5h" value="HistoryViewTests" />
+    <ref role="30n1PB" node="3AnL_FusX9G" resolve="HistoryView" />
+    <node concept="30n1Qa" id="4lBlEoKu05j" role="30n1Qb">
+      <node concept="30nyDl" id="4lBlEoKu05k" role="30nziG">
+        <property role="30nzmz" value="Default Values" />
+        <node concept="30nyDi" id="4lBlEoKu05l" role="30nyDj">
+          <property role="30lZVK" value="Month 'October 2007'" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKu05m" role="30nyDh">
+          <property role="30lZVK" value="Load View" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKu05n" role="30nyDs">
+          <property role="30lZVK" value="Show Default Values" />
+        </node>
+      </node>
+      <node concept="30nziD" id="4lBlEoKu05U" role="30nzo2">
+        <ref role="30nziQ" node="4lBlEoKu04g" resolve="LoadView" />
+      </node>
+      <node concept="30nzp_" id="4lBlEoKu05X" role="30nzpy">
+        <ref role="30nzpS" node="3AnL_FusX9Q" resolve="Period" />
+        <node concept="3P0OEx" id="4lBlEoKu05Y" role="30nDbQ" />
+      </node>
+      <node concept="2QbWKJ" id="4lBlEoKu06k" role="30nzpy">
+        <node concept="30nzp_" id="4lBlEoKu06N" role="2QbW$V">
+          <ref role="30nzpS" node="3AnL_FusXbs" resolve="NumberScaledUnitsPrior" />
+          <node concept="3fym7j" id="4lBlEoKu06O" role="30nDbQ">
+            <node concept="30nz6$" id="4lBlEoKu06P" role="3fym7i">
+              <property role="30nz6_" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="4lBlEoKu065" role="2QbW$V">
+          <ref role="30nzpS" node="3AnL_FusXdH" resolve="PeriodDate" />
+          <node concept="3fym7j" id="4lBlEoKu066" role="30nDbQ">
+            <node concept="30nz6$" id="4lBlEoKu067" role="3fym7i">
+              <property role="30nz6_" value="October, 2007" />
+            </node>
+          </node>
+        </node>
+        <node concept="30nzp_" id="4lBlEoKu06E" role="2QbW$V">
+          <ref role="30nzpS" node="3AnL_FusXbU" resolve="NumberScaledUnitsAfter" />
+          <node concept="3fym7j" id="4lBlEoKu06F" role="30nDbQ">
+            <node concept="30nz6$" id="4lBlEoKu06G" role="3fym7i">
+              <property role="30nz6_" value="1" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2CaS0t" id="4lBlEoKu05z" role="30nziE">
+        <node concept="2pNNFK" id="4lBlEoKu05$" role="2CaS0u">
+          <property role="2pNNFO" value="CurrentTime" />
+          <node concept="3o6iSG" id="4lBlEoKu05_" role="3o6s8t" />
+          <node concept="2pNNFK" id="4lBlEoKu05A" role="3o6s8t">
+            <property role="2pNNFO" value="Month" />
+            <node concept="3o6iSG" id="4lBlEoKu05B" role="3o6s8t" />
+            <node concept="2pNUuL" id="4lBlEoKu05C" role="2pNNFR">
+              <property role="2pNUuO" value="number" />
+              <node concept="2pMdtt" id="4lBlEoKu05D" role="2pMdts">
+                <property role="2pMdty" value="10" />
+              </node>
+            </node>
+            <node concept="2pNUuL" id="4lBlEoKu05E" role="2pNNFR">
+              <property role="2pNUuO" value="year" />
+              <node concept="2pMdtt" id="4lBlEoKu05F" role="2pMdts">
+                <property role="2pMdty" value="2007" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4lBlEoKyhjf" role="30n1Qb">
+      <node concept="30nyDl" id="4lBlEoKyhjg" role="30nziG">
+        <property role="30nzmz" value="Previous Period" />
+        <node concept="30nyDi" id="4lBlEoKyhjh" role="30nyDj">
+          <property role="30lZVK" value="Month 'October 2007'" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKyhji" role="30nyDh">
+          <property role="30lZVK" value="Load View" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKyhkw" role="30nyDh">
+          <property role="30lZVK" value="Click Previous Period" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKyhjj" role="30nyDs">
+          <property role="30lZVK" value="Show September 2007" />
+        </node>
+      </node>
+      <node concept="30nziD" id="4lBlEoKyhjk" role="30nzo2">
+        <ref role="30nziQ" node="4lBlEoKu04g" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="4lBlEoKyhkA" role="30nzo2">
+        <ref role="30nziQ" node="4lBlEoKu04i" resolve="PreviousPeriodClicked" />
+      </node>
+      <node concept="30nzp_" id="4lBlEoKyhjr" role="30nzpy">
+        <ref role="30nzpS" node="3AnL_FusXdH" resolve="PeriodDate" />
+        <node concept="3fym7j" id="4lBlEoKyhjs" role="30nDbQ">
+          <node concept="30nz6$" id="4lBlEoKyhjt" role="3fym7i">
+            <property role="30nz6_" value="September, 2007" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CaS0t" id="4lBlEoKyhjx" role="30nziE">
+        <node concept="2pNNFK" id="4lBlEoKyhjy" role="2CaS0u">
+          <property role="2pNNFO" value="CurrentTime" />
+          <node concept="3o6iSG" id="4lBlEoKyhjz" role="3o6s8t" />
+          <node concept="2pNNFK" id="4lBlEoKyhj$" role="3o6s8t">
+            <property role="2pNNFO" value="Month" />
+            <node concept="3o6iSG" id="4lBlEoKyhj_" role="3o6s8t" />
+            <node concept="2pNUuL" id="4lBlEoKyhjA" role="2pNNFR">
+              <property role="2pNUuO" value="number" />
+              <node concept="2pMdtt" id="4lBlEoKyhjB" role="2pMdts">
+                <property role="2pMdty" value="10" />
+              </node>
+            </node>
+            <node concept="2pNUuL" id="4lBlEoKyhjC" role="2pNNFR">
+              <property role="2pNUuO" value="year" />
+              <node concept="2pMdtt" id="4lBlEoKyhjD" role="2pMdts">
+                <property role="2pMdty" value="2007" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4lBlEoKyhld" role="30n1Qb">
+      <node concept="30nyDl" id="4lBlEoKyhle" role="30nziG">
+        <property role="30nzmz" value="Next Period" />
+        <node concept="30nyDi" id="4lBlEoKyhlf" role="30nyDj">
+          <property role="30lZVK" value="Month 'October 2007'" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKyhlg" role="30nyDh">
+          <property role="30lZVK" value="Load View" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKyhlh" role="30nyDh">
+          <property role="30lZVK" value="Click Next Period" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKyhli" role="30nyDs">
+          <property role="30lZVK" value="Show November 2007" />
+        </node>
+      </node>
+      <node concept="30nziD" id="4lBlEoKyhlj" role="30nzo2">
+        <ref role="30nziQ" node="4lBlEoKu04g" resolve="LoadView" />
+      </node>
+      <node concept="30nziD" id="4lBlEoKyhlk" role="30nzo2">
+        <ref role="30nziQ" node="4lBlEoKu04j" resolve="NextPeriodClicked" />
+      </node>
+      <node concept="30nzp_" id="4lBlEoKyhll" role="30nzpy">
+        <ref role="30nzpS" node="3AnL_FusXdH" resolve="PeriodDate" />
+        <node concept="3fym7j" id="4lBlEoKyhlm" role="30nDbQ">
+          <node concept="30nz6$" id="4lBlEoKyhln" role="3fym7i">
+            <property role="30nz6_" value="November, 2007" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CaS0t" id="4lBlEoKyhlo" role="30nziE">
+        <node concept="2pNNFK" id="4lBlEoKyhlp" role="2CaS0u">
+          <property role="2pNNFO" value="CurrentTime" />
+          <node concept="3o6iSG" id="4lBlEoKyhlq" role="3o6s8t" />
+          <node concept="2pNNFK" id="4lBlEoKyhlr" role="3o6s8t">
+            <property role="2pNNFO" value="Month" />
+            <node concept="3o6iSG" id="4lBlEoKyhls" role="3o6s8t" />
+            <node concept="2pNUuL" id="4lBlEoKyhlt" role="2pNNFR">
+              <property role="2pNUuO" value="number" />
+              <node concept="2pMdtt" id="4lBlEoKyhlu" role="2pMdts">
+                <property role="2pMdty" value="10" />
+              </node>
+            </node>
+            <node concept="2pNUuL" id="4lBlEoKyhlv" role="2pNNFR">
+              <property role="2pNUuO" value="year" />
+              <node concept="2pMdtt" id="4lBlEoKyhlw" role="2pMdts">
+                <property role="2pMdty" value="2007" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
