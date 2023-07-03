@@ -200,14 +200,9 @@
     <node concept="3H8Xy_" id="5hmNBhT2vLI" role="3H8Xyx">
       <property role="1aiWlD" value="GameViewModel" />
       <node concept="3s_O3X" id="1c2yPVfA6F9" role="2P43km">
-        <node concept="2Pim7P" id="5cbOqfAhtaO" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="5cbOqfAhtaP" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
+        <node concept="2Pim7P" id="5cbOqfAhtaO" role="2Pim73" />
+        <node concept="2Pim7K" id="5cbOqfAhtaP" role="2Pim71" />
         <node concept="2Pim7H" id="5cbOqfAhtaQ" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="Territory" />
         </node>
         <node concept="2PMFtw" id="5cbOqfAMM_6" role="2PKERo">
@@ -259,11 +254,8 @@
           <node concept="2Pim7P" id="5cbOqfAhtaX" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="5cbOqfAhtaY" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="5cbOqfAhtaY" role="2Pim71" />
           <node concept="2Pim7H" id="5cbOqfAhtaZ" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="Play" />
           </node>
         </node>
@@ -272,11 +264,8 @@
           <node concept="2Pim7P" id="5cbOqfAhtb0" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="5cbOqfAhtb1" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="5cbOqfAhtb1" role="2Pim71" />
           <node concept="2Pim7H" id="5cbOqfAhtb2" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="Pause" />
           </node>
         </node>
@@ -285,11 +274,8 @@
           <node concept="2Pim7P" id="5cbOqfAhtb3" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="5cbOqfAhtb4" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="5cbOqfAhtb4" role="2Pim71" />
           <node concept="2Pim7H" id="5cbOqfAhtb5" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="Undo" />
           </node>
         </node>
@@ -298,11 +284,8 @@
           <node concept="2Pim7P" id="5cbOqfAhtb6" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="5cbOqfAhtb7" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="5cbOqfAhtb7" role="2Pim71" />
           <node concept="2Pim7H" id="5cbOqfAhtb8" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="Redo" />
           </node>
         </node>
