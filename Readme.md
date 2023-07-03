@@ -40,6 +40,12 @@ By using ViewModels, a large portion of the View-Logic (presenter, controller co
   * perform menu `Build`/`Make Project`
   * if there are initial build errors, ignore them for now (they shall be resolved after one complete build)
 
+### GitHub Actions
+
+On every commit the language and its samples are built using GitHub actions:
+
+[![Java CI using Gradle Wrapper](https://github.com/vimotest/viewmodel-testlang-prototype/actions/workflows/github-actions.yaml/badge.svg)](https://github.com/vimotest/viewmodel-testlang-prototype/actions/workflows/github-actions.yaml)
+
 ## Samples
 
 ### Simple Examples
