@@ -364,6 +364,10 @@
     <node concept="3f4AKs" id="4lBlEoKmaWj" role="3H8Xyh">
       <property role="TrG5h" value="ShowDetailsForSelectionClicked" />
     </node>
+    <node concept="3f4AKs" id="4lBlEoKmb4O" role="3H8Xyh">
+      <property role="TrG5h" value="ShowTransactionsForSelectionClicked" />
+    </node>
+    <node concept="3H8Xwz" id="4lBlEoKmb4V" role="3H8Xyh" />
   </node>
   <node concept="30n1Qd" id="26AO1okMsdj">
     <property role="TrG5h" value="MyAccountsViewTests" />
@@ -700,7 +704,7 @@
       <property role="TrG5h" value="LoadView" />
       <property role="3f4$la" value="true" />
       <node concept="2P4x69" id="4lBlEoKmaTm" role="2P43km">
-        <property role="TrG5h" value="name" />
+        <property role="TrG5h" value="accountName" />
         <node concept="2P4D6h" id="4lBlEoKmaTl" role="2P5Oin" />
       </node>
     </node>
@@ -711,6 +715,15 @@
       <node concept="2P4x69" id="5E6KScpsyYY" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="5E6KScpsyYZ" role="2P5Oin" />
+      </node>
+    </node>
+    <node concept="3taSw6" id="4lBlEoKmb55" role="3H8Xyh">
+      <property role="3f4$la" value="true" />
+      <property role="TrG5h" value="AccountTypeItemSelected" />
+      <ref role="3fS2vI" node="5E6KScpsoqg" resolve="AccountType" />
+      <node concept="2P4x69" id="4lBlEoKmb56" role="2P43km">
+        <property role="TrG5h" value="selectedItem" />
+        <node concept="2P4D6h" id="4lBlEoKmb57" role="2P5Oin" />
       </node>
     </node>
     <node concept="3f4gK1" id="5E6KScpsyZ0" role="3H8Xyh">
@@ -731,6 +744,16 @@
         <node concept="2P4D6h" id="5E6KScpsyZ5" role="2P5Oin" />
       </node>
     </node>
+    <node concept="3H8Xwz" id="4lBlEoKmb6K" role="3H8Xyh" />
+    <node concept="3f4AKs" id="4lBlEoKmb53" role="3H8Xyh">
+      <property role="TrG5h" value="OKClicked" />
+      <ref role="3fS2vI" node="4lBlEoKmaXM" resolve="OK" />
+    </node>
+    <node concept="3f4AKs" id="4lBlEoKmb54" role="3H8Xyh">
+      <property role="TrG5h" value="CancelClicked" />
+      <ref role="3fS2vI" node="4lBlEoKmaXu" resolve="Cancel" />
+    </node>
+    <node concept="3H8Xwz" id="4lBlEoKmb6t" role="3H8Xyh" />
   </node>
   <node concept="30n1Qd" id="5E6KScpsorZ">
     <property role="TrG5h" value="MyAccountsDetailsViewTests" />
