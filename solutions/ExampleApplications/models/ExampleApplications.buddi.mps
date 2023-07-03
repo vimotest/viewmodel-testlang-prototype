@@ -72,6 +72,7 @@
       </concept>
       <concept id="6743755284664566090" name="ViewModelLanguage.structure.LoadViewEvent" flags="ng" index="3f3I3T" />
       <concept id="6743755284663479730" name="ViewModelLanguage.structure.FillTextEvent" flags="ng" index="3f4gK1" />
+      <concept id="6743755284663291311" name="ViewModelLanguage.structure.ClickEvent" flags="ng" index="3f4AKs" />
       <concept id="6743755284663983729" name="ViewModelLanguage.structure.SelectRowEvent" flags="ng" index="3f6vZ2" />
       <concept id="6743755284656506190" name="ViewModelLanguage.structure.TextBoxComponent" flags="ng" index="3fyYjX">
         <child id="6743755284656506191" name="textFeature" index="3fyYjW" />
@@ -194,6 +195,7 @@
       </concept>
       <concept id="3426401106045120783" name="ViewModelTestLanguage.structure.ViewInputCall" flags="ng" index="30nziD">
         <reference id="3426401106045120784" name="viewInput" index="30nziQ" />
+        <child id="3426401106045120786" name="parameters" index="30nziO" />
       </concept>
       <concept id="3426401106045121505" name="ViewModelTestLanguage.structure.ButtonCheck" flags="ng" index="30nzp7">
         <child id="3426401106045121535" name="checks" index="30nzpp" />
@@ -358,6 +360,9 @@
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="5E6KScpsyZj" role="2P5Oin" />
       </node>
+    </node>
+    <node concept="3f4AKs" id="4lBlEoKmaWj" role="3H8Xyh">
+      <property role="TrG5h" value="ShowDetailsForSelectionClicked" />
     </node>
   </node>
   <node concept="30n1Qd" id="26AO1okMsdj">
@@ -621,14 +626,9 @@
           <property role="2PigO5" value="true" />
           <property role="27$ltt" value="ACME" />
         </node>
-        <node concept="2Pim7P" id="5E6KScpsopx" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="5E6KScpsopy" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
+        <node concept="2Pim7P" id="5E6KScpsopx" role="2Pim73" />
+        <node concept="2Pim7K" id="5E6KScpsopy" role="2Pim71" />
         <node concept="2Pim7H" id="5E6KScpsopz" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="AccountName" />
         </node>
       </node>
@@ -640,14 +640,9 @@
         <node concept="3P0PJ4" id="5E6KScpsoqk" role="3P0O4A">
           <property role="2PigO5" value="true" />
         </node>
-        <node concept="2Pim7P" id="5E6KScpsoqm" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="5E6KScpsoqo" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
+        <node concept="2Pim7P" id="5E6KScpsoqm" role="2Pim73" />
+        <node concept="2Pim7K" id="5E6KScpsoqo" role="2Pim71" />
         <node concept="2Pim7H" id="5E6KScpsoqq" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="AccountType" />
         </node>
       </node>
@@ -656,14 +651,9 @@
           <property role="2PigO5" value="true" />
           <property role="27$ltt" value="14,226.23" />
         </node>
-        <node concept="2Pim7P" id="5E6KScpsoqS" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="5E6KScpsoqU" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
+        <node concept="2Pim7P" id="5E6KScpsoqS" role="2Pim73" />
+        <node concept="2Pim7K" id="5E6KScpsoqU" role="2Pim71" />
         <node concept="2Pim7H" id="5E6KScpsoqW" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="StartingBalance" />
         </node>
       </node>
@@ -672,16 +662,46 @@
           <property role="2PigO5" value="true" />
           <property role="27$ltt" value="&lt;Notes&gt;" />
         </node>
-        <node concept="2Pim7P" id="5E6KScpsor$" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="5E6KScpsorA" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
+        <node concept="2Pim7P" id="5E6KScpsor$" role="2Pim73" />
+        <node concept="2Pim7K" id="5E6KScpsorA" role="2Pim71" />
         <node concept="2Pim7H" id="5E6KScpsorC" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="Notes" />
         </node>
+      </node>
+      <node concept="2HXGLM" id="4lBlEoKmaWX" role="2P43km">
+        <node concept="2Pim7P" id="4lBlEoKmaWZ" role="2Pim73">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7K" id="4lBlEoKmaX1" role="2Pim71">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="2Pim7H" id="4lBlEoKmaX3" role="2Pim76">
+          <property role="2PigO5" value="true" />
+        </node>
+        <node concept="3H4brt" id="4lBlEoKmaXM" role="2HXGLH">
+          <node concept="2Pim7P" id="4lBlEoKmaXR" role="2Pim73">
+            <property role="2PigO5" value="true" />
+          </node>
+          <node concept="2Pim7K" id="4lBlEoKmaXW" role="2Pim71" />
+          <node concept="2Pim7H" id="4lBlEoKmaY1" role="2Pim76">
+            <property role="2PigPS" value="OK" />
+          </node>
+        </node>
+        <node concept="3H4brt" id="4lBlEoKmaXu" role="2HXGLH">
+          <node concept="2Pim7P" id="4lBlEoKmaXv" role="2Pim73" />
+          <node concept="2Pim7K" id="4lBlEoKmaXw" role="2Pim71" />
+          <node concept="2Pim7H" id="4lBlEoKmaXx" role="2Pim76">
+            <property role="2PigPS" value="Cancel" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3f3I3T" id="5E6KScpsyZ6" role="3H8Xyh">
+      <property role="TrG5h" value="LoadView" />
+      <property role="3f4$la" value="true" />
+      <node concept="2P4x69" id="4lBlEoKmaTm" role="2P43km">
+        <property role="TrG5h" value="name" />
+        <node concept="2P4D6h" id="4lBlEoKmaTl" role="2P5Oin" />
       </node>
     </node>
     <node concept="3f4gK1" id="5E6KScpsyYX" role="3H8Xyh">
@@ -711,9 +731,6 @@
         <node concept="2P4D6h" id="5E6KScpsyZ5" role="2P5Oin" />
       </node>
     </node>
-    <node concept="3f3I3T" id="5E6KScpsyZ6" role="3H8Xyh">
-      <property role="TrG5h" value="LoadView" />
-    </node>
   </node>
   <node concept="30n1Qd" id="5E6KScpsorZ">
     <property role="TrG5h" value="MyAccountsDetailsViewTests" />
@@ -722,13 +739,16 @@
       <node concept="30nyDl" id="5E6KScpsyXD" role="30nziG">
         <property role="30nzmz" value="Load account details" />
         <node concept="30nyDi" id="5E6KScpsyXE" role="30nyDj">
-          <property role="30lZVK" value="An account" />
+          <property role="30lZVK" value="Account 'ACME'" />
         </node>
         <node concept="30nyDi" id="5E6KScpsyXF" role="30nyDh">
-          <property role="30lZVK" value="Load View" />
+          <property role="30lZVK" value="Load View for 'ACME'" />
         </node>
         <node concept="30nyDi" id="5E6KScpsyXG" role="30nyDs">
-          <property role="30lZVK" value="Show details of the account" />
+          <property role="30lZVK" value="Details of the 'ACME' Account Filled" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKmb2X" role="30nyDs">
+          <property role="30lZVK" value="OK Button Enabled" />
         </node>
       </node>
       <node concept="30nzp_" id="5E6KScpsR8G" role="30nzpy">
@@ -780,33 +800,278 @@
           </node>
         </node>
       </node>
+      <node concept="30nzp_" id="4lBlEoKmb3j" role="30nzpy">
+        <ref role="30nzpS" node="4lBlEoKmaXM" resolve="OK" />
+        <node concept="30nzp7" id="4lBlEoKmb3B" role="30nDbQ">
+          <node concept="30nzps" id="4lBlEoKmb3C" role="30nzpp">
+            <property role="30nzpr" value="true" />
+          </node>
+        </node>
+      </node>
       <node concept="30k8jE" id="5E6KScpsyXS" role="30nziE">
         <property role="3ns_dL" value="true" />
         <node concept="30k8jF" id="5E6KScpsyXT" role="30k8ga">
-          <property role="TrG5h" value="AC0" />
+          <property role="TrG5h" value="Type0" />
           <node concept="30k8jQ" id="5E6KScpsyXU" role="30k8js">
             <property role="TrG5h" value="name" />
-            <property role="30k8jP" value="ACME" />
-            <property role="3nhnwH" value="true" />
-          </node>
-          <node concept="30k8jQ" id="5E6KScpsR97" role="30k8js">
-            <property role="TrG5h" value="type" />
             <property role="30k8jP" value="Savings" />
             <property role="3nhnwH" value="true" />
           </node>
-          <node concept="30k8jQ" id="5E6KScpsyXV" role="30k8js">
-            <property role="TrG5h" value="amount" />
-            <property role="30k8jP" value="450.24" />
-          </node>
-          <node concept="30k8jQ" id="5E6KScpsyYN" role="30k8js">
-            <property role="TrG5h" value="notes" />
-            <property role="30k8jP" value="My Notes" />
-            <property role="3nhnwH" value="true" />
+          <node concept="3nhhjx" id="4lBlEoKmaVA" role="30k8js">
+            <property role="TrG5h" value="children" />
+            <property role="3ntHXs" value="true" />
+            <node concept="30k8jF" id="4lBlEoKmaVG" role="3nhhjA">
+              <property role="TrG5h" value="AC0" />
+              <node concept="30k8jQ" id="4lBlEoKmaVH" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="ACME" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4lBlEoKmaVI" role="30k8js">
+                <property role="TrG5h" value="amount" />
+                <property role="30k8jP" value="450.24" />
+              </node>
+              <node concept="30k8jQ" id="4lBlEoKmaVJ" role="30k8js">
+                <property role="TrG5h" value="notes" />
+                <property role="30k8jP" value="My Notes" />
+                <property role="3nhnwH" value="true" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
       <node concept="30nziD" id="5E6KScpsyZo" role="30nzo2">
         <ref role="30nziQ" node="5E6KScpsyZ6" resolve="LoadView" />
+        <node concept="Xl_RD" id="4lBlEoKmb18" role="30nziO">
+          <property role="Xl_RC" value="ACME" />
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4lBlEoKmaTp" role="30n1Qb">
+      <node concept="30nyDl" id="4lBlEoKmaTq" role="30nziG">
+        <property role="30nzmz" value="Load account details from multiple" />
+        <node concept="30nyDi" id="4lBlEoKmaTr" role="30nyDj">
+          <property role="30lZVK" value="4 Accounts" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKmaTs" role="30nyDh">
+          <property role="30lZVK" value="Load View for 'Credit Card'" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKmaTt" role="30nyDs">
+          <property role="30lZVK" value="Details of the 'Credit Card' Account Filled" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKmaTu" role="30nzpy">
+        <property role="13TuVO" value="Account Name" />
+        <ref role="30nzpS" node="5E6KScpsopv" resolve="AccountName" />
+        <node concept="3fym7j" id="4lBlEoKmaTv" role="30nDbQ">
+          <node concept="30nz6$" id="4lBlEoKmaTw" role="3fym7i">
+            <property role="30nz6_" value="ACME Credit Card" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKmaTx" role="30nzpy">
+        <property role="13TuVO" value="Account Type" />
+        <ref role="30nzpS" node="5E6KScpsoqg" resolve="AccountType" />
+        <node concept="3P0OEx" id="4lBlEoKmaTy" role="30nDbQ">
+          <node concept="3P0YHm" id="4lBlEoKmaTz" role="3P0OEJ">
+            <node concept="3P0YHh" id="4lBlEoKmaT$" role="3P0YHj">
+              <property role="3P0YHu" value="Cash" />
+            </node>
+            <node concept="3P0YHh" id="4lBlEoKmaTA" role="3P0YHj">
+              <property role="3P0YHu" value="Chequing" />
+            </node>
+            <node concept="3P0YHh" id="4lBlEoKmaT_" role="3P0YHj">
+              <property role="3P0YHu" value="Credit Card" />
+            </node>
+          </node>
+          <node concept="3P0YG7" id="4lBlEoKmaTB" role="3P0OEJ">
+            <node concept="3P0YHh" id="4lBlEoKmaTC" role="3P0YG5">
+              <property role="3P0YHu" value="Credit Card" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKmaTD" role="30nzpy">
+        <property role="13TuVO" value="Starting Balance" />
+        <ref role="30nzpS" node="5E6KScpsoqO" resolve="StartingBalance" />
+        <node concept="3fym7j" id="4lBlEoKmaTE" role="30nDbQ">
+          <node concept="30nz6$" id="4lBlEoKmaTF" role="3fym7i">
+            <property role="30nz6_" value="-1,003.53" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKmaTG" role="30nzpy">
+        <property role="13TuVO" value="Notes" />
+        <ref role="30nzpS" node="5E6KScpsorw" resolve="Notes" />
+        <node concept="3fym7j" id="4lBlEoKmaTH" role="30nDbQ">
+          <node concept="30nz6$" id="4lBlEoKmaTI" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="4lBlEoKmaTJ" role="30nziE">
+        <property role="3ns_dL" value="true" />
+        <node concept="30k8jF" id="4lBlEoKmaUK" role="30k8ga">
+          <property role="TrG5h" value="Type0" />
+          <node concept="30k8jQ" id="4lBlEoKmaUL" role="30k8js">
+            <property role="TrG5h" value="name" />
+            <property role="30k8jP" value="Cash" />
+            <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="3nhhjx" id="4lBlEoKmaUM" role="30k8js">
+            <property role="TrG5h" value="children" />
+            <property role="3ntHXs" value="true" />
+            <node concept="30k8jF" id="4lBlEoKmaUN" role="3nhhjA">
+              <property role="TrG5h" value="ACType0" />
+              <node concept="30k8jQ" id="4lBlEoKmaUO" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="Cash" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4lBlEoKmaUP" role="30k8js">
+                <property role="TrG5h" value="amount" />
+                <property role="30k8jP" value="415.54" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="30k8jF" id="4lBlEoKmaUQ" role="30k8ga">
+          <property role="TrG5h" value="Type1" />
+          <node concept="30k8jQ" id="4lBlEoKmaUR" role="30k8js">
+            <property role="TrG5h" value="name" />
+            <property role="30k8jP" value="Chequing" />
+            <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="3nhhjx" id="4lBlEoKmaUS" role="30k8js">
+            <property role="TrG5h" value="children" />
+            <property role="3ntHXs" value="true" />
+            <node concept="30k8jF" id="4lBlEoKmaUT" role="3nhhjA">
+              <property role="TrG5h" value="AC1.0" />
+              <node concept="30k8jQ" id="4lBlEoKmaUU" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="ACME Bank" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4lBlEoKmaUV" role="30k8js">
+                <property role="TrG5h" value="amount" />
+                <property role="30k8jP" value="857.38" />
+              </node>
+            </node>
+            <node concept="30k8jF" id="4lBlEoKmaUW" role="3nhhjA">
+              <property role="TrG5h" value="AC1.1" />
+              <node concept="30k8jQ" id="4lBlEoKmaUX" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="Road Runner Bank" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4lBlEoKmaUY" role="30k8js">
+                <property role="TrG5h" value="amount" />
+                <property role="30k8jP" value="751.00" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="30k8jF" id="4lBlEoKmaUZ" role="30k8ga">
+          <property role="TrG5h" value="Type2" />
+          <node concept="30k8jQ" id="4lBlEoKmaV0" role="30k8js">
+            <property role="TrG5h" value="name" />
+            <property role="30k8jP" value="Credit Card" />
+            <property role="3nhnwH" value="true" />
+          </node>
+          <node concept="3nhhjx" id="4lBlEoKmaV1" role="30k8js">
+            <property role="TrG5h" value="children" />
+            <property role="3ntHXs" value="true" />
+            <node concept="30k8jF" id="4lBlEoKmaV2" role="3nhhjA">
+              <property role="TrG5h" value="Type2" />
+              <node concept="30k8jQ" id="4lBlEoKmaV3" role="30k8js">
+                <property role="TrG5h" value="name" />
+                <property role="30k8jP" value="ACME Credit Card" />
+                <property role="3nhnwH" value="true" />
+              </node>
+              <node concept="30k8jQ" id="4lBlEoKmaV4" role="30k8js">
+                <property role="TrG5h" value="amount" />
+                <property role="30k8jP" value="-1003.53" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="4lBlEoKmaTP" role="30nzo2">
+        <ref role="30nziQ" node="5E6KScpsyZ6" resolve="LoadView" />
+        <node concept="Xl_RD" id="4lBlEoKmb0Y" role="30nziO">
+          <property role="Xl_RC" value="ACME Credit Card" />
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="4lBlEoKmaYm" role="30n1Qb">
+      <node concept="30nyDl" id="4lBlEoKmaYn" role="30nziG">
+        <property role="30nzmz" value="Load empty account details" />
+        <node concept="30nyDi" id="4lBlEoKmaYo" role="30nyDj">
+          <property role="30lZVK" value="No Accounts" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKmaYp" role="30nyDh">
+          <property role="30lZVK" value="Load View for empty" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKmaYq" role="30nyDs">
+          <property role="30lZVK" value="Details are Empty" />
+        </node>
+        <node concept="30nyDi" id="4lBlEoKmb3F" role="30nyDs">
+          <property role="30lZVK" value="OK Button is Disabled" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKmaYr" role="30nzpy">
+        <property role="13TuVO" value="Account Name" />
+        <ref role="30nzpS" node="5E6KScpsopv" resolve="AccountName" />
+        <node concept="3fym7j" id="4lBlEoKmaYs" role="30nDbQ">
+          <node concept="30nz6$" id="4lBlEoKmaYt" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKmaYu" role="30nzpy">
+        <property role="13TuVO" value="Account Type" />
+        <ref role="30nzpS" node="5E6KScpsoqg" resolve="AccountType" />
+        <node concept="3P0OEx" id="4lBlEoKmaYv" role="30nDbQ">
+          <node concept="3P0YHm" id="4lBlEoKmaYw" role="3P0OEJ" />
+          <node concept="3P0YG7" id="4lBlEoKmaY$" role="3P0OEJ">
+            <node concept="3P0YHh" id="4lBlEoKmaY_" role="3P0YG5">
+              <property role="3P0YHu" value="Savings" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKmaYA" role="30nzpy">
+        <property role="13TuVO" value="Starting Balance" />
+        <ref role="30nzpS" node="5E6KScpsoqO" resolve="StartingBalance" />
+        <node concept="3fym7j" id="4lBlEoKmaYB" role="30nDbQ">
+          <node concept="30nz6$" id="4lBlEoKmaYC" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKmaYD" role="30nzpy">
+        <property role="13TuVO" value="Notes" />
+        <ref role="30nzpS" node="5E6KScpsorw" resolve="Notes" />
+        <node concept="3fym7j" id="4lBlEoKmaYE" role="30nDbQ">
+          <node concept="30nz6$" id="4lBlEoKmaYF" role="3fym7i" />
+        </node>
+      </node>
+      <node concept="30nzp_" id="4lBlEoKmb24" role="30nzpy">
+        <ref role="30nzpS" node="4lBlEoKmaXM" resolve="OK" />
+        <node concept="30nzp7" id="4lBlEoKmb2l" role="30nDbQ">
+          <node concept="30nzps" id="4lBlEoKmb2m" role="30nzpp" />
+        </node>
+      </node>
+      <node concept="30k8jE" id="4lBlEoKmaYG" role="30nziE">
+        <property role="3ns_dL" value="true" />
+        <node concept="30k8jF" id="4lBlEoKmaYH" role="30k8ga">
+          <property role="TrG5h" value="Type0" />
+          <node concept="30k8jQ" id="4lBlEoKmaYI" role="30k8js">
+            <property role="TrG5h" value="name" />
+            <property role="30k8jP" value="Savings" />
+            <property role="3nhnwH" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="30nziD" id="4lBlEoKmaZ2" role="30nzo2">
+        <ref role="30nziQ" node="5E6KScpsyZ6" resolve="LoadView" />
+        <node concept="Xl_RD" id="4lBlEoKmb1G" role="30nziO">
+          <property role="Xl_RC" value="" />
+        </node>
       </node>
     </node>
   </node>
