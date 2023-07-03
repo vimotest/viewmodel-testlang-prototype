@@ -9,6 +9,10 @@ The ViMoTest approach is based on three things:
 2) ViewModel Pattern: The abstraction layer of the testing approach is focusing on ViewModel datastructures, which represent information to be rendered in a UI. This allows to stay UI-framework independent and enables a good possibility to write (robust, fast) automated tests.
 3) Projectional DSLs: As a MDSD approach, this approach makes use of models to allow modeling on a suitable abstraction layer (i.e. UIs, views). To represent elements of the domain `UI` in such models like they are intended (e.g. buttons, tables), MPS provides a good way to develop projectional DSLs.
 
+This prototypical implementation is used as a research artifact, which is also tracked in Zenodo:
+
+https://zenodo.org/badge/433943088.svg
+
 ## What is ViewModel-based Testing?
 
 ViewModel-based Testing is meant to be an automated testing approach, where (unit) tests are written against a specific abstraction layer, i.e. ViewModels.
