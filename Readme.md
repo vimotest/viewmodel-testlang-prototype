@@ -42,14 +42,16 @@ By using ViewModels, a large portion of the View-Logic (presenter, controller co
 
 ## Samples
 
+### Simple Examples
+
 Inspect the solution `ViewModelLanguage.sandbox`, where you can find a sandbox model.
 
 It contains:
 
 * a sample view `MyView` demonstrating some basic controls like buttons, images, checkboxes or a table
   * the `MyTestSuite` specifies some sample tests for the `MyView`
-* a hamster simulator example view `HamsterView`
-  * the `HamsterViewTests` specifies a sample test case for loading a hamster territory and asserting the contents of the viewmodel
+* a simple login example view `SimpleLoginView`
+  * the `SimpleLoginViewTests` specifies sample test cases for the simple login view.
 
 ### Subject Applications
 
@@ -62,6 +64,9 @@ The following sample applications are modelled:
 * UPM, a Universal Password Manager
 * Rachota, a task management tool
 * Spark, a messaging application
+
+You can also have a look in the `screenshots` directory, where we exported PDF-screenshots of the sample models (Views+Tests).
+We did this using the Editor2Pdf MPS plugin (https://github.com/Fumapps/Editor2PDF).
 
 Note: Most of the subject applications are used from the empirical study of Zuddas' research (https://doi.org/10.1145/3236454.3236489).
 Also see the readme in `solutions/ExampleApplications/Readme.md`.
@@ -79,6 +84,8 @@ Login View Test:
 History Tasks View Test:
 
 ![HistoryTaskViewTest](documentation/screenshots/screenshot_historytasksview_test.png)
+
+Also have a look on PDF-Screenshots of all sample applications in the `screenshots` directory.
 
 ## Documentation
 
