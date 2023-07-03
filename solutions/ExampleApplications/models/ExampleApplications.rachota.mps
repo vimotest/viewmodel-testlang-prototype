@@ -3536,7 +3536,7 @@
       </node>
     </node>
     <node concept="3ZW7eb" id="4lBlEoKykpJ" role="lGtFl">
-      <property role="TrG5h" value="rachota/historyviewtests" />
+      <property role="TrG5h" value="historyviewtests" />
       <ref role="KZaLW" node="2y_rcZoPgoB" resolve="FIGURES" />
     </node>
   </node>
