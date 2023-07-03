@@ -385,6 +385,9 @@
         <node concept="30nyDi" id="26AO1okMsdo" role="30nyDs">
           <property role="30lZVK" value="Show Table with 7 Rows" />
         </node>
+        <node concept="30nyDi" id="4lBlEoKtWkx" role="30nyDs">
+          <property role="30lZVK" value="Net Worth of Summed Amount" />
+        </node>
       </node>
       <node concept="30k8jE" id="26AO1okMsgV" role="30nziE">
         <property role="3ns_dL" value="true" />
