@@ -248,7 +248,6 @@
         <child id="6574816161039227685" name="items" index="3P0YHj" />
       </concept>
       <concept id="575086588238666702" name="ViewModelTestLanguage.structure.TreeViewRowCheck" flags="ng" index="1SXonU">
-        <property id="1519488183366724957" name="collapsed" index="3kV6cI" />
         <property id="575086588238666705" name="level" index="1SXon_" />
         <child id="575086588238666704" name="checks" index="1SXon$" />
         <child id="575086588238666703" name="cellChecks" index="1SXonV" />
@@ -347,7 +346,6 @@
         <node concept="2Pim7P" id="4XlUEZmo0cp" role="2Pim73" />
         <node concept="2Pim7K" id="4XlUEZmo0cr" role="2Pim71" />
         <node concept="2Pim7H" id="4XlUEZmo0ct" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="NetWorthLabel" />
         </node>
         <node concept="3mzAc8" id="1TNehuHX_Ee" role="2NwCZs" />
@@ -569,7 +567,6 @@
           </node>
           <node concept="1SXonU" id="26AO1okMsfi" role="1SXonZ">
             <property role="1SXon_" value="0" />
-            <property role="3kV6cI" value="true" />
             <node concept="1u3WYF" id="26AO1okMsfj" role="1SXonV">
               <node concept="2D8cJI" id="26AO1okMsfk" role="1u3WYG">
                 <node concept="30nz6$" id="26AO1okMsfl" role="2D8cJs">
@@ -592,7 +589,6 @@
           </node>
           <node concept="1SXonU" id="4lBlEoKmaQL" role="1SXonZ">
             <property role="1SXon_" value="1" />
-            <property role="3kV6cI" value="true" />
             <node concept="1u3WYF" id="4lBlEoKmaQM" role="1SXonV">
               <node concept="2D8cJI" id="4lBlEoKmaQN" role="1u3WYG">
                 <node concept="30nz6$" id="4lBlEoKmaQO" role="2D8cJs">
