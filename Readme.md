@@ -11,7 +11,7 @@ The ViMoTest approach is based on three things:
 
 This prototypical implementation is used as a research artifact, which is also tracked in Zenodo:
 
-https://zenodo.org/badge/433943088.svg
+[![DOI](https://zenodo.org/badge/433943088.svg)](https://zenodo.org/badge/latestdoi/433943088)
 
 ## What is ViewModel-based Testing?
 
