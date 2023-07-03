@@ -240,11 +240,8 @@
           <node concept="2Pim7P" id="43lx_5lkthf" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="43lx_5lkthg" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="43lx_5lkthg" role="2Pim71" />
           <node concept="2Pim7H" id="43lx_5lkthh" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="btnAddAccount" />
           </node>
         </node>
@@ -253,11 +250,8 @@
           <node concept="2Pim7P" id="43lx_5lkthB" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="43lx_5lkthG" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="43lx_5lkthG" role="2Pim71" />
           <node concept="2Pim7H" id="43lx_5lkthL" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="btnEditAccount" />
           </node>
         </node>
@@ -266,11 +260,8 @@
           <node concept="2Pim7P" id="43lx_5lktij" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="43lx_5lktio" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="43lx_5lktio" role="2Pim71" />
           <node concept="2Pim7H" id="43lx_5lktit" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="btnDeleteAccount" />
           </node>
         </node>
@@ -290,11 +281,8 @@
           <node concept="2Pim7P" id="2b$WerdjQmY" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="2b$WerdjQmZ" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="2b$WerdjQmZ" role="2Pim71" />
           <node concept="2Pim7H" id="2b$WerdjQn0" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="btnCopyUser" />
           </node>
         </node>
@@ -303,11 +291,8 @@
           <node concept="2Pim7P" id="2b$WerdjQn2" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="2b$WerdjQn3" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="2b$WerdjQn3" role="2Pim71" />
           <node concept="2Pim7H" id="2b$WerdjQn4" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="btnCopyPassword" />
           </node>
         </node>
@@ -316,11 +301,8 @@
           <node concept="2Pim7P" id="2b$WerdjQn6" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="2b$WerdjQn7" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="2b$WerdjQn7" role="2Pim71" />
           <node concept="2Pim7H" id="2b$WerdjQn8" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="btnOptions" />
           </node>
         </node>
@@ -329,11 +311,8 @@
           <node concept="2Pim7P" id="2b$WerdjQna" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
-          <node concept="2Pim7K" id="2b$WerdjQnb" role="2Pim71">
-            <property role="2PigO5" value="true" />
-          </node>
+          <node concept="2Pim7K" id="2b$WerdjQnb" role="2Pim71" />
           <node concept="2Pim7H" id="2b$WerdjQnc" role="2Pim76">
-            <property role="2PigO5" value="true" />
             <property role="2PigPS" value="btnSync" />
           </node>
         </node>
@@ -378,14 +357,9 @@
         <node concept="3fMvU4" id="QFw6_ym$Hl" role="3fMvU8">
           <property role="2PigO5" value="true" />
         </node>
-        <node concept="2Pim7P" id="QFw6_ym$Hn" role="2Pim73">
-          <property role="2PigO5" value="true" />
-        </node>
-        <node concept="2Pim7K" id="QFw6_ym$Hp" role="2Pim71">
-          <property role="2PigO5" value="true" />
-        </node>
+        <node concept="2Pim7P" id="QFw6_ym$Hn" role="2Pim73" />
+        <node concept="2Pim7K" id="QFw6_ym$Hp" role="2Pim71" />
         <node concept="2Pim7H" id="QFw6_ym$Hr" role="2Pim76">
-          <property role="2PigO5" value="true" />
           <property role="2PigPS" value="PasswordEntries" />
         </node>
       </node>
