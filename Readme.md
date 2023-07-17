@@ -29,7 +29,7 @@ By using ViewModels, a large portion of the View-Logic (presenter, controller co
 * **View Component**: Synonym for _GUI Widget_ and used internally in the implementation of the prototype.
 * **View Event**: A View Event is an event, which is triggered by a GUI widget (when users interact with the GUI). Examples are button clicks, textfield changes, etc.
 
-## Getting started
+## Getting Started
 
 * ensure you use Java 20 (required by Gradle 8.2)
 * execute `gradlew buildAndOpenProjectInMps` (Windows), `sh ./gradlew buildAndOpenProjectInMps` (MacOS)
@@ -37,7 +37,9 @@ By using ViewModels, a large portion of the View-Logic (presenter, controller co
   * Windows: executes `build/mps-bundle/mps/bin/mps.bat`
   * MacOS: executes `build/mps-bundle/Contents/MacOS/mps`
   * additionally builds the language modules and opens it in MPS
+* usually the procedure takes about 2-5 min.
 * then, when MPS has opened, the project is ready
+* (optionally): switch to light theme in MPS under `Settings`/`Appearance & Behavior`/`Appearance`/`Theme`/`IntelliJ Light`
 
 ### Alternative: Build directly in MPS
 
