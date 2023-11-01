@@ -106,7 +106,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -208,7 +208,7 @@
                 <node concept="2Pim7S" id="5QmCreihqqy" role="2Phvad">
                   <property role="2PigO5" value="true" />
                   <node concept="3eDL7N" id="5QmCreihqqz" role="2Pim7X">
-                    <ref role="3eDL7M" node="5QmCreihqO0" resolve="Favorite" />
+                    <ref role="3eDL7M" node="5QmCreihqO0" />
                   </node>
                 </node>
                 <node concept="2Pim7P" id="5QmCreihqq$" role="2Pim73" />
@@ -346,7 +346,7 @@
           <property role="2PigO5" value="true" />
         </node>
         <node concept="2HYYfY" id="5QmCreihV8$" role="2HXGLH">
-          <ref role="2HYYDy" node="5QmCreihV8a" resolve="Add" />
+          <ref role="2HYYDy" node="5QmCreihV8a" />
           <node concept="2Pim7P" id="5QmCreihV8D" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -356,7 +356,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="5QmCreihV98" role="2HXGLH">
-          <ref role="2HYYDy" node="5QmCreihV7W" resolve="Remove" />
+          <ref role="2HYYDy" node="5QmCreihV7W" />
           <node concept="2Pim7P" id="5QmCreihV9d" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -366,7 +366,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="5QmCreihV9G" role="2HXGLH">
-          <ref role="2HYYDy" node="5QmCreihV7A" resolve="MoveUp" />
+          <ref role="2HYYDy" node="5QmCreihV7A" />
           <node concept="2Pim7P" id="5QmCreihV9L" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -376,7 +376,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="5QmCreihVaG" role="2HXGLH">
-          <ref role="2HYYDy" node="5QmCreihV7K" resolve="MoveDown" />
+          <ref role="2HYYDy" node="5QmCreihV7K" />
           <node concept="2Pim7P" id="5QmCreihVaL" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -389,24 +389,24 @@
     </node>
     <node concept="3f4AKs" id="5QmCreiyrEc" role="3H8Xyh">
       <property role="TrG5h" value="NewClicked" />
-      <ref role="3fS2vI" node="5QmCreihV8$" resolve="btnNew" />
+      <ref role="3fS2vI" node="5QmCreihV8$" />
     </node>
     <node concept="3f4AKs" id="5QmCreiyrFj" role="3H8Xyh">
       <property role="TrG5h" value="RemoveClicked" />
-      <ref role="3fS2vI" node="5QmCreihV98" resolve="btnRemove" />
+      <ref role="3fS2vI" node="5QmCreihV98" />
     </node>
     <node concept="3f4AKs" id="5QmCreizPS1" role="3H8Xyh">
       <property role="TrG5h" value="MoveUpClicked" />
-      <ref role="3fS2vI" node="5QmCreihV9G" resolve="btnMoveUp" />
+      <ref role="3fS2vI" node="5QmCreihV9G" />
     </node>
     <node concept="3f4AKs" id="5QmCreizPT4" role="3H8Xyh">
       <property role="TrG5h" value="MoveDownClicked" />
-      <ref role="3fS2vI" node="5QmCreihVaG" resolve="btnMoveDown" />
+      <ref role="3fS2vI" node="5QmCreihVaG" />
     </node>
     <node concept="3f6vZ2" id="5QmCreiA43$" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="TableRowSelected" />
-      <ref role="3fS2vI" node="5QmCreig_js" resolve="elementsTable" />
+      <ref role="3fS2vI" node="5QmCreig_js" />
       <node concept="2P4x69" id="5QmCreiA43_" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="5QmCreiA43A" role="2P5Oin" />
@@ -478,7 +478,7 @@
   </node>
   <node concept="30n1Qd" id="5QmCreimM6o">
     <property role="TrG5h" value="DiagnosticElementsViewTests" />
-    <ref role="30n1PB" node="5QmCreig_jo" resolve="DiagnosticElementsView" />
+    <ref role="30n1PB" node="5QmCreig_jo" />
     <node concept="30n1Qa" id="5QmCreimN3S" role="30n1Qb">
       <node concept="30nyDl" id="5QmCreimN3T" role="30nziG">
         <property role="30nzmz" value="Load with one element" />
@@ -514,16 +514,16 @@
         </node>
       </node>
       <node concept="30nziD" id="5QmCreimN4x" role="30nzo2">
-        <ref role="30nziQ" node="5QmCreiBiSg" resolve="LoadView" />
+        <ref role="30nziQ" node="5QmCreiBiSg" />
       </node>
       <node concept="30nzp_" id="5QmCreimN4$" role="30nzpy">
-        <ref role="30nzpS" node="5QmCreig_js" resolve="elementsTable" />
+        <ref role="30nzpS" node="5QmCreig_js" />
         <node concept="1Dvt9M" id="5QmCreimN4B" role="30nDbQ">
           <node concept="1Dvt89" id="5QmCreimN4D" role="2D8nNu">
             <node concept="1u3WYF" id="5QmCreimN4E" role="1Dvt80">
               <node concept="1u6pYw" id="5QmCreimN57" role="1u3WYG">
                 <node concept="1u6r32" id="5QmCreimN58" role="1u6pWF">
-                  <ref role="1u6r35" node="5QmCreihqNU" resolve="Active" />
+                  <ref role="1u6r35" node="5QmCreihqNU" />
                 </node>
               </node>
             </node>
@@ -559,7 +559,7 @@
       </node>
       <node concept="2QbWKJ" id="4oK3uBK9vNX" role="30nzpy">
         <node concept="30nzp_" id="5QmCreinLdU" role="2QbW$V">
-          <ref role="30nzpS" node="5QmCreihV8$" resolve="btnNew" />
+          <ref role="30nzpS" node="5QmCreihV8$" />
           <node concept="30nzp7" id="5QmCreinLef" role="30nDbQ">
             <node concept="30nzps" id="5QmCreinLeg" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -567,7 +567,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="5QmCreinLej" role="2QbW$V">
-          <ref role="30nzpS" node="5QmCreihV98" resolve="btnRemove" />
+          <ref role="30nzpS" node="5QmCreihV98" />
           <node concept="30nzp7" id="5QmCreinLfH" role="30nDbQ">
             <node concept="30nzps" id="5QmCreinLfI" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -575,13 +575,13 @@
           </node>
         </node>
         <node concept="30nzp_" id="5QmCreinLeI" role="2QbW$V">
-          <ref role="30nzpS" node="5QmCreihV9G" resolve="btnMoveUp" />
+          <ref role="30nzpS" node="5QmCreihV9G" />
           <node concept="30nzp7" id="5QmCreinLfL" role="30nDbQ">
             <node concept="30nzps" id="5QmCreinLfM" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="5QmCreinLfc" role="2QbW$V">
-          <ref role="30nzpS" node="5QmCreihVaG" resolve="btnMoveDown" />
+          <ref role="30nzpS" node="5QmCreihVaG" />
           <node concept="30nzp7" id="5QmCreinLfP" role="30nDbQ">
             <node concept="30nzps" id="5QmCreinLfQ" role="30nzpp" />
           </node>
@@ -636,16 +636,16 @@
         </node>
       </node>
       <node concept="30nziD" id="PE83X0Gwvg" role="30nzo2">
-        <ref role="30nziQ" node="5QmCreiBiSg" resolve="LoadView" />
+        <ref role="30nziQ" node="5QmCreiBiSg" />
       </node>
       <node concept="30nzp_" id="PE83X0Gwvh" role="30nzpy">
-        <ref role="30nzpS" node="5QmCreig_js" resolve="elementsTable" />
+        <ref role="30nzpS" node="5QmCreig_js" />
         <node concept="1Dvt9M" id="PE83X0Gwvi" role="30nDbQ">
           <node concept="1Dvt89" id="PE83X0Gwvj" role="2D8nNu">
             <node concept="1u3WYF" id="PE83X0Gwvk" role="1Dvt80">
               <node concept="1u6pYw" id="PE83X0Gwvl" role="1u3WYG">
                 <node concept="1u6r32" id="PE83X0Gwvm" role="1u6pWF">
-                  <ref role="1u6r35" node="5QmCreihqNU" resolve="Active" />
+                  <ref role="1u6r35" node="5QmCreihqNU" />
                 </node>
               </node>
             </node>
@@ -678,7 +678,7 @@
             <node concept="1u3WYF" id="PE83X0II7J" role="1Dvt80">
               <node concept="1u6pYw" id="PE83X0II7K" role="1u3WYG">
                 <node concept="1u6r32" id="PE83X0II7L" role="1u6pWF">
-                  <ref role="1u6r35" node="5QmCreihqNU" resolve="Active" />
+                  <ref role="1u6r35" node="5QmCreihqNU" />
                 </node>
               </node>
             </node>
@@ -714,7 +714,7 @@
       </node>
       <node concept="2QbWKJ" id="PE83X0Gwv$" role="30nzpy">
         <node concept="30nzp_" id="PE83X0Gwv_" role="2QbW$V">
-          <ref role="30nzpS" node="5QmCreihV8$" resolve="btnNew" />
+          <ref role="30nzpS" node="5QmCreihV8$" />
           <node concept="30nzp7" id="PE83X0GwvA" role="30nDbQ">
             <node concept="30nzps" id="PE83X0GwvB" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -722,7 +722,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="PE83X0GwvC" role="2QbW$V">
-          <ref role="30nzpS" node="5QmCreihV98" resolve="btnRemove" />
+          <ref role="30nzpS" node="5QmCreihV98" />
           <node concept="30nzp7" id="PE83X0GwvD" role="30nDbQ">
             <node concept="30nzps" id="PE83X0GwvE" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -730,7 +730,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="PE83X0GwvF" role="2QbW$V">
-          <ref role="30nzpS" node="5QmCreihV9G" resolve="btnMoveUp" />
+          <ref role="30nzpS" node="5QmCreihV9G" />
           <node concept="30nzp7" id="PE83X0GwvG" role="30nDbQ">
             <node concept="30nzps" id="PE83X0GwvH" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -738,7 +738,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="PE83X0GwvI" role="2QbW$V">
-          <ref role="30nzpS" node="5QmCreihVaG" resolve="btnMoveDown" />
+          <ref role="30nzpS" node="5QmCreihVaG" />
           <node concept="30nzp7" id="PE83X0GwvJ" role="30nDbQ">
             <node concept="30nzps" id="PE83X0GwvK" role="30nzpp">
               <property role="30nzpr" value="true" />

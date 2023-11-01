@@ -185,7 +185,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -327,7 +327,7 @@
           <property role="2PigO5" value="true" />
         </node>
         <node concept="2HYYfY" id="1$0urrTNxNw" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2KN" resolve="previous" />
+          <ref role="2HYYDy" node="61f9eXSU2KN" />
           <node concept="2Pim7P" id="1$0urrTN2XK" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -348,7 +348,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="61f9eXSU5pH" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2JV" resolve="next" />
+          <ref role="2HYYDy" node="61f9eXSU2JV" />
           <node concept="2Pim7P" id="61f9eXSU5pI" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -369,7 +369,7 @@
           <property role="2PigO5" value="true" />
         </node>
         <node concept="2HYYfY" id="3AnL_FusXii" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2LN" resolve="previous_week" />
+          <ref role="2HYYDy" node="61f9eXSU2LN" />
           <node concept="2Pim7P" id="3AnL_FusXij" role="2Pim73" />
           <node concept="2Pim7K" id="3AnL_FusXik" role="2Pim71" />
           <node concept="2Pim7H" id="3AnL_FusXil" role="2Pim76">
@@ -377,7 +377,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="3AnL_FusXie" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2LV" resolve="previous_month" />
+          <ref role="2HYYDy" node="61f9eXSU2LV" />
           <node concept="2Pim7P" id="3AnL_FusXif" role="2Pim73" />
           <node concept="2Pim7K" id="3AnL_FusXig" role="2Pim71" />
           <node concept="2Pim7H" id="3AnL_FusXih" role="2Pim76">
@@ -396,7 +396,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="3AnL_FusXhX" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2Lz" resolve="next_month" />
+          <ref role="2HYYDy" node="61f9eXSU2Lz" />
           <node concept="2Pim7P" id="3AnL_FusXhY" role="2Pim73" />
           <node concept="2Pim7K" id="3AnL_FusXhZ" role="2Pim71" />
           <node concept="2Pim7H" id="3AnL_FusXi0" role="2Pim76">
@@ -404,7 +404,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="3AnL_FusXhn" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2KZ" resolve="next_week" />
+          <ref role="2HYYDy" node="61f9eXSU2KZ" />
           <node concept="2Pim7P" id="3AnL_FusXhs" role="2Pim73" />
           <node concept="2Pim7K" id="3AnL_FusXhx" role="2Pim71" />
           <node concept="2Pim7H" id="3AnL_FusXhA" role="2Pim76">
@@ -484,7 +484,7 @@
           <property role="2PigO5" value="true" />
         </node>
         <node concept="2HYYfY" id="61f9eXSVax6" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2K3" resolve="work" />
+          <ref role="2HYYDy" node="61f9eXSU2K3" />
           <node concept="2Pim7P" id="61f9eXSVax7" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -494,7 +494,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="61f9eXSVayO" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2Kb" resolve="paint" />
+          <ref role="2HYYDy" node="61f9eXSU2Kb" />
           <node concept="2Pim7P" id="61f9eXSVayP" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -504,7 +504,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="61f9eXSVaAI" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2JF" resolve="done" />
+          <ref role="2HYYDy" node="61f9eXSU2JF" />
           <node concept="2Pim7P" id="61f9eXSVaAJ" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -648,7 +648,7 @@
           <property role="2PigO5" value="true" />
         </node>
         <node concept="2HYYfY" id="6$atX31bk_A" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2Kr" resolve="select" />
+          <ref role="2HYYDy" node="61f9eXSU2Kr" />
           <node concept="2Pim7P" id="6$atX31bk_B" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -658,7 +658,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="6$atX31bk_E" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2JB" resolve="add" />
+          <ref role="2HYYDy" node="61f9eXSU2JB" />
           <node concept="2Pim7P" id="6$atX31bk_F" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -668,7 +668,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="6$atX31bk_I" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2JJ" resolve="edit" />
+          <ref role="2HYYDy" node="61f9eXSU2JJ" />
           <node concept="2Pim7P" id="6$atX31bk_J" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -678,7 +678,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="6$atX31bkDA" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2Kj" resolve="delete" />
+          <ref role="2HYYDy" node="61f9eXSU2Kj" />
           <node concept="2Pim7P" id="6$atX31bkDB" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -694,44 +694,44 @@
     </node>
     <node concept="3f4AKs" id="6$atX31bo05" role="3H8Xyh">
       <property role="TrG5h" value="PreviousClicked" />
-      <ref role="3fS2vI" node="1$0urrTNxNw" resolve="Previous" />
+      <ref role="3fS2vI" node="1$0urrTNxNw" />
     </node>
     <node concept="3f4AKs" id="6$atX31bo06" role="3H8Xyh">
       <property role="TrG5h" value="NextClicked" />
-      <ref role="3fS2vI" node="61f9eXSU5pH" resolve="Next" />
+      <ref role="3fS2vI" node="61f9eXSU5pH" />
     </node>
     <node concept="3f4AKs" id="6$atX31bo07" role="3H8Xyh">
       <property role="TrG5h" value="WorkClicked" />
-      <ref role="3fS2vI" node="61f9eXSVax6" resolve="Work" />
+      <ref role="3fS2vI" node="61f9eXSVax6" />
     </node>
     <node concept="3f4AKs" id="6$atX31bo08" role="3H8Xyh">
       <property role="TrG5h" value="RelaxClicked" />
-      <ref role="3fS2vI" node="61f9eXSVayO" resolve="Relax" />
+      <ref role="3fS2vI" node="61f9eXSVayO" />
     </node>
     <node concept="3f4AKs" id="6$atX31bo09" role="3H8Xyh">
       <property role="TrG5h" value="DoneClicked" />
-      <ref role="3fS2vI" node="61f9eXSVaAI" resolve="Done" />
+      <ref role="3fS2vI" node="61f9eXSVaAI" />
     </node>
     <node concept="3f4AKs" id="6$atX31bo0a" role="3H8Xyh">
       <property role="TrG5h" value="SelectClicked" />
-      <ref role="3fS2vI" node="6$atX31bk_A" resolve="Select" />
+      <ref role="3fS2vI" node="6$atX31bk_A" />
     </node>
     <node concept="3f4AKs" id="6$atX31bo0b" role="3H8Xyh">
       <property role="TrG5h" value="AddClicked" />
-      <ref role="3fS2vI" node="6$atX31bk_E" resolve="Add" />
+      <ref role="3fS2vI" node="6$atX31bk_E" />
     </node>
     <node concept="3f4AKs" id="6$atX31bo0c" role="3H8Xyh">
       <property role="TrG5h" value="ViewClicked" />
-      <ref role="3fS2vI" node="6$atX31bk_I" resolve="View" />
+      <ref role="3fS2vI" node="6$atX31bk_I" />
     </node>
     <node concept="3f4AKs" id="6$atX31bo0d" role="3H8Xyh">
       <property role="TrG5h" value="RemoveClicked" />
-      <ref role="3fS2vI" node="6$atX31bkDA" resolve="Remove" />
+      <ref role="3fS2vI" node="6$atX31bkDA" />
     </node>
     <node concept="I_Gu0" id="6$atX31bo0e" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="ShowFinishedTasksChecked" />
-      <ref role="3fS2vI" node="6$atX31bkFU" resolve="ShowFinishedTasks" />
+      <ref role="3fS2vI" node="6$atX31bkFU" />
       <node concept="2P4x69" id="6$atX31bo0f" role="2P43km">
         <property role="TrG5h" value="isChecked" />
         <node concept="2P4D6g" id="6$atX31bo0g" role="2P5Oin" />
@@ -740,7 +740,7 @@
     <node concept="3f6vZ2" id="6$atX31bo0h" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="PlanRowSelected" />
-      <ref role="3fS2vI" node="6$atX3100Ho" resolve="Plan" />
+      <ref role="3fS2vI" node="6$atX3100Ho" />
       <node concept="2P4x69" id="6$atX31bo0i" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="6$atX31bo0j" role="2P5Oin" />
@@ -749,7 +749,7 @@
     <node concept="3f4gK1" id="6$atX31bo0k" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="DateFilled" />
-      <ref role="3fS2vI" node="61f9eXSU6DJ" resolve="Date" />
+      <ref role="3fS2vI" node="61f9eXSU6DJ" />
       <node concept="2P4x69" id="6$atX31bo0l" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="6$atX31bo0m" role="2P5Oin" />
@@ -758,7 +758,7 @@
     <node concept="3f4gK1" id="6$atX31bo0n" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="StartedAtFilled" />
-      <ref role="3fS2vI" node="61f9eXSU6Nk" resolve="StartedAt" />
+      <ref role="3fS2vI" node="61f9eXSU6Nk" />
       <node concept="2P4x69" id="6$atX31bo0o" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="6$atX31bo0p" role="2P5Oin" />
@@ -767,7 +767,7 @@
     <node concept="3f4gK1" id="6$atX31bo0q" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="FinishedAtFilled" />
-      <ref role="3fS2vI" node="61f9eXSU6Q4" resolve="FinishedAt" />
+      <ref role="3fS2vI" node="61f9eXSU6Q4" />
       <node concept="2P4x69" id="6$atX31bo0r" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="6$atX31bo0s" role="2P5Oin" />
@@ -776,7 +776,7 @@
     <node concept="3f4gK1" id="6$atX31bo0t" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="TaskFilled" />
-      <ref role="3fS2vI" node="61f9eXSVarp" resolve="Task" />
+      <ref role="3fS2vI" node="61f9eXSVarp" />
       <node concept="2P4x69" id="6$atX31bo0u" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="6$atX31bo0v" role="2P5Oin" />
@@ -784,24 +784,24 @@
     </node>
     <node concept="3f4AKs" id="3AnL_FusXjZ" role="3H8Xyh">
       <property role="TrG5h" value="PreviousWeekClicked" />
-      <ref role="3fS2vI" node="3AnL_FusXii" resolve="PreviousWeek" />
+      <ref role="3fS2vI" node="3AnL_FusXii" />
     </node>
     <node concept="3f4AKs" id="3AnL_FusXk0" role="3H8Xyh">
       <property role="TrG5h" value="PreviousMonthClicked" />
-      <ref role="3fS2vI" node="3AnL_FusXie" resolve="PreviousMonth" />
+      <ref role="3fS2vI" node="3AnL_FusXie" />
     </node>
     <node concept="3f4AKs" id="3AnL_FusXk1" role="3H8Xyh">
       <property role="TrG5h" value="NextMonthClicked" />
-      <ref role="3fS2vI" node="3AnL_FusXhX" resolve="NextMonth" />
+      <ref role="3fS2vI" node="3AnL_FusXhX" />
     </node>
     <node concept="3f4AKs" id="3AnL_FusXk2" role="3H8Xyh">
       <property role="TrG5h" value="NextWeekClicked" />
-      <ref role="3fS2vI" node="3AnL_FusXhn" resolve="NextWeek" />
+      <ref role="3fS2vI" node="3AnL_FusXhn" />
     </node>
     <node concept="3f4gK1" id="3AnL_FusXk3" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="WeekFilled" />
-      <ref role="3fS2vI" node="7rVlXou0n$v" resolve="Week" />
+      <ref role="3fS2vI" node="7rVlXou0n$v" />
       <node concept="2P4x69" id="3AnL_FusXk4" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="3AnL_FusXk5" role="2P5Oin" />
@@ -983,7 +983,7 @@
   </node>
   <node concept="30n1Qd" id="61f9eXTB4OD">
     <property role="TrG5h" value="DayViewTests" />
-    <ref role="30n1PB" node="1$0urrTN2$j" resolve="DayView" />
+    <ref role="30n1PB" node="1$0urrTN2$j" />
     <node concept="30n1Qa" id="61f9eXTB5dm" role="30n1Qb">
       <node concept="30nyDl" id="61f9eXTB5dn" role="30nziG">
         <property role="30nzmz" value="Task is shown in table" />
@@ -998,7 +998,7 @@
         </node>
       </node>
       <node concept="30nziD" id="61f9eXTB5qm" role="30nzo2">
-        <ref role="30nziQ" node="61f9eXTB5m0" resolve="LoadView" />
+        <ref role="30nziQ" node="61f9eXTB5m0" />
       </node>
       <node concept="2CaS0t" id="6$atX31bkwW" role="30nziE">
         <node concept="2pNNFK" id="6$atX31bkx2" role="2CaS0u">
@@ -1060,7 +1060,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="6$atX31bkye" role="30nzpy">
-        <ref role="30nzpS" node="6$atX3100Ho" resolve="Plan" />
+        <ref role="30nzpS" node="6$atX3100Ho" />
         <node concept="1Dvt9M" id="6$atX31bkyg" role="30nDbQ">
           <node concept="1Dvt89" id="6$atX31bkyi" role="2D8nNu">
             <node concept="1u3WYF" id="6$atX31bkyj" role="1Dvt80">
@@ -1121,16 +1121,16 @@
         </node>
       </node>
       <node concept="30nziD" id="6$atX31bkzy" role="30nzo2">
-        <ref role="30nziQ" node="61f9eXTB5m0" resolve="LoadView" />
+        <ref role="30nziQ" node="61f9eXTB5m0" />
       </node>
       <node concept="30nziD" id="6$atX31bo2q" role="30nzo2">
-        <ref role="30nziQ" node="6$atX31bo0h" resolve="PlanRowSelected" />
+        <ref role="30nziQ" node="6$atX31bo0h" />
         <node concept="3cmrfG" id="6$atX31boyk" role="30nziO">
           <property role="3cmrfH" value="0" />
         </node>
       </node>
       <node concept="30nzp_" id="6$atX31bkzR" role="30nzpy">
-        <ref role="30nzpS" node="6$atX3100Ho" resolve="Plan" />
+        <ref role="30nzpS" node="6$atX3100Ho" />
         <node concept="1Dvt9M" id="6$atX31bkzS" role="30nDbQ">
           <node concept="1Dvt89" id="6$atX31bkzT" role="2D8nNu">
             <node concept="1u3WYF" id="6$atX31bkzU" role="1Dvt80">
@@ -1176,13 +1176,13 @@
       </node>
       <node concept="2QbWKJ" id="3r_aeMgKG6v" role="30nzpy">
         <node concept="30nzp_" id="3r_aeMgKG6X" role="2QbW$V">
-          <ref role="30nzpS" node="6$atX31bk_A" resolve="Select" />
+          <ref role="30nzpS" node="6$atX31bk_A" />
           <node concept="30nzp7" id="3r_aeMgKG6Y" role="30nDbQ">
             <node concept="30nzps" id="3r_aeMgKG6Z" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="3r_aeMgKG7b" role="2QbW$V">
-          <ref role="30nzpS" node="6$atX31bk_E" resolve="Add" />
+          <ref role="30nzpS" node="6$atX31bk_E" />
           <node concept="30nzp7" id="3r_aeMgKG87" role="30nDbQ">
             <node concept="30nzps" id="3r_aeMgKG88" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -1190,13 +1190,13 @@
           </node>
         </node>
         <node concept="30nzp_" id="3r_aeMgKG7k" role="2QbW$V">
-          <ref role="30nzpS" node="6$atX31bk_I" resolve="View" />
+          <ref role="30nzpS" node="6$atX31bk_I" />
           <node concept="30nzp7" id="3r_aeMgKG8F" role="30nDbQ">
             <node concept="30nzps" id="3r_aeMgKG8G" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="3r_aeMgKG7K" role="2QbW$V">
-          <ref role="30nzpS" node="6$atX31bkDA" resolve="Remove" />
+          <ref role="30nzpS" node="6$atX31bkDA" />
           <node concept="30nzp7" id="3r_aeMgKG97" role="30nDbQ">
             <node concept="30nzps" id="3r_aeMgKG98" role="30nzpp" />
           </node>
@@ -1235,10 +1235,10 @@
         </node>
       </node>
       <node concept="30nziD" id="7rVlXou0nvQ" role="30nzo2">
-        <ref role="30nziQ" node="61f9eXTB5m0" resolve="LoadView" />
+        <ref role="30nziQ" node="61f9eXTB5m0" />
       </node>
       <node concept="30nziD" id="3r_aeMfVsUA" role="30nzo2">
-        <ref role="30nziQ" node="6$atX31bo0a" resolve="SelectClicked" />
+        <ref role="30nziQ" node="6$atX31bo0a" />
         <node concept="3cmrfG" id="3r_aeMfVsUE" role="30nziO">
           <property role="3cmrfH" value="0" />
         </node>
@@ -1247,7 +1247,7 @@
         <ref role="30kPmH" node="6$atX31bkwW" />
       </node>
       <node concept="30nzp_" id="7rVlXou0ny0" role="30nzpy">
-        <ref role="30nzpS" node="61f9eXSU6DJ" resolve="Date" />
+        <ref role="30nzpS" node="61f9eXSU6DJ" />
         <node concept="3fym7j" id="7rVlXou0ny4" role="30nDbQ">
           <node concept="30nz6$" id="7rVlXou0ny5" role="3fym7i">
             <property role="30nz6_" value="Thursday - 14. February, 2008" />
@@ -1255,7 +1255,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="7rVlXou0nyd" role="30nzpy">
-        <ref role="30nzpS" node="7rVlXou0n$v" resolve="Week" />
+        <ref role="30nzpS" node="7rVlXou0n$v" />
         <node concept="3fym7j" id="7rVlXou0nye" role="30nDbQ">
           <node concept="30nz6$" id="7rVlXou0nyf" role="3fym7i">
             <property role="30nz6_" value="7." />
@@ -1264,7 +1264,7 @@
       </node>
       <node concept="2QbWKJ" id="7rVlXou0nAT" role="30nzpy">
         <node concept="30nzp_" id="7rVlXou0nB2" role="2QbW$V">
-          <ref role="30nzpS" node="61f9eXSU6Nk" resolve="StartedAt" />
+          <ref role="30nzpS" node="61f9eXSU6Nk" />
           <node concept="3fym7j" id="3r_aeMfVitc" role="30nDbQ">
             <node concept="30nz6$" id="3r_aeMfVitd" role="3fym7i">
               <property role="30nz6_" value="06:10" />
@@ -1272,7 +1272,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="3r_aeMfVsTG" role="2QbW$V">
-          <ref role="30nzpS" node="61f9eXSU6Q4" resolve="FinishedAt" />
+          <ref role="30nzpS" node="61f9eXSU6Q4" />
           <node concept="3fym7j" id="3r_aeMfVsTM" role="30nDbQ">
             <node concept="30nz6$" id="3r_aeMfVsTN" role="3fym7i">
               <property role="30nz6_" value="14:53" />
@@ -1281,7 +1281,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="3r_aeMfVsU5" role="30nzpy">
-        <ref role="30nzpS" node="61f9eXT9Unu" resolve="Progress" />
+        <ref role="30nzpS" node="61f9eXT9Unu" />
         <node concept="pbEKG" id="3r_aeMfVsUl" role="30nDbQ">
           <node concept="paRPU" id="3r_aeMfVsUm" role="pbCPX">
             <property role="pawil" value="true" />
@@ -1296,7 +1296,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="3r_aeMfVsV2" role="30nzpy">
-        <ref role="30nzpS" node="61f9eXSVarp" resolve="Task" />
+        <ref role="30nzpS" node="61f9eXSVarp" />
         <node concept="3fym7j" id="3r_aeMfVsVm" role="30nDbQ">
           <node concept="30nz6$" id="3r_aeMfVsVn" role="3fym7i">
             <property role="30nz6_" value="Testing Plugin Portal version 3" />
@@ -1305,13 +1305,13 @@
       </node>
       <node concept="2QbWKJ" id="3r_aeMfVsVQ" role="30nzpy">
         <node concept="30nzp_" id="3r_aeMgr$GW" role="2QbW$V">
-          <ref role="30nzpS" node="61f9eXSVax6" resolve="Work" />
+          <ref role="30nzpS" node="61f9eXSVax6" />
           <node concept="30nzp7" id="3r_aeMgr$GX" role="30nDbQ">
             <node concept="30nzps" id="3r_aeMgr$GY" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="3r_aeMgr$H7" role="2QbW$V">
-          <ref role="30nzpS" node="61f9eXSVayO" resolve="Relax" />
+          <ref role="30nzpS" node="61f9eXSVayO" />
           <node concept="30nzp7" id="3r_aeMgr$H8" role="30nDbQ">
             <node concept="30nzps" id="3r_aeMgr$H9" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -1319,7 +1319,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="3r_aeMgr$Ho" role="2QbW$V">
-          <ref role="30nzpS" node="61f9eXSVaAI" resolve="Done" />
+          <ref role="30nzpS" node="61f9eXSVaAI" />
           <node concept="30nzp7" id="3r_aeMgr$Hp" role="30nDbQ">
             <node concept="30nzps" id="3r_aeMgr$Hq" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -1357,7 +1357,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="3AnL_FusXag" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2Kn" resolve="report" />
+          <ref role="2HYYDy" node="61f9eXSU2Kn" />
           <node concept="2Pim7P" id="3AnL_FusXal" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -1389,7 +1389,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="3AnL_FusXcr" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2KN" resolve="previous" />
+          <ref role="2HYYDy" node="61f9eXSU2KN" />
           <node concept="2Pim7P" id="3AnL_FusXcw" role="2Pim73" />
           <node concept="2Pim7K" id="3AnL_FusXc_" role="2Pim71" />
           <node concept="2Pim7H" id="3AnL_FusXcE" role="2Pim76">
@@ -1408,7 +1408,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="3AnL_FusXcX" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2JV" resolve="next" />
+          <ref role="2HYYDy" node="61f9eXSU2JV" />
           <node concept="2Pim7P" id="3AnL_FusXcY" role="2Pim73" />
           <node concept="2Pim7K" id="3AnL_FusXcZ" role="2Pim71" />
           <node concept="2Pim7H" id="3AnL_FusXd0" role="2Pim76">
@@ -1433,15 +1433,15 @@
     </node>
     <node concept="3f4AKs" id="4lBlEoKu04h" role="3H8Xyh">
       <property role="TrG5h" value="GenerateReportClicked" />
-      <ref role="3fS2vI" node="3AnL_FusXag" resolve="GenerateReport" />
+      <ref role="3fS2vI" node="3AnL_FusXag" />
     </node>
     <node concept="3f4AKs" id="4lBlEoKu04i" role="3H8Xyh">
       <property role="TrG5h" value="PreviousPeriodClicked" />
-      <ref role="3fS2vI" node="3AnL_FusXcr" resolve="PreviousPeriod" />
+      <ref role="3fS2vI" node="3AnL_FusXcr" />
     </node>
     <node concept="3f4AKs" id="4lBlEoKu04j" role="3H8Xyh">
       <property role="TrG5h" value="NextPeriodClicked" />
-      <ref role="3fS2vI" node="3AnL_FusXcX" resolve="NextPeriod" />
+      <ref role="3fS2vI" node="3AnL_FusXcX" />
     </node>
   </node>
   <node concept="3H8XyA" id="3AnL_FusXkD">
@@ -1570,7 +1570,7 @@
     <node concept="I_Gu0" id="2Btob8ors9N" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="HighlightedTaskChecked" />
-      <ref role="3fS2vI" node="3AnL_FusXlN" resolve="HighlightedTask" />
+      <ref role="3fS2vI" node="3AnL_FusXlN" />
       <node concept="2P4x69" id="2Btob8ors9O" role="2P43km">
         <property role="TrG5h" value="isChecked" />
         <node concept="2P4D6g" id="2Btob8ors9P" role="2P5Oin" />
@@ -1579,7 +1579,7 @@
     <node concept="3f4gK1" id="2Btob8ors9Q" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="TotalTimeFilled" />
-      <ref role="3fS2vI" node="3AnL_FusXlb" resolve="TotalTime" />
+      <ref role="3fS2vI" node="3AnL_FusXlb" />
       <node concept="2P4x69" id="2Btob8ors9R" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="2Btob8ors9S" role="2P5Oin" />
@@ -1588,7 +1588,7 @@
     <node concept="3f4gK1" id="2Btob8ors9T" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="PropertyValueTextFilled" />
-      <ref role="3fS2vI" node="3AnL_FusXsE" resolve="PropertyValueText" />
+      <ref role="3fS2vI" node="3AnL_FusXsE" />
       <node concept="2P4x69" id="2Btob8ors9U" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="2Btob8ors9V" role="2P5Oin" />
@@ -1700,7 +1700,7 @@
           <property role="2PigO5" value="true" />
         </node>
         <node concept="2HYYfY" id="3AnL_FusXyg" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2Lv" resolve="new_filter" />
+          <ref role="2HYYDy" node="61f9eXSU2Lv" />
           <node concept="2Pim7P" id="3AnL_FusXyh" role="2Pim73" />
           <node concept="2Pim7K" id="3AnL_FusXyi" role="2Pim71" />
           <node concept="2Pim7H" id="3AnL_FusXyj" role="2Pim76">
@@ -1708,7 +1708,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="3AnL_FusXyo" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2LB" resolve="edit_filter" />
+          <ref role="2HYYDy" node="61f9eXSU2LB" />
           <node concept="2Pim7P" id="3AnL_FusXyp" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -1718,7 +1718,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="3AnL_FusXy$" role="2HXGLH">
-          <ref role="2HYYDy" node="61f9eXSU2LR" resolve="remove_filter" />
+          <ref role="2HYYDy" node="61f9eXSU2LR" />
           <node concept="2Pim7P" id="3AnL_FusXy_" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -1856,20 +1856,20 @@
     </node>
     <node concept="3f4AKs" id="2Btob8ovLPh" role="3H8Xyh">
       <property role="TrG5h" value="AddFilterClicked" />
-      <ref role="3fS2vI" node="3AnL_FusXyg" resolve="AddFilter" />
+      <ref role="3fS2vI" node="3AnL_FusXyg" />
     </node>
     <node concept="3f4AKs" id="2Btob8ovLPi" role="3H8Xyh">
       <property role="TrG5h" value="EditFilterClicked" />
-      <ref role="3fS2vI" node="3AnL_FusXyo" resolve="EditFilter" />
+      <ref role="3fS2vI" node="3AnL_FusXyo" />
     </node>
     <node concept="3f4AKs" id="2Btob8ovLPj" role="3H8Xyh">
       <property role="TrG5h" value="RemoveFilterClicked" />
-      <ref role="3fS2vI" node="3AnL_FusXy$" resolve="RemoveFilter" />
+      <ref role="3fS2vI" node="3AnL_FusXy$" />
     </node>
     <node concept="I_Gu0" id="2Btob8ovLPk" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="GroupDaysWithSameDescriptionChecked" />
-      <ref role="3fS2vI" node="3AnL_FusXGe" resolve="GroupDaysWithSameDescription" />
+      <ref role="3fS2vI" node="3AnL_FusXGe" />
       <node concept="2P4x69" id="2Btob8ovLPl" role="2P43km">
         <property role="TrG5h" value="isChecked" />
         <node concept="2P4D6g" id="2Btob8ovLPm" role="2P5Oin" />
@@ -1878,7 +1878,7 @@
     <node concept="3f6vZ2" id="2Btob8ovLPn" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="FiltersRowSelected" />
-      <ref role="3fS2vI" node="3AnL_FusXtw" resolve="Filters" />
+      <ref role="3fS2vI" node="3AnL_FusXtw" />
       <node concept="2P4x69" id="2Btob8ovLPo" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="2Btob8ovLPp" role="2P5Oin" />
@@ -1887,7 +1887,7 @@
     <node concept="3f6vZ2" id="2Btob8ovLPq" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="TasksRowSelected" />
-      <ref role="3fS2vI" node="3AnL_FusXyO" resolve="Tasks" />
+      <ref role="3fS2vI" node="3AnL_FusXyO" />
       <node concept="2P4x69" id="2Btob8ovLPr" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="2Btob8ovLPs" role="2P5Oin" />
@@ -2031,7 +2031,7 @@
     <node concept="3f6vZ2" id="2Btob8oyF_s" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="ProjectsRowSelected" />
-      <ref role="3fS2vI" node="2Btob8ors1M" resolve="Projects" />
+      <ref role="3fS2vI" node="2Btob8ors1M" />
       <node concept="2P4x69" id="2Btob8oyF_t" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="2Btob8oyF_u" role="2P5Oin" />
@@ -2040,7 +2040,7 @@
   </node>
   <node concept="30n1Qd" id="2Btob8orsa6">
     <property role="TrG5h" value="HistoryTimesViewTests" />
-    <ref role="30n1PB" node="3AnL_FusXkD" resolve="HistoryTimesView" />
+    <ref role="30n1PB" node="3AnL_FusXkD" />
     <node concept="30n1Qa" id="2Btob8orsa7" role="30n1Qb">
       <node concept="30nyDl" id="2Btob8orsa8" role="30nziG">
         <property role="30nzmz" value="Times of week" />
@@ -2089,7 +2089,7 @@
         </node>
       </node>
       <node concept="30nziD" id="2Btob8orsfi" role="30nzo2">
-        <ref role="30nziQ" node="2Btob8ors9M" resolve="LoadView" />
+        <ref role="30nziQ" node="2Btob8ors9M" />
         <node concept="3cmrfG" id="2Btob8ouwX4" role="30nziO">
           <property role="3cmrfH" value="7" />
         </node>
@@ -2098,7 +2098,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8orsfZ" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXkF" resolve="ChartType" />
+        <ref role="30nzpS" node="3AnL_FusXkF" />
         <node concept="nK$o3" id="2Btob8orsg0" role="30nDbQ">
           <node concept="3P0YG7" id="2Btob8orsg1" role="nL36h">
             <node concept="3P0YHh" id="2Btob8orsg2" role="3P0YG5">
@@ -2108,7 +2108,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8orsgd" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXlb" resolve="TotalTime" />
+        <ref role="30nzpS" node="3AnL_FusXlb" />
         <node concept="3fym7j" id="2Btob8orsge" role="30nDbQ">
           <node concept="30nz6$" id="2Btob8orsgf" role="3fym7i">
             <property role="30nz6_" value="10:00:00" />
@@ -2116,7 +2116,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8orsgw" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXlN" resolve="HighlightedTask" />
+        <ref role="30nzpS" node="3AnL_FusXlN" />
         <node concept="1tZoqV" id="2Btob8orsgx" role="30nDbQ">
           <node concept="1tZoko" id="2Btob8orsgy" role="1tZokz">
             <property role="1tZokr" value="true" />
@@ -2124,7 +2124,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8ouwnS" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXro" resolve="PropertyValueOption" />
+        <ref role="30nzpS" node="3AnL_FusXro" />
         <node concept="3P0OEx" id="2Btob8ouwo5" role="30nDbQ">
           <node concept="3P0YG7" id="2Btob8ouwo7" role="3P0OEJ">
             <node concept="3P0YHh" id="2Btob8ouwo8" role="3P0YG5">
@@ -2134,7 +2134,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8ouwob" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXoy" resolve="ContentTypeRule" />
+        <ref role="30nzpS" node="3AnL_FusXoy" />
         <node concept="3P0OEx" id="2Btob8ouwox" role="30nDbQ">
           <node concept="3P0YG7" id="2Btob8ouwoz" role="3P0OEJ">
             <node concept="3P0YHh" id="2Btob8ouwo$" role="3P0YG5">
@@ -2144,7 +2144,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8ouwoB" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXsE" resolve="PropertyValueText" />
+        <ref role="30nzpS" node="3AnL_FusXsE" />
         <node concept="3fym7j" id="2Btob8ouwp1" role="30nDbQ">
           <node concept="30nz6$" id="2Btob8ouwp2" role="3fym7i" />
         </node>
@@ -2153,7 +2153,7 @@
   </node>
   <node concept="30n1Qd" id="2Btob8ovLQa">
     <property role="TrG5h" value="HistoryTasksViewTests" />
-    <ref role="30n1PB" node="3AnL_FusXtu" resolve="HistoryTasksView" />
+    <ref role="30n1PB" node="3AnL_FusXtu" />
     <node concept="30n1Qa" id="2Btob8ovLQb" role="30n1Qb">
       <node concept="30nyDl" id="2Btob8ovLQc" role="30nziG">
         <property role="30nzmz" value="All tasks shown" />
@@ -2177,7 +2177,7 @@
         </node>
       </node>
       <node concept="30nziD" id="2Btob8ovLRx" role="30nzo2">
-        <ref role="30nziQ" node="2Btob8ovLPE" resolve="LoadView" />
+        <ref role="30nziQ" node="2Btob8ovLPE" />
         <node concept="3cmrfG" id="2Btob8ovLUN" role="30nziO">
           <property role="3cmrfH" value="10" />
         </node>
@@ -2234,7 +2234,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8oyFwR" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXyO" resolve="Tasks" />
+        <ref role="30nzpS" node="3AnL_FusXyO" />
         <node concept="1Dvt9M" id="2Btob8oyFwS" role="30nDbQ">
           <node concept="1Dvt89" id="2Btob8oyF$$" role="2D8nNu">
             <node concept="1u3WYF" id="2Btob8oyF$_" role="1Dvt80">
@@ -2305,7 +2305,7 @@
         </node>
       </node>
       <node concept="30nziD" id="2Btob8oyFuU" role="30nzo2">
-        <ref role="30nziQ" node="2Btob8ovLPE" resolve="LoadView" />
+        <ref role="30nziQ" node="2Btob8ovLPE" />
         <node concept="3cmrfG" id="2Btob8oyFuV" role="30nziO">
           <property role="3cmrfH" value="10" />
         </node>
@@ -2314,12 +2314,12 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8oyFuX" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXtw" resolve="Filters" />
+        <ref role="30nzpS" node="3AnL_FusXtw" />
         <node concept="1Dvt9M" id="2Btob8oyFuY" role="30nDbQ" />
       </node>
       <node concept="2QbWKJ" id="2Btob8oyFuZ" role="30nzpy">
         <node concept="30nzp_" id="2Btob8oyFv0" role="2QbW$V">
-          <ref role="30nzpS" node="3AnL_FusXyg" resolve="AddFilter" />
+          <ref role="30nzpS" node="3AnL_FusXyg" />
           <node concept="30nzp7" id="2Btob8oyFv1" role="30nDbQ">
             <node concept="30nzps" id="2Btob8oyFv2" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -2327,13 +2327,13 @@
           </node>
         </node>
         <node concept="30nzp_" id="2Btob8oyFv3" role="2QbW$V">
-          <ref role="30nzpS" node="3AnL_FusXyo" resolve="EditFilter" />
+          <ref role="30nzpS" node="3AnL_FusXyo" />
           <node concept="30nzp7" id="2Btob8oyFv4" role="30nDbQ">
             <node concept="30nzps" id="2Btob8oyFv5" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="2Btob8oyFv6" role="2QbW$V">
-          <ref role="30nzpS" node="3AnL_FusXy$" resolve="RemoveFilter" />
+          <ref role="30nzpS" node="3AnL_FusXy$" />
           <node concept="30nzp7" id="2Btob8oyFv7" role="30nDbQ">
             <node concept="30nzps" id="2Btob8oyFv8" role="30nzpp" />
           </node>
@@ -2366,7 +2366,7 @@
         </node>
       </node>
       <node concept="30nziD" id="2Btob8oyFxB" role="30nzo2">
-        <ref role="30nziQ" node="2Btob8ovLPE" resolve="LoadView" />
+        <ref role="30nziQ" node="2Btob8ovLPE" />
         <node concept="3cmrfG" id="2Btob8oyFxC" role="30nziO">
           <property role="3cmrfH" value="10" />
         </node>
@@ -2375,7 +2375,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8oyFxE" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXtw" resolve="Filters" />
+        <ref role="30nzpS" node="3AnL_FusXtw" />
         <node concept="1Dvt9M" id="2Btob8oyFxF" role="30nDbQ">
           <node concept="1Dvt89" id="2Btob8oyF$4" role="2D8nNu">
             <node concept="1u3WYF" id="2Btob8oyF$5" role="1Dvt80">
@@ -2407,7 +2407,7 @@
       </node>
       <node concept="2QbWKJ" id="2Btob8oyFxG" role="30nzpy">
         <node concept="30nzp_" id="2Btob8oyFxH" role="2QbW$V">
-          <ref role="30nzpS" node="3AnL_FusXyg" resolve="AddFilter" />
+          <ref role="30nzpS" node="3AnL_FusXyg" />
           <node concept="30nzp7" id="2Btob8oyFxI" role="30nDbQ">
             <node concept="30nzps" id="2Btob8oyFxJ" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -2415,7 +2415,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="2Btob8oyFxK" role="2QbW$V">
-          <ref role="30nzpS" node="3AnL_FusXyo" resolve="EditFilter" />
+          <ref role="30nzpS" node="3AnL_FusXyo" />
           <node concept="30nzp7" id="2Btob8oyFxL" role="30nDbQ">
             <node concept="30nzps" id="2Btob8oyFxM" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -2423,7 +2423,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="2Btob8oyFxN" role="2QbW$V">
-          <ref role="30nzpS" node="3AnL_FusXy$" resolve="RemoveFilter" />
+          <ref role="30nzpS" node="3AnL_FusXy$" />
           <node concept="30nzp7" id="2Btob8oyFxO" role="30nDbQ">
             <node concept="30nzps" id="2Btob8oyFxP" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -2459,7 +2459,7 @@
   </node>
   <node concept="30n1Qd" id="2Btob8ovLRK">
     <property role="TrG5h" value="HistoryProjectsViewTests" />
-    <ref role="30n1PB" node="3AnL_FusXQ3" resolve="HistoryProjectsView" />
+    <ref role="30n1PB" node="3AnL_FusXQ3" />
     <node concept="30n1Qa" id="2Btob8ovLRL" role="30n1Qb">
       <node concept="30nyDl" id="2Btob8ovLRM" role="30nziG">
         <property role="30nzmz" value="All projects cumulated" />
@@ -2537,7 +2537,7 @@
         </node>
       </node>
       <node concept="30nziD" id="2Btob8oyF_B" role="30nzo2">
-        <ref role="30nziQ" node="2Btob8ovLQ0" resolve="LoadView" />
+        <ref role="30nziQ" node="2Btob8ovLQ0" />
         <node concept="3cmrfG" id="2Btob8oyF_G" role="30nziO">
           <property role="3cmrfH" value="7" />
         </node>
@@ -2546,7 +2546,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8oyF_U" role="30nzpy">
-        <ref role="30nzpS" node="2Btob8ors1M" resolve="Projects" />
+        <ref role="30nzpS" node="2Btob8ors1M" />
         <node concept="1SXonX" id="2Btob8oyF_V" role="30nDbQ">
           <node concept="1SXonU" id="2Btob8oyF_Y" role="1SXonZ">
             <property role="1SXon_" value="0" />
@@ -2583,7 +2583,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8o$Fpr" role="30nzpy">
-        <ref role="30nzpS" node="2Btob8ors4q" resolve="Name" />
+        <ref role="30nzpS" node="2Btob8ors4q" />
         <node concept="2D8cJI" id="2Btob8o$Fps" role="30nDbQ">
           <node concept="30nz6$" id="2Btob8o$Fpt" role="2D8cJs">
             <property role="30nz6_" value="All projects" />
@@ -2591,7 +2591,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8o$FpJ" role="30nzpy">
-        <ref role="30nzpS" node="2Btob8ors5o" resolve="Time" />
+        <ref role="30nzpS" node="2Btob8ors5o" />
         <node concept="2D8cJI" id="2Btob8oBTjO" role="30nDbQ">
           <node concept="30nz6$" id="2Btob8oBTjP" role="2D8cJs">
             <property role="30nz6_" value="24:09:00" />
@@ -2599,7 +2599,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8oBTjS" role="30nzpy">
-        <ref role="30nzpS" node="2Btob8ors7d" resolve="Share" />
+        <ref role="30nzpS" node="2Btob8ors7d" />
         <node concept="2D8cJI" id="2Btob8oBTki" role="30nDbQ">
           <node concept="30nz6$" id="2Btob8oBTkj" role="2D8cJs">
             <property role="30nz6_" value="100%" />
@@ -2607,7 +2607,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8oBTkm" role="30nzpy">
-        <ref role="30nzpS" node="2Btob8ors6y" resolve="Tasks" />
+        <ref role="30nzpS" node="2Btob8ors6y" />
         <node concept="2D8cJI" id="2Btob8oBTkN" role="30nDbQ">
           <node concept="30nz6$" id="2Btob8oBTkO" role="2D8cJs">
             <property role="30nz6_" value="2" />
@@ -2615,7 +2615,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8oBTkR" role="30nzpy">
-        <ref role="30nzpS" node="2Btob8ors7Y" resolve="AveragePriority" />
+        <ref role="30nzpS" node="2Btob8ors7Y" />
         <node concept="2D8cJI" id="2Btob8oBTln" role="30nDbQ">
           <node concept="30nz6$" id="2Btob8oBTlo" role="2D8cJs">
             <property role="30nz6_" value="Medium" />
@@ -2623,7 +2623,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2Btob8oBTlF" role="30nzpy">
-        <ref role="30nzpS" node="2Btob8ors8P" resolve="AverageState" />
+        <ref role="30nzpS" node="2Btob8ors8P" />
         <node concept="2D8cJI" id="2Btob8oBTme" role="30nDbQ">
           <node concept="30nz6$" id="2Btob8oBTmf" role="2D8cJs">
             <property role="30nz6_" value="-" />
@@ -2638,37 +2638,37 @@
       <node concept="2P4x69" id="1XmN919qziB" role="2P43km">
         <property role="TrG5h" value="WorkingTimeYou" />
         <node concept="2P5O6o" id="1XmN919qzi_" role="2P5Oin">
-          <ref role="2P5O6r" node="1XmN919qzh$" resolve="TimeUsageBar" />
+          <ref role="2P5O6r" node="1XmN919qzh$" />
         </node>
       </node>
       <node concept="2P4x69" id="1XmN919qzqg" role="2P43km">
         <property role="TrG5h" value="WorkingTimeOthers" />
         <node concept="2P5O6o" id="1XmN919qzqh" role="2P5Oin">
-          <ref role="2P5O6r" node="1XmN919qzh$" resolve="TimeUsageBar" />
+          <ref role="2P5O6r" node="1XmN919qzh$" />
         </node>
       </node>
       <node concept="2P4x69" id="1XmN919qzjB" role="2P43km">
         <property role="TrG5h" value="IdleTimeYou" />
         <node concept="2P5O6o" id="1XmN919qzjC" role="2P5Oin">
-          <ref role="2P5O6r" node="1XmN919qzh$" resolve="TimeUsageBar" />
+          <ref role="2P5O6r" node="1XmN919qzh$" />
         </node>
       </node>
       <node concept="2P4x69" id="1XmN919qzrd" role="2P43km">
         <property role="TrG5h" value="IdleTimeOthers" />
         <node concept="2P5O6o" id="1XmN919qzre" role="2P5Oin">
-          <ref role="2P5O6r" node="1XmN919qzh$" resolve="TimeUsageBar" />
+          <ref role="2P5O6r" node="1XmN919qzh$" />
         </node>
       </node>
       <node concept="2P4x69" id="1XmN919qzkD" role="2P43km">
         <property role="TrG5h" value="PrivateTasksYou" />
         <node concept="2P5O6o" id="1XmN919qzkE" role="2P5Oin">
-          <ref role="2P5O6r" node="1XmN919qzh$" resolve="TimeUsageBar" />
+          <ref role="2P5O6r" node="1XmN919qzh$" />
         </node>
       </node>
       <node concept="2P4x69" id="1XmN919qzsc" role="2P43km">
         <property role="TrG5h" value="PrivateTasksOthers" />
         <node concept="2P5O6o" id="1XmN919qzsd" role="2P5Oin">
-          <ref role="2P5O6r" node="1XmN919qzh$" resolve="TimeUsageBar" />
+          <ref role="2P5O6r" node="1XmN919qzh$" />
         </node>
       </node>
       <node concept="3H9sB4" id="1XmN919qzeM" role="2P43km" />
@@ -2698,7 +2698,7 @@
         <node concept="2Pim7S" id="1XmN919qz4O" role="2Phvad">
           <property role="2PigO5" value="true" />
           <node concept="3eDL7N" id="1XmN919qz4Q" role="2Pim7X">
-            <ref role="3eDL7M" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="3eDL7M" node="61f9eXSU2L3" />
           </node>
         </node>
         <node concept="2Pim7P" id="1XmN919qz4S" role="2Pim73" />
@@ -2711,7 +2711,7 @@
         <node concept="2Pim7S" id="1XmN919qz5a" role="2Phvad">
           <property role="2PigO5" value="true" />
           <node concept="3eDL7N" id="1XmN919qz5b" role="2Pim7X">
-            <ref role="3eDL7M" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="3eDL7M" node="61f9eXSU2L3" />
           </node>
         </node>
         <node concept="2Pim7P" id="1XmN919qz5c" role="2Pim73" />
@@ -2724,7 +2724,7 @@
         <node concept="2Pim7S" id="1XmN919qz5x" role="2Phvad">
           <property role="2PigO5" value="true" />
           <node concept="3eDL7N" id="1XmN919qz5y" role="2Pim7X">
-            <ref role="3eDL7M" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="3eDL7M" node="61f9eXSU2L3" />
           </node>
         </node>
         <node concept="2Pim7P" id="1XmN919qz5z" role="2Pim73" />
@@ -2737,7 +2737,7 @@
         <node concept="2Pim7S" id="1XmN919qz5Y" role="2Phvad">
           <property role="2PigO5" value="true" />
           <node concept="3eDL7N" id="1XmN919qz5Z" role="2Pim7X">
-            <ref role="3eDL7M" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="3eDL7M" node="61f9eXSU2L3" />
           </node>
         </node>
         <node concept="2Pim7P" id="1XmN919qz60" role="2Pim73" />
@@ -2750,7 +2750,7 @@
         <node concept="2Pim7S" id="1XmN919qz6x" role="2Phvad">
           <property role="2PigO5" value="true" />
           <node concept="3eDL7N" id="1XmN919qz6y" role="2Pim7X">
-            <ref role="3eDL7M" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="3eDL7M" node="61f9eXSU2L3" />
           </node>
         </node>
         <node concept="2Pim7P" id="1XmN919qz6z" role="2Pim73" />
@@ -2763,7 +2763,7 @@
         <node concept="2Pim7S" id="1XmN919qz7a" role="2Phvad">
           <property role="2PigO5" value="true" />
           <node concept="3eDL7N" id="1XmN919qz7b" role="2Pim7X">
-            <ref role="3eDL7M" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="3eDL7M" node="61f9eXSU2L3" />
           </node>
         </node>
         <node concept="2Pim7P" id="1XmN919qz7c" role="2Pim73" />
@@ -2791,7 +2791,7 @@
     <node concept="3f4gK1" id="4r5LaleGjVW" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="SuggestionsFilled" />
-      <ref role="3fS2vI" node="1XmN919qz4x" resolve="Suggestions" />
+      <ref role="3fS2vI" node="1XmN919qz4x" />
       <node concept="2P4x69" id="4r5LaleGjVX" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="4r5LaleGjVY" role="2P5Oin" />
@@ -2800,7 +2800,7 @@
     <node concept="3f4AKs" id="4ZSoa7ztTCO" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="TimeUsageClicked" />
-      <ref role="3fS2vI" node="1XmN919qz8z" resolve="TimeUsage" />
+      <ref role="3fS2vI" node="1XmN919qz8z" />
       <node concept="2P4x69" id="4ZSoa7ztTCP" role="2P43km">
         <property role="TrG5h" value="option" />
         <node concept="2P4D6h" id="4ZSoa7ztTCQ" role="2P5Oin" />
@@ -2830,7 +2830,7 @@
   </node>
   <node concept="30n1Qd" id="4r5LaleGjVU">
     <property role="TrG5h" value="AnalyticsViewTests" />
-    <ref role="30n1PB" node="1XmN919qz4v" resolve="AnalyticsView" />
+    <ref role="30n1PB" node="1XmN919qz4v" />
     <node concept="30n1Qa" id="4r5LaleTnX9" role="30n1Qb">
       <node concept="30nyDl" id="4r5LaleTnXa" role="30nziG">
         <property role="30nzmz" value="Empty usage shows empty bars" />
@@ -2846,7 +2846,7 @@
       </node>
       <node concept="30l7Wy" id="4r5LaleTnXw" role="30nziE" />
       <node concept="30nziD" id="4r5LaleTnXz" role="30nzo2">
-        <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
+        <ref role="30nziQ" node="4r5LaleGjVV" />
       </node>
       <node concept="_oYEc" id="4r5LaleTnXD" role="30nzpy">
         <node concept="_uk3J" id="4r5LaleTnXE" role="_oYE9">
@@ -2854,7 +2854,7 @@
             <property role="3cmrfH" value="0" />
           </node>
           <node concept="3iualh" id="5Xcbv_QM79B" role="3QIuX">
-            <ref role="3iuakG" node="1XmN919qziB" resolve="WorkingTimeYou" />
+            <ref role="3iuakG" node="1XmN919qziB" />
           </node>
         </node>
       </node>
@@ -2864,7 +2864,7 @@
             <property role="3cmrfH" value="0" />
           </node>
           <node concept="3iualh" id="5Xcbv_QO3Hf" role="3QIuX">
-            <ref role="3iuakG" node="1XmN919qzqg" resolve="WorkingTimeOthers" />
+            <ref role="3iuakG" node="1XmN919qzqg" />
           </node>
         </node>
       </node>
@@ -2874,7 +2874,7 @@
             <property role="3cmrfH" value="0" />
           </node>
           <node concept="3iualh" id="5Xcbv_QO3Hh" role="3QIuX">
-            <ref role="3iuakG" node="1XmN919qzjB" resolve="IdleTimeYou" />
+            <ref role="3iuakG" node="1XmN919qzjB" />
           </node>
         </node>
       </node>
@@ -2884,7 +2884,7 @@
             <property role="3cmrfH" value="0" />
           </node>
           <node concept="3iualh" id="5Xcbv_QO3Hj" role="3QIuX">
-            <ref role="3iuakG" node="1XmN919qzrd" resolve="IdleTimeOthers" />
+            <ref role="3iuakG" node="1XmN919qzrd" />
           </node>
         </node>
       </node>
@@ -2894,7 +2894,7 @@
             <property role="3cmrfH" value="0" />
           </node>
           <node concept="3iualh" id="5Xcbv_QO3Hl" role="3QIuX">
-            <ref role="3iuakG" node="1XmN919qzkD" resolve="PrivateTasksYou" />
+            <ref role="3iuakG" node="1XmN919qzkD" />
           </node>
         </node>
       </node>
@@ -2904,7 +2904,7 @@
             <property role="3cmrfH" value="0" />
           </node>
           <node concept="3iualh" id="5Xcbv_QO3Hn" role="3QIuX">
-            <ref role="3iuakG" node="1XmN919qzsc" resolve="PrivateTasksOthers" />
+            <ref role="3iuakG" node="1XmN919qzsc" />
           </node>
         </node>
       </node>
@@ -2927,10 +2927,10 @@
       </node>
       <node concept="30l7Wy" id="4r5LaleTnZ1" role="30nziE" />
       <node concept="30nziD" id="4r5LaleTnZ2" role="30nzo2">
-        <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
+        <ref role="30nziQ" node="4r5LaleGjVV" />
       </node>
       <node concept="30nzp_" id="4r5LaleVUir" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz8z" resolve="TimeUsage" />
+        <ref role="30nzpS" node="1XmN919qz8z" />
         <node concept="nK$o3" id="4r5LaleVUis" role="30nDbQ">
           <node concept="3P0YG7" id="4r5LaleVUit" role="nL36h">
             <node concept="3P0YHh" id="4r5LaleVUiu" role="3P0YG5">
@@ -2940,55 +2940,55 @@
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleTo20" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz4M" resolve="Efficiency" />
+        <ref role="30nzpS" node="1XmN919qz4M" />
         <node concept="1u6pYw" id="4r5LaleTo21" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleTo22" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="1u6r35" node="61f9eXSU2L3" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUbp" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz59" resolve="Granularity" />
+        <ref role="30nzpS" node="1XmN919qz59" />
         <node concept="1u6pYw" id="4r5LaleVUcf" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUcg" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="1u6r35" node="61f9eXSU2L3" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUby" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz5w" resolve="Prioritization" />
+        <ref role="30nzpS" node="1XmN919qz5w" />
         <node concept="1u6pYw" id="4r5LaleVUcj" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUck" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="1u6r35" node="61f9eXSU2L3" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUbI" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz5X" resolve="Categorization" />
+        <ref role="30nzpS" node="1XmN919qz5X" />
         <node concept="1u6pYw" id="4r5LaleVUcn" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUco" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="1u6r35" node="61f9eXSU2L3" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUbX" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz6w" resolve="Statusing" />
+        <ref role="30nzpS" node="1XmN919qz6w" />
         <node concept="1u6pYw" id="4r5LaleVUcr" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUcs" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="1u6r35" node="61f9eXSU2L3" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUcv" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz79" resolve="Repetition" />
+        <ref role="30nzpS" node="1XmN919qz79" />
         <node concept="1u6pYw" id="4r5LaleVUcO" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUcP" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2L3" resolve="ranking_0" />
+            <ref role="1u6r35" node="61f9eXSU2L3" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUdc" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz4x" resolve="Suggestions" />
+        <ref role="30nzpS" node="1XmN919qz4x" />
         <node concept="3fym7j" id="4r5LaleVUdd" role="30nDbQ">
           <node concept="30nz6$" id="4r5LaleVUde" role="3fym7i" />
         </node>
@@ -3011,10 +3011,10 @@
         </node>
       </node>
       <node concept="30nziD" id="4r5LaleVUdE" role="30nzo2">
-        <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
+        <ref role="30nziQ" node="4r5LaleGjVV" />
       </node>
       <node concept="30nzp_" id="4r5LaleVUhE" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz8z" resolve="TimeUsage" />
+        <ref role="30nzpS" node="1XmN919qz8z" />
         <node concept="nK$o3" id="4r5LaleVUhF" role="30nDbQ">
           <node concept="3P0YG7" id="4r5LaleVUhG" role="nL36h">
             <node concept="3P0YHh" id="4r5LaleVUhH" role="3P0YG5">
@@ -3024,50 +3024,50 @@
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUdF" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz4M" resolve="Efficiency" />
+        <ref role="30nzpS" node="1XmN919qz4M" />
         <node concept="1u6pYw" id="4r5LaleVUdG" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUdH" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Lj" resolve="ranking_4" />
+            <ref role="1u6r35" node="61f9eXSU2Lj" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUdI" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz59" resolve="Granularity" />
+        <ref role="30nzpS" node="1XmN919qz59" />
         <node concept="1u6pYw" id="4r5LaleVUdJ" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUdK" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+            <ref role="1u6r35" node="61f9eXSU2Lf" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUdL" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz5w" resolve="Prioritization" />
+        <ref role="30nzpS" node="1XmN919qz5w" />
         <node concept="1u6pYw" id="4r5LaleVUdM" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUdN" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+            <ref role="1u6r35" node="61f9eXSU2Lf" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUdO" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz5X" resolve="Categorization" />
+        <ref role="30nzpS" node="1XmN919qz5X" />
         <node concept="1u6pYw" id="4r5LaleVUdP" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUdQ" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+            <ref role="1u6r35" node="61f9eXSU2Lf" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUdR" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz6w" resolve="Statusing" />
+        <ref role="30nzpS" node="1XmN919qz6w" />
         <node concept="1u6pYw" id="4r5LaleVUdS" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUdT" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Lb" resolve="ranking_2" />
+            <ref role="1u6r35" node="61f9eXSU2Lb" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUdU" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz79" resolve="Repetition" />
+        <ref role="30nzpS" node="1XmN919qz79" />
         <node concept="1u6pYw" id="4r5LaleVUdV" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUdW" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Ln" resolve="ranking_5" />
+            <ref role="1u6r35" node="61f9eXSU2Ln" />
           </node>
         </node>
       </node>
@@ -3142,16 +3142,16 @@
         </node>
       </node>
       <node concept="30nziD" id="4r5LaleVUiY" role="30nzo2">
-        <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
+        <ref role="30nziQ" node="4r5LaleGjVV" />
       </node>
       <node concept="30nziD" id="4r5LaleVUnx" role="30nzo2">
-        <ref role="30nziQ" node="4ZSoa7ztTCO" resolve="TimeUsageClicked" />
+        <ref role="30nziQ" node="4ZSoa7ztTCO" />
         <node concept="Xl_RD" id="4r5LaleVUn_" role="30nziO">
           <property role="Xl_RC" value="PreviousMonth" />
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUiZ" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz8z" resolve="TimeUsage" />
+        <ref role="30nzpS" node="1XmN919qz8z" />
         <node concept="nK$o3" id="4r5LaleVUj0" role="30nDbQ">
           <node concept="3P0YG7" id="4r5LaleVUj1" role="nL36h">
             <node concept="3P0YHh" id="4r5LaleVUj2" role="3P0YG5">
@@ -3161,50 +3161,50 @@
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUj3" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz4M" resolve="Efficiency" />
+        <ref role="30nzpS" node="1XmN919qz4M" />
         <node concept="1u6pYw" id="4r5LaleVUj4" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUj5" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Lj" resolve="ranking_4" />
+            <ref role="1u6r35" node="61f9eXSU2Lj" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUj6" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz59" resolve="Granularity" />
+        <ref role="30nzpS" node="1XmN919qz59" />
         <node concept="1u6pYw" id="4r5LaleVUj7" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUj8" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+            <ref role="1u6r35" node="61f9eXSU2Lf" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUj9" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz5w" resolve="Prioritization" />
+        <ref role="30nzpS" node="1XmN919qz5w" />
         <node concept="1u6pYw" id="4r5LaleVUja" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUjb" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+            <ref role="1u6r35" node="61f9eXSU2Lf" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUjc" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz5X" resolve="Categorization" />
+        <ref role="30nzpS" node="1XmN919qz5X" />
         <node concept="1u6pYw" id="4r5LaleVUjd" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUje" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Lf" resolve="ranking_3" />
+            <ref role="1u6r35" node="61f9eXSU2Lf" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUjf" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz6w" resolve="Statusing" />
+        <ref role="30nzpS" node="1XmN919qz6w" />
         <node concept="1u6pYw" id="4r5LaleVUjg" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUjh" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Lb" resolve="ranking_2" />
+            <ref role="1u6r35" node="61f9eXSU2Lb" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="4r5LaleVUji" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz79" resolve="Repetition" />
+        <ref role="30nzpS" node="1XmN919qz79" />
         <node concept="1u6pYw" id="4r5LaleVUjj" role="30nDbQ">
           <node concept="1u6r32" id="4r5LaleVUjk" role="1u6pWF">
-            <ref role="1u6r35" node="61f9eXSU2Ln" resolve="ranking_5" />
+            <ref role="1u6r35" node="61f9eXSU2Ln" />
           </node>
         </node>
       </node>
@@ -3276,17 +3276,17 @@
         </node>
       </node>
       <node concept="30nziD" id="4r5LaleVUnR" role="30nzo2">
-        <ref role="30nziQ" node="4r5LaleGjVV" resolve="LoadView" />
+        <ref role="30nziQ" node="4r5LaleGjVV" />
       </node>
       <node concept="30nziD" id="4r5LaleVUrY" role="30nzo2">
-        <ref role="30nziQ" node="4r5LaleGjVW" resolve="SuggestionsFilled" />
+        <ref role="30nziQ" node="4r5LaleGjVW" />
         <node concept="Xl_RD" id="4r5LaleVUs2" role="30nziO">
           <property role="Xl_RC" value="Sample" />
         </node>
       </node>
       <node concept="30l7Wy" id="4r5LaleVUrL" role="30nziE" />
       <node concept="30nzp_" id="4r5LaleVUrP" role="30nzpy">
-        <ref role="30nzpS" node="1XmN919qz4x" resolve="Suggestions" />
+        <ref role="30nzpS" node="1XmN919qz4x" />
         <node concept="3fym7j" id="4r5LaleVUrQ" role="30nDbQ">
           <node concept="30nz6$" id="4r5LaleVUrR" role="3fym7i">
             <property role="30nz6_" value="Sample" />
@@ -3297,7 +3297,7 @@
   </node>
   <node concept="30n1Qd" id="4lBlEoKu05i">
     <property role="TrG5h" value="HistoryViewTests" />
-    <ref role="30n1PB" node="3AnL_FusX9G" resolve="HistoryView" />
+    <ref role="30n1PB" node="3AnL_FusX9G" />
     <node concept="30n1Qa" id="4lBlEoKu05j" role="30n1Qb">
       <node concept="30nyDl" id="4lBlEoKu05k" role="30nziG">
         <property role="30nzmz" value="Default Values" />
@@ -3312,15 +3312,15 @@
         </node>
       </node>
       <node concept="30nziD" id="4lBlEoKu05U" role="30nzo2">
-        <ref role="30nziQ" node="4lBlEoKu04g" resolve="LoadView" />
+        <ref role="30nziQ" node="4lBlEoKu04g" />
       </node>
       <node concept="30nzp_" id="4lBlEoKu05X" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusX9Q" resolve="Period" />
+        <ref role="30nzpS" node="3AnL_FusX9Q" />
         <node concept="3P0OEx" id="4lBlEoKu05Y" role="30nDbQ" />
       </node>
       <node concept="2QbWKJ" id="4lBlEoKu06k" role="30nzpy">
         <node concept="30nzp_" id="4lBlEoKu06N" role="2QbW$V">
-          <ref role="30nzpS" node="3AnL_FusXbs" resolve="NumberScaledUnitsPrior" />
+          <ref role="30nzpS" node="3AnL_FusXbs" />
           <node concept="3fym7j" id="4lBlEoKu06O" role="30nDbQ">
             <node concept="30nz6$" id="4lBlEoKu06P" role="3fym7i">
               <property role="30nz6_" value="0" />
@@ -3328,7 +3328,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="4lBlEoKu065" role="2QbW$V">
-          <ref role="30nzpS" node="3AnL_FusXdH" resolve="PeriodDate" />
+          <ref role="30nzpS" node="3AnL_FusXdH" />
           <node concept="3fym7j" id="4lBlEoKu066" role="30nDbQ">
             <node concept="30nz6$" id="4lBlEoKu067" role="3fym7i">
               <property role="30nz6_" value="October, 2007" />
@@ -3336,7 +3336,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="4lBlEoKu06E" role="2QbW$V">
-          <ref role="30nzpS" node="3AnL_FusXbU" resolve="NumberScaledUnitsAfter" />
+          <ref role="30nzpS" node="3AnL_FusXbU" />
           <node concept="3fym7j" id="4lBlEoKu06F" role="30nDbQ">
             <node concept="30nz6$" id="4lBlEoKu06G" role="3fym7i">
               <property role="30nz6_" value="1" />
@@ -3384,13 +3384,13 @@
         </node>
       </node>
       <node concept="30nziD" id="4lBlEoKyhjk" role="30nzo2">
-        <ref role="30nziQ" node="4lBlEoKu04g" resolve="LoadView" />
+        <ref role="30nziQ" node="4lBlEoKu04g" />
       </node>
       <node concept="30nziD" id="4lBlEoKyhkA" role="30nzo2">
-        <ref role="30nziQ" node="4lBlEoKu04i" resolve="PreviousPeriodClicked" />
+        <ref role="30nziQ" node="4lBlEoKu04i" />
       </node>
       <node concept="30nzp_" id="4lBlEoKyhjr" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXdH" resolve="PeriodDate" />
+        <ref role="30nzpS" node="3AnL_FusXdH" />
         <node concept="3fym7j" id="4lBlEoKyhjs" role="30nDbQ">
           <node concept="30nz6$" id="4lBlEoKyhjt" role="3fym7i">
             <property role="30nz6_" value="September, 2007" />
@@ -3437,13 +3437,13 @@
         </node>
       </node>
       <node concept="30nziD" id="4lBlEoKyhlj" role="30nzo2">
-        <ref role="30nziQ" node="4lBlEoKu04g" resolve="LoadView" />
+        <ref role="30nziQ" node="4lBlEoKu04g" />
       </node>
       <node concept="30nziD" id="4lBlEoKyhlk" role="30nzo2">
-        <ref role="30nziQ" node="4lBlEoKu04j" resolve="NextPeriodClicked" />
+        <ref role="30nziQ" node="4lBlEoKu04j" />
       </node>
       <node concept="30nzp_" id="4lBlEoKyhll" role="30nzpy">
-        <ref role="30nzpS" node="3AnL_FusXdH" resolve="PeriodDate" />
+        <ref role="30nzpS" node="3AnL_FusXdH" />
         <node concept="3fym7j" id="4lBlEoKyhlm" role="30nDbQ">
           <node concept="30nz6$" id="4lBlEoKyhln" role="3fym7i">
             <property role="30nz6_" value="November, 2007" />
