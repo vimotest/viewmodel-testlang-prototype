@@ -53,7 +53,7 @@
       <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
         <property id="8654221991637384184" name="pattern" index="3qWCbO" />
       </concept>
-      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
+      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ngI" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="5248329904287794596" name="jetbrains.mps.build.structure.BuildInputFiles" flags="ng" index="3LXTmp">
@@ -62,7 +62,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -150,19 +150,8 @@
         <ref role="398BVh" node="1n6T2_x2WNB" resolve="mps_home" />
       </node>
     </node>
-    <node concept="2sgV4H" id="5iMULAaidyS" role="1l3spa">
+    <node concept="2sgV4H" id="5aJTANFix8Z" role="1l3spa">
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
-      <node concept="55IIr" id="249Z$ScP_Ni" role="2JcizS">
-        <node concept="2Ry0Ak" id="249Z$ScP_Nl" role="iGT6I">
-          <property role="2Ry0Am" value="build" />
-          <node concept="2Ry0Ak" id="249Z$ScP_No" role="2Ry0An">
-            <property role="2Ry0Am" value="mps-bundle" />
-            <node concept="2Ry0Ak" id="249Z$ScP_Nr" role="2Ry0An">
-              <property role="2Ry0Am" value="dependencies" />
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="1l3spV" id="1n6T2_x2WOu" role="1l3spN">
       <node concept="L2wRC" id="7xn_gHyEnFx" role="39821P">

@@ -133,7 +133,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -371,7 +371,7 @@
     <node concept="3f6vZ2" id="5E6KScpsyZh" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="AccountsTableRowSelected" />
-      <ref role="3fS2vI" node="7GdAmo3BaY9" resolve="AccountsTable" />
+      <ref role="3fS2vI" node="7GdAmo3BaY9" />
       <node concept="2P4x69" id="5E6KScpsyZi" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="5E6KScpsyZj" role="2P5Oin" />
@@ -379,17 +379,17 @@
     </node>
     <node concept="3f4AKs" id="4lBlEoKtYh$" role="3H8Xyh">
       <property role="TrG5h" value="ShowDetailsClicked" />
-      <ref role="3fS2vI" node="4lBlEoKtYfc" resolve="ShowDetails" />
+      <ref role="3fS2vI" node="4lBlEoKtYfc" />
     </node>
     <node concept="3f4AKs" id="4lBlEoKtYh_" role="3H8Xyh">
       <property role="TrG5h" value="ShowTransactionsClicked" />
-      <ref role="3fS2vI" node="4lBlEoKtYdh" resolve="ShowTransactions" />
+      <ref role="3fS2vI" node="4lBlEoKtYdh" />
     </node>
     <node concept="3H8Xwz" id="4lBlEoKtYhN" role="3H8Xyh" />
   </node>
   <node concept="30n1Qd" id="26AO1okMsdj">
     <property role="TrG5h" value="MyAccountsViewTests" />
-    <ref role="30n1PB" node="4XlUEZmo08T" resolve="MyAccountsView" />
+    <ref role="30n1PB" node="4XlUEZmo08T" />
     <node concept="30n1Qa" id="26AO1okMsdk" role="30n1Qb">
       <node concept="30nyDl" id="26AO1okMsdl" role="30nziG">
         <property role="30nzmz" value="Load account with sample data" />
@@ -494,10 +494,10 @@
         </node>
       </node>
       <node concept="30nziD" id="26AO1okMsd$" role="30nzo2">
-        <ref role="30nziQ" node="26AO1okMsdD" resolve="LoadView" />
+        <ref role="30nziQ" node="26AO1okMsdD" />
       </node>
       <node concept="30nzp_" id="26AO1okMsdF" role="30nzpy">
-        <ref role="30nzpS" node="7GdAmo3BaY9" resolve="AccountsTable" />
+        <ref role="30nzpS" node="7GdAmo3BaY9" />
         <node concept="1SXonX" id="26AO1okMsdK" role="30nDbQ">
           <node concept="1SXonU" id="26AO1okMsdN" role="1SXonZ">
             <property role="1SXon_" value="0" />
@@ -632,7 +632,7 @@
       </node>
       <node concept="30nzp_" id="5E6KScpoMPg" role="30nzpy">
         <property role="13TuVO" value="Net Worth:" />
-        <ref role="30nzpS" node="4XlUEZmo0cl" resolve="NetWorthLabel" />
+        <ref role="30nzpS" node="4XlUEZmo0cl" />
         <node concept="2D8cJI" id="5E6KScpoMPN" role="30nDbQ">
           <node concept="30nz6$" id="5E6KScpoMPO" role="2D8cJs">
             <property role="30nz6_" value="$1,020.39" />
@@ -731,7 +731,7 @@
     <node concept="3f4gK1" id="5E6KScpsyYX" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="AccountNameFilled" />
-      <ref role="3fS2vI" node="5E6KScpsopv" resolve="AccountName" />
+      <ref role="3fS2vI" node="5E6KScpsopv" />
       <node concept="2P4x69" id="5E6KScpsyYY" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="5E6KScpsyYZ" role="2P5Oin" />
@@ -740,7 +740,7 @@
     <node concept="3taSw6" id="4lBlEoKmb55" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="AccountTypeItemSelected" />
-      <ref role="3fS2vI" node="5E6KScpsoqg" resolve="AccountType" />
+      <ref role="3fS2vI" node="5E6KScpsoqg" />
       <node concept="2P4x69" id="4lBlEoKmb56" role="2P43km">
         <property role="TrG5h" value="selectedItem" />
         <node concept="2P4D6h" id="4lBlEoKmb57" role="2P5Oin" />
@@ -749,7 +749,7 @@
     <node concept="3f4gK1" id="5E6KScpsyZ0" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="StartingBalanceFilled" />
-      <ref role="3fS2vI" node="5E6KScpsoqO" resolve="StartingBalance" />
+      <ref role="3fS2vI" node="5E6KScpsoqO" />
       <node concept="2P4x69" id="5E6KScpsyZ1" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="5E6KScpsyZ2" role="2P5Oin" />
@@ -758,7 +758,7 @@
     <node concept="3f4gK1" id="5E6KScpsyZ3" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="NotesFilled" />
-      <ref role="3fS2vI" node="5E6KScpsorw" resolve="Notes" />
+      <ref role="3fS2vI" node="5E6KScpsorw" />
       <node concept="2P4x69" id="5E6KScpsyZ4" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="5E6KScpsyZ5" role="2P5Oin" />
@@ -767,17 +767,17 @@
     <node concept="3H8Xwz" id="4lBlEoKmb6K" role="3H8Xyh" />
     <node concept="3f4AKs" id="4lBlEoKmb53" role="3H8Xyh">
       <property role="TrG5h" value="OKClicked" />
-      <ref role="3fS2vI" node="4lBlEoKmaXM" resolve="OK" />
+      <ref role="3fS2vI" node="4lBlEoKmaXM" />
     </node>
     <node concept="3f4AKs" id="4lBlEoKmb54" role="3H8Xyh">
       <property role="TrG5h" value="CancelClicked" />
-      <ref role="3fS2vI" node="4lBlEoKmaXu" resolve="Cancel" />
+      <ref role="3fS2vI" node="4lBlEoKmaXu" />
     </node>
     <node concept="3H8Xwz" id="4lBlEoKmb6t" role="3H8Xyh" />
   </node>
   <node concept="30n1Qd" id="5E6KScpsorZ">
     <property role="TrG5h" value="MyAccountsDetailsViewTests" />
-    <ref role="30n1PB" node="5E6KScpsopj" resolve="MyAccountsDetailsView" />
+    <ref role="30n1PB" node="5E6KScpsopj" />
     <node concept="30n1Qa" id="5E6KScpsyXC" role="30n1Qb">
       <node concept="30nyDl" id="5E6KScpsyXD" role="30nziG">
         <property role="30nzmz" value="Load account details" />
@@ -796,7 +796,7 @@
       </node>
       <node concept="30nzp_" id="5E6KScpsR8G" role="30nzpy">
         <property role="13TuVO" value="Account Name" />
-        <ref role="30nzpS" node="5E6KScpsopv" resolve="AccountName" />
+        <ref role="30nzpS" node="5E6KScpsopv" />
         <node concept="3fym7j" id="5E6KScpsR8J" role="30nDbQ">
           <node concept="30nz6$" id="5E6KScpsR8L" role="3fym7i">
             <property role="30nz6_" value="ACME" />
@@ -805,7 +805,7 @@
       </node>
       <node concept="30nzp_" id="5E6KScpsR8N" role="30nzpy">
         <property role="13TuVO" value="Account Type" />
-        <ref role="30nzpS" node="5E6KScpsoqg" resolve="AccountType" />
+        <ref role="30nzpS" node="5E6KScpsoqg" />
         <node concept="3P0OEx" id="5E6KScpsR8W" role="30nDbQ">
           <node concept="3P0YHm" id="5E6KScpsR8Y" role="3P0OEJ">
             <node concept="3P0YHh" id="1A1$ESeOlIY" role="3P0YHj">
@@ -827,7 +827,7 @@
       </node>
       <node concept="30nzp_" id="5E6KScpsR9z" role="30nzpy">
         <property role="13TuVO" value="Starting Balance" />
-        <ref role="30nzpS" node="5E6KScpsoqO" resolve="StartingBalance" />
+        <ref role="30nzpS" node="5E6KScpsoqO" />
         <node concept="3fym7j" id="5E6KScpsRa0" role="30nDbQ">
           <node concept="30nz6$" id="5E6KScpsRa2" role="3fym7i">
             <property role="30nz6_" value="450.24" />
@@ -836,7 +836,7 @@
       </node>
       <node concept="30nzp_" id="5E6KScpsRa4" role="30nzpy">
         <property role="13TuVO" value="Notes" />
-        <ref role="30nzpS" node="5E6KScpsorw" resolve="Notes" />
+        <ref role="30nzpS" node="5E6KScpsorw" />
         <node concept="3fym7j" id="5E6KScpsRao" role="30nDbQ">
           <node concept="30nz6$" id="5E6KScpsRaq" role="3fym7i">
             <property role="30nz6_" value="My Notes" />
@@ -844,7 +844,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="4lBlEoKmb3j" role="30nzpy">
-        <ref role="30nzpS" node="4lBlEoKmaXM" resolve="OK" />
+        <ref role="30nzpS" node="4lBlEoKmaXM" />
         <node concept="30nzp7" id="4lBlEoKmb3B" role="30nDbQ">
           <node concept="30nzps" id="4lBlEoKmb3C" role="30nzpp">
             <property role="30nzpr" value="true" />
@@ -884,7 +884,7 @@
         </node>
       </node>
       <node concept="30nziD" id="5E6KScpsyZo" role="30nzo2">
-        <ref role="30nziQ" node="5E6KScpsyZ6" resolve="LoadView" />
+        <ref role="30nziQ" node="5E6KScpsyZ6" />
         <node concept="Xl_RD" id="4lBlEoKmb18" role="30nziO">
           <property role="Xl_RC" value="ACME" />
         </node>
@@ -905,7 +905,7 @@
       </node>
       <node concept="30nzp_" id="4lBlEoKmaTu" role="30nzpy">
         <property role="13TuVO" value="Account Name" />
-        <ref role="30nzpS" node="5E6KScpsopv" resolve="AccountName" />
+        <ref role="30nzpS" node="5E6KScpsopv" />
         <node concept="3fym7j" id="4lBlEoKmaTv" role="30nDbQ">
           <node concept="30nz6$" id="4lBlEoKmaTw" role="3fym7i">
             <property role="30nz6_" value="ACME Credit Card" />
@@ -914,7 +914,7 @@
       </node>
       <node concept="30nzp_" id="4lBlEoKmaTx" role="30nzpy">
         <property role="13TuVO" value="Account Type" />
-        <ref role="30nzpS" node="5E6KScpsoqg" resolve="AccountType" />
+        <ref role="30nzpS" node="5E6KScpsoqg" />
         <node concept="3P0OEx" id="4lBlEoKmaTy" role="30nDbQ">
           <node concept="3P0YHm" id="4lBlEoKmaTz" role="3P0OEJ">
             <node concept="3P0YHh" id="4lBlEoKmaT$" role="3P0YHj">
@@ -936,7 +936,7 @@
       </node>
       <node concept="30nzp_" id="4lBlEoKmaTD" role="30nzpy">
         <property role="13TuVO" value="Starting Balance" />
-        <ref role="30nzpS" node="5E6KScpsoqO" resolve="StartingBalance" />
+        <ref role="30nzpS" node="5E6KScpsoqO" />
         <node concept="3fym7j" id="4lBlEoKmaTE" role="30nDbQ">
           <node concept="30nz6$" id="4lBlEoKmaTF" role="3fym7i">
             <property role="30nz6_" value="-1,003.53" />
@@ -945,7 +945,7 @@
       </node>
       <node concept="30nzp_" id="4lBlEoKmaTG" role="30nzpy">
         <property role="13TuVO" value="Notes" />
-        <ref role="30nzpS" node="5E6KScpsorw" resolve="Notes" />
+        <ref role="30nzpS" node="5E6KScpsorw" />
         <node concept="3fym7j" id="4lBlEoKmaTH" role="30nDbQ">
           <node concept="30nz6$" id="4lBlEoKmaTI" role="3fym7i" />
         </node>
@@ -1038,7 +1038,7 @@
         </node>
       </node>
       <node concept="30nziD" id="4lBlEoKmaTP" role="30nzo2">
-        <ref role="30nziQ" node="5E6KScpsyZ6" resolve="LoadView" />
+        <ref role="30nziQ" node="5E6KScpsyZ6" />
         <node concept="Xl_RD" id="4lBlEoKmb0Y" role="30nziO">
           <property role="Xl_RC" value="ACME Credit Card" />
         </node>
@@ -1062,14 +1062,14 @@
       </node>
       <node concept="30nzp_" id="4lBlEoKmaYr" role="30nzpy">
         <property role="13TuVO" value="Account Name" />
-        <ref role="30nzpS" node="5E6KScpsopv" resolve="AccountName" />
+        <ref role="30nzpS" node="5E6KScpsopv" />
         <node concept="3fym7j" id="4lBlEoKmaYs" role="30nDbQ">
           <node concept="30nz6$" id="4lBlEoKmaYt" role="3fym7i" />
         </node>
       </node>
       <node concept="30nzp_" id="4lBlEoKmaYu" role="30nzpy">
         <property role="13TuVO" value="Account Type" />
-        <ref role="30nzpS" node="5E6KScpsoqg" resolve="AccountType" />
+        <ref role="30nzpS" node="5E6KScpsoqg" />
         <node concept="3P0OEx" id="4lBlEoKmaYv" role="30nDbQ">
           <node concept="3P0YHm" id="4lBlEoKmaYw" role="3P0OEJ" />
           <node concept="3P0YG7" id="4lBlEoKmaY$" role="3P0OEJ">
@@ -1081,20 +1081,20 @@
       </node>
       <node concept="30nzp_" id="4lBlEoKmaYA" role="30nzpy">
         <property role="13TuVO" value="Starting Balance" />
-        <ref role="30nzpS" node="5E6KScpsoqO" resolve="StartingBalance" />
+        <ref role="30nzpS" node="5E6KScpsoqO" />
         <node concept="3fym7j" id="4lBlEoKmaYB" role="30nDbQ">
           <node concept="30nz6$" id="4lBlEoKmaYC" role="3fym7i" />
         </node>
       </node>
       <node concept="30nzp_" id="4lBlEoKmaYD" role="30nzpy">
         <property role="13TuVO" value="Notes" />
-        <ref role="30nzpS" node="5E6KScpsorw" resolve="Notes" />
+        <ref role="30nzpS" node="5E6KScpsorw" />
         <node concept="3fym7j" id="4lBlEoKmaYE" role="30nDbQ">
           <node concept="30nz6$" id="4lBlEoKmaYF" role="3fym7i" />
         </node>
       </node>
       <node concept="30nzp_" id="4lBlEoKmb24" role="30nzpy">
-        <ref role="30nzpS" node="4lBlEoKmaXM" resolve="OK" />
+        <ref role="30nzpS" node="4lBlEoKmaXM" />
         <node concept="30nzp7" id="4lBlEoKmb2l" role="30nDbQ">
           <node concept="30nzps" id="4lBlEoKmb2m" role="30nzpp" />
         </node>
@@ -1111,7 +1111,7 @@
         </node>
       </node>
       <node concept="30nziD" id="4lBlEoKmaZ2" role="30nzo2">
-        <ref role="30nziQ" node="5E6KScpsyZ6" resolve="LoadView" />
+        <ref role="30nziQ" node="5E6KScpsyZ6" />
         <node concept="Xl_RD" id="4lBlEoKmb1G" role="30nziO">
           <property role="Xl_RC" value="" />
         </node>
@@ -1288,7 +1288,7 @@
     <node concept="3f6vZ2" id="5E6KScp$fAF" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="Budget TableRowSelected" />
-      <ref role="3fS2vI" node="5E6KScpv75d" resolve="Budget Table" />
+      <ref role="3fS2vI" node="5E6KScpv75d" />
       <node concept="2P4x69" id="5E6KScp$fAG" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="5E6KScp$fAH" role="2P5Oin" />
@@ -1297,7 +1297,7 @@
     <node concept="3f4gK1" id="5E6KScp$fAI" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="Current Budget PeriodFilled" />
-      <ref role="3fS2vI" node="5E6KScpsReN" resolve="Current Budget Period" />
+      <ref role="3fS2vI" node="5E6KScpsReN" />
       <node concept="2P4x69" id="5E6KScp$fAJ" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="5E6KScp$fAK" role="2P5Oin" />
@@ -1306,7 +1306,7 @@
   </node>
   <node concept="30n1Qd" id="5E6KScp$f_m">
     <property role="TrG5h" value="MyBudgetViewTests" />
-    <ref role="30n1PB" node="5E6KScpsRe_" resolve="MyBudgetView" />
+    <ref role="30n1PB" node="5E6KScpsRe_" />
     <node concept="30n1Qa" id="5E6KScp$f_n" role="30n1Qb">
       <node concept="30nyDl" id="5E6KScp$f_o" role="30nziG">
         <property role="30nzmz" value="Load budget categories" />
@@ -1373,10 +1373,10 @@
         </node>
       </node>
       <node concept="30nziD" id="5E6KScp$fAC" role="30nzo2">
-        <ref role="30nziQ" node="5E6KScp$fAL" resolve="LoadView" />
+        <ref role="30nziQ" node="5E6KScp$fAL" />
       </node>
       <node concept="30nzp_" id="5E6KScp$fKj" role="30nzpy">
-        <ref role="30nzpS" node="5E6KScpsReN" resolve="Current Budget Period" />
+        <ref role="30nzpS" node="5E6KScpsReN" />
         <node concept="3fym7j" id="5E6KScp$fL6" role="30nDbQ">
           <node concept="30nz6$" id="5E6KScp$fLa" role="3fym7i">
             <property role="30nz6_" value="Sep 2007" />
@@ -1384,7 +1384,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="5E6KScp$fB7" role="30nzpy">
-        <ref role="30nzpS" node="5E6KScpv75d" resolve="Budget Table" />
+        <ref role="30nzpS" node="5E6KScpv75d" />
         <node concept="1Dvt9M" id="5E6KScp$fBa" role="30nDbQ">
           <node concept="13YF8N" id="5E6KScp$fBc" role="1Dvt9K">
             <property role="13YF8M" value="1" />
@@ -1501,7 +1501,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="5E6KScp$fMP" role="30nzpy">
-        <ref role="30nzpS" node="5E6KScp$fE5" resolve="Budget Net Income Span" />
+        <ref role="30nzpS" node="5E6KScp$fE5" />
         <node concept="3P0OEx" id="5E6KScp$fNF" role="30nDbQ">
           <node concept="3P0YHm" id="5E6KScp$fNH" role="3P0OEJ">
             <node concept="3P0YHh" id="1A1$ESeOlNt" role="3P0YHj">
@@ -1522,7 +1522,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="5E6KScp$fP1" role="30nzpy">
-        <ref role="30nzpS" node="5E6KScp$fG1" resolve="Budget Net Income Value" />
+        <ref role="30nzpS" node="5E6KScp$fG1" />
         <node concept="2D8cJI" id="5E6KScp$fPZ" role="30nDbQ">
           <node concept="30nz6$" id="5E6KScp$fQ0" role="2D8cJs">
             <property role="30nz6_" value="$533.33" />
@@ -1810,7 +1810,7 @@
     <node concept="3f6vZ2" id="mFfN0XHPGo" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="TransactionsTableRowSelected" />
-      <ref role="3fS2vI" node="3BqtrqiJ3k7" resolve="TransactionsTable" />
+      <ref role="3fS2vI" node="3BqtrqiJ3k7" />
       <node concept="2P4x69" id="mFfN0XHPGp" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="mFfN0XHPGq" role="2P5Oin" />
@@ -1818,21 +1818,21 @@
     </node>
     <node concept="3f4AKs" id="4lBlEoKtZgh" role="3H8Xyh">
       <property role="TrG5h" value="DeleteClicked" />
-      <ref role="3fS2vI" node="3le5WIC2NdA" resolve="Delete" />
+      <ref role="3fS2vI" node="3le5WIC2NdA" />
     </node>
     <node concept="3f4AKs" id="4lBlEoKtZgi" role="3H8Xyh">
       <property role="TrG5h" value="ClearClicked" />
-      <ref role="3fS2vI" node="3le5WIC2NdI" resolve="Clear" />
+      <ref role="3fS2vI" node="3le5WIC2NdI" />
     </node>
     <node concept="3f4AKs" id="4lBlEoKtZgj" role="3H8Xyh">
       <property role="TrG5h" value="RecordClicked" />
-      <ref role="3fS2vI" node="3le5WIC2NdU" resolve="Record" />
+      <ref role="3fS2vI" node="3le5WIC2NdU" />
     </node>
     <node concept="3H8Xwz" id="4lBlEoKtZjs" role="3H8Xyh" />
   </node>
   <node concept="30n1Qd" id="mFfN0XHPG1">
     <property role="TrG5h" value="TransactionsViewTests" />
-    <ref role="30n1PB" node="3BqtrqiHMGU" resolve="TransactionsView" />
+    <ref role="30n1PB" node="3BqtrqiHMGU" />
     <node concept="30n1Qa" id="mFfN0XHPG2" role="30n1Qb">
       <node concept="30nyDl" id="mFfN0XHPG3" role="30nziG">
         <property role="30nzmz" value="Load sample transactions" />
@@ -1955,10 +1955,10 @@
         </node>
       </node>
       <node concept="30nziD" id="mFfN0XHPGl" role="30nzo2">
-        <ref role="30nziQ" node="mFfN0XHPGr" resolve="LoadView" />
+        <ref role="30nziQ" node="mFfN0XHPGr" />
       </node>
       <node concept="30nzp_" id="mFfN0XHPG$" role="30nzpy">
-        <ref role="30nzpS" node="3BqtrqiJ3k7" resolve="TransactionsTable" />
+        <ref role="30nzpS" node="3BqtrqiJ3k7" />
         <node concept="1Dvt9M" id="mFfN0XHPGB" role="30nDbQ">
           <node concept="1Dvt89" id="mFfN0XHPGD" role="2D8nNu">
             <node concept="1u3WYF" id="mFfN0XHPGE" role="1Dvt80">
@@ -2106,7 +2106,7 @@
       <node concept="2QbWKJ" id="1I4VQspn9pV" role="30nzpy">
         <node concept="30nzp_" id="1I4VQspn9qW" role="2QbW$V">
           <property role="13TuVO" value="Date" />
-          <ref role="30nzpS" node="3le5WIC2MVY" resolve="DateText" />
+          <ref role="30nzpS" node="3le5WIC2MVY" />
           <node concept="3fym7j" id="1I4VQspn9qY" role="30nDbQ">
             <node concept="30nz6$" id="1I4VQspn9r0" role="3fym7i">
               <property role="30nz6_" value="2007/12/26" />
@@ -2114,7 +2114,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="1I4VQspn9rc" role="2QbW$V">
-          <ref role="30nzpS" node="3le5WIC2N5j" resolve="Description" />
+          <ref role="30nzpS" node="3le5WIC2N5j" />
           <node concept="3P0OEx" id="1I4VQspn9ri" role="30nDbQ">
             <node concept="3P0YHm" id="1I4VQspn9rk" role="3P0OEJ" />
             <node concept="3P0YG7" id="1I4VQspn9rp" role="3P0OEJ">
@@ -2126,7 +2126,7 @@
         </node>
         <node concept="30nzp_" id="1I4VQspn9rE" role="2QbW$V">
           <property role="13TuVO" value="Number" />
-          <ref role="30nzpS" node="3le5WIC2N4z" resolve="NumberText" />
+          <ref role="30nzpS" node="3le5WIC2N4z" />
           <node concept="3fym7j" id="1I4VQspn9rP" role="30nDbQ">
             <node concept="30nz6$" id="1I4VQspn9rR" role="3fym7i" />
           </node>
@@ -2134,7 +2134,7 @@
       </node>
       <node concept="2QbWKJ" id="1I4VQspn9rY" role="30nzpy">
         <node concept="30nzp_" id="1I4VQspn9rZ" role="2QbW$V">
-          <ref role="30nzpS" node="3le5WIC2N8V" resolve="Value" />
+          <ref role="30nzpS" node="3le5WIC2N8V" />
           <node concept="3fym7j" id="1I4VQspn9tw" role="30nDbQ">
             <node concept="30nz6$" id="1I4VQspn9ty" role="3fym7i">
               <property role="30nz6_" value="0.00" />
@@ -2142,13 +2142,13 @@
           </node>
         </node>
         <node concept="30nzp_" id="1I4VQspn9s2" role="2QbW$V">
-          <ref role="30nzpS" node="3le5WIC2N9i" resolve="From" />
+          <ref role="30nzpS" node="3le5WIC2N9i" />
           <node concept="3P0OEx" id="1I4VQspn9s3" role="30nDbQ">
             <node concept="3P0YHm" id="1I4VQspn9s6" role="3P0OEJ" />
           </node>
         </node>
         <node concept="30nzp_" id="1I4VQspn9s7" role="2QbW$V">
-          <ref role="30nzpS" node="3le5WIC2N9V" resolve="To" />
+          <ref role="30nzpS" node="3le5WIC2N9V" />
           <node concept="3P0OEx" id="1I4VQspn9t$" role="30nDbQ">
             <node concept="3P0YHm" id="1I4VQspn9tA" role="3P0OEJ" />
           </node>
@@ -2157,14 +2157,14 @@
       <node concept="2QbWKJ" id="1I4VQspn9tD" role="30nzpy">
         <node concept="30nzp_" id="1I4VQspn9tH" role="2QbW$V">
           <property role="13TuVO" value=" " />
-          <ref role="30nzpS" node="3le5WIC2NdA" resolve="Delete" />
+          <ref role="30nzpS" node="3le5WIC2NdA" />
           <node concept="30nzp7" id="1I4VQspn9vl" role="30nDbQ">
             <node concept="30nzps" id="1I4VQspn9vm" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="1I4VQspn9tE" role="2QbW$V">
           <property role="13TuVO" value=" " />
-          <ref role="30nzpS" node="3le5WIC2NdI" resolve="Clear" />
+          <ref role="30nzpS" node="3le5WIC2NdI" />
           <node concept="30nzp7" id="1I4VQspn9vh" role="30nDbQ">
             <node concept="30nzps" id="1I4VQspn9vi" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -2173,7 +2173,7 @@
         </node>
         <node concept="30nzp_" id="1I4VQspn9tK" role="2QbW$V">
           <property role="13TuVO" value=" " />
-          <ref role="30nzpS" node="3le5WIC2NdU" resolve="Record" />
+          <ref role="30nzpS" node="3le5WIC2NdU" />
           <node concept="30nzp7" id="1I4VQspn9vy" role="30nDbQ">
             <node concept="30nzps" id="1I4VQspn9vz" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -2260,7 +2260,7 @@
       <node concept="2P4x69" id="5QKRmMfM2CX" role="2P43km">
         <property role="TrG5h" value="PieChart" />
         <node concept="2P5O6o" id="5QKRmMfM2CV" role="2P5Oin">
-          <ref role="2P5O6r" node="5QKRmMfM2An" resolve="PieChart" />
+          <ref role="2P5O6r" node="5QKRmMfM2An" />
         </node>
       </node>
       <node concept="3KxLjU" id="5QKRmMfM2E3" role="2P43km">
@@ -2390,7 +2390,7 @@
     <node concept="3f6vZ2" id="5QKRmMfM2Kl" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="IncomeAndExpensesChartRowSelected" />
-      <ref role="3fS2vI" node="5QKRmMfM2E3" resolve="IncomeAndExpensesChart" />
+      <ref role="3fS2vI" node="5QKRmMfM2E3" />
       <node concept="2P4x69" id="5QKRmMfM2Km" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="5QKRmMfM2Kn" role="2P5Oin" />
@@ -2399,7 +2399,7 @@
     <node concept="3taSw6" id="5QKRmMfM2Ko" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="IncomeAndExpensesByCategoryItemSelected" />
-      <ref role="3fS2vI" node="5QKRmMfM2yD" resolve="IncomeAndExpensesByCategory" />
+      <ref role="3fS2vI" node="5QKRmMfM2yD" />
       <node concept="2P4x69" id="5QKRmMfM2Kp" role="2P43km">
         <property role="TrG5h" value="selectedItem" />
         <node concept="2P4D6h" id="5QKRmMfM2Kq" role="2P5Oin" />
@@ -2408,7 +2408,7 @@
     <node concept="3taSw6" id="5QKRmMfM2Kr" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="AverageIncomeAndExpensesByCategoryItemSelected" />
-      <ref role="3fS2vI" node="5QKRmMfM2yP" resolve="AverageIncomeAndExpensesByCategory" />
+      <ref role="3fS2vI" node="5QKRmMfM2yP" />
       <node concept="2P4x69" id="5QKRmMfM2Ks" role="2P43km">
         <property role="TrG5h" value="selectedItem" />
         <node concept="2P4D6h" id="5QKRmMfM2Kt" role="2P5Oin" />
@@ -2417,7 +2417,7 @@
     <node concept="3taSw6" id="5QKRmMfM2Ku" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="PieChartOfIncomeItemSelected" />
-      <ref role="3fS2vI" node="5QKRmMfM2zl" resolve="PieChartOfIncome" />
+      <ref role="3fS2vI" node="5QKRmMfM2zl" />
       <node concept="2P4x69" id="5QKRmMfM2Kv" role="2P43km">
         <property role="TrG5h" value="selectedItem" />
         <node concept="2P4D6h" id="5QKRmMfM2Kw" role="2P5Oin" />
@@ -2426,7 +2426,7 @@
     <node concept="3taSw6" id="5QKRmMfM2Kx" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="PieChartOfExpensesItemSelected" />
-      <ref role="3fS2vI" node="5QKRmMfM2zI" resolve="PieChartOfExpenses" />
+      <ref role="3fS2vI" node="5QKRmMfM2zI" />
       <node concept="2P4x69" id="5QKRmMfM2Ky" role="2P43km">
         <property role="TrG5h" value="selectedItem" />
         <node concept="2P4D6h" id="5QKRmMfM2Kz" role="2P5Oin" />
@@ -2435,7 +2435,7 @@
     <node concept="3taSw6" id="5QKRmMfM2K$" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="ChartOfNetWorthOverPastItemSelected" />
-      <ref role="3fS2vI" node="5QKRmMfM2$C" resolve="ChartOfNetWorthOverPast" />
+      <ref role="3fS2vI" node="5QKRmMfM2$C" />
       <node concept="2P4x69" id="5QKRmMfM2K_" role="2P43km">
         <property role="TrG5h" value="selectedItem" />
         <node concept="2P4D6h" id="5QKRmMfM2KA" role="2P5Oin" />
@@ -2453,7 +2453,7 @@
           <property role="TrG5h" value="Pieces" />
           <node concept="2P4D6m" id="5QKRmMfM2Ay" role="2P5Oin">
             <node concept="2P5O6o" id="5QKRmMfM2Ci" role="2P4D4y">
-              <ref role="2P5O6r" node="5QKRmMfM2Bu" resolve="PieChartPiece" />
+              <ref role="2P5O6r" node="5QKRmMfM2Bu" />
             </node>
           </node>
         </node>
@@ -2479,7 +2479,7 @@
   </node>
   <node concept="30n1Qd" id="5QKRmMfM2K3">
     <property role="TrG5h" value="ReportViewTests" />
-    <ref role="30n1PB" node="5QKRmMfM2yB" resolve="ReportView" />
+    <ref role="30n1PB" node="5QKRmMfM2yB" />
     <node concept="30n1Qa" id="5QKRmMfM2K4" role="30n1Qb">
       <node concept="30nyDl" id="5QKRmMfM2K5" role="30nziG">
         <property role="30nzmz" value="Show Pie Chart of My Income" />
@@ -2521,10 +2521,10 @@
         </node>
       </node>
       <node concept="30nziD" id="5QKRmMfM2PN" role="30nzo2">
-        <ref role="30nziQ" node="5QKRmMfM2Kk" resolve="LoadView" />
+        <ref role="30nziQ" node="5QKRmMfM2Kk" />
       </node>
       <node concept="30nziD" id="5QKRmMfM2PT" role="30nzo2">
-        <ref role="30nziQ" node="5QKRmMfM2Ku" resolve="PieChartOfIncomeItemSelected" />
+        <ref role="30nziQ" node="5QKRmMfM2Ku" />
         <node concept="Xl_RD" id="4lBlEoKtZTq" role="30nziO">
           <property role="Xl_RC" value="This Week" />
         </node>
@@ -2536,10 +2536,10 @@
           </node>
           <node concept="3iualm" id="$0NZ7DI9YW" role="3QIuX">
             <node concept="3iualh" id="$0NZ7DI9YT" role="3iuakB">
-              <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
+              <ref role="3iuakG" node="5QKRmMfM2CX" />
             </node>
             <node concept="3iualh" id="$0NZ7DI9Z8" role="3QJw9">
-              <ref role="3iuakG" node="5QKRmMfM2Ar" resolve="Visible" />
+              <ref role="3iuakG" node="5QKRmMfM2Ar" />
             </node>
           </node>
         </node>
@@ -2548,11 +2548,11 @@
         <node concept="_uk3J" id="$0NZ7DKTn_" role="_oYE9">
           <node concept="3iualm" id="$0NZ7DKTnB" role="3QIuX">
             <node concept="3iualh" id="$0NZ7DKTnC" role="3iuakB">
-              <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
+              <ref role="3iuakG" node="5QKRmMfM2CX" />
             </node>
             <node concept="2gIOM_" id="45b0rFi3LRS" role="3QJw9">
               <node concept="3iualh" id="45b0rFi3LRO" role="2gIOMr">
-                <ref role="3iuakG" node="5QKRmMfM2AA" resolve="Pieces" />
+                <ref role="3iuakG" node="5QKRmMfM2AA" />
               </node>
             </node>
           </node>
@@ -2565,15 +2565,15 @@
         <node concept="_uk3J" id="45b0rFi439d" role="_oYE9">
           <node concept="3iualm" id="45b0rFi439e" role="3QIuX">
             <node concept="3iualh" id="45b0rFi439f" role="3iuakB">
-              <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
+              <ref role="3iuakG" node="5QKRmMfM2CX" />
             </node>
             <node concept="3iualm" id="45b0rFieT9c" role="3QJw9">
               <node concept="2g$zFK" id="45b0rFieT99" role="3iuakB">
                 <property role="2g$zFq" value="0" />
-                <ref role="3iuakG" node="5QKRmMfM2AA" resolve="Pieces" />
+                <ref role="3iuakG" node="5QKRmMfM2AA" />
               </node>
               <node concept="3iualh" id="45b0rFieT9g" role="3QJw9">
-                <ref role="3iuakG" node="5QKRmMfM2B$" resolve="Color" />
+                <ref role="3iuakG" node="5QKRmMfM2B$" />
               </node>
             </node>
           </node>
@@ -2586,15 +2586,15 @@
         <node concept="_uk3J" id="45b0rFigZbv" role="_oYE9">
           <node concept="3iualm" id="45b0rFigZbw" role="3QIuX">
             <node concept="3iualh" id="45b0rFigZbx" role="3iuakB">
-              <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
+              <ref role="3iuakG" node="5QKRmMfM2CX" />
             </node>
             <node concept="3iualm" id="45b0rFigZby" role="3QJw9">
               <node concept="2g$zFK" id="45b0rFigZbz" role="3iuakB">
                 <property role="2g$zFq" value="0" />
-                <ref role="3iuakG" node="5QKRmMfM2AA" resolve="Pieces" />
+                <ref role="3iuakG" node="5QKRmMfM2AA" />
               </node>
               <node concept="3iualh" id="45b0rFigZc6" role="3QJw9">
-                <ref role="3iuakG" node="5QKRmMfM2Ca" resolve="Degree" />
+                <ref role="3iuakG" node="5QKRmMfM2Ca" />
               </node>
             </node>
           </node>
@@ -2607,15 +2607,15 @@
         <node concept="_uk3J" id="45b0rFigZcl" role="_oYE9">
           <node concept="3iualm" id="45b0rFigZcm" role="3QIuX">
             <node concept="3iualh" id="45b0rFigZcn" role="3iuakB">
-              <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
+              <ref role="3iuakG" node="5QKRmMfM2CX" />
             </node>
             <node concept="3iualm" id="45b0rFigZco" role="3QJw9">
               <node concept="2g$zFK" id="45b0rFigZcp" role="3iuakB">
                 <property role="2g$zFq" value="0" />
-                <ref role="3iuakG" node="5QKRmMfM2AA" resolve="Pieces" />
+                <ref role="3iuakG" node="5QKRmMfM2AA" />
               </node>
               <node concept="3iualh" id="45b0rFigZd4" role="3QJw9">
-                <ref role="3iuakG" node="5QKRmMfM2JV" resolve="Label" />
+                <ref role="3iuakG" node="5QKRmMfM2JV" />
               </node>
             </node>
           </node>
@@ -2628,15 +2628,15 @@
         <node concept="_uk3J" id="45b0rFigZdx" role="_oYE9">
           <node concept="3iualm" id="45b0rFigZdy" role="3QIuX">
             <node concept="3iualh" id="45b0rFigZdz" role="3iuakB">
-              <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
+              <ref role="3iuakG" node="5QKRmMfM2CX" />
             </node>
             <node concept="3iualm" id="45b0rFigZd$" role="3QJw9">
               <node concept="2g$zFK" id="45b0rFigZd_" role="3iuakB">
                 <property role="2g$zFq" value="1" />
-                <ref role="3iuakG" node="5QKRmMfM2AA" resolve="Pieces" />
+                <ref role="3iuakG" node="5QKRmMfM2AA" />
               </node>
               <node concept="3iualh" id="45b0rFigZdA" role="3QJw9">
-                <ref role="3iuakG" node="5QKRmMfM2B$" resolve="Color" />
+                <ref role="3iuakG" node="5QKRmMfM2B$" />
               </node>
             </node>
           </node>
@@ -2649,15 +2649,15 @@
         <node concept="_uk3J" id="45b0rFigZdp" role="_oYE9">
           <node concept="3iualm" id="45b0rFigZdq" role="3QIuX">
             <node concept="3iualh" id="45b0rFigZdr" role="3iuakB">
-              <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
+              <ref role="3iuakG" node="5QKRmMfM2CX" />
             </node>
             <node concept="3iualm" id="45b0rFigZds" role="3QJw9">
               <node concept="2g$zFK" id="45b0rFigZdt" role="3iuakB">
                 <property role="2g$zFq" value="1" />
-                <ref role="3iuakG" node="5QKRmMfM2AA" resolve="Pieces" />
+                <ref role="3iuakG" node="5QKRmMfM2AA" />
               </node>
               <node concept="3iualh" id="45b0rFigZdu" role="3QJw9">
-                <ref role="3iuakG" node="5QKRmMfM2Ca" resolve="Degree" />
+                <ref role="3iuakG" node="5QKRmMfM2Ca" />
               </node>
             </node>
           </node>
@@ -2670,15 +2670,15 @@
         <node concept="_uk3J" id="45b0rFigZdh" role="_oYE9">
           <node concept="3iualm" id="45b0rFigZdi" role="3QIuX">
             <node concept="3iualh" id="45b0rFigZdj" role="3iuakB">
-              <ref role="3iuakG" node="5QKRmMfM2CX" resolve="PieChart" />
+              <ref role="3iuakG" node="5QKRmMfM2CX" />
             </node>
             <node concept="3iualm" id="45b0rFigZdk" role="3QJw9">
               <node concept="2g$zFK" id="45b0rFigZdl" role="3iuakB">
                 <property role="2g$zFq" value="1" />
-                <ref role="3iuakG" node="5QKRmMfM2AA" resolve="Pieces" />
+                <ref role="3iuakG" node="5QKRmMfM2AA" />
               </node>
               <node concept="3iualh" id="45b0rFigZdm" role="3QJw9">
-                <ref role="3iuakG" node="5QKRmMfM2JV" resolve="Label" />
+                <ref role="3iuakG" node="5QKRmMfM2JV" />
               </node>
             </node>
           </node>
@@ -2729,16 +2729,16 @@
         </node>
       </node>
       <node concept="30nziD" id="4lBlEoKtZTJ" role="30nzo2">
-        <ref role="30nziQ" node="5QKRmMfM2Kk" resolve="LoadView" />
+        <ref role="30nziQ" node="5QKRmMfM2Kk" />
       </node>
       <node concept="30nziD" id="4lBlEoKtZTK" role="30nzo2">
-        <ref role="30nziQ" node="5QKRmMfM2Ko" resolve="IncomeAndExpensesByCategoryItemSelected" />
+        <ref role="30nziQ" node="5QKRmMfM2Ko" />
         <node concept="Xl_RD" id="4lBlEoKtZTL" role="30nziO">
           <property role="Xl_RC" value="This Week" />
         </node>
       </node>
       <node concept="30nzp_" id="4lBlEoKtZX$" role="30nzpy">
-        <ref role="30nzpS" node="5QKRmMfM2E3" resolve="IncomeAndExpensesChart" />
+        <ref role="30nzpS" node="5QKRmMfM2E3" />
         <node concept="1Dvt9M" id="4lBlEoKtZX_" role="30nDbQ">
           <node concept="1Dvt89" id="4lBlEoKtZXC" role="2D8nNu">
             <node concept="1u3WYF" id="4lBlEoKtZXD" role="1Dvt80">

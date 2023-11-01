@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="ViewModelLanguage.sandbox" uuid="b78507d4-5a23-45c3-9e9e-df16393f3f09" moduleVersion="0" compileInMPS="true">
+<solution name="ViewModelLanguage.sandbox" uuid="b78507d4-5a23-45c3-9e9e-df16393f3f09" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">89274067-447d-4f60-a26a-6d802a4035c2(ViewModelLanguage)</dependency>
   </dependencies>

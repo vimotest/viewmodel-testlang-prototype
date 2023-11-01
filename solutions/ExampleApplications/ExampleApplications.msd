@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="ExampleApplications" uuid="99753e4b-2127-4cca-bdd3-33c8e9a9f97b" moduleVersion="0" compileInMPS="true">
+<solution name="ExampleApplications" uuid="99753e4b-2127-4cca-bdd3-33c8e9a9f97b" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">d4c3c703-e253-4bbb-a1ce-7fefd9f004cc(HamsterViewLanguage.generator)</dependency>
     <dependency reexport="false">b344aa7e-2e08-4f45-aa82-4796d5345f7b(HamsterViewLanguage)</dependency>

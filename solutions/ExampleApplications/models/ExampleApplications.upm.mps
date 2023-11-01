@@ -121,7 +121,7 @@
       <concept id="7539704351303821054" name="ViewModelLanguage.structure.ListViewComponent" flags="ng" index="1Uj0Zn" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -236,7 +236,7 @@
           <property role="2PigO5" value="true" />
         </node>
         <node concept="2HYYfY" id="43lx_5lkthe" role="2HXGLH">
-          <ref role="2HYYDy" node="43lx_5ljN70" resolve="add_account" />
+          <ref role="2HYYDy" node="43lx_5ljN70" />
           <node concept="2Pim7P" id="43lx_5lkthf" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -246,7 +246,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="43lx_5lkthy" role="2HXGLH">
-          <ref role="2HYYDy" node="43lx_5ljN74" resolve="edit_account" />
+          <ref role="2HYYDy" node="43lx_5ljN74" />
           <node concept="2Pim7P" id="43lx_5lkthB" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -256,7 +256,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="43lx_5lktie" role="2HXGLH">
-          <ref role="2HYYDy" node="43lx_5ljN7k" resolve="delete_account" />
+          <ref role="2HYYDy" node="43lx_5ljN7k" />
           <node concept="2Pim7P" id="43lx_5lktij" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -277,7 +277,7 @@
           <property role="2PigO5" value="true" />
         </node>
         <node concept="2HYYfY" id="2b$WerdjQmX" role="2HXGLH">
-          <ref role="2HYYDy" node="43lx_5ljN7g" resolve="copy_username" />
+          <ref role="2HYYDy" node="43lx_5ljN7g" />
           <node concept="2Pim7P" id="2b$WerdjQmY" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -287,7 +287,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="2b$WerdjQn1" role="2HXGLH">
-          <ref role="2HYYDy" node="43lx_5ljN7c" resolve="copy_password" />
+          <ref role="2HYYDy" node="43lx_5ljN7c" />
           <node concept="2Pim7P" id="2b$WerdjQn2" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -297,7 +297,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="2b$WerdjQn5" role="2HXGLH">
-          <ref role="2HYYDy" node="43lx_5ljN6O" resolve="options" />
+          <ref role="2HYYDy" node="43lx_5ljN6O" />
           <node concept="2Pim7P" id="2b$WerdjQn6" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -307,7 +307,7 @@
           </node>
         </node>
         <node concept="2HYYfY" id="2b$WerdjQn9" role="2HXGLH">
-          <ref role="2HYYDy" node="43lx_5ljN6$" resolve="sync" />
+          <ref role="2HYYDy" node="43lx_5ljN6$" />
           <node concept="2Pim7P" id="2b$WerdjQna" role="2Pim73">
             <property role="2PigO5" value="true" />
           </node>
@@ -370,7 +370,7 @@
     <node concept="3f6vZ2" id="6yyqi$j0DTQ" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="PasswordEntriesRowSelected" />
-      <ref role="3fS2vI" node="QFw6_ym$GE" resolve="PasswordEntries" />
+      <ref role="3fS2vI" node="QFw6_ym$GE" />
       <node concept="2P4x69" id="6yyqi$j0DTR" role="2P43km">
         <property role="TrG5h" value="rowHandle" />
         <node concept="2P4D6h" id="6yyqi$j0DTS" role="2P5Oin" />
@@ -379,7 +379,7 @@
   </node>
   <node concept="30n1Qd" id="6yyqi$j0DTt">
     <property role="TrG5h" value="MainViewTests" />
-    <ref role="30n1PB" node="6yyqi$iVArW" resolve="MainView" />
+    <ref role="30n1PB" node="6yyqi$iVArW" />
     <node concept="30n1Qa" id="6yyqi$j0DTu" role="30n1Qb">
       <node concept="30nyDl" id="6yyqi$j0DTv" role="30nziG">
         <property role="30nzmz" value="Load sample accounts" />
@@ -429,11 +429,11 @@
         </node>
       </node>
       <node concept="30nziD" id="6yyqi$j0DTN" role="30nzo2">
-        <ref role="30nziQ" node="6yyqi$j0DTT" resolve="LoadView" />
+        <ref role="30nziQ" node="6yyqi$j0DTT" />
       </node>
       <node concept="2QbWKJ" id="43lx_5lktpc" role="30nzpy">
         <node concept="30nzp_" id="43lx_5lktpD" role="2QbW$V">
-          <ref role="30nzpS" node="43lx_5lkthe" resolve="btnAddAccount" />
+          <ref role="30nzpS" node="43lx_5lkthe" />
           <node concept="30nzp7" id="43lx_5lktpF" role="30nDbQ">
             <node concept="30nzps" id="43lx_5lktpG" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -441,13 +441,13 @@
           </node>
         </node>
         <node concept="30nzp_" id="43lx_5lktpO" role="2QbW$V">
-          <ref role="30nzpS" node="43lx_5lkthy" resolve="btnEditAccount" />
+          <ref role="30nzpS" node="43lx_5lkthy" />
           <node concept="30nzp7" id="43lx_5lktpU" role="30nDbQ">
             <node concept="30nzps" id="43lx_5lktpV" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="2b$WerdjQmp" role="2QbW$V">
-          <ref role="30nzpS" node="43lx_5lktie" resolve="btnDeleteAccount" />
+          <ref role="30nzpS" node="43lx_5lktie" />
           <node concept="30nzp7" id="2b$WerdjQmD" role="30nDbQ">
             <node concept="30nzps" id="2b$WerdjQmE" role="30nzpp" />
           </node>
@@ -455,19 +455,19 @@
       </node>
       <node concept="2QbWKJ" id="2b$WerdjQpc" role="30nzpy">
         <node concept="30nzp_" id="2b$WerdjQpd" role="2QbW$V">
-          <ref role="30nzpS" node="2b$WerdjQmX" resolve="btnCopyUser" />
+          <ref role="30nzpS" node="2b$WerdjQmX" />
           <node concept="30nzp7" id="2b$WerdjQpU" role="30nDbQ">
             <node concept="30nzps" id="2b$WerdjQpV" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="2b$WerdjQpg" role="2QbW$V">
-          <ref role="30nzpS" node="2b$WerdjQn1" resolve="btnCopyPassword" />
+          <ref role="30nzpS" node="2b$WerdjQn1" />
           <node concept="30nzp7" id="2b$WerdjQpY" role="30nDbQ">
             <node concept="30nzps" id="2b$WerdjQpZ" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="2b$WerdjQpj" role="2QbW$V">
-          <ref role="30nzpS" node="2b$WerdjQn5" resolve="btnOptions" />
+          <ref role="30nzpS" node="2b$WerdjQn5" />
           <node concept="30nzp7" id="2b$WerdjQq2" role="30nDbQ">
             <node concept="30nzps" id="2b$WerdjQq3" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -475,14 +475,14 @@
           </node>
         </node>
         <node concept="30nzp_" id="2b$WerdjQq6" role="2QbW$V">
-          <ref role="30nzpS" node="2b$WerdjQn9" resolve="btnSync" />
+          <ref role="30nzpS" node="2b$WerdjQn9" />
           <node concept="30nzp7" id="2b$WerdjQqp" role="30nDbQ">
             <node concept="30nzps" id="2b$WerdjQqq" role="30nzpp" />
           </node>
         </node>
       </node>
       <node concept="30nzp_" id="QFw6_yoEjO" role="30nzpy">
-        <ref role="30nzpS" node="QFw6_ym$GE" resolve="PasswordEntries" />
+        <ref role="30nzpS" node="QFw6_ym$GE" />
         <node concept="1VC1nl" id="QFw6_yoEjZ" role="30nDbQ">
           <property role="KAApG" value="true" />
           <node concept="1Dvt89" id="QFw6_yoEk2" role="2D8nNu">
@@ -535,17 +535,17 @@
         </node>
       </node>
       <node concept="30nziD" id="2$XDRugFTNm" role="30nzo2">
-        <ref role="30nziQ" node="6yyqi$j0DTT" resolve="LoadView" />
+        <ref role="30nziQ" node="6yyqi$j0DTT" />
       </node>
       <node concept="30nziD" id="2$XDRugFTPY" role="30nzo2">
-        <ref role="30nziQ" node="6yyqi$j0DTQ" resolve="PasswordEntriesRowSelected" />
+        <ref role="30nziQ" node="6yyqi$j0DTQ" />
         <node concept="3cmrfG" id="2$XDRugFTQ4" role="30nziO">
           <property role="3cmrfH" value="0" />
         </node>
       </node>
       <node concept="2QbWKJ" id="2$XDRugFTNn" role="30nzpy">
         <node concept="30nzp_" id="2$XDRugFTNo" role="2QbW$V">
-          <ref role="30nzpS" node="43lx_5lkthe" resolve="btnAddAccount" />
+          <ref role="30nzpS" node="43lx_5lkthe" />
           <node concept="30nzp7" id="2$XDRugFTNp" role="30nDbQ">
             <node concept="30nzps" id="2$XDRugFTNq" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -553,7 +553,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="2$XDRugFTNr" role="2QbW$V">
-          <ref role="30nzpS" node="43lx_5lkthy" resolve="btnEditAccount" />
+          <ref role="30nzpS" node="43lx_5lkthy" />
           <node concept="30nzp7" id="2$XDRugFTNs" role="30nDbQ">
             <node concept="30nzps" id="2$XDRugFTNt" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -561,7 +561,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="2$XDRugFTNu" role="2QbW$V">
-          <ref role="30nzpS" node="43lx_5lktie" resolve="btnDeleteAccount" />
+          <ref role="30nzpS" node="43lx_5lktie" />
           <node concept="30nzp7" id="2$XDRugFTNv" role="30nDbQ">
             <node concept="30nzps" id="2$XDRugFTNw" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -571,7 +571,7 @@
       </node>
       <node concept="2QbWKJ" id="2$XDRugFTNx" role="30nzpy">
         <node concept="30nzp_" id="2$XDRugFTNy" role="2QbW$V">
-          <ref role="30nzpS" node="2b$WerdjQmX" resolve="btnCopyUser" />
+          <ref role="30nzpS" node="2b$WerdjQmX" />
           <node concept="30nzp7" id="2$XDRugFTNz" role="30nDbQ">
             <node concept="30nzps" id="2$XDRugFTN$" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -579,7 +579,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="2$XDRugFTN_" role="2QbW$V">
-          <ref role="30nzpS" node="2b$WerdjQn1" resolve="btnCopyPassword" />
+          <ref role="30nzpS" node="2b$WerdjQn1" />
           <node concept="30nzp7" id="2$XDRugFTNA" role="30nDbQ">
             <node concept="30nzps" id="2$XDRugFTNB" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -587,7 +587,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="2$XDRugFTNC" role="2QbW$V">
-          <ref role="30nzpS" node="2b$WerdjQn5" resolve="btnOptions" />
+          <ref role="30nzpS" node="2b$WerdjQn5" />
           <node concept="30nzp7" id="2$XDRugFTND" role="30nDbQ">
             <node concept="30nzps" id="2$XDRugFTNE" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -595,7 +595,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="2$XDRugFTNF" role="2QbW$V">
-          <ref role="30nzpS" node="2b$WerdjQn9" resolve="btnSync" />
+          <ref role="30nzpS" node="2b$WerdjQn9" />
           <node concept="30nzp7" id="2$XDRugFTNG" role="30nDbQ">
             <node concept="30nzps" id="2$XDRugFTNH" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -604,7 +604,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2$XDRugFTNI" role="30nzpy">
-        <ref role="30nzpS" node="QFw6_ym$GE" resolve="PasswordEntries" />
+        <ref role="30nzpS" node="QFw6_ym$GE" />
         <node concept="1VC1nl" id="2$XDRugFTNJ" role="30nDbQ">
           <property role="KAApG" value="true" />
           <node concept="1Dvt89" id="2$XDRugFTNK" role="2D8nNu">
@@ -841,12 +841,12 @@
     </node>
     <node concept="3f4AKs" id="skyIo3$bDP" role="3H8Xyh">
       <property role="TrG5h" value="GenerateClicked" />
-      <ref role="3fS2vI" node="skyIo3zfCN" resolve="Generate" />
+      <ref role="3fS2vI" node="skyIo3zfCN" />
     </node>
     <node concept="3f4gK1" id="skyIo3$bDQ" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="AccountNameFilled" />
-      <ref role="3fS2vI" node="skyIo3yQco" resolve="AccountName" />
+      <ref role="3fS2vI" node="skyIo3yQco" />
       <node concept="2P4x69" id="skyIo3$bDR" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="skyIo3$bDS" role="2P5Oin" />
@@ -855,7 +855,7 @@
     <node concept="3f4gK1" id="skyIo3$bDT" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="UserIdFilled" />
-      <ref role="3fS2vI" node="skyIo3yQfc" resolve="UserId" />
+      <ref role="3fS2vI" node="skyIo3yQfc" />
       <node concept="2P4x69" id="skyIo3$bDU" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="skyIo3$bDV" role="2P5Oin" />
@@ -864,7 +864,7 @@
     <node concept="3f4gK1" id="skyIo3$bDW" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="PasswordFilled" />
-      <ref role="3fS2vI" node="skyIo3yQgK" resolve="Password" />
+      <ref role="3fS2vI" node="skyIo3yQgK" />
       <node concept="2P4x69" id="skyIo3$bDX" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="skyIo3$bDY" role="2P5Oin" />
@@ -873,7 +873,7 @@
     <node concept="3f4gK1" id="skyIo3$bDZ" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="UrlFilled" />
-      <ref role="3fS2vI" node="skyIo3$bvJ" resolve="Url" />
+      <ref role="3fS2vI" node="skyIo3$bvJ" />
       <node concept="2P4x69" id="skyIo3$bE0" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="skyIo3$bE1" role="2P5Oin" />
@@ -882,7 +882,7 @@
     <node concept="3f4gK1" id="skyIo3$bE2" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="NotesFilled" />
-      <ref role="3fS2vI" node="skyIo3$b$9" resolve="Notes" />
+      <ref role="3fS2vI" node="skyIo3$b$9" />
       <node concept="2P4x69" id="skyIo3$bE3" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="skyIo3$bE4" role="2P5Oin" />
@@ -891,7 +891,7 @@
     <node concept="I_Gu0" id="4kXwATFF52b" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="HideChecked" />
-      <ref role="3fS2vI" node="skyIo3$bsN" resolve="Hide" />
+      <ref role="3fS2vI" node="skyIo3$bsN" />
       <node concept="2P4x69" id="4kXwATFF52c" role="2P43km">
         <property role="TrG5h" value="isChecked" />
         <node concept="2P4D6g" id="4kXwATFF52d" role="2P5Oin" />
@@ -901,7 +901,7 @@
   </node>
   <node concept="30n1Qd" id="3OXozfJFgcF">
     <property role="TrG5h" value="AccountDetailsViewTests" />
-    <ref role="30n1PB" node="skyIo3yPLu" resolve="AccountDetailsView" />
+    <ref role="30n1PB" node="skyIo3yPLu" />
     <node concept="30n1Qa" id="4kXwATFz71v" role="30n1Qb">
       <node concept="30nyDl" id="4kXwATFz71w" role="30nziG">
         <property role="30nzmz" value="Load sample account" />
@@ -950,10 +950,10 @@
         </node>
       </node>
       <node concept="30nziD" id="4kXwATFz722" role="30nzo2">
-        <ref role="30nziQ" node="skyIo3$bE5" resolve="LoadView" />
+        <ref role="30nziQ" node="skyIo3$bE5" />
       </node>
       <node concept="30nzp_" id="4kXwATFzdBH" role="30nzpy">
-        <ref role="30nzpS" node="skyIo3yQco" resolve="AccountName" />
+        <ref role="30nzpS" node="skyIo3yQco" />
         <node concept="3fym7j" id="4kXwATFzdBM" role="30nDbQ">
           <node concept="30nz6$" id="4kXwATFzdBR" role="3fym7i">
             <property role="30nz6_" value="del.icio.us" />
@@ -962,7 +962,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="4kXwATFzdBU" role="30nzpy">
-        <ref role="30nzpS" node="skyIo3yQfc" resolve="UserId" />
+        <ref role="30nzpS" node="skyIo3yQfc" />
         <node concept="3fym7j" id="4kXwATFzdBV" role="30nDbQ">
           <node concept="30nz6$" id="4kXwATFzdBW" role="3fym7i">
             <property role="30nz6_" value="smith" />
@@ -972,7 +972,7 @@
       </node>
       <node concept="2QbWKJ" id="4kXwATF_Ugg" role="30nzpy">
         <node concept="30nzp_" id="4kXwATF_UeG" role="2QbW$V">
-          <ref role="30nzpS" node="skyIo3yQgK" resolve="Password" />
+          <ref role="30nzpS" node="skyIo3yQgK" />
           <node concept="3fym7j" id="4kXwATF_UeH" role="30nDbQ">
             <node concept="30nz6$" id="4kXwATF_UeI" role="3fym7i">
               <property role="30nz6_" value="••••••••" />
@@ -981,13 +981,13 @@
           </node>
         </node>
         <node concept="30nzp_" id="4kXwATF_Uha" role="2QbW$V">
-          <ref role="30nzpS" node="skyIo3zfCN" resolve="Generate" />
+          <ref role="30nzpS" node="skyIo3zfCN" />
           <node concept="30nzp7" id="4kXwATF_Uhm" role="30nDbQ">
             <node concept="30nzps" id="4kXwATF_Uhn" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="4kXwATF_UgQ" role="2QbW$V">
-          <ref role="30nzpS" node="skyIo3$bsN" resolve="Hide" />
+          <ref role="30nzpS" node="skyIo3$bsN" />
           <node concept="1tZoqV" id="4kXwATF_UgX" role="30nDbQ">
             <node concept="1tZoko" id="4kXwATF_UgY" role="1tZokz">
               <property role="1tZokr" value="true" />
@@ -996,7 +996,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="4kXwATFDNSU" role="30nzpy">
-        <ref role="30nzpS" node="skyIo3$bvJ" resolve="Url" />
+        <ref role="30nzpS" node="skyIo3$bvJ" />
         <node concept="3fym7j" id="4kXwATFDNSV" role="30nDbQ">
           <node concept="30nz6$" id="4kXwATFDNSW" role="3fym7i">
             <property role="30nz6_" value="http://del.icio.us" />
@@ -1005,7 +1005,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="4kXwATFDNV8" role="30nzpy">
-        <ref role="30nzpS" node="skyIo3$b$9" resolve="Notes" />
+        <ref role="30nzpS" node="skyIo3$b$9" />
         <node concept="3fym7j" id="4kXwATFDNVy" role="30nDbQ">
           <node concept="30nz6$" id="4kXwATFDNVA" role="3fym7i" />
         </node>
@@ -1028,15 +1028,15 @@
         </node>
       </node>
       <node concept="30nziD" id="4kXwATFDNVR" role="30nzo2">
-        <ref role="30nziQ" node="skyIo3$bE5" resolve="LoadView" />
+        <ref role="30nziQ" node="skyIo3$bE5" />
       </node>
       <node concept="30nziD" id="4kXwATFDNY8" role="30nzo2">
-        <ref role="30nziQ" node="4kXwATFF52b" resolve="HideChecked" />
+        <ref role="30nziQ" node="4kXwATFF52b" />
         <node concept="3clFbT" id="4kXwATFF53h" role="30nziO" />
       </node>
       <node concept="2QbWKJ" id="4kXwATFDNW0" role="30nzpy">
         <node concept="30nzp_" id="4kXwATFDNW1" role="2QbW$V">
-          <ref role="30nzpS" node="skyIo3yQgK" resolve="Password" />
+          <ref role="30nzpS" node="skyIo3yQgK" />
           <node concept="3fym7j" id="4kXwATFDNW2" role="30nDbQ">
             <node concept="30nz6$" id="4kXwATFDNW3" role="3fym7i">
               <property role="30nz6_" value="my-secret" />
@@ -1045,13 +1045,13 @@
           </node>
         </node>
         <node concept="30nzp_" id="4kXwATFDNW5" role="2QbW$V">
-          <ref role="30nzpS" node="skyIo3zfCN" resolve="Generate" />
+          <ref role="30nzpS" node="skyIo3zfCN" />
           <node concept="30nzp7" id="4kXwATFDNW6" role="30nDbQ">
             <node concept="30nzps" id="4kXwATFDNW7" role="30nzpp" />
           </node>
         </node>
         <node concept="30nzp_" id="4kXwATFDNW8" role="2QbW$V">
-          <ref role="30nzpS" node="skyIo3$bsN" resolve="Hide" />
+          <ref role="30nzpS" node="skyIo3$bsN" />
           <node concept="1tZoqV" id="4kXwATFDNW9" role="30nDbQ">
             <node concept="1tZoko" id="4kXwATFDNWa" role="1tZokz" />
           </node>
@@ -1227,16 +1227,16 @@
     </node>
     <node concept="3f4AKs" id="2wrhDsVYbjT" role="3H8Xyh">
       <property role="TrG5h" value="OKClicked" />
-      <ref role="3fS2vI" node="2wrhDsVYbgf" resolve="OK" />
+      <ref role="3fS2vI" node="2wrhDsVYbgf" />
     </node>
     <node concept="3f4AKs" id="2wrhDsVYbjU" role="3H8Xyh">
       <property role="TrG5h" value="CancelClicked" />
-      <ref role="3fS2vI" node="2wrhDsVYbhV" resolve="Cancel" />
+      <ref role="3fS2vI" node="2wrhDsVYbhV" />
     </node>
     <node concept="I_Gu0" id="2wrhDsVYbjV" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="EnableProxyChecked" />
-      <ref role="3fS2vI" node="2wrhDsVYaUE" resolve="EnableProxy" />
+      <ref role="3fS2vI" node="2wrhDsVYaUE" />
       <node concept="2P4x69" id="2wrhDsVYbjW" role="2P43km">
         <property role="TrG5h" value="isChecked" />
         <node concept="2P4D6g" id="2wrhDsVYbjX" role="2P5Oin" />
@@ -1245,7 +1245,7 @@
     <node concept="I_Gu0" id="2wrhDsVYbjY" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="HideChecked" />
-      <ref role="3fS2vI" node="2wrhDsVYbc8" resolve="Hide" />
+      <ref role="3fS2vI" node="2wrhDsVYbc8" />
       <node concept="2P4x69" id="2wrhDsVYbjZ" role="2P43km">
         <property role="TrG5h" value="isChecked" />
         <node concept="2P4D6g" id="2wrhDsVYbk0" role="2P5Oin" />
@@ -1254,7 +1254,7 @@
     <node concept="3f4gK1" id="2wrhDsVYbk1" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="DataBaseFilePathFilled" />
-      <ref role="3fS2vI" node="2wrhDsVYaKy" resolve="DataBaseFilePath" />
+      <ref role="3fS2vI" node="2wrhDsVYaKy" />
       <node concept="2P4x69" id="2wrhDsVYbk2" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="2wrhDsVYbk3" role="2P5Oin" />
@@ -1263,7 +1263,7 @@
     <node concept="3f4gK1" id="2wrhDsVYbk4" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="HttpProxyFilled" />
-      <ref role="3fS2vI" node="2wrhDsVYaXd" resolve="HttpProxy" />
+      <ref role="3fS2vI" node="2wrhDsVYaXd" />
       <node concept="2P4x69" id="2wrhDsVYbk5" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="2wrhDsVYbk6" role="2P5Oin" />
@@ -1272,7 +1272,7 @@
     <node concept="3f4gK1" id="2wrhDsVYbk7" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="PortFilled" />
-      <ref role="3fS2vI" node="2wrhDsVYb05" resolve="Port" />
+      <ref role="3fS2vI" node="2wrhDsVYb05" />
       <node concept="2P4x69" id="2wrhDsVYbk8" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="2wrhDsVYbk9" role="2P5Oin" />
@@ -1281,7 +1281,7 @@
     <node concept="3f4gK1" id="2wrhDsVYbka" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="HttpProxyUsernameFilled" />
-      <ref role="3fS2vI" node="2wrhDsVYb1C" resolve="HttpProxyUsername" />
+      <ref role="3fS2vI" node="2wrhDsVYb1C" />
       <node concept="2P4x69" id="2wrhDsVYbkb" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="2wrhDsVYbkc" role="2P5Oin" />
@@ -1290,7 +1290,7 @@
     <node concept="3f4gK1" id="2wrhDsVYbkd" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="HttpProxyPasswordFilled" />
-      <ref role="3fS2vI" node="2wrhDsVYb4_" resolve="HttpProxyPassword" />
+      <ref role="3fS2vI" node="2wrhDsVYb4_" />
       <node concept="2P4x69" id="2wrhDsVYbke" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="2wrhDsVYbkf" role="2P5Oin" />
@@ -1300,7 +1300,7 @@
   </node>
   <node concept="30n1Qd" id="2wrhDsVYyco">
     <property role="TrG5h" value="OptionsViewTests" />
-    <ref role="30n1PB" node="2wrhDsVYayF" resolve="OptionsView" />
+    <ref role="30n1PB" node="2wrhDsVYayF" />
     <node concept="30n1Qa" id="2wrhDsVYyp5" role="30n1Qb">
       <node concept="30nyDl" id="2wrhDsVYyp6" role="30nziG">
         <property role="30nzmz" value="Load no database" />
@@ -1320,13 +1320,13 @@
       <node concept="30l7Wy" id="2wrhDsVYyuX" role="30nziE" />
       <node concept="30nzp_" id="2wrhDsWaRt7" role="30nzpy">
         <property role="13TuVO" value="Database to Load on Startup" />
-        <ref role="30nzpS" node="2wrhDsVYaKy" resolve="DataBaseFilePath" />
+        <ref role="30nzpS" node="2wrhDsVYaKy" />
         <node concept="3fym7j" id="2wrhDsWaRuv" role="30nDbQ">
           <node concept="30nz6$" id="2wrhDsWaRv3" role="3fym7i" />
         </node>
       </node>
       <node concept="30nzp_" id="2wrhDsWaRvB" role="30nzpy">
-        <ref role="30nzpS" node="2wrhDsVYaP_" resolve="Language" />
+        <ref role="30nzpS" node="2wrhDsVYaP_" />
         <node concept="3P0OEx" id="2wrhDsWaR_C" role="30nDbQ">
           <node concept="3P0YHm" id="2wrhDsWaRBD" role="3P0OEJ">
             <node concept="3P0YHh" id="1A1$ESeI$vX" role="3P0YHj">
@@ -1344,13 +1344,13 @@
         </node>
       </node>
       <node concept="30nzp_" id="2wrhDsWaRFx" role="30nzpy">
-        <ref role="30nzpS" node="2wrhDsVYaUE" resolve="EnableProxy" />
+        <ref role="30nzpS" node="2wrhDsVYaUE" />
         <node concept="1tZoqV" id="2wrhDsWaRGX" role="30nDbQ">
           <node concept="1tZoko" id="2wrhDsWaRGY" role="1tZokz" />
         </node>
       </node>
       <node concept="30nzp_" id="2wrhDsWaRIm" role="30nzpy">
-        <ref role="30nzpS" node="2wrhDsVYaXd" resolve="HttpProxy" />
+        <ref role="30nzpS" node="2wrhDsVYaXd" />
         <node concept="3fym7j" id="2wrhDsWaRJb" role="30nDbQ">
           <node concept="30nzps" id="2wrhDsWaRJJ" role="3fym7i" />
           <node concept="30nz6$" id="2wrhDsWaRRw" role="3fym7i">
@@ -1359,7 +1359,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2wrhDsWaRNi" role="30nzpy">
-        <ref role="30nzpS" node="2wrhDsVYb05" resolve="Port" />
+        <ref role="30nzpS" node="2wrhDsVYb05" />
         <node concept="3fym7j" id="2wrhDsWaRNZ" role="30nDbQ">
           <node concept="30nzps" id="2wrhDsWaROz" role="3fym7i" />
           <node concept="30nz6$" id="2wrhDsWaROT" role="3fym7i">
@@ -1368,7 +1368,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2wrhDsWaRK2" role="30nzpy">
-        <ref role="30nzpS" node="2wrhDsVYb1C" resolve="HttpProxyUsername" />
+        <ref role="30nzpS" node="2wrhDsVYb1C" />
         <node concept="3fym7j" id="2wrhDsWaRLj" role="30nDbQ">
           <node concept="30nzps" id="2wrhDsWaRMr" role="3fym7i" />
           <node concept="30nz6$" id="2wrhDsWaRQl" role="3fym7i" />
@@ -1376,14 +1376,14 @@
       </node>
       <node concept="2QbWKJ" id="2wrhDsWaRY9" role="30nzpy">
         <node concept="30nzp_" id="2wrhDsWaRKD" role="2QbW$V">
-          <ref role="30nzpS" node="2wrhDsVYb4_" resolve="HttpProxyPassword" />
+          <ref role="30nzpS" node="2wrhDsVYb4_" />
           <node concept="3fym7j" id="2wrhDsWaRLR" role="30nDbQ">
             <node concept="30nzps" id="2wrhDsWaRMZ" role="3fym7i" />
             <node concept="30nz6$" id="2wrhDsWaRPK" role="3fym7i" />
           </node>
         </node>
         <node concept="30nzp_" id="2wrhDsWaS0A" role="2QbW$V">
-          <ref role="30nzpS" node="2wrhDsVYbc8" resolve="Hide" />
+          <ref role="30nzpS" node="2wrhDsVYbc8" />
           <node concept="1tZoqV" id="2wrhDsWaS1L" role="30nDbQ">
             <node concept="1tZoko" id="2wrhDsWaS1M" role="1tZokz">
               <property role="1tZokr" value="true" />
@@ -1393,7 +1393,7 @@
       </node>
       <node concept="2QbWKJ" id="2wrhDsWaS9w" role="30nzpy">
         <node concept="30nzp_" id="2wrhDsWaSal" role="2QbW$V">
-          <ref role="30nzpS" node="2wrhDsVYbgf" resolve="OK" />
+          <ref role="30nzpS" node="2wrhDsVYbgf" />
           <node concept="30nzp7" id="2wrhDsWcoU6" role="30nDbQ">
             <node concept="30nzps" id="2wrhDsWcoU7" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -1401,7 +1401,7 @@
           </node>
         </node>
         <node concept="30nzp_" id="2wrhDsWcoV6" role="2QbW$V">
-          <ref role="30nzpS" node="2wrhDsVYbhV" resolve="Cancel" />
+          <ref role="30nzpS" node="2wrhDsVYbhV" />
           <node concept="30nzp7" id="2wrhDsWcoVt" role="30nDbQ">
             <node concept="30nzps" id="2wrhDsWcoVu" role="30nzpp">
               <property role="30nzpr" value="true" />
@@ -1410,7 +1410,7 @@
         </node>
       </node>
       <node concept="30nziD" id="2wrhDsW18tE" role="30nzo2">
-        <ref role="30nziQ" node="2wrhDsVYbjS" resolve="LoadView" />
+        <ref role="30nziQ" node="2wrhDsVYbjS" />
       </node>
     </node>
     <node concept="30n1Qa" id="2rKiCwqpGx0" role="30n1Qb">
@@ -1428,7 +1428,7 @@
       </node>
       <node concept="30nzp_" id="2rKiCwqpGx7" role="30nzpy">
         <property role="13TuVO" value="Database to Load on Startup" />
-        <ref role="30nzpS" node="2wrhDsVYaKy" resolve="DataBaseFilePath" />
+        <ref role="30nzpS" node="2wrhDsVYaKy" />
         <node concept="3fym7j" id="2rKiCwqpGx8" role="30nDbQ">
           <node concept="30nz6$" id="2rKiCwqpGx9" role="3fym7i">
             <property role="30nz6_" value="mydatabase.db" />
@@ -1436,7 +1436,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2rKiCwqpGxh" role="30nzpy">
-        <ref role="30nzpS" node="2wrhDsVYaUE" resolve="EnableProxy" />
+        <ref role="30nzpS" node="2wrhDsVYaUE" />
         <node concept="1tZoqV" id="2rKiCwqpGxi" role="30nDbQ">
           <node concept="1tZoko" id="2rKiCwqpGxj" role="1tZokz">
             <property role="1tZokr" value="true" />
@@ -1444,7 +1444,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2rKiCwqpGxk" role="30nzpy">
-        <ref role="30nzpS" node="2wrhDsVYaXd" resolve="HttpProxy" />
+        <ref role="30nzpS" node="2wrhDsVYaXd" />
         <node concept="3fym7j" id="2rKiCwqpGxl" role="30nDbQ">
           <node concept="30nzps" id="2rKiCwqpGxm" role="3fym7i">
             <property role="30nzpr" value="true" />
@@ -1455,7 +1455,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="2rKiCwqpGxo" role="30nzpy">
-        <ref role="30nzpS" node="2wrhDsVYb05" resolve="Port" />
+        <ref role="30nzpS" node="2wrhDsVYb05" />
         <node concept="3fym7j" id="2rKiCwqpGxp" role="30nDbQ">
           <node concept="30nzps" id="2rKiCwqpGxq" role="3fym7i">
             <property role="30nzpr" value="true" />
