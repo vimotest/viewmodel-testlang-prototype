@@ -32,7 +32,7 @@ By using ViewModels, a large portion of the View-Logic (presenter, controller co
 ## Getting Started
 
 * ensure you use Java 20 (required by Gradle 8.2)
-* execute `gradlew buildAndOpenProjectInMps` (Windows), `sh ./gradlew buildAndOpenProjectInMps` (MacOS)
+* execute `gradlew buildAndOpenProjectInMps` (Windows), `./gradlew buildAndOpenProjectInMps` (MacOS/Linux)
   * this downloads MPS for your current OS and creates an executable installation in `build/mps-bundle`
   * Windows: executes `build/mps-bundle/mps/bin/mps.bat`
   * MacOS: executes `build/mps-bundle/Contents/MacOS/mps`
