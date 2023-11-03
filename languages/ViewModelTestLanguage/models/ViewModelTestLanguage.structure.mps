@@ -36,6 +36,7 @@
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
@@ -145,29 +146,57 @@
       <property role="IQ2ns" value="3426401106045120778" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="description" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2Yd1qrJOMZN" resolve="TestCaseDescription" />
+      <node concept="asaX9" id="6tib4XeIl4x" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="2Yd1qrJON4c" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045120780" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="context" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
+      <node concept="asaX9" id="6tib4XeIJNX" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="2Yd1qrJONe$" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045121444" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="inputCalls" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="65sofNQ5xLH" resolve="ITestCaseStimulation" />
+      <node concept="asaX9" id="6tib4XeIJNV" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="2Yd1qrJONf4" role="1TKVEi">
       <property role="IQ2ns" value="3426401106045121476" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="asserts" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
+      <node concept="asaX9" id="6tib4XeIJNT" role="lGtFl" />
+    </node>
+    <node concept="1TJgyj" id="6tib4XeIJNZ" role="1TKVEi">
+      <property role="IQ2ns" value="7445061853131767039" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contextWithDescription" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="6tib4XeIJOk" resolve="GivenDescriptionWithContext" />
+    </node>
+    <node concept="1TJgyj" id="6tib4XeIJOm" role="1TKVEi">
+      <property role="IQ2ns" value="7445061853131767062" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="inputCellsWithDescription" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="6tib4XeIJOl" resolve="WhenDescriptionWithStimulation" />
+    </node>
+    <node concept="1TJgyj" id="6tib4XeIJO9" role="1TKVEi">
+      <property role="IQ2ns" value="7445061853131767049" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="assertsWithDescription" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="6tib4XeIJNS" resolve="ThenDescriptionWithAssert" />
+    </node>
+    <node concept="1TJgyi" id="6tib4XeWUAh" role="1TKVEl">
+      <property role="IQ2nx" value="7445061853135481233" />
+      <property role="TrG5h" value="scenario" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="PlHQZ" id="2Yd1qrJOMZM">
@@ -1348,6 +1377,75 @@
       <property role="20kJfa" value="baseReference" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="76FdW9Ms6Mq" resolve="StructFieldReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6tib4XeIJNS">
+    <property role="EcuMT" value="7445061853131767032" />
+    <property role="3GE5qa" value="description" />
+    <property role="TrG5h" value="ThenDescriptionWithAssert" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="6tib4XeIK90" role="1TKVEl">
+      <property role="IQ2nx" value="7445061853131768384" />
+      <property role="TrG5h" value="textBefore" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6tib4XeIK91" role="1TKVEl">
+      <property role="IQ2nx" value="7445061853131768385" />
+      <property role="TrG5h" value="textAfter" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="6tib4XeIK94" role="1TKVEi">
+      <property role="IQ2ns" value="7445061853131768388" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="assert" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="65sofNQ5xLG" resolve="ITestCaseAssertion" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6tib4XeIJOk">
+    <property role="EcuMT" value="7445061853131767060" />
+    <property role="3GE5qa" value="description" />
+    <property role="TrG5h" value="GivenDescriptionWithContext" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="6tib4XeIK8P" role="1TKVEi">
+      <property role="IQ2ns" value="7445061853131768373" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="context" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
+    </node>
+    <node concept="1TJgyi" id="6tib4XeIK8R" role="1TKVEl">
+      <property role="IQ2nx" value="7445061853131768375" />
+      <property role="TrG5h" value="textBefore" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6tib4XeIK8T" role="1TKVEl">
+      <property role="IQ2nx" value="7445061853131768377" />
+      <property role="TrG5h" value="textAfter" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6tib4XeIJOl">
+    <property role="EcuMT" value="7445061853131767061" />
+    <property role="3GE5qa" value="description" />
+    <property role="TrG5h" value="WhenDescriptionWithStimulation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="6tib4XeIK8W" role="1TKVEl">
+      <property role="IQ2nx" value="7445061853131768380" />
+      <property role="TrG5h" value="textBefore" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6tib4XeIK8X" role="1TKVEl">
+      <property role="IQ2nx" value="7445061853131768381" />
+      <property role="TrG5h" value="textAfter" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="6tib4XeIK96" role="1TKVEi">
+      <property role="IQ2ns" value="7445061853131768390" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="inputCall" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="65sofNQ5xLH" resolve="ITestCaseStimulation" />
     </node>
   </node>
 </model>
