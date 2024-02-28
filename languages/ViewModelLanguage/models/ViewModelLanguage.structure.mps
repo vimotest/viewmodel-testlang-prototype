@@ -592,8 +592,15 @@
     <node concept="1TJgyj" id="5cbOqfAgF1u" role="1TKVEi">
       <property role="IQ2ns" value="5984107031764840542" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="imageRef" />
+      <property role="20kJfa" value="defaultImageRef" />
       <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2s$w3BDwT7a" resolve="ImageRef" />
+    </node>
+    <node concept="1TJgyj" id="2naUf4N79gt" role="1TKVEi">
+      <property role="IQ2ns" value="2723245047341159453" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="imageFilter" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2s$w3BDwT7a" resolve="ImageRef" />
     </node>
   </node>

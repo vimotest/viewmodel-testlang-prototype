@@ -37,7 +37,8 @@
       <concept id="5984107031764840531" name="ViewModelLanguage.structure.VisibilityVCFeature" flags="ng" index="2Pim7K" />
       <concept id="5984107031764840534" name="ViewModelLanguage.structure.SensitivityVCFeature" flags="ng" index="2Pim7P" />
       <concept id="5984107031764840539" name="ViewModelLanguage.structure.ImageVCFeature" flags="ng" index="2Pim7S">
-        <child id="5984107031764840542" name="imageRef" index="2Pim7X" />
+        <child id="2723245047341159453" name="imageFilter" index="mPBNG" />
+        <child id="5984107031764840542" name="defaultImageRef" index="2Pim7X" />
       </concept>
       <concept id="5984107031776721519" name="ViewModelLanguage.structure.CheckVCFeature" flags="ng" index="2PZ2Jc" />
       <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
@@ -52,6 +53,12 @@
       <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
         <reference id="6743755284662355549" name="component" index="3fS2vI" />
       </concept>
+      <concept id="6692228888293142975" name="ViewModelLanguage.structure.ColorVCFeature" flags="ng" index="3mzAc8">
+        <child id="8437001449087478713" name="color" index="2jhII$" />
+      </concept>
+      <concept id="6692228888292391868" name="ViewModelLanguage.structure.ColorValue" flags="ng" index="3mAu$b">
+        <property id="6692228888292392424" name="colorLiteral" index="3mAuXv" />
+      </concept>
       <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
         <property id="7497173622928850064" name="path" index="1u4ncw" />
       </concept>
@@ -62,6 +69,10 @@
         <property id="3016673643442476650" name="width" index="Lsnro" />
         <property id="3016673643442476939" name="height" index="LsnsT" />
         <child id="7497173622928203553" name="source" index="1u6L2h" />
+      </concept>
+      <concept id="6853349774626650346" name="ViewModelLanguage.structure.LabelComponent" flags="ng" index="1D10m_">
+        <child id="3011041337510922390" name="textFeature" index="27$_qM" />
+        <child id="2194160217324893899" name="colorFeature" index="2NwCZs" />
       </concept>
       <concept id="6853349774626657812" name="ViewModelLanguage.structure.ImageComponent" flags="ng" index="1DeYHr">
         <child id="5984107031765590830" name="imageFeature" index="2Phvad" />
@@ -90,6 +101,9 @@
       </concept>
     </language>
     <language id="5fb99752-5db5-4138-b336-ba094f316151" name="ViewModelTestLanguage">
+      <concept id="643469022294099012" name="ViewModelTestLanguage.structure.LabelCheck" flags="ng" index="2D8cJI">
+        <child id="643469022294099062" name="checks" index="2D8cJs" />
+      </concept>
       <concept id="7445061853131767032" name="ViewModelTestLanguage.structure.ThenDescriptionWithAssert" flags="ng" index="DUd2R">
         <child id="7445061853131768388" name="assert" index="DUiSb" />
       </concept>
@@ -156,6 +170,12 @@
       <concept id="7497173622926526731" name="ViewModelTestLanguage.structure.CheckBoxCheck" flags="ng" index="1tZoqV">
         <child id="7497173622926527123" name="checks" index="1tZokz" />
       </concept>
+      <concept id="7497173622928363536" name="ViewModelTestLanguage.structure.ImageCheck" flags="ng" index="1u6pYw">
+        <child id="7497173622928363675" name="checks" index="1u6pWF" />
+      </concept>
+      <concept id="7497173622928375666" name="ViewModelTestLanguage.structure.ImageRefCheckValue" flags="ng" index="1u6r32">
+        <reference id="7497173622928375669" name="image" index="1u6r35" />
+      </concept>
     </language>
   </registry>
   <node concept="3H8XyA" id="7YmZ2rG9HBU">
@@ -204,6 +224,15 @@
       </node>
       <node concept="1DeYHr" id="2naUf4N4HFj" role="2P43km">
         <node concept="2Pim7S" id="2naUf4N4HFl" role="2Phvad">
+          <node concept="3eDL7N" id="2naUf4New4b" role="mPBNG">
+            <ref role="3eDL7M" node="2naUf4N4I0_" resolve="Info" />
+          </node>
+          <node concept="3eDL7N" id="2naUf4New3Q" role="mPBNG">
+            <ref role="3eDL7M" node="2naUf4N4HSn" resolve="Error" />
+          </node>
+          <node concept="3eDL7N" id="2naUf4New4O" role="mPBNG">
+            <ref role="3eDL7M" node="2naUf4N4HZ0" resolve="Warn" />
+          </node>
           <node concept="3eDL7N" id="2naUf4N4HFn" role="2Pim7X">
             <ref role="3eDL7M" node="2naUf4N4I0_" resolve="Info" />
           </node>
@@ -211,7 +240,23 @@
         <node concept="2Pim7P" id="2naUf4N4HFp" role="2Pim73" />
         <node concept="2Pim7K" id="2naUf4N4HFr" role="2Pim71" />
         <node concept="2Pim7H" id="2naUf4N4HFt" role="2Pim76">
-          <property role="2PigPS" value="MyIcon" />
+          <property role="2PigPS" value="MessageIcon" />
+        </node>
+      </node>
+      <node concept="1D10m_" id="2naUf4NewiF" role="2P43km">
+        <node concept="27$lts" id="2naUf4NewiH" role="27$_qM">
+          <property role="27$ltt" value="There is a problem with your username" />
+        </node>
+        <node concept="3mzAc8" id="2naUf4NewiJ" role="2NwCZs">
+          <property role="2PigO5" value="true" />
+          <node concept="3mAu$b" id="2naUf4Newmn" role="2jhII$">
+            <property role="3mAuXv" value="red" />
+          </node>
+        </node>
+        <node concept="2Pim7P" id="2naUf4NewiL" role="2Pim73" />
+        <node concept="2Pim7K" id="2naUf4NewiN" role="2Pim71" />
+        <node concept="2Pim7H" id="2naUf4NewiP" role="2Pim76">
+          <property role="2PigPS" value="Message" />
         </node>
       </node>
     </node>
@@ -528,6 +573,66 @@
       <node concept="DUd5q" id="6JL1CX5jKC$" role="DUd5p">
         <node concept="30nziD" id="7YmZ2rG9HJp" role="DUiS9">
           <ref role="30nziQ" node="7YmZ2rG9HDA" resolve="LoadView" />
+        </node>
+      </node>
+    </node>
+    <node concept="30n1Qa" id="2naUf4New6g" role="30n1Qb">
+      <property role="DConu" value="Invalid name" />
+      <node concept="30nyDl" id="2naUf4New6h" role="30nziG">
+        <property role="30nzmz" value="Cached values of John" />
+        <node concept="30nyDi" id="2naUf4New6i" role="30nyDj">
+          <property role="30lZVK" value="Cached values" />
+        </node>
+        <node concept="30nyDi" id="2naUf4New6j" role="30nyDh">
+          <property role="30lZVK" value="Load View" />
+        </node>
+        <node concept="30nyDi" id="2naUf4New6k" role="30nyDs">
+          <property role="30lZVK" value="User is 'John'" />
+        </node>
+        <node concept="30nyDi" id="2naUf4New6l" role="30nyDs">
+          <property role="30lZVK" value="Password is 'john1234'" />
+        </node>
+        <node concept="30nyDi" id="2naUf4New6m" role="30nyDs">
+          <property role="30lZVK" value="Keep Logged is checked" />
+        </node>
+        <node concept="30nyDi" id="2naUf4New6n" role="30nyDs">
+          <property role="30lZVK" value="LogIn button sensitive" />
+        </node>
+      </node>
+      <node concept="DUd5r" id="2naUf4New6o" role="DUd2K">
+        <node concept="30l7Wy" id="2naUf4NewbE" role="DUiTU" />
+      </node>
+      <node concept="DUd2R" id="2naUf4NfhvN" role="DUd56">
+        <node concept="30nzp_" id="2naUf4Nfhwe" role="DUiSb">
+          <ref role="30nzpS" node="2naUf4NewiF" resolve="Message" />
+          <node concept="2D8cJI" id="2naUf4Nfhw$" role="30nDbQ">
+            <node concept="30nz6$" id="2naUf4Nfhw_" role="2D8cJs">
+              <property role="30nz6_" value="User is invalid" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="DUd2R" id="2naUf4New6E" role="DUd56">
+        <node concept="30nzp_" id="2naUf4Newgl" role="DUiSb">
+          <ref role="30nzpS" node="2naUf4N4HFj" resolve="MyIcon" />
+          <node concept="1u6pYw" id="2naUf4Newgm" role="30nDbQ">
+            <node concept="1u6r32" id="2naUf4Newgn" role="1u6pWF">
+              <ref role="1u6r35" node="2naUf4N4HSn" resolve="Error" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="DUd5q" id="2naUf4New6I" role="DUd5p">
+        <node concept="30nziD" id="2naUf4New6J" role="DUiS9">
+          <ref role="30nziQ" node="7YmZ2rG9HDA" resolve="LoadView" />
+        </node>
+      </node>
+      <node concept="DUd5q" id="2naUf4NewcA" role="DUd5p">
+        <node concept="30nziD" id="2naUf4NewcZ" role="DUiS9">
+          <ref role="30nziQ" node="7YmZ2rG9HDF" resolve="UserFilled" />
+          <node concept="Xl_RD" id="2naUf4NewdC" role="30nziO">
+            <property role="Xl_RC" value="&lt;invalid&gt;" />
+          </node>
         </node>
       </node>
     </node>

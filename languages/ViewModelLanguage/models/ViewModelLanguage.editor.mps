@@ -80,6 +80,7 @@
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
       <concept id="1196434649611" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_SimpleString" flags="ng" index="2h3Zct">
         <property id="1196434851095" name="text" index="2h4Kg1" />
@@ -140,7 +141,9 @@
         <property id="1186403713874" name="color" index="Vb096" />
         <child id="1186403803051" name="query" index="VblUZ" />
       </concept>
-      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
+      </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="615427434521884870" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Subconcepts" flags="ng" index="2VfDsV" />
@@ -2278,8 +2281,39 @@
   <node concept="24kQdi" id="5cbOqfAjy_2">
     <property role="3GE5qa" value="viewcomponents.features" />
     <ref role="1XX52x" to="6ap2:5cbOqfAgF1r" resolve="ImageVCFeature" />
-    <node concept="3F1sOY" id="5cbOqfAjyMs" role="2wV5jI">
-      <ref role="1NtTu8" to="6ap2:5cbOqfAgF1u" resolve="imageRef" />
+    <node concept="3EZMnI" id="2naUf4N79GG" role="2wV5jI">
+      <node concept="l2Vlx" id="2naUf4N79GH" role="2iSdaV" />
+      <node concept="3F1sOY" id="5cbOqfAjyMs" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:5cbOqfAgF1u" resolve="defaultImageRef" />
+      </node>
+      <node concept="3F0ifn" id="2naUf4N79HI" role="3EZMnx">
+        <property role="3F0ifm" value="image filter:" />
+        <node concept="pVoyu" id="2naUf4N79IF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="2naUf4N79Jo" role="3EZMnx">
+        <ref role="1NtTu8" to="6ap2:2naUf4N79gt" resolve="imageFilter" />
+        <node concept="l2Vlx" id="2naUf4N79Jq" role="2czzBx" />
+        <node concept="pVoyu" id="2naUf4N79JN" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pj6Ft" id="2naUf4N79K8" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="2naUf4N79KL" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="2naUf4N79Lr" role="2czzBI">
+          <property role="3F0ifm" value="&lt;no filter&gt;" />
+          <node concept="Vb9p2" id="2naUf4N79MD" role="3F10Kt">
+            <property role="Vbekb" value="g1_kEg4/ITALIC" />
+          </node>
+          <node concept="VechU" id="2naUf4NcdD9" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5cbOqfAmsz9">
@@ -2455,7 +2489,7 @@
     <ref role="1XX52x" to="6ap2:5WrZkWQ81ok" resolve="ImageComponent" />
     <node concept="3EZMnI" id="3VvzM8tY5Ou" role="2wV5jI">
       <node concept="3F0ifn" id="3VvzM8tY5Ov" role="3EZMnx">
-        <property role="3F0ifm" value="image ref:" />
+        <property role="3F0ifm" value="default image ref:" />
       </node>
       <node concept="3F1sOY" id="3VvzM8tY5Ow" role="3EZMnx">
         <ref role="1NtTu8" to="6ap2:5cbOqfAjycI" resolve="imageFeature" />
