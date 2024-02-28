@@ -5215,27 +5215,6 @@
       <node concept="17QB3L" id="42$opxW_w8B" role="3clF45" />
     </node>
   </node>
-  <node concept="13h7C7" id="5cbOqfAhmp5">
-    <property role="3GE5qa" value="viewcomponents.features" />
-    <ref role="13h7C2" to="6ap2:5cbOqfAgHMC" resolve="ViewComponentFeature" />
-    <node concept="13hLZK" id="5cbOqfAhmp6" role="13h7CW">
-      <node concept="3clFbS" id="5cbOqfAhmp7" role="2VODD2">
-        <node concept="3clFbF" id="5cbOqfAhmph" role="3cqZAp">
-          <node concept="37vLTI" id="5cbOqfAhmYU" role="3clFbG">
-            <node concept="3clFbT" id="5cbOqfAhmZn" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="2OqwBi" id="5cbOqfAhmxh" role="37vLTJ">
-              <node concept="13iPFW" id="5cbOqfAhmpg" role="2Oq$k0" />
-              <node concept="3TrcHB" id="5cbOqfAhmDR" role="2OqNvi">
-                <ref role="3TsBF5" to="6ap2:5cbOqfAgHMA" resolve="supported" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="13h7C7" id="5QmCrei7kHo">
     <property role="3GE5qa" value="viewcomponents.standard" />
     <ref role="13h7C2" to="6ap2:5QmCrei7kle" resolve="TextBoxComponent" />
@@ -7965,53 +7944,6 @@
     <node concept="3Tm1VV" id="7kmg1RAE35O" role="1B3o_S" />
     <node concept="3uibUv" id="7kmg1RAE3iU" role="1zkMxy">
       <ref role="3uigEE" to="dxuu:~JTable" resolve="JTable" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="7kmg1RAWFZh">
-    <property role="3GE5qa" value="viewcomponents.features" />
-    <ref role="13h7C2" to="6ap2:5Nv$Fuakv6Z" resolve="ColorVCFeature" />
-    <node concept="13hLZK" id="7kmg1RAWFZi" role="13h7CW">
-      <node concept="3clFbS" id="7kmg1RAWFZj" role="2VODD2">
-        <node concept="3SKdUt" id="7kmg1RAWGGi" role="3cqZAp">
-          <node concept="1PaTwC" id="7kmg1RAWGGj" role="1aUNEU">
-            <node concept="3oM_SD" id="7kmg1RAWGGT" role="1PaTwD">
-              <property role="3oM_SC" value="color" />
-            </node>
-            <node concept="3oM_SD" id="7kmg1RAWGGV" role="1PaTwD">
-              <property role="3oM_SC" value="feature" />
-            </node>
-            <node concept="3oM_SD" id="7kmg1RAWGGY" role="1PaTwD">
-              <property role="3oM_SC" value="is" />
-            </node>
-            <node concept="3oM_SD" id="7kmg1RAWGH2" role="1PaTwD">
-              <property role="3oM_SC" value="optional," />
-            </node>
-            <node concept="3oM_SD" id="7kmg1RAWGH7" role="1PaTwD">
-              <property role="3oM_SC" value="so" />
-            </node>
-            <node concept="3oM_SD" id="7kmg1RAWGHd" role="1PaTwD">
-              <property role="3oM_SC" value="disable" />
-            </node>
-            <node concept="3oM_SD" id="7kmg1RAWGHk" role="1PaTwD">
-              <property role="3oM_SC" value="by" />
-            </node>
-            <node concept="3oM_SD" id="7kmg1RAWGHs" role="1PaTwD">
-              <property role="3oM_SC" value="default" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7kmg1RAWFZt" role="3cqZAp">
-          <node concept="37vLTI" id="7kmg1RAWG_7" role="3clFbG">
-            <node concept="3clFbT" id="7kmg1RAWGDh" role="37vLTx" />
-            <node concept="2OqwBi" id="7kmg1RAWG87" role="37vLTJ">
-              <node concept="13iPFW" id="7kmg1RAWFZs" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7kmg1RAWGi8" role="2OqNvi">
-                <ref role="3TsBF5" to="6ap2:5cbOqfAgHMA" resolve="supported" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="13h7C7" id="5GYs7qI9Oz3">
