@@ -36,7 +36,13 @@
       </concept>
       <concept id="5984107031764840531" name="ViewModelLanguage.structure.VisibilityVCFeature" flags="ng" index="2Pim7K" />
       <concept id="5984107031764840534" name="ViewModelLanguage.structure.SensitivityVCFeature" flags="ng" index="2Pim7P" />
+      <concept id="5984107031764840539" name="ViewModelLanguage.structure.ImageVCFeature" flags="ng" index="2Pim7S">
+        <child id="5984107031764840542" name="imageRef" index="2Pim7X" />
+      </concept>
       <concept id="5984107031776721519" name="ViewModelLanguage.structure.CheckVCFeature" flags="ng" index="2PZ2Jc" />
+      <concept id="2820520252859978186" name="ViewModelLanguage.structure.ImageRef" flags="ng" index="3eDL7N">
+        <reference id="2820520252859978187" name="image" index="3eDL7M" />
+      </concept>
       <concept id="6743755284664566090" name="ViewModelLanguage.structure.LoadViewEvent" flags="ng" index="3f3I3T" />
       <concept id="6743755284663479730" name="ViewModelLanguage.structure.FillTextEvent" flags="ng" index="3f4gK1" />
       <concept id="6743755284663291311" name="ViewModelLanguage.structure.ClickEvent" flags="ng" index="3f4AKs" />
@@ -45,6 +51,20 @@
       </concept>
       <concept id="6743755284662355546" name="ViewModelLanguage.structure.ViewComponentEvent" flags="ng" index="3fS2vD">
         <reference id="6743755284662355549" name="component" index="3fS2vI" />
+      </concept>
+      <concept id="7497173622928850061" name="ViewModelLanguage.structure.FilePathImageProvider" flags="ng" index="1u4ncX">
+        <property id="7497173622928850064" name="path" index="1u4ncw" />
+      </concept>
+      <concept id="7497173622928201774" name="ViewModelLanguage.structure.ImagePool" flags="ng" index="1u6Luu">
+        <child id="7497173622928201831" name="images" index="1u6Lvn" />
+      </concept>
+      <concept id="7497173622928201775" name="ViewModelLanguage.structure.Image" flags="ng" index="1u6Luv">
+        <property id="3016673643442476650" name="width" index="Lsnro" />
+        <property id="3016673643442476939" name="height" index="LsnsT" />
+        <child id="7497173622928203553" name="source" index="1u6L2h" />
+      </concept>
+      <concept id="6853349774626657812" name="ViewModelLanguage.structure.ImageComponent" flags="ng" index="1DeYHr">
+        <child id="5984107031765590830" name="imageFeature" index="2Phvad" />
       </concept>
       <concept id="4321216645070110073" name="ViewModelLanguage.structure.ButtonComponent" flags="ng" index="3H4brt" />
       <concept id="4321216645070212552" name="ViewModelLanguage.structure.ViewComponent" flags="ng" index="3H4$pG">
@@ -180,6 +200,18 @@
         <node concept="2Pim7K" id="7YmZ2rG9HDf" role="2Pim71" />
         <node concept="2Pim7H" id="7YmZ2rG9HDh" role="2Pim76">
           <property role="2PigPS" value="LogIn" />
+        </node>
+      </node>
+      <node concept="1DeYHr" id="2naUf4N4HFj" role="2P43km">
+        <node concept="2Pim7S" id="2naUf4N4HFl" role="2Phvad">
+          <node concept="3eDL7N" id="2naUf4N4HFn" role="2Pim7X">
+            <ref role="3eDL7M" node="2naUf4N4I0_" resolve="Info" />
+          </node>
+        </node>
+        <node concept="2Pim7P" id="2naUf4N4HFp" role="2Pim73" />
+        <node concept="2Pim7K" id="2naUf4N4HFr" role="2Pim71" />
+        <node concept="2Pim7H" id="2naUf4N4HFt" role="2Pim76">
+          <property role="2PigPS" value="MyIcon" />
         </node>
       </node>
     </node>
@@ -497,6 +529,32 @@
         <node concept="30nziD" id="7YmZ2rG9HJp" role="DUiS9">
           <ref role="30nziQ" node="7YmZ2rG9HDA" resolve="LoadView" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1u6Luu" id="2naUf4N4HLe">
+    <node concept="1u6Luv" id="2naUf4N4HSn" role="1u6Lvn">
+      <property role="TrG5h" value="Error" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
+      <node concept="1u4ncX" id="2naUf4N4HXu" role="1u6L2h">
+        <property role="1u4ncw" value="images/image_remove.png" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="2naUf4N4HZ0" role="1u6Lvn">
+      <property role="TrG5h" value="Warn" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
+      <node concept="1u4ncX" id="2naUf4N4HZ1" role="1u6L2h">
+        <property role="1u4ncw" value="images/image_warn.png" />
+      </node>
+    </node>
+    <node concept="1u6Luv" id="2naUf4N4I0_" role="1u6Lvn">
+      <property role="TrG5h" value="Info" />
+      <property role="Lsnro" value="16" />
+      <property role="LsnsT" value="16" />
+      <node concept="1u4ncX" id="2naUf4N4I0A" role="1u6L2h">
+        <property role="1u4ncw" value="images/image_info.png" />
       </node>
     </node>
   </node>
