@@ -2230,9 +2230,6 @@
     <ref role="1XX52x" to="6ap2:3JS2UjmU$R8" resolve="ViewComponent" />
     <node concept="3EZMnI" id="5cbOqfAgHNy" role="2wV5jI">
       <node concept="2iRkQZ" id="5cbOqfAgHNz" role="2iSdaV" />
-      <node concept="3F1sOY" id="5cbOqfAgHNv" role="3EZMnx">
-        <ref role="1NtTu8" to="6ap2:5cbOqfAgF1_" resolve="nameFeature" />
-      </node>
       <node concept="3F1sOY" id="5cbOqfAgHNF" role="3EZMnx">
         <ref role="1NtTu8" to="6ap2:5cbOqfAgF1w" resolve="sensitivityFeature" />
       </node>
@@ -2425,6 +2422,18 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F0ifn" id="2naUf4N3bc5" role="3EZMnx">
+        <property role="3F0ifm" value="[x]" />
+        <node concept="pVoyu" id="2naUf4N3bc6" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Veino" id="2naUf4N3bc7" role="3F10Kt">
+          <property role="Vb096" value="fLJRk5A/lightGray" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2naUf4N3bc8" role="3EZMnx">
+        <property role="3F0ifm" value="text feature supported (inherently)" />
+      </node>
       <node concept="3F0ifn" id="5QmCreijgw_" role="3EZMnx">
         <property role="3F0ifm" value="sample text" />
         <node concept="pVoyu" id="5QmCreijgx6" role="3F10Kt">
@@ -2467,8 +2476,23 @@
     <property role="TrG5h" value="CheckBoxComponent_details_EditorComponent" />
     <property role="3GE5qa" value="viewcomponents.standard" />
     <ref role="1XX52x" to="6ap2:3JS2UjmUCiJ" resolve="CheckBoxComponent" />
-    <node concept="PMmxH" id="3VvzM8u001w" role="2wV5jI">
-      <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+    <node concept="3EZMnI" id="2naUf4N3cNE" role="2wV5jI">
+      <node concept="l2Vlx" id="2naUf4N3cNF" role="2iSdaV" />
+      <node concept="PMmxH" id="3VvzM8u001w" role="3EZMnx">
+        <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="3F0ifn" id="2naUf4N3cOm" role="3EZMnx">
+        <property role="3F0ifm" value="[x]" />
+        <node concept="pVoyu" id="2naUf4N3cOn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Veino" id="2naUf4N3cOo" role="3F10Kt">
+          <property role="Vb096" value="fLJRk5A/lightGray" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2naUf4N3cOp" role="3EZMnx">
+        <property role="3F0ifm" value="check feature supported (inherently)" />
+      </node>
     </node>
     <node concept="1PE4EZ" id="4XlUEZmt8$A" role="1PM95z">
       <ref role="1PE7su" node="4XlUEZmsEdv" resolve="ViewComponent_details_EditorComponent" />
@@ -2493,6 +2517,18 @@
       <node concept="l2Vlx" id="3VvzM8u5ZZA" role="2iSdaV" />
       <node concept="PMmxH" id="3VvzM8u5ZZB" role="3EZMnx">
         <ref role="PMmxG" node="5cbOqfAgHvo" resolve="DefaultViewComponentFeatures" />
+      </node>
+      <node concept="3F0ifn" id="2naUf4N0Tlr" role="3EZMnx">
+        <property role="3F0ifm" value="[x]" />
+        <node concept="pVoyu" id="2naUf4N1E9P" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Veino" id="2naUf4N1Eci" role="3F10Kt">
+          <property role="Vb096" value="fLJRk5A/lightGray" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2naUf4N0Tms" role="3EZMnx">
+        <property role="3F0ifm" value="text feature supported (inherently)" />
       </node>
       <node concept="3F0ifn" id="3VvzM8u5ZZC" role="3EZMnx">
         <property role="3F0ifm" value="sample text" />
