@@ -256,7 +256,9 @@
         <child id="4202667662392416064" name="transformationMenu" index="3vIgyS" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <property id="1160590353935" name="usesFolding" index="S$Qs1" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
+        <child id="7723470090030138869" name="foldedCellModel" index="AHCbl" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
@@ -978,6 +980,7 @@
     <property role="3GE5qa" value="test" />
     <ref role="1XX52x" to="l8rz:2Yd1qrJOhwG" resolve="ViewTestCase" />
     <node concept="3EZMnI" id="2Yd1qrJONdk" role="2wV5jI">
+      <property role="S$Qs1" value="true" />
       <node concept="3F0ifn" id="6tib4XeWUAj" role="3EZMnx">
         <property role="3F0ifm" value="scenario:" />
         <node concept="VechU" id="6tib4XeWUAk" role="3F10Kt">
@@ -1064,6 +1067,28 @@
         <node concept="Vb9p2" id="2wrhDsWfmLu" role="3F10Kt" />
       </node>
       <node concept="l2Vlx" id="2Yd1qrJONdn" role="2iSdaV" />
+      <node concept="3EZMnI" id="5S90xakqYOK" role="AHCbl">
+        <node concept="3F0ifn" id="5S90xakqYOQ" role="3EZMnx">
+          <property role="3F0ifm" value="scenario:" />
+          <node concept="VechU" id="5S90xakqYOR" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
+          </node>
+          <node concept="Vb9p2" id="5S90xakqYPW" role="3F10Kt">
+            <property role="Vbekb" value="g1_kEg4/ITALIC" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="5S90xakqYOS" role="3EZMnx">
+          <ref role="1NtTu8" to="l8rz:6tib4XeWUAh" resolve="scenario" />
+          <node concept="VechU" id="5S90xakqYSo" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
+          </node>
+          <node concept="Vb9p2" id="5S90xakqYSp" role="3F10Kt">
+            <property role="Vbekb" value="g1_kEg4/ITALIC" />
+          </node>
+        </node>
+        <node concept="2iRfu4" id="5S90xakqYOL" role="2iSdaV" />
+        <node concept="VPM3Z" id="5S90xakqYOM" role="3F10Kt" />
+      </node>
     </node>
     <node concept="3EZMnI" id="6JL1CX5jBFe" role="6VMZX">
       <node concept="l2Vlx" id="6JL1CX5jBFf" role="2iSdaV" />
