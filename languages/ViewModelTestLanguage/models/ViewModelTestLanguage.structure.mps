@@ -1448,5 +1448,18 @@
       <ref role="20lvS9" node="65sofNQ5xLH" resolve="ITestCaseStimulation" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5S90xakallk">
+    <property role="EcuMT" value="6775949393174025556" />
+    <property role="3GE5qa" value="context.situation" />
+    <property role="TrG5h" value="SituationContext" />
+    <property role="34LRSv" value="situation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="5S90xakalnq" role="PzmwI">
+      <ref role="PrY4T" node="2Yd1qrJOMZM" resolve="ITestCaseContext" />
+    </node>
+    <node concept="PrWs8" id="5S90xakaloV" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 
