@@ -121,6 +121,11 @@
       <property role="TrG5h" value="packageName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="5S90xaktUh4" role="1TKVEl">
+      <property role="IQ2nx" value="6775949393179157572" />
+      <property role="TrG5h" value="mockupPath" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1irR5M" id="2ZnRpGqLyF6" role="rwd14">
       <property role="2$rrk2" value="1" />
       <node concept="1irR9n" id="2ZnRpGqLyK5" role="1irR9h">
