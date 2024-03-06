@@ -235,6 +235,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5cbOqfAgF1e" resolve="NameVCFeature" />
     </node>
+    <node concept="1TJgyi" id="5S90xakBW5W" role="1TKVEl">
+      <property role="IQ2nx" value="6775949393181786492" />
+      <property role="TrG5h" value="twoWayBinding" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3JS2UjmUCiJ">
     <property role="EcuMT" value="4321216645070226607" />
