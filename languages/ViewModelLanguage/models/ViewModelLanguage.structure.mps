@@ -97,7 +97,7 @@
     <property role="EcuMT" value="4321216645069263618" />
     <property role="TrG5h" value="View" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="view" />
+    <property role="34LRSv" value="viewmodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3JS2UjmQXc3" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
