@@ -489,7 +489,7 @@
                           <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
                           <ref role="37wK5l" to="hhvz:5QmCreiP4sm" resolve="createClickEventForButton" />
                           <node concept="37vLTw" id="4XlUEZmmzYu" role="37wK5m">
-                            <ref role="3cqZAo" node="5aJTANEUQkS" />
+                            <ref role="3cqZAo" node="5aJTANEUQkS" resolve="it" />
                           </node>
                         </node>
                       </node>
@@ -529,7 +529,7 @@
                           <ref role="37wK5l" to="hhvz:4kXwATFE1b6" resolve="createCheckedEventForCheckBox" />
                           <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
                           <node concept="37vLTw" id="4kXwATFE2zC" role="37wK5m">
-                            <ref role="3cqZAo" node="5aJTANEUQkU" />
+                            <ref role="3cqZAo" node="5aJTANEUQkU" resolve="it" />
                           </node>
                         </node>
                       </node>
@@ -569,7 +569,7 @@
                           <ref role="37wK5l" to="hhvz:4XlUEZmjinu" resolve="createSelectionEventForTable" />
                           <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
                           <node concept="37vLTw" id="4XlUEZmm_hc" role="37wK5m">
-                            <ref role="3cqZAo" node="5aJTANEUQkW" />
+                            <ref role="3cqZAo" node="5aJTANEUQkW" resolve="it" />
                           </node>
                         </node>
                       </node>
@@ -609,7 +609,7 @@
                           <ref role="37wK5l" to="hhvz:4XlUEZmjkJV" resolve="createFillEventForTextBox" />
                           <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
                           <node concept="37vLTw" id="4XlUEZmm_Mt" role="37wK5m">
-                            <ref role="3cqZAo" node="5aJTANEUQkY" />
+                            <ref role="3cqZAo" node="5aJTANEUQkY" resolve="it" />
                           </node>
                         </node>
                       </node>
@@ -649,7 +649,7 @@
                           <ref role="37wK5l" to="hhvz:7y3M9oPFU9m" resolve="createClickEventForRadioButtons" />
                           <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
                           <node concept="37vLTw" id="7y3M9oPFWrh" role="37wK5m">
-                            <ref role="3cqZAo" node="5aJTANEUQl0" />
+                            <ref role="3cqZAo" node="5aJTANEUQl0" resolve="it" />
                           </node>
                         </node>
                       </node>
@@ -689,7 +689,7 @@
                           <ref role="37wK5l" to="hhvz:7y3M9oPG1D2" resolve="createSelectionEventForComboBox" />
                           <ref role="1Pybhc" to="hhvz:5QmCreiP05U" resolve="DefaultViewEventsUtil" />
                           <node concept="37vLTw" id="7y3M9oPG590" role="37wK5m">
-                            <ref role="3cqZAo" node="5aJTANEUQl2" />
+                            <ref role="3cqZAo" node="5aJTANEUQl2" resolve="it" />
                           </node>
                         </node>
                       </node>
@@ -1041,7 +1041,7 @@
                             <node concept="3clFbF" id="43lx_5lk8Go" role="3cqZAp">
                               <node concept="2OqwBi" id="43lx_5lk8Gp" role="3clFbG">
                                 <node concept="37vLTw" id="43lx_5lk8Gq" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="5aJTANEUQl4" />
+                                  <ref role="3cqZAo" node="5aJTANEUQl4" resolve="it" />
                                 </node>
                                 <node concept="3TrcHB" id="43lx_5lk8Gr" role="2OqNvi">
                                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -1329,7 +1329,7 @@
                     <node concept="3clFbF" id="skyIo3yW7P" role="3cqZAp">
                       <node concept="2OqwBi" id="skyIo3yW7Q" role="3clFbG">
                         <node concept="37vLTw" id="skyIo3yW7R" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5aJTANEUQl6" />
+                          <ref role="3cqZAo" node="5aJTANEUQl6" resolve="it" />
                         </node>
                         <node concept="1mIQ4w" id="skyIo3yW7S" role="2OqNvi">
                           <node concept="chp4Y" id="skyIo3yW7T" role="cj9EA">

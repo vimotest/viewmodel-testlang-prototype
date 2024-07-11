@@ -138,6 +138,20 @@
       <property role="TrG5h" value="project_home" />
       <node concept="55IIr" id="7xn_gHyETh_" role="398pKh" />
     </node>
+    <node concept="398rNT" id="1Yc3x6zc3Do" role="1l3spd">
+      <property role="TrG5h" value="dependencies_home" />
+      <node concept="55IIr" id="1Yc3x6zc3Dp" role="398pKh">
+        <node concept="2Ry0Ak" id="1Yc3x6zc3DC" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="1Yc3x6zc3DH" role="2Ry0An">
+            <property role="2Ry0Am" value="mps-bundle" />
+            <node concept="2Ry0Ak" id="1Yc3x6zc3DM" role="2Ry0An">
+              <property role="2Ry0Am" value="dependencies" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="398rNT" id="5SMmqCnvw3n" role="1l3spd">
       <property role="TrG5h" value="mps.macro.project_home" />
       <node concept="398BVA" id="5SMmqCnvw3y" role="398pKh">
@@ -152,6 +166,9 @@
     </node>
     <node concept="2sgV4H" id="5aJTANFix8Z" role="1l3spa">
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
+      <node concept="398BVA" id="1Yc3x6zc3DO" role="2JcizS">
+        <ref role="398BVh" node="1Yc3x6zc3Do" resolve="dependencies_home" />
+      </node>
     </node>
     <node concept="1l3spV" id="1n6T2_x2WOu" role="1l3spN">
       <node concept="L2wRC" id="7xn_gHyEnFx" role="39821P">

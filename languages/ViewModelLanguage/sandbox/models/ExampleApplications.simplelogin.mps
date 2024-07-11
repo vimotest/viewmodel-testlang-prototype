@@ -19,7 +19,7 @@
       </concept>
       <concept id="5878168047017124641" name="SimpleTypeLanguage.structure.BoolType" flags="ng" index="2P4D6g" />
       <concept id="5878168047017124640" name="SimpleTypeLanguage.structure.StringType" flags="ng" index="2P4D6h" />
-      <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ng" index="2P5Oik">
+      <concept id="5878168047017276965" name="SimpleTypeLanguage.structure.ITypedConcept" flags="ngI" index="2P5Oik">
         <child id="5878168047017276966" name="type" index="2P5Oin" />
       </concept>
     </language>
@@ -178,12 +178,12 @@
     </node>
     <node concept="3f4AKs" id="7YmZ2rG9HDB" role="3H8Xyh">
       <property role="TrG5h" value="LogInClicked" />
-      <ref role="3fS2vI" node="7YmZ2rG9HDb" />
+      <ref role="3fS2vI" node="7YmZ2rG9HDb" resolve="LogIn" />
     </node>
     <node concept="I_Gu0" id="7YmZ2rG9HDC" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="KeepMeLoggedInChecked" />
-      <ref role="3fS2vI" node="7YmZ2rG9HCx" />
+      <ref role="3fS2vI" node="7YmZ2rG9HCx" resolve="KeepMeLoggedIn" />
       <node concept="2P4x69" id="7YmZ2rG9HDD" role="2P43km">
         <property role="TrG5h" value="isChecked" />
         <node concept="2P4D6g" id="7YmZ2rG9HDE" role="2P5Oin" />
@@ -192,7 +192,7 @@
     <node concept="3f4gK1" id="7YmZ2rG9HDF" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="UserFilled" />
-      <ref role="3fS2vI" node="7YmZ2rG9HBW" />
+      <ref role="3fS2vI" node="7YmZ2rG9HBW" resolve="User" />
       <node concept="2P4x69" id="7YmZ2rG9HDG" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="7YmZ2rG9HDH" role="2P5Oin" />
@@ -201,7 +201,7 @@
     <node concept="3f4gK1" id="7YmZ2rG9HDI" role="3H8Xyh">
       <property role="3f4$la" value="true" />
       <property role="TrG5h" value="PasswordFilled" />
-      <ref role="3fS2vI" node="7YmZ2rG9HC6" />
+      <ref role="3fS2vI" node="7YmZ2rG9HC6" resolve="Password" />
       <node concept="2P4x69" id="7YmZ2rG9HDJ" role="2P43km">
         <property role="TrG5h" value="text" />
         <node concept="2P4D6h" id="7YmZ2rG9HDK" role="2P5Oin" />
@@ -210,7 +210,7 @@
   </node>
   <node concept="30n1Qd" id="7YmZ2rG9HDW">
     <property role="TrG5h" value="SimpleLoginViewTests" />
-    <ref role="30n1PB" node="7YmZ2rG9HBU" />
+    <ref role="30n1PB" node="7YmZ2rG9HBU" resolve="SimpleLoginView" />
     <node concept="30n1Qa" id="7YmZ2rG9HDX" role="30n1Qb">
       <node concept="30nyDl" id="7YmZ2rG9HDY" role="30nziG">
         <property role="30nzmz" value="Empty form" />
@@ -235,28 +235,28 @@
       </node>
       <node concept="30l7Wy" id="7YmZ2rG9HEp" role="30nziE" />
       <node concept="30nziD" id="7YmZ2rG9HEs" role="30nzo2">
-        <ref role="30nziQ" node="7YmZ2rG9HDA" />
+        <ref role="30nziQ" node="7YmZ2rG9HDA" resolve="LoadView" />
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HEv" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HBW" />
+        <ref role="30nzpS" node="7YmZ2rG9HBW" resolve="User" />
         <node concept="3fym7j" id="7YmZ2rG9HEw" role="30nDbQ">
           <node concept="30nz6$" id="7YmZ2rG9HEx" role="3fym7i" />
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HEE" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HC6" />
+        <ref role="30nzpS" node="7YmZ2rG9HC6" resolve="Password" />
         <node concept="3fym7j" id="7YmZ2rG9HEK" role="30nDbQ">
           <node concept="30nz6$" id="7YmZ2rG9HEL" role="3fym7i" />
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HF3" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HCx" />
+        <ref role="30nzpS" node="7YmZ2rG9HCx" resolve="KeepMeLoggedIn" />
         <node concept="1tZoqV" id="7YmZ2rG9HF4" role="30nDbQ">
           <node concept="1tZoko" id="7YmZ2rG9HF5" role="1tZokz" />
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HFq" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HDb" />
+        <ref role="30nzpS" node="7YmZ2rG9HDb" resolve="LogIn" />
         <node concept="30nzp7" id="7YmZ2rG9HFr" role="30nDbQ">
           <node concept="30nzps" id="7YmZ2rG9HFs" role="30nzpp" />
         </node>
@@ -280,16 +280,16 @@
       </node>
       <node concept="30l7Wy" id="7YmZ2rG9HFL" role="30nziE" />
       <node concept="30nziD" id="7YmZ2rG9HFM" role="30nzo2">
-        <ref role="30nziQ" node="7YmZ2rG9HDA" />
+        <ref role="30nziQ" node="7YmZ2rG9HDA" resolve="LoadView" />
       </node>
       <node concept="30nziD" id="7YmZ2rG9HGR" role="30nzo2">
-        <ref role="30nziQ" node="7YmZ2rG9HDF" />
+        <ref role="30nziQ" node="7YmZ2rG9HDF" resolve="UserFilled" />
         <node concept="Xl_RD" id="7YmZ2rG9HGX" role="30nziO">
           <property role="Xl_RC" value="John" />
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HFN" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HBW" />
+        <ref role="30nzpS" node="7YmZ2rG9HBW" resolve="User" />
         <node concept="3fym7j" id="7YmZ2rG9HFO" role="30nDbQ">
           <node concept="30nz6$" id="7YmZ2rG9HFP" role="3fym7i">
             <property role="30nz6_" value="John" />
@@ -297,7 +297,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HFW" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HDb" />
+        <ref role="30nzpS" node="7YmZ2rG9HDb" resolve="LogIn" />
         <node concept="30nzp7" id="7YmZ2rG9HFX" role="30nDbQ">
           <node concept="30nzps" id="7YmZ2rG9HFY" role="30nzpp" />
         </node>
@@ -321,22 +321,22 @@
       </node>
       <node concept="30l7Wy" id="7YmZ2rG9HHt" role="30nziE" />
       <node concept="30nziD" id="7YmZ2rG9HHu" role="30nzo2">
-        <ref role="30nziQ" node="7YmZ2rG9HDA" />
+        <ref role="30nziQ" node="7YmZ2rG9HDA" resolve="LoadView" />
       </node>
       <node concept="30nziD" id="7YmZ2rG9HHv" role="30nzo2">
-        <ref role="30nziQ" node="7YmZ2rG9HDF" />
+        <ref role="30nziQ" node="7YmZ2rG9HDF" resolve="UserFilled" />
         <node concept="Xl_RD" id="7YmZ2rG9HHw" role="30nziO">
           <property role="Xl_RC" value="John" />
         </node>
       </node>
       <node concept="30nziD" id="7YmZ2rG9HI_" role="30nzo2">
-        <ref role="30nziQ" node="7YmZ2rG9HDI" />
+        <ref role="30nziQ" node="7YmZ2rG9HDI" resolve="PasswordFilled" />
         <node concept="Xl_RD" id="7YmZ2rG9HIH" role="30nziO">
           <property role="Xl_RC" value="john1234" />
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HHx" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HBW" />
+        <ref role="30nzpS" node="7YmZ2rG9HBW" resolve="User" />
         <node concept="3fym7j" id="7YmZ2rG9HHy" role="30nDbQ">
           <node concept="30nz6$" id="7YmZ2rG9HHz" role="3fym7i">
             <property role="30nz6_" value="John" />
@@ -344,7 +344,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HJ6" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HC6" />
+        <ref role="30nzpS" node="7YmZ2rG9HC6" resolve="Password" />
         <node concept="3fym7j" id="7YmZ2rG9HJ7" role="30nDbQ">
           <node concept="30nz6$" id="7YmZ2rG9HJ8" role="3fym7i">
             <property role="30nz6_" value="john1234" />
@@ -352,7 +352,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HH$" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HDb" />
+        <ref role="30nzpS" node="7YmZ2rG9HDb" resolve="LogIn" />
         <node concept="30nzp7" id="7YmZ2rG9HH_" role="30nDbQ">
           <node concept="30nzps" id="7YmZ2rG9HHA" role="30nzpp">
             <property role="30nzpr" value="true" />
@@ -383,10 +383,10 @@
         </node>
       </node>
       <node concept="30nziD" id="7YmZ2rG9HJp" role="30nzo2">
-        <ref role="30nziQ" node="7YmZ2rG9HDA" />
+        <ref role="30nziQ" node="7YmZ2rG9HDA" resolve="LoadView" />
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HJu" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HBW" />
+        <ref role="30nzpS" node="7YmZ2rG9HBW" resolve="User" />
         <node concept="3fym7j" id="7YmZ2rG9HJv" role="30nDbQ">
           <node concept="30nz6$" id="7YmZ2rG9HJw" role="3fym7i">
             <property role="30nz6_" value="John" />
@@ -394,7 +394,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HJx" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HC6" />
+        <ref role="30nzpS" node="7YmZ2rG9HC6" resolve="Password" />
         <node concept="3fym7j" id="7YmZ2rG9HJy" role="30nDbQ">
           <node concept="30nz6$" id="7YmZ2rG9HJz" role="3fym7i">
             <property role="30nz6_" value="john1234" />
@@ -402,7 +402,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HLk" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HCx" />
+        <ref role="30nzpS" node="7YmZ2rG9HCx" resolve="KeepMeLoggedIn" />
         <node concept="1tZoqV" id="7YmZ2rG9HLl" role="30nDbQ">
           <node concept="1tZoko" id="7YmZ2rG9HLm" role="1tZokz">
             <property role="1tZokr" value="true" />
@@ -410,7 +410,7 @@
         </node>
       </node>
       <node concept="30nzp_" id="7YmZ2rG9HJ$" role="30nzpy">
-        <ref role="30nzpS" node="7YmZ2rG9HDb" />
+        <ref role="30nzpS" node="7YmZ2rG9HDb" resolve="LogIn" />
         <node concept="30nzp7" id="7YmZ2rG9HJ_" role="30nDbQ">
           <node concept="30nzps" id="7YmZ2rG9HJA" role="30nzpp">
             <property role="30nzpr" value="true" />
