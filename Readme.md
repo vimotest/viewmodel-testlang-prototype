@@ -106,7 +106,7 @@ See https://vimotest.github.io
 
 ## Requirements
 
-See https://github.com/vimotest/vimotest.github.io/blob/main/requirements/requirements.md
+See https://github.com/vimotest/vimotest.github.io/blob/main/requirements.md
 
 # Troubleshooting
 
