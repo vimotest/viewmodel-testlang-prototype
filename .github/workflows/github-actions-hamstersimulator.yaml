@@ -1,10 +1,7 @@
 name: Java CI using Gradle Wrapper
 
 on:
-  push:
-    branches:
-      - master
-      - 'feature/**'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -26,6 +23,10 @@ jobs:
       - name: Download and Prepare MPS
         run: sh ./gradlew prepareMps
 
+      # Download hamster simulator example repo for running generated ViewTests later
+      - name: Download Hamster Simulator example repo
+        run: sh ./gradlew downloadHamsterSimulator
+
       # Build Project
       - name: Build Project
         run: sh ./gradlew mpsBuild
@@ -35,6 +36,10 @@ jobs:
         run: sh ./gradlew mpsTest
         env:
           DISPLAY: :1
+
+      # Run generated Hamster View Tests (internally downloads a hamster simulator example repo for this)
+      - name: Run generated Hamster View Tests
+        run: sh ./gradlew makeAndTestHamsterSimulatorViewTest
 
       # Stop Xvfb
       - name: Tear down xvfb
