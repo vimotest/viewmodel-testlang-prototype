@@ -1,6 +1,15 @@
-ext.mpsVersion = "2022.3"
-ext.mpsPlugins = [ "de.itemis.mps.extensions.build": 17136,
-                   "de.itemis.mps.grammarcells": 13242 ]
+ext.mpsVersion = "2023.3.1"
+ext.mpsPlugins = [
+    "de.slisson.mps.editor.multiline[2023.3]": 13253,
+    "de.itemis.mps.selection[2023.3]": 13230, // needed for de.slisson.mps.editor.multiline
+    "de.itemis.mps.celllayout[2023.3]": 13239, // needed for de.slisson.mps.editor.multiline
+    "de.slisson.mps.hacks[2023.3]": 13235, // needed for de.slisson.mps.editor.multiline
+    "de.itemis.mps.extensions.build[2023.3]": 17136
+]
+
+ext.customMpsPlugins = [
+    //"de.itemis.mps.extensions": "https://artifacts.itemis.cloud/repository/maven-mps/de/itemis/mps/extensions/2023.3....zip"
+]
 
 apply from: 'gradle/init-gradle-scripts.gradle'
 apply from: 'gradle/download-hamstersimulator.gradle'
